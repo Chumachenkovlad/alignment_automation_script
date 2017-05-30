@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99589.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamN, containing Divalent ion symporter domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>437</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99589.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamN, containing Divalent ion symporter domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>437</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|488483744|ref|WP_002527414.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Propionibacteriaceae] &gt;gi|313837221|gb|EFS74935.1| hypothetical protein HMPREF9621_00565 [[Propionibacterium] humerusii HL037PA2] &gt;gi|314927762|gb|EFS91593.1| hypothetical protein HMPREF9607_02100 [[Propionibacterium] humerusii HL044PA1] &gt;gi|314971991|gb|EFT16089.1| hypothetical protein HMPREF9622_00949 [[Propionibacterium] humerusii HL037PA3] &gt;gi|1061027601|gb|AOH44781.1| hypothetical protein BCB70_01415 [Propionibacterium sp. oral taxon 193]</Hit_def>
+  <Hit_accession>EFS74935</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>17.3198</Hsp_bit-score>
+      <Hsp_score>33</Hsp_score>
+      <Hsp_evalue>2.38611</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>VCFRTGIDPVPVIIAEIIAANLGGSSTMIGDFPN</Hsp_qseq>
+      <Hsp_hseq>VCDDLGIDP--------------ADAAAFGDMPN</Hsp_hseq>
+      <Hsp_midline>VC   GIDP                +   GD PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|966446996|gb|KTF23299.1|</Hit_id>
+  <Hit_def>energy-coupling factor transporter ATPase [Staphylococcus epidermidis] &gt;gi|966448028|gb|KTF24299.1| energy-coupling factor transporter ATPase [Staphylococcus epidermidis]</Hit_def>
+  <Hit_accession>KTF23299</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>16.9346</Hsp_bit-score>
+      <Hsp_score>32</Hsp_score>
+      <Hsp_evalue>4.87201</Hsp_evalue>
+      <Hsp_query-from>260</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>7</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>LTALALGRFKDEEFFSACGGS</Hsp_qseq>
+      <Hsp_hseq>LTEVDMINKADDEPYSLSGGQ</Hsp_hseq>
+      <Hsp_midline>LT + +    D+E +S  GG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488489793|ref|WP_002533265.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptide ABC transporter ATPase [Propionibacteriaceae] &gt;gi|314982525|gb|EFT26618.1| ABC transporter, ATP-binding protein [Propionibacterium acnes HL110PA3] &gt;gi|315091067|gb|EFT63043.1| ABC transporter, ATP-binding protein [Propionibacterium acnes HL110PA4]</Hit_def>
+  <Hit_accession>EFT26618</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>15.779</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>9.55993</Hsp_evalue>
+      <Hsp_query-from>375</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>LSGATAGALAMNQYSGFVKRHPELASAAAAGLQFTHREYVR</Hsp_qseq>
+      <Hsp_hseq>LADEPTGALDSENAQMVIDSLREMAQQGATVVVATHSDMVR</Hsp_hseq>
+      <Hsp_midline>L+    GAL        +    E+A   A  +  TH + VR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>10</Statistics_db-num>
+      <Statistics_db-len>1732</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

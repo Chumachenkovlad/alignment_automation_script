@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|320019871|gb|ADV94857.1|</Hit_id>
+  <Hit_def>putative membrane serine protease Do [Bacillus subtilis BSn5] &gt;gi|407966899|dbj|BAM60138.1| membrane serine protease Do [Bacillus subtilis BEST7003] &gt;gi|452117586|gb|EME07980.1| trypsin family protein [Bacillus subtilis MB73/2]</Hit_def>
+  <Hit_accession>EME07980</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.72879e-05</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VQRLYYTVPPAVVGV---------GGGGVNAGPVASGAIVGAN---GYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR----NMAGAPLVRQGMVQSSDAPLAVGTTQI------THLLRSDAVYSWEQTGGPLVNAQGDLVGIN---IAATGPTGKVEGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>VTKIVSNMSPAVVGVVNIQKSDIWGESG-EAGS-GSGVIYKKNDHSAYVVTNHHVIEGASQIEISLKDGS---RVSADLVGSDQLMDLAVLRVKSDKIKAVADFGNSDKVKSGEPVIAIGNPLGLEFAGS--VTQGVISGTERAIPVDSNGDGQPDWNAEVLQTDAAINPGNSGGALLNMDGKVIGINSMKIAESAVEGI--GLSIPSKLVIPVIEDLERY</Hsp_hseq>
+      <Hsp_midline>V ++   + PAVVGV         G  G  AG   SG I   N    YV+T  H +     I + +   +   R  A +V +    +LA+L++++ +        N   V  G+ V A G       AG+  V QG++  ++  + V +           +L++DA  +   +GG L+N  G ++GIN   IA +   G   G ++P+++++  ++D+ R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499566162|ref|WP_011246945.1|</Hit_id>
+  <Hit_def>serine protease [Bacillus clausii] &gt;gi|56910110|dbj|BAD64637.1| serine protease [Bacillus clausii KSM-K16] &gt;gi|922065892|gb|ALA55017.1| HtrA protease/chaperone protein [Bacillus clausii]</Hit_def>
+  <Hit_accession>BAD64637</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>2.31597e-05</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIA-ATGPTGKVEGFTVPAQVIVSHLQD</Hsp_qseq>
+      <Hsp_hseq>TGFIISESGDVLTNEHVIRGASSIYVHLPDG---ERYEATETKTDETNDLAMLALEGQPDNLPTLTLADTAAKPGNTVYVIGHPMTHSYITNKGEVKESHDAYQV-------LAITNAVFPG-HSGSPVLSEEGEVIGVVYARSSGENGNGEGLAVPLRQIHAFVKD</Hsp_hseq>
+      <Hsp_midline>+G I+  +G V+T  H +     I V +       R+ A   KT   ++LA+L L+     L           PG  V+  G  M  + +  +G V+ S     V       L  ++AV+    +G P+++ +G+++G+  A ++G  G  EG  VP + I + ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|445930195|ref|WP_000008050.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-alkenal reductase [Bacillus cereus group] &gt;gi|195991234|gb|EDX55202.1| serine protease [Bacillus cereus W] &gt;gi|218539088|gb|ACK91486.1| serine protease [Bacillus cereus AH820] &gt;gi|228658465|gb|EEL14131.1| 2-alkenal reductase [Bacillus cereus 95/8201] &gt;gi|228810466|gb|EEM56819.1| 2-alkenal reductase [Bacillus thuringiensis serovar monterrey BGSC 4AJ1] &gt;gi|228829186|gb|EEM74823.1| 2-alkenal reductase [Bacillus thuringiensis serovar pondicheriensis BGSC 4BA1] &gt;gi|228841553|gb|EEM86669.1| 2-alkenal reductase [Bacillus thuringiensis serovar pulsiensis BGSC 4CC1] &gt;gi|753327764|gb|AJG75273.1| PDZ domain protein [Bacillus thuringiensis] &gt;gi|753524942|gb|AJH62393.1| PDZ domain protein [Bacillus cereus] &gt;gi|753716184|gb|AJH83182.1| PDZ domain protein [Bacillus thuringiensis] &gt;gi|755996109|gb|AJK32336.1| PDZ domain protein [Bacillus cereus] &gt;gi|924091159|emb|CUB32808.1| Serine protease Do-like HtrB [Bacillus cereus] &gt;gi|983227049|gb|KWU67168.1| 2-alkenal reductase [Bacillus cereus] &gt;gi|984807725|gb|KWW50398.1| 2-alkenal reductase [Bacillus cereus] &gt;gi|1150071479|gb|OON83315.1| 2-alkenal reductase [Klebsiella pneumoniae]</Hit_def>
+  <Hit_accession>KWU67168</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>3.93275e-05</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>VAMPDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITH------LLRSDAVYSWEQTGGPLVNAQGDLVGIN---IAATGPTGKVEGFTVPAQVIVSHLQDVVRFKTGGAAGVAPP----AAQTVAMGSSSWWSKAKAVVGGPTAVPGMGMNVVQGTVTTGIPSGMPFVD---TDHVGGAKIGGYSIADILGL</Hsp_qseq>
+      <Hsp_hseq>VGIINIQRDNFSEADSEAGTGSGVIYKK-------TDGQAYIVTNNHVVAGANRIEVSLSDG---KKVPGKVLGTDVVTDLAVLEIDAKHVKKVIEIGDSNAVRRGEPVIAIGNPLGLQFSGTVTQGIISANERIVPVDLDQDGHYDWQVEVLQTDAAINPGNSGGALVNAAGQLIGINSMKIAAKEVEGI--GLAIPVTRAVPIMNELEKY-----GKVRRPYVGIELRSLNEIPNYYWSKT-------LHLPG---NVTEGVCILDVKSPSPGTDAGLREHDVIVAVDGKPVRDIIGF</Hsp_hseq>
+      <Hsp_midline>V + ++QR  ++   +  G G G +               Y++T  H VA    I V ++     ++ P +V+ T    +LA+L++          + +   V  G+ V A G    +  +  V QG++ +++  + V   Q  H      +L++DA  +   +GG LVNA G L+GIN   IAA    G   G  +P    V  + ++ ++       V  P      +++    + +WSK          +PG   NV +G     + S  P  D    +H     + G  + DI+G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499567017|ref|WP_011247800.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Bacillus] &gt;gi|56910965|dbj|BAD65492.1| transporter [Bacillus clausii KSM-K16] &gt;gi|1110117744|emb|SHL50030.1| hypothetical protein SAMN05192535_2436 [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD65492</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>8.17714e-05</Hsp_evalue>
+      <Hsp_query-from>402</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>AAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMAGKAVLEILQPNAGEDTAEAIAAAEAGDEMDELMALAEGTTRPKT----SGIALPEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARL</Hsp_qseq>
+      <Hsp_hseq>SSVLAYHKQKTIDWKSALLFLIGIVPGAILGTSASKVLSTDSFMVYFGLFMLVIAGSLFLR--------------------GKLKRKDAPVKGVIRESTDEAGNRYVYGYSPTAAIVVSIGVGFLSSLFGVGGGALMVPVMIVWFGFPAKIAAATAMLVILFSAVSGSAAHF----AAGHIHW----LYALALIPGAWFGGKAGAWL</Hsp_hseq>
+      <Hsp_midline>++ L   K + + W      +   V G ++G      +      V  GLF L++AG   L                      ++    A  +G  R  T    +       PT + V+ + +G  S + G+ GG + VP+         + A A + +++ +++V+GS   F    + G IHW      AL +IPGA+ GG  GA L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|499568144|ref|WP_011248927.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Bacillus] &gt;gi|56912097|dbj|BAD66625.1| serine protease [Bacillus clausii KSM-K16] &gt;gi|1110117928|emb|SHL24218.1| htrA-like peptidase. Serine peptidase. MEROPS family S01B [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD66625</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000128447</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR----NMAGAPLVRQGMVQSSDAPLAV---GTTQIT---HLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>GDSAFIVTNNHVIEGASEI--EVALTDGTR-VPATLVGHDELTDLAVLEIDGENVTTVAEFGNSDELSVGEPAIAIGNPLGLEFAGS--VTQGIISATERSIPVDLSGNGQIDWNAEVLQTDAAINPGNSGGALININGEVIGINSMKISGGAEGLGFAIPSSIVQPTISDLEQY</Hsp_hseq>
+      <Hsp_midline>G + +++T  H +    +I  +VA + G R  PA +V      +LA+L++            N   +  G+   A G       AG+  V QG++ +++  + V   G  QI     +L++DA  +   +GG L+N  G+++GIN        +  GF +P+ ++   + D+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|446377902|ref|WP_000455757.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Bacillus] &gt;gi|49477238|ref|YP_035668.1| hypothetical protein BT9727_1334 [[Bacillus thuringiensis] serovar konkukian str. 97-27] &gt;gi|49328794|gb|AAT59440.1| conserved hypothetical protein, possible membrane protein [[Bacillus thuringiensis] serovar konkukian str. 97-27] &gt;gi|167530240|gb|EDR92966.1| putative membrane protein [Bacillus anthracis str. A0442] &gt;gi|170666819|gb|EDT17586.1| putative membrane protein [Bacillus anthracis str. A0465] &gt;gi|196021459|gb|EDX60163.1| putative membrane protein [Bacillus cereus 03BB108] &gt;gi|196030209|gb|EDX68809.1| putative membrane protein [Bacillus cereus NVH0597-99] &gt;gi|225787896|gb|ACO28113.1| putative membrane protein [Bacillus cereus 03BB102] &gt;gi|298724025|gb|EFI64728.1| hypothetical protein BCSJ1_14390 [Bacillus cereus SJ1] &gt;gi|300375259|gb|ADK04163.1| conserved hypothetical membrane protein [Bacillus cereus biovar anthracis str. CI] &gt;gi|364511193|gb|AEW54592.1| membrane protein, putative [Bacillus cereus F837/76] &gt;gi|401185329|gb|EJQ92423.1| hypothetical protein IGW_03347 [Bacillus cereus ISP3191] &gt;gi|403394085|gb|EJY91326.1| hypothetical protein BABF1_15689 [Bacillus anthracis str. BF1] &gt;gi|633260741|gb|KDB39323.1| membrane protein [Bacillus cereus] &gt;gi|663078609|gb|AIE78776.1| membrane protein [Bacillus cereus] &gt;gi|664792948|gb|AIF55802.1| membrane protein [Bacillus anthracis] &gt;gi|673967954|gb|AIK35088.1| sulfite exporter TauE/SafE family protein [Bacillus anthracis] &gt;gi|674816123|gb|KFL68680.1| sulfite exporter TauE/SafE family protein [Bacillus anthracis] &gt;gi|675468403|gb|KFM86228.1| sulfite exporter TauE/SafE family protein [Bacillus cereus ATCC 4342] &gt;gi|721823670|gb|KGZ83656.1| membrane protein [Bacillus anthracis] &gt;gi|721880817|gb|KHA39809.1| membrane protein [Bacillus anthracis] &gt;gi|728877393|gb|AIY73180.1| sulfite exporter TauE/SafE family protein [Bacillus cereus] &gt;gi|753282468|gb|AJG51745.1| sulfite exporter TauE/SafE family protein [Bacillus cereus 03BB102] &gt;gi|753295918|gb|AJG59863.1| sulfite exporter TauE/SafE family protein [Bacillus cereus D17] &gt;gi|753331470|gb|AJG78979.1| sulfite exporter TauE/SafE family protein [Bacillus thuringiensis] &gt;gi|753360056|gb|AJG92980.1| sulfite exporter TauE/SafE family protein [Bacillus cereus] &gt;gi|753435739|gb|AJH41120.1| sulfite exporter TauE/SafE family protein [Bacillus anthracis] &gt;gi|753495052|gb|AJH58974.1| sulfite exporter TauE/SafE family protein [Bacillus anthracis] &gt;gi|753528086|gb|AJH65537.1| sulfite exporter TauE/SafE family protein [Bacillus cereus] &gt;gi|753561446|gb|AJI04411.1| sulfite exporter TauE/SafE family protein [Bacillus cereus G9241] &gt;gi|753589562|gb|AJH68412.1| sulfite exporter TauE/SafE family protein [Bacillus thuringiensis] &gt;gi|753609635|gb|AJH75924.1| sulfite exporter TauE/SafE family protein [Bacillus cereus ATCC 4342] &gt;gi|753666912|gb|AJI09528.1| sulfite exporter TauE/SafE family protein [Bacillus cereus 03BB108] &gt;gi|753717256|gb|AJH84254.1| sulfite exporter TauE/SafE family protein [Bacillus thuringiensis] &gt;gi|753724162|gb|AJH91139.1| sulfite exporter TauE/SafE family protein [Bacillus anthracis] &gt;gi|753735740|gb|AJI31504.1| sulfite exporter TauE/SafE family protein [Bacillus cereus E33L] &gt;gi|753744473|gb|AJI34463.1| sulfite exporter TauE/SafE family protein [Bacillus thuringiensis] &gt;gi|755999238|gb|AJK35465.1| sulfite exporter TauE/SafE family protein [Bacillus cereus] &gt;gi|821630917|gb|KLA11957.1| hypothetical protein B4087_1469 [Bacillus cereus] &gt;gi|837636021|gb|KLV19148.1| membrane protein [Bacillus anthracis] &gt;gi|859532970|gb|KMP56258.1| membrane protein [Bacillus cereus] &gt;gi|895737649|emb|COF16918.1| transporter [Streptococcus pneumoniae] &gt;gi|924092681|emb|CUB28144.1| hypothetical protein BN2127_JRS4_00233 [Bacillus cereus] &gt;gi|924096339|emb|CUB56108.1| hypothetical protein BN2127_JRS10_03552 [Bacillus subtilis] &gt;gi|942013004|gb|ALL23021.1| hypothetical protein BTXL6_17025 [Bacillus thuringiensis] &gt;gi|983223246|gb|KWU63455.1| hypothetical protein AWW71_09900 [Bacillus cereus] &gt;gi|984809607|gb|KWW51759.1| hypothetical protein AWW69_07715 [Bacillus cereus] &gt;gi|1001026266|gb|KXN99202.1| hypothetical protein AYK81_12190 [Bacillus thuringiensis] &gt;gi|1003795865|gb|KXX95030.1| hypothetical protein AT274_20060 [Bacillus cereus] &gt;gi|1003869855|gb|KXY63997.1| hypothetical protein AT275_11430 [Bacillus cereus] &gt;gi|1003889330|gb|KXY82079.1| hypothetical protein AT270_00420 [Bacillus cereus] &gt;gi|1003895635|gb|KXY87859.1| hypothetical protein AT280_20510 [Bacillus cereus] &gt;gi|1015499075|gb|KYZ68490.1| hypothetical protein A3782_16010 [Bacillus sp. GZT] &gt;gi|1078794268|gb|OFE40727.1| hypothetical protein BGV83_20215 [Bacillus anthracis] &gt;gi|1103764899|gb|OJD51082.1| hypothetical protein BAU24_07905 [Bacillus sp. L27] &gt;gi|1103780807|gb|OJD65338.1| hypothetical protein BAU26_11745 [Bacillus sp. N35-10-4] &gt;gi|1103829655|gb|OJD83886.1| hypothetical protein A9486_24940 [Bacillus anthracis] &gt;gi|1103841087|gb|OJD95018.1| hypothetical protein MCCC1A01412_10875 [Bacillus anthracis] &gt;gi|1103889920|gb|OJE39577.1| hypothetical protein BAQ47_15440 [Bacillus sp. N24] &gt;gi|1114359498|gb|OKA30699.1| hypothetical protein BJR05_02990 [Bacillus cereus] &gt;gi|1127856635|gb|APT25032.1| anion permease [Bacillus anthracis] &gt;gi|1148421530|gb|OOL10534.1| hypothetical protein BHL37_18955 [Bacillus cereus] &gt;gi|1152971248|gb|OOZ85524.1| hypothetical protein BHL25_17275 [Bacillus cereus] &gt;gi|1152971606|gb|OOZ85871.1| hypothetical protein BHL49_24620 [Bacillus cereus] &gt;gi|1152981605|gb|OOZ95522.1| hypothetical protein BHL51_23550 [Bacillus cereus] &gt;gi|1152984669|gb|OOZ98478.1| hypothetical protein BHL27_15325 [Bacillus cereus]</Hit_def>
+  <Hit_accession>KWU63455</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000803015</Hsp_evalue>
+      <Hsp_query-from>509</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>PTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARL</Hsp_qseq>
+      <Hsp_hseq>PLLAIFIAFIVGFISGLFGIGGGALLVPAMMLLFAFPAHIAVATSMFIVFLSAIVSSATHI----SLGNVSW----IYALILIPGAWIGGKIGAYI</Hsp_hseq>
+      <Hsp_midline>P  +  +   +G  SG+ GI GG + VP    +       A+A S  +VF +++  S        S G + W      AL++IPGA++GG +GA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|489321208|ref|WP_003228534.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease Do [Bacillus] &gt;gi|50812291|ref|NP_391180.2| serine protease Do-like HtrB [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|22002026|sp|Q9R9I1.1|HTRB_BACSU RecName: Full=Serine protease Do-like HtrB; AltName: Full=HtrA-like serine protease &gt;gi|6063141|gb|AAF03153.1|AF188296_1 HtrA-like serine protease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|32468822|emb|CAB15290.2| HtrA-like serine protease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|351472550|gb|EHA32663.1| hypothetical protein BSSC8_09200 [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|402482639|gb|AFQ59148.1| HtrA-like serine protease [Bacillus subtilis QB928] &gt;gi|407962134|dbj|BAM55374.1| HtrA-like serine protease [Bacillus subtilis BEST7613] &gt;gi|407966148|dbj|BAM59387.1| HtrA-like serine protease [Bacillus subtilis BEST7003] &gt;gi|452118820|gb|EME09214.1| trypsin family protein [Bacillus subtilis MB73/2] &gt;gi|459391122|gb|AGG62708.1| HtrA-like serine protease HtrB [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|558569826|gb|AHA79232.1| putative serine protease yvtA [Bacillus subtilis PY79] &gt;gi|588502889|gb|EXF55299.1| serine protease [Bacillus subtilis QH-1] &gt;gi|649012717|gb|AIC41771.1| HtrA-like serine protease [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649017080|gb|AIC46002.1| HtrA-like serine protease [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|668753504|gb|KFC29437.1| serine protease [Bacillus subtilis] &gt;gi|670922029|gb|AII37042.1| serine protease [Bacillus subtilis TO-A] &gt;gi|672771433|gb|KFH31013.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|723799859|emb|CEI58576.1| serine protease Do-like HtrB [Bacillus subtilis] &gt;gi|724429037|emb|CEJ78957.1| serine protease Do-like HtrB [Bacillus sp.] &gt;gi|728886220|gb|AIY94615.1| serine protease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728890531|gb|AIY98925.1| serine protease [Bacillus subtilis] &gt;gi|749187285|gb|AJE95995.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|758181789|gb|AJO59668.1| serine protease [Bacillus sp. YP1] &gt;gi|760455709|gb|KIX81786.1| Serine protease Do-like HtrB [Bacillus subtilis] &gt;gi|807075667|gb|AKC48873.1| serine protease [Bacillus subtilis KCTC 1028] &gt;gi|846133764|gb|AKN11211.1| Serine protease, DegP/HtrA, do-like [Bacillus subtilis] &gt;gi|857325339|gb|KMN93257.1| serine protease [Bacillus subtilis] &gt;gi|899709860|gb|KMY46875.1| serine protease [Bacillus sp. FJAT-27445] &gt;gi|906393048|gb|KNB79791.1| serine protease [Bacillus subtilis] &gt;gi|922810254|gb|KON93551.1| serine protease [Bacillus murimartini] &gt;gi|983208089|gb|AMB25550.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1009036198|gb|AMR45836.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1012903057|gb|AMS48872.1| serine protease [Bacillus subtilis] &gt;gi|1017088671|gb|KZD78324.1| Serine protease DegP/HtrA do-like protein [Bacillus subtilis] &gt;gi|1026721442|gb|OAD98945.1| serine protease [Bacillus subtilis] &gt;gi|1035537248|gb|ANJ32066.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1049082705|gb|ANX06826.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1049334485|gb|ANY33305.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1049337290|gb|ANY36109.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1049340002|gb|ANY38820.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1051023265|gb|AOA12627.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1072803736|gb|AOT49597.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1072806804|gb|AOT52664.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1094636872|emb|SEN49405.1| serine protease Do [Bacillus subtilis] &gt;gi|1150405924|gb|AQR83331.1| Serine protease Do-like HtrB [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150919665|gb|AQR87546.1| Serine protease Do-like HtrB [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162904154|gb|AQZ92181.1| serine protease Do [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME09214</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00137477</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GQQVFA----FGRNMAGAPLVRQGMVQSSDAPLAVGTTQIT---HLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPA</Hsp_qseq>
+      <Hsp_hseq>GEKVIAIGNPLGQQFSGT--VTQGIISGLNRTIDVDTTQGTVEMNVLQTDAAINPGNSGGPLINASGQVIGINSLKVSESG-VESLGFAIPS</Hsp_hseq>
+      <Hsp_midline>G++V A     G+  +G   V QG++   +  + V TTQ T   ++L++DA  +   +GGPL+NA G ++GIN      +G VE  GF +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|351469736|gb|EHA29912.1|</Hit_id>
+  <Hit_def>serine protease Do (heat-shock protein) [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|452117266|gb|EME07661.1| trypsin family protein [Bacillus subtilis MB73/2] &gt;gi|558567886|gb|AHA77292.1| putative serine protease do-like protein htrA [Bacillus subtilis PY79] &gt;gi|649010639|gb|AIC39693.1| serine protease Do [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649015003|gb|AIC43925.1| serine protease Do [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|723797751|emb|CEI56441.1| serine protease Do-like HtrA [Bacillus subtilis] &gt;gi|724426945|emb|CEJ76864.1| serine protease Do-like HtrA [Bacillus sp.] &gt;gi|758319142|gb|KIU12257.1| serine protease Do (heat-shock protein) [Bacillus subtilis] &gt;gi|760456455|gb|KIX82530.1| Serine protease Do-like HtrA [Bacillus subtilis] &gt;gi|846135958|gb|AKN13405.1| Serine protease, DegP/HtrA, do-like [Bacillus subtilis] &gt;gi|1017086973|gb|KZD76635.1| Serine protease DegP/HtrA do-like protein [Bacillus subtilis] &gt;gi|1150403849|gb|AQR81256.1| Serine protease Do-like HtrA [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150917589|gb|AQR85470.1| Serine protease Do-like HtrA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>EME07661</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0207438</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVR---QGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>YIITNNHVVEGASSLKVSLYDGTEV---TAKLVGSDSLTDLAVLQISDDHVTKVANFGDSSDLRTGETVIAIGDPL-GKDLSRTVTQGIVSGVDRTVSMSTSAGETSI-NVIQTDAAINPGNSGGPLLNTDGKIVGINSMKISED-DVEGIGFAIPSNDV</Hsp_hseq>
+      <Hsp_midline>Y+IT  H V     + V +     +    A++V +    +LA+L++            +   +  G+ V A G  + G  L R   QG+V   D  +++    G T I +++++DA  +   +GGPL+N  G +VGIN         VE  GF +P+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|446464780|ref|WP_000542634.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Bacillus] &gt;gi|49478290|ref|YP_037679.1| serine protease [[Bacillus thuringiensis] serovar konkukian str. 97-27] &gt;gi|49329846|gb|AAT60492.1| possible serine protease [[Bacillus thuringiensis] serovar konkukian str. 97-27] &gt;gi|195993344|gb|EDX57302.1| serine protease HtrA [Bacillus cereus W] &gt;gi|196030801|gb|EDX69399.1| serine protease HtrA [Bacillus cereus NVH0597-99] &gt;gi|218538160|gb|ACK90558.1| serine protease HtrA [Bacillus cereus AH820] &gt;gi|228660410|gb|EEL16043.1| Serine protease [Bacillus cereus 95/8201] &gt;gi|228690851|gb|EEL44626.1| Serine protease [Bacillus cereus Rock3-42] &gt;gi|228812461|gb|EEM58788.1| Serine protease [Bacillus thuringiensis serovar monterrey BGSC 4AJ1] &gt;gi|228830970|gb|EEM76571.1| Serine protease [Bacillus thuringiensis serovar pondicheriensis BGSC 4BA1] &gt;gi|753328981|gb|AJG76490.1| PDZ domain protein [Bacillus thuringiensis] &gt;gi|753523311|gb|AJH60762.1| PDZ domain protein [Bacillus cereus] &gt;gi|753716429|gb|AJH83427.1| PDZ domain protein [Bacillus thuringiensis] &gt;gi|753746026|gb|AJI36016.1| PDZ domain protein [Bacillus thuringiensis] &gt;gi|755999572|gb|AJK35799.1| PDZ domain protein [Bacillus cereus] &gt;gi|821631914|gb|KLA12940.1| hypothetical protein B4087_3636 [Bacillus cereus] &gt;gi|837637740|gb|KLV20848.1| serine protease [Bacillus anthracis] &gt;gi|859549353|gb|KMP72149.1| serine protease [Bacillus cereus] &gt;gi|924090096|emb|CUB36593.1| Serine protease Do-like HtrB [Bacillus cereus] &gt;gi|924101081|emb|CUB50571.1| Serine protease Do-like HtrB [Bacillus subtilis] &gt;gi|983213801|gb|KWU54256.1| serine protease [Bacillus cereus] &gt;gi|1003794051|gb|KXX93348.1| serine protease [Bacillus cereus] &gt;gi|1015496495|gb|KYZ65930.1| serine protease [Bacillus sp. GZT] &gt;gi|1078794989|gb|OFE41351.1| serine protease [Bacillus anthracis] &gt;gi|1103830921|gb|OJD85123.1| serine protease [Bacillus anthracis] &gt;gi|1114352928|gb|OKA24226.1| serine protease [Bacillus cereus] &gt;gi|1152983827|gb|OOZ97664.1| serine protease [Bacillus cereus] &gt;gi|1152989237|gb|OPA02923.1| serine protease [Bacillus cereus]</Hit_def>
+  <Hit_accession>KWU54256</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.042155</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAV---GTTQIT---HLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQV</Hsp_qseq>
+      <Hsp_hseq>GNKAYIVTNNHVVDGANKLAVKLSDG---KKVDAKLVGKDPWLDLAVVEIDGANVNKVATLGDSSKLRAGEKAIAIGNPLGFDGSVTEGIISSKEREIPVDIDGDKRADWNAQVIQTDAAINPGNSGGALFNQNGEIIGINSSKIAQQ-EVEGIGFAIPINI</Hsp_hseq>
+      <Hsp_midline>G   Y++T  H V     + V+++     ++  A++V   P  +LA++++          + +   +  G++  A G  +     V +G++ S +  + V   G  +      ++++DA  +   +GG L N  G+++GIN +      +VE  GF +P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|56912071|dbj|BAD66598.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein [Bacillus clausii KSM-K16] &gt;gi|815857203|gb|KKI86592.1| hypothetical protein WZ76_09140 [Bacillus clausii] &gt;gi|1110117945|emb|SHL24582.1| hypothetical protein SAMN05192535_1466 [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD66598</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.530272</Hsp_evalue>
+      <Hsp_query-from>495</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>TTRPKTSGIALPEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAP-VTLALVMIP-------GAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>TNHVEDQDFRMPSRKSRGPV-GVGIGLISTMLGVGGSVMTIPYFRKQG-MRMLNAVALATPLGLPIAIVGAFTFLV----TGLQIEDMPGSTLGFIFIPALCGFTLGGFIGVPLGRSWAQKIPDAVYSKVYLILLVIVVIMMM</Hsp_hseq>
+      <Hsp_midline>T   +     +P   +R  V G+ +GL S +LG+ G V+ +P  R  G + + NA+A ++ L    ++ G+    +    TGL   + P  TL  + IP       G ++G  LG    + +P  V   +Y   +  + I M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|489321346|ref|WP_003228670.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Bacillus] &gt;gi|16080291|ref|NP_391118.1| hypothetical protein BSU32380 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|81342162|sp|O32134.1|YUNE_BACSU RecName: Full=Probable membrane transporter protein YunE &gt;gi|2635735|emb|CAB15228.1| putative integral inner membrane protein [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|291485703|dbj|BAI86778.1| hypothetical protein BSNT_09720 [Bacillus subtilis subsp. natto BEST195] &gt;gi|351472618|gb|EHA32731.1| hypothetical protein BSSC8_09880 [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|407962067|dbj|BAM55307.1| hypothetical protein BEST7613_6376 [Bacillus subtilis BEST7613] &gt;gi|407966081|dbj|BAM59320.1| hypothetical protein BEST7003_3119 [Bacillus subtilis BEST7003] &gt;gi|452117539|gb|EME07933.1| sulfite exporter TauE/SafE family protein [Bacillus subtilis MB73/2] &gt;gi|459391057|gb|AGG62643.1| putative integral inner membrane protein YunE [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|542115772|gb|ERI43588.1| membrane protein [Bacillus sp. EGD-AK10] &gt;gi|558569760|gb|AHA79166.1| UPF0721 transmembrane protein yunE [Bacillus subtilis PY79] &gt;gi|588502955|gb|EXF55365.1| membrane protein [Bacillus subtilis QH-1] &gt;gi|649012652|gb|AIC41706.1| hypothetical protein BSUA_03456 [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649017015|gb|AIC45937.1| yunE [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|655532098|gb|AIC99539.1| membrane protein [Bacillus subtilis subsp. subtilis str. OH 131.1] &gt;gi|659923133|emb|CCU60279.1| hypothetical protein BSUBE1_3648 [Bacillus subtilis E1] &gt;gi|668753441|gb|KFC29374.1| membrane protein [Bacillus subtilis] &gt;gi|670921968|gb|AII36981.1| membrane protein [Bacillus subtilis TO-A] &gt;gi|672771370|gb|KFH30950.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|672773193|gb|KFH32770.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|675434611|dbj|GAK81974.1| putative integral inner membrane protein [Bacillus subtilis Miyagi-4] &gt;gi|721330869|gb|AIX08868.1| hypothetical protein OB04_03249 [Bacillus subtilis] &gt;gi|723799794|emb|CEI58487.1| hypothetical protein BS49_35510 [Bacillus subtilis] &gt;gi|724428972|emb|CEJ78892.1| hypothetical protein BS34A_35340 [Bacillus sp.] &gt;gi|728886158|gb|AIY94553.1| membrane protein [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728890469|gb|AIY98863.1| membrane protein [Bacillus subtilis] &gt;gi|749187223|gb|AJE95933.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|752644281|gb|KIO58149.1| hypothetical protein B4143_4160 [Bacillus subtilis] &gt;gi|758181731|gb|AJO59610.1| membrane protein [Bacillus sp. YP1] &gt;gi|760455644|gb|KIX81721.1| hypothetical protein TV00_02684 [Bacillus subtilis] &gt;gi|806465648|gb|KKB90332.1| membrane protein [Bacillus sp. CMAA 1185] &gt;gi|807075605|gb|AKC48811.1| membrane protein [Bacillus subtilis KCTC 1028] &gt;gi|811394390|emb|CON61735.1| transporter [Streptococcus pneumoniae] &gt;gi|846133693|gb|AKN11140.1| hypothetical protein ABU16_0064 [Bacillus subtilis] &gt;gi|857328176|gb|KMN96033.1| membrane protein [Bacillus subtilis] &gt;gi|882818717|emb|CJS33101.1| transporter [Streptococcus pneumoniae] &gt;gi|899709917|gb|KMY46932.1| membrane protein [Bacillus sp. FJAT-27445] &gt;gi|906393110|gb|KNB79853.1| membrane protein [Bacillus subtilis] &gt;gi|922810194|gb|KON93491.1| membrane protein [Bacillus murimartini] &gt;gi|924000376|emb|CUB48334.1| hypothetical protein BN2127_JRS11_01774 [Bacillus subtilis] &gt;gi|924013652|emb|CUB55190.1| hypothetical protein BN2127_JRS9_01590 [Bacillus subtilis] &gt;gi|924016769|emb|CUB18405.1| hypothetical protein BN2127_JRS2_02568 [Bacillus subtilis] &gt;gi|925229017|gb|KOS73701.1| membrane protein [Bacillus tequilensis] &gt;gi|983208027|gb|AMB25488.1| hypothetical protein AWM80_16465 [Bacillus subtilis subsp. subtilis] &gt;gi|998750312|gb|AMK73654.1| hypothetical protein AWV81_16730 [Bacillus subtilis subsp. natto] &gt;gi|1009039084|gb|AMR48722.1| hypothetical protein KHRBS_04610 [Bacillus subtilis subsp. subtilis] &gt;gi|1012902994|gb|AMS48809.1| hypothetical protein A3772_17465 [Bacillus subtilis] &gt;gi|1017088600|gb|KZD78253.1| hypothetical protein B4417_3042 [Bacillus subtilis] &gt;gi|1026721504|gb|OAD99007.1| hypothetical protein A6A24_05060 [Bacillus subtilis] &gt;gi|1035537185|gb|ANJ32003.1| hypothetical protein A8O17_15715 [Bacillus subtilis subsp. subtilis] &gt;gi|1036009638|gb|OAY87842.1| hypothetical protein AWM78_13510 [Bacillus subtilis subsp. subtilis] &gt;gi|1049082767|gb|ANX06888.1| hypothetical protein AS891_06635 [Bacillus subtilis subsp. subtilis] &gt;gi|1049334423|gb|ANY33243.1| hypothetical protein BEN36_12125 [Bacillus subtilis subsp. subtilis] &gt;gi|1051023202|gb|AOA12564.1| hypothetical protein BFI33_17585 [Bacillus subtilis subsp. subtilis] &gt;gi|1051352593|gb|AOA55999.1| UPF0721 transmembrane protein YunE [Bacillus subtilis] &gt;gi|1062076283|gb|AOL26073.1| hypothetical protein BGM23_05560 [Bacillus sp. FJAT-14266] &gt;gi|1062081200|gb|AOL30984.1| hypothetical protein BGM20_10290 [Bacillus gibsonii] &gt;gi|1072803673|gb|AOT49534.1| hypothetical protein BHY07_17595 [Bacillus subtilis subsp. subtilis] &gt;gi|1072806747|gb|AOT52607.1| hypothetical protein BH660_12015 [Bacillus subtilis subsp. subtilis] &gt;gi|1087797691|gb|AOY04811.1| hypothetical protein BKN48_05525 [Bacillus subtilis] &gt;gi|1111582262|gb|API43363.1| hypothetical protein BSR08_13050 [Bacillus subtilis] &gt;gi|1112937609|gb|API97521.1| hypothetical protein BKP58_17605 [Bacillus subtilis] &gt;gi|1145970268|gb|OOE20606.1| hypothetical protein BSR82_09715 [Bacillus subtilis] &gt;gi|1150405859|gb|AQR83266.1| hypothetical protein GP2222_34370 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150919600|gb|AQR87481.1| hypothetical protein GP2223_34390 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162904090|gb|AQZ92117.1| anion permease [Bacillus subtilis] &gt;gi|1169004279|gb|ARB38414.1| anion permease [Bacillus subtilis] &gt;gi|1181762424|gb|ARI85777.1| anion permease [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME07933</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.784316</Hsp_evalue>
+      <Hsp_query-from>532</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>SLMVPAMMLLFLFPPKVAVATSMFIIFLSSMTGSVSHMISGH----VNW----LYALALVPGAWFGGKLGAAINRKMQTKTIVMIMRIVLILIGCQLI</Hsp_hseq>
+      <Hsp_midline> + VP    +     + A+A S  ++F +S+ GSV   I G     ++W      AL ++PGA+ GG LGA + R +  + +  I    +  I  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|499565883|ref|WP_011246666.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF421 domain-containing protein [Bacillus] &gt;gi|56909831|dbj|BAD64358.1| conserved hypothetical protein [Bacillus clausii KSM-K16] &gt;gi|815856281|gb|KKI85679.1| membrane protein [Bacillus clausii] &gt;gi|922061870|gb|ALA50995.1| hypothetical protein DB29_00167 [Bacillus clausii] &gt;gi|1110118988|emb|SHL03414.1| Uncharacterized membrane protein YcaP, DUF421 family [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD64358</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.58558</Hsp_evalue>
+      <Hsp_query-from>392</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VFLTNVVVYGAAAL--------RNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMAGKAV</Hsp_qseq>
+      <Hsp_hseq>LFLTTELIVGFFALLLLTKVLGKNQITQLTPFD--------FISALVIGELVGNAIYDKDIGLQYVLYAIFVWGSLI</Hsp_hseq>
+      <Hsp_midline>+FLT  ++ G  AL        +N   QL  +D         ++ +VIG  +GNAI D  +G+   L+A+ + G  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489322572|ref|WP_003229890.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Bacillus] &gt;gi|16079702|ref|NP_390526.1| hypothetical protein BSU26490 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1731129|sp|P54437.1|YRKJ_BACSU RecName: Full=Probable membrane transporter protein YrkJ &gt;gi|1303709|dbj|BAA12365.1| YrkJ [Bacillus subtilis] &gt;gi|2635094|emb|CAB14590.1| putative integral inner membrane protein [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|351471040|gb|EHA31161.1| hypothetical protein BSSC8_16040 [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|402481982|gb|AFQ58491.1| Putative integral inner membrane protein [Bacillus subtilis QB928] &gt;gi|407959832|dbj|BAM53072.1| hypothetical protein BEST7613_4141 [Bacillus subtilis BEST7613] &gt;gi|407965475|dbj|BAM58714.1| hypothetical protein BEST7003_2513 [Bacillus subtilis BEST7003] &gt;gi|452116152|gb|EME06548.1| sulfite exporter TauE/SafE family protein [Bacillus subtilis MB73/2] &gt;gi|459390463|gb|AGG62049.1| putative integral inner membrane protein YrkJ [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|558569129|gb|AHA78535.1| UPF0721 transmembrane protein yrkJ [Bacillus subtilis PY79] &gt;gi|588501390|gb|EXF53801.1| membrane protein [Bacillus subtilis QH-1] &gt;gi|649012050|gb|AIC41104.1| hypothetical protein BSUA_02828 [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649016414|gb|AIC45336.1| yrkJ [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|670921396|gb|AII36409.1| membrane protein [Bacillus subtilis TO-A] &gt;gi|672775938|gb|KFH35511.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|672777133|gb|KFH36705.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|723799180|emb|CEI57873.1| Sulfite exporter TauE/SafE [Bacillus subtilis] &gt;gi|724428375|emb|CEJ78295.1| Sulfite exporter TauE/SafE [Bacillus sp.] &gt;gi|728885577|gb|AIY93972.1| membrane protein [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728889887|gb|AIY98281.1| membrane protein [Bacillus subtilis] &gt;gi|749186642|gb|AJE95352.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|758181168|gb|AJO59047.1| membrane protein [Bacillus sp. YP1] &gt;gi|760457918|gb|KIX83991.1| hypothetical protein TV00_00479 [Bacillus subtilis] &gt;gi|807075022|gb|AKC48228.1| membrane protein [Bacillus subtilis KCTC 1028] &gt;gi|846137220|gb|AKN14667.1| hypothetical protein ABU16_3591 [Bacillus subtilis] &gt;gi|899710456|gb|KMY47471.1| membrane protein [Bacillus sp. FJAT-27445] &gt;gi|906390723|gb|KNB77468.1| membrane protein [Bacillus subtilis] &gt;gi|922817660|gb|KOO00944.1| membrane protein [Bacillus murimartini] &gt;gi|983207445|gb|AMB24906.1| hypothetical protein AWM80_13290 [Bacillus subtilis subsp. subtilis] &gt;gi|1012902411|gb|AMS48226.1| hypothetical protein A3772_14290 [Bacillus subtilis] &gt;gi|1017095138|gb|KZD84699.1| hypothetical protein B4417_0774 [Bacillus subtilis] &gt;gi|1026722048|gb|OAD99551.1| hypothetical protein A6A24_08210 [Bacillus subtilis] &gt;gi|1035536602|gb|ANJ31420.1| hypothetical protein A8O17_12540 [Bacillus subtilis subsp. subtilis] &gt;gi|1049083350|gb|ANX07471.1| hypothetical protein AS891_09815 [Bacillus subtilis subsp. subtilis] &gt;gi|1051022622|gb|AOA11984.1| hypothetical protein BFI33_14410 [Bacillus subtilis subsp. subtilis] &gt;gi|1072803090|gb|AOT48951.1| hypothetical protein BHY07_14405 [Bacillus subtilis subsp. subtilis] &gt;gi|1150405261|gb|AQR82668.1| Sulfite exporter TauE/SafE [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150919001|gb|AQR86882.1| Sulfite exporter TauE/SafE [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162903513|gb|AQZ91540.1| anion permease [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME06548</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.81725</Hsp_evalue>
+      <Hsp_query-from>515</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKM</Hsp_qseq>
+      <Hsp_hseq>LAFIIGGVSGILGAGGAFILVPIMLSILNIPVRVTVASSLAITFLSSIGATVGKVITG--------QVLFVPALVLMITSLIASPIGASVGQKVNTKFLQWVLAQLIGATAIKI</Hsp_hseq>
+      <Hsp_midline>L   +G  SGILG  G  I VP+   I  I ++  +A+S  + F +S+  +V   I G        +     ALV++  + +   +GA + + +  + L+ + A  + A AIK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|446949099|ref|WP_001026355.1|</Hit_id>
+  <Hit_def>ABC transporter permease [Bacillus cereus] &gt;gi|753524547|gb|AJH61998.1| ftsX-like permease family protein [Bacillus cereus] &gt;gi|755996604|gb|AJK32831.1| ftsX-like permease family protein [Bacillus cereus] &gt;gi|983216357|gb|KWU56762.1| ABC transporter permease [Bacillus cereus]</Hit_def>
+  <Hit_accession>KWU56762</Hit_accession>
+  <Hit_len>637</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.47745</Hsp_evalue>
+      <Hsp_query-from>497</Hsp_query-from>
+      <Hsp_query-to>537</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>RPKTSGIALPEGPTRSAVLGLPM------GLFSGILGISGGVIEVPL</Hsp_qseq>
+      <Hsp_hseq>RKKELGLYMLMGATKSSVIGVIMTEQMLIGVFANIFGIGLGMIFLKL</Hsp_hseq>
+      <Hsp_midline>R K  G+ +  G T+S+V+G+ M      G+F+ I GI  G+I + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|499564391|ref|WP_011245174.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacillus clausii] &gt;gi|56908328|dbj|BAD62855.1| conserved hypothetical protein [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>BAD62855</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.29628</Hsp_evalue>
+      <Hsp_query-from>413</Hsp_query-from>
+      <Hsp_query-to>577</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMAGKAVLEILQPNAGEDTAEAIAAAEAGDEMDELMALAEGTTRPKTSGIALPEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGL</Hsp_qseq>
+      <Hsp_hseq>LSWEQASNLKEWGVTGLRIDY----GVATETVVRLSQEMQVVLNASTV----------DKREAIALRQAGLDPNKVEVWHNFYPRPET-GLSREDFRQTNTFLS-EMG-FSVMAFIPGDVPRAPL--FKGLPTLEDHRDMSPFASFLDLYEGEGIETILVGDKGL</Hsp_hseq>
+      <Hsp_midline>+ W++   L  WGV G+ I Y     +    V  L     +++    V          D  EAIA  +AG + +++        RP+T G++  +    +  L   MG FS +  I G V   PL  + G  +L++    S    F     G  +  I  G  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|984810432|gb|KWW52360.1|</Hit_id>
+  <Hit_def>sodium:proton antiporter, partial [Bacillus cereus]</Hit_def>
+  <Hit_accession>KWW52360</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.30757</Hsp_evalue>
+      <Hsp_query-from>418</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>VKPLIPWGVAGVVIGYFIGNAIG</Hsp_qseq>
+      <Hsp_hseq>INPLVPWGVSGV----FLSNVLG</Hsp_hseq>
+      <Hsp_midline>+ PL+PWGV+GV    F+ N +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|489326834|ref|WP_003234130.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Bacillus] &gt;gi|255767147|ref|NP_388450.2| hypothetical protein BSU05690 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|239938763|sp|O05493.2|YDHB_BACSU RecName: Full=Probable membrane transporter protein YdhB &gt;gi|225184774|emb|CAB12388.2| putative integral inner membrane protein [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|291483005|dbj|BAI84080.1| hypothetical protein BSNT_06932 [Bacillus subtilis subsp. natto BEST195] &gt;gi|320020498|gb|ADV95484.1| permease [Bacillus subtilis BSn5] &gt;gi|349593474|gb|AEP89661.1| permease [Bacillus subtilis subsp. subtilis str. RO-NN-1] &gt;gi|351468859|gb|EHA29061.1| hypothetical protein BSSC8_37700 [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|402479980|gb|AFQ56489.1| Putative integral inner membrane protein [Bacillus subtilis QB928] &gt;gi|407956248|dbj|BAM49488.1| hypothetical protein BEST7613_0557 [Bacillus subtilis BEST7613] &gt;gi|407963519|dbj|BAM56758.1| hypothetical protein BEST7003_0557 [Bacillus subtilis BEST7003] &gt;gi|452117806|gb|EME08200.1| sulfite exporter TauE/SafE family protein [Bacillus subtilis MB73/2] &gt;gi|459388338|gb|AGG59924.1| putative integral inner membrane protein YdhB [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|558567114|gb|AHA76520.1| UPF0721 transmembrane protein ydhB [Bacillus subtilis PY79] &gt;gi|588499894|gb|EXF52307.1| membrane protein [Bacillus subtilis QH-1] &gt;gi|649009893|gb|AIC38947.1| hypothetical protein BSUA_00627 [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649014257|gb|AIC43179.1| ydhB [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|659922906|emb|CCU60906.1| hypothetical protein BSUBE1_4275 [Bacillus subtilis E1] &gt;gi|668753248|gb|KFC29213.1| membrane protein [Bacillus subtilis] &gt;gi|670919648|gb|AII34661.1| membrane protein [Bacillus subtilis TO-A] &gt;gi|672770643|gb|KFH30226.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|672775472|gb|KFH35046.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|675434095|dbj|GAK82444.1| putative integral inner membrane protein [Bacillus subtilis Miyagi-4] &gt;gi|721328274|gb|AIX06273.1| hypothetical protein OB04_00575 [Bacillus subtilis] &gt;gi|723797016|emb|CEI55704.1| hypothetical protein BS49_06530 [Bacillus subtilis] &gt;gi|724426210|emb|CEJ76129.1| hypothetical protein BS34A_06530 [Bacillus sp.] &gt;gi|728883461|gb|AIY91856.1| membrane protein [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728887773|gb|AIY96167.1| membrane protein [Bacillus subtilis] &gt;gi|749184523|gb|AJE93233.1| membrane protein [Bacillus subtilis subsp. subtilis] &gt;gi|751132644|gb|KIL30050.1| hypothetical protein B4067_0607 [Bacillus subtilis subsp. subtilis] &gt;gi|751874300|gb|KIN26431.1| hypothetical protein B4070_0589 [Bacillus subtilis] &gt;gi|751879854|gb|KIN31819.1| hypothetical protein B4069_0522 [Bacillus subtilis] &gt;gi|751883982|gb|KIN35852.1| hypothetical protein B4068_0505 [Bacillus subtilis] &gt;gi|751895354|gb|KIN46999.1| hypothetical protein B4072_0563 [Bacillus subtilis] &gt;gi|751896181|gb|KIN47809.1| hypothetical protein B4073_0549 [Bacillus subtilis] &gt;gi|751898815|gb|KIN50397.1| hypothetical protein B4145_0572 [Bacillus subtilis] &gt;gi|752643277|gb|KIO57151.1| hypothetical protein B4143_0585 [Bacillus subtilis] &gt;gi|758179363|gb|AJO57242.1| membrane protein [Bacillus sp. YP1] &gt;gi|760454904|gb|KIX80984.1| hypothetical protein TV00_03194 [Bacillus subtilis] &gt;gi|807072901|gb|AKC46107.1| membrane protein [Bacillus subtilis KCTC 1028] &gt;gi|811393758|emb|COO14160.1| Sulfite exporter TauE/SafE [Streptococcus pneumoniae] &gt;gi|846135204|gb|AKN12651.1| hypothetical protein ABU16_1575 [Bacillus subtilis] &gt;gi|857327964|gb|KMN95825.1| membrane protein [Bacillus subtilis] &gt;gi|882819531|emb|CJS05579.1| Sulfite exporter TauE/SafE [Streptococcus pneumoniae] &gt;gi|899704575|gb|KMY41593.1| membrane protein [Bacillus sp. FJAT-27445] &gt;gi|906389062|gb|KNB75814.1| membrane protein [Bacillus subtilis] &gt;gi|922815656|gb|KON98948.1| membrane protein [Bacillus murimartini] &gt;gi|925225553|gb|KOS70252.1| membrane protein [Bacillus tequilensis] &gt;gi|983205522|gb|AMB22983.1| hypothetical protein AWM80_03140 [Bacillus subtilis subsp. subtilis] &gt;gi|998747874|gb|AMK71216.1| hypothetical protein AWV81_03245 [Bacillus subtilis subsp. natto] &gt;gi|1009038561|gb|AMR48199.1| hypothetical protein KHRBS_18555 [Bacillus subtilis subsp. subtilis] &gt;gi|1012900292|gb|AMS46107.1| hypothetical protein A3772_03140 [Bacillus subtilis] &gt;gi|1017093292|gb|KZD82876.1| hypothetical protein B4417_1619 [Bacillus subtilis] &gt;gi|1026724081|gb|OAE05573.1| hypothetical protein A6A24_19615 [Bacillus subtilis] &gt;gi|1035534810|gb|ANJ29628.1| hypothetical protein A8O17_03045 [Bacillus subtilis subsp. subtilis] &gt;gi|1049085466|gb|ANX09587.1| hypothetical protein AS891_20970 [Bacillus subtilis subsp. subtilis] &gt;gi|1051020507|gb|AOA09869.1| hypothetical protein BFI33_03260 [Bacillus subtilis subsp. subtilis] &gt;gi|1062078771|gb|AOL28561.1| hypothetical protein BGM23_18990 [Bacillus sp. FJAT-14266] &gt;gi|1062082574|gb|AOL32358.1| hypothetical protein BGM20_17935 [Bacillus gibsonii] &gt;gi|1062414772|gb|AOL96362.1| UPF0721 transmembrane protein YdhB [Bacillus subtilis] &gt;gi|1070874205|gb|AOS66727.1| hypothetical protein A4A60_03145 [Bacillus subtilis] &gt;gi|1072800972|gb|AOT46833.1| hypothetical protein BHY07_03260 [Bacillus subtilis subsp. subtilis] &gt;gi|1072805230|gb|AOT51090.1| hypothetical protein BH660_03270 [Bacillus subtilis subsp. subtilis] &gt;gi|1087799077|gb|AOY06197.1| hypothetical protein BKN48_13165 [Bacillus subtilis] &gt;gi|1111583775|gb|API44876.1| hypothetical protein BSR08_21725 [Bacillus subtilis] &gt;gi|1112936113|gb|API96025.1| hypothetical protein BKP58_09080 [Bacillus subtilis] &gt;gi|1131847494|emb|SIR34786.1| hypothetical protein SAMN05878487_3624 [Bacillus subtilis] &gt;gi|1145968456|gb|OOE18827.1| hypothetical protein BSR82_11575 [Bacillus subtilis] &gt;gi|1150403114|gb|AQR80521.1| hypothetical protein GP2222_06350 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150916853|gb|AQR84734.1| hypothetical protein GP2223_06350 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162901447|gb|AQZ89474.1| anion permease [Bacillus subtilis] &gt;gi|1181763913|gb|ARI87266.1| anion permease [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME08200</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.6303</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>614</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGI-SGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLK</Hsp_qseq>
+      <Hsp_hseq>TRAVILGIAAGVLSGTFGIGSAPFIQIGLMIML-NLSIRHSVGTTMLVIIPLAVGGG-IGYI---TEGFVDYVLLVKVLVGTMCGAYV----GAKFTNLMPKVVLK</Hsp_hseq>
+      <Hsp_midline>TR+ +LG+  G+ SG  GI S   I++ L   +  +S+++++  + +++   +V G  + +I   + G + +   V + +  + GAYV    GA+   ++P  VLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>18466</Statistics_db-num>
+      <Statistics_db-len>5604615</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

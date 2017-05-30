@@ -1,0 +1,2202 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1172918267|ref|WP_080983966.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_080983966</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.14457e-20</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IVRNDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>ILDTEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPPSQGESSGSSSGTDQYRFQLPGTPQGTQGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASAGQDQSEAGNIGVGFAIPVDYAQRIAQD</Hsp_hseq>
+      <Hsp_midline>I+  +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                 +G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0146459</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>479</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPL---TQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GEATHAMLGVSVTPEPAEVQGGGENAQTVFSDGARVQQVVGGSAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGESVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP     Q  G  A      G  V  V   + A +AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.247234</Hsp_evalue>
+      <Hsp_query-from>695</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>402</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>PGATPVAGGGK--------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>PEPAEVQGGGENAQTVFSDGARVQQVVGGSAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGESVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline>P    V GGG+        GA+V +V+ GS A  AGL+  D+I  V +R V     L A ++     G+ + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|289558150|gb|EFD51437.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus SK58]</Hit_def>
+  <Hit_accession>EFD51437</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>2.70356e-20</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>TEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPPSQGESSGSSSGSDQYRFQLPGTPQGTQGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASAGQDPSEAGNIGVGFAIPVDYAQRIAQD</Hsp_hseq>
+      <Hsp_midline> +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                 +G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.397104</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRL---GLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GEATHAMLGVSVTPEPAEVRGGGENAQTVFSDGARVQQVVGGSAAAAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP    +   G  A      G  V  V   + AA+AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.3006</Hsp_evalue>
+      <Hsp_query-from>695</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>420</Hsp_hit-from>
+      <Hsp_hit-to>499</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>PGATPVAGGGK--------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>PEPAEVRGGGENAQTVFSDGARVQQVVGGSAAAAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline>P    V GGG+        GA+V +V+ GS AA AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1170985492|ref|WP_080556393.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_080556393</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>6.58126e-20</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VRNDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>LDTEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPPSQGESSGSSSGSDQYRFQLPGTPQGTQGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASAGQDPSEAGNIGVGFAIPVDYAQRIAQD</Hsp_hseq>
+      <Hsp_midline>+  +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                 +G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.13592</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRL---GLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GEATHAMLGVSVTPEPAEVRGGGENAQTVFSDGARVQQVVGGSAAAAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP    +   G  A      G  V  V   + AA+AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.39297</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>DGARVQQVVGGSAAAAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline> GA+V +V+ GS AA AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1072319386|ref|WP_069941445.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_069941445</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>6.67675e-20</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VRNDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT----PNGA-FAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>LDTEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGSDQYRFQLPGTPQGTQGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASTGQDPSAAGNIGVGFAIPVDYSQRVAQD</Hsp_hseq>
+      <Hsp_midline>+  +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                 +G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +    P+ A   G+GFA+P + ++  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00190557</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRL---GLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GKATHAMLGVSVTPEPAEVKGGGENARTVFSDGARVQQVVEGSAAAAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP    +   G  A      G  V  V   + AA+AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0857804</Hsp_evalue>
+      <Hsp_query-from>700</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VAGGGK--------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>VKGGGENARTVFSDGARVQQVVEGSAAAAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline>V GGG+        GA+V +V+ GS AA AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|984923812|ref|WP_060774600.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus] &gt;gi|984766034|gb|KWW42903.1| putative serine protease HtrA [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_060774600</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>7.64695e-20</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>TEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGAEQYRFQLPGTPQGTRGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASAGQDPSEAGNIGVGFAIPVDYAQRVAQD</Hsp_hseq>
+      <Hsp_midline> +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                  G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00488695</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNG-----VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GKATHAMLGVSVTP--EPAEVQGGSENARTVFSDGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP  +   +Q      R VF +G     V   + A +AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.54451</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>DGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline> GA+V +V+  S A  AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|916889971|ref|WP_051497027.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus] &gt;gi|758184341|gb|AJO56069.1| protease Do [Micrococcus luteus] &gt;gi|1178128157|gb|ORE58039.1| hypothetical protein B6D25_10310 [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_051497027</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>8.60096e-20</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VRNDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>LDTEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGSDQYRFQLPGTPQGTRGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASTGQDPSEAGNIGVGFAIPVDYAQRVAQD</Hsp_hseq>
+      <Hsp_midline>+  +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                  G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00746152</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPL---TQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GKATHAMLGVSVTPEPAEVQGGGENAQTVFSDGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP     Q  G  A      G  V  V   + A +AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.73794</Hsp_evalue>
+      <Hsp_query-from>700</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>339</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VAGGGK--------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>VQGGGENAQTVFSDGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline>V GGG+        GA+V +V+  S A  AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|918578948|ref|WP_052520126.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_052520126</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>8.77003e-20</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>TEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGTDQYRFQLPGTPQGTRGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASAGQDPSEAGNIGVGFAIPVDYAQRVAQD</Hsp_hseq>
+      <Hsp_midline> +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                  G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00457855</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNG-----VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GKATHAMLGVSVTP--EPAEVQGGSENARTVFSDGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP  +   +Q      R VF +G     V   + A +AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.4149</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>DGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline> GA+V +V+  S A  AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1145375498|emb|SJN34836.1|</Hit_id>
+  <Hit_def>Cell division topological determinant MinJ [Micrococcus luteus Mu201]</Hit_def>
+  <Hit_accession>SJN34836</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>9.0805e-20</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VRNDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>LDTEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGADQYRFQLPGTPQGTRGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASTGQDPSEAGNIGVGFAIPVDYAQRVAQD</Hsp_hseq>
+      <Hsp_midline>+  +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                  G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0072707</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPL---TQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GKATHAMLGVSVTPEPAEVQGGGENAQTVFSDGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP     Q  G  A      G  V  V   + A +AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.00982</Hsp_evalue>
+      <Hsp_query-from>695</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>PGATPVAGGGK--------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>PEPAEVQGGGENAQTVFSDGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline>P    V GGG+        GA+V +V+  S A  AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1046177051|ref|WP_065573442.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_065573442</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>9.85033e-20</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>TEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGAEQYRFQLPGTPQGTRGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASAGQDPSEAGNIGVGFAIPVDYAQRVAQD</Hsp_hseq>
+      <Hsp_midline> +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                  G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0821605</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNG-----VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GKATHAMLGVSVTP--EPAEVQGGSENARTVFSDGARVQQVVGGSAAAAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP  +   +Q      R VF +G     V   + AA+AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.11524</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>DGARVQQVVGGSAAAAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline> GA+V +V+ GS AA AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|917388524|ref|WP_051995236.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus] &gt;gi|612101749|gb|EZP60084.1| Trypsin [Micrococcus luteus] &gt;gi|987294635|emb|CVM60702.1| serine protease [Streptococcus pneumoniae] &gt;gi|1109702929|emb|SHL76194.1| putative serine protease PepD [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_051995236</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.02131e-19</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>TEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGTDQYRFQLPGTPQGTRGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASAGQDPSEAGNIGVGFAIPVDYAQRVAQD</Hsp_hseq>
+      <Hsp_midline> +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                  G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00472099</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNG-----VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GKATHAMLGVSVTP--EPAEVQGGSENARTVFSDGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP  +   +Q      R VF +G     V   + A +AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.33729</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>DGARVQQVVGESAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline> GA+V +V+  S A  AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1172311671|ref|WP_080694950.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus] &gt;gi|612084042|gb|EZP42773.1| Trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_080694950</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.73901e-19</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VRNDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>LDTEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGSDQYRFQLPGTPQGTRGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASTGQDPSEAGNIGVGFAIPVDYAQRVAQD</Hsp_hseq>
+      <Hsp_midline>+  +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                  G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00283944</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPL---TQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GKATHAMLGVSVTPEPAEVQGGGENAQTVFSDGARVQQVVEGSAADAAGLKEGDVITAVGDRAVIDSESLTAVVREYRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP     Q  G  A      G  V  V   + A +AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.353304</Hsp_evalue>
+      <Hsp_query-from>695</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>PGATPVAGGGK--------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>PEPAEVQGGGENAQTVFSDGARVQQVVEGSAADAAGLKEGDVITAVGDRAVIDSESLTAVVREYR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline>P    V GGG+        GA+V +V+ GS A  AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1172312717|ref|WP_080695996.1|</Hit_id>
+  <Hit_def>hypothetical protein [Micrococcus luteus] &gt;gi|612078736|gb|EZP37554.1| Trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_080695996</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>1.92294e-19</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VRNDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---------------------------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-----PNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>LDTEGHILTNTHVVTLGGQANDAELTVRTSDGEV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAVASSEAPEPQGESSGSSSGSDQYRFQLPGTPQGTRGEVYINVLQTDAAINPGNSGGALVDAEGRLVGVNVAIASAGQDQSEAGNIGVGFAIPVDYAQRVAQD</Hsp_hseq>
+      <Hsp_midline>+  +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +                                  G  + N+LQTDAAIN GNSGG LV A G +VG+N AI +           G+GFA+P + A+  A D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00899837</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNG-----VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GEATHAMLGVSVTP--EPAEVQGGGENARTVFSDGARVQQVVGGSAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHRVGDSVDVTYLRDG</Hsp_hseq>
+      <Hsp_midline>G +  ++LG ++TP  +   +Q      R VF +G     V   + A +AGL+ GDVI  V  R V   E + A++ E   G SV +  LR G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.469931</Hsp_evalue>
+      <Hsp_query-from>699</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>PVAGGGK--------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>EVQGGGENARTVFSDGARVQQVVGGSAADAAGLKEGDVITAVGDRAVIDSESLTAVVREHR-VGDSVDVTYLRDGAE</Hsp_hseq>
+      <Hsp_midline> V GGG+        GA+V +V+ GS A  AGL+  D+I  V +R V     L A ++     G  + +   R+G E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|738431319|ref|WP_036382650.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|612081788|gb|EZP40553.1| Trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_036382650</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.31678e-13</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGL-DMTVSRGIISAKRKTMVI------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------------GWLPTSTAEGPAMGLVAMQ</Hsp_qseq>
+      <Hsp_hseq>GTGMVLTPEGLALTNYHVVEDSSEVFV-VEADTGE-RHTATVLGRDAEHDVAVLDVHGVTDLPVASVS-LDPVRRGDEVAAVGNGRGQGHLTAVRGTVLGTDRSIMAASQGSDEYARLTGLIQTDADVVPGYSGGPVVDDDGQVVGVTVAASDGTGAQEVDGFAIPLGVA-LGVVDQVLSGEETDTVSIGADGALGIMVAADPEAGVVVMQ</Hsp_hseq>
+      <Hsp_midline>GTG+++  +G  +TNYHVV  ++ V+V V+ D G  R++  ++  D   D+A+L +     L  A +   D V   DEV A+G   G   +T  RG +    ++++       E    + L+QTDA +  G SGGP+V  +G VVG+  A     GA    GFA+P   A L  +D+V              G L    A  P  G+V MQ</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.09801</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>319</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSV</Hsp_qseq>
+      <Hsp_hseq>GVVVMQVDADSAAEAIGLVPGDVVLAVDGQAV---EGNASRMSRLVNDHNV</Hsp_hseq>
+      <Hsp_midline>GV V  V  ++ A + GL PGDV+L VDG+ V   E  A+ M+ + N  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|668924278|gb|KFC52556.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>KFC52556</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>5.9357e-13</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD-MTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLAVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDIEGASGLPVASVS-LDPVRRGDQVAAVGNGGGQGYLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDEGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L I     L  A +   D V   D+V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.76338</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSV</Hsp_qseq>
+      <Hsp_hseq>LGIMVGADPDVGVVVMQVDAGSAAEQIGLVEGDVILEIEGRPVGDD---ASRMSRLVNDHNV</Hsp_hseq>
+      <Hsp_midline>LG+        GV V  V   + A   GL  GDVIL+++GRPV      A+ M+ + N  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|896125600|ref|WP_049147478.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_049147478</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.40163e-12</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD-MTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLAVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPVRRGDQVAAVGNGGGQGYLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D V   D+V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|991983424|ref|WP_060973541.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_060973541</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.51083e-12</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD-MTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLAVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPVRRGDQVAAVGNGGGQGYLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D V   D+V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1145375164|emb|SJN38573.1|</Hit_id>
+  <Hit_def>Peptidase S1C, Do [Micrococcus luteus Mu201]</Hit_def>
+  <Hit_accession>SJN38573</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>2.81849e-12</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD-MTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLAVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPVRRGDQVAAVGNGGGQGYLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D V   D+V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|751637330|ref|WP_041105044.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|751047765|gb|KIK83202.1| trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_041105044</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>4.80386e-12</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD-MTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLTVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPMRRGDQVAAVGNGGGQGYLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D +   D+V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.20685</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSV</Hsp_qseq>
+      <Hsp_hseq>LGIMVGADPDVGVVVMQVDAGSAAEQIGLVEGDVILEIEGRPVGDN---ASRMSRLVNDHNV</Hsp_hseq>
+      <Hsp_midline>LG+        GV V  V   + A   GL  GDVIL+++GRPV      A+ M+ + N  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|738364195|ref|WP_036316452.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|612076759|gb|EZP35629.1| Trypsin [Micrococcus luteus] &gt;gi|612095213|gb|EZP53645.1| Trypsin [Micrococcus luteus] &gt;gi|1109702866|emb|SHL74875.1| serine protease, S1-C subfamily, contains C-terminal PDZ domain [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_036316452</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>8.40493e-12</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGL-DMTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLAVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPVRRGETVAAVGNGGGQGHLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTAEEVDGFAIPLDVA</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D V   + V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.24526</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPV</Hsp_qseq>
+      <Hsp_hseq>LGIMVGADPDVGVVVMQVDAGSAAEQIGLVEGDVILEIEGRPV</Hsp_hseq>
+      <Hsp_midline>LG+        GV V  V   + A   GL  GDVIL+++GRPV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488944101|ref|WP_002855176.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|289557999|gb|EFD51291.1| trypsin [Micrococcus luteus SK58] &gt;gi|984762227|gb|KWW39143.1| Serine protease Do-like HtrB [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_002855176</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.10662e-11</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD-MTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLTVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPVRRGETVAAVGNGGGQGYLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D V   + V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.63161</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSV</Hsp_qseq>
+      <Hsp_hseq>LGIMVGADPDVGVVVMQVDAGSAAEQIGLVEGDVILEIEGRPVGDD---ASRMSRLVNDHNV</Hsp_hseq>
+      <Hsp_midline>LG+        GV V  V   + A   GL  GDVIL+++GRPV      A+ M+ + N  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1072319547|ref|WP_069941606.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_069941606</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.20928e-11</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGL-DMTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLAVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPVRRGETVAAVGNGGGQGHLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D V   + V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.57625</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSV</Hsp_qseq>
+      <Hsp_hseq>LGIMVGADPDVGVVVMQVDAGSAAEQIGLVEGDVILEIEGRPVGDD---ASRMSRLVNDHNV</Hsp_hseq>
+      <Hsp_midline>LG+        GV V  V   + A   GL  GDVIL+++GRPV      A+ M+ + N  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|497766347|ref|WP_010080531.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|239839255|gb|ACS31052.1| trypsin-like serine protease with C-terminal PDZ domain [Micrococcus luteus NCTC 2665] &gt;gi|758184404|gb|AJO56132.1| trypsin [Micrococcus luteus] &gt;gi|1178133488|gb|ORE63148.1| trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_010080531</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.52289e-11</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGL-DMTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLAVTNYHVVEDSSEVHVVVADT--GARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPVRRGETVAAVGNGGGQGHLTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D V   + V A+G   G   +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1046177081|ref|WP_065573472.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_065573472</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>6.50902e-11</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGT--PFGLDMTVSRGIISAKRKTMVI--EGMTH----SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>GTGMVLSPDGLAVTNYHVVEDSSEVHVVVAD--TGARHTATVLGRDAEHDIAVLDVEGVSDLPVASVS-LDPVRRGETVAAVGNGGAQGY-LTAVRGTVLGTDRSIMAAAEGTDQYARLSGLIQTDADVVPGYSGGPVVDDAGQVVGVTVAASDGTTADEVDGFAIP</Hsp_hseq>
+      <Hsp_midline>GTG+++  DG  VTNYHVV  ++ V+V V D     R++  ++  D   D+A+L +     L  A +   D V   + V A+G     G  +T  RG +    ++++   EG       S L+QTDA +  G SGGP+V   G VVG+  A      A    GFA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.61759</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSV</Hsp_qseq>
+      <Hsp_hseq>LGIMVGADPDVGVVVMQVDAGSAAEQIGLVEGDVILEIEGRPVGDD---ASRMSRLVNDHNV</Hsp_hseq>
+      <Hsp_midline>LG+        GV V  V   + A   GL  GDVIL+++GRPV      A+ M+ + N  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|668922596|gb|KFC51787.1|</Hit_id>
+  <Hit_def>hypothetical protein GY12_01030 [Micrococcus luteus]</Hit_def>
+  <Hit_accession>KFC51787</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.31485e-09</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>IVRNDGFIVTNYHVVR---GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI</Hsp_qseq>
+      <Hsp_hseq>ILDTEGHILTNTHVVTLGGQANDAELTVRTSDGKV-YAATVVGTDPLSDLAVIKIDAP-DLTPIQIGRSGDLKVGDEAVAIGAPLGLPNTVTDGIISTLDRTIAV</Hsp_hseq>
+      <Hsp_midline>I+  +G I+TN HVV     AN   +TV+   G + Y+  +V  D   DLA++KI     LT   +G S  + V DE +AIG P GL  TV+ GIIS   +T+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|758183612|gb|AJO55340.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>AJO55340</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00260993</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAAPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.24787</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|896126288|ref|WP_049147990.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_049147990</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00270996</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAAPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.15207</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|497764954|ref|WP_010079138.1|</Hit_id>
+  <Hit_def>peptidase [Micrococcus luteus] &gt;gi|239838428|gb|ACS30225.1| predicted membrane-associated Zn-dependent protease [Micrococcus luteus NCTC 2665] &gt;gi|1178133740|gb|ORE63389.1| zinc metalloprotease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_010079138</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00275709</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAAPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.94428</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|751636484|ref|WP_041104226.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus] &gt;gi|751049872|gb|KIK85225.1| zinc metalloprotease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_041104226</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00282934</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAAPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.20515</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1008815064|ref|WP_061866732.1|</Hit_id>
+  <Hit_def>MULTISPECIES: zinc metalloprotease [Micrococcus] &gt;gi|1008725147|gb|KYK04155.1| zinc metalloprotease [Micrococcus sp. CH3] &gt;gi|1008726900|gb|KYK05814.1| zinc metalloprotease [Micrococcus sp. CH7] &gt;gi|1017175229|gb|KZE62955.1| zinc metalloprotease [Micrococcus aloeverae] &gt;gi|1081057383|gb|OFS10747.1| zinc metalloprotease [Micrococcus sp. HMSC31B01] &gt;gi|1081159156|gb|OFT06089.1| zinc metalloprotease [Micrococcus sp. HMSC30C05] &gt;gi|1150536890|gb|OOO56598.1| zinc metalloprotease [Micrococcus sp. KBS0714]</Hit_def>
+  <Hit_accession>WP_061866732</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00287855</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAAPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.84303</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|738431263|ref|WP_036382595.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus] &gt;gi|612082154|gb|EZP40916.1| putative RIP metalloprotease RseP [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_036382595</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00305763</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAAPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.47746</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|991983814|ref|WP_060973854.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_060973854</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00313775</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAAPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.5897</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|896138242|ref|WP_049158149.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_049158149</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00431662</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAGPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.64567</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1120250266|ref|WP_073116932.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus] &gt;gi|1109703141|emb|SHL69161.1| Membrane-associated protease RseP, regulator of RpoE activity [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_073116932</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00474595</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAGPAHEAGLRPGDTVLAFDGRPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DGRPV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.94428</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AGLRPGDTVLAFDGRPVSDWDALSAAIR--DRAGQPTRIEWERDGERM</Hsp_hseq>
+      <Hsp_midline>AGL+  D ++  + RPV+    L AAI+    AGQ   ++  R+G+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|668923860|gb|KFC52245.1|</Hit_id>
+  <Hit_def>hypothetical protein GY12_07510 [Micrococcus luteus]</Hit_def>
+  <Hit_accession>KFC52245</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0177456</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAI--GTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHEARIIHLDTARDLAVLAVD-DADLPVIPVGDELTGGASASVLGYPDGGPFASTPATVRAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     +   I+ +D A DLA+L +     L    +GD      +  V+    G PF       R +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|488943935|ref|WP_002855010.1|</Hit_id>
+  <Hit_def>peptidase [Micrococcus luteus] &gt;gi|289558109|gb|EFD51397.1| putative RIP metalloprotease RseP [Micrococcus luteus SK58] &gt;gi|984761236|gb|KWW38182.1| Zinc metalloprotease Rip1 [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_002855010</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0191661</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAGPAHEAGLRPGDTVLAFDGQPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DG+PV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|668924339|gb|KFC52606.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>KFC52606</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0194991</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAGPAHEAGLRPGDTVLAFDGQPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DG+PV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|738386473|ref|WP_036338393.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus] &gt;gi|612078579|gb|EZP37402.1| putative RIP metalloprotease RseP [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_036338393</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0196678</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAGPAHEAGLRPGDTVLAFDGQPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DG+PV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1046177373|ref|WP_065573764.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_065573764</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0200096</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAGPAHEAGLRPGDTVLAFDGQPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DG+PV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|738361763|ref|WP_036314065.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Micrococcus luteus] &gt;gi|612103827|gb|EZP62151.1| putative RIP metalloprotease RseP [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_036314065</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0203572</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAGPAHEAGLRPGDTVLAFDGQPVSDWDALSAAIRDR-AGQPTRIEWERDGERMSATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD +L  DG+PV   + ++A + +   G+  RI   R G+  + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1145376500|emb|SJN24095.1|</Hit_id>
+  <Hit_def>Membrane-associated zinc metalloprotease [Micrococcus luteus Mu201]</Hit_def>
+  <Hit_accession>SJN24095</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0950645</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>PAGPAHEAGLRPGDTVVAFDGQPVSDWDALSAAIRDR-AGQPTRIEWERDGERMGATL</Hsp_hseq>
+      <Hsp_midline>P  PA  AGLRPGD ++  DG+PV   + ++A + +   G+  RI   R G+    +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1046176076|ref|WP_065572467.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_065572467</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.203619</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHAARIVHLDTAHDLAVLAVDDADLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPAAVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     ++  IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|488942948|ref|WP_002854023.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|289558636|gb|EFD51899.1| CvpA family protein [Micrococcus luteus SK58]</Hit_def>
+  <Hit_accession>WP_002854023</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.263739</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHAARIVHLDTAHDLAVLAVDDADLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPAAVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     ++  IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|991983765|ref|WP_060973805.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_060973805</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.371474</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHAARIVHLDTAHDLAVLAVDGADLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPAAVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     ++  IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|738361981|ref|WP_036314279.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|612101791|gb|EZP60123.1| hypothetical protein BW40_00604 [Micrococcus luteus] &gt;gi|1109703628|emb|SHL56794.1| Colicin V production protein [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_036314279</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.435755</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHAARIVHLDTAHDLAVLAVDDANLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPATVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     ++  IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|896138765|ref|WP_049158672.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_049158672</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.449136</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHEARIVHLDTAHDLAVLAVDDADLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPAAVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     +   IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1020040695|ref|WP_063189861.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Micrococcus] &gt;gi|1017179916|gb|KZE67525.1| trypsin [Micrococcus aloeverae]</Hit_def>
+  <Hit_accession>WP_063189861</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.47567</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHAARIVHLDTAHDLAVLAVDDADLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPATVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     ++  IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|751636237|ref|WP_041103985.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Micrococcus] &gt;gi|751050300|gb|KIK85635.1| trypsin [Micrococcus luteus] &gt;gi|1008722295|gb|KYK01468.1| trypsin [Micrococcus sp. CH3] &gt;gi|1008729588|gb|KYK08385.1| trypsin [Micrococcus sp. CH7]</Hit_def>
+  <Hit_accession>WP_041103985</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.651114</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHAARIVHLDTAHDLAVLAVDDANLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPATVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDTAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     ++  IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V   G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|984924266|ref|WP_060775054.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|984763796|gb|KWW40694.1| Serine protease [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_060775054</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.74583</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHEARIVHLDTAHDLAVLAVDGADLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPATVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     +   IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|738386306|ref|WP_036338236.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|612078909|gb|EZP37723.1| hypothetical protein BW35_00857 [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_036338236</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.782275</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHEARIVHLDTVHDLAVLAVDDADLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPATVQAVGEVPLGDVLTGAASMVDVYTLAADIRHGYSGGPVVDAAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     +   IV +D   DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V A G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|738430934|ref|WP_036382274.1|</Hit_id>
+  <Hit_def>trypsin [Micrococcus luteus] &gt;gi|612083565|gb|EZP42304.1| hypothetical protein BW36_00755 [Micrococcus luteus]</Hit_def>
+  <Hit_accession>WP_036382274</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.89916</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--------VQLT----AAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGVAVAPD-RVLTNAHVVLGVDAPTVT---DRARGVHEARIVHLDAAHDLAVLAVDDADLPVMPVGAELTGGASASVLGYPD-----------GGPFASTPATVQAVGEVPLGDVLTGAASMVDVYTLGADIRHGYSGGPVVDTAGNLAGL</Hsp_hseq>
+      <Hsp_midline>G+GV V  D  ++TN HVV G ++  VT   D     +   IV +D A DLA+L +            +LT    A+VLG  D           G PF       + +       ++    +  ++    A I  G SGGP+V   G + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>28093</Statistics_db-num>
+      <Statistics_db-len>9569940</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

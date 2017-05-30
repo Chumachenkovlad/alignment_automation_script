@@ -1,0 +1,417 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|937530785|ref|WP_054598639.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Neisseria sp. 74A18] &gt;gi|937494609|gb|KPN74902.1| pilus assembly protein PilW [Neisseria sp. 74A18]</Hit_def>
+  <Hit_accession>KPN74902</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.325481</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSH-EEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>CVLMLGLGACAGSGVKQPSA---RERAHQVSNIK--TQLALEYMRGQDYRQAVASIDEALAADAKNENAWLIRAQIYQYLKVRDKAEESFQKALSIKPASAEINNNYGWFLCSIQNRPNESIAYFDKA</Hsp_hseq>
+      <Hsp_midline>  L LG+       V + +    R  A    NIK  T L L Y++ Q Y  AV  + +   A+  N N           L   D+A +SF+ AL ++P   +++    +    + +   E++ +F KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|938313226|ref|WP_054617548.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sp. 83E34] &gt;gi|937475281|gb|KPN72366.1| hypothetical protein AKG09_00455 [Neisseria sp. 83E34]</Hit_def>
+  <Hit_accession>KPN72366</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.332928</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>498</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GLSVAKKLGANMVDAFR----------SAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELL</Hsp_qseq>
+      <Hsp_hseq>GYTMLSAPGSNIEEAFQLIEAAYRLEPESAAINDSL--------GWAYLLKGDATTALPYLEFAFEQQP-DPEVASHLGEAYWKLGRQEQAKEVF</Hsp_hseq>
+      <Hsp_midline>G ++    G+N+ +AF+           + ++ND +        G ++   G  + A+  LE  ++    D EVA HLG AY K G  ++  E+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>7.09332</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>509</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSF</Hsp_qseq>
+      <Hsp_hseq>IEEAFQLIEAAYRLEPESAAINDSLGWAYLLKGDATTALPYLEFAFEQQP-DPEVASHLGEAYWKLGRQEQAKEVF</Hsp_hseq>
+      <Hsp_midline>++   +L+E +    P++  +   LG  Y+       A+P L    E  P +  V   LG A   LGR ++A + F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>7.21981</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>511</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>EAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLA</Hsp_qseq>
+      <Hsp_hseq>EAFQLIEAAYRLEPESAAINDSLGWAYLLKGDATTALPYLEFAFEQQPDP-EVASHLGEAYWKLGRQEQA</Hsp_hseq>
+      <Hsp_midline>EA  ++E  Y  +     +   LG AY+  G        LE +    PD  +VA+ LG  Y ++ + + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|937532326|ref|WP_054600180.1|</Hit_id>
+  <Hit_def>tetraacyldisaccharide 4&apos;-kinase [Neisseria sp. 74A18] &gt;gi|937492918|gb|KPN73289.1| tetraacyldisaccharide 4&apos;-kinase [Neisseria sp. 74A18]</Hit_def>
+  <Hit_accession>KPN73289</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.00062</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>LGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVM</Hsp_qseq>
+      <Hsp_hseq>VGSNRIDAGRALLAAHPDI-QVIIADDGLQHYALQRDLEIVVF</Hsp_hseq>
+      <Hsp_midline>+G+N +DA R+  + + DI QV   D G+ H    R  E VV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|937531288|ref|WP_054599142.1|</Hit_id>
+  <Hit_def>bifunctional glutamine synthetase adenylyltransferase/deadenyltransferase [Neisseria sp. 74A18] &gt;gi|937494081|gb|KPN74393.1| glutamine-synthetase adenylyltransferase [Neisseria sp. 74A18]</Hit_def>
+  <Hit_accession>KPN74393</Hit_accession>
+  <Hit_len>897</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>2.01016</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>KYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGR</Hsp_qseq>
+      <Hsp_hseq>RFDAVIPLLIQAAAAQPNRTVTLLRLLDFLENISR</Hsp_hseq>
+      <Hsp_midline>++D  +PLL++ A A P       RL   L+N+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|938314079|ref|WP_054618374.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Neisseria sp. 83E34] &gt;gi|937474536|gb|KPN71645.1| pilus assembly protein PilW [Neisseria sp. 83E34]</Hit_def>
+  <Hit_accession>KPN71645</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>2.31093</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>LHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLT</Hsp_qseq>
+      <Hsp_hseq>LNKGVCSAKMGQYSLAQAYLERSIAAAPNFVPAVKELART</Hsp_hseq>
+      <Hsp_midline>L+ G+   K G        LERSIA AP+ +     L  T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>3.96751</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQ</Hsp_qseq>
+      <Hsp_hseq>IAYLNKGVCSAKMGQYSLAQAYLER</Hsp_hseq>
+      <Hsp_midline>+ Y +KG+  AK G+YS A   LE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>4.03959</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>KVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE-ALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>QIQTQLAVEYMRAKDYRLATASIEEALKANSKNEMAWLIRAQIYQFLKVPERAEESFLQGLSIKPDSAEINNNYGWFLCSVKNNPNAALPYFDKA</Hsp_hseq>
+      <Hsp_midline>++ T L + Y++ + Y LA   + +  +AN  N             L   + A +SF   L ++P+  +++    +    + ++   ALP+F KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|937531126|ref|WP_054598980.1|</Hit_id>
+  <Hit_def>MULTISPECIES: endopeptidase La [Neisseria] &gt;gi|937494107|gb|KPN74415.1| peptidase [Neisseria sp. 74A18] &gt;gi|1185395772|gb|OSI17608.1| endopeptidase La [Neisseria sp. 114725] &gt;gi|1185401018|gb|OSI22763.1| endopeptidase La [Neisseria sp. 124861] &gt;gi|1185414227|gb|OSI35801.1| endopeptidase La [Neisseria sp. 93087]</Hit_def>
+  <Hit_accession>KPN74415</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>3.50853</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVA-------------LDN----------LGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>VLVEGVHRARALKVEDTGELFMAHVETA---------EDTDADNPDMEALRRTLLSQFDQFAKLNKKIPAEV-ISTIHAINENSRLVDTVAAHLQLKLEQRQEVLDTVSITDRMEYLLGQLEAELDIMQVEKRIR---GRVKRQMEKSQREYYLNEQVKAIQKELGEEDER</Hsp_hseq>
+      <Hsp_midline>V++E V+ A A  VE    L +A+V+T          E + AD PD   +   L   + Q  K +  +P  V ++  + +N N R    VA             LD           LG+ +  +D  ++   +R   G+V R +  S  +   +E+     K+  E DER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|937531449|ref|WP_054599303.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sp. 74A18] &gt;gi|937493797|gb|KPN74119.1| hypothetical protein AKG43_04100 [Neisseria sp. 74A18]</Hit_def>
+  <Hit_accession>KPN74119</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>3.65995</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>477</Hsp_hit-from>
+      <Hsp_hit-to>556</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>AVPLLVKVAEANP---VNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>AVTDLRRYLELNPDSAIGMNA---LGYTMFSLPKYDVEEAFKLIQAAYQQEPESAAINDSLGWAYYLKGDAQAALPYLEYAFE</Hsp_hseq>
+      <Hsp_midline>AV  L +  E NP   +  N    LG  + +L ++D  EA    + A    P    ++ ++ ++Y   G  + ALP+ + A E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>8.7044</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>SVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAF-DVEVALHLGIAYVKTGAVDRGTELLERSI</Hsp_qseq>
+      <Hsp_hseq>AINDSLGWAYYL-KGDAQA-------ALPYLE--YAFEQFPDPEVAAHLGEVFWKLGQQEKAKTVWQQGL</Hsp_hseq>
+      <Hsp_midline>++ND +   YY  KG + A       A+  LE  Y  + F D EVA HLG  + K G  ++   + ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|937531050|ref|WP_054598904.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Neisseria sp. 74A18] &gt;gi|937494258|gb|KPN74562.1| polyphosphate kinase [Neisseria sp. 74A18]</Hit_def>
+  <Hit_accession>KPN74562</Hit_accession>
+  <Hit_len>685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>3.80103</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>504</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>YQSPFTLHPMVLESIEREK--RNAEAGRPAWIIAKMNSLIEPGV--IEALYAASAAGVQIDLIVRGMCALRPEVPGLSDNIRVRSIIG</Hsp_hseq>
+      <Hsp_midline>++S F+++  + +   R+K   +A+AGR +  +  +  + +     +E       A V+   + RG   L   +    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|937531223|ref|WP_054599077.1|</Hit_id>
+  <Hit_def>hypothetical protein [Neisseria sp. 74A18] &gt;gi|937494202|gb|KPN74510.1| hypothetical protein AKG43_02615 [Neisseria sp. 74A18]</Hit_def>
+  <Hit_accession>KPN74510</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>7.37731</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LDNLG----RFDEAIDSFKI---ALGLRPNEGKVHRAIA-------------YSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>INNLGIKIARLEKEVDSLKTRVRQLERRPAANRSHTKPPVRTQTNTVAAEPPRSATQTNQYEQALQHYQKGN</Hsp_hseq>
+      <Hsp_midline>++NLG    R ++ +DS K     L  RP   + H                  S  Q   +E+AL H++K N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|937531357|ref|WP_054599211.1|</Hit_id>
+  <Hit_def>2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria sp. 74A18] &gt;gi|937493992|gb|KPN74307.1| 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase [Neisseria sp. 74A18]</Hit_def>
+  <Hit_accession>KPN74307</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>9.55062</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>15</Hsp_align-len>
+      <Hsp_qseq>LLERSIADAPDNIKV</Hsp_qseq>
+      <Hsp_hseq>LLERGLADAGDNILV</Hsp_hseq>
+      <Hsp_midline>LLER +ADA DNI V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>4577</Statistics_db-num>
+      <Statistics_db-len>1413605</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

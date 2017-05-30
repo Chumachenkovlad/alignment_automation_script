@@ -8,11 +8,43 @@ qblast(program, database, sequence, url_base='https://blast.ncbi.nlm.nih.gov/Bla
 """
 
 organism_pattern = r'.*?\[(.*)].*'
-DIR_SAVED = 'saved_data'
+INDATA = {
+    'gastro': {
+        'dir_saved': 'saved_data_gastro',
+        'result_file_name': 'result_gastro',
+        'orgaism_file': 'organisms_gastro'
+    },
+    'skin': {
+        'dir_saved': 'saved_data_skin',
+        'result_file_name': 'result_skin',
+        'orgaism_file': 'organisms_skin'
+    },
+    'eye': {
+        'dir_saved': 'saved_data_vagina_eye',
+        'result_file_name': 'result_eye',
+        'orgaism_file': 'organisms_eye'
+    },
+    'vagina': {
+        'dir_saved': 'saved_data_vagina_eye',
+        'result_file_name': 'result_vagina',
+        'orgaism_file': 'organisms_vagina'
+    }
+}
+part = 'skin'
+DIR_SAVED = INDATA[part]['dir_saved']
+RESULT_FILE_NAME = INDATA[part]['result_file_name']
+ORGANISMS_FILE = INDATA[part]['orgaism_file']
 CONDITIONS = {
+    'identities': 25,
+    'e-value': 0.0001,
+    'block-word': 'hypothetical',
+    'min-length': 100
+}
+DZ_CONDITIONS = {
     'identities': 18,
-    'e-value': 1,
-    'block-word': 'hypothetical'
+    'e-value': 0.05,
+    'block-word': 'hypothetical',
+    'min-length': 100
 }
 
 MAM_GIDS = {
@@ -38,28 +70,56 @@ parsedData = {
 }
 
 goalOrganisms = ['Acinetobacter spp']
+all_unique_organisms = set()
+all_organisms = []
+alignments = []
 
 
 def get_goal_organisms():
-    with open('organisms') as organisms_source:
+    with open(ORGANISMS_FILE) as organisms_source:
         # print(organisms_source.read().split('\n'))
         return organisms_source.read().split('\n')
-    # return goalOrganisms
+        # return goalOrganisms
 
 
 def get_data(gid, goal):
     print('Start getting data for {} {}'.format(gid, goal))
-    return NCBIWWW.qblast(
-        'blastp',
-        'nr',
-        gid,
-        entrez_query=goal)
+
+    while True:
+        try:
+            return NCBIWWW.qblast(
+                'blastp',
+                'nr',
+                gid,
+                entrez_query=goal)
+        except Exception:
+            time.sleep(10)
+            print('Error: Cannot get data from NCBI, trying again after 10 seconds...')
 
 
 def save_data(data, filename):
     print('Start saving data to file {}.xml'.format(filename))
     with open("{}/{}.xml".format(DIR_SAVED, filename), 'w') as savedFile:
         savedFile.write(data.read())
+
+
+def sort_list_of_alignments(alignment_list):
+    sorted_list = []
+    unique_organisms = set()
+    for alg in alignment_list:
+        unique_organisms.add(alg['organism'])
+    for org in unique_organisms:
+        all_organisms.append(org)
+    for org in unique_organisms:
+        best_alignment = False
+        for alg in alignment_list:
+            if alg['organism'] == org:
+                if not best_alignment:
+                    best_alignment = alg
+                elif best_alignment['e-value'] < alg['e-value']:
+                    best_alignment = alg
+        sorted_list.append(best_alignment)
+    return sorted_list
 
 
 def parse_data(mam, goal, filename):
@@ -72,18 +132,32 @@ def parse_data(mam, goal, filename):
 
             for hsp in alignment.hsps:
 
-                if hsp.identities > CONDITIONS['identities'] and not (CONDITIONS['block-word'] in alignment.title):
-                    organism, protein = parse_title(alignment.title)
+                if not hsp.identities > CONDITIONS['identities'] \
+                        and (CONDITIONS['block-word'] in alignment.title):
+                    continue
+                if hsp.align_length > DZ_CONDITIONS['min-length'] \
+                        and hsp.expect < DZ_CONDITIONS['e-value']:
+                    statistic = 'DZ'
+                else:
+                    continue
+                if hsp.align_length > CONDITIONS['min-length'] \
+                        and hsp.expect < CONDITIONS['e-value']:
+                    statistic = 'H'
 
-                    if not (goal.lower() in organism):
-                        continue
-                    alignment_seqs.append({
-                        'protein': protein,
-                        'organism': organism,
-                        'identities': hsp.identities,
-                        'e-value': hsp.expect
-                    })
-            parsedData[mam] = alignment_seqs[:10]
+                organism, protein = parse_title(alignment.title)
+
+                if not (goal.lower() in organism):
+                    continue
+                alignment_seqs.append({
+                    'statistic': statistic,
+                    'protein': protein,
+                    'organism': organism,
+                    'identities': hsp.identities,
+                    'e-value': hsp.expect
+                })
+
+            parsedData[mam].append(sort_list_of_alignments(alignment_seqs))
+            # parsedData[mam].append(alignment_seqs)
     openfile.close()
 
 
@@ -100,12 +174,12 @@ def filter_alignments(alignments):
 
 def parse_title(title):
     title = title.split('>')
-    title = title[len(title)-1]
+    title = title[len(title) - 1]
     title = title.split('|')
-    title = title[len(title)-1]
-    organism = title[title.find("[")+1: title.find("]")]
+    title = title[len(title) - 1]
+    organism = title[title.find("[") + 1: title.find("]")]
     organism = organism.lower()
-    protein = title.replace(title[title.find("["): title.find("]")+1], '')
+    protein = title.replace(title[title.find("["): title.find("]") + 1], '')
     return organism, protein
 
 
@@ -140,33 +214,125 @@ def print_parsed_data(data):
 
 
 def string_to_line(string):
-    return '{}\r\n'.format(str(string))
+    if string:
+        return '{}\r\n'.format(str(string))
+    return False
 
 
 def save_final_alignments(data):
-    with open('result_v1.txt', 'w') as outfile:
+    with open('{}.txt'.format(RESULT_FILE_NAME), 'w') as outfile:
+        # for mam in data:
+        #     outfile.write(string_to_line(mam))
+        #     for item in data[mam]:
+        #         line = '\t{}\t{}\t{} ({}%)'.format(
+        #             item['organism'],
+        #             item['protein'],
+        #             item['e-value'],
+        #             item['identities'])
+        #         outfile.write(string_to_line(line))
+        for alg in data:
+            algn_string = string_to_line(print_alignment(alg))
+            if bool(algn_string):
+                outfile.write(algn_string)
+
+
+def make_mam_table(data):
+
+    alignment = {
+        "organism_name": '',
+        # "statistic": '',
+        "MamA": '-',
+        "MamB": '-',
+        "MamM": '-',
+        "MamO": '-',
+        "MamE": '-',
+        "MamN": '-',
+        "MamK": '-',
+        "MamH": '-',
+    }
+    for organism in all_unique_organisms:
+        alg = alignment.copy()
+        alg['organism'] = organism
+        # alignments.append(alg)
         for mam in data:
-            outfile.write(string_to_line(mam))
-            for item in data[mam]:
-                line = '\t{}\t{}\t{} ({}%)'.format(
-                    item['organism'],
-                    item['protein'],
-                    item['e-value'],
-                    item['identities'])
-                outfile.write(string_to_line(line))
+            for cur_alg in data[mam]:
+                for data_alg in cur_alg:
+                    if data_alg['organism'] == organism:
+                        # alg['statistic'] = data_alg['statistic']
+                        alg[mam] = data_alg['statistic'] #'{} ({}%) {}'.format(data_alg['e-value'], data_alg['identities'], data_alg['protein'])
+        alignments.append(alg)
+
+
+def old_print_alignment(a):
+    table_string = '{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}'.format(
+        a["organism"],
+        a["MamA"],
+        a["MamB"],
+        a["MamM"],
+        a["MamO"],
+        a["MamE"],
+        a["MamN"],
+        a["MamK"],
+        a["MamH"])
+    print(table_string)
+    return table_string
+
+
+def print_alignment(a):
+    # table_string = '{}\t\t\t{}\t{}\t{}\t{}\t'.format(
+    #     a["organism"],
+    #     # a["MamA"],
+    #     a["MamB"],
+    #     a["MamM"],
+    #     a["MamO"],
+    #     a["MamE"],
+    #     # a["MamN"],
+    #     # a["MamK"],
+    #     # a["MamH"]
+    # )
+    production_type = False
+    statistic = False
+    if not [a['MamB'], a['MamM'], a['MamO'], a['MamE']].__contains__('-'):
+        production_type = 'A'
+        if all(item == 'H' for item in [a['MamB'], a['MamM'], a['MamO'], a['MamE']]):
+            statistic = 'H'
+        else:
+            statistic = 'DZ'
+    else:
+        return False
+    if a['MamA'] != '-':
+        production_type = 'C'
+        if a['MamA'] == 'H' and not statistic == 'DZ':
+            statistic = 'H'
+        else:
+            statistic = 'DZ'
+    if a['MamK'] != '-' and a['MamA'] != '-':
+        production_type = 'CC'
+        if all(item == 'H' for item in [a['MamK'], a['MamA']]) and not statistic == 'DZ':
+            statistic = 'H'
+        else:
+            statistic = 'DZ'
+    table_string = '{}\t{}\t{}'.format(a["organism"], production_type, statistic)
+    print(table_string)
+    return table_string
 
 
 def main():
-    for goal in get_goal_organisms():
+    goal_organisms = get_goal_organisms()
+    for goal in goal_organisms:
+        print('\n{}/{}\n' \
+            .format(
+                goal_organisms.index(goal) + 1,
+                len(goal_organisms)))
         make_mams_aligns(goal)
 
 
 if __name__ == '__main__':
     main()
-    print_parsed_data(parsedData)
-    save_final_alignments(parsedData)
+    for organism in all_organisms:
+        all_unique_organisms.add(organism)
+    make_mam_table(parsedData)
+
+    # print_parsed_data(parsedData)
+    save_final_alignments(alignments)
     # get_goal_organisms()
-
-
-
-

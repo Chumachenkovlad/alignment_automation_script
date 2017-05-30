@@ -1,0 +1,1178 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489982390|ref|WP_003885482.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Mycobacterium] &gt;gi|403654852|gb|EJZ09745.1| trypsin [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|725872554|gb|AIY47787.1| Serine protease HtrA (DegP protein) [Mycobacterium sp. VKM Ac-1817D] &gt;gi|858012008|emb|CRL58716.1| trypsin [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|858038424|emb|CRL74944.1| trypsin [Mycobacterium nonchromogenicum] &gt;gi|937422290|gb|ALI28289.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038449577|gb|OBK00598.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038461545|gb|OBK11944.1| serine protease [Mycobacterium fortuitum] &gt;gi|1132950163|gb|OMC45780.1| serine protease [Mycobacterium fortuitum]</Hit_def>
+  <Hit_accession>AIY47787</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.464</Hsp_bit-score>
+      <Hsp_score>280</Hsp_score>
+      <Hsp_evalue>2.97109e-26</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>AIATFPPVVDFGPAPVVSGGPFTGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANS----VYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGM-----THSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>AFTTSKVTLETGDLPSPDAGRFATVAAAVEDSVVTIEAKS--------------------------KTEGSQGSGVVVDGKGYVVTNNHVISDAASKPADYQITVVFNDGK-EVPANLVGRDPKTDLAVLKVDNVDNLVVARMGDSEKVRVGEEVIAAGAPLGLRSTVTHGIISALHRPVPLSGEGSDTDTVIDGLQTDASINHGNSGGPLINMSSEVIGINTAGKSLSDSASGLGFAIPVNEVK</Hsp_hseq>
+      <Hsp_midline>A  T    ++ G  P    G F  V   + +SVV++ A S                          ++  + G+GV+V   G++VTN HV+  A S      +TV  + G       +V  D   DLA+LK+     L  A +GDS+ V V +EVIA G P GL  TV+ GIISA  + + + G      T  + LQTDA+IN GNSGGPL+  +  V+GINTA  + + + +G+GFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.255477</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>GAQVRNVNAGGPADKAGILENDVVVKVGDRKVADADEMVVAVR-QLKIGQEAPIEVLRDGR</Hsp_hseq>
+      <Hsp_midline>GAQV  V AG  A  AG+  ND++++V +R V     +  A++     GQ+  ++V R+G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.842072</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GAQVRNVNAGGPADKAGILENDVVVKVGDRKVADADEMVVAVRQLKIGQEAPIEVLRDG</Hsp_hseq>
+      <Hsp_midline>G  V  V    PA  AG+   DV++KV  R V   +E+   + ++  G+   I VLR G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|860438954|ref|WP_048421971.1|</Hit_id>
+  <Hit_def>serine protease [Mycobacterium obuense] &gt;gi|859102981|gb|KMO81237.1| putative periplasmic serine endoprotease DegP-like precursor [Mycobacterium obuense]</Hit_def>
+  <Hit_accession>KMO81237</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>3.8649e-26</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDV---GSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGM-----THSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEG----PAMGLVAMQRPMGVGVGAAGPVIAAGTPS</Hsp_qseq>
+      <Hsp_hseq>GSGVIVDGRGYIVTNNHVISEAATNPSKFKMSVVFNDGKEVPANLVGRDPKTDLAVLKVDNVDNLVVARLGDSEKLRVGEEVIAAGAPLGLRSTVTHGIISALHRPVPLSGDGSDTDTVIDGVQTDASINHGNSGGPLINMNSEVIGINTAGKSLSDSASGLGFAIPVNEVKQV-------VETLIQDGKIAHPTLGLTARSVSNDVAKGAQIANVAAGGPA</Hsp_hseq>
+      <Hsp_midline>G+GVIV   G+IVTN HV+  A +     K  V           +V  D   DLA+LK+     L  A LGDS+ + V +EVIA G P GL  TV+ GIISA  + + + G      T  + +QTDA+IN GNSGGPL+  N  V+GINTA  + + + +G+GFA+P N+ +         + T   +G    P +GL A      V  GA    +AAG P+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0529826</Hsp_evalue>
+      <Hsp_query-from>676</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>NWLGMEIETFMAP----QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>NEVKQVVETLIQDGKIAHPTLGLTARSVSNDVAKGAQIANVAAGGPAERAGILENDVVVKVGDRDVADADEFVVAVR-QLKIGEPAPIEVMRDGRRVTLTV</Hsp_hseq>
+      <Hsp_midline>N +   +ET +       P +G+   +      KGAQ+A V AG  A  AG+  ND++++V +R V        A++     G+   ++V R+G+   + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.68431</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>KGAQIANVAAGGPAERAGILENDVVVKVGDRDVADADEFVVAVRQLKIGEPAPIEVMRDGRRVTLTVTPGPD</Hsp_hseq>
+      <Hsp_midline>+G  +  V    PA  AG+   DV++KV  R V   +E    + ++  G    I V+R G    +++  GP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|860416464|ref|WP_048418399.1|</Hit_id>
+  <Hit_def>serine protease [Mycobacterium chubuense] &gt;gi|859101965|gb|KMO80233.1| putative periplasmic serine endoprotease DegP-like precursor [Mycobacterium chubuense] &gt;gi|1177073690|gb|ORA54752.1| serine protease [Mycobacterium chubuense]</Hit_def>
+  <Hit_accession>KMO80233</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.54914e-26</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDV---GSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGM-----THSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGLVAMQRPMGVGVGAAGPVIAAGTPS</Hsp_qseq>
+      <Hsp_hseq>GSGVIVDGRGYIVTNNHVISEAATNPSKFKMSVVFNDGKEVPANLVGRDPKTDLAVLKVDNVDNLVVARLGDSEKLRVGEEVIAAGAPLGLRSTVTHGIISALHRPVPLSGDGSDTDTVIDGVQTDASINHGNSGGPLINMNSEVIGINTAGKSLSDSASGLGFAIPVNEVKQVVET---LIQSGKMAHPTLGLTARSVSNDVSKGAQIANVTAGGPA</Hsp_hseq>
+      <Hsp_midline>G+GVIV   G+IVTN HV+  A +     K  V           +V  D   DLA+LK+     L  A LGDS+ + V +EVIA G P GL  TV+ GIISA  + + + G      T  + +QTDA+IN GNSGGPL+  N  V+GINTA  + + + +G+GFA+P N+ +         + +     P +GL A      V  GA    + AG P+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0209496</Hsp_evalue>
+      <Hsp_query-from>676</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>NWLGMEIETFMAP----QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>NEVKQVVETLIQSGKMAHPTLGLTARSVSNDVSKGAQIANVTAGGPAERAGILENDVVVKIGNREVADADEMVVAVR-QLKIGEPAPVEVVRDGRRVTLTV</Hsp_hseq>
+      <Hsp_midline>N +   +ET +       P +G+   +      KGAQ+A V AG  A  AG+  ND+++++ NR V     +  A++     G+   ++V R+G+   + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.55478</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>KGAQIANVTAGGPAERAGILENDVVVKIGNREVADADEMVVAVRQLKIGEPAPVEVVRDGRRVTLTVTPG</Hsp_hseq>
+      <Hsp_midline>+G  +  VT   PA  AG+   DV++K+  R V   +E+   + ++  G    + V+R G    +++  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|860587658|ref|WP_048473515.1|</Hit_id>
+  <Hit_def>serine protease [Mycobacterium chlorophenolicum] &gt;gi|859088712|gb|KMO67214.1| putative periplasmic serine endoprotease DegP-like precursor [Mycobacterium chlorophenolicum]</Hit_def>
+  <Hit_accession>KMO67214</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>5.02555e-26</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDV---GSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGM-----THSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGLVAMQRPMGVGVGAAGPVIAAGTPS</Hsp_qseq>
+      <Hsp_hseq>GSGVIVDGRGYIVTNNHVISEAATNPSKFKMSVVFNDGKEVPANLVGRDPKTDLAVLKVDNVDNLVVARLGDSEKLRVGEEVIAAGAPLGLRSTVTHGIISALHRPVPLSGDGSDTDTVIDGVQTDASINHGNSGGPLINMNSEVIGINTAGKSLSDSASGLGFAIPVNEVKQVVET---LIQSGKMAHPTLGLTARSVSNDVSKGAQIANVTAGGPA</Hsp_hseq>
+      <Hsp_midline>G+GVIV   G+IVTN HV+  A +     K  V           +V  D   DLA+LK+     L  A LGDS+ + V +EVIA G P GL  TV+ GIISA  + + + G      T  + +QTDA+IN GNSGGPL+  N  V+GINTA  + + + +G+GFA+P N+ +         + +     P +GL A      V  GA    + AG P+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0213127</Hsp_evalue>
+      <Hsp_query-from>676</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>NWLGMEIETFMAP----QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>NEVKQVVETLIQSGKMAHPTLGLTARSVSNDVSKGAQIANVTAGGPAERAGILENDVVVKIGNREVADADEMVVAVR-QLKIGEPAPVEVVRDGRRVTLTV</Hsp_hseq>
+      <Hsp_midline>N +   +ET +       P +G+   +      KGAQ+A V AG  A  AG+  ND+++++ NR V     +  A++     G+   ++V R+G+   + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.63357</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>KGAQIANVTAGGPAERAGILENDVVVKIGNREVADADEMVVAVRQLKIGEPAPVEVVRDGRRVTLTVTPG</Hsp_hseq>
+      <Hsp_midline>+G  +  VT   PA  AG+   DV++K+  R V   +E+   + ++  G    + V+R G    +++  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|859097364|gb|KMO75683.1|</Hit_id>
+  <Hit_def>Periplasmic serine endoprotease DegP precursor [Mycobacterium obuense]</Hit_def>
+  <Hit_accession>KMO75683</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>6.83978e-22</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGAN------SVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHS-----NLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT---PNGAFA----GIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>GSGVILSADGLILTNNHVVAAAAAPGGGPQTKVTFSD---GRTAAFDIVGTDPGSDIAVVRAKGVSGLTPIAIGSSANLRVGQDVVAIGSPLGLEGTVTTGIISALNRPVAAGGDAQNQNTVLDAIQTDAAINPGNSGGALVNMNGELVGINSAIATMGADSGATQSGSIGLGFAIPVDQAKRIA-DEL</Hsp_hseq>
+      <Hsp_midline>G+GVI+  DG I+TN HVV  A          VT  D       + +IV  D   D+A+++      LT   +G S  + V  +V+AIG+P GL+ TV+ GIISA  + +   G   +     + +QTDAAIN GNSGG LV  NG +VGIN+AI T    +GA      G+GFA+P +QA+  A DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.30436</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>616</Hsp_query-to>
+      <Hsp_hit-from>344</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LGLQ-ANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEE-VAAIMAEMPNGR</Hsp_qseq>
+      <Hsp_hseq>LGVQVGNNAGGDGAKIVEVTPNGAASSAGLPAGVTVTKLDDRVIDSADALVAAVRSKAPGDK</Hsp_hseq>
+      <Hsp_midline>LG+Q  N   G G  +  VTPN  A+SAGL  G  + K+D R +   +  VAA+ ++ P  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.2231</Hsp_evalue>
+      <Hsp_query-from>703</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>GGDGAKIVEVTPNGAASSAGLPAGVTVTKLDDRVIDSADALVAAVR-SKAPGDKVTL</Hsp_hseq>
+      <Hsp_midline>GG GA++ EV     A+ AGL A   + ++++R + S   L AA++ + A G ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|860588328|ref|WP_048473774.1|</Hit_id>
+  <Hit_def>peptidase S1 [Mycobacterium chlorophenolicum] &gt;gi|859089097|gb|KMO67599.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Mycobacterium chlorophenolicum]</Hit_def>
+  <Hit_accession>KMO67599</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>7.17281e-22</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGAN---------SVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHS-----NLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-------PNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>GSGVILSTDGLILTNNHVVAAAAGTPGGPAAPETKVTFSDG-KTVPF--DIVGTDPGSDIAVVRAKNVSGLTPIAIGSSANLRVGQDVVAVGSPLGLEGTVTTGIISALNRPVAAGGDAQNQNTVLDAIQTDAAINPGNSGGALVNMNGELVGINSAIATMGADAGAAQGGSIGLGFAIPVDQAKRIA-DEL--IQTGSASRASLGV</Hsp_hseq>
+      <Hsp_midline>G+GVI+  DG I+TN HVV  A             VT  D   ++ +  +IV  D   D+A+++      LT   +G S  + V  +V+A+G+P GL+ TV+ GIISA  + +   G   +     + +QTDAAIN GNSGG LV  NG +VGIN+AI T         G   G+GFA+P +QA+  A DE+  + T +A   ++G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.24625</Hsp_evalue>
+      <Hsp_query-from>703</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>374</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>GGDGAKIVEVTPGGAASSAGLPAGVVVTKLDDRVIDSADALVAAVR-SKAPGDKVSL</Hsp_hseq>
+      <Hsp_midline>GG GA++ EV  G  A+ AGL A  ++ ++++R + S   L AA++ + A G ++ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.97239</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>616</Hsp_query-to>
+      <Hsp_hit-from>365</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LGLQ-ANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEE-VAAIMAEMPNGR</Hsp_qseq>
+      <Hsp_hseq>LGVQVGNNAGGDGAKIVEVTPGGAASSAGLPAGVVVTKLDDRVIDSADALVAAVRSKAPGDK</Hsp_hseq>
+      <Hsp_midline>LG+Q  N   G G  +  VTP   A+SAGL  G V+ K+D R +   +  VAA+ ++ P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|860420104|ref|WP_048419929.1|</Hit_id>
+  <Hit_def>peptidase S1 [Mycobacterium chubuense] &gt;gi|859095614|gb|KMO73975.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Mycobacterium chubuense] &gt;gi|1177065875|gb|ORA47018.1| peptidase S1 [Mycobacterium chubuense]</Hit_def>
+  <Hit_accession>KMO73975</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>7.43698e-22</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGAN---------SVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHS-----NLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-------PNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>GSGVILSTDGLILTNNHVVAAAAGTPGGPAGPETKVTFSDGK-TVPF--DIVGTDPGSDIAVVRAKNVSGLTPIAIGSSANLRVGQDVVAVGSPLGLEGTVTTGIISALNRPVAAGGDAQNQNTVLDAIQTDAAINPGNSGGALVNMNGELVGINSAIATMGADAGAAQGGSIGLGFAIPVDQAKRIA-DEL--IQTGSASRASLGV</Hsp_hseq>
+      <Hsp_midline>G+GVI+  DG I+TN HVV  A             VT  D   ++ +  +IV  D   D+A+++      LT   +G S  + V  +V+A+G+P GL+ TV+ GIISA  + +   G   +     + +QTDAAIN GNSGG LV  NG +VGIN+AI T         G   G+GFA+P +QA+  A DE+  + T +A   ++G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.25701</Hsp_evalue>
+      <Hsp_query-from>703</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>374</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>GGDGAKIVEVTPGGAASSAGLPAGVVVTKLDDRVIDSADALVAAVR-SKAPGDKVSL</Hsp_hseq>
+      <Hsp_midline>GG GA++ EV  G  A+ AGL A  ++ ++++R + S   L AA++ + A G ++ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.55999</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>616</Hsp_query-to>
+      <Hsp_hit-from>365</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LGLQ-ANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEE-VAAIMAEMPNGR</Hsp_qseq>
+      <Hsp_hseq>LGVQVGNNAGGDGAKIVEVTPGGAASSAGLPAGVVVTKLDDRVIDSADALVAAVRSKAPGDK</Hsp_hseq>
+      <Hsp_midline>LG+Q  N   G G  +  VTP   A+SAGL  G V+ K+D R +   +  VAA+ ++ P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|489982611|ref|WP_003885701.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase S1 [Mycobacterium] &gt;gi|403653318|gb|EJZ08308.1| peptidase S1 and S6, chymotrypsin/Hap [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|725872909|gb|AIY48142.1| HtrA protease/chaperone family protein [Mycobacterium sp. VKM Ac-1817D] &gt;gi|858012469|emb|CRL58377.1| peptidase S1 and S6, chymotrypsin/Hap [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|858032182|emb|CRL82483.1| peptidase S1 and S6, chymotrypsin/Hap [Mycobacterium nonchromogenicum] &gt;gi|1038073138|gb|OBG50061.1| peptidase S1 [Mycobacterium fortuitum]</Hit_def>
+  <Hit_accession>AIY48142</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>4.00518e-21</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGAN-------------------SVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHS-----NLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG-------AFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>GSGIILTADGLILTNNHVVQAAKPGGPGPSPMPGGAPAPAGAQTKVTFSD--GTTK-PFTVVGTDPSSDIAVVRAQDVSNLTPITLGSSQNLRVGQDVVAVGSPLGLEGTVTTGIVSALNRPVAAGGDARNQNTVLDAIQTDAAINPGNSGGALVNMNGELVGINSAIATMGGDSPQAQSGSIGLGFAIPVDQAKRIA-DEL</Hsp_hseq>
+      <Hsp_midline>G+G+I+  DG I+TN HVV+ A                       VT  D  G+ +    +V  D + D+A+++      LT   LG S  + V  +V+A+G+P GL+ TV+ GI+SA  + +   G   +     + +QTDAAIN GNSGG LV  NG +VGIN+AI T  G          G+GFA+P +QA+  A DE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|859101775|gb|KMO80044.1|</Hit_id>
+  <Hit_def>putative periplasmic serine endoprotease DegP-like precursor [Mycobacterium obuense]</Hit_def>
+  <Hit_accession>KMO80044</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>4.06589e-21</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVR-------GANSVYVTVKDDVGSIRYSG------EIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN----TAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>GSGIVLSPDGLILTNNHVVAPAVQGGAGAQPAAFDGGDSPATVTFSDGRSVPFTVVGTDPIGDLAVVRAQGVSGLTPITIGSSKDVKIGQEVVAIGSPLGLQGTVTKGIVSALNRPVTAGDGEGTSPVVLDALQTDAAINPGNSGGPLVDMNGDLIGVNSAGASMGSGSSGGSIGLGFAIPSDQAKRIA-DEL--ISSGTASHGSLGV</Hsp_hseq>
+      <Hsp_midline>G+G+++  DG I+TN HVV        GA        D   ++ +S        +V  D   DLA+++      LT   +G S  V +  EV+AIG+P GL  TV++GI+SA  R     +G   S    + LQTDAAIN GNSGGPLV  NG ++G+N    +     +G   G+GFA+PS+QA+  A DE+  + + TA   ++G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0947201</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>635</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVT</Hsp_qseq>
+      <Hsp_hseq>GAAIAQVAAGSPAAQAGLSSGAVITKIDGQVIDGPEALAAAVRSKAPGDQVSVTYRDDTGATQTALVT</Hsp_hseq>
+      <Hsp_midline>G  +  V   +PAA AGL  G VI K+DG+ +  PE +AA +     G  V +        +  +LVT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.583451</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>764</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRN</Hsp_qseq>
+      <Hsp_hseq>DGAAIAQVAAGSPAAQAGLSSGAVITKIDGQVIDGPEALAAAVR-SKAPGDQVSVTYRDD</Hsp_hseq>
+      <Hsp_midline> GA +A+V AGS AA AGL +  +I +++ + +  P  L AA++ + A G Q+ +    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|860446123|ref|WP_048424573.1|</Hit_id>
+  <Hit_def>signal protein PDZ [Mycobacterium obuense] &gt;gi|859092848|gb|KMO71290.1| putative serine protease HtrA [Mycobacterium obuense]</Hit_def>
+  <Hit_accession>KMO71290</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>3.4695e-20</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>GLPRFANPTTRSVEN---IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTM---VIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPS</Hsp_qseq>
+      <Hsp_hseq>GLVRRVEPSVVTVLTEGGVGSGIVYKPDGTIVTNAHVVDGMQGVTVVLAD--GS-RVAGTVRGADEVSDLAVIQVD-RTGLPAATF-QKPLPQVGELAVVMGSPLGFEATVTSGIISGLHRQIPGSASSGAPLVDLIQTDAAISPGNSGGAVLDADGEVVGMSVAYIPPTAGAVALGFAIPA</Hsp_hseq>
+      <Hsp_midline>GL R   P+  +V     +G+G++ + DG IVTN HVV G   V V + D  GS R +G +   DE  DLA++++  +  L AA         V +  + +G+P G + TV+ GIIS   + +      G    +L+QTDAAI+ GNSGG ++ A+G VVG++ A   P      +GFA+P+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.50617e-06</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLG---AALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>TGTARHSFIGIQPATLTPEISRL-LGIDLTSGV-VAMQVVTPS-PAAEAGIRPGDIIIAFNGQETATAEELIAALRSTKPGDRVQLSVLRGDKTQDIAVI</Hsp_hseq>
+      <Hsp_midline>+G +R S +G   A LTP   RL L  +L +G  V +  VTP+ PAA AG+RPGD+I+  +G+     EE+ A +     G  V++ VLR     +++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1175902435|ref|WP_082162218.1|</Hit_id>
+  <Hit_def>serine protease [Mycobacterium chubuense] &gt;gi|859100597|gb|KMO78878.1| putative periplasmic serine endoprotease DegP-like precursor [Mycobacterium chubuense] &gt;gi|1177069069|gb|ORA50185.1| serine protease [Mycobacterium chubuense]</Hit_def>
+  <Hit_accession>KMO78878</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>3.65679e-20</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVV----------------RGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNL----LQTDAAINQGNSGGPLVAANGTVVGIN--TAIYTPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>GSGIVLSPDGLILTNNHVVAPVAEGDTTGAQPAGFDGGNTMSTVTFSDGRSVPFT--VVGTDPTGDLAVVRAQGVTGLTPIAIGSSKDVQIGQEVVAIGSPLGLQGTVTKGIVSALNRPVTAGDGAGGSGVVLEALQTDAAINPGNSGGPLVNMKGELIGVNSAGASTGSGGGSIGLGFAIPSDQAKRIA-DEL</Hsp_hseq>
+      <Hsp_midline>G+G+++  DG I+TN HVV                 G N++      D  S+ ++  +V  D   DLA+++      LT   +G S  V +  EV+AIG+P GL  TV++GI+SA  R     +G   S +    LQTDAAIN GNSGGPLV   G ++G+N   A     G   G+GFA+PS+QA+  A DE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1028081261|ref|WP_063840635.1|</Hit_id>
+  <Hit_def>serine protease [Mycobacterium chlorophenolicum] &gt;gi|859096984|gb|KMO75311.1| putative periplasmic serine endoprotease DegP-like precursor [Mycobacterium chlorophenolicum]</Hit_def>
+  <Hit_accession>KMO75311</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>9.40757e-20</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSG------EIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNL----LQTDAAINQGNSGGPLVAANGTVVGIN--TAIYTPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>GSGIVLTPDGLILTNNHVVAPVAEGGAPGAQPAAFDGGDTTSTVTFSDGRSVPFTVVGTDPTGDLAVVRAQGVSGLTPIAIGSSKDVQIGQEVVAIGSPLGLQGTVTKGIVSALNRPVTAGDGEGGSGVVLEALQTDAAINPGNSGGPLVNMKGELIGVNSAGASTGSGGGSIGLGFAIPSDQAKRIA-DEL</Hsp_hseq>
+      <Hsp_midline>G+G+++  DG I+TN HVV         GA        D   ++ +S        +V  D   DLA+++      LT   +G S  V +  EV+AIG+P GL  TV++GI+SA  R     +G   S +    LQTDAAIN GNSGGPLV   G ++G+N   A     G   G+GFA+PS+QA+  A DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.77339</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>SPAAQAGLSSGSVITKVNDQVIDGPEALAAAVRSKAPGDQISL</Hsp_hseq>
+      <Hsp_midline>+PAA AGL  G VI KV+ + +  PE +AA +     G  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|765209468|gb|AIY49507.2|</Hit_id>
+  <Hit_def>HtrA protease/chaperone family protein [Mycobacterium sp. VKM Ac-1817D]</Hit_def>
+  <Hit_accession>AIY49507</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>8.39895e-16</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>IVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI---EGMTHS--NLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFA----------GIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>VVGTDPDDDLAVVKAQNVSGLTPITIGSSKDLKVGQNVVAVGSPLGLQGTVTTGIISALDRPVATGDEQSGQHSVMSAIQTDAAINPGNSGGALVDMNGDLIGVNSAIASLGGGQGSQGGGQAGSIGLGFAIPVDQAKRIA-DEL--VSTGTVQHASLGV</Hsp_hseq>
+      <Hsp_midline>+V  D   DLA++K      LT   +G S  + V   V+A+G+P GL  TV+ GIISA  + +     +   HS  + +QTDAAIN GNSGG LV  NG ++G+N+AI +  G             G+GFA+P +QA+  A DE+  + T T +  ++G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.18324</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVV</Hsp_qseq>
+      <Hsp_hseq>GSGIVLSEDGLILTNNHVV</Hsp_hseq>
+      <Hsp_midline>G+G+++  DG I+TN HVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|765210299|gb|AIY48738.2|</Hit_id>
+  <Hit_def>putative secreted serine protease [Mycobacterium sp. VKM Ac-1817D]</Hit_def>
+  <Hit_accession>AIY48738</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>7.44582e-15</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSR--GIISAKRKTMVIEG-MTHSN-----LLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAF----AGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>IGTGIVLSPNGEVLTNYHVVQGANSITAT----VGGQRFPADLIGYDRQNDIAVLQLHGAAGLPPAPIGDSAALAPGHPVVALGNAGGSGAPLTREIGTVSAFNRTVNAEDELTGTSDEINGLFEFAAPVRAGDSGGPVVNDAGQVVGMTTAASV---NFRMGPGGKGFAIPINDAMAIA</Hsp_hseq>
+      <Hsp_midline>IGTG+++  +G ++TNYHVV+GANS+  T    VG  R+  +++  D   D+A+L++     L  A +GDS A+     V+A+G   G    ++R  G +SA  +T+  E  +T ++     L +  A +  G+SGGP+V   G VVG+ TA       F     G GFA+P N A   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|810942009|ref|WP_046365272.1|</Hit_id>
+  <Hit_def>serine protease [Mycobacterium obuense] &gt;gi|808775483|gb|KKE99725.1| serine protease [Mycobacterium obuense] &gt;gi|859101216|gb|KMO79491.1| putative serine protease HtrA [Mycobacterium obuense]</Hit_def>
+  <Hit_accession>KMO79491</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>3.51575e-12</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD--MTVSRGIISAKRKTMVIEG-MTHSN-----LLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAF--AGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>GTGFVIDPGGQVLTNFHVVQGADRITGTVN----GRPYPATLVGYDRKRDVAVLQLQGAGGLPPARIGDSNVLVPGEPVVALGNASGTESPLTQEVGTFTAFGQTVNAEDTLTGSSDEITGLIEFAAPVRAGDSGGPVVNANGEVVGITTA-ASVNFKMGPGGKGFAIPINDA</Hsp_hseq>
+      <Hsp_midline>GTG ++   G ++TN+HVV+GA+ +  TV        Y   +V  D   D+A+L++     L  A +GDS+ +   + V+A+G   G +  +T   G  +A  +T+  E  +T S+     L++  A +  G+SGGP+V ANG VVGI TA  + N      G GFA+P N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.35384</Hsp_evalue>
+      <Hsp_query-from>552</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>PLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIM</Hsp_qseq>
+      <Hsp_hseq>PVLLGVGIRAADRGAPGVVIQEVLRGGPAEQAGLADGDLLLSVDGVRLDSSKSLPALL</Hsp_hseq>
+      <Hsp_midline>P+   +G++A      GV +  V    PA  AGL  GD++L VDG  +   + + A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|859095176|gb|KMO73543.1|</Hit_id>
+  <Hit_def>putative serine protease HtrA [Mycobacterium chubuense]</Hit_def>
+  <Hit_accession>KMO73543</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>9.89698e-12</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSR--GIISAKRKTMVIEGMTH------SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAF--AGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>GTGFVIDPAGQVVTNFHVVQGADRITGTVN----GRPYPAVLVGYDRKRDVAVIQLQGAGGLPPANIGDSNVLVPGEPVVALGNASGTDSPLTREVGTFTAFNQTVTAEDSLTGASDEITGLIEFAAPVRAGDSGGPVVNSAGQVVGITTA-ASVNFKMGPGGKGFAIPINDAMAIA</Hsp_hseq>
+      <Hsp_midline>GTG ++   G +VTN+HVV+GA+ +  TV        Y   +V  D   D+A++++     L  A +GDS+ +   + V+A+G   G D  ++R  G  +A  +T+  E          + L++  A +  G+SGGP+V + G VVGI TA  + N      G GFA+P N A   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|859091521|gb|KMO69995.1|</Hit_id>
+  <Hit_def>putative serine protease HtrA [Mycobacterium chlorophenolicum]</Hit_def>
+  <Hit_accession>KMO69995</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>9.89698e-12</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSR--GIISAKRKTMVIEGMTH------SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAF--AGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>GTGFVIDPAGQVVTNFHVVQGADRITGTVN----GRPYPAVLVGYDRKRDVAVIQLQGAGGLPPANIGDSNVLVPGEPVVALGNASGTDSPLTREVGTFTAFNQTVTAEDSLTGASDEITGLIEFAAPVRAGDSGGPVVNSAGQVVGITTA-ASVNFKMGPGGKGFAIPINDAMAIA</Hsp_hseq>
+      <Hsp_midline>GTG ++   G +VTN+HVV+GA+ +  TV        Y   +V  D   D+A++++     L  A +GDS+ +   + V+A+G   G D  ++R  G  +A  +T+  E          + L++  A +  G+SGGP+V + G VVGI TA  + N      G GFA+P N A   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|810941451|ref|WP_046365135.1|</Hit_id>
+  <Hit_def>acid resistance periplasmic serine protease MarP [Mycobacterium obuense] &gt;gi|808775644|gb|KKE99872.1| serine protease [Mycobacterium obuense] &gt;gi|859101315|gb|KMO79590.1| Serine protease [Mycobacterium obuense]</Hit_def>
+  <Hit_accession>KMO79590</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00130195</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>TTRS----VENIGTGV--IVRNDGFIV------TNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>TTRSSVVKVRGVATSCQKVLEGSGFVVAPNRVMSNAHVVAGSDSVTVEVDGQT----YDAKVISYDPNADISILDV-PNLPSAPLQFVDTEAPAGTDGIV-MGYPGGGDFTATPARVREVIELNGPDIYRSTTVTREVYTIRGTVKQGNSGGPMINRSGKVLGV</Hsp_hseq>
+      <Hsp_midline>TTRS    V  + T    ++   GF+V      +N HVV G++SV V V        Y  +++  D   D+++L + P +        D++A    D ++ +G P G D T +    R +I      +         +      + QGNSGGP++  +G V+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|860417049|ref|WP_048418649.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Mycobacterium] &gt;gi|859093772|gb|KMO72172.1| Serine protease [Mycobacterium chlorophenolicum] &gt;gi|859101551|gb|KMO79823.1| Serine protease [Mycobacterium chubuense] &gt;gi|1177071527|gb|ORA52623.1| serine protease [Mycobacterium chubuense]</Hit_def>
+  <Hit_accession>KMO72172</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00226714</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>IVRNDGFIV------TNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>VLEGSGFVVAPNRVMSNAHVVAGSESVTVEVDGKT----YDAGVVSYDPNADISILDV-PDLPSAPLQFADAPAPSGTDGIV-MGYPGGGDFTATPARVREVIELNGPDIYRSTTVTREVYTIRGTVKQGNSGGPMINRSGKVLGV</Hsp_hseq>
+      <Hsp_midline>++   GF+V      +N HVV G+ SV V V        Y   +V  D   D+++L + P +        D+ A +  D ++ +G P G D T +    R +I      +         +      + QGNSGGP++  +G V+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|489980697|ref|WP_003883802.1|</Hit_id>
+  <Hit_def>MULTISPECIES: acid resistance periplasmic serine protease MarP [Mycobacterium] &gt;gi|403655826|gb|EJZ10656.1| serine protease [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|725873389|gb|AIY48622.1| putative serine protease [Mycobacterium sp. VKM Ac-1817D] &gt;gi|858016444|emb|CRL54829.1| serine protease [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|858039563|emb|CRL72281.1| serine protease [Mycobacterium nonchromogenicum] &gt;gi|937423312|gb|ALI29311.1| putative serine protease [Mycobacterium fortuitum] &gt;gi|987012561|gb|AMD55977.1| serine protease [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|990906670|dbj|GAT05149.1| membrane-associated serine protease [Mycobacterium fortuitum subsp. acetamidolyticum] &gt;gi|1037498115|gb|OBA93725.1| serine protease [Mycobacterium fortuitum] &gt;gi|1037504566|gb|OBA99739.1| serine protease [Mycobacterium fortuitum] &gt;gi|1037541350|gb|OBB35274.1| serine protease [Mycobacterium fortuitum] &gt;gi|1037547992|gb|OBB41693.1| serine protease [Mycobacterium fortuitum] &gt;gi|1037570495|gb|OBB63188.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038007541|gb|OBF87210.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038047239|gb|OBG25370.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038066719|gb|OBG43909.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038072089|gb|OBG49066.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038303088|gb|OBI63344.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038305553|gb|OBI65720.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038320239|gb|OBI79689.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038449116|gb|OBK00157.1| serine protease [Mycobacterium fortuitum] &gt;gi|1038518431|gb|OBK65483.1| serine protease [Mycobacterium fortuitum] &gt;gi|1132903507|gb|OMC00672.1| serine protease [Mycobacterium fortuitum] &gt;gi|1132948300|gb|OMC43950.1| serine protease [Mycobacterium fortuitum]</Hit_def>
+  <Hit_accession>AIY48622</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00686972</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>IVRNDGFIV------TNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>VLEGSGFVVAPNRVMSNAHVVAGADSV--TIEADGKT--YDAGVVSYDPNADISILDV-PNLPITPLQFAEQPAPKGTDAVV-MGYPGGGDFLATPARVREIIELNGPDIYRTTTVTREVYTVRGTVRQGNSGGPMINRAGKVLGV</Hsp_hseq>
+      <Hsp_midline>++   GF+V      +N HVV GA+SV  T++ D  +  Y   +V  D   D+++L + P + +T     +  A    D V+ +G P G D   +    R II      +         +      + QGNSGGP++   G V+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|489977847|ref|WP_003880990.1|</Hit_id>
+  <Hit_def>MULTISPECIES: zinc metalloprotease [Mycobacterium] &gt;gi|403657515|gb|EJZ12287.1| zinc metalloprotease [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|725870971|gb|AIY46204.1| Membrane-associated zinc metalloprotease [Mycobacterium sp. VKM Ac-1817D] &gt;gi|858013890|emb|CRL57131.1| zinc metalloprotease [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|858034223|emb|CRL80972.1| zinc metalloprotease [Mycobacterium nonchromogenicum] &gt;gi|937420343|gb|ALI26342.1| Membrane-associated zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|987011229|gb|AMD54645.1| zinc metalloprotease [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|1037502095|gb|OBA97429.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1037536208|gb|OBB30280.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1037550932|gb|OBB44508.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1037560622|gb|OBB53650.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1037992735|gb|OBF73226.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1038041364|gb|OBG19657.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1038078167|gb|OBG54917.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1038304871|gb|OBI65062.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1038318767|gb|OBI78289.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1038443472|gb|OBJ94712.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1038451393|gb|OBK02382.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1038512855|gb|OBK60248.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1132906430|gb|OMC03494.1| zinc metalloprotease [Mycobacterium fortuitum] &gt;gi|1132951013|gb|OMC46608.1| zinc metalloprotease [Mycobacterium fortuitum]</Hit_def>
+  <Hit_accession>AIY46204</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.43218</Hsp_evalue>
+      <Hsp_query-from>579</Hsp_query-from>
+      <Hsp_query-to>676</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD-VSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFN</Hsp_qseq>
+      <Hsp_hseq>PAAKAGIRAGDEIVKVGDTPVSDFSQMAAAVRKL-NG-PVSIELKRDGQTITTVVDVTQTQRFTSADAKEPAT--VGAIGVSAVP-VQP-----PTQYN</Hsp_hseq>
+      <Hsp_midline>PAA AG+R GD I+KV   PV    ++AA + ++ NG  V I + R G  ++ +  VT      +A  + P    V A G   VP VQP     PT++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|860578732|ref|WP_048470013.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Mycobacterium chlorophenolicum] &gt;gi|859100181|gb|KMO78463.1| Zinc metalloprotease Rip1 [Mycobacterium chlorophenolicum]</Hit_def>
+  <Hit_accession>KMO78463</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.774228</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>612</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEM</Hsp_qseq>
+      <Hsp_hseq>SPAAAAGIRAGDVVVKVGDTPVANFDEMSSAVRKL</Hsp_hseq>
+      <Hsp_midline>+PAA+AG+R GDV++KV   PV   +E+++ + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|860413616|ref|WP_048417192.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Mycobacterium chubuense] &gt;gi|859105502|gb|KMO83695.1| Zinc metalloprotease Rip1 [Mycobacterium chubuense] &gt;gi|1177072714|gb|ORA53787.1| zinc metalloprotease [Mycobacterium chubuense]</Hit_def>
+  <Hit_accession>KMO83695</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.801389</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>612</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEM</Hsp_qseq>
+      <Hsp_hseq>SPAAAAGIRAGDVVVKVGDTPVANFDEMSSAVRKL</Hsp_hseq>
+      <Hsp_midline>+PAA+AG+R GDV++KV   PV   +E+++ + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|765209105|gb|AIY49340.2|</Hit_id>
+  <Hit_def>Lon-like protease with PDZ domain [Mycobacterium sp. VKM Ac-1817D] &gt;gi|858014857|emb|CRL56251.1| PDZ domain-containing protein [Mycobacterium fortuitum subsp. fortuitum DSM 46621 = ATCC 6841] &gt;gi|858035202|emb|CRL80159.1| PDZ domain-containing protein [Mycobacterium nonchromogenicum] &gt;gi|937419815|gb|ALI25814.1| Lon-like protease with PDZ domain [Mycobacterium fortuitum]</Hit_def>
+  <Hit_accession>AIY49340</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.20881</Hsp_evalue>
+      <Hsp_query-from>579</Hsp_query-from>
+      <Hsp_query-to>651</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>PAASAG-LRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG---DVSNMSLVTGPSG----LAAAVVQAPTAP</Hsp_qseq>
+      <Hsp_hseq>PGPSAGKLRDGDAIDGVNGTPVANLDEFQAILKKTKPGEQLVIDFRRKNAPPGVATITLGDNPDRDYGFLGVGVLDAPWAP</Hsp_hseq>
+      <Hsp_midline>P  SAG LR GD I  V+G PV   +E  AI+ +   G  + I   R      V+ ++L   P      L   V+ AP AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|860444883|ref|WP_048424106.1|</Hit_id>
+  <Hit_def>arabinosyltransferase [Mycobacterium obuense] &gt;gi|859096129|gb|KMO74480.1| putative arabinosyltransferase A [Mycobacterium obuense]</Hit_def>
+  <Hit_accession>KMO74480</Hit_accession>
+  <Hit_len>1083</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.8616</Hsp_evalue>
+      <Hsp_query-from>692</Hsp_query-from>
+      <Hsp_query-to>749</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>VGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKA</Hsp_qseq>
+      <Hsp_hseq>VGIPGATGTLSVDKRPQVAGVFTDLRVPVQSGLNAR---IDVDTRFITSPTALKTLVMA</Hsp_hseq>
+      <Hsp_midline>VG+PGAT      K  QVA V    R  V +GL A    I+V+ R +TSP  L   + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|860581787|ref|WP_048471316.1|</Hit_id>
+  <Hit_def>oxidase [Mycobacterium chlorophenolicum] &gt;gi|859094508|gb|KMO72885.1| Copper resistance protein A precursor [Mycobacterium chlorophenolicum]</Hit_def>
+  <Hit_accession>KMO72885</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.47155</Hsp_evalue>
+      <Hsp_query-from>410</Hsp_query-from>
+      <Hsp_query-to>521</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>PVAAPVPPPPIPANAVSPHTDGRQ---NMTCNTCHQFVGGAAAGPIAFGQPMMPIAAPQQPAPAIRANAANPH--TDGRQNMNCASCH--------QIIGSVGAAPIAAPGAGGAYRFSQP-PGSL</Hsp_qseq>
+      <Hsp_hseq>PNGTPDPDPIAAAEAARPHT-GKTVSARLTAGSADIDLGGLTARTFAYNG--------QLPGPLIRANVGDELVVTVANQLDHASSVHWHGIALRNDMDGAAPASPNIDVGSNFTYRFSSPYPGTY</Hsp_hseq>
+      <Hsp_midline>P   P P P   A A  PHT G+     +T  +    +GG  A   A+          Q P P IRAN  +    T   Q  + +S H         + G+  A+P    G+   YRFS P PG+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|860584141|ref|WP_048472219.1|</Hit_id>
+  <Hit_def>arabinosyltransferase [Mycobacterium chlorophenolicum] &gt;gi|859091648|gb|KMO70122.1| putative arabinosyltransferase A [Mycobacterium chlorophenolicum]</Hit_def>
+  <Hit_accession>KMO70122</Hit_accession>
+  <Hit_len>1083</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.66133</Hsp_evalue>
+      <Hsp_query-from>692</Hsp_query-from>
+      <Hsp_query-to>749</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>VGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKA</Hsp_qseq>
+      <Hsp_hseq>VGIPGAAGTLGLDKRPQVAGVFTDLRVPMDAGLNAR---IDVDTRFITTPTALKTLVMA</Hsp_hseq>
+      <Hsp_midline>VG+PGA    G  K  QVA V    R  + AGL A    I+V+ R +T+P  L   + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>24327</Statistics_db-num>
+      <Statistics_db-len>7824256</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

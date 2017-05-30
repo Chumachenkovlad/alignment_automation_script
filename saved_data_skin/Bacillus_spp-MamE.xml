@@ -1,0 +1,857 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|351469736|gb|EHA29912.1|</Hit_id>
+  <Hit_def>serine protease Do (heat-shock protein) [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|452117266|gb|EME07661.1| trypsin family protein [Bacillus subtilis MB73/2] &gt;gi|558567886|gb|AHA77292.1| putative serine protease do-like protein htrA [Bacillus subtilis PY79] &gt;gi|649010639|gb|AIC39693.1| serine protease Do [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649015003|gb|AIC43925.1| serine protease Do [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|723797751|emb|CEI56441.1| serine protease Do-like HtrA [Bacillus subtilis] &gt;gi|724426945|emb|CEJ76864.1| serine protease Do-like HtrA [Bacillus sp.] &gt;gi|758319142|gb|KIU12257.1| serine protease Do (heat-shock protein) [Bacillus subtilis] &gt;gi|760456455|gb|KIX82530.1| Serine protease Do-like HtrA [Bacillus subtilis] &gt;gi|846135958|gb|AKN13405.1| Serine protease, DegP/HtrA, do-like [Bacillus subtilis] &gt;gi|1017086973|gb|KZD76635.1| Serine protease DegP/HtrA do-like protein [Bacillus subtilis] &gt;gi|1150403849|gb|AQR81256.1| Serine protease Do-like HtrA [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150917589|gb|AQR85470.1| Serine protease Do-like HtrA [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>EME07661</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>3.59279e-26</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIE---GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>GSGVIFKKENGKAYIITNNHVVEGASSLKVSLYD---GTEVTAKLVGSDSLTDLAVLQISDDHVTKVANFGDSSDLRTGETVIAIGDPLGKDLSRTVTQGIVSGVDRTVSMSTSAGETSINVIQTDAAINPGNSGGPLLNTDGKIVGINSMKISEDDV-EGIGFAIPSNDVK</Hsp_hseq>
+      <Hsp_midline>G+GVI + +    +I+TN HVV GA+S+ V++ D       + ++V  D   DLA+L+I+       A  GDS  +   + VIAIG P G D+  TV++GI+S   +T+ +    G T  N++QTDAAIN GNSGGPL+  +G +VGIN+   + +    GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00134017</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>KGVYIREVASGSPAEKAGLKAEDIIIGLKGKEIDTGSELRNILYKDAKIGDTVEVKILRNGKEM</Hsp_hseq>
+      <Hsp_midline>KG  + EV +GS A  AGL+A D+II +  + + + + L   +      G  + +K+ RNG+E </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0079159</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN-GRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>KGVYIREVASGSPAEKAGLKAEDIIIGLKGKEIDTGSELRNILYKDAKIGDTVEVKILRNG</Hsp_hseq>
+      <Hsp_midline>+GV++  V   +PA  AGL+  D+I+ + G+ +    E+  I+ +    G +V + +LR G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489321208|ref|WP_003228534.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease Do [Bacillus] &gt;gi|50812291|ref|NP_391180.2| serine protease Do-like HtrB [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|22002026|sp|Q9R9I1.1|HTRB_BACSU RecName: Full=Serine protease Do-like HtrB; AltName: Full=HtrA-like serine protease &gt;gi|6063141|gb|AAF03153.1|AF188296_1 HtrA-like serine protease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|32468822|emb|CAB15290.2| HtrA-like serine protease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|351472550|gb|EHA32663.1| hypothetical protein BSSC8_09200 [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|402482639|gb|AFQ59148.1| HtrA-like serine protease [Bacillus subtilis QB928] &gt;gi|407962134|dbj|BAM55374.1| HtrA-like serine protease [Bacillus subtilis BEST7613] &gt;gi|407966148|dbj|BAM59387.1| HtrA-like serine protease [Bacillus subtilis BEST7003] &gt;gi|452118820|gb|EME09214.1| trypsin family protein [Bacillus subtilis MB73/2] &gt;gi|459391122|gb|AGG62708.1| HtrA-like serine protease HtrB [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|558569826|gb|AHA79232.1| putative serine protease yvtA [Bacillus subtilis PY79] &gt;gi|588502889|gb|EXF55299.1| serine protease [Bacillus subtilis QH-1] &gt;gi|649012717|gb|AIC41771.1| HtrA-like serine protease [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649017080|gb|AIC46002.1| HtrA-like serine protease [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|668753504|gb|KFC29437.1| serine protease [Bacillus subtilis] &gt;gi|670922029|gb|AII37042.1| serine protease [Bacillus subtilis TO-A] &gt;gi|672771433|gb|KFH31013.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|723799859|emb|CEI58576.1| serine protease Do-like HtrB [Bacillus subtilis] &gt;gi|724429037|emb|CEJ78957.1| serine protease Do-like HtrB [Bacillus sp.] &gt;gi|728886220|gb|AIY94615.1| serine protease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728890531|gb|AIY98925.1| serine protease [Bacillus subtilis] &gt;gi|749187285|gb|AJE95995.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|758181789|gb|AJO59668.1| serine protease [Bacillus sp. YP1] &gt;gi|760455709|gb|KIX81786.1| Serine protease Do-like HtrB [Bacillus subtilis] &gt;gi|807075667|gb|AKC48873.1| serine protease [Bacillus subtilis KCTC 1028] &gt;gi|846133764|gb|AKN11211.1| Serine protease, DegP/HtrA, do-like [Bacillus subtilis] &gt;gi|857325339|gb|KMN93257.1| serine protease [Bacillus subtilis] &gt;gi|899709860|gb|KMY46875.1| serine protease [Bacillus sp. FJAT-27445] &gt;gi|906393048|gb|KNB79791.1| serine protease [Bacillus subtilis] &gt;gi|922810254|gb|KON93551.1| serine protease [Bacillus murimartini] &gt;gi|983208089|gb|AMB25550.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1009036198|gb|AMR45836.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1012903057|gb|AMS48872.1| serine protease [Bacillus subtilis] &gt;gi|1017088671|gb|KZD78324.1| Serine protease DegP/HtrA do-like protein [Bacillus subtilis] &gt;gi|1026721442|gb|OAD98945.1| serine protease [Bacillus subtilis] &gt;gi|1035537248|gb|ANJ32066.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1049082705|gb|ANX06826.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1049334485|gb|ANY33305.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1049337290|gb|ANY36109.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1049340002|gb|ANY38820.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1051023265|gb|AOA12627.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1072803736|gb|AOT49597.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1072806804|gb|AOT52664.1| serine protease [Bacillus subtilis subsp. subtilis] &gt;gi|1094636872|emb|SEN49405.1| serine protease Do [Bacillus subtilis] &gt;gi|1150405924|gb|AQR83331.1| Serine protease Do-like HtrB [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150919665|gb|AQR87546.1| Serine protease Do-like HtrB [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162904154|gb|AQZ92181.1| serine protease Do [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME09214</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>3.84751e-26</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGE-----IVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVI---EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>VIFKKDSDKAYIITNNHVVEGANKLTVTL--------YNGETETAKLVGSDTITDLAVLEISGKNVKKVASFGDSSQLRTGEKVIAIGNPLGQQFSGTVTQGIISGLNRTIDVDTTQGTVEMNVLQTDAAINPGNSGGPLINASGQVIGINSLKVSESGV-ESLGFAIPSN</Hsp_hseq>
+      <Hsp_midline>VI + D    +I+TN HVV GAN + VT+        Y+GE     +V  D   DLA+L+I+ K     A  GDS  +   ++VIAIG P G     TV++GIIS   +T+ +   +G    N+LQTDAAIN GNSGGPL+ A+G V+GIN+   + +G    +GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>3.09175e-06</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>632</Hsp_query-to>
+      <Hsp_hit-from>379</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIM-AEMPNGRSVRIGVLRAGDVSNMS</Hsp_qseq>
+      <Hsp_hseq>GKGVYVKEVQANSPAEKAGIKSEDVIVKLNGKDVESSADIRQILYKDLKVGDKTTIQVLRKGKTKTLN</Hsp_hseq>
+      <Hsp_midline>G+GV+V  V  N+PA  AG++  DVI+K++G+ V    ++  I+  ++  G    I VLR G    ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00376898</Hsp_evalue>
+      <Hsp_query-from>704</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>379</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>GKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>GKGVYVKEVQANSPAEKAGIKSEDVIVKLNGKDVESSADIRQILYKDLKVGDKTTIQVLRKGK</Hsp_hseq>
+      <Hsp_midline>GKG  V EV A S A  AG+++ D+I+++N + V S A +   +      G +  ++V R G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|499568144|ref|WP_011248927.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Bacillus] &gt;gi|56912097|dbj|BAD66625.1| serine protease [Bacillus clausii KSM-K16] &gt;gi|1110117928|emb|SHL24218.1| htrA-like peptidase. Serine peptidase. MEROPS family S01B [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD66625</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.75137e-25</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIE----GMTHSN--LLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPS</Hsp_qseq>
+      <Hsp_hseq>GSGVVYKKEGDSAFIVTNNHVIEGASEIEVALTD---GTRVPATLVGHDELTDLAVLEIDGENVTTVAEFGNSDELSVGEPAIAIGNPLGLEFAGSVTQGIISATERSIPVDLSGNGQIDWNAEVLQTDAAINPGNSGGALININGEVIGINSMKIS--GGAEGLGFAIPS</Hsp_hseq>
+      <Hsp_midline>G+GV+ + +G   FIVTN HV+ GA+ + V + D     R    +V  DE  DLA+L+I  +   T A  G+SD ++V +  IAIG P GL+   +V++GIISA  +++ ++    G    N  +LQTDAAIN GNSGG L+  NG V+GIN+   +  G   G+GFA+PS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>4.63201e-05</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>324</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIM-AEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>NLPEDVTEGIVVVGVQNGSAAADAGLQERDVIVEIDGKAIENPQDLRKLLYAERSIGDTISVTLYRDGD</Hsp_hseq>
+      <Hsp_midline>NLP     G+ V GV   + AA AGL+  DVI+++DG+ +  P+++  ++ AE   G ++ + + R GD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00222969</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>EGIVVVGVQNGSAAADAGLQERDVIVEIDGKAIENPQDLRKLLYAERSIGDTISVTLYRDGDKQTI</Hsp_hseq>
+      <Hsp_midline>+G  V  V  GS AA AGLQ  D+I+E++ + + +P  L   + A  + G  I + ++R+G +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|446464780|ref|WP_000542634.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Bacillus] &gt;gi|49478290|ref|YP_037679.1| serine protease [[Bacillus thuringiensis] serovar konkukian str. 97-27] &gt;gi|49329846|gb|AAT60492.1| possible serine protease [[Bacillus thuringiensis] serovar konkukian str. 97-27] &gt;gi|195993344|gb|EDX57302.1| serine protease HtrA [Bacillus cereus W] &gt;gi|196030801|gb|EDX69399.1| serine protease HtrA [Bacillus cereus NVH0597-99] &gt;gi|218538160|gb|ACK90558.1| serine protease HtrA [Bacillus cereus AH820] &gt;gi|228660410|gb|EEL16043.1| Serine protease [Bacillus cereus 95/8201] &gt;gi|228690851|gb|EEL44626.1| Serine protease [Bacillus cereus Rock3-42] &gt;gi|228812461|gb|EEM58788.1| Serine protease [Bacillus thuringiensis serovar monterrey BGSC 4AJ1] &gt;gi|228830970|gb|EEM76571.1| Serine protease [Bacillus thuringiensis serovar pondicheriensis BGSC 4BA1] &gt;gi|753328981|gb|AJG76490.1| PDZ domain protein [Bacillus thuringiensis] &gt;gi|753523311|gb|AJH60762.1| PDZ domain protein [Bacillus cereus] &gt;gi|753716429|gb|AJH83427.1| PDZ domain protein [Bacillus thuringiensis] &gt;gi|753746026|gb|AJI36016.1| PDZ domain protein [Bacillus thuringiensis] &gt;gi|755999572|gb|AJK35799.1| PDZ domain protein [Bacillus cereus] &gt;gi|821631914|gb|KLA12940.1| hypothetical protein B4087_3636 [Bacillus cereus] &gt;gi|837637740|gb|KLV20848.1| serine protease [Bacillus anthracis] &gt;gi|859549353|gb|KMP72149.1| serine protease [Bacillus cereus] &gt;gi|924090096|emb|CUB36593.1| Serine protease Do-like HtrB [Bacillus cereus] &gt;gi|924101081|emb|CUB50571.1| Serine protease Do-like HtrB [Bacillus subtilis] &gt;gi|983213801|gb|KWU54256.1| serine protease [Bacillus cereus] &gt;gi|1003794051|gb|KXX93348.1| serine protease [Bacillus cereus] &gt;gi|1015496495|gb|KYZ65930.1| serine protease [Bacillus sp. GZT] &gt;gi|1078794989|gb|OFE41351.1| serine protease [Bacillus anthracis] &gt;gi|1103830921|gb|OJD85123.1| serine protease [Bacillus anthracis] &gt;gi|1114352928|gb|OKA24226.1| serine protease [Bacillus cereus] &gt;gi|1152983827|gb|OOZ97664.1| serine protease [Bacillus cereus] &gt;gi|1152989237|gb|OPA02923.1| serine protease [Bacillus cereus]</Hit_def>
+  <Hit_accession>KWU54256</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>6.16479e-25</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>GTGVIVR---NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTM--VIEGMTHSN----LLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKAGNKAYIVTNNHVVDGANKLAVKLSD---GKKVDAKLVGKDPWLDLAVVEIDGANVNKVATLGDSSKLRAGEKAIAIGNPLGFDGSVTEGIISSKEREIPVDIDGDKRADWNAQVIQTDAAINPGNSGGALFNQNGEIIGINSSKIAQQ-EVEGIGFAIPINIAK</Hsp_hseq>
+      <Hsp_midline>G+GVI +   N  +IVTN HVV GAN + V + D     +   ++V  D  LDLA+++I        A LGDS  +   ++ IAIG P G D +V+ GIIS+K + +   I+G   ++    ++QTDAAIN GNSGG L   NG ++GIN++         GIGFA+P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.316946</Hsp_evalue>
+      <Hsp_query-from>718</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>AAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>AEKAGLEQYDIVVALDNQKVENSLQFRKYLYEKKKVGEKVEVTFYRNGQKM</Hsp_hseq>
+      <Hsp_midline>A  AGL+  D+++ ++N+ V +  +    +      G+++ +  +RNGQ+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.36001</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN-GRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GVVLGKIYPISPAEKAGLEQYDIVVALDNQKVENSLQFRKYLYEKKKVGEKVEVTFYRNG</Hsp_hseq>
+      <Hsp_midline>GV +  + P +PA  AGL   D+++ +D + V    +    + E    G  V +   R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|320019871|gb|ADV94857.1|</Hit_id>
+  <Hit_def>putative membrane serine protease Do [Bacillus subtilis BSn5] &gt;gi|407966899|dbj|BAM60138.1| membrane serine protease Do [Bacillus subtilis BEST7003] &gt;gi|452117586|gb|EME07980.1| trypsin family protein [Bacillus subtilis MB73/2]</Hit_def>
+  <Hit_accession>EME07980</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>3.712e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>GTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGM------THSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPS</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKNDHSAYVVTNHHVIEGASQIEISLKD--GS-RVSADLVGSDQLMDLAVLRVKSDKIKAVADFGNSDKVKSGEPVIAIGNPLGLEFAGSVTQGVISGTERAIPVDSNGDGQPDWNAEVLQTDAAINPGNSGGALLNMDGKVIGINS-MKIAESAVEGIGLSIPS</Hsp_hseq>
+      <Hsp_midline>G+GVI + ND   ++VTN+HV+ GA+ + +++KD  GS R S ++V  D+ +DLA+L++        A  G+SD V   + VIAIG P GL+   +V++G+IS   + + ++         ++ +LQTDAAIN GNSGG L+  +G V+GIN+ +     A  GIG ++PS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0468035</Hsp_evalue>
+      <Hsp_query-from>442</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>QFVGGAAAGPIAFGQPMMPIAA-----PQQPAPAIRANAA-NPHTDGRQNMNCASCHQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINI--QGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>EFAGSVTQGVISGTERAIPVDSNGDGQPDWNAEVLQTDAAINPGNSGGALLNMDGKVIGINSMKIAESAVEGIGLSI-----PSKLVIPVIEDLERYGKVKRPFLGIEMKSLSDIASYHWDETLKLPKNVT--NGAVVMGVDAFSPAGKAGLKELDVITEFDGYKVNDIVDLRKRLYQKKVGDRVKVKFYRGG</Hsp_hseq>
+      <Hsp_midline>+F G    G I+  +  +P+ +     P   A  ++ +AA NP   G   +N       I S+  A  A  G G +      P  L I +     R G+      G    SL   A     + L L  N+    G  V GV   +PA  AGL+  DVI + DG  V+   ++   + +   G  V++   R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|499566162|ref|WP_011246945.1|</Hit_id>
+  <Hit_def>serine protease [Bacillus clausii] &gt;gi|56910110|dbj|BAD64637.1| serine protease [Bacillus clausii KSM-K16] &gt;gi|922065892|gb|ALA55017.1| HtrA protease/chaperone protein [Bacillus clausii]</Hit_def>
+  <Hit_accession>BAD64637</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>8.35558e-13</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-PNGAFAGIGFAVPSNQARLFALDEVG</Hsp_qseq>
+      <Hsp_hseq>GTGFIISESGDVLTNEHVIRGASSIYVHLPD---GERYEATETKTDETNDLAMLALEGQPDNLPTLTLADT-AAKPGNTVYVIGHPMTHSYITNKGEVKESHDAYQVLAITN--------AVFPGHSGSPVLSEEGEVIGVVYARSSGENG--NGEGLAVPLRQIHAFVKDDSG</Hsp_hseq>
+      <Hsp_midline>GTG I+   G ++TN HV+RGA+S+YV + D     RY     K DE  DLA+L +  +   L    L D+ A    + V  IG P       ++G +        +  +T+        A+  G+SG P+++  G V+G+  A  +  NG   G G AVP  Q   F  D+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|446398428|ref|WP_000476283.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacillus] &gt;gi|49479076|ref|YP_037988.1| ATP-dependent protease La [[Bacillus thuringiensis] serovar konkukian str. 97-27] &gt;gi|49330632|gb|AAT61278.1| ATP-dependent protease La [[Bacillus thuringiensis] serovar konkukian str. 97-27] &gt;gi|195991470|gb|EDX55436.1| PDZ domain protein [Bacillus cereus W] &gt;gi|196023280|gb|EDX61958.1| PDZ domain protein [Bacillus cereus 03BB108] &gt;gi|218535589|gb|ACK87987.1| PDZ domain protein [Bacillus cereus AH820] &gt;gi|364513623|gb|AEW57022.1| Lon-like protease with PDZ domain [Bacillus cereus F837/76] &gt;gi|753295571|gb|AJG59516.1| hypothetical protein AW22_693 [Bacillus cereus D17] &gt;gi|753329297|gb|AJG76806.1| hypothetical protein BF38_5096 [Bacillus thuringiensis] &gt;gi|753524536|gb|AJH61987.1| ylbL protein [Bacillus cereus] &gt;gi|753588879|gb|AJH67729.1| ylbL protein [Bacillus thuringiensis] &gt;gi|753667916|gb|AJI10532.1| ylbL protein [Bacillus cereus 03BB108] &gt;gi|753716427|gb|AJH83425.1| ylbL protein [Bacillus thuringiensis] &gt;gi|753745535|gb|AJI35525.1| ylbL protein [Bacillus thuringiensis] &gt;gi|755999653|gb|AJK35880.1| ylbL protein [Bacillus cereus] &gt;gi|895740242|emb|COE31442.1| PDZ domain-containing protein [Streptococcus pneumoniae] &gt;gi|924098270|emb|CUB53289.1| Lon protease 1 [Bacillus subtilis] &gt;gi|983224073|gb|KWU64273.1| hypothetical protein AWW71_09235 [Bacillus cereus] &gt;gi|984811376|gb|KWW52973.1| hypothetical protein AWW69_19625 [Bacillus cereus] &gt;gi|1003866276|gb|KXY60610.1| hypothetical protein AT275_20715 [Bacillus cereus] &gt;gi|1015495960|gb|KYZ65404.1| hypothetical protein A3782_07010 [Bacillus sp. GZT] &gt;gi|1103834931|gb|OJD89029.1| hypothetical protein A9486_18940 [Bacillus anthracis] &gt;gi|1139605034|gb|ONG96225.1| hypothetical protein BKK45_23070 [Bacillus cereus] &gt;gi|1152977056|gb|OOZ91200.1| hypothetical protein BHL49_10475 [Bacillus cereus] &gt;gi|1154381781|gb|OPD60579.1| hypothetical protein BVG01_00105 [Bacillus anthracis]</Hit_def>
+  <Hit_accession>KWU64273</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00322438</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>639</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD--VSNMSLVTGPSG</Hsp_qseq>
+      <Hsp_hseq>KGVLVAGVAKGMPS-EGKLKLGDIIIAVDGKTFEKTEQFIEYMTGKKEGDTVNIEYKRDGKQLKENLNVKTIPNG</Hsp_hseq>
+      <Hsp_midline>+GV V GV    P+    L+ GD+I+ VDG+   + E+    M     G +V I   R G     N+++ T P+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|487964215|ref|WP_002037436.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase S41 [Bacillus cereus group] &gt;gi|228658783|gb|EEL14442.1| Carboxyl-terminal protease [Bacillus cereus 95/8201] &gt;gi|228689129|gb|EEL42952.1| Carboxyl-terminal protease [Bacillus cereus Rock3-42] &gt;gi|228829467|gb|EEM75095.1| Carboxyl-terminal protease [Bacillus thuringiensis serovar pondicheriensis BGSC 4BA1] &gt;gi|228841891|gb|EEM86998.1| Carboxyl-terminal protease [Bacillus thuringiensis serovar pulsiensis BGSC 4CC1] &gt;gi|384388888|gb|AFH86549.1| Carboxyl-terminal protease [Bacillus anthracis str. H9401] &gt;gi|589084802|gb|AHK41317.1| carboxyl-terminal protease [Bacillus anthracis str. SVA11] &gt;gi|664796422|gb|AIF59276.1| peptidase S41 [Bacillus anthracis] &gt;gi|666456351|gb|KEY93155.1| peptidase S41 [Bacillus anthracis str. Carbosap] &gt;gi|673611780|gb|KFJ78539.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|673990777|gb|AIK60287.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|673993787|gb|AIK62170.1| carboxy-terminal processing protease CtpB [Bacillus anthracis str. Vollum] &gt;gi|673999490|gb|AIK49824.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|674822909|gb|KFL75464.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|674826022|gb|KFL78568.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|675837380|gb|AIM09053.1| carboxyl-terminal protease [Bacillus anthracis] &gt;gi|675842887|gb|AIM14559.1| carboxyl-terminal protease [Bacillus anthracis] &gt;gi|721787463|gb|KGZ48526.1| peptidase S41 [Bacillus anthracis] &gt;gi|721790956|gb|KGZ51966.1| peptidase S41 [Bacillus anthracis] &gt;gi|721794399|gb|KGZ55318.1| peptidase S41 [Bacillus anthracis] &gt;gi|721807235|gb|KGZ67440.1| peptidase S41 [Bacillus anthracis] &gt;gi|721812078|gb|KGZ72244.1| peptidase S41 [Bacillus anthracis] &gt;gi|721812637|gb|KGZ72766.1| peptidase S41 [Bacillus anthracis] &gt;gi|721824957|gb|KGZ84928.1| peptidase S41 [Bacillus anthracis] &gt;gi|721827262|gb|KGZ87177.1| peptidase S41 [Bacillus anthracis] &gt;gi|721840295|gb|KHA00014.1| peptidase S41 [Bacillus anthracis] &gt;gi|721840415|gb|KHA00133.1| peptidase S41 [Bacillus anthracis] &gt;gi|721845050|gb|KHA04734.1| peptidase S41 [Bacillus anthracis] &gt;gi|721857974|gb|KHA17351.1| peptidase S41 [Bacillus anthracis] &gt;gi|721862240|gb|KHA21519.1| peptidase S41 [Bacillus anthracis] &gt;gi|721867324|gb|KHA26539.1| peptidase S41 [Bacillus anthracis] &gt;gi|721868559|gb|KHA27759.1| peptidase S41 [Bacillus anthracis] &gt;gi|721870984|gb|KHA30143.1| peptidase S41 [Bacillus anthracis] &gt;gi|721882901|gb|KHA41851.1| peptidase S41 [Bacillus anthracis] &gt;gi|721885718|gb|KHA44601.1| peptidase S41 [Bacillus anthracis] &gt;gi|728965109|gb|KHG54352.1| peptidase S41 [Bacillus anthracis] &gt;gi|728965253|gb|KHG54495.1| peptidase S41 [Bacillus anthracis] &gt;gi|728974259|gb|KHG63417.1| peptidase S41 [Bacillus anthracis] &gt;gi|741051046|gb|AJA89324.1| peptidase S41 [Bacillus anthracis] &gt;gi|751423909|gb|AJF92695.1| peptidase S41 [Bacillus anthracis] &gt;gi|752329222|gb|AJG31814.1| peptidase S41 [Bacillus anthracis] &gt;gi|753274598|gb|AJG49777.1| carboxy-terminal processing protease CtpB [Bacillus anthracis str. Turkey32] &gt;gi|753285127|gb|AJG54404.1| carboxy-terminal processing protease CtpB [Bacillus cereus 03BB102] &gt;gi|753298050|gb|AJG61995.1| carboxy-terminal processing protease CtpB [Bacillus cereus D17] &gt;gi|753307476|gb|AJG66728.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753314140|gb|AJG68707.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753328805|gb|AJG76314.1| carboxy-terminal processing protease CtpB [Bacillus thuringiensis] &gt;gi|753340544|gb|AJG82054.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753350770|gb|AJG87167.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753403580|gb|AJH31146.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753415774|gb|AJH33895.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753434586|gb|AJH39967.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753454788|gb|AJH47467.1| carboxy-terminal processing protease CtpB [Bacillus anthracis str. Sterne] &gt;gi|753473470|gb|AJH51745.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753495830|gb|AJH59752.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753527052|gb|AJH64503.1| carboxy-terminal processing protease CtpB [Bacillus cereus] &gt;gi|753543232|gb|AJH98384.1| carboxy-terminal processing protease CtpB [Bacillus anthracis str. V770-NP-1R] &gt;gi|753666790|gb|AJI09406.1| carboxy-terminal processing protease CtpB [Bacillus cereus 03BB108] &gt;gi|753716895|gb|AJH83893.1| carboxy-terminal processing protease CtpB [Bacillus thuringiensis] &gt;gi|753722244|gb|AJH89221.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753737999|gb|AJH93231.1| carboxy-terminal processing protease CtpB [Bacillus anthracis] &gt;gi|753746862|gb|AJI36852.1| hypothetical protein BG06_2814 [Bacillus thuringiensis] &gt;gi|753760461|gb|AJI40331.1| hypothetical protein BF24_2830 [Bacillus anthracis] &gt;gi|755997128|gb|AJK33355.1| carboxy-terminal processing protease CtpB [Bacillus cereus] &gt;gi|756785154|gb|AJM83620.1| peptidase S41 [Bacillus anthracis] &gt;gi|780942017|gb|AHE86802.2| peptidase S41 [Bacillus anthracis str. A16R] &gt;gi|780942650|gb|AHE92658.2| peptidase S41 [Bacillus anthracis str. A16] &gt;gi|816635947|gb|KKM28733.1| peptidase S41 [Bacillus anthracis] &gt;gi|816639195|gb|KKM31957.1| peptidase S41 [Bacillus anthracis] &gt;gi|837630796|gb|KLV14100.1| peptidase S41 [Bacillus anthracis] &gt;gi|859532421|gb|KMP55730.1| peptidase S41 [Bacillus cereus] &gt;gi|920904995|gb|KOM61061.1| peptidase S41 [Bacillus anthracis] &gt;gi|920911678|gb|KOM67362.1| peptidase S41 [Bacillus anthracis] &gt;gi|920916090|gb|KOM71566.1| peptidase S41 [Bacillus anthracis] &gt;gi|920925754|gb|KOM80869.1| peptidase S41 [Bacillus anthracis] &gt;gi|920926789|gb|KOM81792.1| peptidase S41 [Bacillus anthracis] &gt;gi|920937853|gb|KOM92252.1| peptidase S41 [Bacillus anthracis] &gt;gi|920953781|gb|KON07403.1| peptidase S41 [Bacillus anthracis] &gt;gi|920967316|gb|KON20133.1| peptidase S41 [Bacillus anthracis] &gt;gi|920970656|gb|KON23211.1| peptidase S41 [Bacillus anthracis] &gt;gi|923585251|gb|KOR63199.1| peptidase S41 [Bacillus anthracis] &gt;gi|923592304|gb|KOR69956.1| peptidase S41 [Bacillus anthracis] &gt;gi|924091688|emb|CUB31317.1| Carboxy-terminal processing protease CtpB precursor [Bacillus cereus] &gt;gi|924099362|emb|CUB51923.1| Carboxy-terminal processing protease CtpB precursor [Bacillus subtilis] &gt;gi|924552041|gb|ALC37222.1| peptidase S41 [Bacillus anthracis] &gt;gi|924826424|gb|KOS24351.1| peptidase S41 [Bacillus anthracis] &gt;gi|983221160|gb|KWU61393.1| peptidase S41 [Bacillus cereus] &gt;gi|984733518|gb|AMC07073.1| peptidase S41 [Bacillus anthracis] &gt;gi|1001030570|gb|KXO03398.1| peptidase S41 [Bacillus thuringiensis] &gt;gi|1003788064|gb|KXX87594.1| peptidase S41 [Bacillus cereus] &gt;gi|1003839432|gb|KXY35485.1| peptidase S41 [Bacillus cereus] &gt;gi|1003874746|gb|KXY68431.1| peptidase S41 [Bacillus cereus] &gt;gi|1015498575|gb|KYZ67993.1| peptidase S41 [Bacillus sp. GZT] &gt;gi|1033848409|gb|ANH89259.1| peptidase S41 [Bacillus anthracis] &gt;gi|1041079751|gb|OBV01758.1| peptidase S41 [Bacillus anthracis] &gt;gi|1041080338|gb|OBV02342.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043120365|gb|ANR07579.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043125668|gb|ANR12881.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043130963|gb|ANR18175.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043136265|gb|ANR23476.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043141566|gb|ANR28776.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043146869|gb|ANR34078.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043152173|gb|ANR39381.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043157470|gb|ANR44677.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043162758|gb|ANR49964.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043168061|gb|ANR55266.1| peptidase S41 [Bacillus anthracis] &gt;gi|1043173356|gb|ANR60560.1| peptidase S41 [Bacillus anthracis] &gt;gi|1078794957|gb|OFE41326.1| peptidase S41 [Bacillus anthracis] &gt;gi|1090623677|gb|OHO01997.1| peptidase S41 [Bacillus anthracis] &gt;gi|1103782167|gb|OJD66586.1| peptidase S41 [Bacillus sp. N35-10-4] &gt;gi|1103837577|gb|OJD91595.1| peptidase S41 [Bacillus anthracis] &gt;gi|1114357486|gb|OKA28727.1| peptidase S41 [Bacillus cereus] &gt;gi|1114396921|gb|OKA48968.1| peptidase S41 [Bacillus anthracis] &gt;gi|1152975075|gb|OOZ89258.1| peptidase S41 [Bacillus cereus] &gt;gi|1152984612|gb|OOZ98431.1| peptidase S41 [Bacillus cereus] &gt;gi|1152987346|gb|OPA01088.1| peptidase S41 [Bacillus cereus]</Hit_def>
+  <Hit_accession>KWU61393</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00843114</Hsp_evalue>
+      <Hsp_query-from>543</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>AKQFSESLDPELEGIGAEVNKTDGKLIIVSPI-KGSPAEKIGIKPNDQILSVDGNSVKDLSREEAVLKIRGKKGTTVAIEIKRAG</Hsp_hseq>
+      <Hsp_midline>A     +L P  + +G + N   G+ + V+ +   +PA   G++P D IL VDG  V     E A +      G +V I + RAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|984809388|gb|KWW51600.1|</Hit_id>
+  <Hit_def>peptidase S41, partial [Bacillus cereus]</Hit_def>
+  <Hit_accession>KWW51600</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00860655</Hsp_evalue>
+      <Hsp_query-from>543</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>AKQFSESLDPELEGIGAEVNKTDGKLIIVSPI-KGSPAEKIGIKPNDQILSVDGNSVKDLSREEAVLKIRGKKGTTVAIEIKRAG</Hsp_hseq>
+      <Hsp_midline>A     +L P  + +G + N   G+ + V+ +   +PA   G++P D IL VDG  V     E A +      G +V I + RAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489335403|ref|WP_003242631.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cell division topological determinant MinJ [Bacillus] &gt;gi|16080575|ref|NP_391402.1| cell division topological determinant MinJ [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|81637557|sp|O34375.1|MINJ_BACSU RecName: Full=Cell division topological determinant MinJ &gt;gi|2618836|gb|AAC67265.1| YvjD [Bacillus subtilis] &gt;gi|2636048|emb|CAB15539.1| topological determinant of cell division [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|148356711|dbj|BAF63029.1| hypothetical protein [Bacillus subtilis subsp. natto] &gt;gi|402482865|gb|AFQ59374.1| Topological determinant of cell division [Bacillus subtilis QB928] &gt;gi|407962358|dbj|BAM55598.1| topological determinant of cell division [Bacillus subtilis BEST7613] &gt;gi|407966372|dbj|BAM59611.1| topological determinant of cell division [Bacillus subtilis BEST7003] &gt;gi|452117405|gb|EME07799.1| PDZ domain protein [Bacillus subtilis MB73/2] &gt;gi|459391346|gb|AGG62932.1| topological determinant of cell division MinJ [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|558570057|gb|AHA79463.1| Swarming motility protein swrAB [Bacillus subtilis PY79] &gt;gi|588502663|gb|EXF55073.1| cell division protein [Bacillus subtilis QH-1] &gt;gi|635178765|gb|KDE22779.1| cell division protein [Bacillus subtilis] &gt;gi|649012945|gb|AIC41999.1| topological determinant of cell division [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649017308|gb|AIC46230.1| topological determinant of cell division [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|670922238|gb|AII37251.1| cell division protein [Bacillus subtilis TO-A] &gt;gi|672771658|gb|KFH31238.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|672771899|gb|KFH31478.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|723800085|emb|CEI59326.1| cell division topological determinant MinJ [Bacillus subtilis] &gt;gi|724429263|emb|CEJ79183.1| cell division topological determinant MinJ [Bacillus sp.] &gt;gi|728886441|gb|AIY94836.1| cell division protein [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728890752|gb|AIY99146.1| cell division protein [Bacillus subtilis] &gt;gi|749187504|gb|AJE96214.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|751879640|gb|KIN31611.1| hypothetical protein B4069_3640 [Bacillus subtilis] &gt;gi|751885132|gb|KIN36983.1| hypothetical protein B4070_3630 [Bacillus subtilis] &gt;gi|751893812|gb|KIN45504.1| hypothetical protein B4072_3661 [Bacillus subtilis] &gt;gi|760457220|gb|KIX83294.1| Cell division topological determinant MinJ [Bacillus subtilis] &gt;gi|807075886|gb|AKC49092.1| cell division protein [Bacillus subtilis KCTC 1028] &gt;gi|811157709|gb|AKE25327.1| topological determinant of cell division [Bacillus sp. LM 4-2] &gt;gi|846134000|gb|AKN11447.1| Cell division topological determinant MinJ [Bacillus subtilis] &gt;gi|906392826|gb|KNB79569.1| cell division protein [Bacillus subtilis] &gt;gi|922810470|gb|KON93767.1| cell division protein [Bacillus murimartini] &gt;gi|983208306|gb|AMB25767.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1012903276|gb|AMS49091.1| cell division protein [Bacillus subtilis] &gt;gi|1017088908|gb|KZD78561.1| Cell division topological determinant MinJ [Bacillus subtilis] &gt;gi|1026721235|gb|OAD98738.1| cell division protein [Bacillus subtilis] &gt;gi|1035537466|gb|ANJ32284.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1049082486|gb|ANX06607.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1049334610|gb|ANY33430.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1049337409|gb|ANY36228.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1049340127|gb|ANY38945.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1051023483|gb|AOA12845.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1072803954|gb|AOT49815.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1072807007|gb|AOT52867.1| cell division protein [Bacillus subtilis subsp. subtilis] &gt;gi|1150406150|gb|AQR83557.1| Cell division topological determinant MinJ [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150919891|gb|AQR87772.1| Cell division topological determinant MinJ [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162904371|gb|AQZ92398.1| cell division topological determinant MinJ [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME07799</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0333351</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPV</Hsp_qseq>
+      <Hsp_hseq>QGLMVLGIIPNTPAEDLELKIGEIITKVNGIPV</Hsp_hseq>
+      <Hsp_midline>+G+ V G+ PNTPA    L+ G++I KV+G PV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|499566295|ref|WP_011247078.1|</Hit_id>
+  <Hit_def>MULTISPECIES: zinc metalloprotease RasP [Bacillus] &gt;gi|81678862|sp|Q5WFT5.1|RASP_BACSK RecName: Full=Zinc metalloprotease RasP; AltName: Full=Regulating alternative sigma factor protease; AltName: Full=Regulating anti-sigma-W factor activity protease &gt;gi|56910243|dbj|BAD64770.1| Zn-dependent protease [Bacillus clausii KSM-K16] &gt;gi|922065745|gb|ALA54870.1| Intramembrane protease RasP/YluC, implicated in cell division based on FtsL cleavage [Bacillus clausii] &gt;gi|1110119422|emb|SHL12480.1| site-2 protease. Metallo peptidase. MEROPS family M50B [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD64770</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0374977</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>LSLYQGVTLSSEIVING--ENSPAEAAGLQDGDVITAVNGVEVDSWKEMTTEVKKYP-GEEVSIDYERNGE</Hsp_hseq>
+      <Hsp_midline>L L   +     + +NG   N+PA +AGL+ GDVI  V+G  V   +E+   + + P G  V I   R G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|447012973|ref|WP_001090229.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Bacillus cereus] &gt;gi|195990476|gb|EDX54460.1| putative membrane-associated zinc metalloprotease [Bacillus cereus W] &gt;gi|196027021|gb|EDX65645.1| putative membrane-associated zinc metalloprotease [Bacillus cereus NVH0597-99] &gt;gi|218534938|gb|ACK87336.1| putative membrane-associated zinc metalloprotease [Bacillus cereus AH820] &gt;gi|753328734|gb|AJG76243.1| RIP metalloprotease RseP [Bacillus thuringiensis] &gt;gi|753528047|gb|AJH65498.1| RIP metalloprotease RseP [Bacillus cereus] &gt;gi|753591840|gb|AJH70690.1| RIP metalloprotease RseP [Bacillus thuringiensis] &gt;gi|753713985|gb|AJH80983.1| RIP metalloprotease RseP [Bacillus thuringiensis] &gt;gi|753732100|gb|AJI27864.1| RIP metalloprotease RseP [Bacillus cereus E33L] &gt;gi|753742322|gb|AJI32312.1| RIP metalloprotease RseP [Bacillus thuringiensis] &gt;gi|755997426|gb|AJK33653.1| RIP metalloprotease RseP [Bacillus cereus] &gt;gi|821630045|gb|KLA11089.1| hypothetical protein B4087_3864 [Bacillus cereus] &gt;gi|837636314|gb|KLV19436.1| zinc metalloprotease [Bacillus anthracis] &gt;gi|859535353|gb|KMP58590.1| zinc metalloprotease [Bacillus cereus] &gt;gi|895740347|emb|COE34074.1| pheromone-processing membrane metalloprotease [Streptococcus pneumoniae] &gt;gi|924090507|emb|CUB34898.1| Regulator of sigma-W protease RasP [Bacillus cereus] &gt;gi|983212655|gb|KWU53171.1| RIP metalloprotease RseP [Bacillus cereus] &gt;gi|984809885|gb|KWW51965.1| RIP metalloprotease RseP [Bacillus cereus] &gt;gi|1003791559|gb|KXX91000.1| RIP metalloprotease RseP [Bacillus cereus] &gt;gi|1003899540|gb|KXY91543.1| RIP metalloprotease RseP [Bacillus cereus] &gt;gi|1015496064|gb|KYZ65508.1| RIP metalloprotease RseP [Bacillus sp. GZT] &gt;gi|1078795393|gb|OFE41699.1| RIP metalloprotease RseP [Bacillus anthracis] &gt;gi|1103835035|gb|OJD89133.1| RIP metalloprotease RseP [Bacillus anthracis] &gt;gi|1103839920|gb|OJD93894.1| RIP metalloprotease RseP [Bacillus anthracis] &gt;gi|1114356555|gb|OKA27813.1| RIP metalloprotease RseP [Bacillus cereus] &gt;gi|1139604928|gb|ONG96119.1| RIP metalloprotease RseP [Bacillus cereus] &gt;gi|1152985186|gb|OOZ98982.1| RIP metalloprotease RseP [Bacillus cereus]</Hit_def>
+  <Hit_accession>KWU53171</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0741337</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>654</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV-----TGPSGLAAAVVQAPTAPVVM</Hsp_qseq>
+      <Hsp_hseq>VGKVMENSAAEQAGLKENDTIQAIDGKNTSTWKDVVTIVRENPN-KEITLQVKRDSEQFNVKVTPTLDKEGKEEVGRIGVYSPVEKTVM</Hsp_hseq>
+      <Hsp_midline>V  V  N+ A  AGL+  D I  +DG+     ++V  I+ E PN + + + V R  +  N+ +       G   +    V +P    VM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|499567120|ref|WP_011247903.1|</Hit_id>
+  <Hit_def>serine protease [Bacillus clausii] &gt;gi|56911068|dbj|BAD65595.1| serine protease [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>BAD65595</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.147542</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>603</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPE</Hsp_qseq>
+      <Hsp_hseq>KGCRVVGVLPGSPAEKMGIAIGEEITKVNGQPVHNEQ</Hsp_hseq>
+      <Hsp_midline>+G  V GV P +PA   G+  G+ I KV+G+PVH  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|499566434|ref|WP_011247217.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacillus] &gt;gi|56910382|dbj|BAD64909.1| conserved hypothetical protein [Bacillus clausii KSM-K16] &gt;gi|815855165|gb|KKI84584.1| hypothetical protein WZ76_20260 [Bacillus clausii] &gt;gi|922065602|gb|ALA54727.1| Lon-like protease with PDZ domain protein [Bacillus clausii] &gt;gi|1110119564|emb|SHL15146.1| PDZ domain-containing protein [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD64909</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.286152</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>GVFVTGVVPGM-SADGVLEAGDLITAVNGETIETVEELFDHISNYKEGETVELTYER</Hsp_hseq>
+      <Hsp_midline>GVFV GV P   +A   L  GD+I  V+G  +   EE+   ++    G +V +   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|489323874|ref|WP_003231186.1|</Hit_id>
+  <Hit_def>MULTISPECIES: carboxy-terminal processing protease CtpA [Bacillus] &gt;gi|16079017|ref|NP_389840.1| carboxy-terminal processing protease CtpA [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|81669151|sp|O34666.1|CTPA_BACSU RecName: Full=Carboxy-terminal processing protease CtpA; Short=C-terminal processing protease; Flags: Precursor &gt;gi|2415395|gb|AAB72063.1| proteinase [Bacillus subtilis] &gt;gi|2529476|gb|AAB81168.1| OrfRM1 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|2634351|emb|CAB13850.1| carboxy-terminal processing protease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|351470562|gb|EHA30696.1| carboxy-terminal processing protease [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|402481391|gb|AFQ57900.1| Carboxy-terminal processing protease [Bacillus subtilis QB928] &gt;gi|407959384|dbj|BAM52624.1| carboxy-terminal processing protease [Bacillus subtilis BEST7613] &gt;gi|407964960|dbj|BAM58199.1| carboxy-terminal processing protease [Bacillus subtilis BEST7003] &gt;gi|452115114|gb|EME05511.1| C-terminal processing peptidase family protein [Bacillus subtilis MB73/2] &gt;gi|459389759|gb|AGG61345.1| carboxy-terminal processing protease CtpA [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|558568603|gb|AHA78009.1| Carboxy-terminal processing protease CtpA [Bacillus subtilis PY79] &gt;gi|588501915|gb|EXF54326.1| peptidase S41 [Bacillus subtilis QH-1] &gt;gi|649011337|gb|AIC40391.1| carboxy-terminal processing protease [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649015701|gb|AIC44623.1| carboxy-terminal processing protease [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|668754458|gb|KFC30367.1| peptidase S41 [Bacillus subtilis] &gt;gi|670920925|gb|AII35938.1| peptidase S41 [Bacillus subtilis TO-A] &gt;gi|672776432|gb|KFH36005.1| peptidase S41 [Bacillus subtilis subsp. subtilis] &gt;gi|672777628|gb|KFH37200.1| peptidase S41 [Bacillus subtilis subsp. subtilis] &gt;gi|723798473|emb|CEI57163.1| carboxy-terminal processing protease CtpA [Bacillus subtilis] &gt;gi|724427668|emb|CEJ77588.1| carboxy-terminal processing protease CtpA [Bacillus sp.] &gt;gi|728884884|gb|AIY93279.1| peptidase S41 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728889192|gb|AIY97586.1| peptidase S41 [Bacillus subtilis] &gt;gi|749185949|gb|AJE94659.1| peptidase S41 [Bacillus subtilis subsp. subtilis] &gt;gi|760454403|gb|KIX80485.1| Carboxy-terminal processing protease CtpA [Bacillus subtilis] &gt;gi|807074328|gb|AKC47534.1| peptidase S41 [Bacillus subtilis KCTC 1028] &gt;gi|846136684|gb|AKN14131.1| Carboxyl-terminal protease [Bacillus subtilis] &gt;gi|906389716|gb|KNB76464.1| peptidase S41 [Bacillus subtilis] &gt;gi|922818303|gb|KOO01587.1| peptidase S41 [Bacillus murimartini] &gt;gi|983206935|gb|AMB24396.1| peptidase S41 [Bacillus subtilis subsp. subtilis] &gt;gi|1012901718|gb|AMS47533.1| peptidase S41 [Bacillus subtilis] &gt;gi|1017096710|gb|KZD86247.1| Carboxyl-terminal protease [Bacillus subtilis] &gt;gi|1026722702|gb|OAE04194.1| peptidase S41 [Bacillus subtilis] &gt;gi|1035536156|gb|ANJ30974.1| peptidase S41 [Bacillus subtilis subsp. subtilis] &gt;gi|1049084046|gb|ANX08167.1| peptidase S41 [Bacillus subtilis subsp. subtilis] &gt;gi|1051021925|gb|AOA11287.1| peptidase S41 [Bacillus subtilis subsp. subtilis] &gt;gi|1072802392|gb|AOT48253.1| peptidase S41 [Bacillus subtilis subsp. subtilis] &gt;gi|1150404554|gb|AQR81961.1| Carboxy-terminal processing protease CtpA precursor [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150918294|gb|AQR86175.1| Carboxy-terminal processing protease CtpA precursor [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162902827|gb|AQZ90854.1| carboxy-terminal processing protease CtpA [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME05511</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.515944</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPV---HQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>SPAEKAGIKPRDQIIKVNGKSVKGMNVNEAVALIRG--KKGTKVKLELNRAG-VGNIDL</Hsp_hseq>
+      <Hsp_midline>+PA  AG++P D I+KV+G+ V   +  E VA I      G  V++ + RAG V N+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|499566518|ref|WP_011247301.1|</Hit_id>
+  <Hit_def>MULTISPECIES: SpoIVB peptidase [Bacillus] &gt;gi|56910466|dbj|BAD64993.1| stage IV sporulation protein B [Bacillus clausii KSM-K16] &gt;gi|922065513|gb|ALA54638.1| Stage IV sporulation protein B [Bacillus clausii] &gt;gi|1110119649|emb|SHL16771.1| SpoIVB peptidase. Serine peptidase. MEROPS family S55 [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD64993</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.25924</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>QRLGLQAN----LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN-GRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>QSIGVKLNTEGVLVVGHHLIETAKGQKSPGEFAGIEVGDRITKINGIKMHSMNEVAKLVQDAGEANKELTIEVLR</Hsp_hseq>
+      <Hsp_midline>Q +G++ N    L  G  +        +P   AG+  GD I K++G  +H   EVA ++ +     + + I VLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|499564918|ref|WP_011245701.1|</Hit_id>
+  <Hit_def>thiamine ABC transporter permease [Bacillus clausii] &gt;gi|56908858|dbj|BAD63385.1| excinuclease ABC subunit A [Bacillus clausii KSM-K16]</Hit_def>
+  <Hit_accession>BAD63385</Hit_accession>
+  <Hit_len>751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.50789</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>FTGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIV</Hsp_qseq>
+      <Hsp_hseq>FTGVSGSGKSSIVFDTIAAESTRLLNENFSMFVRSFLPRVPQPDTDAIENLSMAVIV</Hsp_hseq>
+      <Hsp_midline>FTGV    ++S+V  T ++   +++ +   +     LPR   P T ++EN+   VIV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|490533525|ref|WP_004398697.1|</Hit_id>
+  <Hit_def>MULTISPECIES: SpoIVB peptidase [Bacillus] &gt;gi|255767535|ref|NP_390303.2| peptidase S55 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|251757341|sp|P17896.2|SP4B_BACSU RecName: Full=SpoIVB peptidase; AltName: Full=Sporulation factor IV B protease; AltName: Full=Stage IV sporulation protein B; Contains: RecName: Full=SpoIVB peptidase 45 kDa isoform; Contains: RecName: Full=SpoIVB peptidase 43 kDa isoform; Contains: RecName: Full=SpoIVB peptidase 42 kDa isoform; Flags: Precursor &gt;gi|1553038|gb|AAC44871.1| SpoIVB [Bacillus subtilis subsp. subtilis str. JH642] &gt;gi|225185163|emb|CAB14354.2| regulatory membrane-associated serine protease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|320018181|gb|ADV93167.1| regulatory membrane-associated serine protease [Bacillus subtilis BSn5] &gt;gi|402481865|gb|AFQ58374.1| Regulatory membrane-associated serine protease [Bacillus subtilis QB928] &gt;gi|407959668|dbj|BAM52908.1| regulatory membrane-associated serine protease [Bacillus subtilis BEST7613] &gt;gi|407965243|dbj|BAM58482.1| regulatory membrane-associated serine protease [Bacillus subtilis BEST7003] &gt;gi|452115812|gb|EME06208.1| stage IV sporulation protein B [Bacillus subtilis MB73/2] &gt;gi|459390236|gb|AGG61822.1| regulatory membrane-associated serine protease SpoIVB [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|472255045|gb|AGI29576.1| regulatory membrane-associated serine protease [Bacillus subtilis subsp. subtilis str. BAB-1] &gt;gi|558568900|gb|AHA78306.1| SpoIVB peptidase [Bacillus subtilis PY79] &gt;gi|635178347|gb|KDE22370.1| peptidase S55 [Bacillus subtilis] &gt;gi|649011823|gb|AIC40877.1| regulatory membrane-associated serine protease [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649016187|gb|AIC45109.1| regulatory membrane-associated serine protease [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|655531375|gb|AIC98816.1| peptidase S55 [Bacillus subtilis subsp. subtilis str. OH 131.1] &gt;gi|670921205|gb|AII36218.1| peptidase S55 [Bacillus subtilis TO-A] &gt;gi|672776155|gb|KFH35728.1| peptidase S55 [Bacillus subtilis subsp. subtilis] &gt;gi|672777351|gb|KFH36923.1| peptidase S55 [Bacillus subtilis subsp. subtilis] &gt;gi|721330080|gb|AIX08079.1| SpoIVB peptidase precursor [Bacillus subtilis] &gt;gi|723798950|emb|CEI57643.1| peptidase S55 [Bacillus subtilis] &gt;gi|724428145|emb|CEJ78065.1| peptidase S55 [Bacillus sp.] &gt;gi|728885350|gb|AIY93745.1| peptidase S55 [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728889659|gb|AIY98053.1| peptidase S55 [Bacillus subtilis] &gt;gi|749186415|gb|AJE95125.1| peptidase S55 [Bacillus subtilis subsp. subtilis] &gt;gi|751900679|gb|KIN52240.1| hypothetical protein B4146_2581 [Bacillus subtilis] &gt;gi|752645850|gb|KIO59671.1| hypothetical protein B4143_2399 [Bacillus subtilis] &gt;gi|758180958|gb|AJO58837.1| peptidase S55 [Bacillus sp. YP1] &gt;gi|760458149|gb|KIX84222.1| SpoIVB peptidase 42 kDa isoform [Bacillus subtilis] &gt;gi|807074795|gb|AKC48001.1| peptidase S55 [Bacillus subtilis KCTC 1028] &gt;gi|808340801|gb|AKD35659.1| regulatory membrane-associated serine protease [Bacillus subtilis HJ5] &gt;gi|811156559|gb|AKE24177.1| serine peptidase of the SA clan [Bacillus sp. LM 4-2] &gt;gi|811395648|emb|CON29071.1| SpoIVB peptidase precursor [Streptococcus pneumoniae] &gt;gi|825064953|gb|AKI92677.1| peptidase S55 [Bacillus subtilis] &gt;gi|846136988|gb|AKN14435.1| Stage IV sporulation protein B [Bacillus subtilis] &gt;gi|882819964|emb|CJR92775.1| SpoIVB peptidase precursor [Streptococcus pneumoniae] &gt;gi|906390495|gb|KNB77240.1| peptidase S55 [Bacillus subtilis] &gt;gi|922817872|gb|KOO01156.1| peptidase S55 [Bacillus murimartini] &gt;gi|925226117|gb|KOS70812.1| peptidase S55 [Bacillus tequilensis] &gt;gi|961583429|gb|ALS81597.1| SpoIVB peptidase [Bacillus subtilis subsp. subtilis] &gt;gi|983207217|gb|AMB24678.1| SpoIVB peptidase [Bacillus subtilis subsp. subtilis] &gt;gi|1012902184|gb|AMS47999.1| SpoIVB peptidase [Bacillus subtilis] &gt;gi|1017095372|gb|KZD84933.1| Stage IV sporulation protein B [Bacillus subtilis] &gt;gi|1017102226|gb|KZD91674.1| Stage IV sporulation protein B [Bacillus subtilis] &gt;gi|1035536438|gb|ANJ31256.1| SpoIVB peptidase [Bacillus subtilis subsp. subtilis] &gt;gi|1036323750|gb|OAZ67028.1| SpoIVB peptidase [Bacillus subtilis] &gt;gi|1049083578|gb|ANX07699.1| SpoIVB peptidase [Bacillus subtilis subsp. subtilis] &gt;gi|1051022394|gb|AOA11756.1| SpoIVB peptidase [Bacillus subtilis subsp. subtilis] &gt;gi|1051351746|gb|AOA55152.1| SpoIVB peptidase [Bacillus subtilis] &gt;gi|1062077097|gb|AOL26887.1| SpoIVB peptidase [Bacillus sp. FJAT-14266] &gt;gi|1062080395|gb|AOL30179.1| SpoIVB peptidase [Bacillus gibsonii] &gt;gi|1062416698|gb|AOL98288.1| SpoIVB peptidase [Bacillus subtilis] &gt;gi|1072802861|gb|AOT48722.1| SpoIVB peptidase [Bacillus subtilis subsp. subtilis] &gt;gi|1094636675|emb|SEN82906.1| SpoIVB peptidase. Serine peptidase. MEROPS family S55 [Bacillus subtilis] &gt;gi|1131848434|emb|SIQ90428.1| SpoIVB peptidase. Serine peptidase. MEROPS family S55 [Bacillus subtilis] &gt;gi|1150405031|gb|AQR82438.1| SpoIVB peptidase precursor [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150918771|gb|AQR86652.1| SpoIVB peptidase precursor [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162903289|gb|AQZ91316.1| SpoIVB peptidase [Bacillus subtilis] &gt;gi|1169003519|gb|ARB37654.1| SpoIVB peptidase [Bacillus subtilis] &gt;gi|1182675651|emb|SMF25747.1| SpoIVB peptidase. Serine peptidase. MEROPS family S55 [Bacillus sp. CC120222-01]</Hit_def>
+  <Hit_accession>EME06208</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.75755</Hsp_evalue>
+      <Hsp_query-from>721</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>AGIEAGDIIIEMNGQKIEKMNDVAPFIQKAGKTGESLDLLIKRDKQKIKTKL</Hsp_hseq>
+      <Hsp_midline>AG++A D+IIE+N + +     +   I+ A   G+ + L + R+ Q+    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|489324613|ref|WP_003231920.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Bacillus subtilis] &gt;gi|351469343|gb|EHA29519.1| inner membrane zinc metalloprotease [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|407959063|dbj|BAM52303.1| inner membrane zinc metalloprotease [Bacillus subtilis BEST7613] &gt;gi|407964640|dbj|BAM57879.1| inner membrane zinc metalloprotease [Bacillus subtilis BEST7003] &gt;gi|452117169|gb|EME07564.1| RIP metalloprotease RseP [Bacillus subtilis MB73/2] &gt;gi|558568278|gb|AHA77684.1| Zinc metalloprotease rasP [Bacillus subtilis PY79] &gt;gi|588500732|gb|EXF53144.1| metalloprotease RseP [Bacillus subtilis QH-1] &gt;gi|635180724|gb|KDE24715.1| zinc metalloprotease Lin1355 [Bacillus subtilis] &gt;gi|649011020|gb|AIC40074.1| inner membrane zinc metalloprotease [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649015384|gb|AIC44306.1| inner membrane zinc metalloprotease [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|655530754|gb|AIC98195.1| zinc metalloprotease [Bacillus subtilis subsp. subtilis str. OH 131.1] &gt;gi|659926477|emb|CCU58229.1| Intramembrane protease RasP/YluC, implicated in cell division based on FtsL cleavage [Bacillus subtilis E1] &gt;gi|668756289|gb|KFC32161.1| zinc metalloprotease [Bacillus subtilis] &gt;gi|670920651|gb|AII35664.1| metalloprotease RseP [Bacillus subtilis TO-A] &gt;gi|672773399|gb|KFH32975.1| zinc metalloprotease Lin1355 [Bacillus subtilis subsp. subtilis] &gt;gi|672774296|gb|KFH33871.1| zinc metalloprotease Lin1355 [Bacillus subtilis subsp. subtilis] &gt;gi|675436135|dbj|GAK80637.1| inner membrane zinc metalloprotease required for the extracytoplasmic stress response mediated by sigma(E) [Bacillus subtilis Miyagi-4] &gt;gi|721329429|gb|AIX07428.1| Regulator of sigma-W protease RasP [Bacillus subtilis] &gt;gi|723798148|emb|CEI56838.1| zinc metalloprotease RasP [Bacillus subtilis] &gt;gi|724427325|emb|CEJ77245.1| zinc metalloprotease RasP [Bacillus sp.] &gt;gi|728884564|gb|AIY92959.1| zinc metalloprotease [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728888875|gb|AIY97269.1| zinc metalloprotease [Bacillus subtilis] &gt;gi|749185629|gb|AJE94339.1| zinc metalloprotease [Bacillus subtilis subsp. subtilis] &gt;gi|751132376|gb|KIL29798.1| hypothetical protein B4067_1866 [Bacillus subtilis subsp. subtilis] &gt;gi|751881622|gb|KIN33549.1| hypothetical protein B4069_1719 [Bacillus subtilis] &gt;gi|751885966|gb|KIN37804.1| hypothetical protein B4068_1688 [Bacillus subtilis] &gt;gi|751886639|gb|KIN38466.1| hypothetical protein B4071_1708 [Bacillus subtilis] &gt;gi|751890385|gb|KIN42146.1| hypothetical protein B4070_1729 [Bacillus subtilis] &gt;gi|751896823|gb|KIN48432.1| hypothetical protein B4145_1804 [Bacillus subtilis] &gt;gi|751897117|gb|KIN48724.1| hypothetical protein B4072_1608 [Bacillus subtilis] &gt;gi|751903765|gb|KIN55258.1| hypothetical protein B4073_1550 [Bacillus subtilis] &gt;gi|760456835|gb|KIX82910.1| Regulator of sigma-W protease RasP [Bacillus subtilis] &gt;gi|806467556|gb|KKB92236.1| zinc metalloprotease [Bacillus sp. CMAA 1185] &gt;gi|807074007|gb|AKC47213.1| zinc metalloprotease [Bacillus subtilis KCTC 1028] &gt;gi|811155934|gb|AKE23552.1| hypothetical protein BsLM_1754 [Bacillus sp. LM 4-2] &gt;gi|811396473|emb|COM77309.1| M50 family membrane peptidase [Streptococcus pneumoniae] &gt;gi|825064383|gb|AKI92107.1| zinc metalloprotease [Bacillus subtilis] &gt;gi|846136352|gb|AKN13799.1| Membrane-associated zinc metalloprotease [Bacillus subtilis] &gt;gi|857328454|gb|KMN96300.1| zinc metalloprotease [Bacillus subtilis] &gt;gi|906391397|gb|KNB78141.1| zinc metalloprotease [Bacillus subtilis] &gt;gi|922816372|gb|KON99658.1| zinc metalloprotease [Bacillus murimartini] &gt;gi|924004093|emb|CUB32279.1| Regulator of sigma-W protease RasP [Bacillus subtilis] &gt;gi|925227330|gb|KOS72022.1| zinc metalloprotease [Bacillus tequilensis] &gt;gi|983206625|gb|AMB24086.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|998748949|gb|AMK72291.1| RIP metalloprotease RseP [Bacillus subtilis subsp. natto] &gt;gi|1009037593|gb|AMR47231.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1012901396|gb|AMS47211.1| RIP metalloprotease RseP [Bacillus subtilis] &gt;gi|1017086580|gb|KZD76242.1| Membrane-associated zinc metalloprotease [Bacillus subtilis] &gt;gi|1035535851|gb|ANJ30669.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1036010609|gb|OAY88795.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1036328099|gb|OAZ71313.1| putative protease eep [Bacillus subtilis] &gt;gi|1049084366|gb|ANX08487.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1049333443|gb|ANY32263.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1049336285|gb|ANY35104.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1049339049|gb|ANY37867.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1051021605|gb|AOA10967.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1051350891|gb|AOA54297.1| putative protease eep [Bacillus subtilis] &gt;gi|1062077693|gb|AOL27483.1| RIP metalloprotease RseP [Bacillus sp. FJAT-14266] &gt;gi|1062079814|gb|AOL29598.1| RIP metalloprotease RseP [Bacillus gibsonii] &gt;gi|1062415890|gb|AOL97480.1| putative protease eep [Bacillus subtilis] &gt;gi|1064276091|gb|ODV45852.1| RIP metalloprotease RseP [Bacillus subtilis] &gt;gi|1070424585|gb|AOR98148.1| putative protease eep [Bacillus subtilis] &gt;gi|1070875369|gb|AOS67891.1| RIP metalloprotease RseP [Bacillus subtilis] &gt;gi|1072802074|gb|AOT47935.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1072806253|gb|AOT52113.1| RIP metalloprotease RseP [Bacillus subtilis subsp. subtilis] &gt;gi|1094638480|emb|SEN37796.1| site-2 protease. Metallo peptidase. MEROPS family M50B [Bacillus subtilis] &gt;gi|1110826904|gb|OJH63315.1| RIP metalloprotease RseP [Bacillus subtilis] &gt;gi|1111580890|gb|API41991.1| RIP metalloprotease RseP [Bacillus subtilis] &gt;gi|1112935042|gb|API94954.1| RIP metalloprotease RseP [Bacillus subtilis] &gt;gi|1131848691|emb|SIQ37654.1| site-2 protease. Metallo peptidase. MEROPS family M50B [Bacillus subtilis] &gt;gi|1145971609|gb|OOE21918.1| RIP metalloprotease RseP [Bacillus subtilis] &gt;gi|1150404229|gb|AQR81636.1| Regulator of sigma-W protease RasP [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150917969|gb|AQR85850.1| Regulator of sigma-W protease RasP [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>EME07564</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.37628</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LTDNGRAAEAGLKEGDYIQSINGEKMRSWTDIVSAVKENPE-KEMDVAVKRDNKTLHISV</Hsp_hseq>
+      <Hsp_midline>+T N  AA AGL+ GD I  ++G  +    ++ + + E P  + + + V R     ++S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|605576945|gb|AHV99612.1|</Hit_id>
+  <Hit_def>GerA spore germination protein [Paenibacillus sabinae T27]</Hit_def>
+  <Hit_accession>AHV99612</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.8673</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>SGGPFTGVVTLLRNSVVSVTASSSGGQVMP--------DPLGLVNPDGLPRFANPT-----TRSVENIGTGVIVR--NDGF---IVTNYHVVR</Hsp_qseq>
+      <Hsp_hseq>SGLTLTGLESLLRKQVISASQISTSGQIQDVVDHILRGDTVLLI--DGVDKALYISARGWGMRAVEEPATEAVIRGPREGFTEDLVTNITLIR</Hsp_hseq>
+      <Hsp_midline>SG   TG+ +LLR  V+S +  S+ GQ+          D + L+  DG+ +    +      R+VE   T  ++R   +GF   +VTN  ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|490533509|ref|WP_004398681.1|</Hit_id>
+  <Hit_def>MULTISPECIES: ribonuclease Z [Bacillus] &gt;gi|16079441|ref|NP_390265.1| ribonuclease Z [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1731073|sp|P54548.1|RNZ_BACSU RecName: Full=Ribonuclease Z; Short=RNase Z; AltName: Full=tRNA 3 endonuclease; AltName: Full=tRNase Z &gt;gi|1303962|dbj|BAA12617.1| YqjK [Bacillus subtilis] &gt;gi|2634819|emb|CAB14316.1| ribonuclease Z [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|291484821|dbj|BAI85896.1| ribonuclease Z [Bacillus subtilis subsp. natto BEST195] &gt;gi|320018137|gb|ADV93123.1| ribonuclease Z [Bacillus subtilis BSn5] &gt;gi|402481826|gb|AFQ58335.1| Ribonuclease Z [Bacillus subtilis QB928] &gt;gi|407959629|dbj|BAM52869.1| ribonuclease Z [Bacillus subtilis BEST7613] &gt;gi|407965204|dbj|BAM58443.1| ribonuclease Z [Bacillus subtilis BEST7003] &gt;gi|430023671|gb|AGA24277.1| Ribonuclease Z [Bacillus subtilis subsp. subtilis str. BSP1] &gt;gi|449028796|gb|AGE64035.1| ribonuclease Z [Bacillus subtilis XF-1] &gt;gi|452115771|gb|EME06167.1| ribonuclease Z [Bacillus subtilis MB73/2] &gt;gi|459390197|gb|AGG61783.1| ribonuclease Z Rnz [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|472255003|gb|AGI29534.1| ribonuclease Z [Bacillus subtilis subsp. subtilis str. BAB-1] &gt;gi|558568858|gb|AHA78264.1| Ribonuclease Z [Bacillus subtilis PY79] &gt;gi|635178669|gb|KDE22685.1| ribonuclease Z [Bacillus subtilis] &gt;gi|649011782|gb|AIC40836.1| ribonuclease Z [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649016146|gb|AIC45068.1| ribonuclease Z [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|655531337|gb|AIC98778.1| ribonuclease Z [Bacillus subtilis subsp. subtilis str. OH 131.1] &gt;gi|668754696|gb|KFC30605.1| ribonuclease Z [Bacillus subtilis] &gt;gi|672776194|gb|KFH35767.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|672777390|gb|KFH36962.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|675437961|dbj|GAK78938.1| ribonuclease Z [Bacillus subtilis Miyagi-4] &gt;gi|721330041|gb|AIX08040.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|723798909|emb|CEI57602.1| ribonuclease Z [Bacillus subtilis] &gt;gi|724428104|emb|CEJ78024.1| ribonuclease Z [Bacillus sp.] &gt;gi|728885309|gb|AIY93704.1| ribonuclease Z [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728889618|gb|AIY98012.1| ribonuclease Z [Bacillus subtilis] &gt;gi|749186375|gb|AJE95085.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|751134200|gb|KIL31523.1| Ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|751876171|gb|KIN28245.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|751881967|gb|KIN33884.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|751890433|gb|KIN42191.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|751894021|gb|KIN45704.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|751895866|gb|KIN47500.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|751907493|gb|KIN58910.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|758318431|gb|KIU11555.1| ribonuclease Z [Bacillus subtilis] &gt;gi|760458190|gb|KIX84263.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|807074754|gb|AKC47960.1| ribonuclease Z [Bacillus subtilis KCTC 1028] &gt;gi|808340760|gb|AKD35618.1| ribonuclease Z [Bacillus subtilis HJ5] &gt;gi|811156517|gb|AKE24135.1| ribonuclease Z [Bacillus sp. LM 4-2] &gt;gi|811395599|emb|CON27226.1| ribonuclease Z [Streptococcus pneumoniae] &gt;gi|857326218|gb|KMN94112.1| ribonuclease Z [Bacillus subtilis] &gt;gi|882820305|emb|CJR81003.1| ribonuclease Z [Streptococcus pneumoniae] &gt;gi|906390454|gb|KNB77199.1| ribonuclease Z [Bacillus subtilis] &gt;gi|922817910|gb|KOO01194.1| ribonuclease Z [Bacillus murimartini] &gt;gi|925226080|gb|KOS70775.1| ribonuclease Z [Bacillus tequilensis] &gt;gi|961583469|gb|ALS81637.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|983207176|gb|AMB24637.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|998749573|gb|AMK72915.1| ribonuclease Z [Bacillus subtilis subsp. natto] &gt;gi|1009036932|gb|AMR46570.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|1012902143|gb|AMS47958.1| ribonuclease Z [Bacillus subtilis] &gt;gi|1017095415|gb|KZD84976.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|1026722301|gb|OAD99804.1| ribonuclease Z [Bacillus subtilis] &gt;gi|1035536397|gb|ANJ31215.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|1036323709|gb|OAZ66987.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|1049083619|gb|ANX07740.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|1049333787|gb|ANY32607.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|1049336628|gb|ANY35447.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|1049339390|gb|ANY38208.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|1051022353|gb|AOA11715.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|1051351705|gb|AOA55111.1| Ribonuclease Z [Bacillus subtilis] &gt;gi|1062077137|gb|AOL26927.1| ribonuclease Z [Bacillus sp. FJAT-14266] &gt;gi|1062080356|gb|AOL30140.1| ribonuclease Z [Bacillus gibsonii] &gt;gi|1072802820|gb|AOT48681.1| ribonuclease Z [Bacillus subtilis subsp. subtilis] &gt;gi|1094636716|emb|SEN83796.1| RNAse Z [Bacillus subtilis] &gt;gi|1111581472|gb|API42573.1| ribonuclease Z [Bacillus subtilis] &gt;gi|1112938392|gb|API98304.1| ribonuclease Z [Bacillus subtilis] &gt;gi|1150404990|gb|AQR82397.1| Ribonuclease Z [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150918730|gb|AQR86611.1| Ribonuclease Z [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162903255|gb|AQZ91282.1| ribonuclease Z [Bacillus subtilis] &gt;gi|1181761653|gb|ARI85006.1| ribonuclease Z [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME06167</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.3876</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>TASSSGGQVMPDPLGLVNPDGLPRFANPT---TRS-------VENIGTGVIVRNDGFIVTNYHVVRGANSV-YVTVKDDV-GSIR</Hsp_qseq>
+      <Hsp_hseq>SRSFQGGE---DELTVYGPKGIKAFIETSLAVTKTHLTYPLAIQEIEEGIVFEDDQFIVTAVSVIHGVEAFGYRVQEKDVPGSLK</Hsp_hseq>
+      <Hsp_midline>+ S  GG+   D L +  P G+  F   +   T++       ++ I  G++  +D FIVT   V+ G  +  Y   + DV GS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|489336889|ref|WP_003244102.1|</Hit_id>
+  <Hit_def>MULTISPECIES: sugar dehydratase/epimerase yfnG [Bacillus] &gt;gi|221222996|sp|O06485.2|YFNG_BACSU RecName: Full=Putative sugar dehydratase/epimerase YfnG &gt;gi|291483177|dbj|BAI84252.1| hypothetical protein BSNT_07115 [Bacillus subtilis subsp. natto BEST195] &gt;gi|349593629|gb|AEP89816.1| sporulation putative NAD-dependent epimerase/dehydratase YfnG [Bacillus subtilis subsp. subtilis str. RO-NN-1] &gt;gi|402480140|gb|AFQ56649.1| Putative CDP-sugar-dehydratase/epimerase [Bacillus subtilis QB928] &gt;gi|443906305|emb|CAB12547.2| putative CDP-sugar-dehydratase/epimerase [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|449027357|gb|AGE62596.1| hypothetical protein C663_0754 [Bacillus subtilis XF-1] &gt;gi|452118501|gb|EME08895.1| polysaccharide biosynthesis family protein [Bacillus subtilis MB73/2] &gt;gi|588499319|gb|EXF51733.1| sugar dehydratase/epimerase yfnG [Bacillus subtilis QH-1] &gt;gi|675438088|dbj|GAK78794.1| putative CDP-sugar-dehydratase/epimerase [Bacillus subtilis Miyagi-4] &gt;gi|728883622|gb|AIY92017.1| sugar dehydratase [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728887935|gb|AIY96329.1| sugar dehydratase [Bacillus subtilis] &gt;gi|749184686|gb|AJE93396.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|751881859|gb|KIN33780.1| UDP-glucose 4-epimerase [Bacillus subtilis] &gt;gi|751883669|gb|KIN35548.1| UDP-glucose 4-epimerase [Bacillus subtilis] &gt;gi|751891013|gb|KIN42758.1| UDP-glucose 4-epimerase [Bacillus subtilis] &gt;gi|751895613|gb|KIN47255.1| UDP-glucose 4-epimerase [Bacillus subtilis] &gt;gi|807073064|gb|AKC46270.1| sugar dehydratase [Bacillus subtilis KCTC 1028] &gt;gi|811154949|gb|AKE22567.1| hypothetical protein BsLM_0768 [Bacillus sp. LM 4-2] &gt;gi|825063457|gb|AKI91181.1| sugar dehydratase [Bacillus subtilis] &gt;gi|906390043|gb|KNB76790.1| sugar dehydratase [Bacillus subtilis] &gt;gi|922809623|gb|KON92924.1| sugar dehydratase [Bacillus murimartini] &gt;gi|983205683|gb|AMB23144.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|998748013|gb|AMK71355.1| sugar dehydratase [Bacillus subtilis subsp. natto] &gt;gi|1012900455|gb|AMS46270.1| sugar dehydratase [Bacillus subtilis] &gt;gi|1026723924|gb|OAE05416.1| sugar dehydratase [Bacillus subtilis] &gt;gi|1035534959|gb|ANJ29777.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|1049085303|gb|ANX09424.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|1049332748|gb|ANY31568.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|1049335651|gb|ANY34470.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|1049338356|gb|ANY37174.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|1051020668|gb|AOA10030.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|1064276214|gb|ODV45973.1| sugar dehydratase [Bacillus subtilis] &gt;gi|1070874409|gb|AOS66931.1| sugar dehydratase [Bacillus subtilis] &gt;gi|1072801136|gb|AOT46997.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|1072805381|gb|AOT51241.1| sugar dehydratase [Bacillus subtilis subsp. subtilis] &gt;gi|1110825588|gb|OJH62024.1| sugar dehydratase [Bacillus subtilis] &gt;gi|1111579955|gb|API41056.1| sugar dehydratase [Bacillus subtilis] &gt;gi|1112935973|gb|API95885.1| sugar dehydratase [Bacillus subtilis] &gt;gi|1162901602|gb|AQZ89629.1| sugar dehydratase [Bacillus subtilis] &gt;gi|1181764049|gb|ARI87402.1| sugar dehydratase [Bacillus subtilis]</Hit_def>
+  <Hit_accession>EME08895</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.79258</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>VRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKV</Hsp_qseq>
+      <Hsp_hseq>IRSDGTFVRDYFYIEDAVQAYLLLAEKMEENNLAGEAFNFSNEIQLTVLELVEKI</Hsp_hseq>
+      <Hsp_midline>+R+DG  V +Y  +  A   Y+ + + +     +GE       + L +L++  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|499566240|ref|WP_011247023.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacillus] &gt;gi|56910188|dbj|BAD64715.1| aluminum resistance protein [Bacillus clausii KSM-K16] &gt;gi|922065803|gb|ALA54928.1| Aluminum resistance protein [Bacillus clausii] &gt;gi|1110119367|emb|SHL11321.1| Cystathionine beta-lyase family protein involved in aluminum resistance [Bacillus rhizosphaerae]</Hit_def>
+  <Hit_accession>BAD64715</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.08141</Hsp_evalue>
+      <Hsp_query-from>585</Hsp_query-from>
+      <Hsp_query-to>608</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>LRPGDVILKVDGRPVHQPEEVAAI</Hsp_qseq>
+      <Hsp_hseq>LRPGDELLYISGKPYDTLEEIVGI</Hsp_hseq>
+      <Hsp_midline>LRPGD +L + G+P    EE+  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>18466</Statistics_db-num>
+      <Statistics_db-len>5604615</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

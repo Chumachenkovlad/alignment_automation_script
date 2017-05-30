@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99592.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>347</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99592.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>347</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489959491|ref|WP_003862798.1|</Hit_id>
+  <Hit_def>MULTISPECIES: molecular chaperone DnaK [Corynebacterium] &gt;gi|658109583|gb|KEI24341.1| molecular chaperone DnaK [Corynebacterium glutamicum ATCC 14067] &gt;gi|674157726|gb|AIK88980.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|674168998|gb|AIK86197.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|748421422|gb|KIH72437.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|748812085|gb|AJE68396.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|817156023|gb|AKF28558.1| molecular chaperone DnaK [[Brevibacterium] flavum] &gt;gi|954626002|gb|ALP51178.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|1027952661|gb|ANE09394.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|1042920548|dbj|BAV24425.1| chaperone protein dnaK [Corynebacterium glutamicum] &gt;gi|1043176461|gb|ANR63664.1| molecular chaperone DnaK [[Brevibacterium] flavum ZL-1] &gt;gi|1043179470|gb|ANR66672.1| molecular chaperone DnaK [Corynebacterium glutamicum ZL-6] &gt;gi|1045038197|gb|ANU34704.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|1123344749|gb|OKX85907.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|1123346306|gb|OKX87436.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|1123351381|gb|OKX92398.1| molecular chaperone DnaK [Corynebacterium glutamicum] &gt;gi|1127832570|gb|APT08457.1| molecular chaperone DnaK [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV24425</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.625053</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLL----------KSVVGYPKDVIGLKLLG---RPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRDI---EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV-VHTALVVSEPF--MVGYGLDK--LNNTIIV-DIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>VGIDLGTTNSVVSVLEGGEPVVIANAEGSRTTPSVVAFAKN--GEVLVGQSAKNQAVTNVDRTIRSV--KRHIGTDWSVA-IDDKNYTSQEISARTLMKLKRDAEAYLGEDVTDAVITVPAYFEDSQRQATKEAGQIAGLNVLRIVNEPTAAALAYGLEKGEQEQTILVFDLGGGTFDVSLLE</Hsp_hseq>
+      <Hsp_midline>+GIDLGT+++ V    G + ++           SVV + K+  G  L+G   +   V +    +RS    R+   D  ++ I D++    E++   L  + + AE    +++  AVI VPA    + +    +  Q   ++   +V+EP    + YGL+K     TI+V D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1042918275|dbj|BAV22152.1|</Hit_id>
+  <Hit_def>heat shock protein 70 [Corynebacterium glutamicum] &gt;gi|1043174188|gb|ANR61391.1| molecular chaperone DnaK [[Brevibacterium] flavum ZL-1]</Hit_def>
+  <Hit_accession>BAV22152</Hit_accession>
+  <Hit_len>535</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.653757</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>VARHLLTHVVKSAEPGANDEICAVIGVPARASGANKALLLKMAQEV--VHTALVVSEPFMV----GYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTL-----TKAGNYLDERLQNAILERHPE</Hsp_qseq>
+      <Hsp_hseq>ILRELIENAMEEVD---TDSKKAVITVPAYF-GLNEKNSTKLAGEIAGIDVIDIVSEPVAAAIAEGFDFTREETVLVYDLGGGTFD-CTIMTFSPDEGIQVKAVDGDRTLGGADWDKALYDFVLDQFRE</Hsp_hseq>
+      <Hsp_midline>+ R L+ + ++  +    D   AVI VPA   G N+    K+A E+  +    +VSEP       G+   +    ++ D+G GT D C +    P    QV       T  G   D+ L + +L++  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|983388372|ref|WP_060565133.1|</Hit_id>
+  <Hit_def>HAD family hydrolase [Corynebacterium glutamicum] &gt;gi|954625849|gb|ALP51025.1| HAD family hydrolase [Corynebacterium glutamicum] &gt;gi|1042920369|dbj|BAV24246.1| putative phosphatase YkrA [Corynebacterium glutamicum] &gt;gi|1045038045|gb|ANU34552.1| HAD family hydrolase [Corynebacterium glutamicum] &gt;gi|1127832417|gb|APT08304.1| HAD family hydrolase [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV24246</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.737468</Hsp_evalue>
+      <Hsp_query-from>220</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>QFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDII</Hsp_qseq>
+      <Hsp_hseq>EFYLESNNGLYASRGFREASKPVLSRLSEKTDVTVDGMYPDMF</Hsp_hseq>
+      <Hsp_midline>+F      G  A+  FR A KPV   ++E   +  + + PD+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|983387992|ref|WP_060564753.1|</Hit_id>
+  <Hit_def>MULTISPECIES: chromosome segregation protein SMC [Corynebacterium] &gt;gi|954625341|gb|ALP50517.1| chromosome segregation protein SMC [Corynebacterium glutamicum] &gt;gi|1042919807|dbj|BAV23684.1| chromosome partition protein smc [Corynebacterium glutamicum] &gt;gi|1043175722|gb|ANR62925.1| chromosome segregation protein [[Brevibacterium] flavum ZL-1] &gt;gi|1043178728|gb|ANR65930.1| chromosome segregation protein [Corynebacterium glutamicum ZL-6] &gt;gi|1045037531|gb|ANU34038.1| chromosome segregation protein SMC [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV23684</Hit_accession>
+  <Hit_len>1155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>1.13479</Hsp_evalue>
+      <Hsp_query-from>281</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>LQNIVFAGGGSRIRGLAAYVKDKLRPFGNADVTCVKDPTFDGCRGAL</Hsp_qseq>
+      <Hsp_hseq>MEDVIFAGAGDR------------KPLGRAEVTL----TIDNSDGAL</Hsp_hseq>
+      <Hsp_midline>+++++FAG G R            +P G A+VT     T D   GAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|489956575|ref|WP_003859882.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphatidylglycerophosphate synthase [Corynebacterium] &gt;gi|19552879|ref|NP_600881.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum ATCC 13032] &gt;gi|21324438|dbj|BAB99062.1| Phosphatidylglycerophosphate synthase [Corynebacterium glutamicum ATCC 13032] &gt;gi|41325888|emb|CAF20051.1| Phosphatidylglycerophosphate synthase [Corynebacterium glutamicum ATCC 13032] &gt;gi|140845709|dbj|BAF54708.1| hypothetical protein cgR_1714 [Corynebacterium glutamicum R] &gt;gi|385143786|emb|CCH24825.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum K051] &gt;gi|482617805|gb|EOA65489.1| phosphatidylglycerophosphate synthase [Corynebacterium crenatum MT] &gt;gi|529578171|gb|AGT05624.1| putative CDP-diacylglycerol-glycerol-3-phosphate 3-phosphatidyltransferase [Corynebacterium glutamicum MB001] &gt;gi|658108622|gb|KEI23381.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum ATCC 14067] &gt;gi|674156855|gb|AIK88109.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|674168125|gb|AIK85324.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|748422526|gb|KIH73490.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|748811276|gb|AJE67587.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|817155098|gb|AKF27633.1| phosphatidylglycerophosphate synthase [[Brevibacterium] flavum] &gt;gi|954625170|gb|ALP50346.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|975041861|gb|AMA00359.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1027951729|gb|ANE08462.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1042919627|dbj|BAV23504.1| phosphatidylinositol synthase [Corynebacterium glutamicum] &gt;gi|1043175545|gb|ANR62748.1| phosphatidylglycerophosphate synthase [[Brevibacterium] flavum ZL-1] &gt;gi|1043178550|gb|ANR65752.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum ZL-6] &gt;gi|1045037361|gb|ANU33868.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1123337107|gb|OKX78375.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1123339383|gb|OKX80631.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1123342757|gb|OKX83968.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1123347509|gb|OKX88614.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1123350873|gb|OKX91906.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1123354043|gb|OKX95002.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1139903024|dbj|GAV97373.1| phosphatidylglycerophosphate synthase [Corynebacterium glutamicum] &gt;gi|1145388251|emb|SJM68718.1| CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV23504</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>1.75583</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>PELQMNTNVACAVKEQ-FSFVGARGEAATFEFRAA--GKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAG</Hsp_qseq>
+      <Hsp_hseq>PQALVAASLVCLVASQVISYVKARGEASGFTMDGGLVERPERL-IVSLVGLGLTGM--GVPYAIDVALWALAAGSIYTVVQRLVMAG</Hsp_hseq>
+      <Hsp_midline>P+  +  ++ C V  Q  S+V ARGEA+ F        +P R  +   V +    +   +  +I++ L +       TV+Q +V AG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|490704679|ref|WP_004568055.1|</Hit_id>
+  <Hit_def>MULTISPECIES: heme ABC transporter ATP-binding protein [Corynebacterium] &gt;gi|658108058|gb|KEI22817.1| heme ABC transporter ATP-binding protein [Corynebacterium glutamicum ATCC 14067] &gt;gi|817154560|gb|AKF27095.1| heme ABC transporter ATP-binding protein [[Brevibacterium] flavum] &gt;gi|954624597|gb|ALP49773.1| heme ABC transporter ATP-binding protein [Corynebacterium glutamicum] &gt;gi|1027951185|gb|ANE07918.1| heme ABC transporter ATP-binding protein [Corynebacterium glutamicum] &gt;gi|1042919001|dbj|BAV22878.1| hypothetical ABC transporter ATP-binding protein ydiF [Corynebacterium glutamicum] &gt;gi|1043174925|gb|ANR62128.1| ABC transporter ATPase [[Brevibacterium] flavum ZL-1] &gt;gi|1043177928|gb|ANR65130.1| ABC transporter ATPase [Corynebacterium glutamicum ZL-6] &gt;gi|1045036782|gb|ANU33289.1| heme ABC transporter ATP-binding protein [Corynebacterium glutamicum] &gt;gi|1123353065|gb|OKX94036.1| heme ABC transporter ATP-binding protein [Corynebacterium glutamicum] &gt;gi|1127831153|gb|APT07040.1| heme ABC transporter ATP-binding protein [Corynebacterium glutamicum] &gt;gi|1145390411|emb|SJM45024.1| ABC transporter ATP-binding protein [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV22878</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>2.25275</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGAND</Hsp_qseq>
+      <Hsp_hseq>GKSTLLRGLLGNQEPTSGTATMGTSVAIG-EIDQARALLDPQLPLISAFEKHVPDLPISEVRTLL------AKFGLND</Hsp_hseq>
+      <Hsp_midline>GK  LL+ ++G  +   G   +G    +G E  + R+ LD + PL       + D  I   R LL      A+ G ND</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|983388484|ref|WP_060565243.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphate acetyltransferase [Corynebacterium] &gt;gi|954625965|gb|ALP51141.1| phosphotransacetylase [Corynebacterium glutamicum] &gt;gi|1042920506|dbj|BAV24383.1| phosphate acetyltransferase [Corynebacterium glutamicum] &gt;gi|1043176420|gb|ANR63623.1| phosphotransacetylase [[Brevibacterium] flavum ZL-1] &gt;gi|1043179429|gb|ANR66631.1| phosphotransacetylase [Corynebacterium glutamicum ZL-6] &gt;gi|1045038160|gb|ANU34667.1| phosphate acetyltransferase [Corynebacterium glutamicum] &gt;gi|1127832534|gb|APT08421.1| phosphate acetyltransferase [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV24383</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>2.78811</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>SHTAVMTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRY---PLQDGVLSEISDRDIEVAR</Hsp_qseq>
+      <Hsp_hseq>SHIVLPEGDDDRILMAAHQLLDQDICDITILGDPVQIKERATELGLHLNTAYLVNPLTDPRLEEFAEQFAELRK</Hsp_hseq>
+      <Hsp_midline>SH  +      + L+ +     +D+  + +LG P  + + A E+  +L+  Y   PL D  L E +++  E+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|983387250|ref|WP_060564211.1|</Hit_id>
+  <Hit_def>MULTISPECIES: pyridoxal 5&apos;-phosphate synthase glutaminase subunit PdxT [Corynebacterium] &gt;gi|954624367|gb|ALP49543.1| glutamine amidotransferase [Corynebacterium glutamicum] &gt;gi|1042918735|dbj|BAV22612.1| pyridoxal 5&apos;-phosphate synthase glutaminase subunit [Corynebacterium glutamicum] &gt;gi|1045036548|gb|ANU33055.1| glutamine amidotransferase subunit PdxT [Corynebacterium glutamicum] &gt;gi|1127830911|gb|APT06798.1| glutamine amidotransferase subunit PdxT [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV22612</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>4.05838</Hsp_evalue>
+      <Hsp_query-from>281</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LQNIVFAGGGSRIRGLAAYVKDKLRPFGNADVTCVKD--PTFDGCRGALRLAEEL</Hsp_qseq>
+      <Hsp_hseq>LEGIVIPGGESTVLDKLARTFDVAEPLAN----LIRDGLPVFATCAGLIYLAKHL</Hsp_hseq>
+      <Hsp_midline>L+ IV  GG S +    A   D   P  N     ++D  P F  C G + LA+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|983387937|ref|WP_060564704.1|</Hit_id>
+  <Hit_def>translation initiation factor IF-2 [Corynebacterium glutamicum] &gt;gi|954625267|gb|ALP50443.1| translation initiation factor IF-2 [Corynebacterium glutamicum] &gt;gi|1042919727|dbj|BAV23604.1| translation initiation factor IF-2 [Corynebacterium glutamicum] &gt;gi|1045037456|gb|ANU33963.1| translation initiation factor IF-2 [Corynebacterium glutamicum] &gt;gi|1127831823|gb|APT07710.1| translation initiation factor IF-2 [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV23604</Hit_accession>
+  <Hit_len>1007</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>5.0331</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>913</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIESIEILLRS-FQPEYQATVL</Hsp_qseq>
+      <Hsp_hseq>MDDEVQLNIIDRGVGAVTQTNVTLAAASDAVII-------AFNVRAEGKATEEANAEGVDVRYYTIIYRAIEEVEAALKGMLKPIYEERVI</Hsp_hseq>
+      <Hsp_midline>+D+ +Q  I++R       TNV  A       +        F  RA GK       E V +    ++   IE +E  L+   +P Y+  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1043349950|ref|WP_065366541.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glutamate synthase subunit alpha [Corynebacterium] &gt;gi|4521156|dbj|BAA75929.1| glutamine 2-oxoglutarate aminotransferase large subunit [Corynebacterium glutamicum] &gt;gi|1042918101|dbj|BAV21978.1| glutamate synthase subunit alpha [Corynebacterium glutamicum] &gt;gi|1043174003|gb|ANR61206.1| glutamine 2-oxoglutarate aminotransferase large SU [[Brevibacterium] flavum ZL-1] &gt;gi|1043177004|gb|ANR64206.1| glutamine 2-oxoglutarate aminotransferase large SU [Corynebacterium glutamicum ZL-6] &gt;gi|1045035967|gb|ANU32474.1| glutamate synthase subunit alpha [Corynebacterium glutamicum] &gt;gi|1127830331|gb|APT06218.1| glutamate synthase subunit alpha [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV21978</Hit_accession>
+  <Hit_len>1510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>6.18251</Hsp_evalue>
+      <Hsp_query-from>193</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>DERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAAT</Hsp_qseq>
+      <Hsp_hseq>DARLESAIAIVHSRFSTNTFPSWPLAHPYRFVAHNGEINT</Hsp_hseq>
+      <Hsp_midline>D RL++AI   H     NT  +  +   + FV   GE  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|983387480|ref|WP_060564377.1|</Hit_id>
+  <Hit_def>MULTISPECIES: arginine--tRNA ligase [Corynebacterium] &gt;gi|954624708|gb|ALP49884.1| arginyl-tRNA synthetase [Corynebacterium glutamicum] &gt;gi|1042919119|dbj|BAV22996.1| arginyl-tRNA synthetase [Corynebacterium glutamicum] &gt;gi|1043175040|gb|ANR62243.1| arginyl-tRNA ligase [[Brevibacterium] flavum ZL-1] &gt;gi|1043178044|gb|ANR65246.1| arginyl-tRNA ligase [Corynebacterium glutamicum ZL-6] &gt;gi|1045036891|gb|ANU33398.1| arginine--tRNA ligase [Corynebacterium glutamicum] &gt;gi|1127831260|gb|APT07147.1| arginine--tRNA ligase [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV22996</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>7.08656</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPE</Hsp_qseq>
+      <Hsp_hseq>LAAAKGE-PTPEDGY----GGEYIKE-IAEAIVEKHPE</Hsp_hseq>
+      <Hsp_midline>+ A KG  P PED       G Y+ E +  AI+E+HPE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|489959718|ref|WP_003863025.1|</Hit_id>
+  <Hit_def>MULTISPECIES: glucosamine-6-phosphate deaminase [Corynebacterium] &gt;gi|658109447|gb|KEI24205.1| glucosamine-6-phosphate deaminase [Corynebacterium glutamicum ATCC 14067] &gt;gi|748421732|gb|KIH72738.1| glucosamine-6-phosphate deaminase [Corynebacterium glutamicum] &gt;gi|817155893|gb|AKF28428.1| glucosamine-6-phosphate deaminase [[Brevibacterium] flavum] &gt;gi|954625868|gb|ALP51044.1| glucosamine-6-phosphate deaminase [Corynebacterium glutamicum] &gt;gi|1027952530|gb|ANE09263.1| glucosamine-6-phosphate deaminase [Corynebacterium glutamicum] &gt;gi|1042920390|dbj|BAV24267.1| glucosamine-6-phosphate isomerase [Corynebacterium glutamicum] &gt;gi|1045038065|gb|ANU34572.1| glucosamine-6-phosphate deaminase [Corynebacterium glutamicum] &gt;gi|1127832437|gb|APT08324.1| glucosamine-6-phosphate deaminase [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV24267</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>7.29092</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>LDKLNNTIIVDIGAGTTDICALKGTVPGP</Hsp_qseq>
+      <Hsp_hseq>LSRAQNIVLVATGEGKAD--AIRGTVEGP</Hsp_hseq>
+      <Hsp_midline>L +  N ++V  G G  D  A++GTV GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|975887536|ref|WP_059288606.1|</Hit_id>
+  <Hit_def>dTDP-glucose 4,6-dehydratase [Corynebacterium glutamicum] &gt;gi|954623935|gb|ALP49111.1| dTDP-glucose 4,6-dehydratase [Corynebacterium glutamicum] &gt;gi|975040616|gb|ALZ99113.1| dTDP-glucose 4,6-dehydratase [Corynebacterium glutamicum] &gt;gi|1042918255|dbj|BAV22132.1| dTDP-glucose 4,6-dehydratase [Corynebacterium glutamicum] &gt;gi|1045036116|gb|ANU32623.1| dTDP-glucose 4,6-dehydratase [Corynebacterium glutamicum] &gt;gi|1127830479|gb|APT06366.1| dTDP-glucose 4,6-dehydratase [Corynebacterium glutamicum] &gt;gi|1139904036|dbj|GAV96109.1| dTDP-D-glucose 4,6-dehydratase [Corynebacterium glutamicum] &gt;gi|1145389356|emb|SJM58413.1| dTDP-glucose 4,6-dehydratase [Corynebacterium glutamicum]</Hit_def>
+  <Hit_accession>BAV22132</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>9.08307</Hsp_evalue>
+      <Hsp_query-from>273</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>QPEY-QATVLQNIVFAGGGSRIRGL</Hsp_qseq>
+      <Hsp_hseq>HPEYTHITVLDKLTYAGNADNLKGL</Hsp_hseq>
+      <Hsp_midline> PEY   TVL  + +AG    ++GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>3093</Statistics_db-num>
+      <Statistics_db-len>986934</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
