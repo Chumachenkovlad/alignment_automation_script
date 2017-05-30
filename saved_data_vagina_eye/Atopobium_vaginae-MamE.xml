@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|493346976|ref|WP_006303734.1|</Hit_id>
+  <Hit_def>trypsin [Atopobium vaginae] &gt;gi|302481430|gb|EFL44501.1| trypsin [Atopobium vaginae PB189-T1-4]</Hit_def>
+  <Hit_accession>WP_006303734</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>4.1785e-35</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS--AKRKTMVIEG---MTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VGSGVLLDKDGNILTNYHVIEGAQKVSVTI----GNKTYPAQVVGSDPSSDLAVVKADLKGAQVTPIKTADSDKLQVGDWVMSVGSPYGLNQSVSAGIVSSLARNQSLTTKGGATTLYTNLIQTDASINPGNSGGALVNSSGELVGICTLFSSTSGAFSGIGFAIPSNYATSVA</Hsp_hseq>
+      <Hsp_midline>+G+GV++  DG I+TNYHV+ GA  V VT+    G+  Y  ++V  D + DLA++K   K  Q+T     DSD + V D V+++G+P+GL+ +VS GI+S  A+ +++  +G     ++NL+QTDA+IN GNSGG LV ++G +VGI T   + +GAF+GIGFA+PSN A   A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.000856363</Hsp_evalue>
+      <Hsp_query-from>665</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>QPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE--FWIVL</Hsp_qseq>
+      <Hsp_hseq>QKIIKGEKVTHAYIGLSMQTI---NPQNAEHYRLPVSAG---AFVAEVAQGGPAEKAGIQRGDIITKVNDKPITSADSMLLEVRSH-EIGQTIAVTVKRGEEEKTFNVTL</Hsp_hseq>
+      <Hsp_midline>Q +I        ++G+ ++T     P        PV+ G   A VAEV  G  A  AG+Q  D+I +VN++P+TS   +   +++    GQ I + V R  +E  F + L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00352992</Hsp_evalue>
+      <Hsp_query-from>544</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>SLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>AYIGLSMQTINPQNAEHYRLPVSAGAFVAEVAQGGPAEKAGIQRGDIITKVNDKPITSADSMLLEVRSHEIGQTIAVTVKRGEEEKTFNVTLG</Hsp_hseq>
+      <Hsp_midline>+ +G ++  +  +      LP   G FV  V    PA  AG++ GD+I KV+ +P+   + +   +     G+++ + V R  +    ++  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|327491133|gb|EGF22908.1|</Hit_id>
+  <Hit_def>trypsin [Atopobium vaginae DSM 15829]</Hit_def>
+  <Hit_accession>EGF22908</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>2.45855e-32</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS--AKRKTMVIEGMT--HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VGSGVMLDSDGNILTNYHVVANAQAVSVTIANKT----YSAKVVGSDPSSDIAVIKADLEGDEVTPIEAADSDKLSVGDWVMSVGSPYGLNQSVSAGIISSLARNQSLRTKSGTTLYTNLIQTDASINPGNSGGALVNAEGKLVGICTLFSSTSGAFSGIGFAIPSNYAMKIA</Hsp_hseq>
+      <Hsp_midline>+G+GV++ +DG I+TNYHVV  A +V VT+ +      YS ++V  D + D+A++K   +  ++T     DSD ++V D V+++G+P+GL+ +VS GIIS  A+ +++  +  T  ++NL+QTDA+IN GNSGG LV A G +VGI T   + +GAF+GIGFA+PSN A   A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000529665</Hsp_evalue>
+      <Hsp_query-from>544</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>SLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>AYIGLAMQTINAQNASHYRLPVTEGAYVADVAATGPAEKAGIKKGDIITAVDDKEITSADAMILNVRSHEIGQTVRVTVWRDKEKKTFDVTLG</Hsp_hseq>
+      <Hsp_midline>+ +G A+  +  +      LP   G +V  V    PA  AG++ GD+I  VD + +   + +   +     G++VR+ V R  +     +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.39413</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE--FWIVL</Hsp_qseq>
+      <Hsp_hseq>EGAYVADVAATGPAEKAGIKKGDIITAVDDKEITSADAMILNVRSH-EIGQTVRVTVWRDKEKKTFDVTL</Hsp_hseq>
+      <Hsp_midline>+GA VA+V A   A  AG++  D+I  V+++ +TS   +   +++    GQ + + V R+ ++  F + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|998486148|ref|WP_061102997.1|</Hit_id>
+  <Hit_def>trypsin [Atopobium vaginae] &gt;gi|996351646|gb|KXG89565.1| trypsin [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_061102997</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>2.50718e-32</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS--AKRKTMVIEGMT--HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VGSGVMLDSDGNILTNYHVVANAQAVSVTIANKT----YSAKVVGSDPSSDIAVIKADLEGDEVTPIEAADSDKLSVGDWVMSVGSPYGLNQSVSAGIISSLARNQSLRTKSGTTLYTNLIQTDASINPGNSGGALVNAEGKLVGICTLFSSTSGAFSGIGFAIPSNYAMKIA</Hsp_hseq>
+      <Hsp_midline>+G+GV++ +DG I+TNYHVV  A +V VT+ +      YS ++V  D + D+A++K   +  ++T     DSD ++V D V+++G+P+GL+ +VS GIIS  A+ +++  +  T  ++NL+QTDA+IN GNSGG LV A G +VGI T   + +GAF+GIGFA+PSN A   A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000544374</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>YIGLAMQTINAQNASHYRLPVTEGAYVADVAATGPAEKAGIKKGDIITAVDDKEITSADAMILNVRSHEIGQTVRVTVWRDKEKKTFDVTLG</Hsp_hseq>
+      <Hsp_midline> +G A+  +  +      LP   G +V  V    PA  AG++ GD+I  VD + +   + +   +     G++VR+ V R  +     +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.41268</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE--FWIVL</Hsp_qseq>
+      <Hsp_hseq>EGAYVADVAATGPAEKAGIKKGDIITAVDDKEITSADAMILNVRSH-EIGQTVRVTVWRDKEKKTFDVTL</Hsp_hseq>
+      <Hsp_midline>+GA VA+V A   A  AG++  D+I  V+++ +TS   +   +++    GQ + + V R+ ++  F + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|497927012|ref|WP_010241168.1|</Hit_id>
+  <Hit_def>trypsin [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_010241168</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>2.79916e-32</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS--AKRKTMVIEGMT--HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VGSGVMLDSDGNILTNYHVVANAQAVSVTIANKT----YSAKVVGSDPSSDIAVIKADLEGDEVTPIEAADSDKLSVGDWVMSVGSPYGLNQSVSAGIISSLARNQSLRTKSGTTLYTNLIQTDASINPGNSGGALVNAEGKLVGICTLFSSTSGAFSGIGFAIPSNYAMKIA</Hsp_hseq>
+      <Hsp_midline>+G+GV++ +DG I+TNYHVV  A +V VT+ +      YS ++V  D + D+A++K   +  ++T     DSD ++V D V+++G+P+GL+ +VS GIIS  A+ +++  +  T  ++NL+QTDA+IN GNSGG LV A G +VGI T   + +GAF+GIGFA+PSN A   A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000549073</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>YIGLAMQTINAQNASHYRLPVTEGAYVADVAATGPAEKAGIKKGDIITAVDDKEITSADAMILNVRSHEIGQTVRVTVWRDKEKKTFDVTLG</Hsp_hseq>
+      <Hsp_midline> +G A+  +  +      LP   G +V  V    PA  AG++ GD+I  VD + +   + +   +     G++VR+ V R  +     +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.4371</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>EGAYVADVAATGPAEKAGIKKGDIITAVDDKEITSADAMILNVRSH-EIGQTVRVTVWRDKEK</Hsp_hseq>
+      <Hsp_midline>+GA VA+V A   A  AG++  D+I  V+++ +TS   +   +++    GQ + + V R+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|873890003|ref|WP_048596672.1|</Hit_id>
+  <Hit_def>trypsin [Atopobium vaginae] &gt;gi|873353346|gb|KMT47824.1| trypsin [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_048596672</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>2.95765e-32</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS--AKRKTMVIEGMT--HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VGSGVMLDSDGNILTNYHVVANAQAVSVTIANKT----YSAKVVGSDPSSDIAVIKADLEGDEVTPIEAADSDKLSVGDWVMSVGSPYGLNQSVSAGIISSLARNQSLRTKSGTTLYTNLIQTDASINPGNSGGALVNAEGKLVGICTLFSSTSGAFSGIGFAIPSNYAMKIA</Hsp_hseq>
+      <Hsp_midline>+G+GV++ +DG I+TNYHVV  A +V VT+ +      YS ++V  D + D+A++K   +  ++T     DSD ++V D V+++G+P+GL+ +VS GIIS  A+ +++  +  T  ++NL+QTDA+IN GNSGG LV A G +VGI T   + +GAF+GIGFA+PSN A   A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000517009</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>YIGLAMQTINAQNASHYRLPVTEGAYVADVAATGPAEKAGIKKGDIITAVDDKEITSADAMILNVRSHEIGQTVRVTVWRDKEKKTFDVTLG</Hsp_hseq>
+      <Hsp_midline> +G A+  +  +      LP   G +V  V    PA  AG++ GD+I  VD + +   + +   +     G++VR+ V R  +     +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.47453</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>443</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE--FWIVL</Hsp_qseq>
+      <Hsp_hseq>EGAYVADVAATGPAEKAGIKKGDIITAVDDKEITSADAMILNVRSH-EIGQTVRVTVWRDKEKKTFDVTL</Hsp_hseq>
+      <Hsp_midline>+GA VA+V A   A  AG++  D+I  V+++ +TS   +   +++    GQ + + V R+ ++  F + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|998485658|ref|WP_061102507.1|</Hit_id>
+  <Hit_def>peptidase M50 [Atopobium vaginae] &gt;gi|996353804|gb|KXG91225.1| putative RIP metalloprotease RseP [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_061102507</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00376965</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAE-MPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>VEANSLAQNAGLSTGDEIVALDGEPVHSWTDIVRVLSDKMKDGASFEMKYVHDG</Hsp_hseq>
+      <Hsp_midline>V  N+ A +AGL  GD I+ +DG PVH   ++  ++++ M +G S  +  +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|873890339|ref|WP_048597007.1|</Hit_id>
+  <Hit_def>peptidase M50 [Atopobium vaginae] &gt;gi|873352998|gb|KMT47492.1| peptidase M50 [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_048597007</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.100076</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAE-MPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>VEANSLAQNAGLSTGDKIVALDGESVHSWSDIVRVLSDKMKDGATFEM</Hsp_hseq>
+      <Hsp_midline>V  N+ A +AGL  GD I+ +DG  VH   ++  ++++ M +G +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|493346156|ref|WP_006302932.1|</Hit_id>
+  <Hit_def>peptidase M50 [Atopobium vaginae] &gt;gi|327492029|gb|EGF23803.1| putative RIP metalloprotease RseP [Atopobium vaginae DSM 15829]</Hit_def>
+  <Hit_accession>WP_006302932</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.110005</Hsp_evalue>
+      <Hsp_query-from>573</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS</Hsp_qseq>
+      <Hsp_hseq>SVEANSLAQNAGLSTGDKIVALDGEFVHSWSDIVRVLSDKMKDRA</Hsp_hseq>
+      <Hsp_midline> V  N+ A +AGL  GD I+ +DG  VH   ++  ++++    R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|493347122|ref|WP_006303878.1|</Hit_id>
+  <Hit_def>hypothetical protein [Atopobium vaginae] &gt;gi|302481095|gb|EFL44170.1| repeat protein [Atopobium vaginae PB189-T1-4]</Hit_def>
+  <Hit_accession>WP_006303878</Hit_accession>
+  <Hit_len>4054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>2.85417</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>AQHGAPSAVVDPAMSVPARARVAPPSAAGAIATFPPVVDFGPAPV-VSGGPFTGVVTLLRNSVVSVTASSSGGQVMPD----PLGLVNPDGLPRFANPT--TRSVEN</Hsp_qseq>
+      <Hsp_hseq>AKHSAKST--QAAQGTPV-ANGSNSDAAGTDRTAEPTTQNGSAPLHANNDEPAAQPTGAHNAESSSTAAATNTSVQPAENHVPAGMSAPNETPQGSTPTTPTRPKEN</Hsp_hseq>
+      <Hsp_midline>A+H A S     A   P  A  +   AAG   T  P    G AP+  +        T   N+  S TA+++   V P     P G+  P+  P+ + PT  TR  EN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|998486511|ref|WP_061103360.1|</Hit_id>
+  <Hit_def>PTS sugar transporter subunit IIB [Atopobium vaginae] &gt;gi|996350578|gb|KXG88544.1| phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 2 [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_061103360</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.17858</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>PTSTAEGPAMGLVAMQRPMGVGVGAAGPV-----IAAGTPSPHVDG</Hsp_qseq>
+      <Hsp_hseq>PDSGALENAMGLAILEKPVNFGSEANDPVKYVFTLSATDNNGHIDA</Hsp_hseq>
+      <Hsp_midline>P S A   AMGL  +++P+  G  A  PV     ++A   + H+D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|493345455|ref|WP_006302242.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Atopobium vaginae] &gt;gi|327491412|gb|EGF23186.1| single-strand binding family protein [Atopobium vaginae DSM 15829] &gt;gi|815102358|emb|CRH62295.1| Helix-destabilizing protein [Chlamydia trachomatis] &gt;gi|873353443|gb|KMT47916.1| single-stranded DNA-binding protein [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_006302242</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.26909</Hsp_evalue>
+      <Hsp_query-from>399</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PAGNGFQAPMMPVAAPVPPPP</Hsp_qseq>
+      <Hsp_hseq>PATGGYQDPQQPAQASVPEPP</Hsp_hseq>
+      <Hsp_midline>PA  G+Q P  P  A VP PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|998486497|ref|WP_061103346.1|</Hit_id>
+  <Hit_def>single-stranded DNA-binding protein [Atopobium vaginae] &gt;gi|996350560|gb|KXG88526.1| single-strand binding family protein [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_061103346</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.57269</Hsp_evalue>
+      <Hsp_query-from>399</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>PAGNGFQAPMMPVAAPVPPPP</Hsp_qseq>
+      <Hsp_hseq>PATGGYQDPQQPAQASVPEPP</Hsp_hseq>
+      <Hsp_midline>PA  G+Q P  P  A VP PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|873890302|ref|WP_048596971.1|</Hit_id>
+  <Hit_def>peptidase C1 [Atopobium vaginae] &gt;gi|873352951|gb|KMT47445.1| peptidase C1 [Atopobium vaginae]</Hit_def>
+  <Hit_accession>WP_048596971</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>9.54361</Hsp_evalue>
+      <Hsp_query-from>415</Hsp_query-from>
+      <Hsp_query-to>443</Hsp_query-to>
+      <Hsp_hit-from>349</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>VPPPPIPANAVSPHTDGR-QNMTCNTCHQF</Hsp_qseq>
+      <Hsp_hseq>VEPEVLEQAAISALKDGRPVSMACDVCQQF</Hsp_hseq>
+      <Hsp_midline>V P  +   A+S   DGR  +M C+ C QF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>5388</Statistics_db-num>
+      <Statistics_db-len>1866101</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

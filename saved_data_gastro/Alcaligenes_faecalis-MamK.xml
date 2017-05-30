@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99592.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>347</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99592.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>347</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489898505|ref|WP_003801946.1|</Hit_id>
+  <Hit_def>MULTISPECIES: rod shape-determining protein [Alcaligenaceae] &gt;gi|393162846|gb|EJC62901.1| rod shape-determining protein MreB [Alcaligenes faecalis subsp. faecalis NCIB 8687] &gt;gi|422886783|gb|EKU29195.1| rod shape-determining protein MreB [Alcaligenes sp. HPC1271] &gt;gi|551191717|gb|ERT55037.1| rod shape-determining protein MreB [Alcaligenes sp. EGD-AK7] &gt;gi|700680279|gb|KGP02283.1| rod shape-determining protein MreB [Alcaligenes faecalis] &gt;gi|928591116|emb|CUI83217.1| Rod shape-determining protein MreB [Achromobacter sp. ATCC8750] &gt;gi|953009495|gb|ALO39192.1| rod shape-determining protein MreB [Alcaligenes faecalis] &gt;gi|979538903|gb|KVX05798.1| rod shape-determining protein MreB [Alcaligenes faecalis] &gt;gi|1061386740|dbj|GAU74002.1| rod shape-determining protein [Alcaligenes faecalis subsp. faecalis NBRC 13111] &gt;gi|1175589220|gb|OQV29967.1| rod shape-determining protein [Alcaligenes faecalis subsp. phenolicus]</Hit_def>
+  <Hit_accession>WP_003801946</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>5.85245e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLKSVVGYPKDVIGLKLLGRP------YVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGANDE------ICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQF--SFVGARGEAATFEFRAAGKPVRCDVTESVKIACEAL---MPDIIESIEILLRSFQPEYQATVL-QNIVFAGGGSRIRGLAAYVKDKLRPFGNADVTCVKDP---TFDGCRGALRLAEEL</Hsp_qseq>
+      <Hsp_hseq>MAIDLGTANTLIYV-RGKGIVLDE-----PSVVAIRHEGGPNGKKIIQAVGQEAKQMLGRVPGNIEAIRPMKDGVIA-----DFTVTEQMLKQFIRMVHPRSMFAPSPRIIVCVPCGSTQVERRAIKESALGAGASKVY---LIEEPMAAAIGAGLAVSDASGSMVVDIGGGTTEVAVI--SLGGMVYKGSVRVGGDKFDEAIINYI-RRNYGMLIGEPTAELIKKEIGSAFPGTEIREIEVKGRNLSEGVPRSFTVSSNEILESLTDPLNQIVSAVKTALEQTPPELGADITDKGIVLTGGGALVHDLDRLLQEET----GLPVVVAEDPLTCVVRGCGEALEHLERL</Hsp_hseq>
+      <Hsp_midline>+ IDLGT++T +   RGK  +L         V+ ++  G P        VG EA +M       ++   P++DGV++     D  V   +L   ++   P +         +C   G       A K   L      V+   ++ EP    +G GL     + +++VDIG GTT++  +  ++ G   + ++   G+  DE + N I  R+  + +    A  +K++   +F G        + R   + V    T S     E+L   +  I+ +++  L    PE  A +  + IV  GGG+ +  L   ++++        V   +DP      GC  AL   E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|799149833|ref|WP_045929823.1|</Hit_id>
+  <Hit_def>nitrite reductase, copper-containing [Alcaligenes faecalis] &gt;gi|953010725|gb|ALO40422.1| nitrite reductase [Alcaligenes faecalis]</Hit_def>
+  <Hit_accession>WP_045929823</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.604002</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>HTALVVSEPFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPE-LQMNTNVACAVKEQFSFVGARGEAATFEFRA</Hsp_qseq>
+      <Hsp_hseq>HEQKVGREPRVVEFRMSIVEKEIVVDRDGTTMHAMMFDGSMPGP---TMVVHEGDYLELTLVNPASNTMPHNIDFHASTGALGGAKLTNVNP-GEQATLRFKA</Hsp_hseq>
+      <Hsp_midline>H   V  EP +V + +  +   I+VD    T       G++PGP     +   G+YL+  L N      P  +  + +       + + V   GE AT  F+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|755136697|ref|WP_042486881.1|</Hit_id>
+  <Hit_def>MULTISPECIES: nitrite reductase, copper-containing [Alcaligenaceae]</Hit_def>
+  <Hit_accession>WP_042486881</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.642303</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>HTALVVSEPFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPE-LQMNTNVACAVKEQFSFVGARGEAATFEFRA</Hsp_qseq>
+      <Hsp_hseq>HEQKVGPEPRVVEFRMSIVEKEIVVDRDGTTMHAMMFDGSMPGP---TMVVHEGDYLELTLVNPASNTMPHNIDFHASTGALGGAKLTNVNP-GEQATLRFKA</Hsp_hseq>
+      <Hsp_midline>H   V  EP +V + +  +   I+VD    T       G++PGP     +   G+YL+  L N      P  +  + +       + + V   GE AT  F+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|422887694|gb|EKU30095.1|</Hit_id>
+  <Hit_def>copper-containing nitrite reductase [Alcaligenes sp. HPC1271] &gt;gi|551191727|gb|ERT55047.1| nitrite reductase [Alcaligenes sp. EGD-AK7] &gt;gi|700680269|gb|KGP02273.1| nitrite reductase [Alcaligenes faecalis]</Hit_def>
+  <Hit_accession>KGP02273</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.648164</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>HTALVVSEPFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPE-LQMNTNVACAVKEQFSFVGARGEAATFEFRA</Hsp_qseq>
+      <Hsp_hseq>HEQKVGPEPRVVEFRMSIVEKEIVVDRDGTTMHAMMFDGSMPGP---TMVVHEGDYLELTLVNPASNTMPHNIDFHASTGALGGAKLTNVNP-GEQATLRFKA</Hsp_hseq>
+      <Hsp_midline>H   V  EP +V + +  +   I+VD    T       G++PGP     +   G+YL+  L N      P  +  + +       + + V   GE AT  F+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|916709273|ref|WP_051316364.1|</Hit_id>
+  <Hit_def>MULTISPECIES: nitrite reductase, copper-containing [Alcaligenes] &gt;gi|979539070|gb|KVX05965.1| nitrite reductase [Alcaligenes faecalis] &gt;gi|1175589681|gb|OQV30428.1| nitrite reductase, copper-containing [Alcaligenes faecalis subsp. phenolicus]</Hit_def>
+  <Hit_accession>WP_051316364</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.653685</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>HTALVVSEPFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPE-LQMNTNVACAVKEQFSFVGARGEAATFEFRA</Hsp_qseq>
+      <Hsp_hseq>HEQKVGPEPRVVEFRMSIVEKEIVVDRDGTTMHAMMFDGSMPGP---TMVVHEGDYLELTLVNPASNTMPHNIDFHASTGALGGAKLTNVNP-GEQATLRFKA</Hsp_hseq>
+      <Hsp_midline>H   V  EP +V + +  +   I+VD    T       G++PGP     +   G+YL+  L N      P  +  + +       + + V   GE AT  F+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|928591106|emb|CUI83028.1|</Hit_id>
+  <Hit_def>Copper-containing nitrite reductase precursor [Achromobacter sp. ATCC8750] &gt;gi|1061386750|dbj|GAU74012.1| nitrite reductase [Alcaligenes faecalis subsp. faecalis NBRC 13111]</Hit_def>
+  <Hit_accession>GAU74012</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.659633</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>HTALVVSEPFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPE-LQMNTNVACAVKEQFSFVGARGEAATFEFRA</Hsp_qseq>
+      <Hsp_hseq>HEQKVGPEPRVVEFRMSIVEKEIVVDRDGTTMHAMMFDGSMPGP---TMVVHEGDYLELTLVNPASNTMPHNIDFHASTGALGGAKLTNVNP-GEQATLRFKA</Hsp_hseq>
+      <Hsp_midline>H   V  EP +V + +  +   I+VD    T       G++PGP     +   G+YL+  L N      P  +  + +       + + V   GE AT  F+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1027759519|ref|WP_063691643.1|</Hit_id>
+  <Hit_def>nitrite reductase, copper-containing [Alcaligenes faecalis]</Hit_def>
+  <Hit_accession>WP_063691643</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.81417</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>HTALVVSEPFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPE-LQMNTNVACAVKEQFSFVGARGEAATFEFRA</Hsp_qseq>
+      <Hsp_hseq>HEQKVGPEPRVVEFRMSIVEKEIVVDRDGTTMHAMMFDGSMPGP---TMVVHEGDYLELTLVNPASNTMPHNVDFHASTGALGGAKLTNVNP-GEQATLRFKA</Hsp_hseq>
+      <Hsp_midline>H   V  EP +V + +  +   I+VD    T       G++PGP     +   G+YL+  L N      P  +  + +       + + V   GE AT  F+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|976160467|ref|WP_059318594.1|</Hit_id>
+  <Hit_def>acriflavine resistance protein B [Alcaligenes faecalis]</Hit_def>
+  <Hit_accession>WP_059318594</Hit_accession>
+  <Hit_len>1038</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>4.99466</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>GYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALM</Hsp_qseq>
+      <Hsp_hseq>GTSLVRLRDVGTVELGAATSETSALMDGLPAVHLGLFPTPGGNPL--RIVDGIRERLPAIEATLPPGVEVELAF-------ETARF--------IQASIDEVLKTLTEAML</Hsp_hseq>
+      <Hsp_midline>G  L +L +   V++GA T++  AL   +P     +  T  GN L  R+ + I ER P ++        V+  F       E A F        ++  + E +K   EA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|976160384|ref|WP_059318511.1|</Hit_id>
+  <Hit_def>lytic transglycosylase [Alcaligenes faecalis]</Hit_def>
+  <Hit_accession>WP_059318511</Hit_accession>
+  <Hit_len>709</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.79287</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQP</Hsp_qseq>
+      <Hsp_hseq>STTPVPDEQVRLFLAGNQ-DEYLEN-------RLKSDWIVAAARAGNYALV---RELAPVH--APSSAVKCAVATARNVAGESV------DVDDLLASFAP</Hsp_hseq>
+      <Hsp_midline> T P P++QV L  AGN  DE L+N        L+ +  VA A    ++ V    E A     A    V+C V  +  +A E++       ++ LL SF P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489900800|ref|WP_003804237.1|</Hit_id>
+  <Hit_def>lytic transglycosylase [Alcaligenes faecalis] &gt;gi|393161973|gb|EJC62035.1| transglycosylase [Alcaligenes faecalis subsp. faecalis NCIB 8687]</Hit_def>
+  <Hit_accession>WP_003804237</Hit_accession>
+  <Hit_len>709</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.10179</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQP</Hsp_qseq>
+      <Hsp_hseq>STTPVPDEQVRLFLAGNQ-DEYLEN-------RLKSDWIVAAARAGNYALV---RELAPVH--APSSAVKCAVATARNVAGESV------DVDDLLASFAP</Hsp_hseq>
+      <Hsp_midline> T P P++QV L  AGN  DE L+N        L+ +  VA A    ++ V    E A     A    V+C V  +  +A E++       ++ LL SF P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|489899749|ref|WP_003803188.1|</Hit_id>
+  <Hit_def>acriflavine resistance protein B [Alcaligenes faecalis] &gt;gi|393162179|gb|EJC62240.1| RND efflux transporter [Alcaligenes faecalis subsp. faecalis NCIB 8687]</Hit_def>
+  <Hit_accession>WP_003803188</Hit_accession>
+  <Hit_len>1038</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>7.36498</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>GYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALM</Hsp_qseq>
+      <Hsp_hseq>GTSLVRLRDVGTVELGAATSETSALMDGLPAVHLGLFPTPGGNPL--RIVDGIRERLPAIEATLPPGVEVALAF-------ETARF--------IQASIDEVLKTLTEAML</Hsp_hseq>
+      <Hsp_midline>G  L +L +   V++GA T++  AL   +P     +  T  GN L  R+ + I ER P ++        V   F       E A F        ++  + E +K   EA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|918229824|ref|WP_052362956.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Alcaligenaceae] &gt;gi|928591400|emb|CUI73411.1| ATPase involved in DNA repair [Achromobacter sp. ATCC8750] &gt;gi|1061387180|dbj|GAU73886.1| glycosyl transferase family protein [Alcaligenes faecalis subsp. faecalis NBRC 13111]</Hit_def>
+  <Hit_accession>WP_052362956</Hit_accession>
+  <Hit_len>905</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.10221</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>622</Hsp_hit-from>
+      <Hsp_hit-to>707</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>IIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAAT-----FEFRAAGKPVRCD</Hsp_qseq>
+      <Hsp_hseq>LLKRLSVQVQSLAARDAAVPGIQEELFKKQSEELLRVR-------RHIETAVKNNSANAVRQLQSFVGMQEYFATGVLPAFNSEAHSWPISAD</Hsp_hseq>
+      <Hsp_midline>++  +      + A    VPG ++++   ++   L  R       RH E  +  N A AV++  SFVG +   AT     F   A   P+  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|700680404|gb|KGP02408.1|</Hit_id>
+  <Hit_def>hypothetical protein JT27_08105 [Alcaligenes faecalis]</Hit_def>
+  <Hit_accession>KGP02408</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.129</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GIDLGTSHTAVMTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDE---AFEMRSYLDL</Hsp_qseq>
+      <Hsp_hseq>GIDLATGRA---EDSGRLFNYQAWLGLGSDNWGELRFGRQYTVGQEFVSAIEVGSWKDF</Hsp_hseq>
+      <Hsp_midline>GIDL T         G+ F  ++ +G   D  G    GR Y VG E   A E+ S+ D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>26551</Statistics_db-num>
+      <Statistics_db-len>9044223</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

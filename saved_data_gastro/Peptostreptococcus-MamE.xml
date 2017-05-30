@@ -1,0 +1,1120 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|738877743|ref|WP_036765730.1|</Hit_id>
+  <Hit_def>protease [Peptostreptococcus sp. MV1] &gt;gi|690762045|gb|KGF10379.1| protease [Peptostreptococcus sp. MV1]</Hit_def>
+  <Hit_accession>WP_036765730</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.01639e-29</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>NPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLF</Hsp_qseq>
+      <Hsp_hseq>DDTAQTVQSSGTGFVVDKKGYILTNSHVVSDGQTKTVKVLFNNGTTT-NGQVVWNDQNLDLAVVKIN-KSDLVPAELGDSDKVTVGDIAIAIGNPLGTDLRNSVTQGIISGLNRDVSTQSSNMSGLLQTDASINSGNSGGPLLNQDGQVIGINTAKANAD----NLGFSIPINTAKVI</Hsp_hseq>
+      <Hsp_midline>+ T ++V++ GTG +V   G+I+TN HVV    +  V V  + G+   +G++V  D+ LDLA++KI  K  L  A LGDSD V V D  IAIG P G D+  +V++GIIS   + +  +    S LLQTDA+IN GNSGGPL+  +G V+GINTA    +     +GF++P N A++ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00135842</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LDIENGIIIRSVSPNSVASKAGLKPGDIITKIGNTDIKTMSDLSKKLYSYSSGSKDTLTVNRDG</Hsp_hseq>
+      <Hsp_midline>L    G+ +  V+PN+ A+ AGL+PGD+I K+    +    +++  +    +G    + V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|158447117|gb|EDP24112.1|</Hit_id>
+  <Hit_def>trypsin [Parvimonas micra ATCC 33270]</Hit_def>
+  <Hit_accession>EDP24112</Hit_accession>
+  <Hit_len>538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>1.79866e-28</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>TTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVI-EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>TQKQTKGLGSGVIVSKEGYILTNNHVVDPSKTKSVTVILSDGTKR-KAKVLWSDKTLDLAVIKIDPKGLDLKPVEFGDSSQVSIGDKAIAIGNPLGINLKSTLTSGYISGKDRVITLQDGSTMEGLFQTDAAINPGNSGGGLFNDKGQLIGINTA---KAGNSDGIGFAIPSNLAK</Hsp_hseq>
+      <Hsp_midline>T +  + +G+GVIV  +G+I+TN HVV  + +  VTV    G+ R   +++  D+ LDLA++KI PK + L     GDS  V++ D+ IAIG P G+++  T++ G IS K + + + +G T   L QTDAAIN GNSGG L    G ++GINTA     G   GIGFA+PSN A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>9.00624e-06</Hsp_evalue>
+      <Hsp_query-from>560</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>408</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>QANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQA</Hsp_qseq>
+      <Hsp_hseq>QEKLPIDSGVYIHEILSGSPAESAGLKPKDIITKVGDTKVTSNSTLKAALLNYKIGDKVKIEVYRDGKTTTIEVTFSQFDLNKAENKA</Hsp_hseq>
+      <Hsp_midline>Q  LP   GV+++ +   +PA SAGL+P D+I KV    V     + A +     G  V+I V R G  + + +      L  A  +A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00134969</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>GVYIHEILSGSPAESAGLKPKDIITKVGDTKVTSNSTLKAAL-LNYKIGDKVKIEVYRDGK</Hsp_hseq>
+      <Hsp_midline>G  + E+L+GS A  AGL+  D+I +V +  VTS + L AA+      G ++ ++V+R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1094204887|emb|SEN60205.1|</Hit_id>
+  <Hit_def>serine protease, S1-C subfamily, contains C-terminal PDZ domain [Peptostreptococcus russellii]</Hit_def>
+  <Hit_accession>SEN60205</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>3.19838e-27</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>EAVQGSGTGFVVDKRGYILTNAHVVGDGQAKNVKVIYDAGKTTV-GKVLWYDTTLDLAIVKVDVK-GLVPAELGDSDKVTVGDIAIAIGNPLGTDLMTSVTQGIISGLNRDVSTENTNMSGLLQTDASINPGNSGGPLLNQEGQVIGINTVKANAD----NLGFAIPINTAKMIVQK---VIEDGTYKKPVLGI</Hsp_hseq>
+      <Hsp_midline> +V+  GTG +V   G+I+TN HVV    +  V V  D G     G+++  D  LDLA++K+  K  L  A LGDSD V V D  IAIG P G D+  +V++GIIS   + +  E    S LLQTDA+IN GNSGGPL+   G V+GINT     +     +GFA+P N A++        +   T + P +G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>2.11465e-08</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>632</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMS</Hsp_qseq>
+      <Hsp_hseq>GIIVKDVEANTIASKEGIKPGDIIIKVDGKDIKNMGDLSKIMYSHSSGDKLKIEVIRDGKKVNLS</Hsp_hseq>
+      <Hsp_midline>G+ V  V  NT A+  G++PGD+I+KVDG+ +    +++ IM    +G  ++I V+R G   N+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|289156286|gb|EFD04943.1|</Hit_id>
+  <Hit_def>trypsin [Peptostreptococcus anaerobius 653-L] &gt;gi|524068194|emb|CCY47950.1| trypsin domain protein [Peptostreptococcus anaerobius CAG:621] &gt;gi|998235073|gb|KXI13848.1| trypsin [Peptostreptococcus anaerobius] &gt;gi|1097038163|emb|SFM98492.1| serine protease, S1-C subfamily, contains C-terminal PDZ domain [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>EFD04943</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.15696e-25</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRG--ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>PDRRVQKGTGTGFVVDKRGYILTNSHVVSDGKANKVSVLFSDGKST---KGEVIWYDTNLDLAIVKVS-KSNLAPLELGDSDKISVGDIAIAIGNPLGTDLMTSVTQGIISGLNRNVNTASNNMSGLIQTDASINPGNSGGPLFNQEGQVIGVNTAKANAD----NLGFSIPIN</Hsp_hseq>
+      <Hsp_midline>P  R  +  GTG +V   G+I+TN HVV    AN V V   D   +    GE++  D  LDLA++K++ K  L    LGDSD ++V D  IAIG P G D+  +V++GIIS   + +       S L+QTDA+IN GNSGGPL    G V+G+NTA    +     +GF++P N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.146132</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>NLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>DLGVENGIAIRSVKKDSIAGKAGVKPGDIIIKIGDSDIKTLGDVSKKLYSYSSGAKDSITVYRNG</Hsp_hseq>
+      <Hsp_midline>+L    G+ +  V  ++ A  AG++PGD+I+K+    +    +V+  +    +G    I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488935576|ref|WP_002846651.1|</Hit_id>
+  <Hit_def>trypsin [Peptostreptococcus anaerobius] &gt;gi|429149684|gb|EKX92655.1| trypsin [Peptostreptococcus anaerobius VPI 4330 = DSM 2949]</Hit_def>
+  <Hit_accession>WP_002846651</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.26548e-25</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRG--ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>PDRRVQKGTGTGFVVDKRGYILTNSHVVSDGKANKVSVLFSDGKST---KGEVIWYDTNLDLAIVKVS-KSNLAPLELGDSDKISVGDIAIAIGNPLGTDLMTSVTQGIISGLNRNVNTASNNMSGLIQTDASINPGNSGGPLFNQEGQVIGVNTAKANAD----NLGFSIPIN</Hsp_hseq>
+      <Hsp_midline>P  R  +  GTG +V   G+I+TN HVV    AN V V   D   +    GE++  D  LDLA++K++ K  L    LGDSD ++V D  IAIG P G D+  +V++GIIS   + +       S L+QTDA+IN GNSGGPL    G V+G+NTA    +     +GF++P N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.266218</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GIDVSTYTSYTGKDLGVENGRAI--RSVKKDSIAGKAGVKPGDIIIKIGDSDIKTLGDVSKKLYSYSSGAKDSITVYRNG</Hsp_hseq>
+      <Hsp_midline>G  ++  T   G    +  GR +    V  ++ A  AG++PGD+I+K+    +    +V+  +    +G    I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|648641588|ref|WP_026333339.1|</Hit_id>
+  <Hit_def>protease [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>WP_026333339</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.56639e-25</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRG--ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>PDRRVQKGTGTGFVVDKRGYILTNSHVVSDGKANKVSVLFSDGKST---KGEVIWYDTNLDLAIVKVS-KSNLAPLELGDSDKISVGDIAIAIGNPLGTDLMTSVTQGIISGLNRNVNTASNNMSGLIQTDASINPGNSGGPLFNQEGQVIGVNTAKANAD----NLGFSIPIN</Hsp_hseq>
+      <Hsp_midline>P  R  +  GTG +V   G+I+TN HVV    AN V V   D   +    GE++  D  LDLA++K++ K  L    LGDSD ++V D  IAIG P G D+  +V++GIIS   + +       S L+QTDA+IN GNSGGPL    G V+G+NTA    +     +GF++P N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.15443</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>NLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>DLGVENGIAIRSVKKDSIAGKAGVKPGDIIIKIGDSDIKTLGDVSKKLYSYSSGAKDSITVYRNG</Hsp_hseq>
+      <Hsp_midline>+L    G+ +  V  ++ A  AG++PGD+I+K+    +    +V+  +    +G    I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|987846252|ref|WP_060917106.1|</Hit_id>
+  <Hit_def>protease [Peptostreptococcus anaerobius] &gt;gi|987356135|gb|KXB68730.1| trypsin [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>WP_060917106</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>2.06877e-25</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRG--ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>PDRRVQKGTGTGFVVDKRGYILTNSHVVSDGKANRVSVLFSDGKST---KGEVIWYDTNLDLAIVKVS-KSNLAPLELGDSDKISVGDIAIAIGNPLGTDLMTSVTQGIISGLNRNVNTASNNMSGLIQTDASINPGNSGGPLFNQEGQVIGVNTAKANAD----NLGFSIPIN</Hsp_hseq>
+      <Hsp_midline>P  R  +  GTG +V   G+I+TN HVV    AN V V   D   +    GE++  D  LDLA++K++ K  L    LGDSD ++V D  IAIG P G D+  +V++GIIS   + +       S L+QTDA+IN GNSGGPL    G V+G+NTA    +     +GF++P N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.142869</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>NLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>DLGVENGIAIRSVKKDSIAGKAGVKPGDIIIKIGDSDIKTLGDVSKKLYSYSSGAKDSITVYRNG</Hsp_hseq>
+      <Hsp_midline>+L    G+ +  V  ++ A  AG++PGD+I+K+    +    +V+  +    +G    I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1097041476|emb|SFE26352.1|</Hit_id>
+  <Hit_def>serine protease, S1-C subfamily, contains C-terminal PDZ domain [Peptostreptococcus sp. D1]</Hit_def>
+  <Hit_accession>SFE26352</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>2.45118e-25</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>PDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGLVAM</Hsp_qseq>
+      <Hsp_hseq>PSVVGIVSETVNQESIFSSSQIVQGSGTGFVVDKRGYILTNSHVVSDGQAKNVKVIIDKNK-TVNGNVIWNDTSLDLAIVKVNTS-GLTVAELGDSDSVKVGDIAIAIGNPLGTELMSSVTQGIVSGLNRDVSTSSSNMSGLIQTDASINPGNSGGPLLNQQGQVIGINTVKVNA----ENLGFSIPINIAKNI-LQRV--IEDNNYEKPLLGVIAI</Hsp_hseq>
+      <Hsp_midline>P  +G+V+          +++ V+  GTG +V   G+I+TN HVV    +  V V  D      +G ++  D +LDLA++K+     LT A LGDSD+V V D  IAIG P G ++  +V++GI+S   + +       S L+QTDA+IN GNSGGPL+   G V+GINT           +GF++P N A+   L  V  +  +  E P +G++A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0679967</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LLGA-ALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LLGVIAIDIATYKSYTGKDLGVDYGVIVRETASGSIARNAGIEPGDIIVKIGDQEIKNKGDISKKLYSYSKGSKDKVTIIRNG</Hsp_hseq>
+      <Hsp_midline>LLG  A+   T +     +L    GV V      + A +AG+ PGD+I+K+  + +    +++  +     G   ++ ++R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.95507</Hsp_evalue>
+      <Hsp_query-from>676</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>NWLGMEIETFMAPQPVVGMPG---ATPVAGGGK------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>NILQRVIEDNNYEKPLLGVIAIDIATYKSYTGKDLGVDYGVIVRETASGSIARNAGIEPGDIIVKIGDQEIKNKGDISKKL-YSYSKGSKDKVTIIRNGKE</Hsp_hseq>
+      <Hsp_midline>N L   IE     +P++G+     AT  +  GK      G  V E  +GS A  AG++  D+I+++ ++ + +   +   +  + + G +  + + RNG+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|495064925|ref|WP_007789752.1|</Hit_id>
+  <Hit_def>protease [Peptostreptococcus stomatis] &gt;gi|306492611|gb|EFM64645.1| trypsin [Peptostreptococcus stomatis DSM 17678]</Hit_def>
+  <Hit_accession>WP_007789752</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>3.91905e-25</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRG--ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>RTTKSSGTGFVVDKRGYILTNSHVVSDGRTKTVKVLFND---GTTTTGTVVWNDQNLDLAVVKVN-KSNLVPAELGDSDQVTVGDIAIAIGNPLGTDFRNSVTQGIISGLNRDVSTQSSNMSGLLQTDASINSGNSGGPLLNQDGQVIGINTAKANAD----NLGFSIPINTAK</Hsp_hseq>
+      <Hsp_midline>R+ ++ GTG +V   G+I+TN HVV      +V V   D       +G +V  D+ LDLA++K+  K  L  A LGDSD V V D  IAIG P G D   +V++GIIS   + +  +    S LLQTDA+IN GNSGGPL+  +G V+GINTA    +     +GF++P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0915642</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>GIIVRSVSSGSVADKAGLKAGDIITKIGDSEIKTMNDLSKKLYSYSSGSKDTITVYRDGKATDLKI</Hsp_hseq>
+      <Hsp_midline>G+ V  V+  + A  AGL+ GD+I K+    +    +++  +    +G    I V R G  +++ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.517902</Hsp_evalue>
+      <Hsp_query-from>679</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>GMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>GMDVKTYTA------YTGQSPDVNNG--IIVRSVSSGSVADKAGLKAGDIITKIGDSEIKTMNDLSKKL-YSYSSGSKDTITVYRDGK</Hsp_hseq>
+      <Hsp_midline>GM+++T+ A        G +P    G    V  V +GS A  AGL+A D+I ++ +  + +   L   +  + ++G +  + V+R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1094205162|emb|SEN48685.1|</Hit_id>
+  <Hit_def>carboxyl-terminal processing protease [Peptostreptococcus russellii]</Hit_def>
+  <Hit_accession>SEN48685</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00109561</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRP-VHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VERVVSNSPAKKAGVKAGDLIVKVAGKSYTYQEMDLAVKNMRGKEGTSVDVTFLRDGEILNKKL</Hsp_hseq>
+      <Hsp_midline>V  V  N+PA  AG++ GD+I+KV G+   +Q  ++A        G SV +  LR G++ N  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|524067574|emb|CCY49130.1|</Hit_id>
+  <Hit_def>carboxyl-protease [Peptostreptococcus anaerobius CAG:621]</Hit_def>
+  <Hit_accession>CCY49130</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00244796</Hsp_evalue>
+      <Hsp_query-from>561</Hsp_query-from>
+      <Hsp_query-to>625</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>ANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRP-VHQPEEVAAIMAEMPNGRSVRIGVLRA</Hsp_qseq>
+      <Hsp_hseq>ADKETGR-IRVESTFDKSPAKEAGIQKGDFIVKVDGKSYTYQEMDIAVKNMRGKAGTSVKISLIRA</Hsp_hseq>
+      <Hsp_midline>A+   GR + V      +PA  AG++ GD I+KVDG+   +Q  ++A        G SV+I ++RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1094204597|emb|SEN67290.1|</Hit_id>
+  <Hit_def>regulator of sigma E protease [Peptostreptococcus russellii]</Hit_def>
+  <Hit_accession>SEN67290</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0108274</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>VLPKSPSAVAGIKAGDKIVDIDGNKINSFNELTKTIVD-SNGKKLDITIERNG</Hsp_hseq>
+      <Hsp_midline>V P +P+A AG++ GD I+ +DG  ++   E+   + +  NG+ + I + R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|490271161|ref|WP_004167372.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Peptostreptococcus anaerobius] &gt;gi|429150249|gb|EKX93188.1| RIP metalloprotease RseP [Peptostreptococcus anaerobius VPI 4330 = DSM 2949] &gt;gi|1097037219|emb|SFN32239.1| regulator of sigma E protease [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>WP_004167372</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0109638</Hsp_evalue>
+      <Hsp_query-from>570</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>FVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>YVDQVPKNMPAYTSGIRKDDQIISLDGKKVDSFEDLTKIVNQ-SKGREMKLEYKR</Hsp_hseq>
+      <Hsp_midline>+V+ V  N PA ++G+R  D I+ +DG+ V   E++  I+ +   GR +++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|738876143|ref|WP_036764184.1|</Hit_id>
+  <Hit_def>peptidase S41 [Peptostreptococcus sp. MV1] &gt;gi|690764582|gb|KGF12735.1| peptidase S41 [Peptostreptococcus sp. MV1]</Hit_def>
+  <Hit_accession>WP_036764184</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0130951</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPE-EVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>VESVMDNSPAKASGVKKGDLVIAVNGKKYSYMEMDIAVKNLRGPENTSVKISFLRDG</Hsp_hseq>
+      <Hsp_midline>V  V  N+PA ++G++ GD+++ V+G+     E ++A      P   SV+I  LR G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|490271025|ref|WP_004167248.1|</Hit_id>
+  <Hit_def>peptidase S41 [Peptostreptococcus anaerobius] &gt;gi|289156203|gb|EFD04864.1| peptidase, S41 family [Peptostreptococcus anaerobius 653-L]</Hit_def>
+  <Hit_accession>WP_004167248</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0154987</Hsp_evalue>
+      <Hsp_query-from>561</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>ANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRP-VHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>ADKETGR-IRVESTFDKSPAKEAGIQKGDFIVRVDGKSYTYQEMDIAVKNMRGKAGTSVKISLIR</Hsp_hseq>
+      <Hsp_midline>A+   GR + V      +PA  AG++ GD I++VDG+   +Q  ++A        G SV+I ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|987845923|ref|WP_060916777.1|</Hit_id>
+  <Hit_def>peptidase S41 [Peptostreptococcus anaerobius] &gt;gi|987359116|gb|KXB71531.1| peptidase, S41 family [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>WP_060916777</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.017648</Hsp_evalue>
+      <Hsp_query-from>561</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>ANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRP-VHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>ADKETGR-IRVESTFDKSPAKEAGIQKGDFIVRVDGKSYTYQEMDIAVKNMRGKAGTSVKISLIR</Hsp_hseq>
+      <Hsp_midline>A+   GR + V      +PA  AG++ GD I++VDG+   +Q  ++A        G SV+I ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488935093|ref|WP_002846168.1|</Hit_id>
+  <Hit_def>peptidase S41 [Peptostreptococcus anaerobius] &gt;gi|429150452|gb|EKX93362.1| peptidase, S41 family [Peptostreptococcus anaerobius VPI 4330 = DSM 2949] &gt;gi|1097037742|emb|SFN13380.1| carboxyl-terminal processing protease [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>WP_002846168</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0181124</Hsp_evalue>
+      <Hsp_query-from>561</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>ANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRP-VHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>ADKETGR-IRVESTFDKSPAKEAGIQKGDFIVRVDGKSYTYQEMDIAVKNMRGKAGTSVKISLIR</Hsp_hseq>
+      <Hsp_midline>A+   GR + V      +PA  AG++ GD I++VDG+   +Q  ++A        G SV+I ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|998484308|ref|WP_061102068.1|</Hit_id>
+  <Hit_def>peptidase S41 [Peptostreptococcus anaerobius] &gt;gi|998231317|gb|KXI10340.1| peptidase, S41 family [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>WP_061102068</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0184287</Hsp_evalue>
+      <Hsp_query-from>561</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>ANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRP-VHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>ADKETGR-IRVESTFDKSPAKEAGIQKGDFIVRVDGKSYTYQEMDIAVKNMRGKAGTSVKISLIR</Hsp_hseq>
+      <Hsp_midline>A+   GR + V      +PA  AG++ GD I++VDG+   +Q  ++A        G SV+I ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|987845662|ref|WP_060916516.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Peptostreptococcus anaerobius] &gt;gi|987360797|gb|KXB73125.1| RIP metalloprotease RseP [Peptostreptococcus anaerobius] &gt;gi|998235549|gb|KXI14303.1| RIP metalloprotease RseP [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>WP_060916516</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0293312</Hsp_evalue>
+      <Hsp_query-from>570</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>FVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>YVDQVPKNMPAYTSGIRKDDQIISLDGKKVDSFEDLTKIVNQ-SKGKEMKLEYKR</Hsp_hseq>
+      <Hsp_midline>+V+ V  N PA ++G+R  D I+ +DG+ V   E++  I+ +   G+ +++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|524068546|emb|CCY47358.1|</Hit_id>
+  <Hit_def>rIP metalloprotease RseP [Peptostreptococcus anaerobius CAG:621]</Hit_def>
+  <Hit_accession>CCY47358</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0295876</Hsp_evalue>
+      <Hsp_query-from>570</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>FVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>YVDQVPKNMPAYTSGIRKDDQIISLDGKKVDSFEDLTKIVNQ-SKGKEMKLEYKR</Hsp_hseq>
+      <Hsp_midline>+V+ V  N PA ++G+R  D I+ +DG+ V   E++  I+ +   G+ +++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488932959|ref|WP_002844034.1|</Hit_id>
+  <Hit_def>peptidase M50 [Peptostreptococcus anaerobius] &gt;gi|289156010|gb|EFD04674.1| RIP metalloprotease RseP [Peptostreptococcus anaerobius 653-L]</Hit_def>
+  <Hit_accession>WP_002844034</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0298463</Hsp_evalue>
+      <Hsp_query-from>570</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>FVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>YVDQVPKNMPAYTSGIRKDDQIISLDGKKVDSFEDLTKIVNQ-SKGKEMKLEYKR</Hsp_hseq>
+      <Hsp_midline>+V+ V  N PA ++G+R  D I+ +DG+ V   E++  I+ +   G+ +++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|495064148|ref|WP_007788976.1|</Hit_id>
+  <Hit_def>peptidase S41 [Peptostreptococcus stomatis] &gt;gi|306492886|gb|EFM64899.1| peptidase, S41 family [Peptostreptococcus stomatis DSM 17678]</Hit_def>
+  <Hit_accession>WP_007788976</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0439963</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPE-EVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>VESVMNNSPAKESGVKKGDLVVAVNGKKYSYMEMDIAVKNIRGPENTSVKITFLRDG</Hsp_hseq>
+      <Hsp_midline>V  V  N+PA  +G++ GD+++ V+G+     E ++A      P   SV+I  LR G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1097040812|emb|SFE33406.1|</Hit_id>
+  <Hit_def>carboxyl-terminal processing protease [Peptostreptococcus sp. D1]</Hit_def>
+  <Hit_accession>SFE33406</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0669788</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPV-HQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VQQVINGSPASKSGVRAGDLIVKVNGKAYSYQEMDVAVKNMRGEEGTSVTVTFSRDGEIFDKKI</Hsp_hseq>
+      <Hsp_midline>V  V   +PA+ +G+R GD+I+KV+G+   +Q  +VA        G SV +   R G++ +  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.407792</Hsp_evalue>
+      <Hsp_query-from>708</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>QVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAAT-AAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>KVQQVINGSPASKSGVRAGDLIVKVNGKAY-SYQEMDVAVKNMRGEEGTSVTVTFSRDGEIF</Hsp_hseq>
+      <Hsp_midline>+V +V+ GS A+ +G++A DLI++VN +   S   +D A+K      G  + +   R+G+ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1097041086|emb|SFE15850.1|</Hit_id>
+  <Hit_def>regulator of sigma E protease [Peptostreptococcus sp. D1]</Hit_def>
+  <Hit_accession>SFE15850</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0991321</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>LNIVQKNSPAYSAGLQSGDKLISIDNNNLDSFNDVSKLISE-SGGKKLTIRYKRGSE</Hsp_hseq>
+      <Hsp_midline>+N V  N+PA SAGL+ GD ++ +D   +    +V+ +++E   G+ + I   R  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|738876362|ref|WP_036764393.1|</Hit_id>
+  <Hit_def>peptidase M50 [Peptostreptococcus sp. MV1] &gt;gi|690764278|gb|KGF12465.1| peptidase M50 [Peptostreptococcus sp. MV1]</Hit_def>
+  <Hit_accession>WP_036764393</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.51571</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>605</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEV</Hsp_qseq>
+      <Hsp_hseq>VIDKSPAASAGLKKDDIILSINGQETREFNDI</Hsp_hseq>
+      <Hsp_midline>V   +PAASAGL+  D+IL ++G+   +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1094204619|emb|SEN68066.1|</Hit_id>
+  <Hit_def>HlyD family secretion protein [Peptostreptococcus russellii]</Hit_def>
+  <Hit_accession>SEN68066</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.25929</Hsp_evalue>
+      <Hsp_query-from>256</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>FGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFA</Hsp_qseq>
+      <Hsp_hseq>FSLD--TQEGIVDGYHAQSVIEVNTDKHKVPSEAIINDGNEVYVFVETEGYLKKVNVEILSESGQYA</Hsp_hseq>
+      <Hsp_midline>F LD     GI+       VIE  T  + + ++A IN GN     V   G +  +N  I + +G +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|495063224|ref|WP_007788054.1|</Hit_id>
+  <Hit_def>peptidase M50 [Peptostreptococcus stomatis] &gt;gi|306493355|gb|EFM65337.1| RIP metalloprotease RseP [Peptostreptococcus stomatis DSM 17678]</Hit_def>
+  <Hit_accession>WP_007788054</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.78339</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIM</Hsp_qseq>
+      <Hsp_hseq>VISKSPAALAGLQKNDVILSINGEKTKEFNDISKLV</Hsp_hseq>
+      <Hsp_midline>V   +PAA AGL+  DVIL ++G    +  +++ ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.45794</Hsp_evalue>
+      <Hsp_query-from>708</Hsp_query-from>
+      <Hsp_query-to>733</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>QVAEVLAGSRAAVAGLQANDLIIEVN</Hsp_qseq>
+      <Hsp_hseq>KFSQVISKSPAALAGLQKNDVILSIN</Hsp_hseq>
+      <Hsp_midline>+ ++V++ S AA+AGLQ ND+I+ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|987845691|ref|WP_060916545.1|</Hit_id>
+  <Hit_def>electron transporter RnfC [Peptostreptococcus anaerobius] &gt;gi|987360780|gb|KXB73111.1| electron transport complex, RnfABCDGE type, C subunit [Peptostreptococcus anaerobius]</Hit_def>
+  <Hit_accession>WP_060916545</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.57315</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGLVAMQRPMGVGVGAAGPVIAAGTPSPHVDGRQNMDCSNCHDIIPAGNGFQAPMM</Hsp_qseq>
+      <Hsp_hseq>GAVVSNVATAAAISNAIREGMPLVERITTVTG--PCIKEPKNLITKVGTKFSEIIEQCGGIKEGVTASKLIAGGPMMGLAQYTSDISTNKGSSGILILPEEMSVAPEQMNCIKCGRCTDVCPA---FLQPLF</Hsp_hseq>
+      <Hsp_midline>G   SN+    A  N    G PLV    TV G    I  P      +G        +   + E        A GP MGL      +    G++G +I     S   +    + C  C D+ PA   F  P+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|495063631|ref|WP_007788460.1|</Hit_id>
+  <Hit_def>cell surface protein [Peptostreptococcus stomatis] &gt;gi|306493232|gb|EFM65228.1| papain family cysteine protease [Peptostreptococcus stomatis DSM 17678]</Hit_def>
+  <Hit_accession>WP_007788460</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.16481</Hsp_evalue>
+      <Hsp_query-from>594</Hsp_query-from>
+      <Hsp_query-to>662</Hsp_query-to>
+      <Hsp_hit-from>585</Hsp_hit-from>
+      <Hsp_hit-to>649</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>VDGRPVHQPEEVAAIMAEMPNGRSVRIG--VLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVP</Hsp_qseq>
+      <Hsp_hseq>LEDKLVESGKQVQRISGDDRKDTSKKIAEEVLKIKKVDTISLVNGYKGLADAISFSPVA------GEKTIP</Hsp_hseq>
+      <Hsp_midline>++ + V   ++V  I  +     S +I   VL+   V  +SLV G  GLA A+  +P A      G  T+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>16375</Statistics_db-num>
+      <Statistics_db-len>5369081</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

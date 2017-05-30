@@ -1,0 +1,752 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|965694411|dbj|BAU18427.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Prevotella intermedia]</Hit_def>
+  <Hit_accession>BAU18427</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>6.72316e-34</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTH--SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPS</Hsp_qseq>
+      <Hsp_hseq>RSV--TGSGVIISSDGYIVTNNHVVDGADELTVTLNDNR---EYSARVVGTDKSTDLALIKVSAN-NLPTLPIGNSDNLKVGEWVIAVGNPYNLNNTVTAGIVSAKARGL---GATQGVESFIQTDAAINQGNSGGALVNVQGELVGINAMLYSQTGSYSGYGFAIPT</Hsp_hseq>
+      <Hsp_midline>RSV   G+GVI+ +DG+IVTN HVV GA+ + VT+ D+     YS  +V  D++ DLAL+K++    L    +G+SD + V + VIA+G P+ L+ TV+ GI+SAK + +   G T    + +QTDAAINQGNSGG LV   G +VGIN  +Y+  G+++G GFA+P+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000336707</Hsp_evalue>
+      <Hsp_query-from>558</Hsp_query-from>
+      <Hsp_query-to>655</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>GLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVV----QAPTAPVVMA</Hsp_qseq>
+      <Hsp_hseq>GKSVDLGTNEGVFVDKVSEDGNGAEIGLRSKDVITKFDGKKVTKMSELQQLL-----------NVKRPGDKATITFMRDKKEITKNVVLKNAQGTTKPIAQA</Hsp_hseq>
+      <Hsp_midline>G   +L    GVFV+ V+ +   A  GLR  DVI K DG+ V +  E+  ++            V R GD + ++ +     +   VV    Q  T P+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|504523350|ref|WP_014710452.1|</Hit_id>
+  <Hit_def>type I deoxyribonuclease HsdR [Prevotella intermedia] &gt;gi|386376700|gb|AFJ08294.1| peptidase Do [Prevotella intermedia 17] &gt;gi|769828728|gb|KJJ87992.1| type I deoxyribonuclease HsdR [Prevotella intermedia ZT] &gt;gi|877800546|dbj|BAR95441.1| outer membrane stress sensor protease DegS [Prevotella intermedia] &gt;gi|1132728073|gb|APW31801.1| deoxyribonuclease HsdR [Prevotella intermedia ATCC 25611 = DSM 20706] &gt;gi|1132752317|gb|APW34820.1| deoxyribonuclease HsdR [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_014710452</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>7.17431e-34</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTH--SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPS</Hsp_qseq>
+      <Hsp_hseq>RSV--TGSGVIISSDGYIVTNNHVVDGADELTVTLNDNR---EYSARVVGTDKSTDLALIKVSAN-NLPTLPIGNSDNLKVGEWVIAVGNPYNLNNTVTAGIVSAKARGL---GATQGVESFIQTDAAINQGNSGGALVNVQGELVGINAMLYSQTGSYSGYGFAIPT</Hsp_hseq>
+      <Hsp_midline>RSV   G+GVI+ +DG+IVTN HVV GA+ + VT+ D+     YS  +V  D++ DLAL+K++    L    +G+SD + V + VIA+G P+ L+ TV+ GI+SAK + +   G T    + +QTDAAINQGNSGG LV   G +VGIN  +Y+  G+++G GFA+P+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000339619</Hsp_evalue>
+      <Hsp_query-from>558</Hsp_query-from>
+      <Hsp_query-to>655</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>GLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVV----QAPTAPVVMA</Hsp_qseq>
+      <Hsp_hseq>GKSVDLGTNEGVFVDKVSEDGNGAEIGLRSKDVITKFDGKKVTKMSELQQLL-----------NVKRPGDKATITFMRDKKEITKNVVLKNAQGTTKPIAQA</Hsp_hseq>
+      <Hsp_midline>G   +L    GVFV+ V+ +   A  GLR  DVI K DG+ V +  E+  ++            V R GD + ++ +     +   VV    Q  T P+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|965693224|dbj|BAU17240.1|</Hit_id>
+  <Hit_def>carboxy-terminal processing protease [Prevotella intermedia]</Hit_def>
+  <Hit_accession>BAU17240</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0152584</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPV---HQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQA</Hsp_qseq>
+      <Hsp_hseq>IHVQNVIKNGPAEKAGILAGDKIVNIDNKPFVGDSVTNEEAQHRLKGPKGSKVKVGVKRFGEKDIKYFVLTRNDIAMKSVTA</Hsp_hseq>
+      <Hsp_midline>+ V  V  N PA  AG+  GD I+ +D +P        E A    + P G  V++GV R G+      V   + +A   V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|771514403|ref|WP_045167743.1|</Hit_id>
+  <Hit_def>peptidase S41 [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_045167743</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0155222</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPV---HQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQA</Hsp_qseq>
+      <Hsp_hseq>IHVQNVIKNGPAEKAGILAGDKIVNIDNKPFVGDSVTNEEAQHRLKGPKGSKVKVGVKRFGEKDIKYFVLTRNDIAMKSVTA</Hsp_hseq>
+      <Hsp_midline>+ V  V  N PA  AG+  GD I+ +D +P        E A    + P G  V++GV R G+      V   + +A   V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|655526912|ref|WP_028905037.1|</Hit_id>
+  <Hit_def>peptidase S41 [Prevotella intermedia] &gt;gi|1132728648|gb|APW32376.1| peptidase S41 [Prevotella intermedia ATCC 25611 = DSM 20706]</Hit_def>
+  <Hit_accession>WP_028905037</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0155222</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPV---HQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQA</Hsp_qseq>
+      <Hsp_hseq>IHVQNVIKNGPAEKAGILAGDKIVNIDNKPFVGDSVTNEEAQHRLKGPKGSKVKVGVKRFGEKDIKYFVLTRNDIAMKSVTA</Hsp_hseq>
+      <Hsp_midline>+ V  V  N PA  AG+  GD I+ +D +P        E A    + P G  V++GV R G+      V   + +A   V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|769827500|gb|KJJ86778.1|</Hit_id>
+  <Hit_def>peptidase S41 [Prevotella intermedia ZT]</Hit_def>
+  <Hit_accession>KJJ86778</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0162605</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPV---HQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQA</Hsp_qseq>
+      <Hsp_hseq>IHVQNVIKNGPAEKAGILAGDKIVNIDNKPFVGDSVTNEEAQHRLKGPKGSKVKVGVKRFGEKDIKYFVLTRNDIAMKSVTA</Hsp_hseq>
+      <Hsp_midline>+ V  V  N PA  AG+  GD I+ +D +P        E A    + P G  V++GV R G+      V   + +A   V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|763168199|ref|WP_044047852.1|</Hit_id>
+  <Hit_def>peptidase S41 [Prevotella intermedia] &gt;gi|1132751745|gb|APW34248.1| peptidase S41 [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_044047852</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0876074</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPV---HQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQA</Hsp_qseq>
+      <Hsp_hseq>IHVQNVIKNGPAEKAGILAGDKIVSIDNKPFVGDSVTNEEAQHRLKGPKDSKVKVGVKRFGEKDIKYFVLTRNDIAMKSVTA</Hsp_hseq>
+      <Hsp_midline>+ V  V  N PA  AG+  GD I+ +D +P        E A    + P    V++GV R G+      V   + +A   V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|386376076|gb|AFJ08517.1|</Hit_id>
+  <Hit_def>peptidase, S41 family [Prevotella intermedia 17] &gt;gi|877801199|dbj|BAR96094.1| carboxy-terminal processing protease [Prevotella intermedia]</Hit_def>
+  <Hit_accession>AFJ08517</Hit_accession>
+  <Hit_len>546</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0887301</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>647</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPV---HQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQA</Hsp_qseq>
+      <Hsp_hseq>IHVQNVIKNGPAEKAGILAGDKIVSIDNKPFVGDSVTNEEAQHRLKGPKDSKVKVGVKRFGEKDIKYFVLTRNDIAMKSVTA</Hsp_hseq>
+      <Hsp_midline>+ V  V  N PA  AG+  GD I+ +D +P        E A    + P    V++GV R G+      V   + +A   V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|916494124|ref|WP_051129502.1|</Hit_id>
+  <Hit_def>peptidase S41 [Prevotella intermedia] &gt;gi|1132727825|gb|APW31553.1| peptidase S41 [Prevotella intermedia ATCC 25611 = DSM 20706]</Hit_def>
+  <Hit_accession>WP_051129502</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.296317</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>602</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQP</Hsp_qseq>
+      <Hsp_hseq>ENMPAAEAGLKKGDIILSINDSAMHKK</Hsp_hseq>
+      <Hsp_midline> N PAA AGL+ GD+IL ++   +H+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|769827294|gb|KJJ86577.1|</Hit_id>
+  <Hit_def>peptidase S41 [Prevotella intermedia ZT]</Hit_def>
+  <Hit_accession>KJJ86577</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.298736</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>602</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQP</Hsp_qseq>
+      <Hsp_hseq>NVVIDEPYENMPAAEAGLKKGDIILSINDSAMHKK</Hsp_hseq>
+      <Hsp_midline> V ++    N PAA AGL+ GD+IL ++   +H+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|965694090|dbj|BAU18106.1|</Hit_id>
+  <Hit_def>carboxy-terminal processing protease [Prevotella intermedia]</Hit_def>
+  <Hit_accession>BAU18106</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.298864</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>602</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQP</Hsp_qseq>
+      <Hsp_hseq>NVVIDEPYENMPAAEAGLKKGDIILSINDSAMHKK</Hsp_hseq>
+      <Hsp_midline> V ++    N PAA AGL+ GD+IL ++   +H+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|916087438|ref|WP_050955381.1|</Hit_id>
+  <Hit_def>peptidase S41 [Prevotella intermedia] &gt;gi|877800230|dbj|BAR95125.1| putative carboxy-terminal processing protease [Prevotella intermedia] &gt;gi|1132750931|gb|APW33434.1| peptidase S41 [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_050955381</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.301433</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>602</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQP</Hsp_qseq>
+      <Hsp_hseq>ENMPAAEAGLKKGDIILSINDSAMHKK</Hsp_hseq>
+      <Hsp_midline> N PAA AGL+ GD+IL ++   +H+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|771514607|ref|WP_045167942.1|</Hit_id>
+  <Hit_def>peptidase S41 [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_045167942</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.301433</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>602</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVHQP</Hsp_qseq>
+      <Hsp_hseq>ENMPAAEAGLKKGDIILSINDSAMHKK</Hsp_hseq>
+      <Hsp_midline> N PAA AGL+ GD+IL ++   +H+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|386375076|gb|AFJ08234.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Prevotella intermedia 17] &gt;gi|877800362|dbj|BAR95257.1| membrane-associated zinc metalloprotease [Prevotella intermedia]</Hit_def>
+  <Hit_accession>AFJ08234</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.868981</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVH</Hsp_qseq>
+      <Hsp_hseq>IDSVAANTPAMKAGIKAGDLLKSINGKAVE</Hsp_hseq>
+      <Hsp_midline>++ V  NTPA  AG++ GD++  ++G+ V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|771514194|ref|WP_045167578.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Prevotella intermedia] &gt;gi|769827703|gb|KJJ86977.1| zinc metalloprotease [Prevotella intermedia ZT]</Hit_def>
+  <Hit_accession>WP_045167578</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.883444</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVH</Hsp_qseq>
+      <Hsp_hseq>IDSVAANTPAMKAGIKAGDLLKSINGKAVE</Hsp_hseq>
+      <Hsp_midline>++ V  NTPA  AG++ GD++  ++G+ V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|965694255|dbj|BAU18271.1|</Hit_id>
+  <Hit_def>membrane-associated zinc metalloprotease [Prevotella intermedia]</Hit_def>
+  <Hit_accession>BAU18271</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.906503</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVH</Hsp_qseq>
+      <Hsp_hseq>IDSVAANTPAMKAGIKAGDLLKSINGKAVE</Hsp_hseq>
+      <Hsp_midline>++ V  NTPA  AG++ GD++  ++G+ V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|655528262|ref|WP_028906339.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Prevotella intermedia] &gt;gi|1132727939|gb|APW31667.1| RIP metalloprotease RseP [Prevotella intermedia ATCC 25611 = DSM 20706] &gt;gi|1132752479|gb|APW34982.1| RIP metalloprotease RseP [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_028906339</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.914322</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVH</Hsp_qseq>
+      <Hsp_hseq>IDSVAANTPAMKAGIKAGDLLKSINGKAVE</Hsp_hseq>
+      <Hsp_midline>++ V  NTPA  AG++ GD++  ++G+ V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1008816535|ref|WP_061868154.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_061868154</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.970979</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVH</Hsp_qseq>
+      <Hsp_hseq>IDSVAANTPAMKAGIKAGDLLKSINGKAVN</Hsp_hseq>
+      <Hsp_midline>++ V  NTPA  AG++ GD++  ++G+ V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|771512861|ref|WP_045166494.1|</Hit_id>
+  <Hit_def>hypothetical protein [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_045166494</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.45613</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEA----LDLALLKITPK--VQLTAAVLGDSD</Hsp_qseq>
+      <Hsp_hseq>LIGGYNKQEGLSVVSHTYENGIGKVRYSAAVVKLGEGVFRFINNCLLVSVPRKVIQIGAFSFGESN</Hsp_hseq>
+      <Hsp_midline>++  Y+   G + V  T ++ +G +RYS  +VK+ E     ++  LL   P+  +Q+ A   G+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1008816385|ref|WP_061868004.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_061868004</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.18665</Hsp_evalue>
+      <Hsp_query-from>483</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>RQNMNCASC------------HQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRG--VFVNGVTPNTPAASAGLRPG</Hsp_qseq>
+      <Hsp_hseq>RTEDNCANCGFSQVRINGLDGHYSQILIDSRPVFS-ALQGVYGLEQIPANMIERVEVVRGGGSALYGSSAIGGTINIITKEPLSNYAELAHTFTAYEGGKTFDNNTTVNTSIVSSNNKAG</Hsp_hseq>
+      <Hsp_midline>R   NCA+C            H     + + P+ +    G Y   Q P ++   ++  RGG  A+ GS     ++      PL+    L     A  G   F N  T NT   S+  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|771513228|ref|WP_045166742.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Prevotella intermedia] &gt;gi|769828768|gb|KJJ88032.1| TonB-denpendent receptor [Prevotella intermedia ZT]</Hit_def>
+  <Hit_accession>WP_045166742</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.32723</Hsp_evalue>
+      <Hsp_query-from>483</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RQNMNCASC--------------HQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRG--VFVNGVTPNTPAASAGLRPG</Hsp_qseq>
+      <Hsp_hseq>RTEDNCANCGFSQVRINGLDGHYSQIL--IDSRPVFS-ALQGVYGLEQIPANMIERVEVVRGGGSALYGSSAIGGTINIITKEPLSNYAELAHTFTAYEGGKTFDNNTTVNTSIVSSNNKAG</Hsp_hseq>
+      <Hsp_midline>R   NCA+C               QI+  + + P+ +    G Y   Q P ++   ++  RGG  A+ GS     ++      PL+    L     A  G   F N  T NT   S+  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|655526795|ref|WP_028904921.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Prevotella intermedia] &gt;gi|1132728034|gb|APW31762.1| TonB-dependent receptor [Prevotella intermedia ATCC 25611 = DSM 20706]</Hit_def>
+  <Hit_accession>WP_028904921</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.39842</Hsp_evalue>
+      <Hsp_query-from>483</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RQNMNCASC--------------HQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRG--VFVNGVTPNTPAASAGLRPG</Hsp_qseq>
+      <Hsp_hseq>RTEDNCANCGFSQVRINGLDGHYSQIL--IDSRPVFS-ALQGVYGLEQIPANMIERVEVVRGGGSALYGSSAIGGTINIITKEPLSNYAELAHTFTAYEGGKTFDNNTTVNTSIVSSNNKAG</Hsp_hseq>
+      <Hsp_midline>R   NCA+C               QI+  + + P+ +    G Y   Q P ++   ++  RGG  A+ GS     ++      PL+    L     A  G   F N  T NT   S+  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|504521696|ref|WP_014708798.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Prevotella intermedia] &gt;gi|386374986|gb|AFJ09637.1| TonB-dependent receptor plug domain protein [Prevotella intermedia 17] &gt;gi|877800458|dbj|BAR95353.1| TonB-dependent receptor [Prevotella intermedia] &gt;gi|1132752392|gb|APW34895.1| TonB-dependent receptor [Prevotella intermedia]</Hit_def>
+  <Hit_accession>WP_014708798</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.54263</Hsp_evalue>
+      <Hsp_query-from>483</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RQNMNCASC--------------HQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRG--VFVNGVTPNTPAASAGLRPG</Hsp_qseq>
+      <Hsp_hseq>RTEDNCANCGFSQVRINGLDGHYSQIL--IDSRPVFS-ALQGVYGLEQIPANMIERVEVVRGGGSALYGSSAIGGTINIITKEPLSNYAELAHTFTAYEGGKTFDNNTTVNTSIVSSNNKAG</Hsp_hseq>
+      <Hsp_midline>R   NCA+C               QI+  + + P+ +    G Y   Q P ++   ++  RGG  A+ GS     ++      PL+    L     A  G   F N  T NT   S+  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|965694369|dbj|BAU18385.1|</Hit_id>
+  <Hit_def>TonB-dependent outer membrane receptor [Prevotella intermedia]</Hit_def>
+  <Hit_accession>BAU18385</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.76361</Hsp_evalue>
+      <Hsp_query-from>483</Hsp_query-from>
+      <Hsp_query-to>588</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RQNMNCASC--------------HQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRG--VFVNGVTPNTPAASAGLRPG</Hsp_qseq>
+      <Hsp_hseq>RTEDNCANCGFSQVRINGLDGHYSQIL--IDSRPVFS-ALQGVYGLEQIPANMIERVEVVRGGGSALYGSSAIGGTINIITKEPLSNYAELAHTFTAYEGGKTFDNNTTVNTSIVSSNNKAG</Hsp_hseq>
+      <Hsp_midline>R   NCA+C               QI+  + + P+ +    G Y   Q P ++   ++  RGG  A+ GS     ++      PL+    L     A  G   F N  T NT   S+  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>11963</Statistics_db-num>
+      <Statistics_db-len>3961340</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

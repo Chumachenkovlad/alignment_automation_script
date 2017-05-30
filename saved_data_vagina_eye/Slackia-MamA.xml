@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|496429461|ref|WP_009138308.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Slackia piriformis] &gt;gi|404389390|gb|EJZ84466.1| polyphosphate kinase 1 [Slackia piriformis YIT 12062]</Hit_def>
+  <Hit_accession>WP_009138308</Hit_accession>
+  <Hit_len>949</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.346612</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>649</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LYTHYGLSVA-KKLGANMVDAFRSAF--SVNDDIRQVY------------YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>LYTDLSMITADPKIGEDASMFFRSMQLESATDDYQTLMVAPLMIKKGICAYIDEEIAKAHAGEPAEILMKTNSVTDKDV--IEKLAEASRAGVKVTMLVRGISCLVPGVEGETENIRVVSVVG</Hsp_hseq>
+      <Hsp_midline>LYT   +  A  K+G +    FRS    S  DD + +             Y D+ I+ A AG  +E ++    V D D   +E       A VK   + RG   L   +    +NI+V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|502468389|ref|WP_012797353.1|</Hit_id>
+  <Hit_def>polyphosphate kinase 1 [Slackia heliotrinireducens] &gt;gi|256790572|gb|ACV21242.1| polyphosphate kinase [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>WP_012797353</Hit_accession>
+  <Hit_len>1099</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.676889</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>558</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>FVDEEIEKAKAGQPAEIWLKTNSVTDKDM--IEKLAEASQAGVKITMLVRGISCLVPGVEGYTENIRVVSVVG</Hsp_hseq>
+      <Hsp_midline>+ D+ I  AKAG+ +E  +    V D D   +E       A VK   + RG   L   +    +NI+V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|502470505|ref|WP_012798064.1|</Hit_id>
+  <Hit_def>hypothetical protein [Slackia heliotrinireducens] &gt;gi|256791290|gb|ACV21960.1| tetratricopeptide repeat protein [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>WP_012798064</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.93998</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADA--PDNIKVATVLGLTYVQVQKYDLAVPLLVKVA--EANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN---EGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>GAYSQAVA--DSAYDACG---AVNCNMGKAYAALKDYENAVACFEIATSDAKYASRYKAHLGMGNALLQLGKNAEAGAAFREAALDPANPDPTKALLNLGVCFMALDRPQAAVQSYESALQFDMDPAMRNKMQANLGQAYVACGQMQKAMNAFEAA</Hsp_hseq>
+      <Hsp_midline>G YS+AV   +  YDA      V  ++G AY      +      E + +DA      K    +G   +Q+ K   A     + A   ANP        LGV    L R   A+ S++ AL    +     K+   +  +Y   G  ++A+  F+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|256791745|gb|ACV22415.1|</Hit_id>
+  <Hit_def>hypothetical protein Shel_13940 [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>ACV22415</Hit_accession>
+  <Hit_len>704</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.05334</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>387</Hsp_hit-from>
+      <Hsp_hit-to>431</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA---VVMLEQVYDADAF</Hsp_qseq>
+      <Hsp_hseq>SISNNDQFSRSLHEDAAVLFARTGRYPEAKAEVLLLDKLCEANGW</Hsp_hseq>
+      <Hsp_midline>+ S ND   +  + D  +  A+ GRY EA   V++L+++ +A+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|496429681|ref|WP_009138528.1|</Hit_id>
+  <Hit_def>phage infection protein [Slackia piriformis] &gt;gi|404389612|gb|EJZ84688.1| YhgE/Pip domain-containing protein [Slackia piriformis YIT 12062]</Hit_def>
+  <Hit_accession>WP_009138528</Hit_accession>
+  <Hit_len>727</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.07924</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>NMVDAFRSAFSVNDDIRQVYY-RDKGISHAKAGRYSEAVVM</Hsp_qseq>
+      <Hsp_hseq>NIGDQVVSALRANDQLQWVITDEDDAIDGARSGRYYAAVVI</Hsp_hseq>
+      <Hsp_midline>N+ D   SA   ND ++ V    D  I  A++GRY  AVV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|496429795|ref|WP_009138642.1|</Hit_id>
+  <Hit_def>tpl protein [Slackia piriformis] &gt;gi|404389727|gb|EJZ84803.1| hypothetical protein HMPREF9451_00407 [Slackia piriformis YIT 12062]</Hit_def>
+  <Hit_accession>WP_009138642</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.22099</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GVALDNLGRFDE-AIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>GIADEDLKEVDKKAIENLKCALKPVERKATVEDQLAWK-EMQAKAEEALPVFKQ</Hsp_hseq>
+      <Hsp_midline>G+A ++L   D+ AI++ K AL     +  V   +A+  E     EEALP FK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|269130580|gb|EEZ61658.1|</Hit_id>
+  <Hit_def>polyphosphate kinase 1 [Slackia exigua ATCC 700122]</Hit_def>
+  <Hit_accession>EEZ61658</Hit_accession>
+  <Hit_len>903</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.36261</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>565</Hsp_hit-from>
+      <Hsp_hit-to>633</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DEQIALARAGRPACAYLKTNSVTDRDI--IEKIAEASRAGVEVTMLVRGISCLVPGIPGETENVRVVSVVG</Hsp_hseq>
+      <Hsp_midline>D+ I+ A+AGR + A +    V D D   +E       A V+   + RG   L   I    +N++V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|752775507|ref|WP_041422512.1|</Hit_id>
+  <Hit_def>hypothetical protein [Slackia heliotrinireducens]</Hit_def>
+  <Hit_accession>WP_041422512</Hit_accession>
+  <Hit_len>750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.42547</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>433</Hsp_hit-from>
+      <Hsp_hit-to>477</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA---VVMLEQVYDADAF</Hsp_qseq>
+      <Hsp_hseq>SISNNDQFSRSLHEDAAVLFARTGRYPEAKAEVLLLDKLCEANGW</Hsp_hseq>
+      <Hsp_midline>+ S ND   +  + D  +  A+ GRY EA   V++L+++ +A+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|496368172|ref|WP_009077162.1|</Hit_id>
+  <Hit_def>polyphosphate kinase 1 [Slackia sp. CM382] &gt;gi|402285841|gb|EJU34321.1| polyphosphate kinase 1 [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>WP_009077162</Hit_accession>
+  <Hit_len>911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.4933</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>641</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DEQIALARAGRPACAYLKTNSVTDRDI--IEKIAEASRAGVEVTMLVRGISCLVPGIPGETENVRVVSVVG</Hsp_hseq>
+      <Hsp_midline>D+ I+ A+AGR + A +    V D D   +E       A V+   + RG   L   I    +N++V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|915282997|ref|WP_050759675.1|</Hit_id>
+  <Hit_def>polyphosphate kinase 1 [Slackia exigua]</Hit_def>
+  <Hit_accession>WP_050759675</Hit_accession>
+  <Hit_len>911</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.51545</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>641</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DEQIALARAGRPACAYLKTNSVTDRDI--IEKIAEASRAGVEVTMLVRGISCLVPGIPGETENVRVVSVVG</Hsp_hseq>
+      <Hsp_midline>D+ I+ A+AGR + A +    V D D   +E       A V+   + RG   L   I    +N++V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|493407247|ref|WP_006363278.1|</Hit_id>
+  <Hit_def>hypothetical protein [Slackia exigua] &gt;gi|269129427|gb|EEZ60512.1| hypothetical protein HMPREF0762_01991 [Slackia exigua ATCC 700122]</Hit_def>
+  <Hit_accession>WP_006363278</Hit_accession>
+  <Hit_len>858</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>3.03954</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>639</Hsp_hit-from>
+      <Hsp_hit-to>749</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA---DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGR</Hsp_qseq>
+      <Hsp_hseq>YRSMGDAEGSIGR-AEALVSMSPST------VRSYLELVNAVVEAGDFQRSEEILRKAIAVCVSAEERQVVKYRLAFALWQNGKLDHALALYQTVGSQGPVAGTAREEMRELMGEMGR</Hsp_hseq>
+      <Hsp_midline>YR  G +    GR +EA+V +          V   L L  A V+ G   R  E+L ++IA    A +   V   L     Q  K D A+ L   V    PV    R  +   +  +GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|748735404|ref|WP_039993521.1|</Hit_id>
+  <Hit_def>hypothetical protein [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>WP_039993521</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>3.22351</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>VRFRLGVALDNLGRFDEAIDSFKIAL--GLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>VNCNLGKAYAALRKYDDAVAAFEIATSDAKYSSRYKAHLGMGNALLKMGKNAEAGASFREA</Hsp_hseq>
+      <Hsp_midline>V   LG A   L ++D+A+ +F+IA       +  K H  +  +  +MG + EA   F++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|402284180|gb|EJU32683.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>EJU32683</Hit_accession>
+  <Hit_len>540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.34573</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>VRFRLGVALDNLGRFDEAIDSFKIAL--GLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>VNCNLGKAYAALRKYDDAVAAFEIATSDAKYSSRYKAHLGMGNALLKMGKNAEAGASFREA</Hsp_hseq>
+      <Hsp_midline>V   LG A   L ++D+A+ +F+IA       +  K H  +  +  +MG + EA   F++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|493407072|ref|WP_006363107.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 50S ribosomal protein L29 [Slackia] &gt;gi|269129264|gb|EEZ60349.1| ribosomal protein L29 [Slackia exigua ATCC 700122] &gt;gi|402286677|gb|EJU35139.1| ribosomal protein L29 [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>WP_006363107</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>3.45459</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVA-LDNLGRFDE-AIDSFKIALGLRPNE</Hsp_qseq>
+      <Hsp_hseq>LTSKLKEARAELFNLRFQMATSQLDNTARVKQVKKDIARIQTEMRARE</Hsp_hseq>
+      <Hsp_midline>L  K+ EA    FN+RF++  + LDN  R  +   D  +I   +R  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|493405187|ref|WP_006361253.1|</Hit_id>
+  <Hit_def>hypothetical protein [Slackia exigua] &gt;gi|269131214|gb|EEZ62288.1| tetratricopeptide repeat protein [Slackia exigua ATCC 700122]</Hit_def>
+  <Hit_accession>WP_006361253</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.46083</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>VRFRLGVALDNLGRFDEAIDSFKIAL--GLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>VNCNLGKAYAALRKYDDAVAAFEIATSDAKYSSRYKAHLGMGNALLKMGKNAEAGASFREA</Hsp_hseq>
+      <Hsp_midline>V   LG A   L ++D+A+ +F+IA       +  K H  +  +  +MG + EA   F++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|496429616|ref|WP_009138463.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L29 [Slackia piriformis] &gt;gi|404389547|gb|EJZ84623.1| ribosomal protein L29 [Slackia piriformis YIT 12062]</Hit_def>
+  <Hit_accession>WP_009138463</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>3.92987</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVA-LDNLGRFDE</Hsp_qseq>
+      <Hsp_hseq>LNVKLKEARAELFNLRFQMATSQLDNTARVKQ</Hsp_hseq>
+      <Hsp_midline>L VK+ EA    FN+RF++  + LDN  R  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|750336790|ref|WP_040618709.1|</Hit_id>
+  <Hit_def>agmatine deiminase [Slackia exigua]</Hit_def>
+  <Hit_accession>WP_040618709</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>4.72676</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>NMLDEVTLYTHY-----GL--SVAKKLGANMVDAFRSAFSV-NDDIRQVYYRDKG</Hsp_qseq>
+      <Hsp_hseq>NLLDEVKIHINCCPYVEGLKESCVKALETAGIDVDRIDFTAFNEDPNSFYFRDNG</Hsp_hseq>
+      <Hsp_midline>N+LDEV ++ +      GL  S  K L    +D  R  F+  N+D    Y+RD G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|269130878|gb|EEZ61953.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF0762_00039 [Slackia exigua ATCC 700122]</Hit_def>
+  <Hit_accession>EEZ61953</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>4.77358</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>NMLDEVTLYTHY-----GL--SVAKKLGANMVDAFRSAFSV-NDDIRQVYYRDKG</Hsp_qseq>
+      <Hsp_hseq>NLLDEVKIHINCCPYVEGLKESCVKALETAGIDVDRIDFTAFNEDPNSFYFRDNG</Hsp_hseq>
+      <Hsp_midline>N+LDEV ++ +      GL  S  K L    +D  R  F+  N+D    Y+RD G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|496369492|ref|WP_009078482.1|</Hit_id>
+  <Hit_def>agmatine deiminase [Slackia sp. CM382] &gt;gi|402284348|gb|EJU32851.1| hypothetical protein HMPREF1155_1158 [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>WP_009078482</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>4.8117</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>NMLDEVTLYTHY-----GL--SVAKKLGANMVDAFRSAFSV-NDDIRQVYYRDKG</Hsp_qseq>
+      <Hsp_hseq>NLLDEVKIHINCCPYVEGLKESCVKALETAGIDVDRIDFTAFNEDPNSFYFRDNG</Hsp_hseq>
+      <Hsp_midline>N+LDEV ++ +      GL  S  K L    +D  R  F+  N+D    Y+RD G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|496370224|ref|WP_009079214.1|</Hit_id>
+  <Hit_def>DNA helicase [Slackia sp. CM382] &gt;gi|402283406|gb|EJU31920.1| hypothetical protein HMPREF1155_1649 [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>WP_009079214</Hit_accession>
+  <Hit_len>712</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>6.16287</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>VALDNLGRFDEAIDSFKIALG-LRPNEGKVHRAIAYSYEQMG</Hsp_qseq>
+      <Hsp_hseq>LSADDLARIDEMLDGFRFEVGDFRPVVLRTGRAVLTAAQIQG</Hsp_hseq>
+      <Hsp_midline>++ D+L R DE +D F+  +G  RP   +  RA+  + +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|493406918|ref|WP_006362956.1|</Hit_id>
+  <Hit_def>membrane protein [Slackia exigua] &gt;gi|269129803|gb|EEZ60887.1| YhgE/Pip domain protein [Slackia exigua ATCC 700122]</Hit_def>
+  <Hit_accession>WP_006362956</Hit_accession>
+  <Hit_len>728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>6.86838</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>NMVDAFRSAFSVNDDIRQVYY-RDKGISHAKAGRYSEAVVMLE</Hsp_qseq>
+      <Hsp_hseq>NMGDAVVSSLRADDSFDWVFVSEDEAVEGIRSGRYYAAIVIPE</Hsp_hseq>
+      <Hsp_midline>NM DA  S+   +D    V+   D+ +   ++GRY  A+V+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|496367122|ref|WP_009076112.1|</Hit_id>
+  <Hit_def>membrane protein [Slackia sp. CM382] &gt;gi|402286727|gb|EJU35189.1| ABC-2 family transporter protein [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>WP_009076112</Hit_accession>
+  <Hit_len>728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>6.86838</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>NMVDAFRSAFSVNDDIRQVYY-RDKGISHAKAGRYSEAVVMLE</Hsp_qseq>
+      <Hsp_hseq>NMGDAVVSSLRADDSFDWVFVSEDEAVEGIRSGRYYAAIVIPE</Hsp_hseq>
+      <Hsp_midline>NM DA  S+   +D    V+   D+ +   ++GRY  A+V+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|496431074|ref|WP_009139921.1|</Hit_id>
+  <Hit_def>phosphatidylinositol kinase [Slackia piriformis] &gt;gi|404388139|gb|EJZ83223.1| HipA domain-containing protein [Slackia piriformis YIT 12062]</Hit_def>
+  <Hit_accession>WP_009139921</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>7.03379</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>LGIAYVKTGAVDRG----------TELLERS-IADAPD----NIKVATVLGLTYVQVQKYDLAVPLLV</Hsp_qseq>
+      <Hsp_hseq>IGLAHLPSAAMDEGWFRPQGFAGTTHILKTSHLLDVPELEYLCMKTAAQLGIPTAKVALLDFGKPVLV</Hsp_hseq>
+      <Hsp_midline>+G+A++ + A+D G          T +L+ S + D P+     +K A  LG+   +V   D   P+LV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|502473020|ref|WP_012799105.1|</Hit_id>
+  <Hit_def>DNA-directed RNA polymerase subunit beta&apos; [Slackia heliotrinireducens] &gt;gi|256792334|gb|ACV23004.1| DNA-directed RNA polymerase subunit beta&apos; [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>WP_012799105</Hit_accession>
+  <Hit_len>1463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>7.21972</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1288</Hsp_hit-from>
+      <Hsp_hit-to>1380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHL------GIAYVKTGAVDRGTE-LLERSIADAPDNI</Hsp_qseq>
+      <Hsp_hseq>GTNSYRGLRGQKLSDEDARLYLYDDLGVSQRWANKFSEAGI--ETVGDLVGYTEDELLRIEGIGAKALEELKAGLQDHGLESLLEDDLTATNDEM</Hsp_hseq>
+      <Hsp_midline>G N     R     ++D R   Y D G+S   A ++SEA +  E V D   +  +  L +       +  +K G  D G E LLE  +    D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|493406550|ref|WP_006362593.1|</Hit_id>
+  <Hit_def>membrane protein [Slackia exigua] &gt;gi|269129883|gb|EEZ60966.1| citrate transporter [Slackia exigua ATCC 700122]</Hit_def>
+  <Hit_accession>WP_006362593</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>8.68071</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRF</Hsp_qseq>
+      <Hsp_hseq>PPNIMLGSAAGYTFVDFIAYD--APVVLVIMAALIVSFYVMF</Hsp_hseq>
+      <Hsp_midline>P NI + +  G T+V    YD   P+++ +  A  V+F V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>9483</Statistics_db-num>
+      <Statistics_db-len>3137980</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

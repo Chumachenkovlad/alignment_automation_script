@@ -1,0 +1,2506 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|524428821|emb|CDB74003.1|</Hit_id>
+  <Hit_def>2-alkenal reductase [Clostridium sp. CAG:265] &gt;gi|1125018121|gb|OKZ84926.1| serine protease [Clostridium sp. 29_15]</Hit_def>
+  <Hit_accession>CDB74003</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>6.29445e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAV-LGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>TQEVEGIGSGFIINEEGYILTNYHVVKGAQEISVTLSNDVTT---TAQIVNYDENQDVAMIKITDESVKIPATVELGDSDSLQPGEEVIAIGTPLSTELSSTVTKGIISATSRSVAVESGVTMNLIQTDAAINAGNSGGPLVNTKGEVVGINSSKISGE-AVEGIGFSIPINDIK</Hsp_hseq>
+      <Hsp_midline>T+ VE IG+G I+  +G+I+TNYHVV+GA  + VT+ +DV +   + +IV  DE  D+A++KIT + V++ A V LGDSD++   +EVIAIGTP   ++  TV++GIISA  +++ +E     NL+QTDAAIN GNSGGPLV   G VVGIN++  +   A  GIGF++P N  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.00044116</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>LGISVRTIDEALSKQLNME--QGLYVVEVTEFSSAEKAGLKAGDIIVKADGNRITTFDEFKAVKNGKEEGDEISLEVIRNGE</Hsp_hseq>
+      <Hsp_midline>LG ++  + + L  Q N+   +G++V  VT  + A  AGL+ GD+I+K DG  +   +E  A+      G  + + V+R G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.931948</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>QGLYVVEVTEFSSAEKAGLKAGDIIVKADGNRITTFDEF-KAVKNGKEEGDEISLEVIRNGE</Hsp_hseq>
+      <Hsp_midline>+G  V EV   S A  AGL+A D+I++ +   +T+      A+K     G +I L+V RNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|524362229|emb|CDB15636.1|</Hit_id>
+  <Hit_def>2-alkenal reductase [Clostridium sp. CAG:221]</Hit_def>
+  <Hit_accession>CDB15636</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.46579e-36</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAV-LGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>TQEVEGIGSGFIINEEGYILTNYHVIQGAQEISVTLSNDVTT---TAQVVNYDENQDVAMIKITDENVEIPATVELGDSDALQPGEEVIAIGTPLSTELSSTVTKGIISATSRSVAVESGVTMNLIQTDAAINAGNSGGPLVNTKGEVVGINSSKISGE-AVEGIGFSIPINDIK</Hsp_hseq>
+      <Hsp_midline>T+ VE IG+G I+  +G+I+TNYHV++GA  + VT+ +DV +   + ++V  DE  D+A++KIT + V++ A V LGDSDA+   +EVIAIGTP   ++  TV++GIISA  +++ +E     NL+QTDAAIN GNSGGPLV   G VVGIN++  +   A  GIGF++P N  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.000413334</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>LGISVRTIDEALSKQLNME--QGLYVVEVTEFSSAEKAGLKAGDIIVKADGNRITTFDEFKAVKNGKEEGDEISLEVIRNGE</Hsp_hseq>
+      <Hsp_midline>LG ++  + + L  Q N+   +G++V  VT  + A  AGL+ GD+I+K DG  +   +E  A+      G  + + V+R G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.918421</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>QGLYVVEVTEFSSAEKAGLKAGDIIVKADGNRITTFDEF-KAVKNGKEEGDEISLEVIRNGE</Hsp_hseq>
+      <Hsp_midline>+G  V EV   S A  AGL+A D+I++ +   +T+      A+K     G +I L+V RNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|491752291|ref|WP_005584797.1|</Hit_id>
+  <Hit_def>HtrA2 peptidase [Thermicanus aegyptius] &gt;gi|452993608|emb|CCQ94889.1| HtrA2 peptidase [[Clostridium] ultunense Esp]</Hit_def>
+  <Hit_accession>CCQ94889</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>3.79228e-35</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FDIPSQRQTSALGSGFIINQDGYILTNNHVIDQADTIQVFMSGEDKPI--TAKLVGRDPELDLAVIKINSNGKLPYLKLGDSDAIQVGEWSVAIGNPYGLDHTVTVGVISAKGRPLTINGQNFKNLLQTDASINPGNSGGPLLNLKGEVIGINTAI---NAQGQGLGFAIPINTAK</Hsp_hseq>
+      <Hsp_midline>F  P+ R    +G+G I+  DG+I+TN HV+  A+++ V +  +   I  + ++V  D  LDLA++KI    +L    LGDSDA+ V +  +AIG P+GLD TV+ G+ISAK + + I G    NLLQTDA+IN GNSGGPL+   G V+GINTAI   N    G+GFA+P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.00234649</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>IGVGVQDLTKDLSSYLGLTIDKGVLIAQVFSNSPAEKAGLQQGDVVVEIDRQKVETSQQLVDIISKAKVGDVKNFLINRGGTLKTITVRVGEK</Hsp_hseq>
+      <Hsp_midline>+G  +  LT+ L     L   +GV +  V  N+PA  AGL+ GDV++++D + V   +++  I+++   G      + R G +  +++  G  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1053041998|emb|SCK01488.1|</Hit_id>
+  <Hit_def>Putative serine protease HhoB precursor [uncultured Clostridium sp.]</Hit_def>
+  <Hit_accession>SCK01488</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>1.05105e-33</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>VNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>VSTKGVATFNGFFQQEVEGIGSGFIINEDGYILTNYHVIKGAKEVSVTLSDNT---TVSAKVVNYDENQDVAMLKITDENVKVPAVAELGDSDSLQQGEEVIAIGTPLSADLSQTVTNGIVSALNRNVETESGVVLNLIQTNASINPGNSGGPLVNTKGQVVGINTMKMSGENT-EGIGFAIPIN</Hsp_hseq>
+      <Hsp_midline>V+  G+  F     + VE IG+G I+  DG+I+TNYHV++GA  V VT+ D+      S ++V  DE  D+A+LKIT + V++ A A LGDSD++   +EVIAIGTP   D+  TV+ GI+SA  + +  E     NL+QT+A+IN GNSGGPLV   G VVGINT   +      GIGFA+P N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.69378e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>LGISIRTVDESLASQ--LKMEQGLYVVEVNEFSPAEKAGLKAGDLIVKVDGQRVKTFDELKEIKNSKNEGDTIKLEVIRDGN</Hsp_hseq>
+      <Hsp_midline>LG ++  + + L  Q  L   +G++V  V   +PA  AGL+ GD+I+KVDG+ V   +E+  I      G ++++ V+R G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|499711523|ref|WP_011392257.1|</Hit_id>
+  <Hit_def>peptidase S1 [Moorella thermoacetica] &gt;gi|83589588|ref|YP_429597.1| peptidase S1 and S6, chymotrypsin/Hap [Moorella thermoacetica ATCC 39073] &gt;gi|83572502|gb|ABC19054.1| Peptidase S1 and S6, chymotrypsin/Hap [Moorella thermoacetica ATCC 39073] &gt;gi|915818879|gb|AKX93480.1| putative serine protease HhoB precursor [Moorella thermoacetica] &gt;gi|915821716|gb|AKX96128.1| putative serine protease HhoB precursor [Moorella thermoacetica] &gt;gi|1101661722|gb|OIQ55340.1| putative serine protease HhoB precursor [Moorella thermoacetica] &gt;gi|1101661973|gb|OIQ55589.1| putative serine protease HhoB precursor [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>YP_429597</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>2.27385e-33</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIR-YSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>LGSGFIISSDGYILTNQHVVEGARQVKVTI---VGFDKPLNAQVIGADSSLDLAVLKVDAGKPLPYLALGDTNKVRVGDWAIAIGNPDGLDHTVTVGVISAKGRPIDVQNRHYENLLQTDAAINPGNSGGPLLNLKGEVIGINTAV---NADAQGIGFAIPSS</Hsp_hseq>
+      <Hsp_midline>+G+G I+ +DG+I+TN HVV GA  V VT+   VG  +  + +++  D +LDLA+LK+     L    LGD++ V V D  IAIG P GLD TV+ G+ISAK + + ++   + NLLQTDAAIN GNSGGPL+   G V+GINTA+   N    GIGFA+PS+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.7833e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>LGVALQQVTPDVADILGLQGQEGAVVVQVVSGSPAAKAGLQKYDVILQVDGQAVKDASDLVNKIQSMKIGQQVQLQVFRRGQTLNISVVLGEK</Hsp_hseq>
+      <Hsp_midline>LG AL  +T  +     L    G  V  V   +PAA AGL+  DVIL+VDG+ V    ++   +  M  G+ V++ V R G   N+S+V G  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000302447</Hsp_evalue>
+      <Hsp_query-from>664</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>VQPVIPKVPTEFN----WLGMEIETFMAPQPVVGMPGATPVAG--GGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>VQPVLKDLMTKGKISRPWLGVALQQVT--------PDVADILGLQGQEGAVVVQVVSGSPAAKAGLQKYDVILQVDGQAVKDASDLVNKIQ-SMKIGQQVQLQVFRRGQTLNI</Hsp_hseq>
+      <Hsp_midline>VQPV+  + T+      WLG+ ++           P    + G  G +GA V +V++GS AA AGLQ  D+I++V+ + V   + L   I+ +   GQQ+ L+V R GQ   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1101991374|ref|WP_071541329.1|</Hit_id>
+  <Hit_def>peptidase S1 [Moorella thermoacetica] &gt;gi|1101495166|gb|APC07854.1| putative serine protease HhoB precursor [Moorella thermoacetica] &gt;gi|1101666940|gb|OIQ60511.1| putative serine protease HhoB precursor [Moorella thermoacetica]</Hit_def>
+  <Hit_accession>OIQ60511</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>2.69733e-33</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIR-YSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>LGSGFIISSDGYILTNQHVVEGARQVKVTI---VGFDKPLNAQVIGADSSLDLAVLKVDAGKPLPYLALGDTNKVRVGDWAIAIGNPDGLDHTVTVGVISAKGRPIDVQNRHYENLLQTDAAINPGNSGGPLLNLKGEVIGINTAV---NADAQGIGFAIPSS</Hsp_hseq>
+      <Hsp_midline>+G+G I+ +DG+I+TN HVV GA  V VT+   VG  +  + +++  D +LDLA+LK+     L    LGD++ V V D  IAIG P GLD TV+ G+ISAK + + ++   + NLLQTDAAIN GNSGGPL+   G V+GINTA+   N    GIGFA+PS+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.90779e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>LGVALQQVTPDVADILGLQGQEGAVVVQVVSGSPAAKAGLQKYDVILQVDGQAVKDASDLVNKIQSMKIGQQVQLQVFRRGQTLNISVVLGEK</Hsp_hseq>
+      <Hsp_midline>LG AL  +T  +     L    G  V  V   +PAA AGL+  DVIL+VDG+ V    ++   +  M  G+ V++ V R G   N+S+V G  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000307772</Hsp_evalue>
+      <Hsp_query-from>664</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>VQPVIPKVPTEFN----WLGMEIETFMAPQPVVGMPGATPVAG--GGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>VQPVLKDLMTKGKITRPWLGVALQQVT--------PDVADILGLQGQEGAVVVQVVSGSPAAKAGLQKYDVILQVDGQAVKDASDLVNKIQ-SMKIGQQVQLQVFRRGQTLNI</Hsp_hseq>
+      <Hsp_midline>VQPV+  + T+      WLG+ ++           P    + G  G +GA V +V++GS AA AGLQ  D+I++V+ + V   + L   I+ +   GQQ+ L+V R GQ   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|737326432|ref|WP_035309176.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium sp. HMP27] &gt;gi|695881860|gb|KGK87684.1| hypothetical protein DP68_10400 [Clostridium sp. HMP27]</Hit_def>
+  <Hit_accession>WP_035309176</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>4.6289e-33</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>ENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAV-LGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN--QARLFAL</Hsp_qseq>
+      <Hsp_hseq>EGIGSGFIINNEGYILTNYHVISGAQEVRIIFND---SKAVNAKIINYDSVQDIAVVKVDGNIKVPGVVELGDSDKVQVGESVVAIGNPLGKEFIGTVTRGIISATNRGVEVEKGRTQNFLQTDAAINPGNSGGPLINTLGQVIGINTAKITEQGV-EGIGFSIPINTVKQRLTAL</Hsp_hseq>
+      <Hsp_midline>E IG+G I+ N+G+I+TNYHV+ GA  V +   D   S   + +I+  D   D+A++K+   +++   V LGDSD V V + V+AIG P G +   TV+RGIISA  + + +E     N LQTDAAIN GNSGGPL+   G V+GINTA  T  G   GIGF++P N  + RL AL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000379664</Hsp_evalue>
+      <Hsp_query-from>553</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD--VSNMSL</Hsp_qseq>
+      <Hsp_hseq>ITNEISKSEGIPTG--VYVKEVYPESPASKAGIIVNDLITKFDGKPVTSIEEINSIKATHKAGDVIKVEIFRNKKNITTNLTL</Hsp_hseq>
+      <Hsp_midline>+T  +     +P G  V+V  V P +PA+ AG+   D+I K DG+PV   EE+ +I A    G  +++ + R      +N++L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0948986</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>GVYVKEVYPESPASKAGIIVNDLITKFDGKPVTSIEEIN-SIKATHKAGDVIKVEIFRNKK</Hsp_hseq>
+      <Hsp_midline>G  V EV   S A+ AG+  NDLI + + +PVTS   ++ +IKA   AG  I +++ RN +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|566230752|gb|ETI94120.1|</Hit_id>
+  <Hit_def>hypothetical protein Q606_CBAC00305G0008 [Intestinibacter bartlettii DORA_8_9]</Hit_def>
+  <Hit_accession>ETI94120</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>8.10036e-33</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FSMPTEST--GVGTGIIVDSNGYILTNSHVISDGKAKTVSVLFNDGS-TVDGQVYWYDSQLDLAIVKVN-KTGLTAAELGDSDKVQIGDISIAIGNPYGLDLAGTVTQGIISGLDRTISTEETTMTGLIQTDASINAGNSGGPLLNSNGEVIGINTAKASEG---EGLGFSIPINTAK</Hsp_hseq>
+      <Hsp_midline>F+ PT  +   +GTG+IV ++G+I+TN HV+    +  V+V  + GS    G++   D  LDLA++K+  K  LTAA LGDSD V + D  IAIG P+GLD+  TV++GIIS   +T+  E  T + L+QTDA+IN GNSGGPL+ +NG V+GINTA  +      G+GF++P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.72858</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>GVYVSEVVSGSAAEKAGVKSGDIITKIDDTDLSVMSDLTKHLYNYT-TGDSATLVVNRNGKE</Hsp_hseq>
+      <Hsp_midline>G  V+EV++GS A  AG+++ D+I ++++  ++  + L   +   T  G    L V+RNG+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>7.72604</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSSEDGVYVSEVVSGSAAEKAGVKSGDIITKIDDTDLSVMSDLTKHLYNYTTGDSATLVVNRNG</Hsp_hseq>
+      <Hsp_midline>L +  GV+V+ V   + A  AG++ GD+I K+D   +    ++   +     G S  + V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|491354410|ref|WP_005212332.1|</Hit_id>
+  <Hit_def>trypsin [Clostridium celatum] &gt;gi|429186691|gb|EKY27627.1| trypsin [Clostridium celatum DSM 1785]</Hit_def>
+  <Hit_accession>WP_005212332</Hit_accession>
+  <Hit_len>402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>9.97653e-33</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>SVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAV-LGDSDAVNVADEVIAIGTPF--GLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>ALTASEIYNKVAP-AVVIVSTKSIQSYNGWFSQEAEGIGSGFIINEDGYILTNYHVVEGAKEVTVTLSDNR---EVKASIVNYDEAQDVAMIKLNEDVDVPGVVELGDSDALQPGEEVLALGTPLSKNLSFTLTNGIVSALNRNVETETGTTLNLVQTNAAINPGNSGGPLINTKGEVVGINT-MKISDGA-EGIGFAIPINDVK</Hsp_hseq>
+      <Hsp_midline>++TAS    +V P  + +V+   +  +    ++  E IG+G I+  DG+I+TNYHVV GA  V VT+ D+         IV  DEA D+A++K+   V +   V LGDSDA+   +EV+A+GTP    L  T++ GI+SA  + +  E  T  NL+QT+AAIN GNSGGPL+   G VVGINT +   +GA  GIGFA+P N  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>4.57004e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LGISIRTVDETLSKQLNME--QGLYIVEVNEFSPAEKAGLKAGDLIINVDGKRVKTFDELKEIKNSKEEGDTIKVEFIRDG</Hsp_hseq>
+      <Hsp_midline>LG ++  + + L  Q N+   +G+++  V   +PA  AGL+ GD+I+ VDG+ V   +E+  I      G ++++  +R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>8.60853</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>QGLYIVEVNEFSPAEKAGLKAGDLIINVDGKRVKTFDEL-KEIKNSKEEGDTIKVEFIRDGQ</Hsp_hseq>
+      <Hsp_midline>+G  + EV   S A  AGL+A DLII V+ + V +   L   IK +   G  I ++  R+GQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1149932159|ref|WP_077860894.1|</Hit_id>
+  <Hit_def>serine protease [Clostridium sp. BL-8] &gt;gi|1149498027|gb|OOM74479.1| serine protease Do-like HtrB [Clostridium sp. BL-8]</Hit_def>
+  <Hit_accession>WP_077860894</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.47732e-32</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>SVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGA----FAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>EVDGMGSGFIINNDGYIITNYHVIQGAKEITVTLSDNT---EVSATVVNYDQEKDLAMLKLKDGTKVPAVAELGDSDEVYPGEEVIAIGTPLSKNFAQTLTKGVISGSNRTIDTQNGESVNLIQTDAAINPGNSGGPLVNAKGQVIGINSMKIGSQAAGDAGVEGIGFAIPINEVK</Hsp_hseq>
+      <Hsp_midline> V+ +G+G I+ NDG+I+TNYHV++GA  + VT+ D+      S  +V  D+  DLA+LK+    ++ A A LGDSD V   +EVIAIGTP   +   T+++G+IS   +T+  +     NL+QTDAAIN GNSGGPLV A G V+GIN+       A      GIGFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0833328</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>EGLYVASVDEFSPAEKAGIKIGDIIVKCDGKDAKTFDELKDIKDSKNAGDTLNIEVIR</Hsp_hseq>
+      <Hsp_midline> G++V  V   +PA  AG++ GD+I+K DG+     +E+  I      G ++ I V+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1120152539|ref|WP_073022564.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium intestinale]</Hit_def>
+  <Hit_accession>WP_073022564</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>2.83126e-32</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>345</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>ENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQL-TAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLP</Hsp_qseq>
+      <Hsp_hseq>EGVGSGFIINEDGDILTNYHVVQGATEVNVTFNN---GKEYKAKIVNYDANADLAMIRLVEKVEVPGVATLGDSDLLQAGQEVIAIGNPLGKEFVGTVTKGIVSAASRSLQNQDGSTSVYIQTDAAINPGNSGGPLINANGEVIGINSAKISEAGV-EGIGFSIPINSVK----DKIGALS</Hsp_hseq>
+      <Hsp_midline>E +G+G I+  DG I+TNYHVV+GA  V VT  +      Y  +IV  D   DLA++++  KV++   A LGDSD +    EVIAIG P G +   TV++GI+SA  +++  +  + S  +QTDAAIN GNSGGPL+ ANG V+GIN+A  +  G   GIGF++P N  +    D++G L </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.0067203</Hsp_evalue>
+      <Hsp_query-from>541</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>SRASL-LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SKQSLTLGISIRDLDKNAAKQYKLV--EGIYVASVVEYSPAEKAGIKAGDVIVGFNGKSIKTSAELSSEKNKLNEGDKVKIVVNRDG</Hsp_hseq>
+      <Hsp_midline>S+ SL LG ++  L +    Q  L    G++V  V   +PA  AG++ GDVI+  +G+ +    E+++   ++  G  V+I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|497592191|ref|WP_009906375.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|549279619|emb|CCK88659.1| Serine protease, HrtA family [Clostridioides difficile T5] &gt;gi|549283623|emb|CCK92095.1| Serine protease, HrtA family [Clostridioides difficile T20] &gt;gi|549287314|emb|CCK95805.1| Serine protease, HrtA family [Clostridioides difficile E1] &gt;gi|549290851|emb|CCK99771.1| Serine protease, HrtA family [Clostridioides difficile E10] &gt;gi|1135033326|gb|OMK38977.1| hypothetical protein BER34_000520 [Clostridioides difficile] &gt;gi|1135060856|gb|OMK66452.1| hypothetical protein BER35_003336 [Clostridioides difficile] &gt;gi|1146190097|emb|SJW92121.1| protease [Clostridioides difficile] &gt;gi|1146193413|emb|SJW37449.1| protease [Clostridioides difficile] &gt;gi|1146200083|emb|SJO13800.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146218452|emb|SJW12187.1| protease [Clostridioides difficile] &gt;gi|1146232880|emb|SJV85140.1| protease [Clostridioides difficile] &gt;gi|1146272553|emb|SJP24808.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146320671|emb|SJV21038.1| protease [Clostridioides difficile] &gt;gi|1146450973|emb|SJU93761.1| protease [Clostridioides difficile] &gt;gi|1146506668|emb|SJP60220.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1152171135|emb|SKA30975.1| protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_009906375</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>3.49144e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTTMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASKAEGLGFAIPINTAKSI-VEEV--IKTGKYEKVTLGI</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E  T + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+   ++EV  + T   E   +G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>5.20777</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSTDKGVYVAEVISGSSAEKAGVKVGDIITKVGDTDITGMNDLNKKLYTLSKGASTKITVNRGG</Hsp_hseq>
+      <Hsp_midline>L   +GV+V  V   + A  AG++ GD+I KV    +    ++   +  +  G S +I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|829473204|gb|KLR54597.1|</Hit_id>
+  <Hit_def>protease, partial [[Clostridium] sordellii 8483]</Hit_def>
+  <Hit_accession>KLR54597</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>3.61894e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGS-TTSGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAK</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1110192273|emb|SHI71719.1|</Hit_id>
+  <Hit_def>serine protease Do [Clostridium intestinale DSM 6191]</Hit_def>
+  <Hit_accession>SHI71719</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>3.94271e-32</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>ENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQL-TAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWL</Hsp_qseq>
+      <Hsp_hseq>EGVGSGFIINEDGDILTNYHVVQGATEVNVTFNN---GKEYKAKIVNYDANADLAMIRLVEKVEVPGVATLGDSDLLQAGQEVIAIGNPLGKEFVGTVTKGIVSAASRSLQNQDGSTSVYIQTDAAINPGNSGGPLINANGEVIGINSAKISEAGV-EGIGFSIPINSVK----DKIGAL</Hsp_hseq>
+      <Hsp_midline>E +G+G I+  DG I+TNYHVV+GA  V VT  +      Y  +IV  D   DLA++++  KV++   A LGDSD +    EVIAIG P G +   TV++GI+SA  +++  +  + S  +QTDAAIN GNSGGPL+ ANG V+GIN+A  +  G   GIGF++P N  +    D++G L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00587084</Hsp_evalue>
+      <Hsp_query-from>493</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>QIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASL-LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>EVIG-INSAKISEAGVEGI-GFSIPINSVKDKI-------GAL-----SKQSLTLGISIRDLDKNAAKQYKLV--EGIYVASVVEYSPAEKAGIKAGDVIVGFNGKSIKTSAELSSEKNKLNEGDKVKIVVNRDG</Hsp_hseq>
+      <Hsp_midline>++IG + +A I+  G  G   FS P  S+   I       GA+     S+ SL LG ++  L +    Q  L    G++V  V   +PA  AG++ GDVI+  +G+ +    E+++   ++  G  V+I V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>8.71229</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>327</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>EGIYVASVVEYSPAEKAGIKAGDVIVGFNGKSIKTSAELSSE-KNKLNEGDKVKIVVNRDGKE</Hsp_hseq>
+      <Hsp_midline>+G  VA V+  S A  AG++A D+I+  N + + + A L +  K     G ++ + V+R+G+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|524246055|emb|CDA10573.1|</Hit_id>
+  <Hit_def>trypsin [Clostridium bartlettii CAG:1329] &gt;gi|1052779034|emb|SCI93371.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [uncultured Clostridium sp.]</Hit_def>
+  <Hit_accession>CDA10573</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>4.31325e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FSMPTEST--GVGTGIIVDSNGYILTNSHVISDGKAKTVSVLFNDGS-TVDGQVYWYDSQLDLAIVKVN-KTGLTAAELGDSDKVQIGDISIAIGNPYGLDLAGTVTQGIISGLDRTISTEETTMTGLIQTDASINAGNSGGPLLNSSGEVIGINTAKASEG---EGLGFSIPINTAK</Hsp_hseq>
+      <Hsp_midline>F+ PT  +   +GTG+IV ++G+I+TN HV+    +  V+V  + GS    G++   D  LDLA++K+  K  LTAA LGDSD V + D  IAIG P+GLD+  TV++GIIS   +T+  E  T + L+QTDA+IN GNSGGPL+ ++G V+GINTA  +      G+GF++P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.65847</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>GVYVSEVVSGSAAEKAGVKSGDIITKIDDTDLSVMSDLTKHLYNYT-TGDSATLVVNRNGKE</Hsp_hseq>
+      <Hsp_midline>G  V+EV++GS A  AG+++ D+I ++++  ++  + L   +   T  G    L V+RNG+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>7.72604</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSSEDGVYVSEVVSGSAAEKAGVKSGDIITKIDDTDLSVMSDLTKHLYNYTTGDSATLVVNRNG</Hsp_hseq>
+      <Hsp_midline>L +  GV+V+ V   + A  AG++ GD+I K+D   +    ++   +     G S  + V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|893687106|ref|WP_048926278.1|</Hit_id>
+  <Hit_def>protease [Clostridium sp. 1_1_41A1FAA] &gt;gi|891193319|gb|KMW24316.1| hypothetical protein HMPREF0977_01936 [Clostridium sp. 1_1_41A1FAA]</Hit_def>
+  <Hit_accession>WP_048926278</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>4.52292e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FSMPTEST--GVGTGIIVDSNGYILTNSHVISDGKAKTVSVLFNDGS-TVDGQVYWYDSQLDLAIVKVN-KTGLTAAELGDSDKVQIGDISIAIGNPYGLDLAGTVTQGIISGLDRTISTEETTMTGLIQTDASINAGNSGGPLLNSSGEVIGINTAKASEG---EGLGFSIPINTAK</Hsp_hseq>
+      <Hsp_midline>F+ PT  +   +GTG+IV ++G+I+TN HV+    +  V+V  + GS    G++   D  LDLA++K+  K  LTAA LGDSD V + D  IAIG P+GLD+  TV++GIIS   +T+  E  T + L+QTDA+IN GNSGGPL+ ++G V+GINTA  +      G+GF++P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.6355</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>GVYVSEVVSGSAAEKAGVKSGDIITKIDDTDLSVMSDLTKHLYNYT-TGDSATLVVNRNGKE</Hsp_hseq>
+      <Hsp_midline>G  V+EV++GS A  AG+++ D+I ++++  ++  + L   +   T  G    L V+RNG+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>7.65934</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSSEDGVYVSEVVSGSAAEKAGVKSGDIITKIDDTDLSVMSDLTKHLYNYTTGDSATLVVNRNG</Hsp_hseq>
+      <Hsp_midline>L +  GV+V+ V   + A  AG++ GD+I K+D   +    ++   +     G S  + V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|531495137|gb|EQH81138.1|</Hit_id>
+  <Hit_def>trypsin-like peptidase domain protein [Clostridioides difficile DA00313]</Hit_def>
+  <Hit_accession>EQH81138</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>4.73715e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAK</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>6.65602</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSTDKGVYVAEVISGSSAEKAGVKVGDIITKVGDTDITGMNDLNKKLYTFSKGASTKITVNRGG</Hsp_hseq>
+      <Hsp_midline>L   +GV+V  V   + A  AG++ GD+I KV    +    ++   +     G S +I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|916589237|ref|WP_051196328.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium cadaveris] &gt;gi|1097403346|emb|SFG07381.1| serine protease Do [Clostridium cadaveris]</Hit_def>
+  <Hit_accession>WP_051196328</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>4.95257e-32</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQL-TAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS-NLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>IGSGVIISNEGYVLTNYHVIEGAQEVKVIIQDGESSKEVNAKVVNYDQVRDVAVVKITDEGVKMPGVAELGDSDQLMKGQQVIAIGNPLGKEFSGTVTSGIVSSVNRQLTTDSNGKTLNFIQTDAAINQGNSGGPLINAKGQVIGINTAKISSSGV-EGIGFSIPINEIK</Hsp_hseq>
+      <Hsp_midline>IG+GVI+ N+G+++TNYHV+ GA  V V ++D   S   + ++V  D+  D+A++KIT + V++   A LGDSD +    +VIAIG P G +   TV+ GI+S+  + +  +    + N +QTDAAINQGNSGGPL+ A G V+GINTA  + +G   GIGF++P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.87326e-06</Hsp_evalue>
+      <Hsp_query-from>553</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>349</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>LTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>LTETIAKENKLPASEGVLVLEVSEFSPAEKSGLKIYDIITSFDGKKVTSVNDINEIKAKKNAGDTVKVGILRDGKEKTIELTLEES</Hsp_hseq>
+      <Hsp_midline>LT+ +  +  LPA  GV V  V+  +PA  +GL+  D+I   DG+ V    ++  I A+   G +V++G+LR G    + L    S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>2.17989</Hsp_evalue>
+      <Hsp_query-from>621</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>GVLRAGDVS--NMSLVTGPSGLAAAVVQAPTA--------PVVMAGG--------APTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPG---ATPVAGGGK-----GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GTVTSGIVSSVNRQLTTDSNGKTLNFIQTDAAINQGNSGGPLINAKGQVIGINTAKISSSGVEGIGFSIP--INEIKPKIESLMKPMLKIGIGGRDLTETIAKENKLPASEGVLVLEVSEFSPAEKSGLKIYDIITSFDGKKVTSVNDIN-EIKAKKNAGDTVKVGILRDGKEKTIEL</Hsp_hseq>
+      <Hsp_midline>G + +G VS  N  L T  +G     +Q   A        P++ A G          +  GV+ +   +P   N +  +IE+ M P   +G+ G      +A   K     G  V EV   S A  +GL+  D+I   + + VTS   ++  IKA   AG  + + + R+G+E  I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1069451994|ref|WP_069678727.1|</Hit_id>
+  <Hit_def>serine protease [Clostridium taeniosporum] &gt;gi|1069145649|gb|AOR22566.1| serine protease [Clostridium taeniosporum]</Hit_def>
+  <Hit_accession>WP_069678727</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>4.96334e-32</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINT---AIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>QEVEGIGSGFIINEDGYILTNYHVIQGANEVKVTLSD---GKEVNAKVVNYDETKDLAMIKVEDGTKVPAVAELGDSEALLPGDQVIAIGTPLSKEFAQTLTQGIISAVNRNVSTQNGTSVNLIQTDAAINPGNSGGPLVNSKGQVIGINSMKIGTQLSGTSVEGMGFAIPINEVK</Hsp_hseq>
+      <Hsp_midline>+ VE IG+G I+  DG+I+TNYHV++GAN V VT+ D       + ++V  DE  DLA++K+    ++ A A LGDS+A+   D+VIAIGTP   +   T+++GIISA  + +  +  T  NL+QTDAAIN GNSGGPLV + G V+GIN+          +  G+GFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>0.000121966</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LGIQVREIDSKLAKRYDLQ--EGIYVAGVEEFSPAEKAGVKVGDVIIKFDGKSITKFNELKELKSGKEAGDKVKVQVVRDG</Hsp_hseq>
+      <Hsp_midline>LG  +  +  +L  + +L    G++V GV   +PA  AG++ GDVI+K DG+ + +  E+  + +    G  V++ V+R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|736856711|ref|WP_034856549.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium intestinale]</Hit_def>
+  <Hit_accession>WP_034856549</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>5.54657e-32</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>ENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQL-TAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>EGVGSGFIINEDGDILTNYHVVQGATEVNVTFNN---GKEYKAKIVNYDANADLAMIRLVEKVEVPGVATLGDSDLLQAGQEVIAIGNPLGKEFVGTVTKGIISAASRSLQNQDGSTSVYIQTDAAINPGNSGGPLINANGEVIGINSAKISEAGV-EGIGFSIPINSVK</Hsp_hseq>
+      <Hsp_midline>E +G+G I+  DG I+TNYHVV+GA  V VT  +      Y  +IV  D   DLA++++  KV++   A LGDSD +    EVIAIG P G +   TV++GIISA  +++  +  + S  +QTDAAIN GNSGGPL+ ANG V+GIN+A  +  G   GIGF++P N  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00334717</Hsp_evalue>
+      <Hsp_query-from>541</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>SRASL-LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SKQSLTLGISIRDLDKNAAKQYKLV--EGIYVASVVEYSPAEKAGIKAGDVIVGFNGKSIKTSAELSAEKNKLNEGDKVKIVVNRDG</Hsp_hseq>
+      <Hsp_midline>S+ SL LG ++  L +    Q  L    G++V  V   +PA  AG++ GDVI+  +G+ +    E++A   ++  G  V+I V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>5.33541</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>EGIYVASVVEYSPAEKAGIKAGDVIVGFNGKSIKTSAELSAE-KNKLNEGDKVKIVVNRDGKE</Hsp_hseq>
+      <Hsp_midline>+G  VA V+  S A  AG++A D+I+  N + + + A L A  K     G ++ + V+R+G+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|531147874|gb|EQE51892.1|</Hit_id>
+  <Hit_def>peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile CD43]</Hit_def>
+  <Hit_accession>EQE51892</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>5.58967e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGS-TTSGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPIIQLRV</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P  Q R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|494496017|ref|WP_007285484.1|</Hit_id>
+  <Hit_def>protease [Intestinibacter bartlettii] &gt;gi|164604115|gb|EDQ97580.1| trypsin [Intestinibacter bartlettii DSM 16795] &gt;gi|1152103794|emb|SKA55978.1| serine protease, S1-C subfamily, contains C-terminal PDZ domain [Intestinibacter bartlettii DSM 16795]</Hit_def>
+  <Hit_accession>WP_007285484</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>6.01287e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FSMPTEST--GVGTGIIVDSNGYILTNSHVISDGKAKTVSVLFNDGS-TVDGQVYWYDSQLDLAIVKV-NKTGLTAAELGDSDKVQIGDISIAIGNPYGLDLAGTVTQGIISGLDRTISTEETTMTGLIQTDASINAGNSGGPLLNSRGEVIGINTAKASEG---EGLGFSIPINTAK</Hsp_hseq>
+      <Hsp_midline>F+ PT  +   +GTG+IV ++G+I+TN HV+    +  V+V  + GS    G++   D  LDLA++K+  K  LTAA LGDSD V + D  IAIG P+GLD+  TV++GIIS   +T+  E  T + L+QTDA+IN GNSGGPL+ + G V+GINTA  +      G+GF++P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>2.77635</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>GVYVSEVVSGSAAEKAGVKSGDIITKIDDTDLSVMSDLTKHLYNYT-TGDSATLVVNRNGKE</Hsp_hseq>
+      <Hsp_midline>G  V+EV++GS A  AG+++ D+I ++++  ++  + L   +   T  G    L V+RNG+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>7.99866</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSSEDGVYVSEVVSGSAAEKAGVKSGDIITKIDDTDLSVMSDLTKHLYNYTTGDSATLVVNRNG</Hsp_hseq>
+      <Hsp_midline>L +  GV+V+ V   + A  AG++ GD+I K+D   +    ++   +     G S  + V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|692296231|ref|WP_032117217.1|</Hit_id>
+  <Hit_def>serine protease [Clostridium sp. CL-2]</Hit_def>
+  <Hit_accession>WP_032117217</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>6.06531e-32</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>VNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>VSTKGVATFNGFFQQEVEGIGSGFIINEDGYILTNYHVIEGAKEVSVTLSDNT---TVSAKVVNYDANQDVAMLKITDENVKVPAVAELGDSNALQQGEEVIAIGTPLSADLSQTVTNGIVSALNRNVETESGVVLNLIQTNASINPGNSGGPLVNTKGQVVGINTMKMSGENT-EGIGFAIPIN</Hsp_hseq>
+      <Hsp_midline>V+  G+  F     + VE IG+G I+  DG+I+TNYHV+ GA  V VT+ D+      S ++V  D   D+A+LKIT + V++ A A LGDS+A+   +EVIAIGTP   D+  TV+ GI+SA  + +  E     NL+QT+A+IN GNSGGPLV   G VVGINT   +      GIGFA+P N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>4.70944e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LGISIRTVDESLASQ--LKMEQGLYVVEVNEFSPAEKAGVKAGDLIVKVDGQRVKTFDELKEIKNSKNEGDSLKLEVIRDGKSKTMDV</Hsp_hseq>
+      <Hsp_midline>LG ++  + + L  Q  L   +G++V  V   +PA  AG++ GD+I+KVDG+ V   +E+  I      G S+++ V+R G    M +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|524082856|emb|CCY63976.1|</Hit_id>
+  <Hit_def>probable serine protease [Clostridium sp. CAG:967]</Hit_def>
+  <Hit_accession>CCY63976</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>6.72075e-32</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFA--GIGFAVPSNQARLF</Hsp_qseq>
+      <Hsp_hseq>GTGCVVRNDGIILTGSHVIEGAKNIEVTTYD--GKVYKAAVLAKMGKNKDLALLKIEPKQKLKTISFGDSEQVKVGQKVLAIGNPFGFAGTLTSGIVS---RIDYAKGR-----IQTDAAINPGCSGGPLLNSQGEVIGISQSIYNPDNNISNIGIGFAIPVNEAKKF</Hsp_hseq>
+      <Hsp_midline>GTG +VRNDG I+T  HV+ GA ++ VT  D  G +  +  + KM +  DLALLKI PK +L     GDS+ V V  +V+AIG PFG   T++ GI+S   +    +G      +QTDAAIN G SGGPL+ + G V+GI+ +IY P+   +  GIGFA+P N+A+ F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|296259233|gb|EFH06112.1|</Hit_id>
+  <Hit_def>trypsin [Clostridioides difficile NAP08] &gt;gi|296429277|gb|EFH15149.1| trypsin [Clostridioides difficile NAP07]</Hit_def>
+  <Hit_accession>EFH06112</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>7.14453e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTTMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASKAEGLGFAIPINTAKSI-VEEV--IKTGKYEKVTLGI</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E  T + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+   ++EV  + T   E   +G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>5.70493</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSTDKGVYVAEVISGSSAEKAGVKVGDIITKVGDTDITGMNDLNKKLYTLSKGASTKITVNRGG</Hsp_hseq>
+      <Hsp_midline>L   +GV+V  V   + A  AG++ GD+I KV    +    ++   +  +  G S +I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|544196275|gb|ERK32238.1|</Hit_id>
+  <Hit_def>serine protease [Clostridium intestinale URNW]</Hit_def>
+  <Hit_accession>ERK32238</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>8.00074e-32</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>ENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQL-TAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>EGVGSGFIINEDGDILTNYHVVQGATEVNVTFNN---GKEYKAKIVNYDANADLAMIRLVEKVEVPGVATLGDSDLLQAGQEVIAIGNPLGKEFVGTVTKGIISAASRSLQNQDGSTSVYIQTDAAINPGNSGGPLINANGEVIGINSAKISEAGV-EGIGFSIPINSVK</Hsp_hseq>
+      <Hsp_midline>E +G+G I+  DG I+TNYHVV+GA  V VT  +      Y  +IV  D   DLA++++  KV++   A LGDSD +    EVIAIG P G +   TV++GIISA  +++  +  + S  +QTDAAIN GNSGGPL+ ANG V+GIN+A  +  G   GIGF++P N  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.0030329</Hsp_evalue>
+      <Hsp_query-from>493</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>QIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASL-LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>EVIG-INSAKISEAGVEGI-GFSIPINSVKEKI-------GAL-----SKQSLTLGISIRDLDKNAAKQYKLV--EGIYVASVVEYSPAEKAGIKAGDVIVGFNGKSIKTSAELSAEKNKLNEGDKVKIVVNRDG</Hsp_hseq>
+      <Hsp_midline>++IG + +A I+  G  G   FS P  S+   I       GA+     S+ SL LG ++  L +    Q  L    G++V  V   +PA  AG++ GDVI+  +G+ +    E++A   ++  G  V+I V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>4.55679</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>327</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>EGIYVASVVEYSPAEKAGIKAGDVIVGFNGKSIKTSAELSAE-KNKLNEGDKVKIVVNRDGKE</Hsp_hseq>
+      <Hsp_midline>+G  VA V+  S A  AG++A D+I+  N + + + A L A  K     G ++ + V+R+G+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1122527052|ref|WP_074090894.1|</Hit_id>
+  <Hit_def>protease, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074090894</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>8.01241e-32</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAK</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>6.36488</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSTDKGVYVAEVISGSSAEKAGVKVGDIITKVGDTDITGMNDLNKKLYTFSKGASTKITVNRGG</Hsp_hseq>
+      <Hsp_midline>L   +GV+V  V   + A  AG++ GD+I KV    +    ++   +     G S +I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1178573334|ref|WP_083089497.1|</Hit_id>
+  <Hit_def>serine protease [Clostridium septicum]</Hit_def>
+  <Hit_accession>WP_083089497</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>9.75178e-32</Hsp_evalue>
+      <Hsp_query-from>150</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>312</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAV-LGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>IVSTKGVQNYGGFIPKEVEGIGSGFIINEEGYILTNYHVIEGAQEVTVTLSD---KREVKAKVVNYDQNQDVAMLKIVDNIKVPAVVELGDSDALKAGEEVLAIGTPLSKEFSQTVTGGLVSALNRNIETSSGVKLNLIQTDTAINPGNSGGPLINTKGQVIGINTL--KISGTAEGIGFAIPINEVK</Hsp_hseq>
+      <Hsp_midline>+V+  G+  +     + VE IG+G I+  +G+I+TNYHV+ GA  V VT+ D         ++V  D+  D+A+LKI   +++ A V LGDSDA+   +EV+AIGTP   +   TV+ G++SA  + +        NL+QTD AIN GNSGGPL+   G V+GINT     +G   GIGFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.79025e-06</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>LGVSIREVDENLAKQYEMP--QGLYVVEVTQFSPAEKAGIKGGDVITKFDGKRIKTFEELKEIRDSKKEGDTVRVEIVR</Hsp_hseq>
+      <Hsp_midline>LG ++  + + L  Q  +P  +G++V  VT  +PA  AG++ GDVI K DG+ +   EE+  I      G +VR+ ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|515982853|ref|WP_017413436.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium tunisiense]</Hit_def>
+  <Hit_accession>WP_017413436</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.21295e-31</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>ENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>EGIGSGFIFSEEGYVLTNFHVISGANQVKVIFNN---GKEVNAKIVNYNQEADLAVLKITDKVELPAVATLGDSESLQVGEQVVAIGNPLGKEYLGSVTTGIVSAVSRDVEIDG-KKMNLIQTDTAINPGNSGGPLINARGEVVGINTAKLSGNG-IEGIGFSIPIN</Hsp_hseq>
+      <Hsp_midline>E IG+G I   +G+++TN+HV+ GAN V V   +       + +IV  ++  DLA+LKIT KV+L A A LGDS+++ V ++V+AIG P G +   +V+ GI+SA  + + I+G    NL+QTD AIN GNSGGPL+ A G VVGINTA  + NG   GIGF++P N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>6.24773e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LGITVQNVTKELAEKYKVPVG--VYITNVANFSIAQKGGLQPGDVITKFDGKKVETVEELNKIKDTHKDGDTIEIEFVRNGQNMKASL</Hsp_hseq>
+      <Hsp_midline>LG  +  +T+ L  +  +P G  V++  V   + A   GL+PGDVI K DG+ V   EE+  I     +G ++ I  +R G     SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1122464339|ref|WP_074080149.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074080149</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.23715e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FSIPTES--EGVGTGIVVDSNGYILTNSHVISDGEAKKVNVLFNDGS-SIDGNVVWYDSQLDLAVVKVN-KTGLTPAELGDSDKVSIGDISIAIGNPLGLELQRTVTQGIISGLDRTIKTESATMTGLIQTDASINSGNSGGPLLNEKGQVIGINTA-KTSEG--ESLGFAIPINQAK</Hsp_hseq>
+      <Hsp_midline>F+ PT    E +GTG++V ++G+I+TN HV+    +  V V  + GS    G +V  D  LDLA++K+  K  LT A LGDSD V++ D  IAIG P GL++  TV++GIIS   +T+  E  T + L+QTDA+IN GNSGGPL+   G V+GINTA  T  G    +GFA+P NQA+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>3.00623</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>EGIFVGEVVDDSPAKKAGVKAGDIIVKLGDTKLTSMSDLTKRLYEYKSGDKTTLVVNRNG</Hsp_hseq>
+      <Hsp_midline> G+FV  V  ++PA  AG++ GD+I+K+    +    ++   + E  +G    + V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>7.03282</Hsp_evalue>
+      <Hsp_query-from>679</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>GMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>GYDASTYAAYAQSQGQKVATD-----EGIFVGEVVDDSPAKKAGVKAGDIIVKLGDTKLTSMSDLTKRL-YEYKSGDKTTLVVNRNGKE</Hsp_hseq>
+      <Hsp_midline>G +  T+ A     G   AT      +G  V EV+  S A  AG++A D+I+++ +  +TS + L   +     +G +  L V+RNG+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|496459239|ref|WP_009168084.1|</Hit_id>
+  <Hit_def>2-alkenal reductase [Clostridium sp. DL-VIII] &gt;gi|357169228|gb|EHI97402.1| HtrA2 peptidase [Clostridium sp. DL-VIII]</Hit_def>
+  <Hit_accession>WP_009168084</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.37548e-31</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>SVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGA----FAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>EVDGMGSGFIINTDGYIITNYHVIQGAKEITVTLSDNT---EVSASVVNYDQGKDLAMLKLKDGTKVPAVAELGDSDEVYPGEEVIAIGTPLSKNFAQTLTKGVISGSNRTIDTQNGESVNLIQTDAAINPGNSGGPLVNAKGQVIGINSMKIGSQAAGDAGVEGIGFAIPINEVK</Hsp_hseq>
+      <Hsp_midline> V+ +G+G I+  DG+I+TNYHV++GA  + VT+ D+      S  +V  D+  DLA+LK+    ++ A A LGDSD V   +EVIAIGTP   +   T+++G+IS   +T+  +     NL+QTDAAIN GNSGGPLV A G V+GIN+       A      GIGFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0738178</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>EGLYVASVDEFSPAEKAGIKIGDIIVKCDGKEAKTFDELKDIKDSKNAGDTLNIEVIR</Hsp_hseq>
+      <Hsp_midline> G++V  V   +PA  AG++ GD+I+K DG+     +E+  I      G ++ I V+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1122645200|ref|WP_074124660.1|</Hit_id>
+  <Hit_def>protease, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074124660</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>1.42428e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGS-TTSGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPIN</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|930706690|ref|WP_054277648.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|930493591|gb|KPI47814.1| protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054277648</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.49201e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAKSI-VEEV--IKTGKYEKVTLGI</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+   ++EV  + T   E   +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|930700580|ref|WP_054271724.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|930492637|gb|KPI46877.1| protease [Clostridioides difficile] &gt;gi|1025788037|emb|CZS07663.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025808568|emb|CZR98744.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054271724</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.49201e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAKSI-VEEV--IKTGKYEKVTLGI</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+   ++EV  + T   E   +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|544988136|ref|WP_021386234.1|</Hit_id>
+  <Hit_def>trypsin family protein [Clostridioides difficile] &gt;gi|531222166|gb|EQF23052.1| trypsin family protein [Clostridioides difficile CD160]</Hit_def>
+  <Hit_accession>WP_021386234</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.60963e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAKSI-VEEV--IKTGKYEKVTLGI</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+   ++EV  + T   E   +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|941983570|ref|WP_055259600.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium ventriculi] &gt;gi|932912593|emb|CUO05118.1| Serine protease Do-like HtrA [Clostridium ventriculi]</Hit_def>
+  <Hit_accession>WP_055259600</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.73532e-31</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>ASSSGGQVMPDPLGLVNPD--GLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQL-TAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>TSSSGSLTIAEVVKMVAPAVVGVDATINSTSGTSNSLGSGFIISEEGLVVTNYHVIEGATSVNVVLS--TGK-EVSAEVVNYDSTEDLAVLKVTDDIEMPGVANLGDSSSVETGEEVIAIGNPLGKEFSETVTSGIVSSANRTITKNDSSTVEYIQTDAAINSGNSGGPLINSQGQVIGINTAKEVGEG-IEGIGFSIPIN</Hsp_hseq>
+      <Hsp_midline> SSSG   + + + +V P   G+    N T+ +  ++G+G I+  +G +VTNYHV+ GA SV V +    G    S E+V  D   DLA+LK+T  +++   A LGDS +V   +EVIAIG P G +   TV+ GI+S+  +T+     +    +QTDAAIN GNSGGPL+ + G V+GINTA     G   GIGF++P N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.205986</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LLGITGRTIDETTAKFRNLP--KGVYVVTVSEYSAAEKAGLQSGDVITKFGGNKITSIDELNTYKQNYSSGDTVSMTVSRNG</Hsp_hseq>
+      <Hsp_midline>LLG     + +      NLP  +GV+V  V+  + A  AGL+ GDVI K  G  +   +E+        +G +V + V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>4.38325</Hsp_evalue>
+      <Hsp_query-from>662</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>PGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGK------GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>EGIEGIGFSIP--INVLTEKLEDLSKPMLLLGITGRTIDETTAKFRNLPKGVYVVTVSEYSAAEKAGLQSGDVITKFGGNKITSIDELN-TYKQNYSSGDTVSMTVSRNGKNITL</Hsp_hseq>
+      <Hsp_midline> G++ +   +P   N L  ++E    P  ++G+ G T      K      G  V  V   S A  AGLQ+ D+I +     +TS   L+   K   ++G  + + V RNG+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|531530650|gb|EQI14744.1|</Hit_id>
+  <Hit_def>trypsin family protein [Clostridioides difficile F501]</Hit_def>
+  <Hit_accession>EQI14744</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>1.84753e-31</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV-GWLPTSTAEGPAMGLVAMQRPMGVGV</Hsp_qseq>
+      <Hsp_hseq>TLTKSSLGSGVVLTADGYIITNNHVVEGGSAYKVTIAGET----YDAEVVGSDPSSDVAVIKAKDASGLTPIEIGDSDKLVIGEWVMTIGSPFGLEQSVATGIVSATSRSQIVNASTDQYGNSTGESTIYPNMIQTDAAINPGNSGGALVDADGKLIGINTLITSYSGNYSGVGFAIPVNYAVNLAQQIIDGKTPTHAQLGVSLSTVNAQNAKRYGL</Hsp_hseq>
+      <Hsp_midline>T +  ++G+GV++  DG+I+TN HVV G ++  VT+  +     Y  E+V  D + D+A++K      LT   +GDSD + + + V+ IG+PFGL+ +V+ GI+SA  ++ ++            E   + N++QTDAAIN GNSGG LV A+G ++GINT I + +G ++G+GFA+P N A   A   + G  PT    G ++  V  Q     G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0507756</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>LGVSLSTVNAQNAKRYGLSVDEGAYVAAVSEGSGAAEAGLQEGDIVTKFDGKDVASASDLMLDVRSKNPGDKVTLDVNRNGETKQVEVTLG</Hsp_hseq>
+      <Hsp_midline>LG +L+ +  +   +  L    G +V  V+  + AA AGL+ GD++ K DG+ V    ++   +     G  V + V R G+   + +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.232977</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>EGAYVAAVSEGSGAAEAGLQEGDIVTKFDGKDVASASDLMLDVRSKN-PGDKVTLDVNRNGE</Hsp_hseq>
+      <Hsp_midline>+GA VA V  GS AA AGLQ  D++ + + + V S + L   +++    G ++ L V+RNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|488669906|ref|WP_002598710.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium colicanis] &gt;gi|480656988|gb|ENZ01053.1| hypothetical protein HMPREF1092_02222 [Clostridium colicanis 209318]</Hit_def>
+  <Hit_accession>WP_002598710</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.8574e-31</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>EEVEGIGSGFIINENGEILTNYHVVKGAKEVHVTL--STGK-EVPAEVVNYDEAQDIALLKLKEKIKVPAVAELGNSDNLQPGQTVVAIGTPLSKEFASTITQGIISAVGRTVDTKTGKQINLIQTDAAINPGNSGGPLVNAEGQVIGINT--LKVSGGAEGLGFAIPINEVK</Hsp_hseq>
+      <Hsp_midline>  VE IG+G I+  +G I+TNYHVV+GA  V+VT+    G      E+V  DEA D+ALLK+  K+++ A A LG+SD +     V+AIGTP   +   T+++GIISA  +T+  +     NL+QTDAAIN GNSGGPLV A G V+GINT     +G   G+GFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.14919e-05</Hsp_evalue>
+      <Hsp_query-from>543</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>ASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>AIMLGIEIVPIDKKLSEEKGLP--EGIYVAGVNNFSSAQKGGMKPGDVIISFDGKRVKTAEELNKIKETKNVGDKVPVVVERDGKKVDLTL</Hsp_hseq>
+      <Hsp_midline>A +LG  + P+ ++L  +  LP   G++V GV   + A   G++PGDVI+  DG+ V   EE+  I      G  V + V R G   +++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1167586797|ref|WP_080022267.1|</Hit_id>
+  <Hit_def>serine protease [Clostridium thermobutyricum] &gt;gi|1162544253|gb|OPX49006.1| serine protease Do-like HtrA [Clostridium thermobutyricum DSM 4928]</Hit_def>
+  <Hit_accession>WP_080022267</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.92891e-31</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>EEVEGIGSGFIINENGEILTNYHVVKGAKEVHVTL--STGK-EVPAEVVNYDEAQDIALLKLKEKIKVPAVAELGNSDNLQPGQTVVAIGTPLSKEFASTITQGIISAVGRTVDTKTGKQINLIQTDAAINPGNSGGPLVNAEGQVIGINT--LKVSGGAEGLGFAIPINEVK</Hsp_hseq>
+      <Hsp_midline>  VE IG+G I+  +G I+TNYHVV+GA  V+VT+    G      E+V  DEA D+ALLK+  K+++ A A LG+SD +     V+AIGTP   +   T+++GIISA  +T+  +     NL+QTDAAIN GNSGGPLV A G V+GINT     +G   G+GFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.062e-05</Hsp_evalue>
+      <Hsp_query-from>543</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>ASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>AIMLGIEIVPIDKKLSEEKGLP--EGIYVAGVNNFSSAQKGGMKPGDVIISFDGKRVKTAEELNKIKETKNVGDKVPVVVERDGKKVDLTL</Hsp_hseq>
+      <Hsp_midline>A +LG  + P+ ++L  +  LP   G++V GV   + A   G++PGDVI+  DG+ V   EE+  I      G  V + V R G   +++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|489527643|ref|WP_003432390.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|357548282|gb|EHJ30148.1| trypsin [Clostridioides difficile 050-P50-2011] &gt;gi|357549885|gb|EHJ31723.1| trypsin [Clostridioides difficile 002-P50-2011] &gt;gi|531246110|gb|EQF45388.1| trypsin family protein [Clostridioides difficile CD175] &gt;gi|531322125|gb|EQG16350.1| trypsin family protein [Clostridioides difficile DA00065] &gt;gi|531742467|gb|EQK19045.1| trypsin family protein [Clostridioides difficile P71] &gt;gi|531752161|gb|EQK28601.1| trypsin family protein [Clostridioides difficile P74] &gt;gi|549294665|emb|CCL03705.1| Serine protease, HrtA family [Clostridioides difficile E13] &gt;gi|549297427|emb|CCL08670.1| Serine protease, HtrA family [Clostridioides difficile CD002] &gt;gi|1078290665|gb|OFA22263.1| protease [Clostridioides difficile] &gt;gi|1078294914|gb|OFA26432.1| protease [Clostridioides difficile] &gt;gi|1078296911|gb|OFA28402.1| protease [Clostridioides difficile] &gt;gi|1135017031|gb|OMK22747.1| hypothetical protein BER36_003503 [Clostridioides difficile] &gt;gi|1135074104|gb|OMK79647.1| hypothetical protein BER37_003442 [Clostridioides difficile] &gt;gi|1146343289|emb|SJT08066.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146345110|emb|SJT75879.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146349631|emb|SJP35507.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146356226|emb|SJU11190.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146401428|emb|SJO82646.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146598089|emb|SJP38528.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146632430|emb|SJU62489.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146763063|emb|SJQ16350.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146779952|emb|SJP37821.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146918485|emb|SJT36487.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_003432390</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>2.02103e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAKSI-VEEV--IKTGKYEKVTLGI</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+   ++EV  + T   E   +G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>8.61257</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSTDKGVYVAEVISGSSAEKAGVKVGDIITKVGDTDITGMNDLNKKLYTFSKGASTKITVNRGG</Hsp_hseq>
+      <Hsp_midline>L   +GV+V  V   + A  AG++ GD+I KV    +    ++   +     G S +I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1122719641|ref|WP_074139632.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074139632</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.05587e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAK</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>6.97799</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSTDKGVYVAEVISGSSAEKAGVKVGDIITKVGDTDITGMNDLNKKLYTFSKGASTKITVNRGG</Hsp_hseq>
+      <Hsp_midline>L   +GV+V  V   + A  AG++ GD+I KV    +    ++   +     G S +I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1122420671|ref|WP_074073490.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074073490</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.07935e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAKSI-VEEV--IKTGKYEKVTLGI</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+   ++EV  + T   E   +G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1122582910|ref|WP_074104072.1|</Hit_id>
+  <Hit_def>protease, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074104072</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>2.15665e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGS-TTSGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIP</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|494704470|ref|WP_007440377.1|</Hit_id>
+  <Hit_def>serine protease [Candidatus Arthromitus sp. SFB-mouse] &gt;gi|342329419|dbj|BAK56061.1| serine protease [Candidatus Arthromitus sp. SFB-mouse-Japan] &gt;gi|346983724|dbj|BAK79400.1| putative serine protease [Candidatus Arthromitus sp. SFB-mouse-Yit] &gt;gi|380331240|gb|EIA22319.1| Putative protease [Candidatus Arthromitus sp. SFB-1] &gt;gi|380332069|gb|EIA22979.1| Putative protease [Candidatus Arthromitus sp. SFB-3] &gt;gi|380333198|gb|EIA23833.1| Putative protease [Candidatus Arthromitus sp. SFB-2] &gt;gi|380340920|gb|EIA29456.1| Putative protease [Candidatus Arthromitus sp. SFB-co] &gt;gi|380340985|gb|EIA29509.1| Putative protease [Candidatus Arthromitus sp. SFB-5] &gt;gi|380341883|gb|EIA30328.1| Putative protease [Candidatus Arthromitus sp. SFB-mouse-SU]</Hit_def>
+  <Hit_accession>EIA22319</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>2.18467e-31</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>ENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAV-LGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>EGIGSGFIINEEGHILTNYHVIEGAQTVKIIFYDGTET---DGKVINYDELNDIALIKLTDSTVTVPATVSLGDSDELLVGESVVAIGSPLGKEFIGTTTKGIVSALDRDVPINGKTLK-LLQTDTAINPGNSGGPLINSRGEVIGINTAKYDNTGTTSVEGIGFAIPINQAKQ-KLDEL</Hsp_hseq>
+      <Hsp_midline>E IG+G I+  +G I+TNYHV+ GA +V +   D   +    G+++  DE  D+AL+K+T   V + A V LGDSD + V + V+AIG+P G +   T ++GI+SA  + + I G T   LLQTD AIN GNSGGPL+ + G V+GINTA Y   G  +  GIGFA+P NQA+   LDE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.01215</Hsp_evalue>
+      <Hsp_query-from>553</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>324</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>IDQSMSSNLNLP--EGIYVVEVESFSNAEKAGIKSGDVILKFGGNDVKTFDDINSVKANHNVGDTIKVVVYRNGSNQEIDLV</Hsp_hseq>
+      <Hsp_midline>+ Q +    NLP   G++V  V   + A  AG++ GDVILK  G  V   +++ ++ A    G ++++ V R G    + LV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1149139970|ref|WP_077710590.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|1147102683|emb|SJO51606.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_077710590</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.39714e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>356</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGL</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAKSI-VEEV--IKTGKYEKVTLGI</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+   ++EV  + T   E   +G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>4.19228</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDV</Hsp_qseq>
+      <Hsp_hseq>LSTDKGVYVAEVISGSSAEKAGVKVGDIITKVGDTDITGMNDLNKKLYTFSKGASTKITVNRGGKV</Hsp_hseq>
+      <Hsp_midline>L   +GV+V  V   + A  AG++ GD+I KV    +    ++   +     G S +I V R G V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1001764353|ref|WP_061308330.1|</Hit_id>
+  <Hit_def>serine protease [Clostridium botulinum]</Hit_def>
+  <Hit_accession>WP_061308330</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.53284e-31</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINT---AIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>QEVEGIGSGFIINEDGYILTNYHVIQGANEVKVTLSD---GKEVNATVVNYDEAKDVAMIKVEDGTKVPAVAELGDSEALVPGDQVIAIGTPLSKEFAQTLTQGVISAVNRSVASQSGTSVNLIQTDAAINPGNSGGPLVNSKGQVIGINSMKIGTQLSGTSVEGMGFAIPINEVK</Hsp_hseq>
+      <Hsp_midline>+ VE IG+G I+  DG+I+TNYHV++GAN V VT+ D       +  +V  DEA D+A++K+    ++ A A LGDS+A+   D+VIAIGTP   +   T+++G+ISA  +++  +  T  NL+QTDAAIN GNSGGPLV + G V+GIN+          +  G+GFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000342863</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LGIQVREIDNNLAKRYDLP--EGIYVAGVEEFSPAEKSGVKVGDVITKFDGKNITTFNELKELKSGKEVGDKVKIQVVRDG</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L  + +LP   G++V GV   +PA  +G++ GDVI K DG+ +    E+  + +    G  V+I V+R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1184777107|ref|WP_085322307.1|</Hit_id>
+  <Hit_def>serine protease [Clostridium botulinum] &gt;gi|1184015453|gb|OSA91069.1| serine protease [Clostridium botulinum]</Hit_def>
+  <Hit_accession>WP_085322307</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.63012e-31</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTA-AVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINT---AIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>QEVEGIGSGFIINEDGYILTNYHVIQGANEVKVTLSD---GKEVNATVVNYDEAKDVAMIKVEDGTKVPAVAELGDSEALVPGDQVIAIGTPLSKEFAQTLTQGVISAVNRSVASQSGTSVNLIQTDAAINPGNSGGPLVNSKGQVIGINSMKIGTQLSGTSVEGMGFAIPINEVK</Hsp_hseq>
+      <Hsp_midline>+ VE IG+G I+  DG+I+TNYHV++GAN V VT+ D       +  +V  DEA D+A++K+    ++ A A LGDS+A+   D+VIAIGTP   +   T+++G+ISA  +++  +  T  NL+QTDAAIN GNSGGPLV + G V+GIN+          +  G+GFA+P N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000348891</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LGIQVREIDNNLAKRYDLP--EGIYVAGVEEFSPAEKSGVKVGDVITKFDGKNITTFNELKELKSGKEVGDKVKIQVVRDG</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L  + +LP   G++V GV   +PA  +G++ GDVI K DG+ +    E+  + +    G  V+I V+R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1052831325|emb|SCI20938.1|</Hit_id>
+  <Hit_def>Periplasmic pH-dependent serine endoprotease DegQ precursor [uncultured Clostridium sp.]</Hit_def>
+  <Hit_accession>SCI20938</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>3.18567e-31</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>RFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRG--ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>RFAIPTQS--EGVGTGVVVDANGYILTNSHVVSDGEANTVNVLFNDGTTS---EGKVAWYDAQLDLAIVKV-DKTGLTPAEFGDSDEVRTGDISVAIGNPLGLDLQRSVTQGIISGLDRTIETEQGTMTGLIQTDASINSGNSGGPLLNQNGQVIGINTAKASQG---EGLGFAIPINTAK</Hsp_hseq>
+      <Hsp_midline>RFA PT    E +GTGV+V  +G+I+TN HVV    AN+V V   D   S    G++   D  LDLA++K+  K  LT A  GDSD V   D  +AIG P GLD+  +V++GIIS   +T+  E  T + L+QTDA+IN GNSGGPL+  NG V+GINTA  +      G+GFA+P N A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1123358601|ref|WP_074176584.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|1025761969|emb|CZR89933.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025778624|emb|CZS10706.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025800671|emb|CZR74922.1| protease [Clostridium difficile BI1] [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074176584</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>3.18567e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAK</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|972373089|ref|WP_059026989.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|1041775773|gb|OBW81409.1| protease [Clostridioides difficile] &gt;gi|1135015654|gb|OMK21388.1| hypothetical protein BER43_003524 [Clostridioides difficile] &gt;gi|1146727749|emb|SJW64824.1| protease [Clostridioides difficile] &gt;gi|1147079720|emb|SJW45286.1| protease [Clostridioides difficile] &gt;gi|1147116823|emb|SJW35523.1| protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_059026989</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>3.50236e-31</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>FAIPT--ETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTT-SGKVVWFDQQLDLAIVKV-DKTGLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTA---KASQAEGLGFAIPINTAK</Hsp_hseq>
+      <Hsp_midline>FA PT    + +GTG+IV ++G+I+TN HV+    +  V V  + GS   SG++V  D+ LDLA++K+  K  LT A   DSD V V D  IAIG P GLD   TV++GIIS   +T+  E    + LLQTDA+IN GNSGGPL+   G V+GINTA         G+GFA+P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>8.24711</Hsp_evalue>
+      <Hsp_query-from>563</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LSTDKGVYVAEVISGSSAEKAGVKVGDIITKVGDTDITGMNDLNKKLYTFSKGASTKITVNRGG</Hsp_hseq>
+      <Hsp_midline>L   +GV+V  V   + A  AG++ GD+I KV    +    ++   +     G S +I V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1865521</Statistics_db-num>
+      <Statistics_db-len>591124626</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

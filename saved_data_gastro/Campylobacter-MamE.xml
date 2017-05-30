@@ -1,0 +1,2943 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|647483101|ref|WP_025803916.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter corcagiensis]</Hit_def>
+  <Hit_accession>WP_025803916</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>7.76169e-33</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTH-SNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKQRDVGSLGSGVIISKDGYIVTNNHVIDGADEVLVTLLED--NKEYTAKVIGTDPKTDIAVIKIEAD-NLNAIKFADSDKILEGDVVFAIGNPFGVGGTITQGIVSALNKNSV--GLNHYENFIQTDASINPGNSGGALIDSRGALVGINSAILSRGGGNNGVGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>P  R V ++G+GVI+  DG+IVTN HV+ GA+ V VT+ +D  +  Y+ +++  D   D+A++KI     L A    DSD +   D V AIG PFG+  T+++GI+SA  K  V  G+ H  N +QTDA+IN GNSGG L+ + G +VGIN+AI +  G   G+GFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>3.65613e-09</Hsp_evalue>
+      <Hsp_query-from>533</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>GAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQ--PVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GQLAEDGKIQRGYIGVMISDLTKEQ--QSFYKNKDGALILGVEDDMPAAKAGIKRGDLIIKIEDKDIKNSNELKNFVATLKPGSKAEVEYERAGKIKSTTIELADADLGVSV--------------SKIDGLELSDITPEISRQFR-LSSDIS----------------------GVLITDVKNGSKAQELGFMVRDVITQVNNTEVTSVSEFNEAFKK--LKGDKALVWIIRRGIPYGLVI</Hsp_hseq>
+      <Hsp_midline>G +A  G  +   +G  ++ LT+    Q+      G  + GV  + PAA AG++ GD+I+K++ + +    E+   +A +  G    +   RAG + + ++    + L  +V                + G++   + P++  +F  L  +I                       G  + +V  GS+A   G    D+I +VNN  VTS +  + A K     G + L+ + R G  + +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|501872369|ref|WP_012661489.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter lari] &gt;gi|222539005|gb|ACM64106.1| periplasmic serine protease DO; heat shock protein HtrA [Campylobacter lari RM2100] &gt;gi|1094176037|emb|SES69469.1| serine protease Do [Campylobacter lari subsp. lari]</Hit_def>
+  <Hit_accession>WP_012661489</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>1.2669e-32</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>SAAGAIATFPPVVDFGPAP--VVSGGPFTGVVTLL---------RNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN---------PTTRS-----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SLALATSLFSASIDFKQADDNVKRSLPTDNQNTILSYHDSIQKVKNSVVNISTSKT---VQSNSFGIDDFFNDPYFKQFFGFDFPQAPKSKKNKKEVVSSLGSGVIISSDGYIITNNHVIEGAEKITVNLPD--TSTEYKAKLIGADPKTDLAVIKIEAK-NLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKTIA</Hsp_hseq>
+      <Hsp_midline>S A A + F   +DF  A   V    P     T+L         +NSVV+++ S +   V  +  G+ +    P F           P ++      V ++G+GVI+ +DG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A V  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.114554</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLIELDSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.79733</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTLIKSPMDLKNYIGSIDPKQAIEVTYERDNKIKTVKFM</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   +  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1079857133|ref|WP_070256930.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter lari] &gt;gi|1073140069|gb|OEV69404.1| serine protease [Campylobacter lari] &gt;gi|1073142495|gb|OEV71791.1| serine protease [Campylobacter lari] &gt;gi|1073164459|gb|OEV93308.1| serine protease [Campylobacter lari]</Hit_def>
+  <Hit_accession>WP_070256930</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>1.32727e-32</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>SAAGAIATFPPVVDFGPAP--VVSGGPFTGVVTLL---------RNSVVSVTAS-----SSGG--QVMPDP-----LGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SLALATSLFSASIDFKQADDNVKRSLPTDNQNTILSYHDSIQKVKNSVVNISTSKTVQSSSFGIDDFFNDPYFKQFFGFDFPQA-PKSKKNKKEVVSSLGSGVIISSDGYIITNNHVIEGAEKITVNLPD--TSTEYKAKLIGADPKTDLAVIKIEAK-NLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKTIA</Hsp_hseq>
+      <Hsp_midline>S A A + F   +DF  A   V    P     T+L         +NSVV+++ S     SS G      DP      G   P   P+        V ++G+GVI+ +DG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A V  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.117551</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLIELDSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.82851</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTVIKSPMDLKNYIGSIDPKQAIEVTYERDNKIKTVKFM</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   +  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|501057391|ref|WP_012108831.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter hominis] &gt;gi|153804031|gb|ABS51038.1| protease do [Campylobacter hominis ATCC BAA-381]</Hit_def>
+  <Hit_accession>WP_012108831</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.53314e-32</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>GLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>GIPK----TDRKAKSLGSGVIISNDGYIVTNNHVVENADEIIVTLSE--SDKEFKAKLIGNDPKTDIAIIKIDKK-DLTAIKFGDSGELLEGDMVFAIGNPFGVGETITQGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALIGINSAILSSSGGNNGVGFAIPSNMVKNIA</Hsp_hseq>
+      <Hsp_midline>G+P+    T R  +++G+GVI+ NDG+IVTN HVV  A+ + VT+ +      +  +++  D   D+A++KI  K  LTA   GDS  +   D V AIG PFG+  T+++GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G ++GIN+AI + +G   G+GFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>8.91192e-06</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>764</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRN</Hsp_qseq>
+      <Hsp_hseq>EGALIASVEKNSPADKAGLKRGDLIVKINDKSIKNANELKNIIGSMSPGETIEVQYERAKD-------TKTAKIKLDNMDSST----LAENTESKSSIE-------------GLKLSNLTNE-----LKRQYNIQSDIKGVIITNVEKGSKAEDYGFERGDIIMQIAQKEIKTIADIDEAIK--SNKGKKIVW-VLRN</Hsp_hseq>
+      <Hsp_midline> G  +  V  N+PA  AGL+ GD+I+K++ + +    E+  I+  M  G ++ +   RA D       T  + +    + + T    +A    +   ++             G+++           +     +    KG  +  V  GS+A   G +  D+I+++  + + + A +D AIK  +  G++I+  V RN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00556188</Hsp_evalue>
+      <Hsp_query-from>461</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>IAAPQQPAPAIRANAAN----PHTDGRQNMNCASCHQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVH</Hsp_qseq>
+      <Hsp_hseq>IASVEKNSPADKAGLKRGDLIVKINDKSIKNANELKNIIGSM------SPGETIEVQYERAKDTKTAKIKLDNMDSSTLAENTESKSSIEGLKLSNLTNELKRQYNIQSDIKGVIITNVEKGSKAEDYGFERGDIIMQIAQKEIK</Hsp_hseq>
+      <Hsp_midline>IA+ ++ +PA +A           + +   N      IIGS+      +PG     ++ +   +    I+        +A +  S++S+ G  L+ LT  L  Q N+ +  +GV +  V   + A   G   GD+I+++  + + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1129543874|ref|WP_075494399.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|998757419|emb|CZE47889.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|998759214|emb|CZE50823.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|998760964|emb|CZE48301.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_075494399</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.56166e-32</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>GLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>GIPQ---EKTRQFSSLGSGVIISNDGYIVTNNHVVEDADEILVNLSDD--DKEYKAKVVGTDPKTDIAIIKIDAK-NLEAIKFADSSKLLEGDMVFAIGNPFGVGSTITQGIISALNKSNI--GLNQYENFIQTDASINPGNSGGALVDSRGALIGINSAILSRGGGNNGVGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>G+P+     TR   ++G+GVI+ NDG+IVTN HVV  A+ + V + DD     Y  ++V  D   D+A++KI  K  L A    DS  +   D V AIG PFG+  T+++GIISA  K+ +  G+  + N +QTDA+IN GNSGG LV + G ++GIN+AI +  G   G+GFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00220603</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANL-PAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIE-TFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>IGVMISDLTKE---QKDVYKNSNGALIISIEKDMPADKAGLKRGDLVIKANDKDIKSANDLKNLIGSLTPNKNINIEYERGGKVEKTSV------KLADMDSGKTSQASTTGSKESVKGLK---------VNNLSEDIRYKYNISQDI-------------NGVLVVSVDKDSDGFKAGFSRGDVIIQVGDKEVKNIDEFNTAI--AKNKDKKTLIWVIRNG</Hsp_hseq>
+      <Hsp_midline>+G  ++ LT+    Q ++     G  +  +  + PA  AGL+ GD+++K + + +    ++  ++  +   +++ I   R G V   S+        A +    T+     G   +V G++          N L  +I   +   Q +              G  V  V   S    AG    D+II+V ++ V +    + AI  A    ++ L+ V RNG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|746592106|ref|WP_039618323.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari] &gt;gi|744820837|gb|AJD04831.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari RM16701]</Hit_def>
+  <Hit_accession>WP_039618323</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.82135e-32</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN---------PTTRS-----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VKNSVVNISTSKT---VQSNSFGIDDFFNDPYFKQFFGFDFPQAPKSKKNKKEVVSSLGSGVIISSDGYIITNNHVIEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-NLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>++NSVV+++ S +   V  +  G+ +    P F           P ++      V ++G+GVI+ +DG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A V  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.101547</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELDSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.56633</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTVIKSPMDLKNYIGSIDPKQAIEVTYERDNKIKT----------AKFMLKTDEKSLQYEKGY--IDGLKLVELDSKNK--------QQYRIPENISGIL-------------ITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   +            A  +++     +    G   + G++ V      +        + +  P+ + G+              + EV   S+A   G +  D+II ++   V++   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|746602208|ref|WP_039628333.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari] &gt;gi|744819349|gb|AJD03345.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari CCUG 22395]</Hit_def>
+  <Hit_accession>WP_039628333</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>1.85556e-32</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN---------PTTRS-----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VKNSVVNISTSKT---VQSNSFGIDDFFNDPYFKQFFGFDFPQAPKSKKNKKEVVSSLGSGVIISSDGYIITNNHVIEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-NLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>++NSVV+++ S +   V  +  G+ +    P F           P ++      V ++G+GVI+ +DG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A V  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.109728</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELDSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.18955</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTVVKSPMDLKNYIGSIDPKQAIEVTYERDNKIKT----------AKFMLKTDEKSLQYEKGY--IDGLKLVELDSKNK--------QQYRIPENISGIL-------------ITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   V  P ++   +  +   +++ +   R   +            A  +++     +    G   + G++ V      +        + +  P+ + G+              + EV   S+A   G +  D+II ++   V++   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|746615390|ref|WP_039641476.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari] &gt;gi|744822315|gb|AJD06308.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari RM16712]</Hit_def>
+  <Hit_accession>WP_039641476</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>1.9621e-32</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>SAAGAIATFPPVVDFGPAP--VVSGGPFTGVVTLL---------RNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN---------PTTRS-----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SLALATTLFSASIDFKQADDNVKRSLPTDNQNTILSYHDSIQKVKNSVVNISTSKT---VQSNSFGIDDFFNDPYFKQFFGFDFPQAPKSKKNKKEVVSSLGSGVIISSDGYIITNNHVIEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-NLPAVIFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>S A A   F   +DF  A   V    P     T+L         +NSVV+++ S +   V  +  G+ +    P F           P ++      V ++G+GVI+ +DG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A +  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.101547</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELDSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.56633</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTVIKSPMDLKNYIGSIDPKQAIEVTYERDNKIKT----------AKFMLKTDEKSLQYEKGY--IDGLKLVELDSKNK--------QQYRIPENISGIL-------------ITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   +            A  +++     +    G   + G++ V      +        + +  P+ + G+              + EV   S+A   G +  D+II ++   V++   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|827446633|ref|WP_047208292.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter lari] &gt;gi|827024042|gb|AKJ53572.1| serine protease [Campylobacter lari]</Hit_def>
+  <Hit_accession>WP_047208292</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>1.98044e-32</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN---------PTTRS-----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VKNSVVNISTSKT---VQSNSFGIDDFFNDPYFKQFFGFDFPQAPKSKKNKKEVVSSLGSGVIISSDGYIITNNHVIEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-NLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>++NSVV+++ S +   V  +  G+ +    P F           P ++      V ++G+GVI+ +DG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A V  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0264964</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELDSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKVL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++ ++ E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.85916</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVS</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTVIKSPMDLKNYIGSIDPKQAIEVTYERDNKIK</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|765032955|ref|WP_044598763.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter peloridis] &gt;gi|744806727|gb|AJC84673.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter peloridis LMG 23910]</Hit_def>
+  <Hit_accession>WP_044598763</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>4.22525e-32</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFAL</Hsp_qseq>
+      <Hsp_hseq>LGSGVIISSDGYIITNNHVIEGADKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-DLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKTIAL</Hsp_hseq>
+      <Hsp_midline>+G+GVI+ +DG+I+TN HV+ GA+ + V + D   S  Y  +++  D   DLA++KI  K  L A V  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  AL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.148438</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>386</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLIELNSKNKQQYRIPDNINGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVTNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.287958</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNKEGALITEVQKDSAADNAGLKRGDLIIKVDKTAIKSPMDLKNYIGSIDPKQTIEVTYERDNKVKT----------AKFMLKTDEKSLQYEKGY--IDGLKLI------ELN--SKNKQQYRIPDNINGIL-------------ITEVTPKSKAEKIGFEQGDIIIGIDQYEVTNFKELSKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   V            A  +++     +    G   + G++ +      E N      + +  P  + G+              + EV   S+A   G +  D+II ++   VT+   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|746643571|ref|WP_039668405.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari] &gt;gi|744811261|gb|AJC89205.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari subsp. concheus LMG 11760]</Hit_def>
+  <Hit_accession>WP_039668405</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>4.53098e-32</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>SAAGAIATFPPVVDFGPAP--VVSGGPFTGVVTLL---------RNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN---------PTTRS-----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SLALATSLFSASIDFKQAEDNIQRSLPTDNQNTILSYHDSIQKVKNSVVNISTSKT---VQSNSFGIDDFFNDPYFKQFFGFDFPQAPKSKKNKKEVVSSLGSGVIISNDGYIITNNHVIEDAEKITVNLPD--SSTEFKAKLIGADPKTDLAVIKIEAK-NLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>S A A + F   +DF  A   +    P     T+L         +NSVV+++ S +   V  +  G+ +    P F           P ++      V ++G+GVI+ NDG+I+TN HV+  A  + V + D   S  +  +++  D   DLA++KI  K  L A V  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.202179</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRG-VFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELDSKNKQQYRIPENIGGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P   G + +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.828929</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVS</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYSAGLKRGDLIIKVDKTVIKSPMDLKNYIGSIDPKQAIEVTYERDNKVK</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A SAGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|736907229|ref|WP_034905701.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter sp. MIT 97-5078] &gt;gi|693438371|gb|KGI56011.1| serine protease [Campylobacter sp. MIT 97-5078]</Hit_def>
+  <Hit_accession>WP_034905701</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>5.45826e-32</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>ISSLGSGVIISSDGYIITNNHVIADVDSISVSLPDD--DTEYKAKLVGADEKTDLAVIKIEAK-NLSAVSFADSDKLMEGDMVFALGNPFGVGSSVTSGIVSALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVK</Hsp_hseq>
+      <Hsp_midline>+ ++G+GVI+ +DG+I+TN HV+   +S+ V++ DD     Y  ++V  DE  DLA++KI  K  L+A    DSD +   D V A+G PFG+  +V+ GI+SA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.128768</Hsp_evalue>
+      <Hsp_query-from>560</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>393</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>QANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>RAKIPANINGVLVTGVKEDSKADNAGFEVGDIIIGVEQDEIKNLEQLSSVLKNNQAKSFTKIWVYRNG</Hsp_hseq>
+      <Hsp_midline>+A +PA   GV V GV  ++ A +AG   GD+I+ V+   +   E++++++         +I V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.456389</Hsp_evalue>
+      <Hsp_query-from>691</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>284</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VVGMPGATPVAGGGK-GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>ITNLEGETKKAYSNQSGALITSVEKGSSAELAGLKRGDLVLKVNEKNITSANDLKNYI-GTLEPNQKITIIYERDG</Hsp_hseq>
+      <Hsp_midline>+  + G T  A   + GA +  V  GS A +AGL+  DL+++VN + +TS   L   I       Q+I +   R+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488938120|ref|WP_002849195.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|118414774|gb|ABK83194.1| peptidase S1C, Do [Campylobacter fetus subsp. fetus 82-40] &gt;gi|342327399|gb|EGU23883.1| putative peptidase S1C, Do [Campylobacter fetus subsp. venerealis NCTC 10354] &gt;gi|570722688|gb|AHE94049.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. venerealis cfvi03/293] &gt;gi|577006460|emb|CDF65139.1| htrA protease/chaperone protein;Serine protease (Protease DO) [Campylobacter fetus subsp. venerealis str. 84-112] &gt;gi|691215392|gb|AIR78685.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. fetus 04/554] &gt;gi|691217168|gb|AIR80458.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. venerealis 97/608] &gt;gi|706089127|gb|KGT36728.1| serine protease [Campylobacter fetus] &gt;gi|1049849297|gb|OCS15819.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049853657|gb|OCS19834.1| serine protease [Campylobacter fetus subsp. venerealis cfvi03/596] &gt;gi|1049856454|gb|OCS22331.1| serine protease [Campylobacter fetus subsp. venerealis cfvi97/532] &gt;gi|1049858444|gb|OCS24150.1| serine protease [Campylobacter fetus subsp. venerealis cfvi9825] &gt;gi|1049860440|gb|OCS25893.1| serine protease [Campylobacter fetus subsp. venerealis cfvB10] &gt;gi|1049862963|gb|OCS28265.1| serine protease [Campylobacter fetus subsp. venerealis CCUG 33872] &gt;gi|1049865696|gb|OCS30852.1| serine protease [Campylobacter fetus subsp. venerealis LMG 6570 = CCUG 33900] &gt;gi|1049867875|gb|OCS32833.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049870196|gb|OCS35093.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049872379|gb|OCS37224.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049874396|gb|OCS39006.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049875510|gb|OCS40048.1| serine protease [Campylobacter fetus subsp. venerealis cfvi02/298] &gt;gi|1049875671|gb|OCS40172.1| serine protease [Campylobacter fetus subsp. venerealis cfvi92/203] &gt;gi|1079505387|gb|OFI48120.1| serine protease [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_002849195</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>7.24516e-32</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>ARVAPPSAAGAIATFPPVVDFGPAPVVSGGPFTGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>ARVNPSADANTVLSYHSSIEKAKKSVVNIS--TSKTIKVKNNLNSL---------MDDPFFKEFFGFNFKTPKERSQKATSLGSGVIISNDGYIVTNYHVVEDSDEIIVTLLDN--SKEYKAKVVGIDPKTDLAIIKIDAK-NFQAISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>ARV P + A  + ++   ++     VV+    T     ++N++ S+         M DP          +     ++   ++G+GVI+ NDG+IVTNYHVV  ++ + VT+ D+  S  Y  ++V +D   DLA++KI  K    A    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.11755e-05</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>EGALVTNVEKDKPADIAGLKRGDLIIKVGNQTIKNANDLKNLIGSLEPNKEIKITFERSNQIKDTTL--KLANMDSGYID-PKDAYLTDGLS---------LQNLSDEIRY------KFQIPKDI-------------KGIIITNVKDDSNAANAGFEAGDIIVQVNEKIIYNVDDFTKEIKSSKAQNKKPIIWINRSGVLMGLVL</Hsp_hseq>
+      <Hsp_midline> G  V  V  + PA  AGL+ GD+I+KV  + +    ++  ++  +   + ++I   R+  + + +L    + + +  +  P    +  G +         +  +  E  +       F  P+ +             KG  +  V   S AA AG +A D+I++VN + + +       IK++ A  ++ ++ ++R+G    +VL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.42392</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEE</Hsp_qseq>
+      <Hsp_hseq>GLSLQNLSDEIRYKFQIPKDIKGIIITNVKDDSNAANAGFEAGDIIVQVNEKIIYNVDD</Hsp_hseq>
+      <Hsp_midline>G +L  L+  +  +  +P   +G+ +  V  ++ AA+AG   GD+I++V+ + ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|746599898|ref|WP_039626092.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari] &gt;gi|744817744|gb|AJD01741.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari NCTC 11845]</Hit_def>
+  <Hit_accession>WP_039626092</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.48735e-31</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VSSLGSGVIISSDGYIITNNHVIEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-NLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>V ++G+GVI+ +DG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A V  DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.144528</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELNSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVLNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.880366</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTVIKSPMDLKNYIGSIDPKQAIEVTYERDNKVKT----------AKFMLKTDEKSLQYEKGY--IDGLKLV------ELN--SKNKQQYRIPENISGIL-------------ITEVTPKSKAEKIGFEQGDIIIGIDQYEVLNFKELSKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   V            A  +++     +    G   + G++ V      E N      + +  P+ + G+              + EV   S+A   G +  D+II ++   V +   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1050124712|ref|WP_065844481.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|1049852813|gb|OCS19095.1| serine protease [Campylobacter fetus subsp. fetus BT 10/98]</Hit_def>
+  <Hit_accession>WP_065844481</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.60998e-31</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>ARVAPPSAAGAIATFPPVVDFGPAPVVSGGPFTGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>ARVNPSADANTVLSYHSSIEKAKKSVVNIS--TSKTIKVKNNLNSL---------MDDPFFKEFFGFNFKTPKERSQKATSLGSGVIISNDGYIVTNYHVVEDSDEIIVTLLDN--SKEYKAKVVGIDPKTDLAIIKIDAK-NFQSISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>ARV P + A  + ++   ++     VV+    T     ++N++ S+         M DP          +     ++   ++G+GVI+ NDG+IVTNYHVV  ++ + VT+ D+  S  Y  ++V +D   DLA++KI  K    +    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.19212e-05</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>EGALVTNVEKDKPADIAGLKRGDLIIKVGNQTIKNANDLKNLIGSLEPNKEIKITFERSNQIKDTTL--KLANMDSGYID-PKDAYLTDGLS---------LQNLSDEIRY------KFQIPKDI-------------KGIIITNVKDDSNAANAGFEAGDIIVQVNEKIIYNVDDFTKEIKSSKAQNKKPIIWINRSGVLMGLVL</Hsp_hseq>
+      <Hsp_midline> G  V  V  + PA  AGL+ GD+I+KV  + +    ++  ++  +   + ++I   R+  + + +L    + + +  +  P    +  G +         +  +  E  +       F  P+ +             KG  +  V   S AA AG +A D+I++VN + + +       IK++ A  ++ ++ ++R+G    +VL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.46113</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEE</Hsp_qseq>
+      <Hsp_hseq>GLSLQNLSDEIRYKFQIPKDIKGIIITNVKDDSNAANAGFEAGDIIVQVNEKIIYNVDD</Hsp_hseq>
+      <Hsp_midline>G +L  L+  +  +  +P   +G+ +  V  ++ AA+AG   GD+I++V+ + ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1053221813|ref|WP_066008053.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter ornithocola] &gt;gi|1052246087|gb|OCX42829.1| serine protease [Campylobacter ornithocola]</Hit_def>
+  <Hit_accession>WP_066008053</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.79059e-31</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN------PTT--------RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VKNSVVNISTSKT---VQSNSFGIDDFFNDPYFKQFFGFDFPQTPKNKKNKKEVVSSLGSGVIISSDGYIITNNHVIEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-NLPAITFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>++NSVV+++ S +   V  +  G+ +    P F        P T          V ++G+GVI+ +DG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A    DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.104204</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELDSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.959432</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTTIKSPMDLKNYIGSIDPKQAIEVTYERDNKIKT----------AKFMLKTDEKSLQYEKGY--IDGLKLVELDSKNK--------QQYRIPENISGIL-------------ITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   +++ +   R   +            A  +++     +    G   + G++ V      +        + +  P+ + G+              + EV   S+A   G +  D+II ++   V++   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|971839859|ref|WP_058909238.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|971364611|gb|ALV64782.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. testudinum Sp3] &gt;gi|1049816038|gb|OCR85540.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049820531|gb|OCR89742.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049826559|gb|OCR95243.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049830481|gb|OCR98718.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049833411|gb|OCS01384.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049836946|gb|OCS04714.1| serine protease [Campylobacter fetus subsp. testudinum]</Hit_def>
+  <Hit_accession>WP_058909238</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.01154e-31</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>RNSVVSVTAS------SSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KKSVVNISTSKTIKVKNNLNSLMDDPFFKDFFGFNFKMPKEKSQKATSLGSGVIISNDGYIVTNYHVVEDSDEIIVTLLDN--SKEYKAKVVGIDPKTDLAIIKIDAK-NFQAISFADSSKLLEGDMVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>+ SVV+++ S      ++   +M DP          +     ++   ++G+GVI+ NDG+IVTNYHVV  ++ + VT+ D+  S  Y  ++V +D   DLA++KI  K    A    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>8.16108e-05</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>EGALVTNVEKDKPADAAGLKRGDLVIKVGNQTIKNANDLKNLIGSLEPNKEIKITFERSNQIKDTTL--KLANMDSGYID-PKDAYLTDG-----LSLQNLSDEIRYKF-----------------------QISKDIKGIIITNVKDDSNAANAGFEAGDIIVQVNEKIISNVDDFTKEVKSSKAQNKKPIIWINRGGALMGLVL</Hsp_hseq>
+      <Hsp_midline> G  V  V  + PA +AGL+ GD+++KV  + +    ++  ++  +   + ++I   R+  + + +L    + + +  +  P    +  G       +Q +  ++  +F                        ++   KG  +  V   S AA AG +A D+I++VN + +++       +K++ A  ++ ++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|746315593|ref|WP_039362285.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|742918966|gb|AJB45362.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049818910|gb|OCR88187.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049822044|gb|OCR91103.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049828717|gb|OCR97109.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049834221|gb|OCS02163.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049837904|gb|OCS05630.1| serine protease [Campylobacter fetus subsp. testudinum]</Hit_def>
+  <Hit_accession>WP_039362285</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.24839e-31</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>RNSVVSVTAS------SSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KKSVVNISTSKTIKVKNNLNSLMDDPFFKDFFGFNFKMPKEKSQKATSLGSGVIISNDGYIVTNYHVVEDSDEIIVTLLDN--SKEYKAKVVGIDPKTDLAIIKIDAK-NFQAISFADSSKLLEGDMVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>+ SVV+++ S      ++   +M DP          +     ++   ++G+GVI+ NDG+IVTNYHVV  ++ + VT+ D+  S  Y  ++V +D   DLA++KI  K    A    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.000152054</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>EGALVTNVEKDKPADVAGLKRGDLVIKVGNQTIKNANDLKNLIGSLEPNKEIKITFERSNQIKDTTL--KLANMDSGYID-PKDAYLTDG-----LSLQNLSDEIRYKF-----------------------QISKDIKGIIITNVKDDSNAANAGFEAGDIIVQVNEKIISNVDDFTKEVKSSKAQNKKPIIWINRGGALMGLVL</Hsp_hseq>
+      <Hsp_midline> G  V  V  + PA  AGL+ GD+++KV  + +    ++  ++  +   + ++I   R+  + + +L    + + +  +  P    +  G       +Q +  ++  +F                        ++   KG  +  V   S AA AG +A D+I++VN + +++       +K++ A  ++ ++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|499427832|ref|WP_011115296.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Helicobacter] &gt;gi|32262002|gb|AAP77051.1| serine protease [Helicobacter hepaticus ATCC 51449] &gt;gi|693441492|gb|KGI58992.1| serine protease [Helicobacter sp. MIT 03-1614]</Hit_def>
+  <Hit_accession>AAP77051</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>2.28295e-31</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>PKERVERSLGSGVIISNDGYIITNNHVIEDADKVLVSLSD--STKEYTAKVIGTDARSDLAVIKIEQK-NLSPITFAQSSNVLIGDVVFAIGNPFGVGETITQGIVSALNKSGI--GINDYENFIQTDASINPGNSGGALVDSRGALIGINTAILSRTGGNHGVGFAIPSDMAKKIAKE</Hsp_hseq>
+      <Hsp_midline>P  R   ++G+GVI+ NDG+I+TN HV+  A+ V V++ D   +  Y+ +++  D   DLA++KI  K  L+      S  V + D V AIG PFG+  T+++GI+SA  K+ +  G+  + N +QTDA+IN GNSGG LV + G ++GINTAI +  G   G+GFA+PS+ A+  A +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.098544</Hsp_evalue>
+      <Hsp_query-from>479</Hsp_query-from>
+      <Hsp_query-to>625</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>HTDGRQNMNCASCHQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQ-----GPRGGQGAVAGS-GGSRASLLGAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRA</Hsp_qseq>
+      <Hsp_hseq>HVNGKKISNAAELKNLIG------MLSPNEKVVVKFIRDKQERVTQITLGELPDTKSNQTSSQNTPNGSASSVEGLSVESLNQAQRQRYRVPNNIDGVVVTRVNPNSKAQQAGFEVGDIIAQVENIAIKKPTDLTNAFTRFK-GKNKRILVYSA</Hsp_hseq>
+      <Hsp_midline>H +G++  N A    +IG      + +P      +F +        I        +  Q +   +  GS +S+ G ++  L Q    +  +P    GV V  V PN+ A  AG   GD+I +V+   + +P ++         G++ RI V  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.38187</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD--VSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>KGGIKRGFLGVGIQDINN--DIKESYGDNSGAVVISLEPQSPAAKAGLMVWDLITHVNGKKISNAAELKNLIGMLSPNEKVVVKFIRDKQERVTQITLGELPDTKSNQTSSQNTPN----GSASSVE----------------GLSVESLNQAQ-----RQRYRVPNNIDGVVVTRVNPNSKAQQAGFEVGDIIAQVENIAIKKPTDLTNAFTRFKGKNKRILV</Hsp_hseq>
+      <Hsp_midline> GG +   LG  +  +     ++ +     G  V  + P +PAA AGL   D+I  V+G+ +    E+  ++  +     V +  +R     V+ ++L   P   +       T      G A +V                 G+ +E+    Q          V     G  V  V   S+A  AG +  D+I +V N  +  P  L  A        ++IL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|746642110|ref|WP_039666945.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter sp. RM16704] &gt;gi|744808281|gb|AJC86223.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter sp. RM16704]</Hit_def>
+  <Hit_accession>WP_039666945</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>3.37757e-31</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>LGSGVIISNDGYIITNNHVIEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-NLPAITFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>+G+GVI+ NDG+I+TN HV+ GA  + V + D   S  Y  +++  D   DLA++KI  K  L A    DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.177844</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>386</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAGDVS</Hsp_qseq>
+      <Hsp_hseq>GLKLVELNSKNKQQYRIPENISGILITEVTPKSKAEKIGFEQGDIIVGVDQYEVSDFKELNKAL-ELNKGKEYVKIWINRGGFVK</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ VD   V   +E+   + E+  G+  V+I + R G V </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.578053</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKADKTTIKNPMDLKNYIGSIDPKQTIELTYERDNKIKTVKFM------------LKTDEKTLQYEKGYIDGLKLV------ELN--SKNKQQYRIPENISGIL-------------ITEVTPKSKAEKIGFEQGDIIVGVDQYEVSDFKELNKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+K D   +  P ++   +  +   +++ +   R   +  +  +              T    +      + G++ V      E N      + +  P+ + G+              + EV   S+A   G +  D+I+ V+   V+    L+ A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1028818829|ref|WP_063999860.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter iguaniorum] &gt;gi|1028386478|gb|ANE36084.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_063999860</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>4.03231e-31</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>PFTGVVTLLRNSVVSVTASSSG------GQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SFNSSIAKAKKSVVNISTSKTLKVQQGVNSLMDDPFFQEFFGFHFKLPKERNQKSTSLGSGVIISKDGYIVTNYHVVEDAEEIIVTLLDN--SKEYKAKIIGSDPKTDLAIIKVDAK-NFEAVSFGDSSKALEGDIVFAIGNPFGVGGSISQGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALLGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline> F   +   + SVV+++ S +         +M DP          +      +   ++G+GVI+  DG+IVTNYHVV  A  + VT+ D+  S  Y  +I+  D   DLA++K+  K    A   GDS      D V AIG PFG+  ++S+GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G ++GIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.77936e-06</Hsp_evalue>
+      <Hsp_query-from>564</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>PAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>KSKKGALISNVEKDKPADKAGLKRGDLIIKIDDQNIENATDLKNIIGSLPPNKEIKVTYERAGQNSTTEL---------KLIDMDNTNAVK-----------------KNDYSSDGLTLKNLSDD-----VRAKNQIPKDIKGIIIAEVAPNSNAANAGFEVGDVIIQVNETTINSIDDYVKELKNSRKQDRKLMIWINRLGVLMGLVL</Hsp_hseq>
+      <Hsp_midline> + +G  ++ V  + PA  AGL+ GD+I+K+D + +    ++  I+  +P  + +++   RAG  S   L          ++       V                    +++  G+ ++          +     +    KG  +AEV   S AA AG +  D+II+VN   + S       +K +    +++++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.623595</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>616</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR</Hsp_qseq>
+      <Hsp_hseq>GLTLKNLSDDVRAKNQIPKDIKGIIIAEVAPNSNAANAGFEVGDVIIQVNETTINSIDDY---VKELKNSR</Hsp_hseq>
+      <Hsp_midline>G  L  L+  +  +  +P   +G+ +  V PN+ AA+AG   GDVI++V+   ++  ++    + E+ N R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|728804341|ref|WP_033915744.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter sputorum]</Hit_def>
+  <Hit_accession>WP_033915744</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>5.25296e-31</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>GLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>GIPQERN---RSTSSLGSGVIISSDGYIVTNNHVISDADEIVVTTM--YGNNEYKAKVIGADTKTDLAVIKIEAK-DLKAISFADSSYLMEGDVVFAVGNPFGVGGTITQGIVSALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRNGDNNGIGFAIPSNMVKNIA</Hsp_hseq>
+      <Hsp_midline>G+P+  N   RS  ++G+GVI+ +DG+IVTN HV+  A+ + VT     G+  Y  +++  D   DLA++KI  K  L A    DS  +   D V A+G PFG+  T+++GI+SA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + NG   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.0024891</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>EGALISSVEKDMPGDKAGLKRGDLIIKINDKDIKDASTLTNLIGSLDPNTKIDIKYERMGKEYTTKLKLANMNDASSNSGTKTGSV----SNYIVDGLS--IVNLTDEYR------AKYRIPSDV-------------SGVLVTDVKSGSKAENLGFMSGDLIIQVGDKNIKNIEDFNSVMKESN--GDKVLVWINRRG</Hsp_hseq>
+      <Hsp_midline> G  ++ V  + P   AGL+ GD+I+K++ + +     +  ++  +     + I   R G      L       A++     T  V        V G+   I  +  E+         +  P  V              G  V +V +GS+A   G  + DLII+V ++ + +    ++ +K +   G ++L+ ++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|740669238|ref|WP_038454527.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter iguaniorum] &gt;gi|669188489|gb|AII14942.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_038454527</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>5.27549e-31</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>PFTGVVTLLRNSVVSVTASSSG------GQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SFNSSIAKAKKSVVNISTSKTLKVQQGVNSLMDDPFFQEFFGFHFKLPKERNQKSTSLGSGVIISKDGYIVTNYHVVEDAEEIIVTLLDN--SKEYKAKIIGSDPKTDLAIIKVDAK-NFEAISFGDSSKALEGDIVFAIGNPFGVGGSISQGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALLGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline> F   +   + SVV+++ S +         +M DP          +      +   ++G+GVI+  DG+IVTNYHVV  A  + VT+ D+  S  Y  +I+  D   DLA++K+  K    A   GDS      D V AIG PFG+  ++S+GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G ++GIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>8.68344e-06</Hsp_evalue>
+      <Hsp_query-from>564</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>PAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>KSKKGALISNVEKDKPADKAGLKRGDLIIKIDDQNVENATDLKNIIGSLAPNKEIKVTYERAGQNSTTEL---------KLIDMDNTSAVK-----------------KNDYSSDGLTLKNLSDD-----VRAKNQIPKDIKGIIIAEVAPNSNAANAGFEVGDVIIQVNETTINSIDDYVKELKNSRKQDRKLMIWINRLGVLMGLVL</Hsp_hseq>
+      <Hsp_midline> + +G  ++ V  + PA  AGL+ GD+I+K+D + V    ++  I+  +   + +++   RAG  S   L          ++       V                    +++  G+ ++          +     +    KG  +AEV   S AA AG +  D+II+VN   + S       +K +    +++++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.572193</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>616</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR</Hsp_qseq>
+      <Hsp_hseq>GLTLKNLSDDVRAKNQIPKDIKGIIIAEVAPNSNAANAGFEVGDVIIQVNETTINSIDDY---VKELKNSR</Hsp_hseq>
+      <Hsp_midline>G  L  L+  +  +  +P   +G+ +  V PN+ AA+AG   GDVI++V+   ++  ++    + E+ N R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|693736839|gb|KGI87861.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter jaachi]</Hit_def>
+  <Hit_accession>KGI87861</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>5.44607e-31</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PRERFERSLGSGVIISNDGYIITNYHVIEDASKVLVSLADNPK--EYAAKIIGTDARSDLAVIKI-EQTNLSPIAFAQSANVLVGDVAFAIGNPFGVGETVTQGIVSALNKTGI--GINDYENFIQTDASINPGNSGGALVDSRGALIGINTAILSRTGGNHGVGFAIPSDMVKKIA</Hsp_hseq>
+      <Hsp_midline>P  R   ++G+GVI+ NDG+I+TNYHV+  A+ V V++ D+     Y+ +I+  D   DLA++KI  +  L+      S  V V D   AIG PFG+  TV++GI+SA  KT +  G+  + N +QTDA+IN GNSGG LV + G ++GINTAI +  G   G+GFA+PS+  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0148753</Hsp_evalue>
+      <Hsp_query-from>479</Hsp_query-from>
+      <Hsp_query-to>625</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>HTDGRQNMNCASCHQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINI---QGPRGGQG-----AVAGSGGSRASLLGAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRA</Hsp_qseq>
+      <Hsp_hseq>HINGKKVSSAAELKNLIG------MLSPNEKVVVKFIRDKQERVTQITLTEQPNTQQGKQNPAAQDNQSNSSLNLQGLEVAELNNSTRQRYRIPNGVDGVVVTRVSPNSKAQEAGFEIGDVIAQVESMPIRKPADLSTAFTRFKD-KNKRILVYSA</Hsp_hseq>
+      <Hsp_midline>H +G++  + A    +IG      + +P      +F +        I   + P   QG     A      S  +L G  +  L      +  +P G  GV V  V+PN+ A  AG   GDVI +V+  P+ +P +++       + ++ RI V  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0283869</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD--VSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEI-ETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>KGSIKRGFLGVGIQDVSSDLKDSYN--DNTGAVVISLEPQSPAAKAGLMVWDLITHINGKKVSSAAELKNLIGMLSPNEKVVVKFIRDKQERVTQITLTEQPNTQQGK--QNPAAQDNQSNSS----------------LNLQGLEVAELNNSTRQRYRIPN------GVDGVVVTRVSPNSKAQEAGFEIGDVIAQVESMPIRKPADLSTAFTRFKDKNKRILV</Hsp_hseq>
+      <Hsp_midline> G  +   LG  +  ++  L    N     G  V  + P +PAA AGL   D+I  ++G+ V    E+  ++  +     V +  +R     V+ ++L   P+       Q P A    +  +                 N  G+E+ E   + +    +P       G  G  V  V   S+A  AG +  D+I +V + P+  PA L  A        ++IL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|971481801|ref|WP_058893376.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter iguaniorum] &gt;gi|971187094|gb|ALV24770.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_058893376</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>6.00606e-31</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>PFTGVVTLLRNSVVSVTASSSG------GQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SFNSSIAKAKKSVVNISTSKTLKVQQGVNSLMDDPFFQEFFGFHFKLPKERNQKSTSLGSGVIISKDGYIVTNYHVVEDAEEIIVTLLDN--SKEYKAKIIGSDPKTDLAIIKVDAK-NFEAISFGDSSKALEGDIVFAIGNPFGVGGSISQGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALLGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline> F   +   + SVV+++ S +         +M DP          +      +   ++G+GVI+  DG+IVTNYHVV  A  + VT+ D+  S  Y  +I+  D   DLA++K+  K    A   GDS      D V AIG PFG+  ++S+GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G ++GIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>8.53438e-06</Hsp_evalue>
+      <Hsp_query-from>564</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>PAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>KSKKGALISNVEKDKPADKAGLKRGDLIIKIDDQNVENATDLKNIIGSLAPNKEIKVTYERAGQNSTTEL---------KLIDMDNTSAVK-----------------KNDYSSDGLTLKNLSDD-----VRAKNQIPKDIKGIIIAEVAPNSNAANAGFEVGDVIIQVNETTINSIDDYVKELKNSRKQDRKLMIWINRLGVLMGLVL</Hsp_hseq>
+      <Hsp_midline> + +G  ++ V  + PA  AGL+ GD+I+K+D + V    ++  I+  +   + +++   RAG  S   L          ++       V                    +++  G+ ++          +     +    KG  +AEV   S AA AG +  D+II+VN   + S       +K +    +++++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.577137</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>616</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR</Hsp_qseq>
+      <Hsp_hseq>GLTLKNLSDDVRAKNQIPKDIKGIIIAEVAPNSNAANAGFEVGDVIIQVNETTINSIDDY---VKELKNSR</Hsp_hseq>
+      <Hsp_midline>G  L  L+  +  +  +P   +G+ +  V PN+ AA+AG   GDVI++V+   ++  ++    + E+ N R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|746640701|ref|WP_039665537.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter volucris] &gt;gi|744816138|gb|AJC94079.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter volucris LMG 24379]</Hit_def>
+  <Hit_accession>WP_039665537</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>9.07511e-31</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>LRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFA-----NPTTRS----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VKNSVVNISTSKTVQTNMANMDDFFNDPYFRQFFGFDFPTPKNRKNKEVVSSLGSGVIISSDGYIITNNHVIEDAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-DLPAVTFANSDQLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKTIA</Hsp_hseq>
+      <Hsp_midline>++NSVV+++ S +    M +     N     +F       P  R     V ++G+GVI+ +DG+I+TN HV+  A  + V + D   S  Y  +++  D   DLA++KI  K  L A    +SD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.01704</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>747</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAI</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DLKKAYTNKEGALVTDVQKDSAAFNAGLKRGDLIVKVDNTTIKSPMDLKNYIGSIDPKQQIELSYERDNEIKTVKFM------------LKTDEKSLQYEKGYIDGLKLVELDSKNK--------QQYRIPENINGIL-------------ITEVSPKSKAEQAGFEAGDIIVGVNQYEISNFKELSKAL</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   L+       G  V  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   + + +   R  ++  +  +              T    +      + G++ V      +        + +  P+ + G+              + EV   S+A  AG +A D+I+ VN   +++   L  A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.353133</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELDSKNKQQYRIPENINGILITEVSPKSKAEQAGFEAGDIIVGVNQYEISNFKELSKALDLNKDKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  V+P + A  AG   GD+I+ V+   +   +E++  +    +   V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.00005</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>EGALVTDVQKDSAAFNAGLKRGDLIVKVDNTTIKSPMDLKNYI-GSIDPKQQIELSYERDNE</Hsp_hseq>
+      <Hsp_midline>+GA V +V   S A  AGL+  DLI++V+N  + SP  L   I  +    QQI L   R+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|446899420|ref|WP_000976676.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Helicobacter pylori] &gt;gi|307637124|gb|ADN79574.1| HtrA protease/chaperone protein/Serine protease [Helicobacter pylori 908] &gt;gi|325995715|gb|ADZ51120.1| chaperone protein / Serine protease [Helicobacter pylori 2018] &gt;gi|325997311|gb|ADZ49519.1| Protease DO [Helicobacter pylori 2017]</Hit_def>
+  <Hit_accession>ADN79574</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.03772e-30</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>PARARVAPPSAAGAIATFPPVVDFGPAPVVSGGPFTGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN------PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIR-YSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGM-THSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>KVKERISVPSKEDTIYSYHDSIKDSIKAVVN----ISTEKKIKNNFI-------GGGVFNDPF-------FQQFFGDLGGMIPKERMERALGSGVIISKDGYIVTNNHVIDGADKIKVTIP---GSNKEYSATLVGTDSESDLAVIRIT-KDNLPTIKFSDSNDILVGDLVFAIGNPFGVGESVTQGIVSALNKSGI--GINSYENFIQTDASINPGNSGGALIDSRGGLVGINTAIISKTGGNHGIGFAIPSNMVK</Hsp_hseq>
+      <Hsp_midline>  + R++ PS    I ++   +      VV+          ++N+ +       GG V  DP          +F        P  R    +G+GVI+  DG+IVTN HV+ GA+ + VT+    GS + YS  +V  D   DLA+++IT K  L      DS+ + V D V AIG PFG+  +V++GI+SA  K+ +  G+ ++ N +QTDA+IN GNSGG L+ + G +VGINTAI +  G   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.383432</Hsp_evalue>
+      <Hsp_query-from>534</Hsp_query-from>
+      <Hsp_query-to>595</Hsp_query-to>
+      <Hsp_hit-from>375</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AVAGSGGSRASLLGAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVD</Hsp_qseq>
+      <Hsp_hseq>TISAQNGVQGQLNGLQVEDLTQKTKRSMRLSDDVQGVLVSQVNENSPAEQAGFRQGNIITKIE</Hsp_hseq>
+      <Hsp_midline> ++   G +  L G  +  LTQ+      L    +GV V+ V  N+PA  AG R G++I K++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.47918</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEM-PNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>TGKIERGYLGVGLQDLSG--DLQNSYDNKEGAVVISVEKDSPAKKAGILVWDLITEVNGKKVKNTNELRNLIGSMLPNQR-VTLKVIR</Hsp_hseq>
+      <Hsp_midline>+G      LG  L  L+    LQ +     G  V  V  ++PA  AG+   D+I +V+G+ V    E+  ++  M PN R V + V+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|557309126|ref|WP_023384915.1|</Hit_id>
+  <Hit_def>heat-shock protein HtrA [Campylobacter fetus] &gt;gi|556854145|gb|AGZ81622.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. testudinum 03-427] &gt;gi|1049824707|gb|OCR93543.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049840055|gb|OCS07621.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049841601|gb|OCS09058.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049843611|gb|OCS10904.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049845339|gb|OCS12382.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049846529|gb|OCS13377.1| serine protease [Campylobacter fetus subsp. testudinum]</Hit_def>
+  <Hit_accession>WP_023384915</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.23662e-30</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>RNSVVSVTAS------SSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KKSVVNISTSKTIKVKNNLNSLMDDPFFKDFFGFNFKMPKEKSQKATSLGSGVIISNNGYIVTNYHVVEDSDEIIVTLLDN--SKEYKAKVVGIDPKTDLAIIKIDAK-NFQAISFADSSKLLEGDMVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>+ SVV+++ S      ++   +M DP          +     ++   ++G+GVI+ N+G+IVTNYHVV  ++ + VT+ D+  S  Y  ++V +D   DLA++KI  K    A    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>7.95216e-05</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>EGALVTNVEKDKPADAAGLKRGDLVIKVGNQTIKNANDLKNLIGSLEPNKEIKITFERSNQIKDTTL--KLANMDSGYID-PKDAYLTDG-----LSLQNLSDEIRYKF-----------------------QISKDIKGIIITNVKDDSNAANAGFEAGDIIVQVNEKIISNVDDFTKEVKSSKAQNKKPIIWINRGGALMGLVL</Hsp_hseq>
+      <Hsp_midline> G  V  V  + PA +AGL+ GD+++KV  + +    ++  ++  +   + ++I   R+  + + +L    + + +  +  P    +  G       +Q +  ++  +F                        ++   KG  +  V   S AA AG +A D+I++VN + +++       +K++ A  ++ ++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|746624224|ref|WP_039649976.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter insulaenigrae] &gt;gi|744809777|gb|AJC87722.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter insulaenigrae NCTC 12927]</Hit_def>
+  <Hit_accession>WP_039649976</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>2.04913e-30</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>LRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN-------------PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>VKNSVVNISTSQT---VQNNSFGIDDFFNDPYFKQFFGFDLPKMPKNKKNKEVVGSLGSGVIVSSDGYIITNNHVIEGAEKITVNLPD--SSVEYKAKLIGADPKTDLAVIKIDAK-DLPAVVFANSDQLLEGDIVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>++NSVV+++ S +   V  +  G+ +    P F                    V ++G+GVIV +DG+I+TN HV+ GA  + V + D   S+ Y  +++  D   DLA++KI  K  L A V  +SD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.041035</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVAIGVLTQ--DIKKAYTNKDGALVTDVQRDSAAYNAGLKRGDLIIKVDKTTIKSPMDLKNYIGNIDPKQEIELSYERDNKIKTIKFMLN------------TDEKSMAYEKGYIDDLKLLELDSKNK--------QQYKIPENISGIL-------------VTEVISKSKAEQVGFEAGDIIVGVDQYEISNFKDLAKALE</Hsp_hseq>
+      <Hsp_midline>LG A+  LTQ   ++       G  V  V  ++ A +AGL+ GD+I+KVD   +  P ++   +  +   + + +   R   +  +  +              T    MA     +  ++ +      +        + +  P+ + G+              V EV++ S+A   G +A D+I+ V+   +++   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1028816976|ref|WP_063998010.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter hyointestinalis] &gt;gi|1028383852|gb|ANE34090.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter hyointestinalis subsp. lawsonii]</Hit_def>
+  <Hit_accession>WP_063998010</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>3.23575e-30</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>RNSVVSVTASSSG------GQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KKSVVNISTSKTIKVKHNINSLMDDPFFQEFFGFRFNIPKEKSQKTSSLGSGVIISSDGYIVTNYHVVEDADEIIVTLLD--SSKEYKAKIIGVDPKTDLAIIKVDAK-NFQAISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>+ SVV+++ S +         +M DP                ++   ++G+GVI+ +DG+IVTNYHVV  A+ + VT+ D   S  Y  +I+ +D   DLA++K+  K    A    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>1.11754e-07</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IGVMISNLTDD---QKELYKNKEGALITNVEKDKPAELAGLKRGDLIIKVDNQDIKNANDLKNLIGSLSPNKTISITYERANQISTINL----------------KLINMELGD---------ISKKDTYFDN-GLSLQNITDE---VRYKNKIP--GDIKGVLITDVKEDSSAFVAGFEPGDIIVQINQKIINSVDDYIKEIKSSKNQNSKLMIWINRKGVLMGLVL</Hsp_hseq>
+      <Hsp_midline>+G  ++ LT     Q  L   + G  +  V  + PA  AGL+ GD+I+KVD + +    ++  ++  +   +++ I   RA  +S ++L                  + M  G          I K  T F+  G+ ++        V      P  G  KG  + +V   S A VAG +  D+I+++N + + S       IK++     ++++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|981207742|ref|WP_059430963.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|962411194|emb|CUU69703.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962414054|emb|CUU84886.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962425908|emb|CUU76256.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059430963</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>3.96531e-30</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>RNSVVSVTASSSG------GQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KKSVVNISTSKTVKVKHNINSLMDDPFFQEFFGFRFNIPKEKSQKTSSLGSGVIISSDGYIVTNYHVVEDADEIIVTLLD--SSKEYKAKIIGVDPKTDLAIVKVDAK-NFQAISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>+ SVV+++ S +         +M DP                ++   ++G+GVI+ +DG+IVTNYHVV  A+ + VT+ D   S  Y  +I+ +D   DLA++K+  K    A    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.4116e-08</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVS--NMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IGVMISNLTDD---QKELYKNKEGALITNVEKDKPAELAGLKRGDLIIKVDNQDIKNANDLKNLVGSLSPNKTISITYERANQISTVNLKLVNMESG---------------------------DISKKDTYFDN-GLSLQNITDE---VRYKNQIP--GDIKGVLITDVKEDSSASIAGFEPGDIIVQINQKIINSVDDYIKEIKSSKNQNSKLMIWINRKGVLMGLVL</Hsp_hseq>
+      <Hsp_midline>+G  ++ LT     Q  L   + G  +  V  + PA  AGL+ GD+I+KVD + +    ++  ++  +   +++ I   RA  +S  N+ LV   SG                            I K  T F+  G+ ++        V      P  G  KG  + +V   S A++AG +  D+I+++N + + S       IK++     ++++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|981209676|ref|WP_059432667.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|962419887|emb|CUU85450.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059432667</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>4.11461e-30</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>RNSVVSVTASSSG------GQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KKSVVNISTSKTVKVKHNINSLMDDPFFQEFFGFRFNIPKEKSQKTSSLGSGVIISSDGYIVTNYHVVEDADEIIVTLLD--SSKEYKAKIIGVDPKTDLAIVKVDAK-NFQAISFADSSKLIEGDLVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>+ SVV+++ S +         +M DP                ++   ++G+GVI+ +DG+IVTNYHVV  A+ + VT+ D   S  Y  +I+ +D   DLA++K+  K    A    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.39938e-08</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVS--NMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IGVMISNLTDD---QKELYKNKEGALITNVEKDKPAELAGLKRGDLIIKVDNQDIKNANDLKNLVGSLSPNKTISITYERANQISTVNLKLVNMESG---------------------------DISKKDTYFDN-GLSLQNITDE---VRYKNQIP--GDIKGVLITDVKEDSSASIAGFEPGDIIVQINQKIINSVDDYIKEIKSSKNQNSKLMIWINRKGVLMGLVL</Hsp_hseq>
+      <Hsp_midline>+G  ++ LT     Q  L   + G  +  V  + PA  AGL+ GD+I+KVD + +    ++  ++  +   +++ I   RA  +S  N+ LV   SG                            I K  T F+  G+ ++        V      P  G  KG  + +V   S A++AG +  D+I+++N + + S       IK++     ++++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|736966282|ref|WP_034962749.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Campylobacter] &gt;gi|653289254|gb|KEA44320.1| serine protease [Campylobacter hyointestinalis subsp. hyointestinalis] &gt;gi|962407507|emb|CUU75963.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962408349|emb|CUU89505.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962413400|emb|CUU75900.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962417136|emb|CUU74401.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962418984|emb|CUU75381.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962424646|emb|CUU76941.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962427239|emb|CUU85825.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962430291|emb|CUU69704.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962433085|emb|CUU73068.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|1028381112|gb|ANE32375.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter hyointestinalis subsp. hyointestinalis LMG 9260] &gt;gi|1097010930|emb|SFT56593.1| serine protease Do [Campylobacter hyointestinalis]</Hit_def>
+  <Hit_accession>WP_034962749</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>4.38954e-30</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>RNSVVSVTASSSG------GQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KKSVVNISTSKTVKVKHNINSLMDDPFFQEFFGFRFNIPKEKSQKTSSLGSGVIISSDGYIVTNYHVVEDADEIIVTLLD--SSKEYKAKIIGVDPKTDLAIVKVDAK-NFQAISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKDNI--GLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIA</Hsp_hseq>
+      <Hsp_midline>+ SVV+++ S +         +M DP                ++   ++G+GVI+ +DG+IVTNYHVV  A+ + VT+ D   S  Y  +I+ +D   DLA++K+  K    A    DS  +   D V AIG PFG+  +++ GIIS   K  +  G+  + + +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>2.05199e-08</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>277</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVS--NMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IGVMISNLTDD---QKELYKNKEGALITNVEKDKPAELAGLKRGDLIIKVDNQDIKNANDLKNLVGSLSPNKTISITYERANQISTVNLKLINMESG---------------------------DISKKDTYFDN-GLSLQNITDE---VRYKNQIP--GDIKGVLITDVKEDSSASIAGFEPGDIIVQINQKIINSVDDYIKEIKSSKNQNSKLMIWINRKGVLMGLVL</Hsp_hseq>
+      <Hsp_midline>+G  ++ LT     Q  L   + G  +  V  + PA  AGL+ GD+I+KVD + +    ++  ++  +   +++ I   RA  +S  N+ L+   SG                            I K  T F+  G+ ++        V      P  G  KG  + +V   S A++AG +  D+I+++N + + S       IK++     ++++ ++R G    +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|492508513|ref|WP_005870174.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter gracilis] &gt;gi|257442823|gb|EEV17957.1| peptidase Do [Campylobacter gracilis RM3268] &gt;gi|909718383|gb|AKT92722.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter gracilis]</Hit_def>
+  <Hit_accession>WP_005870174</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>6.88646e-30</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>REGSSLGSGVIISEDGYIVTNNHVIENADEIVVTLLE--GDKEYKAKVIGTDPKTDLAIIKIDEK-NLSAVKFADSSKAMEGDIVFAIGNPFGVGGTITQGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALLGINSAILSRGGGNNGVGFAIPSNMVKEIA</Hsp_hseq>
+      <Hsp_midline>R   ++G+GVI+  DG+IVTN HV+  A+ + VT+ +  G   Y  +++  D   DLA++KI  K  L+A    DS      D V AIG PFG+  T+++GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G ++GIN+AI +  G   G+GFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.000161966</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANL-PAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>FIGVTISDMSKD---QKELYESKEGALISSVEKDMPADKAGIKRGDLITKINGKSIKNANELKNLIGSMAPGSSVDVEFERDGKSKSTTI-----KLDAMKSDSTT---LGSAGENSKSAIE-------------GLKLRTLNDS-----LRRKYNLDDDVSGALVLSVKDGSKADDYGFEVGDVIIQVGQNDVKSSDDFDRYIK--DYKGKKTLVWVIRRG</Hsp_hseq>
+      <Hsp_midline> +G  ++ +++    Q  L  +  G  ++ V  + PA  AG++ GD+I K++G+ +    E+  ++  M  G SV +   R G   + ++      L A    + T   + + G  +   ++             G+++ T         +     +     GA V  V  GS+A   G +  D+II+V    V S    D  IK     G++ L+ V R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|757802585|ref|WP_043019768.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter subantarcticus] &gt;gi|744814493|gb|AJC92435.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter subantarcticus LMG 24377]</Hit_def>
+  <Hit_accession>WP_043019768</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.58388e-29</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>RVAPPSAAGAIATFPPVVDF--------------GPAPVVSGGPFTGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN---------PTTRS----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KITILSLAVATSIFSASIDFKQADDNIQRTLPASNPNSILS---YHDSIQKVKNSVVNISTSKT---VQSSSFGIDDFFNDPYFKQFFGFDFPQAPKSKKNKEVVSSLGSGVIISNDGYIITNNHVVEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEAK-NLPAVTFADSDRLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSGSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>++   S A A + F   +DF               P  ++S   +   +  ++NSVV+++ S +   V     G+ +    P F           P ++     V ++G+GVI+ NDG+I+TN HVV GA  + V + D   S  Y  +++  D   DLA++KI  K  L A    DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.152056</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELNAKNKAQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.46113</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTTVKSPMDLKNYIGSIDPKQAIELTYERDNKIKT----------AKFMLKTDEKSLQYEKGY--IDGLKLV------ELN--AKNKAQYRIPENISGIL-------------ITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   V  P ++   +  +   +++ +   R   +            A  +++     +    G   + G++ V      E N        +  P+ + G+              + EV   S+A   G +  D+II ++   V++   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|746638854|ref|WP_039663692.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter subantarcticus] &gt;gi|744812730|gb|AJC90673.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter subantarcticus LMG 24374]</Hit_def>
+  <Hit_accession>WP_039663692</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>2.1873e-29</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>RVAPPSAAGAIATFPPVVDF--------------GPAPVVSGGPFTGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFAN---------PTTRS----VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>KITILSLAVATSIFSASIDFKQADDNIQRTLPASNPNSILS---YHDSIQKVKNSVVNISTSKT---VQSSSFGIDDFFNDPYFKQFFGFDFPQAPKSKKNKEVVSSLGSGVIISNDGYIITNNHVVEGAEKITVNLPD--SSTEYKAKLIGADPKTDLAVIKIEVK-NLPAVTFADSDRLLEGDVVFALGNPFGVGSSVTSGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSGSGGNNGIGFAIPSNMAKSIA</Hsp_hseq>
+      <Hsp_midline>++   S A A + F   +DF               P  ++S   +   +  ++NSVV+++ S +   V     G+ +    P F           P ++     V ++G+GVI+ NDG+I+TN HVV GA  + V + D   S  Y  +++  D   DLA++KI  K  L A    DSD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.14946</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>384</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRS-VRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GLKLVELNAKNKAQYRIPENISGILITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKAL-ELNKGKEYVKIWINRGG</Hsp_hseq>
+      <Hsp_midline>G  L  L  +   Q  +P    G+ +  VTP + A   G   GD+I+ +D   V   +E++  + E+  G+  V+I + R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.31787</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>748</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIK</Hsp_qseq>
+      <Hsp_hseq>LGVVIGALTQ--DIKKAYTNQEGALITEVQKDSAAYNAGLKRGDLIIKVDKTTVKSPMDLKNYIGSIDPKQAIELTYERDNKIKT----------AKFMLKTDEKSLQYEKGY--IDGLKLV------ELN--AKNKAQYRIPENISGIL-------------ITEVTPKSKAEKIGFEQGDIIIGIDQYEVSNFKELSKALE</Hsp_hseq>
+      <Hsp_midline>LG  +  LTQ   ++       G  +  V  ++ A +AGL+ GD+I+KVD   V  P ++   +  +   +++ +   R   +            A  +++     +    G   + G++ V      E N        +  P+ + G+              + EV   S+A   G +  D+II ++   V++   L  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1176352544|ref|WP_082199705.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter helveticus] &gt;gi|1173742050|gb|ARE80451.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter helveticus] &gt;gi|1174989849|emb|SMC19113.1| serine protease Do [Campylobacter helveticus]</Hit_def>
+  <Hit_accession>WP_082199705</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>2.90144e-29</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>DGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTV-KDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>DPFQRRGQNEKEVVASIGSGVIISKDGYIVTNNHVVENVDSISVTLPQSDV---EYKAKLIGKDPKTDLAVIKIEAN-NLSAVSFSNSDDLMEGDVVFALGNPFGVGFSVTSGIISALNKDNI--GLNQYENFIQTDASINPGNSGGALVDTRGALVGINSAILSRGGGNNGIGFAIPSNMVK</Hsp_hseq>
+      <Hsp_midline>D   R        V +IG+GVI+  DG+IVTN HVV   +S+ VT+ + DV    Y  +++  D   DLA++KI     L+A    +SD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV   G +VGIN+AI +  G   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0218779</Hsp_evalue>
+      <Hsp_query-from>665</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>QPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>KKLIEKGKIERGFLGVSIAALKGD--------SKKVYKNSEGALITDVQKGSSADEAGLRRGDLVLRVNDKIIKSPNDLKNYI-GTLEPNQKISLFYERDGKE</Hsp_hseq>
+      <Hsp_midline>+ +I K   E  +LG+ I              +  V    +GA + +V  GS A  AGL+  DL++ VN++ + SP  L   I       Q+I L   R+G+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.195001</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAP-QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>EGALITDVQKGSSADEAGLRRGDLVLRVNDKIIKSPNDLKNYIGTLEPNQKISLFYERDGKENQISFVLKGDEMSE------------------IKGVQDSLIE--------GLKLRALDANLKARLGVPSEIN------GILVESVEAKSKAKDSGFKEGDIIIAVGQSEVKDLKDLQNTLK-NQAKNAWIKIWVYRGG</Hsp_hseq>
+      <Hsp_midline> G  +  V   + A  AGLR GD++L+V+ + +  P ++   +  +   + + +   R G  + +S V     ++                   + GVQ  + +        G+++    A  +  +G+P          G  V  V A S+A  +G +  D+II V    V     L   +K   A    I + V+R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|736538538|ref|WP_034553256.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter apodemus] &gt;gi|696174499|gb|KGL19789.1| serine protease [Helicobacter apodemus]</Hit_def>
+  <Hit_accession>KGL19789</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>3.75583e-29</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PKDRIERSLGSGTIISSDGYIVTNNHVIDGADKISVALPE--SNKEYEAKVIGKDEKTDLAIIKINTK-NLPFLKFASSNEAQVGDIVFAIGNPFGVGESVTQGIISALNKTGI--GINDYENFIQTDASINPGNSGGALVDSRGGLIGINTAILSRTGGNHGIGFAIPSEMVK</Hsp_hseq>
+      <Hsp_midline>P  R   ++G+G I+ +DG+IVTN HV+ GA+ + V + +   +  Y  +++  DE  DLA++KI  K  L       S+   V D V AIG PFG+  +V++GIISA  KT +  G+  + N +QTDA+IN GNSGG LV + G ++GINTAI +  G   GIGFA+PS   +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000259456</Hsp_evalue>
+      <Hsp_query-from>559</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>LQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIET-FMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LEDVYKEQKGAVVISIEKDSPAQKAGLKVWDLITKVNGIPIRSAAELKNIIGTYNPKDKVTLTILRDKKEQTLNIT-----LTKALNNTSSNGSVVGG----INGLEIVT---------LNTEIKTRFSIPNNL-------------QGVFVTRVQQGSKAEEVGLIEGDIITQVESFSIKDAESFNEALNHYKGQSKRIL--VNRGGRVFSIVI</Hsp_hseq>
+      <Hsp_midline>L+      +G  V  +  ++PA  AGL+  D+I KV+G P+    E+  I+        V + +LR      +++      L  A+    +   V+ G    + G++ V          L  EI+T F  P  +             +G  V  V  GS+A   GL   D+I +V +  +      + A+       ++IL  V+R G+ F IV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1189232404|ref|WP_085657485.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter concisus] &gt;gi|1187727061|gb|OSQ26119.1| serine protease [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_085657485</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>6.2321e-29</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKEKEKTT----SLGSGVIISNDGYIVTNNHVIEDSDQIVVTLAN--GGKEYKAKLIGSDPKTDLAVVKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIISGLNKDNI--GLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>P+    TT    ++G+GVI+ NDG+IVTN HV+  ++ + VT+ +  G   Y  +++  D   DLA++KI     L A    DS  +  AD V AIG PFG+  ++++GIIS   K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.281619</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>FIGVTIANLTDE---QKELYTNKEGALISGVEQGMPADEAGLKRGDLVISANDKAIKNANDLKNFIGSLTPNSSVDITYERSNKIMN-------------------AKIKLANADHNSKDIAKSIIIEGLSVSNLSDEIRYKYKISP------------DTQGVLVTDVKSGSKAEDFGFERGDVIVQVGEESIKDLQTFANTIK--NTKGKKTLVWINRGG</Hsp_hseq>
+      <Hsp_midline> +G  +  LT     Q  L   + G  ++GV    PA  AGL+ GD+++  + + +    ++   +  +    SV I   R+  + N                   A + +A        +   I       + L  EI       P              +G  V +V +GS+A   G +  D+I++V    +         IK     G++ L+ ++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|493612489|ref|WP_006564829.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter suis] &gt;gi|321146614|gb|EFX41448.1| protease DO [Helicobacter suis HS5] &gt;gi|321148156|gb|EFX42686.1| protease DO [Helicobacter suis HS1]</Hit_def>
+  <Hit_accession>EFX41448</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>6.27022e-29</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIR-YSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKDRIERALGSGVVISKNGYIVTNNHVIDGADKISVTIP---GSNKEYSATLVGTDADSDLAVIKIN-KENLPVIQFSDSSTTLVGDLVFAIGNPFGVGETVTQGIVSALNKTGI--GINNYENFIQTDAAINPGNSGGALIDSRGGLVGINTAILSRTGGNHGVGFAIPSNTVKHIA</Hsp_hseq>
+      <Hsp_midline>P  R    +G+GV++  +G+IVTN HV+ GA+ + VT+    GS + YS  +V  D   DLA++KI  K  L      DS    V D V AIG PFG+  TV++GI+SA  KT +  G+  + N +QTDAAIN GNSGG L+ + G +VGINTAI +  G   G+GFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00385549</Hsp_evalue>
+      <Hsp_query-from>540</Hsp_query-from>
+      <Hsp_query-to>614</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>GSRASLLGAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN</Hsp_qseq>
+      <Hsp_hseq>GVNGQLSGIKVETLTPRLRKEAHIPENIHGVFIQDVKDNSKAQELGFRQGDVIMQIENVSIRNIEDFNRALTRYRN</Hsp_hseq>
+      <Hsp_midline>G    L G  +  LT RL  +A++P    GVF+  V  N+ A   G R GDVI++++   +   E+    +    N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0887169</Hsp_evalue>
+      <Hsp_query-from>703</Hsp_query-from>
+      <Hsp_query-to>768</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEF</Hsp_qseq>
+      <Hsp_hseq>GKEGAVVISIEKDSPAKKAGLMIWDLIIEVNGKRVKNAAELRNLI-GSLAPNQHITIKYIRNKREY</Hsp_hseq>
+      <Hsp_midline>G +GA V  +   S A  AGL   DLIIEVN + V + A L   I  + A  Q I +K  RN +E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>2.6748</Hsp_evalue>
+      <Hsp_query-from>559</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>LQDSYNGKEGAVVISIEKDSPAKKAGLMIWDLIIEVNGKRVKNAAELRNLIGSLAPNQHITIKYIRNKREYTTSLV</Hsp_hseq>
+      <Hsp_midline>LQ +     G  V  +  ++PA  AGL   D+I++V+G+ V    E+  ++  +   + + I  +R       SLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|544651652|ref|WP_021085615.1|</Hit_id>
+  <Hit_def>protease HtrA [Campylobacter concisus] &gt;gi|543205307|gb|ERJ24591.1| HtrA protease [Campylobacter concisus UNSW1]</Hit_def>
+  <Hit_accession>WP_021085615</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>6.34804e-29</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKEKEKTT----SLGSGVIISNDGYIVTNNHVIEDSDQIVVTLAN--GGKEYKAKLIGSDPKTDLAVIKIDAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKDNI--GLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>P+    TT    ++G+GVI+ NDG+IVTN HV+  ++ + VT+ +  G   Y  +++  D   DLA++KI     L A    DS  +  AD V AIG PFG+  ++++GI+S   K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.0047005</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSN--MSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>FIGVTIANLTDE---QKELYTNKEGALISGVEQGMPADEAGLKRGDLVISANGKAIKNANDLKNFIGSLTPNSSVDITYERSNKVMNTKIKLVNMDHNAKDA-----TKSVIIEGLS---------VSNLSDEIRY-----KYKISPDT--------------QGVLVTDVKSGSKAEDFGFEKGDVIVQVGEESIKDLQTFSNTVK--NAKGKKTLVWVNRGG</Hsp_hseq>
+      <Hsp_midline> +G  +  LT     Q  L   + G  ++GV    PA  AGL+ GD+++  +G+ +    ++   +  +    SV I   R+  V N  + LV        A     T  V++ G +         +  +  E  +     +  ++P                +G  V +V +GS+A   G +  D+I++V    +         +K   A G++ L+ V+R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|696195578|gb|KGL36318.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter sp. MIT 05-5294]</Hit_def>
+  <Hit_accession>KGL36318</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>6.71091e-29</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PKDRVERSLGSGVIISNDGYIVTNNHVIDGADKILVSLPE--SNKEYEAKVIGKDSKSDLAIIKIQAN-NLPFLKFASSNDLQVGDVVFAIGNPFGVGESITQGIISALNKNGI--GINDYENFIQTDASINPGNSGGALVDSRGGLIGINTAILSRTGGNHGIGFAIPSEMVK</Hsp_hseq>
+      <Hsp_midline>P  R   ++G+GVI+ NDG+IVTN HV+ GA+ + V++ +   +  Y  +++  D   DLA++KI     L       S+ + V D V AIG PFG+  ++++GIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G ++GINTAI +  G   GIGFA+PS   +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0269041</Hsp_evalue>
+      <Hsp_query-from>559</Hsp_query-from>
+      <Hsp_query-to>771</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>LQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAP-QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIV</Hsp_qseq>
+      <Hsp_hseq>LQEVYKNQKGAVVIAIEKDSPAEKSGLKVWDLIVKVNNKEIKGAADLKNIIGTFNPKEKVTLNILRDKKEQTLHLTLAK------------APNEQQGSIKENSGIA-------------GLEIGALNAENKSKYGIPNNI------QGVLVTNVQANSKAEELGFSRGDIIIQIESFSISDLKSFNDAM--SRYKGQTKRMLINRNGRILSIV</Hsp_hseq>
+      <Hsp_midline>LQ      +G  V  +  ++PA  +GL+  D+I+KV+ + +    ++  I+        V + +LR      + L                AP    G      G+              G+EI    A  +   G+P         +G  V  V A S+A   G    D+II++ +  ++     + A+  +   GQ   + ++RNG+   IV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>7.16192</Hsp_evalue>
+      <Hsp_query-from>526</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>366</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>QGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDV</Hsp_qseq>
+      <Hsp_hseq>KAPNEQQGSIKENSGIAGLEIGALNAENKSKYGIPNNI---QGVLVTNVQANSKAEELGFSRGDIIIQIESFSISDLKSFNDAMSRYK-GQTKRMLINRNGRI</Hsp_hseq>
+      <Hsp_midline>+ P   QG++  + G     +GA       + G+  N+   +GV V  V  N+ A   G   GD+I++++   +   +     M+    G++ R+ + R G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1119675800|ref|WP_072594940.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter concisus] &gt;gi|1111820514|gb|OJJ28480.1| serine protease [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_072594940</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>7.35655e-29</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKEKEKTT----SLGSGVIISNDGYIVTNNHVIEDSDQIVVTLAN--GGKEYKAKLIGSDPKTDLAVVKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIISGLNKDNI--GLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>P+    TT    ++G+GVI+ NDG+IVTN HV+  ++ + VT+ +  G   Y  +++  D   DLA++KI     L A    DS  +  AD V AIG PFG+  ++++GIIS   K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.459954</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>FIGVTIANLTDE---QKELYTNKEGALISGVEQGMPADEAGLKRGDLVISANDKTIKNANDLKNFIGSLTPNSSVDITYERSNKIMN-------------------AKIKLANADHNSKDIAKSIIIEGLSVSNLSDEIRYKYKISP------------DTQGVLVTDVKSGSKAEDFGFERGDVIVQVGEESIKDLQTFANTVK--NTKGKKTLVWINRGG</Hsp_hseq>
+      <Hsp_midline> +G  +  LT     Q  L   + G  ++GV    PA  AGL+ GD+++  + + +    ++   +  +    SV I   R+  + N                   A + +A        +   I       + L  EI       P              +G  V +V +GS+A   G +  D+I++V    +         +K     G++ L+ ++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1153076868|gb|OPA72167.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter pinnipediorum subsp. caledonicus]</Hit_def>
+  <Hit_accession>OPA72167</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>7.72848e-29</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTV----KDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIISKDGYIVTNNHVIEDSDEIIVTLPENHKD------YKAKIIGTDSKTDLAVIKIEDN-NLNAIKLADSSKILEGDVVFAIGNPFGVGSSITRGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALIGINSAILSRGGDSSGIGFAIPSSMVK</Hsp_hseq>
+      <Hsp_midline>+G+GVI+  DG+IVTN HV+  ++ + VT+    KD      Y  +I+  D   DLA++KI     L A  L DS  +   D V AIG PFG+  +++RGIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G ++GIN+AI +  G  +GIGFA+PS+  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>1.31787</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>764</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRN</Hsp_qseq>
+      <Hsp_hseq>IGVMIANLTED---QKELYKNKEGALISSVEKDFPADKAGIKRGDLIIAINDKDIKSANDLKNAIGSIAPNTEVSVTYERSKKISKTKM-----KLANMSLNASNAKDIQSIEGLSVSNINDELKR-------------RYKLNSDITGIL-------------VTDVKQKSKASDIGFLRGDIIVQVGEDIIKDIDSFTKAIKSTN--GQKTLVWVNRN</Hsp_hseq>
+      <Hsp_midline>+G  +  LT+    Q  L   + G  ++ V  + PA  AG++ GD+I+ ++ + +    ++   +  +     V +   R+  +S   +      LA   + A  A  + +    +V  +   + +              +     + G+              V +V   S+A+  G    D+I++V    +        AIK+    GQ+ L+ V+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1153129144|gb|AQW87704.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter sp. RM18021]</Hit_def>
+  <Hit_accession>AQW87704</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>8.01838e-29</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTV----KDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIISKDGYIVTNNHVIEDSDEIIVTLPENHKD------YKAKIIGTDSKTDLAVIKIEDN-NLNAIKLADSSKILEGDVVFAIGNPFGVGSSITRGIISALNKNNI--GLNQYENFIQTDASINPGNSGGALVDSRGALIGINSAILSRGGDSSGIGFAIPSSMVK</Hsp_hseq>
+      <Hsp_midline>+G+GVI+  DG+IVTN HV+  ++ + VT+    KD      Y  +I+  D   DLA++KI     L A  L DS  +   D V AIG PFG+  +++RGIISA  K  +  G+  + N +QTDA+IN GNSGG LV + G ++GIN+AI +  G  +GIGFA+PS+  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.821193</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>764</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRN</Hsp_qseq>
+      <Hsp_hseq>IGVMIANLTED---QKELYKNKEGALISSVEKDFPADKAGIKRGDLIIAINDKDIKSANDLKNTIGSIAPNTEVSVTYERSKKISKTKM-----KLANMSLNASNAKDIQSIEGLSVSNINDELKR-------------RYKLNSDITGIL-------------VTDVKQKSKASDIGFLRGDIIVQVGEDIIKDIDSFTKAIKSTN--GQKTLVWVNRN</Hsp_hseq>
+      <Hsp_midline>+G  +  LT+    Q  L   + G  ++ V  + PA  AG++ GD+I+ ++ + +    ++   +  +     V +   R+  +S   +      LA   + A  A  + +    +V  +   + +              +     + G+              V +V   S+A+  G    D+I++V    +        AIK+    GQ+ L+ V+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|489029922|ref|WP_002940315.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter concisus] &gt;gi|384577898|gb|EIF07172.1| HtrA protease/chaperone protein / Serine protease [Campylobacter concisus UNSWCD]</Hit_def>
+  <Hit_accession>WP_002940315</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>8.6836e-29</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKEKEKTT----SLGSGVIISNDGYIVTNNHVIEDSDQIVVTLAK--GGKEYKAKLIGSDPKTDLAVIKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKDDI--GLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>P+    TT    ++G+GVI+ NDG+IVTN HV+  ++ + VT+    G   Y  +++  D   DLA++KI     L A    DS  +  AD V AIG PFG+  ++++GI+S   K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00882211</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSN--MSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>FIGVTIANLTDE---QKELYTNKEGALISGVEQGMPADEAGLKRGDLVISANGKAIKNANDLKNFIGSLTPNSSVDITYERSNKIMNTKIKLVNMDHNAKDA-----TKSVIIDGLS---------VSNLSDEIRY-----KYKISPDT--------------QGVLVTDVKSGSKAEDFGFERGDVIVQVGEESIKDLQTFASTVK--SAKGKKTLVWINRGG</Hsp_hseq>
+      <Hsp_midline> +G  +  LT     Q  L   + G  ++GV    PA  AGL+ GD+++  +G+ +    ++   +  +    SV I   R+  + N  + LV        A     T  V++ G +         +  +  E  +     +  ++P                +G  V +V +GS+A   G +  D+I++V    +       + +K  +A G++ L+ ++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|496649797|ref|WP_009293709.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter sp. 10_1_50] &gt;gi|363652678|gb|EHL91711.1| protease Do [Campylobacter sp. 10_1_50]</Hit_def>
+  <Hit_accession>WP_009293709</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>9.78835e-29</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKEKEKTT----SLGSGVIISNDGYIVTNNHVIEDSDQIVVTLAK--GGKEYKAKLIGSDPKTDLAVIKIDAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKDDI--GLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>P+    TT    ++G+GVI+ NDG+IVTN HV+  ++ + VT+    G   Y  +++  D   DLA++KI     L A    DS  +  AD V AIG PFG+  ++++GI+S   K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0150565</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSN--MSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>FIGVTIANLTDE---QKELYTNKEGALISGVEQGMPADEAGLKRGDLVISANGKAIKNANDLKNFIGSLTPNSSVDITYERSNKIMNAKIKLVNMDHNAKDA-----TKSVIIDGLS---------VSNLSDE-----IRVKYKISPDT--------------QGVLVTDVKSGSKAEDFGFERGDVIVQVGEESIKDIQTFASTVK--NAKGKKTLVWINRGG</Hsp_hseq>
+      <Hsp_midline> +G  +  LT     Q  L   + G  ++GV    PA  AGL+ GD+++  +G+ +    ++   +  +    SV I   R+  + N  + LV        A     T  V++ G +         +  +  E     + ++  ++P                +G  V +V +GS+A   G +  D+I++V    +       + +K   A G++ L+ ++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|544656124|ref|WP_021089824.1|</Hit_id>
+  <Hit_def>protease HtrA [Campylobacter concisus] &gt;gi|543208594|gb|ERJ27729.1| HtrA protease [Campylobacter concisus ATCC 51561]</Hit_def>
+  <Hit_accession>WP_021089824</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.01557e-28</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKEKEKTT----SLGSGVIISNDGYIVTNNHVIEDSDQIVVTLAK--GGKEYKAKLIGSDPKTDLAVIKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKDDI--GLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>P+    TT    ++G+GVI+ NDG+IVTN HV+  ++ + VT+    G   Y  +++  D   DLA++KI     L A    DS  +  AD V AIG PFG+  ++++GI+S   K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.016412</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>FIGVTIANLTDE---QKELYTNKEGALISGVEQGMPADEAGLKRGDLVISANGKAIKNANDLKNFIGSLTPNSSVDITYERSNKVMNTKI----------------KLVNMDHNAKTAS--KSVIIEGLSVSN-LSDEIRFKYKISP------------DTQGVLVTDVKSGSKAEDFGFERGDVIVQVGEESIKDLQTFASTVK--NAKGKKTLVWINRGG</Hsp_hseq>
+      <Hsp_midline> +G  +  LT     Q  L   + G  ++GV    PA  AGL+ GD+++  +G+ +    ++   +  +    SV I   R+  V N  +                  V M   A T    + VI +  +  N L  EI       P              +G  V +V +GS+A   G +  D+I++V    +       + +K   A G++ L+ ++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|736577315|ref|WP_034588637.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter magdeburgensis] &gt;gi|696169229|gb|KGL15129.1| serine protease [Helicobacter magdeburgensis]</Hit_def>
+  <Hit_accession>KGL15129</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.02768e-28</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKERVERSLGSGVIISSDGYIITNNHVIEDASKVLVSLSD--SSKEYVAKVIGTDSRSDLAVIKI-EKNNLPPISFAQSSNVLIGDVVFAIGNPFGVGETITQGIVSALNKSGI--GINDYENFIQTDASINPGNSGGALVDSRGALIGINTAILSRTGGNHGVGFAIPSDMVKKIA</Hsp_hseq>
+      <Hsp_midline>P  R   ++G+GVI+ +DG+I+TN HV+  A+ V V++ D   S  Y  +++  D   DLA++KI  K  L       S  V + D V AIG PFG+  T+++GI+SA  K+ +  G+  + N +QTDA+IN GNSGG LV + G ++GINTAI +  G   G+GFA+PS+  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.139509</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD--VSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>GSIKRGFLGVGIQDINE--DLKESYGDNSGAVVISLEPQSPAAKAGLMVWDLITHINGKRVSNAAELKNFVGMLSPNEKVVVKFIRDKQERVAQITLAELPDSNKDTKAN-PSSNA--QGSSATIEG--------------LSVE-ELSSNIRQRYGIPNNI------NGVVVTRVNANSKAVQAGFEVGDIIAQVENIAIKTPADLNNAFTRFKGKNKRVLV</Hsp_hseq>
+      <Hsp_midline>G  +   LG  +  + +   L+ +     G  V  + P +PAA AGL   D+I  ++G+ V    E+   +  +     V +  +R     V+ ++L   P          P++     G + T+ G              L +E E     +   G+P          G  V  V A S+A  AG +  D+I +V N  + +PA L+ A        +++L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|544650855|ref|WP_021084866.1|</Hit_id>
+  <Hit_def>protease HtrA [Campylobacter concisus] &gt;gi|543202283|gb|ERJ21644.1| HtrA protease [Campylobacter concisus UNSW3]</Hit_def>
+  <Hit_accession>WP_021084866</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>1.05369e-28</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>PKEKEKTT----SLGSGVIISNDGYIVTNNHVIEDSDQIVVTLAK--GGKEYKAKLIGSDPKTDLAVIKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKDDI--GLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMVKDIA</Hsp_hseq>
+      <Hsp_midline>P+    TT    ++G+GVI+ NDG+IVTN HV+  ++ + VT+    G   Y  +++  D   DLA++KI     L A    DS  +  AD V AIG PFG+  ++++GI+S   K  +  G+  + N +QTDA+IN GNSGG LV + G +VGIN+AI + +G   GIGFA+PSN  +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0194999</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSN--MSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>FIGVTIANLTDE---QKELYTNKEGALISGVEQGMPADEAGLKRGDLVISANGKAIKNANDLKNFIGSLTPNSSVDITYERSNKIMNTKIKLVNMDHNAKDA-----TKSVIIDG--LSVSNLSDEI-----RFKYK-------ISPDT--------------QGVLVTDVKSGSKAEDFGFERGDVIVQVGEESIKDIQTFASTVK--NAKGKKTLVWINRGG</Hsp_hseq>
+      <Hsp_midline> +G  +  LT     Q  L   + G  ++GV    PA  AGL+ GD+++  +G+ +    ++   +  +    SV I   R+  + N  + LV        A     T  V++ G   +V  +   I      F +        ++P                +G  V +V +GS+A   G +  D+I++V    +       + +K   A G++ L+ ++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>470744</Statistics_db-num>
+      <Statistics_db-len>162470253</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

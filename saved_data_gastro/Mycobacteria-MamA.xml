@@ -1,0 +1,1689 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1160345799|emb|SLL32549.1|</Hit_id>
+  <Hit_def>TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. abscessus]</Hit_def>
+  <Hit_accession>SLL32549</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>7.46233e-06</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>GIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>GAVYYEKEDLESAKTMFEQALAKGLESSDNFFMLGLTYVGLEKAKLAIPYFQRAVELNNQDAEAYFQLGLCLAQSEYIDEAITQFQSCISLDATHADAYYNLGVAYGFKEESEKAKEMFDKALEI</Hsp_hseq>
+      <Hsp_midline>G  Y +   ++    + E+++A   ++     +LGLTYV ++K  LA+P   +  E N  +    F+LG+ L      DEAI  F+  + L       +  +  +Y      E+A   F KA E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1180392944|ref|WP_083911742.1|</Hit_id>
+  <Hit_def>hypothetical protein [Nocardia takedensis]</Hit_def>
+  <Hit_accession>WP_083911742</Hit_accession>
+  <Hit_len>1309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.90776e-05</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>804</Hsp_hit-from>
+      <Hsp_hit-to>984</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>AGRYSEAVVMLEQVYD-------ADAFDVEVALH-LGIAYVKTGAVDRGTELLERSIA--------DAPDNIKVATVLGLTYVQVQKYDLAVPLL--------VKVAEANPVNFNVRFRLGVALDNLGR-------FDEAIDSFKIALGLR-PNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>SGKYVQAIPLLERVLDNREQILGPDHHDTLASRHNLADAYQMTGRLAEAIPLFEQTLTQTVEVLGPDHPDTLIVRHNLASTYQQAGRHDKAIPLLEWTLTYREQHLGPDHPDTVTSRSKLVGAYRSTGQIAETVALFERSLDGFERVYGPRHPDTLSVRHNLADAYQMTGRLAEAIPLFEQ</Hsp_hseq>
+      <Hsp_midline>+G+Y +A+ +LE+V D        D  D   + H L  AY  TG +     L E+++         D PD + V   L  TY Q  ++D A+PLL          +   +P     R +L  A  + G+       F+ ++D F+   G R P+   V   +A +Y+  G   EA+P F++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00694065</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>722</Hsp_hit-from>
+      <Hsp_hit-to>896</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>RYSEAVVMLEQ-------VYDADAFDVEVA-LHLGIAYVKTGAVDRGTELLERSIADAP--------DNIKVATVLGLTYVQVQKYDLAVPLLVKVAE-----ANPVNFNV---RFRLGVALDNLGRFDEAIDSFKIALGL--------RPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>RAAQAITLLEQTAADRERVLGPDHSDTLTSRYYLAGVYQETGRITEAIDLYERNLADRERILGSEHHDTLTTRSALAACYQISGKYVQAIPLLERVLDNREQILGPDHHDTLASRHNLADAYQMTGRLAEAIPLFEQTLTQTVEVLGPDHPDTLIVRHNLASTYQQAGRHDKAIP</Hsp_hseq>
+      <Hsp_midline>R ++A+ +LEQ       V   D  D   +  +L   Y +TG +    +L ER++AD          D +   + L   Y    KY  A+PLL +V +       P + +    R  L  A    GR  EAI  F+  L           P+   V   +A +Y+Q G H++A+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>2.86057</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>927</Hsp_hit-from>
+      <Hsp_hit-to>1117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFD-VEVALHLGIAYVKTGAVDRGTELLERSIA--------DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV--------NFNVRFRLGVALDNLGRFDEAIDSFKIALGLR--------PNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YRSTGQIAETVALFERSLDGFERVYGPRHPDTLSVRHNLADAYQMTGRLAEAIPLFEQTLTQTVQVLGPDHPNTLIVRHNLASTYQEAGRHDKAIPLLERILTDNERLLGSDALDTLTSRHNLASVYDLNGRPAEAIPLFEQTLAGRERVLGSDHPHTLTTRHNLASAYYNADRLPEAVIQFERVLDDFER</Hsp_hseq>
+      <Hsp_midline>YR  G        +  ++   E+VY     D + V  +L  AY  TG +     L E+++         D P+ + V   L  TY +  ++D A+PLL ++   N              R  L    D  GR  EAI  F+  L  R        P+       +A +Y       EA+  F++  +  ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|499525772|ref|WP_011212412.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Nocardia farcinica] &gt;gi|54019362|dbj|BAD60730.1| hypothetical protein PNF2_450 (plasmid) [Nocardia farcinica IFM 10152]</Hit_def>
+  <Hit_accession>WP_011212412</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.09743e-05</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>431</Hsp_hit-from>
+      <Hsp_hit-to>648</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>VDAFR---SAFSVNDDIRQVYYR------DKGISHAKAGRYSEAVVMLEQVYDAD-AFDVEVALHLGIAYVKTGAVDRGTELLERSIA--------DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKV--------AEANPVNFNVRFRLGVALDNLGRFDEAI--------DSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>VDTFTGKVQSTSVTDAKAQILTRAGQFVLDQGMHTSALIYYRQALTEYERVLGAEHPHTLASRGNLAGAYQSVGRLDEAIPLYEQARTGQERILGPDHPETMAARNNLAYAYQSVGRLDEAIPLYEQVLTDSERILGTEHPDTLKSRSNLAYAYQSVGRLDEAIPLYEQVLTDSERILGTEHPDTLKSRSNLAYAYRSVGRLDEAIPLYEQVLTDSER</Hsp_hseq>
+      <Hsp_midline>VD F     + SV D   Q+  R      D+G+  +    Y +A+   E+V  A+    +    +L  AY   G +D    L E++          D P+ +     L   Y  V + D A+PL  +V           +P     R  L  A  ++GR DEAI        DS +I     P+  K    +AY+Y  +G  +EA+P +++     ER</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.678707</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>SHAKAGRYSEAVVMLEQVY-DADAF-------DVEVALHLGIAYVKTGAVDRGTELLERSIADA--------PDNIKVATVLGLTYVQVQKYDLAVPLLVK--------VAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLR--------PNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>AYRSVGRLDEAIPLYEQVLTDSERILGTEHPNTLTFRSNLAFAYESTGRLEAAIPLLEQTLADRERILGDEHPHTLISRGNLAGAYQSAGRLDEAIPLYQQTLTDRERILGVKHPDTLISRNNLAYIYKSAGRLDEAIPLYQQTLTDRERILGDEHPHTLISRNNLAGAYQSAGRLDEAIPLYQQTLTDRER</Hsp_hseq>
+      <Hsp_midline>++   GR  EA+ + EQV  D++          +    +L  AY  TG ++    LLE+++AD         P  +     L   Y    + D A+PL  +        +   +P     R  L     + GR DEAI  ++  L  R        P+       +A +Y+  G  +EA+P +++     ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1119053775|emb|SHP91852.1|</Hit_id>
+  <Hit_def>TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. abscessus]</Hit_def>
+  <Hit_accession>SHP91852</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>3.11456e-05</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP--NEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>MLGFTLIQLEQPKLALPYLQRSVELNGDDAEARFQFGLCLANQELLDEAIKQFNACVELDPLHADAYYNLGVAYGFKEDGK--KALDMFEKALEL</Hsp_hseq>
+      <Hsp_midline>+LG T +Q+++  LA+P L +  E N  +   RF+ G+ L N    DEAI  F   + L P   +   +  +AY +++ G   +AL  F+KA EL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.93546</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>MSSKPSNMLDEVTLYTHYGLSVAKKLGAN--MVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>MKAIEDNPKDAVS-YINFG-NVLSAVGENEKALKFFQKAIEIDENAATAYY-NAGNLYFENEQLEEAKNMFELAMRKGLHSSDNYFMLGFTLIQLEQPKLALPYLQRSVELNGDDAEARFQFGLCLANQELLDEAIKQFNACVELDPLHADAYYNLGVAYGFKEDGKKALDMFEKALELQPD</Hsp_hseq>
+      <Hsp_midline>M +   N  D V+ Y ++G +V   +G N   +  F+ A  ++++    YY + G  + +  +  EA  M E          +    LG   ++          L+RS+    D+ +     GL     +  D A+       E +P++ +  + LGVA        +A+D F+ AL L+P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|494650259|ref|WP_007408203.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacillus] &gt;gi|154352741|gb|ABS74820.1| YrrB [Bacillus amyloliquefaciens subsp. plantarum str. FZB42] &gt;gi|380499652|emb|CCG50690.1| putative UDP-N-acetylglucosamine-peptide N-acetylglucosaminyltransferase SPINDLY [Bacillus velezensis YAU B9601-Y2] &gt;gi|387173440|gb|AFJ62901.1| Tubulin-tyrosine ligase family protein [Bacillus amyloliquefaciens Y2] &gt;gi|393807178|gb|EJD68503.1| YrrB [Bacillus sp. 916] &gt;gi|452080667|emb|CCP22432.1| putative tetratricopeptide repeat family protein [Bacillus velezensis UCMB5036] &gt;gi|530334523|emb|CDG30566.1| putative tetratricopeptide repeat family protein [Bacillus velezensis UCMB5033] &gt;gi|530338214|emb|CDG26693.1| putative tetratricopeptide repeat family protein [Bacillus velezensis UCMB5113] &gt;gi|542009910|gb|ERH55778.1| hypothetical protein O205_06810 [Bacillus amyloliquefaciens EGD-AQ14] &gt;gi|549061008|emb|CDH94882.1| putative UDP-N-acetylglucosamine-peptide N-acetylglucosaminyltransferase SPINDLY [Bacillus velezensis NAU-B3] &gt;gi|556020223|gb|AGZ57251.1| tetratricopeptide repeat protein [Bacillus amyloliquefaciens CC178] &gt;gi|597506258|gb|EYB36881.1| hypothetical protein AW26_0107995 [Bacillus amyloliquefaciens EBL11] &gt;gi|631802106|gb|AHZ16771.1| putative UDP-N-acetylglucosamine-peptide N-acetylglucosaminyltransferase SPINDLY [Bacillus velezensis SQR9] &gt;gi|672874709|gb|KFI17134.1| TPR repeat-containing protein YrrB [Bacillus subtilis] &gt;gi|700310281|gb|AIU82644.1| TPR repeat-containing protein YrrB [Bacillus velezensis] &gt;gi|703574766|gb|AIW30655.1| TPR repeat-containing protein YrrB [Bacillus subtilis] &gt;gi|703585900|gb|AIW38260.1| TPR repeat-containing protein YrrB [Bacillus subtilis] &gt;gi|743684510|gb|AJC26642.1| hypothetical protein SB24_16395 [Bacillus sp. Pc3] &gt;gi|749173614|gb|AJE79469.1| TPR repeat-containing protein YrrB [Bacillus sp. BH072] &gt;gi|756870758|gb|KIR04641.1| hypothetical protein RZ52_16340 [Bacillus velezensis] &gt;gi|765097119|gb|KJD59216.1| hypothetical protein UZ38_04200 [Bacillus amyloliquefaciens] &gt;gi|817595278|gb|AKF75856.1| hypothetical protein AAV30_06670 [Bacillus velezensis] &gt;gi|857393506|gb|KMO09431.1| hypothetical protein TH57_01625 [Bacillus amyloliquefaciens] &gt;gi|912474730|gb|KNX33401.1| hypothetical protein AFK74_12305 [Bacillus amyloliquefaciens] &gt;gi|916377283|gb|KOC84252.1| hypothetical protein AKJ10_02775 [Bacillus velezensis] &gt;gi|924903877|gb|KOS52740.1| hypothetical protein AN272_01630 [Bacillus amyloliquefaciens] &gt;gi|959998091|gb|KSV99508.1| hypothetical protein AR441_10700 [Bacillus velezensis] &gt;gi|960001391|gb|KSW02786.1| hypothetical protein AR442_02530 [Bacillus velezensis] &gt;gi|960005370|gb|KSW06725.1| hypothetical protein AR443_01755 [Bacillus velezensis] &gt;gi|974730821|gb|KUP40052.1| hypothetical protein AVR63_10825 [Bacillus velezensis] &gt;gi|1004876516|gb|KYC86572.1| hypothetical protein B4140_2248 [Bacillus amyloliquefaciens] &gt;gi|1024255324|gb|ANB48777.1| hypothetical protein A1D33_015950 [Bacillus velezensis] &gt;gi|1024401952|gb|ANB84506.1| hypothetical protein A6R78_11000 [Bacillus velezensis] &gt;gi|1030049684|gb|OAL90937.1| hypothetical protein AY609_05120 [Bacillus velezensis] &gt;gi|1039352535|gb|OBR34146.1| Protein O-GlcNAc transferase [Bacillus velezensis] &gt;gi|1044623330|gb|OCB97828.1| Protein O-GlcNAc transferase [Bacillus velezensis] &gt;gi|1058359778|gb|ODB70223.1| hypothetical protein A7314_06495 [Bacillus velezensis] &gt;gi|1095446411|gb|APA03528.1| hypothetical protein BK055_13680 [Bacillus velezensis] &gt;gi|1111276432|gb|APH36579.1| hypothetical protein BHE96_13710 [Bacillus subtilis] &gt;gi|1131829903|emb|SIR19286.1| Tetratricopeptide repeat-containing protein [Bacillus amyloliquefaciens] &gt;gi|1131856186|emb|SIS13600.1| Tetratricopeptide repeat-containing protein [Bacillus sp. RUPDJ] &gt;gi|1137670923|gb|OMQ03565.1| hypothetical protein BXO87_12585 [Bacillus sp. GZB] &gt;gi|1146062253|gb|AQP97512.1| hypothetical protein BZ167_16715 [Bacillus sp. 275] &gt;gi|1148001286|gb|OOI01563.1| hypothetical protein BM734_12150 [Bacillus velezensis] &gt;gi|1158420056|emb|SLB11070.1| TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. massiliense] &gt;gi|1175619978|gb|OQV49173.1| hypothetical protein B5Z21_13075 [Bacillus velezensis] &gt;gi|1184816977|gb|ARJ75842.1| hypothetical protein B7941_15355 [Bacillus velezensis]</Hit_def>
+  <Hit_accession>SLB11070</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000160604</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKV--HRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YVMKESFSEAKDMFEKALRSGMENGDLFYMLGTVLVKLERPKLALPYLQRAVELNENDTEARFQFGMCLANEEMLDEALAQFETVIEQDPSHADAFYNAGVAYAYKE--NREKALEMLEGA</Hsp_hseq>
+      <Hsp_midline>YV   +     ++ E+++    +N  +  +LG   V++++  LA+P L +  E N  +   RF+ G+ L N    DEA+  F+  +   P+      +  +AY+Y++  + E+AL   + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|515743576|ref|WP_017176176.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacilli] &gt;gi|579933900|gb|EUZ70530.1| tetratricopeptide domain-containing protein [Staphylococcus sp. M0480] &gt;gi|874581598|gb|KMU54952.1| Tetratricopeptide repeat (TPR) family protein [Staphylococcus hominis] &gt;gi|874584395|gb|KMU57729.1| Tetratricopeptide repeat (TPR) family protein [Staphylococcus hominis] &gt;gi|874586044|gb|KMU59369.1| Tetratricopeptide repeat (TPR) family protein [Staphylococcus hominis] &gt;gi|986997497|emb|CVY38422.1| TPR repeat-containing protein yrrB [Streptococcus pneumoniae] &gt;gi|1035169417|gb|OAW31571.1| hypothetical protein A7I03_06400 [Staphylococcus hominis] &gt;gi|1080476012|gb|OFM59117.1| hypothetical protein HMPREF2677_00965 [Staphylococcus sp. HMSC059G05] &gt;gi|1080478898|gb|OFM61928.1| hypothetical protein HMPREF2673_05025 [Staphylococcus sp. HMSC062C01] &gt;gi|1080479303|gb|OFM62318.1| hypothetical protein HMPREF2672_09205 [Staphylococcus sp. HMSC068D07] &gt;gi|1080495189|gb|OFM77477.1| hypothetical protein HMPREF2662_09585 [Staphylococcus sp. HMSC074B09] &gt;gi|1080511782|gb|OFM93387.1| hypothetical protein HMPREF2639_04080 [Staphylococcus sp. HMSC078D05] &gt;gi|1080545406|gb|OFN25364.1| hypothetical protein HMPREF2578_05410 [Staphylococcus sp. HMSC072H03] &gt;gi|1080563206|gb|OFN41951.1| hypothetical protein HMPREF2561_04430 [Staphylococcus sp. HMSC069E10] &gt;gi|1080899120|gb|OFQ60816.1| hypothetical protein HMPREF2930_02960 [Staphylococcus sp. HMSC068C09] &gt;gi|1080951599|gb|OFR10664.1| hypothetical protein HMPREF2905_05995 [Staphylococcus sp. HMSC078E07] &gt;gi|1080979860|gb|OFR37605.1| hypothetical protein HMPREF2889_03500 [Staphylococcus sp. HMSC063F02] &gt;gi|1081098673|gb|OFS48858.1| hypothetical protein HMPREF2873_02770 [Staphylococcus sp. HMSC075H09] &gt;gi|1081385490|gb|OFV22410.1| hypothetical protein HMPREF3131_07575 [Staphylococcus sp. HMSC14C01] &gt;gi|1090884139|gb|OHO29302.1| hypothetical protein HMPREF2629_07270 [Staphylococcus sp. HMSC034C12] &gt;gi|1090917591|gb|OHO59027.1| hypothetical protein HMPREF2650_04265 [Staphylococcus sp. HMSC035F02] &gt;gi|1101927980|gb|OIS48089.1| hypothetical protein A4A25_00435 [Staphylococcus hominis] &gt;gi|1101929022|gb|OIS49056.1| hypothetical protein A4A28_08685 [Staphylococcus hominis] &gt;gi|1101932696|gb|OIS52564.1| hypothetical protein A4A27_03465 [Staphylococcus hominis] &gt;gi|1104011596|emb|SFX10230.1| TPR repeat-containing protein [Staphylococcus hominis] &gt;gi|1158356392|emb|SKT94206.1| TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. abscessus] &gt;gi|1159045730|gb|OPF69283.1| hypothetical protein ATN85_04450 [Staphylococcus hominis]</Hit_def>
+  <Hit_accession>SKT94206</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000196675</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEAN-PVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIILADVGEIEKAERFFQKAITLDDKNGAVYYNLANLYYEQSRFQEAIKLYQRALKYNMNPIDTNYMIGMSFSQLDAQREALPFFMTAAELDQTLDTEVQFQYGLTLCHLEMFQEAIKQLNYVLSINPNHVDALYNLGLATYMETEDADEAIQYFDKAIQIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A  G   +A    ++    D  +  V  +L   Y +        +L +R++    + I    ++G+++ Q+     A+P  +  AE +  ++  V+F+ G+ L +L  F EAI      L + PN    ++     +Y +    +EA+ +F KA ++D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.051485</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDE</Hsp_qseq>
+      <Hsp_hseq>WMNNGNYEEAIKALFNNIEENPNIIENYINAGIILADVGEIEKAERFFQKAITLDDKNGAVYYNLANLYYEQSRFQEAIKLYQRALKYNMNPIDTNYMIGMSFSQLDAQREALPFFMTAAELDQ</Hsp_hseq>
+      <Hsp_midline>++  G  +   + L  +I + P+ I+     G+    V + + A     K    +  N  V + L        RF EAI  ++ AL    N    +  I  S+ Q+ +  EALP F  A ELD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1093496022|ref|WP_070859439.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus sp. HMSC035D11] &gt;gi|1090909030|gb|OHO50838.1| hypothetical protein HMPREF2647_01785 [Staphylococcus sp. HMSC035D11] &gt;gi|1094218210|emb|SEM05121.1| TPR repeat-containing protein [Staphylococcus sp. NFPP34] &gt;gi|1119097454|emb|SIG72150.1| TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. abscessus]</Hit_def>
+  <Hit_accession>SIG72150</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000235672</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEAN-PVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLADVGEIEKAERFFQKAITLDDKNGAIYYNLANLYYEQSRFQEAIKLYQRALKYNMNPIDTNYMIGMSFSQLDAQREALPFFMTAAELDQTLDTEVQFQYGLTLCHLEMFQEAIKQLNYVLSINPNHVDALYNLGLATYMETEDADEAIQYFDKAIQIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A  G   +A    ++    D  +  +  +L   Y +        +L +R++    + I    ++G+++ Q+     A+P  +  AE +  ++  V+F+ G+ L +L  F EAI      L + PN    ++     +Y +    +EA+ +F KA ++D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0620374</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDE</Hsp_qseq>
+      <Hsp_hseq>WMNNGNYEEAIKALFNNIEENPNIIENYINAGIVLADVGEIEKAERFFQKAITLDDKNGAIYYNLANLYYEQSRFQEAIKLYQRALKYNMNPIDTNYMIGMSFSQLDAQREALPFFMTAAELDQ</Hsp_hseq>
+      <Hsp_midline>++  G  +   + L  +I + P+ I+     G+    V + + A     K    +  N  + + L        RF EAI  ++ AL    N    +  I  S+ Q+ +  EALP F  A ELD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1118770891|emb|SIN59163.1|</Hit_id>
+  <Hit_def>TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. abscessus]</Hit_def>
+  <Hit_accession>SIN59163</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000658906</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>GLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>GILLAEANEVDKAEKFFQRAITLDPQNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFSQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>2.10728</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAE---ANEVDKAEKFFQRAITLDPQNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFSQLEAFKEALPFLMTAAEQDDRHDVEIQFQYGLVLCHLEMFEQAIKQLKSVLEM</Hsp_hseq>
+      <Hsp_midline>Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  ++F+ G+ L +L  F++AI   K  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1181072185|ref|WP_084480728.1|</Hit_id>
+  <Hit_def>hypothetical protein [Nocardia grenadensis]</Hit_def>
+  <Hit_accession>WP_084480728</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00104714</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>GANMVDAFRSAFSVNDDI---RQVYYRDKGI-----------------SHAKAGRYSEAVVMLEQVYDA--------DAFDVEVALHLGIAYVKTGAVDRGTELLERSIA--------DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKV--------AEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLR--------PNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>GHNLATAYRKAGRDEDAIGLYEQVLVVRRGVLGEDDPATLATGHNLAFSYEKAGRVKEAIGLYEQVLAARRRVLGEDDPATLATGRNLAHAYQKTGRVEEAIELYEPITAGARRVLGEDDPDTWVAVHNLALAYELVGRVEEAIGLYEEVLAARRRVLGEDAPPTLATGHNLATAYRKAGRVEDAIGQYEQVLAIRRRVLGEDDPATLDTEHNLAYTYQNAGRVEDSI</Hsp_hseq>
+      <Hsp_midline>G N+  A+R A    D I    QV    +G+                 S+ KAGR  EA+ + EQV  A        D   +    +L  AY KTG V+   EL E   A        D PD       L L Y  V + + A+ L  +V         E  P        L  A    GR ++AI  ++  L +R        P        +AY+Y+  G  E+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|518065728|ref|WP_019235936.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Staphylococcus] &gt;gi|827310415|gb|KLN00419.1| tetratricopeptide domain-containing protein [Staphylococcus aureus] &gt;gi|895361328|emb|COD97130.1| TPR repeat-containing protein yrrB [Streptococcus pneumoniae] &gt;gi|967398270|gb|KTK69603.1| hypothetical protein AL513_09730 [Staphylococcus warneri] &gt;gi|968537092|gb|KTW20292.1| tetratricopeptide domain-containing protein [Staphylococcus warneri] &gt;gi|1158343490|emb|SKR87422.1| TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. abscessus] &gt;gi|1159044735|gb|OPF68329.1| hypothetical protein ATY33_03720 [Staphylococcus warneri]</Hit_def>
+  <Hit_accession>SKR87422</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00163563</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEAN-PVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLADAGEIEKSERFFQKAITIDPENGAIYYNLGNVYYNQDRFKEAIKLYQQAMKYNIEPVDCNYMIGMSFNQLNAHKEALPFLMTAAEKDHQQDTEVQFQYGLVLCQLEMFDQAIKQLKKVLSIDSNHVDAIYNLGLATYMKNEDVDEAIEYFNQAIKID</Hsp_hseq>
+      <Hsp_midline>Y + GI  A AG   ++    ++    D  +  +  +LG  Y          +L ++++    + +    ++G+++ Q+  +  A+P L+  AE +   +  V+F+ G+ L  L  FD+AI   K  L +  N    ++     +Y +    +EA+ +F +A ++D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0306634</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>FIKEGQLEEALKALFDNIEEDPTVTENYINAGIVLADAGEIEKSERFFQKAITIDPENGAIYYNLGNVYYNQDRFKEAIKLYQQAMKYNIEPVDCNYMIGMSFNQLNAHKEALPFLMTAAEKDHQQ</Hsp_hseq>
+      <Hsp_midline>++K G ++   + L  +I + P   +     G+      + + +     K    +P N  + + LG    N  RF EAI  ++ A+         +  I  S+ Q+ +H+EALP    A E D + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1016415997|ref|WP_063055485.1|</Hit_id>
+  <Hit_def>aminoglycoside phosphotransferase APH(3&apos;) [Nocardia soli]</Hit_def>
+  <Hit_accession>WP_063055485</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00692584</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGK-----VHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>LAARVALADPHDFPGLRRLGIALMLLGRYDEALDRLDQALELADTEQRRITVWINLADVYRYQGEPSHAETL</Hsp_hseq>
+      <Hsp_midline>L  +VA A+P +F    RLG+AL  LGR+DEA+D    AL L   E +     ++ A  Y Y+   SH E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|948153179|ref|WP_056811412.1|</Hit_id>
+  <Hit_def>aminoglycoside phosphotransferase [Nocardia sp. Root136] &gt;gi|945784082|gb|KQY38096.1| aminoglycoside phosphotransferase [Nocardia sp. Root136]</Hit_def>
+  <Hit_accession>WP_056811412</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0112726</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGK-----VHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>LAARVALADPHDFPGLRRLGIALMLLGRYDEALDRLDQALELADTEQRRITVWINLADVYRYQGEPSHAEIL</Hsp_hseq>
+      <Hsp_midline>L  +VA A+P +F    RLG+AL  LGR+DEA+D    AL L   E +     ++ A  Y Y+   SH E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1016334491|ref|WP_063004506.1|</Hit_id>
+  <Hit_def>aminoglycoside phosphotransferase APH(3&apos;) [Nocardia cummidelens]</Hit_def>
+  <Hit_accession>WP_063004506</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0115875</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGK-----VHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>LAARVALADPHDFPGLRRLGIALMLLGRYDEALDRLDQALELADTEQRRITVWINLADVYRYQGEPSHAEIL</Hsp_hseq>
+      <Hsp_midline>L  +VA A+P +F    RLG+AL  LGR+DEA+D    AL L   E +     ++ A  Y Y+   SH E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1016316848|ref|WP_062987995.1|</Hit_id>
+  <Hit_def>aminoglycoside phosphotransferase APH(3&apos;) [Nocardia salmonicida]</Hit_def>
+  <Hit_accession>WP_062987995</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0267074</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGK-----VHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>LAARVALADPHDFPGLRRLGIALMLLGRYDQALDRLDQALELADTEQRRITVWINLADVYRYQGEPSHAEIL</Hsp_hseq>
+      <Hsp_midline>L  +VA A+P +F    RLG+AL  LGR+D+A+D    AL L   E +     ++ A  Y Y+   SH E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|518773466|ref|WP_019930755.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Nocardia sp. BMG111209]</Hit_def>
+  <Hit_accession>WP_019930755</Hit_accession>
+  <Hit_len>1168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0421724</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>559</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>AGRYSEAVVMLEQVYDADAFDVEVALH---------LGIAYVKTGAVDRGTELLERSI--------ADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEA--------NPVNFNVRFRLGVALDNLGRFDEAIDSF-KIALGLRPNEGKVHR</Hsp_qseq>
+      <Hsp_hseq>AGRPEHAITLREQTY-ADRANTLGALHPDTIGSRDTLVVAYIDAGQADSCVTLLEQARDTAEREAGANHPDTLAVQRQLGRTLCHARRFDDAIELFERIVPRCEEILGLDHPETAAARDDLIIACRSAGRHERAVTVLERIAAEHRRLLGTGHR</Hsp_hseq>
+      <Hsp_midline>AGR   A+ + EQ Y AD  +   ALH         L +AY+  G  D    LLE++         A+ PD + V   LG T    +++D A+ L  ++           +P     R  L +A  + GR + A+    +IA   R   G  HR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.623273</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>577</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>RYSEAVVMLEQVY---------DADAFDVEVALHLGIAYVKTGAVDRGTELLERSIAD-----APDNIKVA---TVLGLTYVQVQKYDLAVPLLVK-VAEA-------NPVNFNVRFRLGVALDNL-GRFDEAIDSFKIALGLR</Hsp_qseq>
+      <Hsp_hseq>RNDEAAALLEDVLAGCAELADPDHDAL-VGYRQLLGQCYFVLGRYQDAIPLLERTLADRERVQAPDQLDTAWISTLLGIGLAELERRDEAVPLFERALAEHEARRGADDRVTLEARERLAYTLFHCEGRDDELIPLLERALADR</Hsp_hseq>
+      <Hsp_midline>R  EA  +LE V          D DA  V     LG  Y   G       LLER++AD     APD +  A   T+LG+   ++++ D AVPL  + +AE        + V    R RL   L +  GR DE I   + AL  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1055799126|ref|WP_067393214.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Mycobacterium novocastrense]</Hit_def>
+  <Hit_accession>WP_067393214</Hit_accession>
+  <Hit_len>921</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.04697</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>YSEAVVMLEQVYDADAFDVEVALH--LGIAYVKTGAVDRGTEL--LERSIADAPD---------------NIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAID</Hsp_qseq>
+      <Hsp_hseq>FTDAVVLLEQALDHDEGDREVRVRTLLLLAYSRLNAGDFGAALQSAERAAAYAEDVGIADLTSQVLAVRTNIACMCGRGVDWADISR---ALALQDLTSEA-PIAFGARANHAVLLGFVGRLDEAID</Hsp_hseq>
+      <Hsp_midline>+++AVV+LEQ  D D  D EV +   L +AY +  A D G  L   ER+ A A D               NI      G+ +  + +   A+ L    +EA P+ F  R    V L  +GR DEAID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|990876923|dbj|GAT11031.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Mycobacterium novocastrense]</Hit_def>
+  <Hit_accession>GAT11031</Hit_accession>
+  <Hit_len>924</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.046991</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>YSEAVVMLEQVYDADAFDVEVALH--LGIAYVKTGAVDRGTEL--LERSIADAPD---------------NIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAID</Hsp_qseq>
+      <Hsp_hseq>FTDAVVLLEQALDHDEGDREVRVRTLLLLAYSRLNAGDFGAALQSAERAAAYAEDVGIADLTSQVLAVRTNIACMCGRGVDWADISR---ALALQDLTSEA-PIAFGARANHAVLLGFVGRLDEAID</Hsp_hseq>
+      <Hsp_midline>+++AVV+LEQ  D D  D EV +   L +AY +  A D G  L   ER+ A A D               NI      G+ +  + +   A+ L    +EA P+ F  R    V L  +GR DEAID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1016285930|ref|WP_062970194.1|</Hit_id>
+  <Hit_def>hypothetical protein [Nocardia gamkensis]</Hit_def>
+  <Hit_accession>WP_062970194</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0484199</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>DRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFR-LGVALDNLGRFDEAIDSFKIALGLRPNEGKVH</Hsp_qseq>
+      <Hsp_hseq>DKRIQLLHQAVAVNPANVQAHFLLGESAISASEYNDAIQYLTEATRLEP-SFAPAWRELGVAQSRNGALDIAVDSVRQAVTLHREDAEAH</Hsp_hseq>
+      <Hsp_midline>D+  +LL +++A  P N++   +LG + +   +Y+ A+  L +     P +F   +R LGVA    G  D A+DS + A+ L   + + H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488418076|ref|WP_002487461.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Staphylococcus] &gt;gi|374816725|gb|EHR80924.1| tetratricopeptide repeat protein [Staphylococcus epidermidis VCU118] &gt;gi|374839235|gb|EHS02753.1| tetratricopeptide repeat protein [Staphylococcus epidermidis VCU129] &gt;gi|394259121|gb|EJE03991.1| tetratricopeptide repeat protein [Staphylococcus epidermidis NIHLM037] &gt;gi|394273544|gb|EJE17975.1| tetratricopeptide repeat protein [Staphylococcus epidermidis NIHLM015] &gt;gi|1080639195|gb|OFO13798.1| hypothetical protein HMPREF3058_10505 [Staphylococcus sp. HMSC068G11] &gt;gi|1091157100|gb|OHQ86995.1| hypothetical protein HMPREF2739_03560 [Staphylococcus sp. HMSC074F11] &gt;gi|1158411763|emb|SLD16437.1| TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. massiliense]</Hit_def>
+  <Hit_accession>SLD16437</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0507669</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDE</Hsp_qseq>
+      <Hsp_hseq>IKDGKLDTALKDLFENIEENPAIVENYINAGIVLSDVGEIEKAERFFQKALTIEPENGAVYYNLANIYYNEERYNEAIKLYQTSLQYEVAKKDCNYMIGMSFNQLSAFKEALPFLMTAAELDD</Hsp_hseq>
+      <Hsp_midline>+K G +D   + L  +I + P  ++     G+    V + + A     K     P N  V + L     N  R++EAI  ++ +L     +   +  I  S+ Q+ + +EALP    A ELD+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>3.99004</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAV----------------------------------PLLVKVAEA-NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN--EGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>VENYINAGIVLSDVGEIEKAERFFQKALTIEPENGAVYYNLANIYYNEERYNEAIKLYQTSLQYEVAKKDCNYMIGMSFNQLSAFKEALPFLMTAAELDDDRDLEVQFQYGLVLCQLEMFDEAIKQLNKVLSIDSQHVDGIYNLGLA-TYMKNEDLDEAIAYFEQAISIDEK</Hsp_hseq>
+      <Hsp_midline>VE  ++ GI     G +++     ++++   P+N  V   L   Y   ++Y+ A+                                  P L+  AE  +  +  V+F+ G+ L  L  FDEAI      L +     +G  +  +A +Y +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1033091049|ref|WP_064400462.1|</Hit_id>
+  <Hit_def>LuxR family transcriptional regulator [Mycobacterium sp. IS-1590] &gt;gi|972103339|gb|KUI44989.1| LuxR family transcriptional regulator [Mycobacterium sp. IS-1590]</Hit_def>
+  <Hit_accession>WP_064400462</Hit_accession>
+  <Hit_len>921</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0584408</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>586</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>YSEAVVMLEQVYDADAFDVEVALH--LGIAYVKTGAVDRGTEL--LERSIADAPD---------------NIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSF</Hsp_qseq>
+      <Hsp_hseq>FTDAVVLLEQALDHDEGDREVRVRTLLLLAYSRLNAGDFGAALQSAERAAAYAEDVGIADLTSQVLAVRTNIACMCGRGVDWAGISR---ALALQDLTSEA-PIAFGARANHAVLLGFVGRLDEAIDEM</Hsp_hseq>
+      <Hsp_midline>+++AVV+LEQ  D D  D EV +   L +AY +  A D G  L   ER+ A A D               NI      G+ +  + +   A+ L    +EA P+ F  R    V L  +GR DEAID  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|939045530|ref|WP_054816127.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Nocardia arizonensis]</Hit_def>
+  <Hit_accession>WP_054816127</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0588334</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>520</Hsp_hit-from>
+      <Hsp_hit-to>712</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>SHAKAGRYSEAVVMLEQVYDADAFDVEVALH---------LGIAYVKTGAVDRGTELLERSIADA--------PDNIKVATVLGLTYVQVQKYDLAVPLLVK--------VAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLR--------PNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>TYESAGRLGEAIPLFEQNL-ADRERVLGSGHPDTLTSRNNLAYTYRAAGRLDEAIALHEQNLIDSGRMLGPDHPDTLSSGDNLAHTYTSAGRLDEAIALHTRNLTNRERVLGSGHPDTLTSRNNLAHTYISAGRVDDAIPLHEQTLADRERVLGPDHPDTLTSRNNLAYIYESIGRVDEAVPLYEQALTDCERA</Hsp_hseq>
+      <Hsp_midline>++  AGR  EA+ + EQ   AD   V  + H         L   Y   G +D    L E+++ D+        PD +     L  TY    + D A+ L  +        +   +P     R  L     + GR D+AI   +  L  R        P+       +AY YE +G  +EA+P +++A    ER+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|916586420|ref|WP_051193511.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Nocardia jiangxiensis]</Hit_def>
+  <Hit_accession>WP_051193511</Hit_accession>
+  <Hit_len>1108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0620105</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>658</Hsp_hit-from>
+      <Hsp_hit-to>860</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>AFRSAFSVNDDIRQVYYRDKGI-SHAKAGRYSEAVVMLEQVY--------DADAFDVEVALHLGIAYVKTGAVDR-GTEL--LERSIADAPDNI--------KVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNF--------NVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVH-------RAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>AERENRSGPDDLEAAKLRWELVHAHVKAERHAAAIPLLEQLLATYQRCLPDREEQIANVCLALARSYR---AVDRYGDSIAPLERALAERADRLGGSHIETDEIRMLLGASLSGVDRYEAAIPVLVRVLTDREARLGSDHDDVDTVRLFLGAAYRKADRHEESIPLLQRFFSLRERRYGTDHANTLTAGQMLAHAYAESGRNTDAL</Hsp_hseq>
+      <Hsp_midline>A R   S  DD+     R + + +H KA R++ A+ +LEQ+         D +     V L L  +Y    AVDR G  +  LER++A+  D +        ++  +LG +   V +Y+ A+P+LV+V                 VR  LG A     R +E+I   +    LR    G  H       + +A++Y + G + +AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1158417263|emb|SLC35110.1|</Hit_id>
+  <Hit_def>Predicted methyltransferase (contains TPR repeat) [Mycobacterium abscessus subsp. massiliense]</Hit_def>
+  <Hit_accession>SLC35110</Hit_accession>
+  <Hit_len>484</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0845962</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>IRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALH-LGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAV-PLLVKVAEANPVNFNVRFRLGVALDNLGRFD</Hsp_qseq>
+      <Hsp_hseq>IRQ----DRAKTLLESGQLHEAVVMLEEI-TADYPELWSAYNNLALAYFYSGNVTKAKQTVFEVLEKNEGNLHALCNL-LVFCYYEREDEKVGELSERLANVYPILFEQRYKLGATLALVGRHD</Hsp_hseq>
+      <Hsp_midline>IRQ    D+  +  ++G+  EAVVMLE++  AD  ++  A + L +AY  +G V +  + +   +     N+     L L +   ++ D  V  L  ++A   P+ F  R++LG  L  +GR D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1173404010|ref|WP_081254899.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium kansasii] &gt;gi|1023087150|gb|KZS58821.1| hypothetical protein A4G26_01585 [Mycobacterium kansasii] &gt;gi|1023102936|gb|KZS73947.1| hypothetical protein A4G29_19995 [Mycobacterium kansasii]</Hit_def>
+  <Hit_accession>WP_081254899</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0863721</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>DADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRL-GVALDNLGR-FDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>DTDTDHVAEAVHLASAYVDTGNYERARDVLRRALAENPTDPVLLAHLARAEYMLANYDIASHSAYGALSAAP-QYEFAMRLYALSLEGLGRSYDALWMAWRTVLT-HPNEPAAQRLYAKLLQNSRQLTSALLVVDEALRLDPTS</Hsp_hseq>
+      <Hsp_midline>D D   V  A+HL  AYV TG  +R  ++L R++A+ P +  +   L      +  YD+A         A P  +    RL  ++L+ LGR +D    +++  L   PNE    R  A   +       AL    +A  LD  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1056457995|ref|WP_067899264.1|</Hit_id>
+  <Hit_def>hypothetical protein [Nocardia vaccinii]</Hit_def>
+  <Hit_accession>WP_067899264</Hit_accession>
+  <Hit_len>848</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.102438</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>659</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYDAD------AFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKV-------ATVLGLTYVQVQKYDLAVPLLVKVAEANPVNF-----NVRFRLGVAL-------DNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>GRYDESERALTEALAAHSSFGTRAHQASAAQHLGLLYADTGRLDRAIDAFHHSIALFTEVGRTVDLAQARANLAGVHMKQANFADAAAAFRLAAADLERIGFPHRAAACRQNLGVAIVMQGHAAEGLALLESSLRQFESDPAHRANTAACHRNIGIAHRARGHHELALTHLARAREI</Hsp_hseq>
+      <Hsp_midline>GRY E+   L +   A       A     A HLG+ Y  TG +DR  +    SIA   +  +        A + G+   Q    D A    +  A+   + F       R  LGVA+       + L   + ++  F+     R N    HR I  ++   G HE AL H  +A E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1175489212|ref|WP_082031944.1|</Hit_id>
+  <Hit_def>hypothetical protein [Nocardia vulneris]</Hit_def>
+  <Hit_accession>WP_082031944</Hit_accession>
+  <Hit_len>1120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.128421</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>807</Hsp_hit-from>
+      <Hsp_hit-to>1009</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>DAFRSAFSVND---DIRQVYYRDKGISHAKAGRYSEAVVMLEQVYD-----ADAFDVEVALH-LGIAYVKTGAVDRGTELLERSIADAPDN----IKVATVLGL--TYVQVQKYDLAVPLL-------VKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKV------HRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>DAVRLAHGMRDYSNAARAMHH--SGLVYFRMARYRDALMGYHQCLSLSRLIGDRFLEGYALQGLGQVHERMGYVDDAFDYLHQAVAIAADTGDPYLRSCAQMRLSDTAVRVGRYDDALTYLGDAGKSLAAISSKTLFHNYLSIRIGTVYAHLEKYEPALDSFRAALARAERNNDLILKCCTHLGIGDVHRRRGHRREALAHYERA</Hsp_hseq>
+      <Hsp_midline>DA R A  + D     R +++   G+ + +  RY +A++   Q         D F    AL  LG  + + G VD   + L +++A A D     ++    + L  T V+V +YD A+  L         ++     +  +  R+G    +L +++ A+DSF+ AL        +      H  I   + + G   EAL H+++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|917187093|ref|WP_051793805.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodococcus rhodnii]</Hit_def>
+  <Hit_accession>WP_051793805</Hit_accession>
+  <Hit_len>1068</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.134896</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>714</Hsp_hit-from>
+      <Hsp_hit-to>809</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>TYVQVQKYDL-AVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL------RPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>SYEQALEYEAQALPLARDLDEPRLEAEIVKWS-GLACVFLGRLDKAVEDLTQALDLYRRTENRHGQANTHIGLGFALVDKGQFEEAMPHYGKALELN</Hsp_hseq>
+      <Hsp_midline>+Y Q  +Y+  A+PL   + E       V++  G+A   LGR D+A++    AL L      R  +   H  + ++    G  EEA+PH+ KA EL+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>2.66013</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>714</Hsp_hit-from>
+      <Hsp_hit-to>886</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSI----ADAPDNIKVATVLGLTYVQVQK--YDLAVPLLVKVAEANPVNFNVRFR-------LGVALDNLGRFDEAIDSFKIAL------GLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>SYEQALEYEAQALPLARDLDEPRLEAEIVKWSGLACVFLGRLDKAVEDLTQALDLYRRTENRHGQANTHIGLGFALVDKGQFEEAMPHYGKALELN-REINSRYGEALVLHVTGVVYGHMGRFDEALRMHAQAMTLYRQVGTRYHETSASFSLAVLHCDMGSYDKALAEAERAR</Hsp_hseq>
+      <Hsp_midline>S+ +A  Y    + L +  D    + E+    G+A V  G +D+  E L +++         + +  T +GL +  V K  ++ A+P   K  E N    N R+         GV   ++GRFDEA+     A+      G R +E     ++A  +  MGS+++AL   ++A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|920607518|ref|WP_053018234.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus haemolyticus] &gt;gi|1119091021|emb|SIJ59634.1| TPR repeat-containing protein yrrB [Mycobacterium abscessus subsp. abscessus]</Hit_def>
+  <Hit_accession>SIJ59634</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.153658</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>WIQKGQLEDALKALFQNIEEEPNTIENYINAGIVLADINEIEKAERFFQRAITIDDKNGAVYYNLANLYYDQGKYRDAIKLYQLASKYNMDKIDTNYMIGMSFNQLDAPKESLPYFMTAAELD</Hsp_hseq>
+      <Hsp_midline>+++ G ++   + L ++I + P+ I+     G+    + + + A     +    +  N  V + L     + G++ +AI  +++A     ++   +  I  S+ Q+ + +E+LP+F  A ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.17883</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>DNIKVATVLGLTYVQVQKYDLAVPLLVKVAEA-NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>DKIDTNYMIGMSFNQLDAPKESLPYFMTAAELDNNQDAEVQFQYGLALCHLEMFNQAINQLKIVLAI</Hsp_hseq>
+      <Hsp_midline>D I    ++G+++ Q+     ++P  +  AE  N  +  V+F+ G+AL +L  F++AI+  KI L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|576496373|gb|EUA89730.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat family protein [Mycobacterium ulcerans str. Harvey]</Hit_def>
+  <Hit_accession>EUA89730</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.15494</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>EAVVMLEQVYDAD--AFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>QSICAVERFGDARPAADQRDEAIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>+++  +E+  DA   A   + A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1055917260|ref|WP_067460635.1|</Hit_id>
+  <Hit_def>aminoglycoside phosphotransferase APH(3&apos;) [Nocardia alba]</Hit_def>
+  <Hit_accession>WP_067460635</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.16883</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGK-----VHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>LSARVALADPHDFPGLRRLGIALMLLGRYDEALDRLDQALELADSERRRVTVWINLGDVYRYQGEPGHAEIL</Hsp_hseq>
+      <Hsp_midline>L  +VA A+P +F    RLG+AL  LGR+DEA+D    AL L  +E +     ++    Y Y+    H E L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1180353596|ref|WP_083872396.1|</Hit_id>
+  <Hit_def>hypothetical protein [Nocardia testacea]</Hit_def>
+  <Hit_accession>WP_083872396</Hit_accession>
+  <Hit_len>611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.179227</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>440</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>AVVMLEQVYDADAFDVEVALH-LGIAYVKTGAVDRGTELLERSIADA--------PDNIKVATVLGLTYVQVQKYDLAVPLLVK--------VAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALG-----LRPNEGKVHRA---IAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>AIAHHERVLGPDHPDTLTARHNLAYAYSSAGRTAEAIPLFERTLTDSERILGSDHPDTLTSRNNLADAYRSAGRAAEAISLFERTLTDSERLLGPDHPSTLNSRSNLAYAYDAAGRTTEAVPLYEQTLTDCERILGPDHPSTLRSRNNLAYAYNSAGRTTEAVPLYEQ</Hsp_hseq>
+      <Hsp_midline>A+   E+V   D  D   A H L  AY   G       L ER++ D+        PD +     L   Y    +   A+ L  +        +   +P   N R  L  A D  GR  EA+  ++  L      L P+     R+   +AY+Y   G   EA+P +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|738508831|ref|WP_036457437.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Mycobacterium marinum]</Hit_def>
+  <Hit_accession>WP_036457437</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.210959</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLSNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|521811478|gb|EPQ70698.1|</Hit_id>
+  <Hit_def>hypothetical protein MMEU_5137 [Mycobacterium marinum str. Europe]</Hit_def>
+  <Hit_accession>EPQ70698</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.217113</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLSNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|740793815|ref|WP_038579099.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Mycobacterium marinum] &gt;gi|641304599|emb|CDM75597.1| conserved hypothetical protein [Mycobacterium marinum E11]</Hit_def>
+  <Hit_accession>WP_038579099</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.229052</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLSNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|504629101|ref|WP_014816203.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Mycobacterium chubuense] &gt;gi|390616576|gb|AFM17726.1| tetratricopeptide repeat protein [Mycobacterium chubuense NBB4]</Hit_def>
+  <Hit_accession>WP_014816203</Hit_accession>
+  <Hit_len>937</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.24379</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>795</Hsp_hit-from>
+      <Hsp_hit-to>898</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>RDKGISHAKAGRYSEAVVMLEQVY--------DADAFDVEVALHLGIAYVKTGAVDRGTELLE-----RSIADAPDNIKVATV---LGLTYVQVQKYDLAVPLL</Hsp_qseq>
+      <Hsp_hseq>RNLALSYLDVGRTDEALRMLEDVYADWVRVMGDLDPDTLTTNHYLGMAYARSGKLSQAAATLQAVLTGREATLGADSLKTANTQRRLGEVFEQMGKIDAAVALL</Hsp_hseq>
+      <Hsp_midline>R+  +S+   GR  EA+ MLE VY        D D   +    +LG+AY ++G + +    L+     R      D++K A     LG  + Q+ K D AV LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966756184|dbj|GAQ35791.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Mycobacterium pseudoshottsii L15]</Hit_def>
+  <Hit_accession>GAQ35791</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.263057</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|501361809|ref|WP_012393375.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mycobacterium marinum] &gt;gi|183174877|gb|ACC39987.1| conserved hypothetical protein [Mycobacterium marinum M]</Hit_def>
+  <Hit_accession>WP_012393375</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.270015</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|521714030|gb|EPQ46174.1|</Hit_id>
+  <Hit_def>hypothetical protein MMSP_1935 [Mycobacterium sp. 012931]</Hit_def>
+  <Hit_accession>EPQ46174</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.270369</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1049581691|dbj|BAV40730.1|</Hit_id>
+  <Hit_def>hypothetical protein SHTP_1475 [Mycobacterium ulcerans subsp. shinshuense]</Hit_def>
+  <Hit_accession>BAV40730</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.280067</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|738476082|ref|WP_036426365.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Mycobacterium sp. 012931]</Hit_def>
+  <Hit_accession>WP_036426365</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.280067</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|521813943|gb|EPQ73156.1|</Hit_id>
+  <Hit_def>hypothetical protein MMMB2_3928 [Mycobacterium marinum MB2]</Hit_def>
+  <Hit_accession>EPQ73156</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.290873</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|505167883|ref|WP_015354985.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Mycobacterium liflandii] &gt;gi|442582454|gb|AGC61597.1| Tetratricopeptide repeat protein [Mycobacterium liflandii 128FXT]</Hit_def>
+  <Hit_accession>WP_015354985</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.29585</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|893631623|emb|CNG75384.1|</Hit_id>
+  <Hit_def>Flp pilus assembly protein TadD%2C contains TPR repeats [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>CNG75384</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.311317</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAI</Hsp_qseq>
+      <Hsp_hseq>PGSHSIREALARAQFGARQFGAAAASFRGIVEEEPAEDYARFGLGLSLSRLGDFEGAVEQLALAAAMRPDNRDYARAL</Hsp_hseq>
+      <Hsp_midline>P +  +   L       +++  A      + E  P     RF LG++L  LG F+ A++   +A  +RP+     RA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1033106504|ref|WP_064415468.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LuxR family transcriptional regulator [Mycobacterium] &gt;gi|972024899|gb|KUH67916.1| LuxR family transcriptional regulator [Mycobacterium sp. GA-2613] &gt;gi|972025385|gb|KUH68389.1| LuxR family transcriptional regulator [Mycobacterium sp. GA-2945b] &gt;gi|972030552|gb|KUH73468.1| LuxR family transcriptional regulator [Mycobacterium sp. GA-2617]</Hit_def>
+  <Hit_accession>WP_064415468</Hit_accession>
+  <Hit_len>921</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.368989</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>456</Hsp_hit-from>
+      <Hsp_hit-to>586</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALH--LGIAYVKTGAVDRGTEL--LERSIADAPD---------------NIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSF</Hsp_qseq>
+      <Hsp_hseq>HIQHNNFTDAVVLLEQALDHDEGDREVRVRTLLLLAYARLNAGEFGAALQSAERAAAYAEDVGIADLTSQVLAVRTNIACMCGRGVDWAGISR---ALALQDLTSEA-PIAFRARANHALLLAFTGRLDEAIDQM</Hsp_hseq>
+      <Hsp_midline>H +   +++AVV+LEQ  D D  D EV +   L +AY +  A + G  L   ER+ A A D               NI      G+ +  + +   A+ L    +EA P+ F  R    + L   GR DEAID  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1016321542|ref|WP_062992681.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Nocardia anaemiae]</Hit_def>
+  <Hit_accession>WP_062992681</Hit_accession>
+  <Hit_len>686</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.386029</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>425</Hsp_hit-from>
+      <Hsp_hit-to>662</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>NMVDAFRSAFSVNDDI----RQVYYRDK--GISHA--------------KAGRYSEAVVMLEQVYDADAFDVEVALHLGI---------AYVKTGAVDRGTELLERSIADA--------PDNIKVATVLGLTYVQVQKYDLAVPLLVKV--------AEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGK-----------VHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NLADAYRSAGRPGEAIALLERLLPDRERVLGAEHPDTLSTRYNLAGAYRTAGRPSEAIALLERLL-PDRERVLGAEHPGSLTTRHNLAGAYRAVGRADDAITLYEQVLPDRKRVLGAEHPDTLSTCHNLARAYLSLGRTSEAITLYEQVLPDRKRVLGAEHPSTLSTRYNLAYAYESVGRTGEAVTLYEQVL---PEWERMMGTEHVGTLSIRYHLAYAYESVGRTGEAITLFEQLLPVVER</Hsp_hseq>
+      <Hsp_midline>N+ DA+RSA    + I    R +  R++  G  H                AGR SEA+ +LE++   D   V  A H G          AY   G  D    L E+ + D         PD +     L   Y+ + +   A+ L  +V           +P   + R+ L  A +++GR  EA+  ++  L   P   +           +   +AY+YE +G   EA+  F++   + ER</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|118570004|gb|ABL04755.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein [Mycobacterium ulcerans Agy99]</Hit_def>
+  <Hit_accession>ABL04755</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.439193</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>AIHIASIHCDTGNYERAREVLRSSLAQNPNDPNLLAHLSRAEYLLGNYDNAAWSAYSALAAAPESEFAMRL-YAVSLDQLGRSWDALCMAWRAVLAHPNEPLAHRTYASLLQKAWQLPNALYAIDQALRLD</Hsp_hseq>
+      <Hsp_midline>A+H+   +  TG  +R  E+L  S+A  P++  +   L      +  YD A         A P + F +R    V+LD LGR  +A+     A+   PNE   HR  A   ++      AL    +A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|759970332|ref|WP_043654191.1|</Hit_id>
+  <Hit_def>aminoglycoside phosphotransferase APH(3&apos;) [Nocardia thailandica]</Hit_def>
+  <Hit_accession>WP_043654191</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.473602</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAI</Hsp_qseq>
+      <Hsp_hseq>LTARVAAADPHDFAGLRRLGIALMLLGRHDEALDRLDAALDLVDTE---HRRI</Hsp_hseq>
+      <Hsp_midline>L  +VA A+P +F    RLG+AL  LGR DEA+D    AL L   E   HR I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|739397911|ref|WP_037258476.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodococcus rhodnii]</Hit_def>
+  <Hit_accession>WP_037258476</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.474569</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>RGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>KAANLLAEVVAEVPEQVAPRLLLARAYYHSAQLRRAEEQLREVVERDPVEHYAHLMLGRTLQRQGRHDEATPWLRLAAAL</Hsp_hseq>
+      <Hsp_midline>+   LL   +A+ P+ +    +L   Y    +   A   L +V E +PV       LG  L   GR DEA    ++A  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|918256973|ref|WP_052383294.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Nocardia brasiliensis] &gt;gi|635328381|dbj|GAJ85233.1| hypothetical protein NBRGN_089_00010, partial [Nocardia brasiliensis NBRC 14402]</Hit_def>
+  <Hit_accession>WP_052383294</Hit_accession>
+  <Hit_len>741</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.504178</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>411</Hsp_hit-from>
+      <Hsp_hit-to>630</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>YTHYGLSVAKKLGANMVDAFRSAFSVND---DIRQVYYRDKGISHAKAGRYSEAVVMLEQVYD-----ADAFDVEVALH-LGIAYVKTGAVDRGTELLERSIADAPDN----IKVATVLGL--TYVQVQKYDLAVP-------LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL--RPNE----GKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YTLWRMRHCQQALVVLDDAVRLAHGMRDYSNAARAMHH--SGLVYFRMARYRDALMGYHQCLSLSRLIGDRFLEGYALQGLGQVHERMGYVDDAFDYLHQAVAIAADTGDPYLRSCAQMRLSDTAVRVGRYEDALTHLGDAGKSLAAISSKTLFHNYLSIRIGTVYAHLERYEPALDSFRAALARAERNNDLILKCCTHLGIGDVHRRRGHRREALAHYERA</Hsp_hseq>
+      <Hsp_midline>YT + +   ++    + DA R A  + D     R +++   G+ + +  RY +A++   Q         D F    AL  LG  + + G VD   + L +++A A D     ++    + L  T V+V +Y+ A+         L  ++     +  +  R+G    +L R++ A+DSF+ AL    R N+       H  I   + + G   EAL H+++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|893632457|emb|CNG39142.1|</Hit_id>
+  <Hit_def>Uncharacterized enzyme of heme biosynthesis [Mycobacterium tuberculosis]</Hit_def>
+  <Hit_accession>CNG39142</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.579531</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>YVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>FFDAKDYAGAARLLAPIAEGDPGNRAVAELLGRAYFHSAQLGRAEAAFRRLVELDPCNGWAHEALARTLERRGRADEAV</Hsp_hseq>
+      <Hsp_midline>+   + Y  A  LL  +AE +P N  V   LG A  +  +   A  +F+  + L P  G  H A+A + E+ G  +EA+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>4.60483</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEG</Hsp_qseq>
+      <Hsp_hseq>PGNRAVAELLGRAYFHSAQLGRAEAAFRRLVELDPCNGWAHEALARTLERRGRADEAVAFRRLAGAMGVEPAPG</Hsp_hseq>
+      <Hsp_midline>P N  VA +LG  Y    +   A     ++ E +P N      L   L+  GR DEA+   ++  A+G+ P  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>5435397</Statistics_db-num>
+      <Statistics_db-len>1866809486</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

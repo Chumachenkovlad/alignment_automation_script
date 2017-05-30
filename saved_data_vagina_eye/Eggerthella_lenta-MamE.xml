@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|497295113|ref|WP_009609330.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase S1 [Eggerthella] &gt;gi|257476112|gb|ACV56432.1| peptidase S1 and S6 chymotrypsin/Hap [Eggerthella lenta DSM 2243] &gt;gi|325485322|gb|EGC87791.1| putative peptidase Do [Eggerthella sp. HGA1] &gt;gi|693587026|gb|KGI72162.1| hypothetical protein HMPREF9458_02095 [Eggerthella lenta 1_1_60AFAA]</Hit_def>
+  <Hit_accession>WP_009609330</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>5.45319e-34</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV-GWLPTSTAEGPAMGLVAMQRPMGVGV</Hsp_qseq>
+      <Hsp_hseq>TLTKSSLGSGVVLTADGYIITNNHVVEGGSAYKVTIAGET----YDAEVVGSDPSSDVAVIKAKDASGLTPIEIGDSDKLVIGEWVMTIGSPFGLEQSVATGIVSATSRSQIVNASTDQYGNSTGESTIYPNMIQTDAAINPGNSGGALVDADGKLIGINTLITSYSGNYSGVGFAIPVNYAVNLAQQIIDGKTPTHAQLGVSLSTVNAQNAKRYGL</Hsp_hseq>
+      <Hsp_midline>T +  ++G+GV++  DG+I+TN HVV G ++  VT+  +     Y  E+V  D + D+A++K      LT   +GDSD + + + V+ IG+PFGL+ +V+ GI+SA  ++ ++            E   + N++QTDAAIN GNSGG LV A+G ++GINT I + +G ++G+GFA+P N A   A   + G  PT    G ++  V  Q     G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000150067</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGP</Hsp_qseq>
+      <Hsp_hseq>LGVSLSTVNAQNAKRYGLSVDEGAYVAAVSEGSGAAEAGLQEGDIVTKFDGKDVASASDLMLDVRSKNPGDKVTLDVNRNGETKQVEVTLGS</Hsp_hseq>
+      <Hsp_midline>LG +L+ +  +   +  L    G +V  V+  + AA AGL+ GD++ K DG+ V    ++   +     G  V + V R G+   + +  G </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.000744011</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>381</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>EGAYVAAVSEGSGAAEAGLQEGDIVTKFDGKDVASASDLMLDVRSKN-PGDKVTLDVNRNGE</Hsp_hseq>
+      <Hsp_midline>+GA VA V  GS AA AGLQ  D++ + + + V S + L   +++    G ++ L V+RNG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|506240759|ref|WP_015760534.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eggerthella lenta] &gt;gi|257474985|gb|ACV55305.1| protein of unknown function DUF512 [Eggerthella lenta DSM 2243] &gt;gi|693587340|gb|KGI72438.1| hypothetical protein HMPREF9458_01716 [Eggerthella lenta 1_1_60AFAA]</Hit_def>
+  <Hit_accession>WP_015760534</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.0895339</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>601</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQ</Hsp_qseq>
+      <Hsp_hseq>QRGGCGALREAPRALVI-AVAPDSPADDAGFEPGCYVTTVDGRPVRD</Hsp_hseq>
+      <Hsp_midline>QR G  A   A R + +  V P++PA  AG  PG  +  VDGRPV  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|496663465|ref|WP_009305958.1|</Hit_id>
+  <Hit_def>MULTISPECIES: short-chain dehydrogenase [Eggerthella] &gt;gi|257474031|gb|ACV54351.1| short-chain dehydrogenase/reductase SDR [Eggerthella lenta DSM 2243] &gt;gi|316911317|gb|EFV32921.1| short chain dehydrogenase [Eggerthella sp. 1_3_56FAA] &gt;gi|325487548|gb|EGC89986.1| putative L-iditol 2-dehydrogenase [Eggerthella sp. HGA1]</Hit_def>
+  <Hit_accession>WP_009305958</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.317038</Hsp_evalue>
+      <Hsp_query-from>548</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>AALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR------SVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>AAVKMLTQVMALEL---AKYGIHVNAIAPGTSKT-----------RIAAGTINDPERSAAFLAKMPFGRYGEVRETVDVALFLASE--DASFITGET</Hsp_hseq>
+      <Hsp_midline>AA+  LTQ + L+    A  G+ VN + P T              ++    ++ PE  AA +A+MP GR      +V + +  A +  + S +TG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|545028730|ref|WP_021410046.1|</Hit_id>
+  <Hit_def>short-chain dehydrogenase/reductase [Eggerthella lenta] &gt;gi|531527404|gb|EQI11711.1| short chain dehydrogenase family protein [Clostridioides difficile F501] &gt;gi|693591117|gb|KGI75949.1| hypothetical protein HMPREF9458_00273 [Eggerthella lenta 1_1_60AFAA]</Hit_def>
+  <Hit_accession>WP_021410046</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.331327</Hsp_evalue>
+      <Hsp_query-from>548</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>AALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR------SVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>AAVKMLTQVMALEL---AKYGIHVNAIAPGTSKT-----------RIAAGTINDPERSAAFLAKMPFGRYGEVRETVDVALFLASE--DASFITGET</Hsp_hseq>
+      <Hsp_midline>AA+  LTQ + L+    A  G+ VN + P T              ++    ++ PE  AA +A+MP GR      +V + +  A +  + S +TG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|257475632|gb|ACV55952.1|</Hit_id>
+  <Hit_def>malonyl CoA-acyl carrier protein transacylase [Eggerthella lenta DSM 2243] &gt;gi|531530824|gb|EQI14900.1| acyl transferase domain protein [Clostridioides difficile F501]</Hit_def>
+  <Hit_accession>ACV55952</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.759021</Hsp_evalue>
+      <Hsp_query-from>735</Hsp_query-from>
+      <Hsp_query-to>761</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>RPVTSPARLDAAIKAATAAGQQILLKV</Hsp_qseq>
+      <Hsp_hseq>RHLTSPVRFDASVAALTAAGADMFVEV</Hsp_hseq>
+      <Hsp_midline>R +TSP R DA++ A TAAG  + ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|737614485|ref|WP_035585111.1|</Hit_id>
+  <Hit_def>malonyl CoA-acyl carrier protein transacylase [Eggerthella lenta] &gt;gi|693588721|gb|KGI73748.1| hypothetical protein HMPREF9458_01065 [Eggerthella lenta 1_1_60AFAA]</Hit_def>
+  <Hit_accession>WP_035585111</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.822995</Hsp_evalue>
+      <Hsp_query-from>735</Hsp_query-from>
+      <Hsp_query-to>761</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>RPVTSPARLDAAIKAATAAGQQILLKV</Hsp_qseq>
+      <Hsp_hseq>RHLTSPVRFDASVAALTAAGADMFVEV</Hsp_hseq>
+      <Hsp_midline>R +TSP R DA++ A TAAG  + ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|497294567|ref|WP_009608784.1|</Hit_id>
+  <Hit_def>MULTISPECIES: malonyl CoA-ACP transacylase [Eggerthella] &gt;gi|325486442|gb|EGC88892.1| [acyl-carrier-protein] S-malonyltransferase [Eggerthella sp. HGA1]</Hit_def>
+  <Hit_accession>WP_009608784</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.905175</Hsp_evalue>
+      <Hsp_query-from>735</Hsp_query-from>
+      <Hsp_query-to>761</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>RPVTSPARLDAAIKAATAAGQQILLKV</Hsp_qseq>
+      <Hsp_hseq>RHLTSPVRFDASVAALTAAGADMFVEV</Hsp_hseq>
+      <Hsp_midline>R +TSP R DA++ A TAAG  + ++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|506240619|ref|WP_015760394.1|</Hit_id>
+  <Hit_def>GGDEF domain-containing protein [Eggerthella lenta] &gt;gi|257474737|gb|ACV55057.1| diguanylate cyclase/phosphodiesterase [Eggerthella lenta DSM 2243] &gt;gi|531529927|gb|EQI14071.1| sensory box protein [Clostridioides difficile F501] &gt;gi|693586170|gb|KGI71364.1| hypothetical protein HMPREF9458_02624 [Eggerthella lenta 1_1_60AFAA]</Hit_def>
+  <Hit_accession>WP_015760394</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.33317</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>512</Hsp_hit-from>
+      <Hsp_hit-to>608</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLAL</Hsp_qseq>
+      <Hsp_hseq>VNGAEEGGSLLP-FVHDEDRDALVAAAEETVRSCPDDGVEVVVRRMGTNGCHWHKMRLFHLNTTNGSATVYGSVTDVTERMEYMEALRKSEQRFEMTL</Hsp_hseq>
+      <Hsp_midline>V  +  GG ++P  +   + D L   A  T RS  + G  V+VR  G    ++H +R        G+ +VY +V D    + Y   + K ++  ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|496663530|ref|WP_009306023.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MFS transporter [Eggerthella] &gt;gi|257474083|gb|ACV54403.1| major facilitator superfamily MFS_1 [Eggerthella lenta DSM 2243] &gt;gi|316911245|gb|EFV32850.1| major facilitator superfamily transporter [Eggerthella sp. 1_3_56FAA] &gt;gi|531531023|gb|EQI15081.1| major Facilitator Superfamily protein [Clostridioides difficile F501] &gt;gi|693591051|gb|KGI75883.1| hypothetical protein HMPREF9458_00207 [Eggerthella lenta 1_1_60AFAA]</Hit_def>
+  <Hit_accession>WP_009306023</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>1.98759</Hsp_evalue>
+      <Hsp_query-from>536</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>AGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRP-GDVILKVDGRPVH</Hsp_qseq>
+      <Hsp_hseq>AGTTGSYSVVAGCFMTPVCEDLGIDYNM------FSYYFTATLVGVAVGMMCVGKILPKVVGRWTH</Hsp_hseq>
+      <Hsp_midline>AG+ GS + + G  +TP+ + LG+  N+      F    T      + G+   G ++ KV GR  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|737614733|ref|WP_035585355.1|</Hit_id>
+  <Hit_def>phage tail tape measure protein [Eggerthella lenta] &gt;gi|693588153|gb|KGI73209.1| hypothetical protein HMPREF9458_01453 [Eggerthella lenta 1_1_60AFAA]</Hit_def>
+  <Hit_accession>WP_035585355</Hit_accession>
+  <Hit_len>1526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.93936</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>752</Hsp_hit-from>
+      <Hsp_hit-to>789</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLAL</Hsp_qseq>
+      <Hsp_hseq>TNYEVVKDAGGAYVVMKD--GAVEAKDAIIELIDAQEMQI</Hsp_hseq>
+      <Hsp_midline>TNY VV+ A   YV +KD  G++     I+++ +A ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|497294875|ref|WP_009609092.1|</Hit_id>
+  <Hit_def>MULTISPECIES: potassium-transporting ATPase subunit A [Eggerthella] &gt;gi|257476473|gb|ACV56793.1| potassium-transporting ATPase, A subunit [Eggerthella lenta DSM 2243] &gt;gi|325485914|gb|EGC88375.1| K+-transporting ATPase, A subunit [Eggerthella sp. HGA1]</Hit_def>
+  <Hit_accession>WP_009609092</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>7.28539</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VALVVLFGAFIYRQSSGGLRLGAMMEQMTGARGAVNVPAQHGAPSAVVD</Hsp_qseq>
+      <Hsp_hseq>VACVFSFGRFVMDRRQGRAVFAAMFILLVGALVAIAVFEQMGTPQLAAD</Hsp_hseq>
+      <Hsp_midline>VA V  FG F+  +  G     AM   + GA  A+ V  Q G P    D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|496662716|ref|WP_009305209.1|</Hit_id>
+  <Hit_def>MULTISPECIES: potassium-transporting ATPase subunit A [Eggerthella] &gt;gi|316911942|gb|EFV33521.1| potassium-transporting ATPase A subunit [Eggerthella sp. 1_3_56FAA] &gt;gi|531527668|gb|EQI11971.1| K+-transporting ATPase, A subunit [Clostridioides difficile F501] &gt;gi|693588994|gb|KGI74005.1| K+-transporting ATPase, A subunit [Eggerthella lenta 1_1_60AFAA]</Hit_def>
+  <Hit_accession>WP_009305209</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>7.41093</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>VALVVLFGAFIYRQSSGGLRLGAMMEQMTGARGAVNVPAQHGAPSAVVD</Hsp_qseq>
+      <Hsp_hseq>VACVFSFGRFVMDRRQGRAVFAAMFILLVGALVAIAVFEQMGTPQLAAD</Hsp_hseq>
+      <Hsp_midline>VA V  FG F+  +  G     AM   + GA  A+ V  Q G P    D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>5198</Statistics_db-num>
+      <Statistics_db-len>1777408</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

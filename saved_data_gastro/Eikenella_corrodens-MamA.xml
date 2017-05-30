@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1031550249|ref|WP_064105879.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|1030152643|gb|OAM21849.1| hypothetical protein A7P89_06665 [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_064105879</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.000978403</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>GNQLEDMGRIQEALDLYNQSLTLIPNYWRAYMNQAIAYDALDSTEQAIELYRKA</Hsp_hseq>
+      <Hsp_midline>G  L+++GR  EA+D +  +L L PN  + +   A +Y+ + S E+A+  ++KA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00170035</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD---EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>GRIQEALDLYNQSLTLIPNYWRAYMNQAIAYDALDSTEQAIELYRKAYNANPNVYATCYNLGRALDNTQGTDGQTEAQQLIQDAIKLKPDAADAWFILANIQEQRGQTKEAL</Hsp_hseq>
+      <Hsp_midline>G +    +L  +S+   P+  +      + Y  +   + A+ L  K   ANP  +   + LG ALDN    D   EA    + A+ L+P+       +A   EQ G  +EAL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>1.36792</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTE---LLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAID</Hsp_qseq>
+      <Hsp_hseq>YMNQAIAYDALDSTEQAIELYRKAYNANPNVYATCYNLGRALDNTQGTDGQTEAQQLIQDAIKLKPDAADAWFILANIQEQRGQTKEALNSISHVITLQPENYAAKITQARYLTKLDRTPEALD</Hsp_hseq>
+      <Hsp_midline>Y ++ I++       +A+ +  + Y+A+        +LG A   T   D  TE   L++ +I   PD      +L     Q  +   A+  +  V    P N+  +      L  L R  EA+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489920324|ref|WP_003823680.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type IV pilus biogenesis/stability protein PilW [Eikenella] &gt;gi|224942582|gb|EEG23791.1| type IV pilus biogenesis/stability protein PilW [Eikenella corrodens ATCC 23834] &gt;gi|564137145|gb|ETA83259.1| type IV pilus biogenesis/stability protein PilW [Eikenella corrodens CC92I] &gt;gi|1030148011|gb|OAM17279.1| type IV pilus biogenesis/stability protein PilW [Eikenella corrodens] &gt;gi|1030152149|gb|OAM21363.1| type IV pilus biogenesis/stability protein PilW [Eikenella corrodens] &gt;gi|1030153398|gb|OAM22594.1| type IV pilus biogenesis/stability protein PilW [Eikenella corrodens] &gt;gi|1030154703|gb|OAM23884.1| type IV pilus biogenesis/stability protein PilW [Eikenella corrodens] &gt;gi|1030156405|gb|OAM25568.1| type IV pilus biogenesis/stability protein PilW [Eikenella corrodens] &gt;gi|1030161671|gb|OAM30753.1| type IV pilus biogenesis/stability protein PilW [Eikenella corrodens] &gt;gi|1080580425|gb|OFN57961.1| type IV pilus biogenesis/stability protein PilW [Eikenella sp. HMSC061C02]</Hit_def>
+  <Hit_accession>WP_003823680</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.0209147</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>RSIADAPDNIK-VATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSH-EEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>KEVRNRPEEIAAIKTQLAIEYMNSHDYRAAVSAIEEALQAQPRNENAWLVRAEIYQYLKVPDKAEESFQRALAIKPDSAEINNNYGWFLCNSGGRANQALAYFDRA</Hsp_hseq>
+      <Hsp_midline>+ + + P+ I  + T L + Y+    Y  AV  + +  +A P N N           L   D+A +SF+ AL ++P+  +++    +     G    +AL +F +A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.977911</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>QVYYRDKGISHAKAGRYSEAVVMLEQVYDAD</Hsp_qseq>
+      <Hsp_hseq>QVAYMNKGICSARLGQYNLAMAYLERSQAAD</Hsp_hseq>
+      <Hsp_midline>QV Y +KGI  A+ G+Y+ A+  LE+   AD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489921271|ref|WP_003824624.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|224941759|gb|EEG22968.1| tetratricopeptide repeat protein [Eikenella corrodens ATCC 23834]</Hit_def>
+  <Hit_accession>WP_003824624</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.236779</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARRYIEQALQRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRA</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1172918773|ref|WP_080984472.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_080984472</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.23892</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARRYIEQALQRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRAH</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1030154313|gb|OAM23499.1|</Hit_id>
+  <Hit_def>hypothetical protein A7P90_00915 [Eikenella corrodens] &gt;gi|1030163128|gb|OAM32181.1| hypothetical protein A7P93_03070 [Eikenella corrodens]</Hit_def>
+  <Hit_accession>OAM23499</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.249637</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARRYIEQALQRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRAH</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|565114370|ref|WP_023887569.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|564137280|gb|ETA83394.1| hypothetical protein HMPREF1177_01557 [Eikenella corrodens CC92I]</Hit_def>
+  <Hit_accession>WP_023887569</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.249637</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARRYIEQALQRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRAH</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1030152200|gb|OAM21414.1|</Hit_id>
+  <Hit_def>hypothetical protein A7P84_00810 [Eikenella corrodens]</Hit_def>
+  <Hit_accession>OAM21414</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.251876</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARRYIEQALQRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRAH</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1170960027|ref|WP_080543256.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_080543256</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.260276</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARRYIEQALQRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRAH</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1173408041|ref|WP_081258927.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Eikenella]</Hit_def>
+  <Hit_accession>WP_081258927</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.264998</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARRYIEQALQRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRAH</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1031389787|ref|WP_064083701.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|1030148187|gb|OAM17455.1| hypothetical protein A7P85_03690 [Eikenella corrodens] &gt;gi|1030156210|gb|OAM25374.1| hypothetical protein A7P92_01900 [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_064083701</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.270529</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARRYIEQALQRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRAH</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1031550805|ref|WP_064106434.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|1030151068|gb|OAM20304.1| hypothetical protein A7P89_10395 [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_064106434</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.295795</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>RLQQPEKAVADLKQAQELVPKNPDILNSLGYTMLSLPNPDLAQARHYIEQALHRRPNSPEIQDSMGWVLFKQGQPQAALPYLQRAH</Hsp_hseq>
+      <Hsp_midline>++Q+ + AV  L +  E  P N ++   LG  + +L   D  +A    + AL  RPN  ++  ++ +   + G  + ALP+ ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|896269928|ref|WP_049259533.1|</Hit_id>
+  <Hit_def>phage late control protein [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_049259533</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.50766</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELL-ERSIADAPDNIKV---ATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRL</Hsp_qseq>
+      <Hsp_hseq>KITLHLG--YQETGIVDKGEYLFSEFTHTGAPDRLNITARAADLAETLAQQKERSWHKKTLYQIVEAIAKEHSYQYRI</Hsp_hseq>
+      <Hsp_midline>++ LHLG  Y +TG VD+G  L  E +   APD + +   A  L  T  Q ++       L ++ EA     + ++R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489918513|ref|WP_003821876.1|</Hit_id>
+  <Hit_def>phage late control protein [Eikenella corrodens] &gt;gi|224943952|gb|EEG25161.1| phage late control gene D protein (GPD) [Eikenella corrodens ATCC 23834]</Hit_def>
+  <Hit_accession>WP_003821876</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.1553</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELL-ERSIADAPDNIKV---ATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRL</Hsp_qseq>
+      <Hsp_hseq>KITLHLG--YQETGIVDKGEYLFSEFTHTGAPDRLNITARAADLAETLAQQKERSWHKKTLYQIVEAIAKEHRYQYRI</Hsp_hseq>
+      <Hsp_midline>++ LHLG  Y +TG VD+G  L  E +   APD + +   A  L  T  Q ++       L ++ EA       ++R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1031542950|ref|WP_064104463.1|</Hit_id>
+  <Hit_def>late control protein [Eikenella corrodens] &gt;gi|1030147060|gb|OAM16341.1| late control protein [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_064104463</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>3.02578</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELL-ERSIADAPDNIKV---ATVLGLTYVQVQKYDLAVPLLVKVAEA</Hsp_qseq>
+      <Hsp_hseq>KITLHLG--YQETGIVDKGEYLFSEFTHTGAPDRLNITARAADLAETLAQQKERSWHKKTLYQIVEA</Hsp_hseq>
+      <Hsp_midline>++ LHLG  Y +TG VD+G  L  E +   APD + +   A  L  T  Q ++       L ++ EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1031396565|ref|WP_064084942.1|</Hit_id>
+  <Hit_def>small molecule-binding protein [Eikenella corrodens] &gt;gi|1030153826|gb|OAM23021.1| small molecule-binding protein [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_064084942</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.73336</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>VKVAEANPVNFNVRFRL-----GVALDNLGRFDE------AIDSFKIALGLRPNEGKVHRAI</Hsp_qseq>
+      <Hsp_hseq>TRIKKPNPLYEEVRFERMADGKSVSILHVGRFDDEPASFAKMDNFCQEHGLR-RSGDTHREI</Hsp_hseq>
+      <Hsp_midline> ++ + NP+   VRF        V++ ++GRFD+       +D+F    GLR   G  HR I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1031543746|ref|WP_064105245.1|</Hit_id>
+  <Hit_def>hypothetical protein [Eikenella corrodens] &gt;gi|1030154967|gb|OAM24146.1| hypothetical protein A7P89_02555 [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_064105245</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>4.39127</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>AVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER--SIADAPDNIKVATVLGLTYVQ</Hsp_qseq>
+      <Hsp_hseq>GVVMLQQ--QAERSDMNAQFTLGVAYEHGLGVERNAALARKWYEAASSQGHIVAPYHLGLMYYQ</Hsp_hseq>
+      <Hsp_midline> VVML+Q   A+  D+     LG+AY     V+R   L  +    A +  +I     LGL Y Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1031412627|ref|WP_064086730.1|</Hit_id>
+  <Hit_def>restriction endonuclease subunit R [Eikenella corrodens] &gt;gi|1030161706|gb|OAM30788.1| restriction endonuclease subunit R [Eikenella corrodens]</Hit_def>
+  <Hit_accession>WP_064086730</Hit_accession>
+  <Hit_len>1017</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.27563</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>890</Hsp_hit-from>
+      <Hsp_hit-to>1006</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>VALHLGIAYVKTGAVDRGT------ELLERSIADAPDNIKVATVLG--LTYVQVQKYDLAVPLLVKVAEANPVN-----FNVRFRLGVALDNL--GRFDEAIDSFKIALGLRPNEGKVHRAIA</Hsp_qseq>
+      <Hsp_hseq>IKLNEGEAEPQKGSTDVGTGQVSLTEELDKLIKELNESFTTEFTLADQLFFESVEKFARENPDIVDAAHNNPLSSFMDYFNTR------IDDLLVGLFDQFGESVSKVLNNPQIKNKVCRRLA</Hsp_hseq>
+      <Hsp_midline>+ L+ G A  + G+ D GT      E L++ I +  ++      L   L +  V+K+    P +V  A  NP++     FN R      +D+L  G FD+  +S    L     + KV R +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>15066</Statistics_db-num>
+      <Statistics_db-len>4461455</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

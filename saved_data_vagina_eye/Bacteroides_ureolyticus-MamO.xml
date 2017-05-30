@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|517543490|ref|WP_018713698.1|</Hit_id>
+  <Hit_def>hypothetical protein [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_018713698</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00273181</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>632</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKMLTTV</Hsp_qseq>
+      <Hsp_hseq>IFGLLIGFYDGFLGPGTGSFWTFAFLGVLGLSMKQAVANTKILNFTSNIV-ALIVFIFGGH---ILW----LIGLLMGIGQMIGGYLGSNMVIKKDVKFIKTLFLIMVCATILKILYDI</Hsp_hseq>
+      <Hsp_midline>+ GL +G + G LG   G         +  +S++ A+AN+ +L F +++  +++ FI GG    I W     + L+M  G  +GG LG+ ++    V+ +K ++   + A  +K+L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|916876904|ref|WP_051483960.1|</Hit_id>
+  <Hit_def>hypothetical protein [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_051483960</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.186022</Hsp_evalue>
+      <Hsp_query-from>377</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MMVFFGYGMYL-IRPVVF-----LTNVVVYGAAALRND--KAQLVQWDKVKPL-IPWGVAGVVIGYFIGNAIGDSVVGVL-----LGLFALIM</Hsp_qseq>
+      <Hsp_hseq>IITFFGYGLLLALTPCVFPMIPILSSIIVSKCKNSKNDNKKAFLISFIYVFAMSLAYSIAGILATYF-----GSSVQGFLQIPWVIILFSLIF</Hsp_hseq>
+      <Hsp_midline>++ FFGYG+ L + P VF     L++++V      +ND  KA L+ +  V  + + + +AG++  YF     G SV G L     + LF+LI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|517543107|ref|WP_018713315.1|</Hit_id>
+  <Hit_def>hypothetical protein [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_018713315</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.232209</Hsp_evalue>
+      <Hsp_query-from>377</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>MMVFFGYGMYL-IRPVVF-----LTNVVVYGAAALRND--KAQLVQWDKVKPL-IPWGVAGVVIGYFIGNAIGDSVVGVL-----LGLFALIM</Hsp_qseq>
+      <Hsp_hseq>IITFFGYGLLLALTPCVFPMIPILSSIIVSKCKNSKNDNKKAFLISFIYVFAMSLAYSIAGILATYF-----GSSVQGFLQIPWVIILFSLIF</Hsp_hseq>
+      <Hsp_midline>++ FFGYG+ L + P VF     L++++V      +ND  KA L+ +  V  + + + +AG++  YF     G SV G L     + LF+LI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|514958053|ref|WP_016646650.1|</Hit_id>
+  <Hit_def>anion permease [Campylobacter ureolyticus] &gt;gi|514213650|gb|EPH09276.1| hypothetical protein HMPREF9309_00795 [Campylobacter ureolyticus ACS-301-V-Sch3b]</Hit_def>
+  <Hit_accession>WP_016646650</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.23043</Hsp_evalue>
+      <Hsp_query-from>402</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMA</Hsp_qseq>
+      <Hsp_hseq>SSFLAHNKNNAVRWDLLKLIVPGIIIGTMLSAFIASFIPAFYLAMVFSLYMFISA</Hsp_hseq>
+      <Hsp_midline>++ L ++K   V+WD +K ++P  + G ++  FI + I    + ++  L+  I A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|912987407|ref|WP_050335532.1|</Hit_id>
+  <Hit_def>anion permease [Campylobacter ureolyticus] &gt;gi|909716815|gb|AKT91166.1| putative protein, sulfite exporter TauE/SafE family [Campylobacter ureolyticus RIGS 9880]</Hit_def>
+  <Hit_accession>WP_050335532</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.26995</Hsp_evalue>
+      <Hsp_query-from>402</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMA</Hsp_qseq>
+      <Hsp_hseq>SSFLAHNKNNAVRWDLLKLIVPGIIIGTMLSAFIASFIPAFYLAMVFSLYMFISA</Hsp_hseq>
+      <Hsp_midline>++ L ++K   V+WD +K ++P  + G ++  FI + I    + ++  L+  I A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|640528266|ref|WP_024962233.1|</Hit_id>
+  <Hit_def>anion permease [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_024962233</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.31017</Hsp_evalue>
+      <Hsp_query-from>402</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMA</Hsp_qseq>
+      <Hsp_hseq>SSFLAHNKNNAVRWDLLKLIVPGIIIGTMLSAFIASFIPAFYLAMVFSLYMFISA</Hsp_hseq>
+      <Hsp_midline>++ L ++K   V+WD +K ++P  + G ++  FI + I    + ++  L+  I A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|517542581|ref|WP_018712789.1|</Hit_id>
+  <Hit_def>anion permease [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_018712789</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>3.14116</Hsp_evalue>
+      <Hsp_query-from>402</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMA</Hsp_qseq>
+      <Hsp_hseq>SSFLAHNKNNAIRWDLLKLIVPGIIIGTMLSAFIASFIPAFYLAMVFSLYMFISA</Hsp_hseq>
+      <Hsp_midline>++ L ++K   ++WD +K ++P  + G ++  FI + I    + ++  L+  I A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>6350</Statistics_db-num>
+      <Statistics_db-len>2010484</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

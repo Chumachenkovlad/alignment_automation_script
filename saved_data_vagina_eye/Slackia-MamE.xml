@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|502473636|ref|WP_012799472.1|</Hit_id>
+  <Hit_def>trypsin [Slackia heliotrinireducens] &gt;gi|256792702|gb|ACV23372.1| trypsin-like serine protease with C-terminal PDZ domain [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>WP_012799472</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>5.29729e-30</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SLYSLGSGVVITEDGYIITNYHVVEGADALTATIN----GVEYDAEYVGADPTSDIAVIKVNA-TDLTAIEIGSSSDVQVGEWVMSLGNAFGLDNSVSTGIVSALQRSTTLADETTGEVMIYPNMIQTDATINPGNSGGALVNANGELIGINSMITSYSGSSSGVGFAIPIDYA</Hsp_hseq>
+      <Hsp_midline>S+ ++G+GV++  DG+I+TNYHVV GA+++  T+      + Y  E V  D   D+A++K+     LTA  +G S  V V + V+++G  FGLD +VS GI+SA +++  +      E M + N++QTDA IN GNSGG LV ANG ++GIN+ I + +G+ +G+GFA+P + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>9.71483e-09</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>648</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>543</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAP</Hsp_qseq>
+      <Hsp_hseq>LGVSMSAINAEVAQYNNLPTDKGVYVAAVYSGTAADEAGLETGDIIVKFDGQSITAPEELQLAVRGCAVGDTVDVVVNRGGEEITISVTLGSDETALSQEGAP</Hsp_hseq>
+      <Hsp_midline>LG +++ +   +    NLP  +GV+V  V   T A  AGL  GD+I+K DG+ +  PEE+   +     G +V + V R G+   +S+  G    A +   AP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000138285</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>526</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>KGVYVAAVYSGTAADEAGLETGDIIVKFDGQSITAPEELQLAVRGC-AVGDTVDVVVNRGGEEITI</Hsp_hseq>
+      <Hsp_midline>KG  VA V +G+ A  AGL+  D+I++ + + +T+P  L  A++   A G  + + V+R G+E  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|496430619|ref|WP_009139466.1|</Hit_id>
+  <Hit_def>trypsin [Slackia piriformis] &gt;gi|404388665|gb|EJZ83747.1| hypothetical protein HMPREF9451_01268 [Slackia piriformis YIT 12062]</Hit_def>
+  <Hit_accession>WP_009139466</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>7.1137e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>198</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV-GWLPTSTAEGPAMGLVAMQ</Hsp_qseq>
+      <Hsp_hseq>VPGAGSDDTLTQTSLGSGVVISKDGYIITNNHVVEGADAIKATVN----GTEYDATLVGSDASSDIAVIKVEAS-DLTPIEIGSSSDLKVGEWVMSLGSPFGLENSVSEGIVSALQRSTTMQDEATGETVIYPNMIQTDATINPGNSGGALVDADGKLIGINSMIQSSSGSSSGVGFAIPVDYAMDLAQQIIDGKTPTHAQLGVSMAQINSQ</Hsp_hseq>
+      <Hsp_midline>+P   +  T +  ++G+GV++  DG+I+TN HVV GA+++  TV        Y   +V  D + D+A++K+     LT   +G S  + V + V+++G+PFGL+ +VS GI+SA +++  +      E + + N++QTDA IN GNSGG LV A+G ++GIN+ I + +G+ +G+GFA+P + A   A   + G  PT    G +M  +  Q</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>2.094e-06</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>394</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>LGVSMAQINSQMAQYYDLPTDTGVYVANVYADSAAAEGGIEKGDIITSFDGTAITSPSDLQMKVREKNPGDTVDVVVNRNGEEKTLSVTLG</Hsp_hseq>
+      <Hsp_midline>LG ++  +  ++    +LP   GV+V  V  ++ AA  G+  GD+I   DG  +  P ++   + E   G +V + V R G+   +S+  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0186615</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>416</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>GVYVANVYADSAAAEGGIEKGDIITSFDGTAITSPSDLQMKVREKN-PGDTVDVVVNRNGEE</Hsp_hseq>
+      <Hsp_midline>G  VA V A S AA  G++  D+I   +   +TSP+ L   ++     G  + + V+RNG+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|402286848|gb|EJU35310.1|</Hit_id>
+  <Hit_def>trypsin-like peptidase domain protein [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>EJU35310</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>2.3959e-25</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMT-----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>VVLTEDGYIVTNYHVVEGSESLKATIN----GTEYDAKLVGSDPSSDIAVIK-ADATGLTPIEIGSSSDLQVGDWVMSLGNPFGLENSVSEGIVSALQRSTTMTDQSTGRPIVYPNMIQTDATINPGNSGGALVDSEGRLVGINSMITSESGSSSGVGFAIPVDYA</Hsp_hseq>
+      <Hsp_midline>V++  DG+IVTNYHVV G+ S+  T+        Y  ++V  D + D+A++K      LT   +G S  + V D V+++G PFGL+ +VS GI+SA +R T + +  T     + N++QTDA IN GNSGG LV + G +VGIN+ I + +G+ +G+GFA+P + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.8241e-07</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>472</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>LGVSMSAIDSSMAGRYGIKEDSGVYVASVYEGTSAAEAGIKEGDVITSFEGKPVSSPEELMIAVRSMYPGDTAEVGLNRDGKDITVSVTLG</Hsp_hseq>
+      <Hsp_midline>LG +++ +   +  +  +    GV+V  V   T AA AG++ GDVI   +G+PV  PEE+   +  M  G +  +G+ R G    +S+  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0117704</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>403</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>SGVYVASVYEGTSAAEAGIKEGDVITSFEGKPVSSPEELMIAVR-SMYPGDTAEVGLNRDGKDITV</Hsp_hseq>
+      <Hsp_midline> G  VA V  G+ AA AG++  D+I     +PV+SP  L  A++ +   G    + ++R+G++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|748734977|ref|WP_039993094.1|</Hit_id>
+  <Hit_def>peptidase S1 [Slackia sp. CM382]</Hit_def>
+  <Hit_accession>WP_039993094</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>3.0628e-25</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMT-----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>VVLTEDGYIVTNYHVVEGSESLKATIN----GTEYDAKLVGSDPSSDIAVIK-ADATGLTPIEIGSSSDLQVGDWVMSLGNPFGLENSVSEGIVSALQRSTTMTDQSTGRPIVYPNMIQTDATINPGNSGGALVDSEGRLVGINSMITSESGSSSGVGFAIPVDYA</Hsp_hseq>
+      <Hsp_midline>V++  DG+IVTNYHVV G+ S+  T+        Y  ++V  D + D+A++K      LT   +G S  + V D V+++G PFGL+ +VS GI+SA +R T + +  T     + N++QTDA IN GNSGG LV + G +VGIN+ I + +G+ +G+GFA+P + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>4.40131e-07</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>419</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>LGVSMSAIDSSMAGRYGIKEDSGVYVASVYEGTSAAEAGIKEGDVITSFEGKPVSSPEELMIAVRSMYPGDTAEVGLNRDGKDITVSVTLG</Hsp_hseq>
+      <Hsp_midline>LG +++ +   +  +  +    GV+V  V   T AA AG++ GDVI   +G+PV  PEE+   +  M  G +  +G+ R G    +S+  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.015546</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>GVYVASVYEGTSAAEAGIKEGDVITSFEGKPVSSPEELMIAVR-SMYPGDTAEVGLNRDGKDITV</Hsp_hseq>
+      <Hsp_midline>G  VA V  G+ AA AG++  D+I     +PV+SP  L  A++ +   G    + ++R+G++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|493407092|ref|WP_006363126.1|</Hit_id>
+  <Hit_def>trypsin [Slackia exigua] &gt;gi|269129283|gb|EEZ60368.1| trypsin [Slackia exigua ATCC 700122]</Hit_def>
+  <Hit_accession>WP_006363126</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>3.11783e-25</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMT-----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>VVLTEDGYIVTNYHVVEGSESLKATIN----GTEYDAKLVGSDPSSDIAVIK-ADATGLTPIEIGSSSDLQVGDWVMSLGNPFGLENSVSEGIVSALQRSTTMTDQSTGRPIVYPNMIQTDATINPGNSGGALVDSEGRLVGINSMITSESGSSSGVGFAIPVDYA</Hsp_hseq>
+      <Hsp_midline>V++  DG+IVTNYHVV G+ S+  T+        Y  ++V  D + D+A++K      LT   +G S  + V D V+++G PFGL+ +VS GI+SA +R T + +  T     + N++QTDA IN GNSGG LV + G +VGIN+ I + +G+ +G+GFA+P + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.34218e-07</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>419</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>LGVSMSAIDSSMAGRYGIKEDSGVYVASVYEGTSAAEAGIKEGDVITSFEGKPVSSPEELMIAVRSMYPGDTAEVGLNRDGKDMTVSVTLG</Hsp_hseq>
+      <Hsp_midline>LG +++ +   +  +  +    GV+V  V   T AA AG++ GDVI   +G+PV  PEE+   +  M  G +  +G+ R G    +S+  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0142696</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>504</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>GVYVASVYEGTSAAEAGIKEGDVITSFEGKPVSSPEELMIAVR-SMYPGDTAEVGLNRDGKDMTV</Hsp_hseq>
+      <Hsp_midline>G  VA V  G+ AA AG++  D+I     +PV+SP  L  A++ +   G    + ++R+G++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|496430438|ref|WP_009139285.1|</Hit_id>
+  <Hit_def>peptidase [Slackia piriformis] &gt;gi|404388484|gb|EJZ83566.1| C-terminal processing peptidase [Slackia piriformis YIT 12062]</Hit_def>
+  <Hit_accession>WP_009139285</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.492095</Hsp_evalue>
+      <Hsp_query-from>570</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>FVNGVTPNTPAASAGLRPGDVILKVDGRPVHQ---PEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>FALDVFENSSASDAGVRQGDVVVAIDGDRSQDWTATETINAVQREA--GSSVVITWLR</Hsp_hseq>
+      <Hsp_midline>F   V  N+ A+ AG+R GDV++ +DG         E + A+  E   G SV I  LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|496431040|ref|WP_009139887.1|</Hit_id>
+  <Hit_def>hydrogenase formation protein HypD [Slackia piriformis] &gt;gi|404388105|gb|EJZ83189.1| hydrogenase expression/formation protein HypD [Slackia piriformis YIT 12062]</Hit_def>
+  <Hit_accession>WP_009139887</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.7213</Hsp_evalue>
+      <Hsp_query-from>589</Hsp_query-from>
+      <Hsp_query-to>731</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>DVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVM--AGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQV-AEVLAGSRAAVAGLQANDLIIE</Hsp_qseq>
+      <Hsp_hseq>DVILTTFGDMTRVPGSTSSLLKEQADGRDVRI-------------VYSPLDALTIAKENPDRPVVFVGVGFETTTPLVAMAIKRAA------AMGLENFSVYAAHKNMPGALDVLMGDPDLKVDALILPGHVSTIIGVKPYQFLAE</Hsp_hseq>
+      <Hsp_midline>DVIL   G     P   ++++ E  +GR VRI             V  P        + P  PVV    G   T P V   I +         M +E F        MPGA  V  G    +V A +L G  + + G++    + E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|502470091|ref|WP_012797848.1|</Hit_id>
+  <Hit_def>dimethylsulfoxide reductase, chain B [Slackia heliotrinireducens] &gt;gi|256791073|gb|ACV21743.1| DMSO reductase, iron-sulfur subunit [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>WP_012797848</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.67707</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>PTSTAEGPAMGLVAMQRPMGVGVGAAGPVIAAGTPSPHVDG--RQNMDCSNCHDIIPAGNGFQAPMMPVAAPV</Hsp_qseq>
+      <Hsp_hseq>PTGAMHKNDLGLVVVNNERCVGCGYC--TIACPYHAPSIDPILRQSSKCHGCSDRVAAG---KRPICVEACPL</Hsp_hseq>
+      <Hsp_midline>PT       +GLV +     VG G     IA    +P +D   RQ+  C  C D + AG   + P+   A P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|502470911|ref|WP_012798287.1|</Hit_id>
+  <Hit_def>hypothetical protein [Slackia heliotrinireducens] &gt;gi|256791514|gb|ACV22184.1| conserved repeat protein [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>WP_012798287</Hit_accession>
+  <Hit_len>3920</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.85026</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>2911</Hsp_hit-from>
+      <Hsp_hit-to>3011</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>TVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVAD------EVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQ</Hsp_qseq>
+      <Hsp_hseq>THTDEVYAVTYDGTEVEADESGKVFTLPTGDKVTITATAEGVKSVADTAEGNNTFTYLVDNADSYG-DVTAEPGTLSIDRRSVTLTSATDSKVYDGTALTNE</Hsp_hseq>
+      <Hsp_midline>T  D+V ++ Y G  V+ DE+  +  L    KV +TA   G     + A+       ++     +G D+T   G +S  R+++ +   T S +    A  N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|256791047|gb|ACV21717.1|</Hit_id>
+  <Hit_def>predicted xylanase/chitin deacetylase [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>ACV21717</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.3002</Hsp_evalue>
+      <Hsp_query-from>598</Hsp_query-from>
+      <Hsp_query-to>673</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>PVHQPEEVAAIM-AEMPNGRSVRIGVLRAGDVSNMSLV----------TGPSGLAA--AVVQAPTAPVVMAGGAPTVPGVQPVIPKVPT</Hsp_qseq>
+      <Hsp_hseq>PRHAPEQAATTAPKSTPIGRHARIASDTENTAGNASVARARHAAHAAATGPVAVSARSAATIGPTAPRFAAAN---TPAEQPVETRVPT</Hsp_hseq>
+      <Hsp_midline>P H PE+ A       P GR  RI         N S+           TGP  ++A  A    PTAP   A      P  QPV  +VPT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|752775436|ref|WP_041422442.1|</Hit_id>
+  <Hit_def>hypothetical protein [Slackia heliotrinireducens]</Hit_def>
+  <Hit_accession>WP_041422442</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.88356</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>447</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>CSNCH----DIIPAGNGFQAPMMPVAAPVPPPPIPANAVSPHTDG-RQNMTCNTCHQFVGGA</Hsp_qseq>
+      <Hsp_hseq>CGECHGSAEEIVTATDGFLT--MKGA-------IPVESANPHANHYTSNLACDNCHRLDAGS</Hsp_hseq>
+      <Hsp_midline>C  CH    +I+ A +GF    M  A       IP  + +PH +    N+ C+ CH+   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|256790712|gb|ACV21382.1|</Hit_id>
+  <Hit_def>hypothetical protein Shel_03150 [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>ACV21382</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>6.26754</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>447</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>CSNCH----DIIPAGNGFQAPMMPVAAPVPPPPIPANAVSPHTDG-RQNMTCNTCHQFVGGA</Hsp_qseq>
+      <Hsp_hseq>CGECHGSAEEIVTATDGFLT--MKGA-------IPVESANPHANHYTSNLACDNCHRLDAGS</Hsp_hseq>
+      <Hsp_midline>C  CH    +I+ A +GF    M  A       IP  + +PH +    N+ C+ CH+   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|502473245|ref|WP_012799233.1|</Hit_id>
+  <Hit_def>cobalamin biosynthesis protein CbiD [Slackia heliotrinireducens] &gt;gi|256792463|gb|ACV23133.1| cobalamin biosynthesis protein CbiD [Slackia heliotrinireducens DSM 20476]</Hit_def>
+  <Hit_accession>WP_012799233</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.20868</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>596</Hsp_query-to>
+      <Hsp_hit-from>425</Hsp_hit-from>
+      <Hsp_hit-to>477</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPG-DVILKVDG</Hsp_qseq>
+      <Hsp_hseq>VLGPAMASLTQRLGERLQQRAGDNLQVECIVFSLAHGLLGKTPGADGLLRIEG</Hsp_hseq>
+      <Hsp_midline>+LG A+  LTQRLG +    AG  + V  +  +      G  PG D +L+++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>9483</Statistics_db-num>
+      <Statistics_db-len>3137980</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

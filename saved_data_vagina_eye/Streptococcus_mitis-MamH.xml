@@ -1,0 +1,1246 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99596.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>431</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99596.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>431</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|446058268|ref|WP_000136123.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|383349566|gb|EID27495.1| transporter, major facilitator family protein [Streptococcus mitis SK575]</Hit_def>
+  <Hit_accession>WP_000136123</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0480192</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISATLFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGGFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++ G AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1172327211|ref|WP_080710490.1|</Hit_id>
+  <Hit_def>dephospho-CoA kinase [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_080710490</Hit_accession>
+  <Hit_len>596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.238262</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>FLVDVAPRTVETSVPWRAVWDLVKAEPRLRLAFASSLFARSDMVFVGLFLMLWFIYFADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FLLRSSPCLREVSKMTEINW-----KDNLRIAWFGNFLTGASISLVVPFMPI----FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>FL+  +P   E S      W     +  LR+A+  +    + +  V  F+ +    F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1183721809|ref|WP_084947641.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181933290|gb|ORO87393.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084947641</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.313679</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQAAFYAGLAISVSAISAALFSPIWGIFADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W  F +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|896629415|ref|WP_049510562.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus pseudopneumoniae] &gt;gi|1002544289|gb|KXU15585.1| Multidrug resistance efflux pump PmrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KXU15585</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.357521</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGIFADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKKKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W  F +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK   GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1183725627|ref|WP_084951365.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181951363|gb|ORO98736.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084951365</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.468493</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYALRLVKSEARGV</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVGSFLFLAAVLTICFIKEDLKPV</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G    + +   +  +K + + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1002523888|gb|KXT99198.1|</Hit_id>
+  <Hit_def>Multidrug resistance efflux pump PmrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KXT99198</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.771153</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1032698561|ref|WP_064275859.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus sp. CCUG 49591] &gt;gi|1032043333|gb|OAN18891.1| 50S ribosomal protein L33 [Streptococcus sp. CCUG 49591]</Hit_def>
+  <Hit_accession>OAN18891</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.924668</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGIFADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGTALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W  F +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  G+ LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|727220916|ref|WP_033681870.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|662334546|gb|KEQ33232.1| major Facilitator Superfamily protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_033681870</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.924668</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1152368223|ref|WP_078238344.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1151572496|gb|OOR80334.1| 50S ribosomal protein L33 [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_078238344</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.932761</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1183628886|ref|WP_084863294.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181943659|gb|ORO97580.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084863294</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.08169</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVLNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV+N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|727228119|ref|WP_033688994.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|662343136|gb|KEQ41750.1| major Facilitator Superfamily protein [Streptococcus mitis] &gt;gi|1151612078|gb|OOS18926.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_033688994</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.09116</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|523924838|gb|EPR95955.1|</Hit_id>
+  <Hit_def>multidrug transporter [Streptococcus mitis 29/42]</Hit_def>
+  <Hit_accession>EPR95955</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.18017</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGIFADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W  F +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|782700975|ref|WP_045611481.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|777886867|gb|KJQ68300.1| major facilitator superfamily multi-drug resistance efflux pump [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_045611481</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.29887</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--LLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +   ++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|523925460|gb|EPR96572.1|</Hit_id>
+  <Hit_def>multidrug transporter [Streptococcus mitis 18/56]</Hit_def>
+  <Hit_accession>EPR96572</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.70155</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATAMIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       +     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|446058276|ref|WP_000136131.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|289167816|ref|YP_003446085.1| multi-drug resistance efflux pump [Streptococcus mitis B6] &gt;gi|288907383|emb|CBJ22220.1| multi-drug resistance efflux pump [Streptococcus mitis B6]</Hit_def>
+  <Hit_accession>WP_000136131</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.95598</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSVLGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GSVLG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1183695586|ref|WP_084926420.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181934506|gb|ORO88483.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084926420</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.97309</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQAAFYAGLAISVSAISAALFSPIWGIFADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGYALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLMVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W  F +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  G  LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|896605344|ref|WP_049488727.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MFS transporter [Streptococcus]</Hit_def>
+  <Hit_accession>WP_049488727</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.26809</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|727215652|ref|WP_033676867.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|662349215|gb|KEQ47789.1| major Facilitator Superfamily protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_033676867</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.26809</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|446058267|ref|WP_000136122.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|339454977|gb|EGP67590.1| transporter, major facilitator family protein [Streptococcus mitis SK1073]</Hit_def>
+  <Hit_accession>WP_000136122</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.28793</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMVRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGTALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  G+ LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1183630848|ref|WP_084865058.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181940920|gb|ORO94914.1| MFS transporter [Streptococcus mitis] &gt;gi|1181956127|gb|ORP03404.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084865058</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.30794</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1183698248|ref|WP_084928685.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181956009|gb|ORP03288.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084928685</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.32813</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|896620787|ref|WP_049502511.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_049502511</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.58456</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1183655524|ref|WP_084887813.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181938719|gb|ORO92722.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084887813</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.62996</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1005143020|gb|KYF33151.1|</Hit_id>
+  <Hit_def>Multidrug resistance efflux pump PmrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KYF33151</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.79524</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGTALGTLSTSVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  G+ LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1183696821|ref|WP_084927591.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181939140|gb|ORO93142.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084927591</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.86922</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQATFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +A   AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|484888504|gb|EOB33820.1|</Hit_id>
+  <Hit_def>multidrug resistance protein MdtG [Streptococcus mitis 13/39]</Hit_def>
+  <Hit_accession>EOB33820</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.94515</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISASLFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGIFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|757663022|ref|WP_042901088.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|662335984|gb|KEQ34657.1| major Facilitator Superfamily protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_042901088</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.72553</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>430</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYALRLVKSEARGVGGGNTPGDDEV</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRMVFLLVGSFLFLAAVLTICFIKEDFQPVAKEKSIPTKEL</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G    + +   +  +K + + V    +    E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|446058269|ref|WP_000136124.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|307618180|gb|EFN97338.1| multidrug resistance protein mdtG [Streptococcus mitis SK321]</Hit_def>
+  <Hit_accession>WP_000136124</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.79096</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYALRLVKSEARGV</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVGCFLFLAAVLTICFIKEDFKPV</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G    + +   +  +K + + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|727222566|ref|WP_033683508.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|662341988|gb|KEQ40607.1| major Facilitator Superfamily protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_033683508</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.85753</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGL--AMTITMGGLAFVPSIYWLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   +  A+   M G    P   +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|565865417|ref|WP_023947226.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MFS transporter [Streptococcus] &gt;gi|564897422|gb|ETD98380.1| multidrug transporter [Streptococcus mitis 27/7]</Hit_def>
+  <Hit_accession>WP_023947226</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.99421</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKSMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|339455031|gb|EGP67642.1|</Hit_id>
+  <Hit_def>transporter, major facilitator family protein [Streptococcus mitis SK1080]</Hit_def>
+  <Hit_accession>EGP67642</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.99421</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>430</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYALRLVKSEARGVGGGNTPGDDEV</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVGCFLFLAAVLTIFFIKEDFQPVAKEKSIPTKEL</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G    + +   +  +K + + V    +    E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|777883341|gb|KJQ64789.1|</Hit_id>
+  <Hit_def>multi-drug resistance efflux pump [Streptococcus gordonii]</Hit_def>
+  <Hit_accession>KJQ64789</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.202</Hsp_evalue>
+      <Hsp_query-from>288</Hsp_query-from>
+      <Hsp_query-to>415</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>PVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYALRLVKSE</Hsp_qseq>
+      <Hsp_hseq>PVWGSLADKYGRKPMMIRAAL--AMTFTMGGMAFVP-SVFWLIVLRLLNGVFSGYVPNSTALIASQAPKKYSGYALGTLSTGVVAGTLMGPLLGGFVAQSIGIRNAFLLVGLFLFIVTLLTIFYVKED</Hsp_hseq>
+      <Hsp_midline>PVW S  +++GR   ++   +  A+ F M G    P   F +  + L++   +G       L    APK   G  LG  +     G +    +GGF+   IG    F+  G+   I++   +  VK +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1183659262|ref|WP_084891467.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181950519|gb|ORO97893.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084891467</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.63118</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQAAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGTALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  +AA  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  G+ LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1183699897|ref|WP_084929856.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L33 [Streptococcus mitis] &gt;gi|1181961368|gb|ORP07770.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084929856</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.09645</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGTALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  G+ LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|446058278|ref|WP_000136133.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|307621749|gb|EFO00787.1| multidrug resistance protein mdtG [Streptococcus mitis SK597]</Hit_def>
+  <Hit_accession>WP_000136133</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.09645</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGTALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  G+ LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|757475354|ref|WP_042751308.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|662346693|gb|KEQ45277.1| major Facilitator Superfamily protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_042751308</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.23126</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSDQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFIPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L F+ N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|896634463|ref|WP_049515189.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_049515189</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.51166</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGTALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  G+ LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|983470215|ref|WP_060628454.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|927036639|gb|ALD68212.1| hypothetical protein RN80_07070 [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_060628454</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.55939</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMVRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGTALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  G+ LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|446058274|ref|WP_000136129.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|307615356|gb|EFN94565.1| multidrug resistance protein MdtG [Streptococcus mitis NCTC 12261] &gt;gi|1151608855|gb|OOS15731.1| MFS transporter [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_000136129</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.61671</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|446058300|ref|WP_000136155.1|</Hit_id>
+  <Hit_def>MFS transporter [Streptococcus mitis] &gt;gi|383344088|gb|EID22258.1| transporter, major facilitator family protein [Streptococcus mitis SK616]</Hit_def>
+  <Hit_accession>WP_000136155</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.73286</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVESLGVGGEQVAFFAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGMAMTITMGGLAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   M   +    L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|662567464|gb|KER08639.1|</Hit_id>
+  <Hit_def>major Facilitator Superfamily protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KER08639</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.16209</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKSMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|523920739|gb|EPR91995.1|</Hit_id>
+  <Hit_def>multidrug transporter [Streptococcus mitis 17/34]</Hit_def>
+  <Hit_accession>EPR91995</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.47382</Hsp_evalue>
+      <Hsp_query-from>257</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>FADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTG</Hsp_qseq>
+      <Hsp_hseq>FVENLGVGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGIFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVG</Hsp_hseq>
+      <Hsp_midline>F + + VG  + A  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1002517565|gb|KXT93611.1|</Hit_id>
+  <Hit_def>Multidrug resistance efflux pump PmrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KXT93611</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.57763</Hsp_evalue>
+      <Hsp_query-from>263</Hsp_query-from>
+      <Hsp_query-to>419</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>VGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL---LGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYALRLVKSEARGV</Hsp_qseq>
+      <Hsp_hseq>VGSEQVAFYAGLAISVSAISAALFSPIWGILADKYGRKPMMIRAGLAMTITMGG---LAFVPNIY--WLIF-LRLLNGVFAGFVPNATALIASQVPKEKSGSALGTLSTGVVAGTLTGPFIGGFIAELFGIRTVFLLVGSFLLLAAVLTIFFIKEDFKPV</Hsp_hseq>
+      <Hsp_midline>VG  + A  AG+ I +      L  P+W    +++GR   ++   L M ++  G   L FV N +  +++F + L++   AG       L     PK+  GS LG  +     G +    IGGF+ +  G    F+  G   L+ +   +  +K + + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>107199</Statistics_db-num>
+      <Statistics_db-len>34804954</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

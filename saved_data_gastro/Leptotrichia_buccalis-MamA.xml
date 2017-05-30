@@ -1,0 +1,987 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|506249778|ref|WP_015769553.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050028|gb|ACV39212.1| Tetratricopeptide TPR_2 repeat protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769553</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>6.37345e-08</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>DVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>DTEVLQTLASIYHALKENDKAIEIYEKLVKLEPEKSENWAFLGYLYYENEDLEKAEENFNRALDDNMDEPFVLFLLGNIYSRKGRIAEAVNCYDLAIFLDFDMYIAHIDFARKYEHMGRHEKALEEYRAAFRIDPR</Hsp_hseq>
+      <Hsp_midline>D EV   L   Y      D+  E+ E+ +   P+  +    LG  Y + +  + A     +  + N     V F LG      GR  EA++ + +A+ L  +    H   A  YE MG HE+AL  ++ A  +D R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|502495916|ref|WP_012806138.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257048760|gb|ACV37944.1| Tetratricopeptide TPR_2 repeat protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_012806138</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.49124e-06</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>DKAMENYK---YEDALVYLKSVLEIDESNYSALMTLSKIYSDFGMFEEAREYAEKLQKKYPDSKDTLFTLGFVYQSLGRLKKAISLYKKFLEIEK-NYFVYLNMGMSYALLKYYRKAIENIDKAIEMEPESSEAYIEKGDCLTMMGKYNEAISEYEK</Hsp_hseq>
+      <Hsp_midline>DK + + K   Y +A+V L+ V + D  +    + L   Y   G  +   E  E+     PD+      LG  Y  + +   A+ L  K  E    N+ V   +G++   L  + +AI++   A+ + P   + +         MG + EA+  ++K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.00290122</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE</Hsp_qseq>
+      <Hsp_hseq>LGFVYQSLGRLKKAISLYKKFL-EIEKNYFVYLNMGMSYALLKYYRKAIENIDKAIEMEPESSEAYIEKGDCLTMMGKYNEAISEYEKLLNSKFNQ</Hsp_hseq>
+      <Hsp_midline>LG  Y   G + +   L ++ + +   N  V   +G++Y  ++ Y  A+  + K  E  P +       G  L  +G+++EAI  ++  L  + N+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.588416</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>KVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>KLQKKYPDSKDTLFTLGFVYQSLGRLKKAISLYKKFLEIEKN--------YFVYLNMGMSYALLKYYRKAIE</Hsp_hseq>
+      <Hsp_midline>K+ +  P + +  F LG    +LGR  +AI  +K  L +  N         + Y  MG     L +++KA E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>3.3588</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYV-QVQ-KYDLAVPLLVKVA</Hsp_qseq>
+      <Hsp_hseq>GRFFVKTEDYENAQKVCDKMIILEPENIR--HYVNLVYVLELQHKYDEALEYVAKMA</Hsp_hseq>
+      <Hsp_midline>G  +VKT   +   ++ ++ I   P+NI+    + L YV ++Q KYD A+  + K+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|506249410|ref|WP_015769185.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257049653|gb|ACV38837.1| TPR repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769185</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.00551541</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>239</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>FELGAKYLIEKNYKEARKHYLIRLEKKKKDERATSAVGYCYEMEGNYEEAKKWYKKAVDLGEKE</Hsp_hseq>
+      <Hsp_midline>F LG        + EA   + I L  +  + +   A+ Y YE  G++EEA   +KKA +L E+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|506249402|ref|WP_015769177.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257049645|gb|ACV38829.1| Tetratricopeptide TPR_2 repeat protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769177</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.151842</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>YYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVP---LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>YYKAQVLREEK--KYDEAIKIFRQMIEEGDYDGYVGW--GSLLEDLGKREESMEVYKK--GSEKGNYTSIFILGTKYGQEKKYDEAKKYFLMAVKLAPNNEEKADSLELLGLVYERQENFKEAREYYKKAINL</Hsp_hseq>
+      <Hsp_midline>YY+ + +   K  +Y EA+ +  Q+ +   +D  V    G      G  +   E+ ++       N     +LG  Y Q +KYD A     + VK+A  N    +    LG+  +    F EA + +K A+ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.185062</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP-NEGKVH--RAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>NYTSIFILGTKYGQEKKYDEAKKYFLMAVKLAPNNEEKADSLELLGLVYERQENFKEAREYYKKA</Hsp_hseq>
+      <Hsp_midline>N+   F LG       ++DEA   F +A+ L P NE K      +   YE+  + +EA  ++KKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|506250600|ref|WP_015770375.1|</Hit_id>
+  <Hit_def>SIMPL domain-containing protein [Leptotrichia buccalis] &gt;gi|257050857|gb|ACV40041.1| protein of unknown function DUF541 [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015770375</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.187539</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>YDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGR-FDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>YDVQMSMLIKNTDFNKISTLIDLEDGNNLQSIQKNFDE--DSF--AFSINENDTTVERALDKVFNKLNTSRRKL</Hsp_hseq>
+      <Hsp_midline>YD+ + +L+K  + N ++  +    G  L ++ + FDE  DSF  A  +  N+  V RA+   + ++ +    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|506250194|ref|WP_015769969.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050446|gb|ACV39630.1| TPR repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769969</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.191014</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAI---AYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>LITKYVKEFPNNAEYLNRLGVLYDNKENYLEAEKWY-----LKAIEKGNYNAISNLAYVYFEKGEYEKAIKYYKE</Hsp_hseq>
+      <Hsp_midline>L+ K  +  P N     RLGV  DN   + EA   +     L+  E   + AI   AY Y + G +E+A+ ++K+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.271938</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>LITKYVKEFPNNAEYLNRLGVLYDNKENYLEAEKWYLKAIEKG--NYNAISNLAYVYFEKGEYEKAIKYYKEYQKIADNTDNYY-WIAAAYDELEDYKTAKEWFLKSIKFD</Hsp_hseq>
+      <Hsp_midline>L+ + + + P+N +    LG+ Y   + Y  A    +K  E    N+N    L       G +++AI  +K    +  N    +  IA +Y+++  ++ A   F K+ + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|506249405|ref|WP_015769180.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257049648|gb|ACV38832.1| TPR repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769180</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.199829</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>WGLLLEKLNKKDEAINIYKKGVEKG--NIDSAYFLGNLYIQEKNYKECRKYYLI--GAKRSEKVATSAIGYCYEMEGNYEEAKKWYQKAIDL</Hsp_hseq>
+      <Hsp_midline> GL   ++ K D A+ +  K  E    N +  + LG        + E    + I  G + +E     AI Y YE  G++EEA   ++KA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|502496832|ref|WP_012806300.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257048923|gb|ACV38107.1| Tetratricopeptide domain protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_012806300</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.235292</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLE------RSI--ADAPDNIKVATVLGLTYVQVQKYDLAVPLLVK</Hsp_qseq>
+      <Hsp_hseq>YVNKGEIDKEIEVLRELRILFKSVFGVESEENIKVLTELGNSLKYIGKFKEAIRLLAR</Hsp_hseq>
+      <Hsp_midline>YV  G +D+  E+L       +S+   ++ +NIKV T LG +   + K+  A+ LL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|506250026|ref|WP_015769801.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050277|gb|ACV39461.1| TPR repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769801</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.256389</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LLERSIADAPDNIKVATVL-----GLTYVQVQKYDLAVPLLVKVA------EANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>FLENKLKENPKNVEVVCQLVAVYNELTYQWKDIYKLLNEFIKKYENELTDEEKSRIYTNLGYYYDDQRDGSKR---AIRTLRKAVAFNPNNSKAYYGLGADYYGAGKYDKSEAMYKRACELE</Hsp_hseq>
+      <Hsp_midline> LE  + + P N++V   L      LTY     Y L    + K        E + +  N+ +      D   R   AI + + A+   PN  K +  +   Y   G ++++   +K+A EL+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>3.01309</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>RGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVA--EANPV</Hsp_qseq>
+      <Hsp_hseq>RAIRTLRKAVAFNPNNSKAYYGLGADYYGAGKYDKSEAMYKRACELENNPI</Hsp_hseq>
+      <Hsp_midline>R    L +++A  P+N K    LG  Y    KYD +  +  +    E NP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|506250027|ref|WP_015769802.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050278|gb|ACV39462.1| hypothetical protein Lebu_1590 [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769802</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>0.302411</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>ADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDN--IKVATVLGLTYVQVQKYDLAVPLLVKVAE</Hsp_qseq>
+      <Hsp_hseq>SDEKEIEDDYNYGITLFYCGYFEKAKEMLLRCYEKEPKSAGILYALALCLHYTNDKK--LAEPILDKLLE</Hsp_hseq>
+      <Hsp_midline>+D  ++E   + GI     G  ++  E+L R     P +  I  A  L L Y   +K  LA P+L K+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|506249243|ref|WP_015769018.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257049486|gb|ACV38670.1| hypothetical protein Lebu_0762 [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769018</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.471832</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR------DKGISHAKAGRYSEAVVMLEQVYDA--DAFDVEVAL</Hsp_qseq>
+      <Hsp_hseq>MRQIKMRPGAEAYNRGVDLIRAKRYSEARAEFEKAYNAGIKEADVRIAL</Hsp_hseq>
+      <Hsp_midline>+RQ+  R      ++G+   +A RYSEA    E+ Y+A     DV +AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|506249420|ref|WP_015769195.1|</Hit_id>
+  <Hit_def>9-O-acetyl-N-acetylneuraminate esterase [Leptotrichia buccalis] &gt;gi|257049663|gb|ACV38847.1| protein of unknown function DUF1703 [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769195</Hit_accession>
+  <Hit_len>552</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>0.57068</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>ISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQ</Hsp_qseq>
+      <Hsp_hseq>INAFNNGYYNEAINFF-QVFYSSALKTNDSLKYGIL---TGI----TRIIKEGIFSGLNNLKVDTVLSKRYAE</Hsp_hseq>
+      <Hsp_midline>I+    G Y+EA+    QV+ + A     +L  GI    TG     T +++  I    +N+KV TVL   Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|506249407|ref|WP_015769182.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257049650|gb|ACV38834.1| Sel1 domain protein repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769182</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>0.817511</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGV---ALDNLGRFDEAIDSFKIAL--GLRPNEGKV</Hsp_qseq>
+      <Hsp_hseq>MIEKGY-SDGY-----MGWGLLLNDMGKRDEAINIYKKGIEKG--NIHSMCLLGNIYVREKNYKEAEKYYFMVLEKNDKHYN-QYSMGAIAWCKEQTGDYKQAKEWYKKAVNNGLESQKYKI</Hsp_hseq>
+      <Hsp_midline>M+E+ Y +D +     +  G+     G  D    + ++ I     NI    +LG  YV+ + Y  A      V E N  ++N ++ +G      +  G + +A + +K A+  GL   + K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|506249753|ref|WP_015769528.1|</Hit_id>
+  <Hit_def>thioesterase [Leptotrichia buccalis] &gt;gi|257050003|gb|ACV39187.1| thioesterase superfamily protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769528</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>1.06907</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNL</Hsp_qseq>
+      <Hsp_hseq>LNIEYVNSAQYDEEIEIFVKIEEIN----NIKIKFSYEMYNL</Hsp_hseq>
+      <Hsp_midline>L + YV   +YD  + + VK+ E N    N++ +    + NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|506249675|ref|WP_015769450.1|</Hit_id>
+  <Hit_def>bifunctional ADP-dependent NAD(P)H-hydrate dehydratase/NAD(P)H-hydrate epimerase [Leptotrichia buccalis] &gt;gi|257049923|gb|ACV39107.1| carbohydrate kinase, YjeF related protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769450</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>1.2742</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GLTYVQVQKYDLAVPLLVKVAEANPVNF-NVRFRLGVALDNLGRF-DEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GLTTVITDKNNFSLNVFVPEAMSFPVNFENIE-------ENFEKLENEILNSDVIAIG--PGIGKSYKALKI-FEKLISFEK</Hsp_hseq>
+      <Hsp_midline>GLT V   K + ++ + V  A + PVNF N+        +N  +  +E ++S  IA+G  P  GK ++A+   +E++ S E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|502497957|ref|WP_012806530.1|</Hit_id>
+  <Hit_def>zinc ABC transporter permease [Leptotrichia buccalis] &gt;gi|257049163|gb|ACV38347.1| ABC-3 protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_012806530</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>1.45867</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>DVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV</Hsp_qseq>
+      <Hsp_hseq>DFSIEIQLIAIMVASACSILGTFLVLKSMAMVSDAITHTILLGIVVAFFAVHDLNSPLLI</Hsp_hseq>
+      <Hsp_midline>D  + + L    V +     GT L+ +S+A   D I    +LG+       +DL  PLL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|506250195|ref|WP_015769970.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050447|gb|ACV39631.1| Sel1 domain protein repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769970</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>1.98652</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP------NEGK---VHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>AMSMLKENILKNPSNLELKVFLGMMYEDMGKKKEAEKELNEAVALQKKYPFIGDDGKKYDIRLIIGNLYASGKEYEKALKWYK---EIDDK</Hsp_hseq>
+      <Hsp_midline>A+ +L +    NP N  ++  LG+  +++G+  EA      A+ L+       ++GK   +   I   Y     +E+AL  +K   E+D++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>2.13475</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA---------DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEA--NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>EKVIEEYDKGNKQKAMSMLKENILKNPSNLELKVFLGMMYEDMGKKKEAEKELNEAVALQKKYPFIGDDGKKYDIRLIIGNLYASGKEYEKALKWYKEIDDKYMKDVIGLKEYMIGVSNYALKNPEEAKKYF-LKSYINDKEGDSEDFLGQIYYEEGNHKEALKWYLKSVE</Hsp_hseq>
+      <Hsp_midline>+K I     G   +A+ ML++    +  ++E+ + LG+ Y   G      + L  ++A         D      +  ++G  Y   ++Y+ A+    ++ +     V     + +GV+   L   +EA   F +   +   EG     +   Y + G+H+EAL  + K+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|257049623|gb|ACV38807.1|</Hit_id>
+  <Hit_def>hypothetical protein Lebu_0904 [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>ACV38807</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>3.54907</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE------GKVHRAI---AYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>KMNKYDLFTTMINEIGDF-PVIIS-----GFYLDNTGYDSDEYLGFKINSGWNDNDETATYISKFHRNIRGDANEIRVYYTYEEFLHYF</Hsp_hseq>
+      <Hsp_midline>++ KYDL   ++ ++ +  PV  +     G  LDN G   +    FKI  G   N+       K HR I   A       ++EE L +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1180248716|ref|WP_083767521.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis]</Hit_def>
+  <Hit_accession>WP_083767521</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>3.69776</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE------GKVHRAI---AYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>KMNKYDLFTTMINEIGDF-PVIIS-----GFYLDNTGYDSDEYLGFKINSGWNDNDETATYISKFHRNIRGDANEIRVYYTYEEFLHYF</Hsp_hseq>
+      <Hsp_midline>++ KYDL   ++ ++ +  PV  +     G  LDN G   +    FKI  G   N+       K HR I   A       ++EE L +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|506250420|ref|WP_015770195.1|</Hit_id>
+  <Hit_def>acetyltransferase [Leptotrichia buccalis] &gt;gi|257050673|gb|ACV39857.1| GCN5-related N-acetyltransferase [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015770195</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>4.05078</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LDEVTLYTHYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDV</Hsp_qseq>
+      <Hsp_hseq>IEAINLLLDYGFSFL-----NLRNISLNVFEYNEVAYNLY---KKIGFKEAGRLRKAVEILGKTYDVIIMDM</Hsp_hseq>
+      <Hsp_midline>++ + L   YG S       N+ +   + F  N+    +Y   K I   +AGR  +AV +L + YD    D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|506250411|ref|WP_015770186.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050664|gb|ACV39848.1| TPR repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015770186</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>4.24149</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>LLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR-FRLGV--ALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>LLEMNTAAKSKNAQILGMLGTFYLQQNNLTKAEEYLTKTISVEPKNTSAKVLLLGIYETQNNATKVNSIYNQLKSA---APKE--ANRQIGTYFANIGATALSEKYLQKA</Hsp_hseq>
+      <Hsp_midline>LLE + A    N ++  +LG  Y+Q      A   L K     P N + +   LG+    +N  + +   +  K A    P E   +R I   +  +G+   +  + +KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|257050966|gb|ACV40150.1|</Hit_id>
+  <Hit_def>DNA gyrase, A subunit [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>ACV40150</Hit_accession>
+  <Hit_len>855</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>4.82683</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>GLRPNEGKVHRAIAYSYEQMG-SHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>GLKP----VHRRILFSMSEMGMSHK---TPFKKS</Hsp_hseq>
+      <Hsp_midline>GL+P    VHR I +S  +MG SH+     FKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|908402968|ref|WP_049756128.1|</Hit_id>
+  <Hit_def>DNA gyrase subunit A [Leptotrichia buccalis]</Hit_def>
+  <Hit_accession>WP_049756128</Hit_accession>
+  <Hit_len>838</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>4.90488</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>GLRPNEGKVHRAIAYSYEQMG-SHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>GLKP----VHRRILFSMSEMGMSHK---TPFKKS</Hsp_hseq>
+      <Hsp_midline>GL+P    VHR I +S  +MG SH+     FKK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|502496870|ref|WP_012806336.1|</Hit_id>
+  <Hit_def>suppressor/enhancer of lin-12 [Leptotrichia buccalis] &gt;gi|257048960|gb|ACV38144.1| TPR repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_012806336</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.483</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>6.16867</Hsp_evalue>
+      <Hsp_query-from>194</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>QMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>QEGNYKEALEYFEKASKLGSDMAI</Hsp_hseq>
+      <Hsp_midline>Q G+++EAL +F+KA++L    A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|506250508|ref|WP_015770283.1|</Hit_id>
+  <Hit_def>phosphoglucomutase [Leptotrichia buccalis] &gt;gi|257050764|gb|ACV39948.1| phosphoglucomutase/phosphomannomutase alpha/beta/alpha domain I [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015770283</Hit_accession>
+  <Hit_len>572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>6.21311</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>GLSVAKKLGANMV-----DAFRSAFSVNDDIRQVYY</Hsp_qseq>
+      <Hsp_hseq>GVKLADEIGAKLVMANDPDADRIGIAVKDDKNEWYY</Hsp_hseq>
+      <Hsp_midline>G+ +A ++GA +V     DA R   +V DD  + YY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|506249847|ref|WP_015769622.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050097|gb|ACV39281.1| Sel1 domain protein repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769622</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.483</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>7.24886</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>RDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEA</Hsp_qseq>
+      <Hsp_hseq>RDEG-NYKNAEKYYEEA----KKYDNGAY-------LSIAYLYYNFIDKNEGEKKYKIAYDKGNSQAAYILGSIAYRKGNFNLAKKWYLKGIEKGDKFSNI--DLGKLLISENKIDEA</Hsp_hseq>
+      <Hsp_midline>RD+G ++  A +Y E      + YD  A+       L IAY+    +D+     +  IA    N + A +LG    +   ++LA    +K  E      N+   LG  L +  + DEA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|506250118|ref|WP_015769893.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050369|gb|ACV39553.1| TPR repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015769893</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.483</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>8.36135</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAI</Hsp_qseq>
+      <Hsp_hseq>DKEDYFAIQMLSG-TYLEQKKYAEAEKFLLPLAKKG--NTQAQWFLAMGYFETKKFKEAESWAKKALDGAKREGSFSKHI</Hsp_hseq>
+      <Hsp_midline>D  D   +  + G TY++ +KY  A   L+ +A+    N   ++ L +      +F EA    K AL     EG   + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|506250644|ref|WP_015770419.1|</Hit_id>
+  <Hit_def>hypothetical protein [Leptotrichia buccalis] &gt;gi|257050901|gb|ACV40085.1| Sel1 domain protein repeat-containing protein [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_015770419</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.0978</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>9.20176</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LLERSIADAPD--NIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALG</Hsp_qseq>
+      <Hsp_hseq>LAEKYLKEAAKAGNRKAFLILADIYLKHNKLNLAEKYLKKIADGG--DFELQDKLGTVYRKKSNFELAEYYYKLAIN</Hsp_hseq>
+      <Hsp_midline>L E+ + +A    N K   +L   Y++  K +LA   L K+A+    +F ++ +LG        F+ A   +K+A+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|502498305|ref|WP_012806617.1|</Hit_id>
+  <Hit_def>tRNA 2-thiouridine(34) synthase MnmA [Leptotrichia buccalis] &gt;gi|257049250|gb|ACV38434.1| tRNA(5-methylaminomethyl-2-thiouridylate)-methyl transferase [Leptotrichia buccalis C-1013-b]</Hit_def>
+  <Hit_accession>WP_012806617</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.0978</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>9.53824</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>YTHYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTE</Hsp_qseq>
+      <Hsp_hseq>YTCYNLGIPHYV-LNVVEEFKK------DVMEYF-----IKMYNAGKTPSPCVICDEKVKIKKL-VEFADKMGIKYISTGHYSKVSE</Hsp_hseq>
+      <Hsp_midline>YT Y L +   +  N+V+ F+       D+ + +     I    AG+     V+ ++        VE A  +GI Y+ TG   + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2382</Statistics_db-num>
+      <Statistics_db-len>727948</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

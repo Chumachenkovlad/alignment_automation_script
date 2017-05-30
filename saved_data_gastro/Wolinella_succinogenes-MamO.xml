@@ -1,0 +1,1405 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499452532|ref|WP_011139996.1|</Hit_id>
+  <Hit_def>serine protease [Wolinella succinogenes] &gt;gi|34481793|emb|CAE11214.1| PROTEASE DO [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139996</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>4.22619e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQV</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYILTNNHVIDGADKVIVSLPDNS--KEYEAKVIGKDPRSDLAVIKIEGKDFPFVIFGSSNDLRV--GDVVFAIGNPFGVGETVTQGIVSALNKS-GIGINDYENFIQTDASINPGNSGGALVDSRGALVGINTAILSRTGGNHGVGFAIPSDM</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H +     + V +  ++  + + A+V+   P  +LA++K++  +  F+ F  +N   V  G  VFA G        V QG+V + +    +G     + +++DA  +   +GG LV+++G LVGIN A    TG     GF +P+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|34483661|emb|CAE10658.1|</Hit_id>
+  <Hit_def>INTEGRAL MEMBRANE PROTEIN-Predicted permeases [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>CAE10658</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.0588346</Hsp_evalue>
+      <Hsp_query-from>496</Hsp_query-from>
+      <Hsp_query-to>572</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TRPKTSGIALPEGPTRSAVLGLPMGLFSGI----LGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHG</Hsp_qseq>
+      <Hsp_hseq>SRNPAAGTNDPNHPTPSRWLLIAIGAFTGVFAISLGIGGGMMLAPLLGYYLGYSSKKVIPIALFFVIFSSVSGFASLAYHG</Hsp_hseq>
+      <Hsp_midline>+R   +G   P  PT S  L + +G F+G+    LGI GG++  PL  Y    S +  I  +   V ++SV+G      HG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|753816232|ref|WP_041571865.1|</Hit_id>
+  <Hit_def>membrane protein [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_041571865</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.06506</Hsp_evalue>
+      <Hsp_query-from>496</Hsp_query-from>
+      <Hsp_query-to>572</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>TRPKTSGIALPEGPTRSAVLGLPMGLFSGI----LGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHG</Hsp_qseq>
+      <Hsp_hseq>SRNPAAGTNDPNHPTPSRWLLIAIGAFTGVFAISLGIGGGMMLAPLLGYYLGYSSKKVIPIALFFVIFSSVSGFASLAYHG</Hsp_hseq>
+      <Hsp_midline>+R   +G   P  PT S  L + +G F+G+    LGI GG++  PL  Y    S +  I  +   V ++SV+G      HG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|493707270|ref|WP_006656952.1|</Hit_id>
+  <Hit_def>anion permease [Helicobacter canadensis] &gt;gi|253511382|gb|EES90041.1| integral membrane protein [Helicobacter canadensis MIT 98-5491]</Hit_def>
+  <Hit_accession>EES90041</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.725188</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>569</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAF</Hsp_qseq>
+      <Hsp_hseq>GLLAGILAGLFGIGGGAIIVPMMILLGN-DIKIAIGISIMQMIFSSVYGSYVNY</Hsp_hseq>
+      <Hsp_midline>GL  G+ +G+ GI GG I VP+   +G   ++ AI  S + + ++SV GS V +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>5.26928</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>572</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHG</Hsp_qseq>
+      <Hsp_hseq>GCVVGVFAISLGIGGGMMLAPLLAYYLGYSSKQIVPISLFFVIFSSVSGFTSLALHG</Hsp_hseq>
+      <Hsp_midline>G  +G+F+  LGI GG++  PL  Y    S +  +  S   V ++SV+G     +HG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|499450774|ref|WP_011138238.1|</Hit_id>
+  <Hit_def>hypothetical protein [Wolinella succinogenes] &gt;gi|34482436|emb|CAE09437.1| conserved hypothetical protein [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011138238</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.18809</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>PLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV</Hsp_qseq>
+      <Hsp_hseq>PAVRAIMEHNRDEEIEHAVMGLEWLRRHSPV--WDETMRALLFKEGEIISHEQAFTGKTGEV</Hsp_hseq>
+      <Hsp_midline>P VR  M  + D  +      +  L R   V  W++T   L+  +G+++    A TG TG+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|499451588|ref|WP_011139052.1|</Hit_id>
+  <Hit_def>membrane protein [Wolinella succinogenes] &gt;gi|34483266|emb|CAE10264.1| conserved hypothetical protein [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139052</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>1.7254</Hsp_evalue>
+      <Hsp_query-from>498</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>PKTSGIALPEGPTRS-AVLGLPM-----GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>PKVSN----EGSKRYLGALGMALAAGVVGFYDGFFGPGTGSFFAVVFVALGGYGITHATANAKLLNFTSNVA-SLLFFALGGK---VLW----IIGLVMAIGQYLGARLGSRAAVKHGARIIKPLIVTASLVISARLL</Hsp_hseq>
+      <Hsp_midline>PK S     EG  R    LG+ +     G + G  G   G     +   +G   + +A AN+ +L F ++VA S++ F  GG    + W     + LVM  G Y+G  LG+R       R++K +       I+ ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488036588|ref|WP_002107985.1|</Hit_id>
+  <Hit_def>patatin [Leptospira interrogans] &gt;gi|410765356|gb|EKR36057.1| phospholipase, patatin family [Leptospira interrogans serovar Hebdomadis str. R499]</Hit_def>
+  <Hit_accession>WP_002107985</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.01958</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLITNFVKPIRKGLKNYSGILSGKNVKELLKPHLGRKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN I + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|447082351|ref|WP_001159607.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans] &gt;gi|400326791|gb|EJO79052.1| phospholipase, patatin family [Leptospira interrogans serovar Pomona str. Kennewicki LC82-25] &gt;gi|409947248|gb|EKN97248.1| phospholipase, patatin family [Leptospira interrogans serovar Pomona str. Pomona] &gt;gi|410020431|gb|EKO87233.1| phospholipase, patatin family [Leptospira interrogans serovar Grippotyphosa str. Andaman] &gt;gi|410435951|gb|EKP85077.1| phospholipase, patatin family [Leptospira interrogans serovar Grippotyphosa str. 2006006986] &gt;gi|410775978|gb|EKR55967.1| phospholipase, patatin family [Leptospira interrogans str. UI 12758] &gt;gi|455669355|gb|EMF34484.1| phospholipase, patatin family [Leptospira interrogans serovar Pomona str. Fox 32256] &gt;gi|461475062|gb|EMI60386.1| phospholipase, patatin family [Leptospira interrogans serovar Pomona str. CSL10083] &gt;gi|462457102|gb|EMJ37139.1| phospholipase, patatin family [Leptospira interrogans str. FPW1039] &gt;gi|463293980|gb|EMJ63003.1| phospholipase, patatin family [Leptospira interrogans serovar Pomona str. CSL4002] &gt;gi|464272722|gb|EMN72417.1| phospholipase, patatin family [Leptospira interrogans serovar Bataviae str. UI 08561] &gt;gi|464309851|gb|EMO00059.1| phospholipase, patatin family [Leptospira interrogans serovar Pomona str. UT364] &gt;gi|689454520|gb|KGE27944.1| alpha/beta hydrolase [Leptospira interrogans serovar Lai] &gt;gi|1014905855|gb|KYZ64034.1| alpha/beta hydrolase [Leptospira interrogans serovar Pomona] &gt;gi|1134437509|gb|OMH71341.1| alpha/beta hydrolase [Leptospira interrogans serovar Pomona] &gt;gi|1169622559|gb|OQM29244.1| alpha/beta hydrolase [Leptospira interrogans]</Hit_def>
+  <Hit_accession>WP_001159607</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.14704</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLITNFVKPIRKGLKNYSGILSGKNVKELLKPHLGRKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN I + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|499451462|ref|WP_011138926.1|</Hit_id>
+  <Hit_def>DNA-binding response regulator [Wolinella succinogenes] &gt;gi|34483134|emb|CAE10133.1| hypothetical protein WS1033 [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011138926</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>2.70185</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>AYLLDNYDEDDYFRGS</Hsp_qseq>
+      <Hsp_hseq>KYLLDNCDQDNVFHGS</Hsp_hseq>
+      <Hsp_midline> YLLDN D+D+ F GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|447082361|ref|WP_001159617.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans] &gt;gi|463285525|gb|EMJ55512.1| phospholipase, patatin family [Leptospira interrogans serovar Valbuzzi str. Duyster] &gt;gi|478978048|gb|ENO71674.1| phospholipase, patatin family [Leptospira interrogans serovar Valbuzzi str. Valbuzzi] &gt;gi|605705542|gb|EYU63629.1| alpha/beta hydrolase [Leptospira interrogans serovar Manilae] &gt;gi|873248097|gb|AKP27068.1| alpha/beta hydrolase [Leptospira interrogans serovar Manilae] &gt;gi|873251875|gb|AKP30843.1| alpha/beta hydrolase [Leptospira interrogans serovar Manilae]</Hit_def>
+  <Hit_accession>WP_001159617</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>2.74246</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|447082349|ref|WP_001159605.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans] &gt;gi|400359444|gb|EJP15433.1| phospholipase, patatin family [Leptospira interrogans str. FPW2026] &gt;gi|410013161|gb|EKO71244.1| phospholipase, patatin family [Leptospira interrogans serovar Canicola str. Fiocruz LV133] &gt;gi|410789632|gb|EKR83332.1| phospholipase, patatin family [Leptospira interrogans str. UI 08452] &gt;gi|463354546|gb|EMK17458.1| phospholipase, patatin family [Leptospira interrogans str. Kito] &gt;gi|464221463|gb|EMN33068.1| phospholipase, patatin family [Leptospira interrogans serovar Medanensis str. L0448] &gt;gi|464229832|gb|EMN39579.1| phospholipase, patatin family [Leptospira interrogans str. L0996] &gt;gi|464279432|gb|EMN77645.1| phospholipase, patatin family [Leptospira interrogans str. UI 09600] &gt;gi|464303081|gb|EMN95044.1| phospholipase, patatin family [Leptospira interrogans serovar Medanensis str. UT053] &gt;gi|1132548069|gb|OLZ31859.1| alpha/beta hydrolase [Leptospira interrogans serovar Canicola] &gt;gi|1169620506|gb|OQM27318.1| alpha/beta hydrolase [Leptospira interrogans serovar Canicola str. Gui44]</Hit_def>
+  <Hit_accession>WP_001159605</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>2.86497</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLITNFVKPIRKGLKNYSGILSGKNIKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN I + V  +  GL  ++ I++GK + E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488108823|ref|WP_002180220.1|</Hit_id>
+  <Hit_def>patatin [Leptospira interrogans] &gt;gi|464380381|gb|EMO52107.1| phospholipase, patatin family [Leptospira interrogans str. HAI1536]</Hit_def>
+  <Hit_accession>WP_002180220</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>3.09941</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1001684443|ref|WP_061247808.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira noguchii]</Hit_def>
+  <Hit_accession>WP_061247808</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.23784</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|490588175|ref|WP_004453195.1|</Hit_id>
+  <Hit_def>patatin [Leptospira noguchii] &gt;gi|474496903|gb|EMS84788.1| phospholipase, patatin family [Leptospira noguchii str. Cascata]</Hit_def>
+  <Hit_accession>WP_004453195</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.29493</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|490585752|ref|WP_004450772.1|</Hit_id>
+  <Hit_def>patatin [Leptospira noguchii] &gt;gi|461479102|gb|EMI64246.1| phospholipase, patatin family [Leptospira noguchii str. Bonito]</Hit_def>
+  <Hit_accession>WP_004450772</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.29493</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1001662262|ref|WP_061232739.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira noguchii]</Hit_def>
+  <Hit_accession>WP_061232739</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.32384</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|537756879|ref|WP_020981033.1|</Hit_id>
+  <Hit_def>patatin [Leptospira noguchii] &gt;gi|529329541|gb|EQA70666.1| phospholipase, patatin family [Leptospira noguchii serovar Panama str. CZ214]</Hit_def>
+  <Hit_accession>WP_020981033</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.32384</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|447082360|ref|WP_001159616.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans] &gt;gi|400350008|gb|EJP02290.1| phospholipase, patatin family [Leptospira interrogans serovar Bulgarica str. Mallika] &gt;gi|464173115|gb|EMM97474.1| phospholipase, patatin family [Leptospira interrogans serovar Zanoni str. LT2156] &gt;gi|1031923934|gb|OAM74459.1| alpha/beta hydrolase [Leptospira interrogans serovar Bataviae]</Hit_def>
+  <Hit_accession>WP_001159616</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.32384</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|516473865|ref|WP_017862309.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans]</Hit_def>
+  <Hit_accession>WP_017862309</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.35302</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|516465256|ref|WP_017853719.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans]</Hit_def>
+  <Hit_accession>WP_017853719</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.35302</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|499451301|ref|WP_011138765.1|</Hit_id>
+  <Hit_def>chemotaxis chemoreceptor MCPG [Wolinella succinogenes] &gt;gi|34482969|emb|CAE09968.1| PUTATIVE CHEMOTAXIS CHEMORECEPTOR MCPG [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011138765</Hit_accession>
+  <Hit_len>545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>3.35477</Hsp_evalue>
+      <Hsp_query-from>475</Hsp_query-from>
+      <Hsp_query-to>518</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>450</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>AIAAAEAGDE-------MDELMALAEGT---TRPKTSGIALPEGPTRSAVLGLP</Hsp_qseq>
+      <Hsp_hseq>AIEAARAGESGRGFAVVADEIRKLAERTDTATQEITRMIGLIQSETKEAVLGME</Hsp_hseq>
+      <Hsp_midline>AI AA AG+         DE+  LAE T   T+  T  I L +  T+ AVLG+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488083800|ref|WP_002155197.1|</Hit_id>
+  <Hit_def>patatin [Leptospira noguchii] &gt;gi|464345163|gb|EMO25378.1| phospholipase, patatin family [Leptospira interrogans serovar Bataviae str. HAI135] &gt;gi|464364847|gb|EMO39233.1| phospholipase, patatin family [Leptospira noguchii serovar Autumnalis str. ZUN142]</Hit_def>
+  <Hit_accession>WP_002155197</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.38244</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|924589666|ref|WP_053523299.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira noguchii]</Hit_def>
+  <Hit_accession>WP_053523299</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.41213</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|490589246|ref|WP_004454266.1|</Hit_id>
+  <Hit_def>patatin [Leptospira noguchii] &gt;gi|474502164|gb|EMS89640.1| phospholipase, patatin family [Leptospira noguchii str. Hook]</Hit_def>
+  <Hit_accession>WP_004454266</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.44208</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|464242020|gb|EMN49010.1|</Hit_id>
+  <Hit_def>phospholipase, patatin family [Leptospira interrogans str. L1207]</Hit_def>
+  <Hit_accession>EMN49010</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.44208</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1001687818|ref|WP_061250447.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans]</Hit_def>
+  <Hit_accession>WP_061250447</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.47228</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|447082353|ref|WP_001159609.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans] &gt;gi|45599723|gb|AAS69211.1| conserved hypothetical protein [Leptospira interrogans serovar Copenhageni str. Fiocruz L1-130] &gt;gi|409963380|gb|EKO27106.1| phospholipase, patatin family [Leptospira interrogans str. UI 12621] &gt;gi|410346489|gb|EKO97473.1| phospholipase, patatin family [Leptospira interrogans str. Brem 329] &gt;gi|410369024|gb|EKP24398.1| phospholipase, patatin family [Leptospira interrogans serovar Icterohaemorrhagiae str. Verdun LP] &gt;gi|410433417|gb|EKP77763.1| phospholipase, patatin family [Leptospira interrogans str. HAI1594] &gt;gi|410757443|gb|EKR19054.1| phospholipase, patatin family [Leptospira interrogans serovar Pyrogenes str. 2006006960] &gt;gi|410771330|gb|EKR46537.1| phospholipase, patatin family [Leptospira interrogans serovar Grippotyphosa str. UI 08368] &gt;gi|455791103|gb|EMF42929.1| phospholipase, patatin family [Leptospira interrogans serovar Lora str. TE 1992] &gt;gi|456822842|gb|EMF71312.1| phospholipase, patatin family [Leptospira interrogans serovar Canicola str. LT1962] &gt;gi|456967096|gb|EMG08527.1| phospholipase, patatin family [Leptospira interrogans serovar Grippotyphosa str. LT2186] &gt;gi|463276226|gb|EMJ47196.1| phospholipase, patatin family [Leptospira interrogans str. UT126] &gt;gi|464161382|gb|EMM89128.1| phospholipase, patatin family [Leptospira interrogans serovar Djasiman str. LT1649] &gt;gi|464188046|gb|EMN08371.1| phospholipase, patatin family [Leptospira interrogans serovar Muenchen str. Brem 129] &gt;gi|464249884|gb|EMN55271.1| phospholipase, patatin family [Leptospira interrogans serovar Autumnalis str. LP101] &gt;gi|464264895|gb|EMN66248.1| phospholipase, patatin family [Leptospira interrogans serovar Grippotyphosa str. UI 08434] &gt;gi|464283968|gb|EMN81204.1| phospholipase, patatin family [Leptospira interrogans serovar Grippotyphosa str. UI 12764] &gt;gi|464287469|gb|EMN83405.1| phospholipase, patatin family [Leptospira interrogans serovar Grippotyphosa str. UI 12769] &gt;gi|464317347|gb|EMO04932.1| phospholipase, patatin family [Leptospira interrogans serovar Icterohaemorrhagiae str. Verdun HP] &gt;gi|464336143|gb|EMO18490.1| phospholipase, patatin family [Leptospira interrogans serovar Copenhageni str. HAI0188] &gt;gi|464359627|gb|EMO35339.1| phospholipase, patatin family [Leptospira interrogans str. MMD3731] &gt;gi|464451337|gb|EMO94137.1| phospholipase, patatin family [Leptospira interrogans str. UI 13372] &gt;gi|476492662|gb|EMY52997.1| phospholipase, patatin family [Leptospira interrogans serovar Copenhageni str. M20] &gt;gi|764083979|gb|AJR13201.1| esterase-like protein [Leptospira interrogans serovar Linhai str. 56609] &gt;gi|822487044|gb|AKH76135.1| alpha/beta hydrolase [Leptospira interrogans serovar Bratislava] &gt;gi|829080215|gb|KLO77641.1| Phospholipase, patatin family [Leptospira interrogans serovar Muenchen] &gt;gi|927714885|gb|KPA30301.1| Phospholipase, patatin family [Leptospira interrogans] &gt;gi|927717498|gb|KPA32734.1| Phospholipase, patatin family [Leptospira interrogans] &gt;gi|927985749|gb|ALE37991.1| hypothetical protein G436_0774 [Leptospira interrogans serovar Hardjo str. Norma] &gt;gi|952238425|gb|ALN99348.1| alpha/beta hydrolase [Leptospira interrogans serovar Hardjo-prajitno] &gt;gi|983389307|gb|KWV22238.1| hypothetical protein LA733_3423 [Leptospira interrogans] &gt;gi|983390228|gb|KWV22998.1| hypothetical protein LA702_3393 [Leptospira interrogans] &gt;gi|1044861722|gb|OCC30119.1| Phospholipase, patatin family [Leptospira interrogans serovar Canicola] &gt;gi|1111280707|gb|APH40566.1| Phospholipase, patatin family [Leptospira interrogans serovar Copenhageni/Icterohaemorrhagiae] &gt;gi|1131908181|emb|SIQ28878.1| Predicted acylesterase/phospholipase RssA, contains patatin domain [Leptospira interrogans] &gt;gi|1145353779|gb|OOB93732.1| alpha/beta hydrolase [Leptospira interrogans serovar Hardjo] &gt;gi|1169357228|gb|ARB96641.1| alpha/beta hydrolase [Leptospira interrogans serovar Copenhageni]</Hit_def>
+  <Hit_accession>WP_001159609</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.47228</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|488030682|ref|WP_002102081.1|</Hit_id>
+  <Hit_def>patatin [Leptospira interrogans] &gt;gi|410760237|gb|EKR26433.1| phospholipase, patatin family [Leptospira interrogans serovar Bataviae str. L1111]</Hit_def>
+  <Hit_accession>WP_002102081</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.47228</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|490564029|ref|WP_004429063.1|</Hit_id>
+  <Hit_def>patatin [Leptospira noguchii] &gt;gi|464178565|gb|EMN01046.1| phospholipase, patatin family [Leptospira noguchii str. 2007001578] &gt;gi|464429745|gb|EMO87241.1| phospholipase, patatin family [Leptospira noguchii str. 2001034031] &gt;gi|512767571|gb|EPE83687.1| phospholipase, patatin family [Leptospira noguchii str. 1993005606]</Hit_def>
+  <Hit_accession>WP_004429063</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.50276</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|490554058|ref|WP_004419157.1|</Hit_id>
+  <Hit_def>patatin [Leptospira noguchii] &gt;gi|410786592|gb|EKR75530.1| phospholipase, patatin family [Leptospira noguchii str. 2006001870]</Hit_def>
+  <Hit_accession>WP_004419157</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.51779</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPHLGNKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|490905298|ref|WP_004767220.1|</Hit_id>
+  <Hit_def>patatin [Leptospira kirschneri] &gt;gi|409954382|gb|EKO13337.1| phospholipase, patatin family [Leptospira kirschneri str. H1] &gt;gi|410005460|gb|EKO59251.1| phospholipase, patatin family [Leptospira kirschneri str. H2] &gt;gi|463362052|gb|EMK23994.1| phospholipase, patatin family [Leptospira kirschneri serovar Bulgarica str. Nikolaevo]</Hit_def>
+  <Hit_accession>WP_004767220</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.5335</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLRPHLGHQKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|490920933|ref|WP_004782804.1|</Hit_id>
+  <Hit_def>patatin [Leptospira kirschneri] &gt;gi|410356813|gb|EKP04119.1| phospholipase, patatin family [Leptospira kirschneri str. 2008720114]</Hit_def>
+  <Hit_accession>WP_004782804</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.56451</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLRPHLGHQKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|447082355|ref|WP_001159611.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans] &gt;gi|409952456|gb|EKO06967.1| phospholipase, patatin family [Leptospira interrogans str. C10069] &gt;gi|464261503|gb|EMN64134.1| phospholipase, patatin family [Leptospira interrogans serovar Pyrogenes str. R168]</Hit_def>
+  <Hit_accession>WP_001159611</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.56451</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|499988565|ref|WP_011669283.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira borgpetersenii] &gt;gi|116119794|gb|ABJ77837.1| Alpha-beta hydrolase [Leptospira borgpetersenii serovar Hardjo-bovis str. L550] &gt;gi|116125980|gb|ABJ77251.1| Alpha-beta hydrolase [Leptospira borgpetersenii serovar Hardjo-bovis str. JB197] &gt;gi|463316143|gb|EMJ82470.1| phospholipase, patatin family [Leptospira borgpetersenii serovar Hardjo-bovis str. Sponselee] &gt;gi|1016614501|gb|AMX57062.1| alpha/beta hydrolase [Leptospira borgpetersenii serovar Hardjo] &gt;gi|1016618284|gb|AMX60293.1| alpha/beta hydrolase [Leptospira borgpetersenii serovar Hardjo] &gt;gi|1016621974|gb|AMX63540.1| alpha/beta hydrolase [Leptospira borgpetersenii serovar Hardjo] &gt;gi|1016626924|gb|AMX66779.1| alpha/beta hydrolase [Leptospira borgpetersenii serovar Hardjo] &gt;gi|1016634204|gb|AMX72524.1| alpha/beta hydrolase [Leptospira borgpetersenii serovar Hardjo]</Hit_def>
+  <Hit_accession>WP_011669283</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.62735</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAI</Hsp_qseq>
+      <Hsp_hseq>FWEGNLITNFVKPIRKGLKNYSGILSGKKIKELLKPHLGHKKIEDL</Hsp_hseq>
+      <Hsp_midline>++ GN I + V  +  GL  ++ I++GK + E+L+P+ G    E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|464146960|gb|EMM79723.1|</Hit_id>
+  <Hit_def>phospholipase, patatin family [Leptospira interrogans str. 2006001854]</Hit_def>
+  <Hit_accession>EMM79723</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.65918</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|523638859|ref|WP_020775094.1|</Hit_id>
+  <Hit_def>patatin [Leptospira alstonii] &gt;gi|463325456|gb|EMJ91013.1| phospholipase, patatin family [Leptospira alstonii serovar Sichuan str. 79601] &gt;gi|529334581|gb|EQA78534.1| phospholipase, patatin family [Leptospira alstonii serovar Pingchang str. 80-412]</Hit_def>
+  <Hit_accession>WP_020775094</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.69129</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAI</Hsp_qseq>
+      <Hsp_hseq>FWEGNLITNFVKPIRKGLKNYSGILSGKKIKELLKPHLGHKKIEDL</Hsp_hseq>
+      <Hsp_midline>++ GN I + V  +  GL  ++ I++GK + E+L+P+ G    E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|447082347|ref|WP_001159603.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans] &gt;gi|409940340|gb|EKN85982.1| phospholipase, patatin family [Leptospira interrogans str. 2002000624] &gt;gi|410574317|gb|EKQ37355.1| phospholipase, patatin family [Leptospira interrogans str. 2002000621] &gt;gi|410580700|gb|EKQ48519.1| phospholipase, patatin family [Leptospira interrogans str. 2002000623] &gt;gi|463303080|gb|EMJ71004.1| phospholipase, patatin family [Leptospira interrogans str. 2002000632] &gt;gi|463307751|gb|EMJ75130.1| phospholipase, patatin family [Leptospira interrogans str. 2003000735] &gt;gi|463315852|gb|EMJ82197.1| phospholipase, patatin family [Leptospira interrogans str. 2002000631] &gt;gi|476385664|gb|EMY05264.1| phospholipase, patatin family [Leptospira interrogans str. 2002000626] &gt;gi|476398691|gb|EMY27991.1| phospholipase, patatin family [Leptospira interrogans serovar Australis str. 200703203] &gt;gi|1145360464|gb|OOC00319.1| alpha/beta hydrolase [Leptospira interrogans serovar Australis]</Hit_def>
+  <Hit_accession>WP_001159603</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.69129</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|464216621|gb|EMN29698.1|</Hit_id>
+  <Hit_def>phospholipase, patatin family [Leptospira interrogans serovar Pyrogenes str. L0374]</Hit_def>
+  <Hit_accession>EMN29698</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.73955</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|447082352|ref|WP_001159608.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans] &gt;gi|456989014|gb|EMG23905.1| phospholipase, patatin family [Leptospira interrogans serovar Copenhageni str. LT2050] &gt;gi|927712297|gb|KPA27819.1| Phospholipase, patatin family [Leptospira interrogans]</Hit_def>
+  <Hit_accession>WP_001159608</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.73955</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|537815765|ref|WP_020985741.1|</Hit_id>
+  <Hit_def>patatin [Leptospira kmetyi] &gt;gi|529320102|gb|EQA52245.1| phospholipase, patatin family [Leptospira kmetyi serovar Malaysia str. Bejo-Iso9]</Hit_def>
+  <Hit_accession>WP_020985741</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.75636</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAI</Hsp_qseq>
+      <Hsp_hseq>FWEGNLITNFVKPIRKGLKNYSGILSGKKIKELLKPHLGHKKIEDL</Hsp_hseq>
+      <Hsp_midline>++ GN I + V  +  GL  ++ I++GK + E+L+P+ G    E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|488810983|ref|WP_002723389.1|</Hit_id>
+  <Hit_def>patatin [Leptospira borgpetersenii] &gt;gi|464194928|gb|EMN14176.1| phospholipase, patatin family [Leptospira borgpetersenii str. Brem 307] &gt;gi|464198945|gb|EMN16789.1| phospholipase, patatin family [Leptospira borgpetersenii str. Brem 328]</Hit_def>
+  <Hit_accession>WP_002723389</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.75636</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAI</Hsp_qseq>
+      <Hsp_hseq>FWEGNLITNFVKPIRKGLKNYSGILSGKKIKELLKPHLGHKKIEDL</Hsp_hseq>
+      <Hsp_midline>++ GN I + V  +  GL  ++ I++GK + E+L+P+ G    E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|488822517|ref|WP_002734923.1|</Hit_id>
+  <Hit_def>MULTISPECIES: patatin [Leptospira] &gt;gi|410361765|gb|EKP12805.1| phospholipase, patatin family [Leptospira borgpetersenii str. 200801926] &gt;gi|410745119|gb|EKQ93851.1| phospholipase, patatin family [Leptospira borgpetersenii str. UI 09149] &gt;gi|410747109|gb|EKR00015.1| phospholipase, patatin family [Leptospira borgpetersenii serovar Castellonis str. 200801910] &gt;gi|456886900|gb|EMF98015.1| phospholipase, patatin family [Leptospira borgpetersenii str. 200701203] &gt;gi|463350507|gb|EMK13859.1| phospholipase, patatin family [Leptospira sp. serovar Kenya str. Sh9] &gt;gi|464252954|gb|EMN57334.1| phospholipase, patatin family [Leptospira borgpetersenii serovar Javanica str. MK146] &gt;gi|464323418|gb|EMO08006.1| phospholipase, patatin family [Leptospira borgpetersenii str. Noumea 25] &gt;gi|464391542|gb|EMO60345.1| phospholipase, patatin family [Leptospira borgpetersenii serovar Pomona str. 200901868] &gt;gi|478972889|gb|ENO64860.1| phospholipase, patatin family [Leptospira borgpetersenii serovar Mini str. 201000851] &gt;gi|514172261|gb|EPG57875.1| phospholipase, patatin family [Leptospira borgpetersenii serovar Javanica str. UI 09931] &gt;gi|689452581|gb|KGE26283.1| alpha/beta hydrolase [Leptospira borgpetersenii serovar Ballum] &gt;gi|952991757|gb|ALO27970.1| phospholipase, patatin family [Leptospira borgpetersenii serovar Ballum] &gt;gi|1137167777|gb|APY25143.1| Phospholipase, patatin family [Leptospira borgpetersenii str. 4E] &gt;gi|1151947287|gb|OOV45045.1| alpha/beta hydrolase [Leptospira borgpetersenii serovar Ballum]</Hit_def>
+  <Hit_accession>WP_002734923</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.78932</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAI</Hsp_qseq>
+      <Hsp_hseq>FWEGNLITNFVKPIRKGLKNYSGILSGKKIKELLKPHLGHKKIEDL</Hsp_hseq>
+      <Hsp_midline>++ GN I + V  +  GL  ++ I++GK + E+L+P+ G    E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1001680434|ref|WP_061245306.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira interrogans]</Hit_def>
+  <Hit_accession>WP_061245306</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.82257</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNIVTNFVKPIRKGLKNYSGILSGKNVKELLKPHLGHKKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|490890911|ref|WP_004752864.1|</Hit_id>
+  <Hit_def>MULTISPECIES: alpha/beta hydrolase [Leptospira] &gt;gi|400322138|gb|EJO69996.1| phospholipase, patatin family [Leptospira kirschneri serovar Grippotyphosa str. RM52] &gt;gi|409999789|gb|EKO50474.1| phospholipase, patatin family [Leptospira kirschneri str. 200802841] &gt;gi|410740038|gb|EKQ84760.1| phospholipase, patatin family [Leptospira kirschneri serovar Grippotyphosa str. Moskva] &gt;gi|410751054|gb|EKR08033.1| phospholipase, patatin family [Leptospira kirschneri serovar Valbuzzi str. 200702274] &gt;gi|463329555|gb|EMJ94697.1| phospholipase, patatin family [Leptospira kirschneri str. JB] &gt;gi|463342741|gb|EMK06786.1| phospholipase, patatin family [Leptospira kirschneri str. MMD1493] &gt;gi|463344864|gb|EMK08675.1| phospholipase, patatin family [Leptospira santarosai str. CBC613] &gt;gi|463354752|gb|EMK17630.1| phospholipase, patatin family [Leptospira kirschneri serovar Bim str. PUO 1247] &gt;gi|464182592|gb|EMN03750.1| phospholipase, patatin family [Leptospira kirschneri serovar Bim str. 1051] &gt;gi|464209164|gb|EMN23932.1| phospholipase, patatin family [Leptospira kirschneri serovar Sokoine str. RM1] &gt;gi|464398158|gb|EMO65923.1| phospholipase, patatin family [Leptospira kirschneri str. 200803703] &gt;gi|464409915|gb|EMO75214.1| phospholipase, patatin family [Leptospira kirschneri str. 200801925] &gt;gi|464418690|gb|EMO82548.1| phospholipase, patatin family [Leptospira kirschneri str. 200801774] &gt;gi|922589838|gb|KON78698.1| Phospholipase, patatin family [Leptospira kirschneri serovar Mozdok] &gt;gi|940469135|gb|KPZ77179.1| alpha/beta hydrolase [Leptospira kirschneri serovar Mozdok] &gt;gi|1004105012|gb|KXZ28727.1| alpha/beta hydrolase [Leptospira interrogans] &gt;gi|1004109951|gb|KXZ33517.1| alpha/beta hydrolase [Leptospira sp. ZV016] &gt;gi|1151942813|gb|OOV40651.1| alpha/beta hydrolase [Leptospira kirschneri serovar Pomona] &gt;gi|1151952433|gb|OOV50078.1| alpha/beta hydrolase [Leptospira kirschneri serovar Grippotyphosa]</Hit_def>
+  <Hit_accession>WP_004752864</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.85612</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLRPHLGHQKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|514400642|ref|WP_016560901.1|</Hit_id>
+  <Hit_def>patatin [Leptospira kirschneri] &gt;gi|514167113|gb|EPG48849.1| phospholipase, patatin family [Leptospira kirschneri serovar Cynopteri str. 3522 CT]</Hit_def>
+  <Hit_accession>WP_016560901</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.92409</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAIA</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKNVKELLRPHLGHQKIEELS</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P+ G    E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|499452324|ref|WP_011139788.1|</Hit_id>
+  <Hit_def>glycerol-3-phosphate dehydrogenase (NAD(P)(+)) [Wolinella succinogenes] &gt;gi|48428002|sp|Q7M7Y3.1|GPDA_WOLSU RecName: Full=Glycerol-3-phosphate dehydrogenase [NAD(P)+]; AltName: Full=NAD(P)H-dependent glycerol-3-phosphate dehydrogenase &gt;gi|34484010|emb|CAE11006.1| GLYCEROL-3-PHOSPHATE DEHYDROGENASE [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139788</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>4.87937</Hsp_evalue>
+      <Hsp_query-from>329</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>FVDTDHVGGAKIGGYS--------IADILGLGMLALAAGVTGGMMTM</Hsp_qseq>
+      <Hsp_hseq>YVENDVVGGEVCGAYKNVIAIAGGICDGLGLGYNAKASLVARGLVEM</Hsp_hseq>
+      <Hsp_midline>+V+ D VGG   G Y         I D LGLG  A A+ V  G++ M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1001687285|ref|WP_061249933.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Leptospira alstonii]</Hit_def>
+  <Hit_accession>WP_061249933</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>6.28888</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAI</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKIKELLKPHLGHKKIEDL</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK + E+L+P+ G    E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|489096745|ref|WP_003006625.1|</Hit_id>
+  <Hit_def>patatin [Leptospira weilii] &gt;gi|476504799|gb|EMY76989.1| phospholipase, patatin family [Leptospira weilii serovar Ranarum str. ICFT]</Hit_def>
+  <Hit_accession>WP_003006625</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>7.82287</Hsp_evalue>
+      <Hsp_query-from>433</Hsp_query-from>
+      <Hsp_query-to>476</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>YFIGNAIGDSVVGVLLGL--FALIMAGKAVLEILQPNAGEDTAEAI</Hsp_qseq>
+      <Hsp_hseq>FWEGNLVTNFVKPIRKGLKNYSGILSGKKVKELLKPQLGHKKIEDL</Hsp_hseq>
+      <Hsp_midline>++ GN + + V  +  GL  ++ I++GK V E+L+P  G    E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2930</Statistics_db-num>
+      <Statistics_db-len>930765</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

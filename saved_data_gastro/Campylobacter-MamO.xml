@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1073406145|gb|OEY25822.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter concisus]</Hit_def>
+  <Hit_accession>OEY25822</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>5.94707e-11</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGI-RRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN</Hsp_qseq>
+      <Hsp_hseq>VEQVAANVLPAVVSIEVGTLRGGAEGSGSIISSDGYVLTNHHVIADAQDPRAEIMVTLNDGSRHPATFVASDVNTDVGVIKIEGVDNLPVIQFGNSDDLRVGQQVVAVGSPLGLSATVTTGIVSALNRPVRASQGGGESSLMDGIQTDAAINPGNSGGPLVDMNGNLIGMN</Hsp_hseq>
+      <Hsp_midline>V+++   V PAVV +  G +  G   SG+I+ ++GYV+T  H +A+  D   ++  +     R PA  V +    ++ ++K++  +     +  N   +  GQQV A G  +  +  V  G+V + + P+      G + +   +++DA  +   +GGPLV+  G+L+G+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|501057391|ref|WP_012108831.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter hominis] &gt;gi|153804031|gb|ABS51038.1| protease do [Campylobacter hominis ATCC BAA-381]</Hit_def>
+  <Hit_accession>WP_012108831</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>8.51771e-11</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>AKSLGSGVIISNDGYIVTNNHVVENADEIIVTLSESD--KEFKAKLIGNDPKTDIAIIKIDKKD-LTAIKFGDSGELLEGDMVFAIGNPFGVGETITQGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALIGINSAILSSSGGNNGVGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>A  + SG I+  +GY++T  H V N  +I V ++ S   + F A+++   P  ++A++K+   +     +  +   ++ G  VFA G        + QG++ + +    +G  Q  + +++DA  +   +GG LV+++G L+GIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1129543874|ref|WP_075494399.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|998757419|emb|CZE47889.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|998759214|emb|CZE50823.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|998760964|emb|CZE48301.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_075494399</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.33013e-10</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN--IAATGPTGKVEGFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIVTNNHVVEDADEILVNLSDDD--KEYKAKVVGTDPKTDIAIIKIDA-KNLEAIKFADSSKLLEGDMVFAIGNPFGVGSTITQGIISALNKS-NIGLNQYENFIQTDASINPGNSGGALVDSRGALIGINSAILSRGGGNNGVGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H V +  +I V ++     + + A+VV T P  ++A++K+   +     + A+   ++ G  VFA G        + QG++ + +    +G  Q  + +++DA  +   +GG LV+++G L+GIN  I + G      GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|492508513|ref|WP_005870174.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter gracilis] &gt;gi|257442823|gb|EEV17957.1| peptidase Do [Campylobacter gracilis RM3268] &gt;gi|909718383|gb|AKT92722.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter gracilis]</Hit_def>
+  <Hit_accession>WP_005870174</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.36307e-10</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLH-FRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN--IAATGPTGKVEGFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>LGSGVIISEDGYIVTNNHVIENADEIVVTLL--EGDKEYKAKVIGTDPKTDLAIIKID--EKNLSAVKFADSSKAMEGDIVFAIGNPFGVGGTITQGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALLGINSAILSRGGGNNGVGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>+ SG I+  +GY++T  H + N  +I V +    G + + A+V+ T P  +LA++K+   EK L   + A+    + G  VFA G        + QG++ + +    +G  Q  + +++DA  +   +GG LV+++G L+GIN  I + G      GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1176421938|ref|WP_082259691.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_082259691</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.14344e-10</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGI-RRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN</Hsp_qseq>
+      <Hsp_hseq>VEQVAANVLPAVVSIEVGTLRGGAEGSGSIISSDGYVLTNHHVIADAQDPRAEIMVTLNDGSRHPATFVASDVNTDVGVIKIEGVDNLPVIQFGNSDDLRVGQQVVAVGSPLGLSATVTTGIVSALNRPVRASQGGGESSLMDGIQTDAAINPGNSGGPLVDMNGNLIGMN</Hsp_hseq>
+      <Hsp_midline>V+++   V PAVV +  G +  G   SG+I+ ++GYV+T  H +A+  D   ++  +     R PA  V +    ++ ++K++  +     +  N   +  GQQV A G  +  +  V  G+V + + P+      G + +   +++DA  +   +GGPLV+  G+L+G+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|557309126|ref|WP_023384915.1|</Hit_id>
+  <Hit_def>heat-shock protein HtrA [Campylobacter fetus] &gt;gi|556854145|gb|AGZ81622.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. testudinum 03-427] &gt;gi|1049824707|gb|OCR93543.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049840055|gb|OCS07621.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049841601|gb|OCS09058.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049843611|gb|OCS10904.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049845339|gb|OCS12382.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049846529|gb|OCS13377.1| serine protease [Campylobacter fetus subsp. testudinum]</Hit_def>
+  <Hit_accession>WP_023384915</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>3.98343e-10</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>ATSLGSGVIISNNGYIVTNYHVVEDSDEIIVTLLDNS--KEYKAKVVGIDPKTDLAIIKIDA-KNFQAISFADSSKLLEGDMVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>A  + SG I+  NGY++T  H V +  +I V +  ++  + + A+VV   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|497337268|ref|WP_009651481.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Campylobacter] &gt;gi|153793235|gb|EAT99437.2| periplasmic heat shock serine protease HtrA, Do family [Campylobacter curvus 525.92] &gt;gi|401015792|gb|EJP74570.1| peptidase Do [Campylobacter sp. FOBRC14]</Hit_def>
+  <Hit_accession>WP_009651481</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>4.42927e-10</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIASKDGYIITNNHVIEDSDQILVTLA--KGGKEYKAKVIGSDPKTDLAVIKIEAND-LDAITFADSSKLLDGDVVFAIGNPFGVGESVTQGIVSGLNKD-NIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSRSGDNNGIGFAIPSSMV</Hsp_hseq>
+      <Hsp_midline>SG I   +GY+IT  H + +   I V +A   G + + A+V+ + P  +LA++K++  +       A+   ++ G  VFA G        V QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|516864234|ref|WP_018136427.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter curvus]</Hit_def>
+  <Hit_accession>WP_018136427</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>4.50755e-10</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIASKDGYIITNNHVIEDSDQILVTLA--KGGKEYKAKVIGSDPKTDLAVIKIEAND-LDAITFADSSKLLDGDVVFAIGNPFGVGESVTQGIVSGLNKD-NIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSRSGDNNGIGFAIPSSMV</Hsp_hseq>
+      <Hsp_midline>SG I   +GY+IT  H + +   I V +A   G + + A+V+ + P  +LA++K++  +       A+   ++ G  VFA G        V QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|736968321|ref|WP_034964762.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter showae]</Hit_def>
+  <Hit_accession>WP_034964762</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.36482e-10</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQV</Hsp_qseq>
+      <Hsp_hseq>SSSLGSGVVISSDGYIVTNNHVVEDSDEIVVTLLDSD--KEYKAKIVGTDPKTDLAIIKIDAKELKAIPF--ADSAKLMEGDIVFAIGNPFGVGGSITQGIVSGLNKD-NIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSRSGGNNGIGFAIPSNM</Hsp_hseq>
+      <Hsp_midline>+  + SG ++ ++GY++T  H V +  +I V +  S   + + A++V T P  +LA++K+   E K + F  A+   ++ G  VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|421958917|gb|EKU10530.1|</Hit_id>
+  <Hit_def>HtrA protease/chaperone protein / Serine protease (Protease DO) [Campylobacter showae CSUNSWCD]</Hit_def>
+  <Hit_accession>EKU10530</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>6.09833e-10</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQV</Hsp_qseq>
+      <Hsp_hseq>SSSLGSGVVISSDGYIVTNNHVVEDSDEIVVTLLDSD--KEYKAKIVGTDPKTDLAIIKIDAKELKAIPF--ADSAKLMEGDIVFAIGNPFGVGGSITQGIVSGLNKD-NIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSRSGGNNGIGFAIPSNM</Hsp_hseq>
+      <Hsp_midline>+  + SG ++ ++GY++T  H V +  +I V +  S   + + A++V T P  +LA++K+   E K + F  A+   ++ G  VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|490450320|ref|WP_004321207.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter showae] &gt;gi|255300208|gb|EET79481.1| peptidase Do [Campylobacter showae RM3277]</Hit_def>
+  <Hit_accession>WP_004321207</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>6.97607e-10</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQV</Hsp_qseq>
+      <Hsp_hseq>SSSLGSGVVISSDGYIVTNNHVVEDSDEIVVTLLDSD--KEYKAKIIGTDPKTDLAIIKIDAKELKAIPF--ADSAKLMEGDIVFAIGNPFGVGGSITQGIVSGLNKD-NIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSRSGGNNGIGFAIPSNM</Hsp_hseq>
+      <Hsp_midline>+  + SG ++ ++GY++T  H V +  +I V +  S   + + A+++ T P  +LA++K+   E K + F  A+   ++ G  VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|489040663|ref|WP_002950984.1|</Hit_id>
+  <Hit_def>cryptic C4-dicarboxylate transporter DcuD [Campylobacter showae] &gt;gi|459279360|gb|EMG31199.1| putative cryptic C4-dicarboxylate transporter DcuD [Campylobacter showae CC57C]</Hit_def>
+  <Hit_accession>WP_002950984</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>7.22463e-10</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQV</Hsp_qseq>
+      <Hsp_hseq>SSSLGSGVVISSDGYIVTNNHVVEDSDEIVVTLLDSD--KEYKAKIIGTDPKTDLAIIKIDAKELKAIPF--ADSAKLMEGDIVFAIGNPFGVGGSITQGIVSGLNKD-NIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSRSGGNNGIGFAIPSNM</Hsp_hseq>
+      <Hsp_midline>+  + SG ++ ++GY++T  H V +  +I V +  S   + + A+++ T P  +LA++K+   E K + F  A+   ++ G  VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|736538538|ref|WP_034553256.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter apodemus] &gt;gi|696174499|gb|KGL19789.1| serine protease [Helicobacter apodemus]</Hit_def>
+  <Hit_accession>KGL19789</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.8757e-10</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGTIISSDGYIVTNNHVIDGADKISVALPESN--KEYEAKVIGKDEKTDLAIIKINTKNLPFLKFASSNEAQV--GDIVFAIGNPFGVGESVTQGII-SALNKTGIGINDYENFIQTDASINPGNSGGALVDSRGGLIGINTAILSRTGGNHGIGFAIPSEMV</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY++T  H +     I+V +  S   + + A+V+      +LA++K+ T    FL F  +N   V  G  VFA G        V QG++ S+     +G     + +++DA  +   +GG LV+++G L+GIN A    TG     GF +P++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|489035373|ref|WP_002945718.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter rectus] &gt;gi|222877757|gb|EEF12877.1| peptidase Do [Campylobacter rectus RM3267]</Hit_def>
+  <Hit_accession>WP_002945718</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.28714e-09</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQV</Hsp_qseq>
+      <Hsp_hseq>SNSLGSGVVISTDGYIVTNNHVVEDSDEIVVTLLDSD--KEYKAKIIGTDPKTDLAIIKIDAKELKAIPF--ADSAKLMEGDIVFAIGNPFGVGGSITQGIVSGLNKD-NIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSRSGGNNGIGFAIPSNM</Hsp_hseq>
+      <Hsp_midline>+  + SG ++  +GY++T  H V +  +I V +  S   + + A+++ T P  +LA++K+   E K + F  A+   ++ G  VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|746624224|ref|WP_039649976.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter insulaenigrae] &gt;gi|744809777|gb|AJC87722.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter insulaenigrae NCTC 12927]</Hit_def>
+  <Hit_accession>WP_039649976</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.35321e-09</Hsp_evalue>
+      <Hsp_query-from>97</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>GSLGSGVIVSSDGYIITNNHVIEGAEKITVNLPDSS--VEYKAKLIGADPKTDLAVIKIDAKD-LPAVVFANSDQLLEGDIVFALGNPFGVGSSVTSGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLIE</Hsp_hseq>
+      <Hsp_midline>G + SG IV ++GY+IT  H +     ITV +  S+    + A+++   P  +LA++K+   +       AN   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|728804341|ref|WP_033915744.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter sputorum]</Hit_def>
+  <Hit_accession>WP_033915744</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.5687e-09</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>LGSGVIISSDGYIVTNNHVISDADEIVV--TTMYGNNEYKAKVIGADTKTDLAVIKIEAKDLKAISF--ADSSYLMEGDVVFAVGNPFGVGGTITQGIVSALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRNGDNNGIGFAIPSNMVKNIAQRLI</Hsp_hseq>
+      <Hsp_midline>+ SG I+ ++GY++T  H +++  +I V   T  G   + A+V+      +LA++K++  + K + F  A+   ++ G  VFA G        + QG+V + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A     G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|971839859|ref|WP_058909238.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|971364611|gb|ALV64782.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. testudinum Sp3] &gt;gi|1049816038|gb|OCR85540.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049820531|gb|OCR89742.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049826559|gb|OCR95243.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049830481|gb|OCR98718.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049833411|gb|OCS01384.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049836946|gb|OCS04714.1| serine protease [Campylobacter fetus subsp. testudinum]</Hit_def>
+  <Hit_accession>WP_058909238</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.57397e-09</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>ATSLGSGVIISNDGYIVTNYHVVEDSDEIIVTLLDNS--KEYKAKVVGIDPKTDLAIIKIDA-KNFQAISFADSSKLLEGDMVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>A  + SG I+  +GY++T  H V +  +I V +  ++  + + A+VV   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|746315593|ref|WP_039362285.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|742918966|gb|AJB45362.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049818910|gb|OCR88187.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049822044|gb|OCR91103.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049828717|gb|OCR97109.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049834221|gb|OCS02163.1| serine protease [Campylobacter fetus subsp. testudinum] &gt;gi|1049837904|gb|OCS05630.1| serine protease [Campylobacter fetus subsp. testudinum]</Hit_def>
+  <Hit_accession>WP_039362285</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.61581e-09</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>ATSLGSGVIISNDGYIVTNYHVVEDSDEIIVTLLDNS--KEYKAKVVGIDPKTDLAIIKIDA-KNFQAISFADSSKLLEGDMVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>A  + SG I+  +GY++T  H V +  +I V +  ++  + + A+VV   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1050124712|ref|WP_065844481.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|1049852813|gb|OCS19095.1| serine protease [Campylobacter fetus subsp. fetus BT 10/98]</Hit_def>
+  <Hit_accession>WP_065844481</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.65877e-09</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>ATSLGSGVIISNDGYIVTNYHVVEDSDEIIVTLLDNS--KEYKAKVVGIDPKTDLAIIKIDA-KNFQSISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>A  + SG I+  +GY++T  H V +  +I V +  ++  + + A+VV   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|981209676|ref|WP_059432667.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|962419887|emb|CUU85450.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059432667</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.76349e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIVTNYHVVEDADEIIVTLLDSS--KEYKAKIIGVDPKTDLAIVKVDA-KNFQAISFADSSKLIEGDLVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY++T  H V +  +I V +  S+  + + A+++   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1028816976|ref|WP_063998010.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter hyointestinalis] &gt;gi|1028383852|gb|ANE34090.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter hyointestinalis subsp. lawsonii]</Hit_def>
+  <Hit_accession>WP_063998010</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.77897e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIVTNYHVVEDADEIIVTLLDSS--KEYKAKIIGVDPKTDLAIIKVDA-KNFQAISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY++T  H V +  +I V +  S+  + + A+++   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|647483101|ref|WP_025803916.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter corcagiensis]</Hit_def>
+  <Hit_accession>WP_025803916</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.88964e-09</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>NAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN--IAATGPTGKVEGFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>DVGSLGSGVIISKDGYIVTNNHVIDGADEVLVTLLEDN--KEYTAKVIGTDPKTDIAVIKIEA-DNLNAIKFADSDKILEGDVVFAIGNPFGVGGTITQGIVSALNKN-SVGLNHYENFIQTDASINPGNSGGALIDSRGALVGINSAILSRGGGNNGVGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>+ G + SG I+  +GY++T  H +    ++ V +      + + A+V+ T P  ++A++K++  +     + A+   ++ G  VFA G        + QG+V + +   +VG     + +++DA  +   +GG L++++G LVGIN  I + G      GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1053221813|ref|WP_066008053.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter ornithocola] &gt;gi|1052246087|gb|OCX42829.1| serine protease [Campylobacter ornithocola]</Hit_def>
+  <Hit_accession>WP_066008053</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.19954e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIITNNHVIEGAEKITVNLPDSS--TEYKAKLIGADPKTDLAVIKIEA-KNLPAITFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIAQKLIEY</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY+IT  H +     ITV +  S+    + A+++   P  +LA++K++  +       A+   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +  S  Q ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|488938120|ref|WP_002849195.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|118414774|gb|ABK83194.1| peptidase S1C, Do [Campylobacter fetus subsp. fetus 82-40] &gt;gi|342327399|gb|EGU23883.1| putative peptidase S1C, Do [Campylobacter fetus subsp. venerealis NCTC 10354] &gt;gi|570722688|gb|AHE94049.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. venerealis cfvi03/293] &gt;gi|577006460|emb|CDF65139.1| htrA protease/chaperone protein;Serine protease (Protease DO) [Campylobacter fetus subsp. venerealis str. 84-112] &gt;gi|691215392|gb|AIR78685.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. fetus 04/554] &gt;gi|691217168|gb|AIR80458.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter fetus subsp. venerealis 97/608] &gt;gi|706089127|gb|KGT36728.1| serine protease [Campylobacter fetus] &gt;gi|1049849297|gb|OCS15819.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049853657|gb|OCS19834.1| serine protease [Campylobacter fetus subsp. venerealis cfvi03/596] &gt;gi|1049856454|gb|OCS22331.1| serine protease [Campylobacter fetus subsp. venerealis cfvi97/532] &gt;gi|1049858444|gb|OCS24150.1| serine protease [Campylobacter fetus subsp. venerealis cfvi9825] &gt;gi|1049860440|gb|OCS25893.1| serine protease [Campylobacter fetus subsp. venerealis cfvB10] &gt;gi|1049862963|gb|OCS28265.1| serine protease [Campylobacter fetus subsp. venerealis CCUG 33872] &gt;gi|1049865696|gb|OCS30852.1| serine protease [Campylobacter fetus subsp. venerealis LMG 6570 = CCUG 33900] &gt;gi|1049867875|gb|OCS32833.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049870196|gb|OCS35093.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049872379|gb|OCS37224.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049874396|gb|OCS39006.1| serine protease [Campylobacter fetus subsp. venerealis] &gt;gi|1049875510|gb|OCS40048.1| serine protease [Campylobacter fetus subsp. venerealis cfvi02/298] &gt;gi|1049875671|gb|OCS40172.1| serine protease [Campylobacter fetus subsp. venerealis cfvi92/203] &gt;gi|1079505387|gb|OFI48120.1| serine protease [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_002849195</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.56835e-09</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>ATSLGSGVIISNDGYIVTNYHVVEDSDEIIVTLLDNS--KEYKAKVVGIDPKTDLAIIKIDA-KNFQAISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>A  + SG I+  +GY++T  H V +  +I V +  ++  + + A+VV   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|746640701|ref|WP_039665537.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter volucris] &gt;gi|744816138|gb|AJC94079.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter volucris LMG 24379]</Hit_def>
+  <Hit_accession>WP_039665537</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.65351e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIITNNHVIEDAEKITVNLPDSS--TEYKAKLIGADPKTDLAVIKIEAKD-LPAVTFANSDQLLEGDVVFALGNPFGVGSSVTSGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKTIAQKLIE</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY+IT  H + +   ITV +  S+    + A+++   P  +LA++K++  +       AN   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +  +  Q ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|981207742|ref|WP_059430963.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter fetus] &gt;gi|962411194|emb|CUU69703.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962414054|emb|CUU84886.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962425908|emb|CUU76256.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059430963</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>3.19564e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIVTNYHVVEDADEIIVTLLDSS--KEYKAKIIGVDPKTDLAIVKVDA-KNFQAISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY++T  H V +  +I V +  S+  + + A+++   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|736966282|ref|WP_034962749.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Campylobacter] &gt;gi|653289254|gb|KEA44320.1| serine protease [Campylobacter hyointestinalis subsp. hyointestinalis] &gt;gi|962407507|emb|CUU75963.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962408349|emb|CUU89505.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962413400|emb|CUU75900.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962417136|emb|CUU74401.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962418984|emb|CUU75381.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962424646|emb|CUU76941.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962427239|emb|CUU85825.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962430291|emb|CUU69704.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|962433085|emb|CUU73068.1| peptidase S1C%2C Do [Campylobacter fetus subsp. fetus] &gt;gi|1028381112|gb|ANE32375.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter hyointestinalis subsp. hyointestinalis LMG 9260] &gt;gi|1097010930|emb|SFT56593.1| serine protease Do [Campylobacter hyointestinalis]</Hit_def>
+  <Hit_accession>WP_034962749</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.30934e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIVTNYHVVEDADEIIVTLLDSS--KEYKAKIIGVDPKTDLAIVKVDA-KNFQAISFADSSKLLEGDLVFAIGNPFGVGGSITSGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY++T  H V +  +I V +  S+  + + A+++   P  +LA++K+   + F     A+   ++ G  VFA G        +  G++   +    +G  Q    +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|490402528|ref|WP_004277208.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter upsaliensis] &gt;gi|315481429|gb|EFU72056.1| serine protease HtrA [Campylobacter upsaliensis JV21]</Hit_def>
+  <Hit_accession>WP_004277208</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.41915e-09</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN--IAATGPTGKVEGFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>VGSGVIISKDGYIVTNNHVVENVDSISVTLPQSD--MEYKAKLIGKDPKTDLAVIKIEANN-LSAVSFSNSDELLEGDVVFALGNPFGVGFSVTSGIISALNKD-NIGLNQYENFIQTDASINPGNSGGALVDTRGALVGINSAILSRGGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>V SG I+  +GY++T  H V NV  I+V +  S     + A+++   P  +LA++K++          +N   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+ +G LVGIN  I + G      GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|490399739|ref|WP_004275119.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter upsaliensis] &gt;gi|57017007|gb|EAL53789.1| serine protease (htrA) [Campylobacter upsaliensis RM3195]</Hit_def>
+  <Hit_accession>WP_004275119</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.54081e-09</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN--IAATGPTGKVEGFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>VGSGVIISKDGYIVTNNHVVENVDSISVTLPQSD--MEYKAKLIGKDPKTDLAVIKIEANN-LSAVSFSNSDELLEGDVVFALGNPFGVGFSVTSGIISALNKD-NIGLNQYENFIQTDASINPGNSGGALVDTRGALVGINSAILSRGGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>V SG I+  +GY++T  H V NV  I+V +  S     + A+++   P  +LA++K++          +N   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+ +G LVGIN  I + G      GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|653052426|ref|WP_027303989.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter upsaliensis]</Hit_def>
+  <Hit_accession>WP_027303989</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.60324e-09</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN--IAATGPTGKVEGFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>VGSGVIISKDGYIVTNNHVVENVDSISVTLPQSD--MEYKAKLIGKDPKTDLAVIKIEANN-LSAVSFSNSDELLEGDVVFALGNPFGVGFSVTSGIISALNKD-NIGLNQYENFIQTDASINPGNSGGALVDTRGALVGINSAILSRGGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>V SG I+  +GY++T  H V NV  I+V +  S     + A+++   P  +LA++K++          +N   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+ +G LVGIN  I + G      GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|696195578|gb|KGL36318.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter sp. MIT 05-5294]</Hit_def>
+  <Hit_accession>KGL36318</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.68332e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTE-KFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIVTNNHVIDGADKILVSLPESN--KEYEAKVIGKDSKSDLAIIKIQANNLPFLKFASSNDLQV--GDVVFAIGNPFGVGESITQGIISALNKN-GIGINDYENFIQTDASINPGNSGGALVDSRGGLIGINTAILSRTGGNHGIGFAIPSEMV</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H +     I V +  S   + + A+V+      +LA++K+Q     FL F  +N   V  G  VFA G        + QG++ + +    +G     + +++DA  +   +GG LV+++G L+GIN A    TG     GF +P++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|746643571|ref|WP_039668405.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari] &gt;gi|744811261|gb|AJC89205.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari subsp. concheus LMG 11760]</Hit_def>
+  <Hit_accession>WP_039668405</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.91468e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIITNNHVIEDAEKITVNLPDSS--TEFKAKLIGADPKTDLAVIKIEA-KNLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIAQKLIE</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY+IT  H + +   ITV +  S+    F A+++   P  +LA++K++  +       A+   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +  S  Q ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|746642110|ref|WP_039666945.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter sp. RM16704] &gt;gi|744808281|gb|AJC86223.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter sp. RM16704]</Hit_def>
+  <Hit_accession>WP_039666945</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>5.19075e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIITNNHVIEGAEKITVNLPDSS--TEYKAKLIGADPKTDLAVIKIEA-KNLPAITFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIAQKLIEY</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY+IT  H +     ITV +  S+    + A+++   P  +LA++K++  +       A+   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +  S  Q ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|736907229|ref|WP_034905701.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter sp. MIT 97-5078] &gt;gi|693438371|gb|KGI56011.1| serine protease [Campylobacter sp. MIT 97-5078]</Hit_def>
+  <Hit_accession>WP_034905701</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>7.40779e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIITNNHVIADVDSISVSLPDDD--TEYKAKLVGADEKTDLAVIKIEA-KNLSAVSFADSDKLMEGDMVFALGNPFGVGSSVTSGIVSALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY+IT  H +A+V  I+V +        + A++V      +LA++K++  +       A+   ++ G  VFA G        V  G+V + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|736577315|ref|WP_034588637.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter magdeburgensis] &gt;gi|696169229|gb|KGL15129.1| serine protease [Helicobacter magdeburgensis]</Hit_def>
+  <Hit_accession>KGL15129</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>7.82169e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIITNNHVIEDASKVLVSLSDSS--KEYVAKVIGTDSRSDLAVIKIEKNN-LPPISFAQSSNVLIGDVVFAIGNPFGVGETITQGIVSALNKS-GIGINDYENFIQTDASINPGNSGGALVDSRGALIGINTAILSRTGGNHGVGFAIPSDMV</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY+IT  H + +   + V ++ S+  + + A+V+ T    +LA++K++          A    V+ G  VFA G        + QG+V + +    +G     + +++DA  +   +GG LV+++G L+GIN A    TG     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|740669238|ref|WP_038454527.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter iguaniorum] &gt;gi|669188489|gb|AII14942.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_038454527</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>8.28165e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNYHVVEDAEEIIVTLLDNS--KEYKAKIIGSDPKTDLAIIKVDA-KNFEAISFGDSSKALEGDIVFAIGNPFGVGGSISQGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALLGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H V +  +I V +  ++  + + A+++ + P  +LA++K+   + F      +    + G  VFA G        + QG++   +    +G  Q    +++DA  +   +GG LV+++G L+GIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1176352544|ref|WP_082199705.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter helveticus] &gt;gi|1173742050|gb|ARE80451.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter helveticus] &gt;gi|1174989849|emb|SMC19113.1| serine protease Do [Campylobacter helveticus]</Hit_def>
+  <Hit_accession>WP_082199705</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>8.63217e-09</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN--IAATGPTGKVEGFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>IGSGVIISKDGYIVTNNHVVENVDSISVTLPQSD--VEYKAKLIGKDPKTDLAVIKIEANN-LSAVSFSNSDDLMEGDVVFALGNPFGVGFSVTSGIISALNKD-NIGLNQYENFIQTDASINPGNSGGALVDTRGALVGINSAILSRGGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>+ SG I+  +GY++T  H V NV  I+V +  S     + A+++   P  +LA++K++          +N   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+ +G LVGIN  I + G      GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|971481801|ref|WP_058893376.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter iguaniorum] &gt;gi|971187094|gb|ALV24770.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_058893376</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.27718e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNYHVVEDAEEIIVTLLDNS--KEYKAKIIGSDPKTDLAIIKVDA-KNFEAISFGDSSKALEGDIVFAIGNPFGVGGSISQGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALLGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H V +  +I V +  ++  + + A+++ + P  +LA++K+   + F      +    + G  VFA G        + QG++   +    +G  Q    +++DA  +   +GG LV+++G L+GIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|493612489|ref|WP_006564829.1|</Hit_id>
+  <Hit_def>serine protease [Helicobacter suis] &gt;gi|321146614|gb|EFX41448.1| protease DO [Helicobacter suis HS5] &gt;gi|321148156|gb|EFX42686.1| protease DO [Helicobacter suis HS1]</Hit_def>
+  <Hit_accession>EFX41448</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.43989e-09</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHL</Hsp_qseq>
+      <Hsp_hseq>SGVVISKNGYIVTNNHVIDGADKISVTIPGSN--KEYSATLVGTDADSDLAVIKI-NKENLPVIQFSDSSTTLVGDLVFAIGNPFGVGETVTQGIV-SALNKTGIGINNYENFIQTDAAINPGNSGGALIDSRGGLVGINTAILSRTGGNHGVGFAIPSNT-VKHI</Hsp_hseq>
+      <Hsp_midline>SG ++  NGY++T  H +     I+V +  S   + + A +V T    +LA++K+   E     + ++  T + G  VFA G        V QG+V S+     +G     + +++DA  +   +GG L++++G LVGIN A    TG     GF +P+   V H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1028818829|ref|WP_063999860.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter iguaniorum] &gt;gi|1028386478|gb|ANE36084.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_063999860</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.1144e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNYHVVEDAEEIIVTLLDNS--KEYKAKIIGSDPKTDLAIIKVDA-KNFEAVSFGDSSKALEGDIVFAIGNPFGVGGSISQGIISGLNKD-NIGLNQYEDFIQTDASINPGNSGGALVDSRGALLGINSAILSRSGGNNGIGFAIPSNMVKTIAQKLI</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H V +  +I V +  ++  + + A+++ + P  +LA++K+   + F      +    + G  VFA G        + QG++   +    +G  Q    +++DA  +   +GG LV+++G L+GIN A    +G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1180550154|ref|WP_084041464.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter concisus] &gt;gi|1179362583|gb|ORI11055.1| serine protease [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_084041464</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.60805e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIVTNNHVIEDSDQIVVTLAN--GGKEFKAKLIGSDPKTDLAVVKIEAN-GLNAVTFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKD-NIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H + +   I V +A   G + F A+++ + P  +LA++K++          A+   ++    VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|746599898|ref|WP_039626092.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari] &gt;gi|744817744|gb|AJD01741.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari NCTC 11845]</Hit_def>
+  <Hit_accession>WP_039626092</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.69792e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIITNNHVIEGAEKITVNLPDSS--TEYKAKLIGADPKTDLAVIKIEA-KNLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIAQKLIE</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY+IT  H +     ITV +  S+    + A+++   P  +LA++K++  +       A+   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +  S  Q ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1153076868|gb|OPA72167.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter pinnipediorum subsp. caledonicus]</Hit_def>
+  <Hit_accession>OPA72167</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.75451e-08</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SSSLGSGVIISKDGYIVTNNHVIEDSDEIIVTLPENH--KDYKAKIIGTDSKTDLAVIKIEDNN-LNAIKLADSSKILEGDVVFAIGNPFGVGSSITRGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALIGINSAILSRGGDSSGIGFAIPSSMVKNVAQKLI</Hsp_hseq>
+      <Hsp_midline>+  + SG I+  +GY++T  H + +  +I V +  +   + + A+++ T    +LA++K++        ++A+   ++ G  VFA G        + +G++ + +    +G  Q  + +++DA  +   +GG LV+++G L+GIN A     G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|827446633|ref|WP_047208292.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter lari] &gt;gi|827024042|gb|AKJ53572.1| serine protease [Campylobacter lari]</Hit_def>
+  <Hit_accession>WP_047208292</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.82068e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIITNNHVIEGAEKITVNLPDSS--TEYKAKLIGADPKTDLAVIKIEA-KNLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIAQKLIE</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY+IT  H +     ITV +  S+    + A+++   P  +LA++K++  +       A+   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +  S  Q ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|746602208|ref|WP_039628333.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari] &gt;gi|744819349|gb|AJD03345.1| periplasmic heat shock serine protease HtrA, Do family [Campylobacter lari CCUG 22395]</Hit_def>
+  <Hit_accession>WP_039628333</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.82068e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>SGVIISSDGYIITNNHVIEGAEKITVNLPDSS--TEYKAKLIGADPKTDLAVIKIEA-KNLPAVVFADSDKLLEGDVVFALGNPFGVGSSVTSGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALVGINSAILSRSGGNNGIGFAIPSNMAKSIAQKLIE</Hsp_hseq>
+      <Hsp_midline>SG I+ ++GY+IT  H +     ITV +  S+    + A+++   P  +LA++K++  +       A+   ++ G  VFA G        V  G++ + +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ +  S  Q ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1153129144|gb|AQW87704.1|</Hit_id>
+  <Hit_def>periplasmic heat shock serine protease HtrA, Do family [Campylobacter sp. RM18021]</Hit_def>
+  <Hit_accession>AQW87704</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.88137e-08</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVV</Hsp_qseq>
+      <Hsp_hseq>SSSLGSGVIISKDGYIVTNNHVIEDSDEIIVTLPENH--KDYKAKIIGTDSKTDLAVIKIEDNN-LNAIKLADSSKILEGDVVFAIGNPFGVGSSITRGIISALNKN-NIGLNQYENFIQTDASINPGNSGGALVDSRGALIGINSAILSRGGDSSGIGFAIPSSMVKNVAQKLI</Hsp_hseq>
+      <Hsp_midline>+  + SG I+  +GY++T  H + +  +I V +  +   + + A+++ T    +LA++K++        ++A+   ++ G  VFA G        + +G++ + +    +G  Q  + +++DA  +   +GG LV+++G L+GIN A     G     GF +P+ ++ +  Q ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|489029922|ref|WP_002940315.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter concisus] &gt;gi|384577898|gb|EIF07172.1| HtrA protease/chaperone protein / Serine protease [Campylobacter concisus UNSWCD]</Hit_def>
+  <Hit_accession>WP_002940315</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.88169e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIVTNNHVIEDSDQIVVTLA--KGGKEYKAKLIGSDPKTDLAVIKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKD-DIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H + +   I V +A   G + + A+++ + P  +LA++K++          A+   ++    VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|544653065|ref|WP_021086953.1|</Hit_id>
+  <Hit_def>protease HtrA [Campylobacter concisus] &gt;gi|543211576|gb|ERJ30626.1| HtrA protease [Campylobacter concisus UNSWCS]</Hit_def>
+  <Hit_accession>WP_021086953</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.93162e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIVTNNHVIEDSDQIVVTLA--KGGKEYKAKLIGSDPKTDLAVIKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKD-DIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H + +   I V +A   G + + A+++ + P  +LA++K++          A+   ++    VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|544650855|ref|WP_021084866.1|</Hit_id>
+  <Hit_def>protease HtrA [Campylobacter concisus] &gt;gi|543202283|gb|ERJ21644.1| HtrA protease [Campylobacter concisus UNSW3]</Hit_def>
+  <Hit_accession>WP_021084866</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>2.0178e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIVTNNHVIEDSDQIVVTLA--KGGKEYKAKLIGSDPKTDLAVIKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKD-DIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H + +   I V +A   G + + A+++ + P  +LA++K++          A+   ++    VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|544659447|ref|WP_021093058.1|</Hit_id>
+  <Hit_def>protease HtrA [Campylobacter concisus] &gt;gi|543212460|gb|ERJ31474.1| HtrA protease [Campylobacter concisus UNSW2]</Hit_def>
+  <Hit_accession>WP_021093058</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>2.07133e-08</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVI</Hsp_qseq>
+      <Hsp_hseq>SGVIISNDGYIVTNNHVIEDSDQIVVTLA--KGGKEYKAKLIGSDPKTDLAVIKIEAN-GLNAITFADSSKLLDADVVFAIGNPFGVGESITQGIVSGLNKD-DIGLNQYENFIQTDASINPGNSGGALVDSRGYLVGINSAILSKSGGNNGIGFAIPSNMV</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H + +   I V +A   G + + A+++ + P  +LA++K++          A+   ++    VFA G        + QG+V   +    +G  Q  + +++DA  +   +GG LV+++G LVGIN A    +G     GF +P+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>470744</Statistics_db-num>
+      <Statistics_db-len>162470253</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

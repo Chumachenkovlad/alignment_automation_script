@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09999.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamB [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>297</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09999.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamB [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>297</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|515098110|ref|WP_016727323.1|</Hit_id>
+  <Hit_def>cation transporter [Ralstonia solanacearum] &gt;gi|557809415|gb|ESS50216.1| hypothetical protein L665_01131 [Ralstonia solanacearum SD54] &gt;gi|916488782|gb|AKZ28305.1| cation diffusion facilitator family transporter (plasmid) [Ralstonia solanacearum] &gt;gi|959219738|emb|CUV26535.1| conserved membrane protein of unknown function [Ralstonia solanacearum] &gt;gi|959230346|emb|CUV37172.1| conserved membrane protein of unknown function [Ralstonia solanacearum] &gt;gi|959235790|emb|CUV42636.1| conserved membrane protein of unknown function [Ralstonia solanacearum] &gt;gi|959236383|emb|CUV43230.1| conserved membrane protein of unknown function [Ralstonia solanacearum] &gt;gi|1028840580|gb|OAK90453.1| cation diffusion facilitator family transporter [Ralstonia solanacearum] &gt;gi|1057956834|gb|AOE90929.1| putative transporter YdfM [Ralstonia solanacearum] &gt;gi|1092282943|gb|OHU97451.1| cation-efflux pump [Ralstonia solanacearum] &gt;gi|1100711771|gb|OIN69632.1| cation-efflux pump [Ralstonia solanacearum] &gt;gi|1100712438|gb|OIN70276.1| cation-efflux pump [Ralstonia solanacearum] &gt;gi|1102202612|gb|OIT14383.1| cation-efflux pump [Ralstonia solanacearum] &gt;gi|1102801839|gb|APC69812.1| hypothetical protein RSOE_CAD03375 [Ralstonia solanacearum OE1-1] &gt;gi|1109343009|gb|APF85691.1| cation diffusion facilitator family transporter [Ralstonia solanacearum FJAT-1458] &gt;gi|1111824010|gb|API73409.1| cation diffusion facilitator family transporter [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>AKZ28305</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>9.23532e-26</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>GLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAP-SIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIGFPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHAR----DIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>GLWSHSQGLVADGLHTLSDLIADGIVFIANRNSHKGPDEDHQYGHARYENAASLGLGLLLMAAGAGMIWSALASLSAPHGAAPVHGLALWVALAALAAKEGLFRYMLAVARRIGSRMLVANAWHARSDAVSSLVAAVGVAGNLMGFRWLDPVAACVVGAMIGRVGIRFGWEALNDLMDRALPPAQVQAIRASLAATPGVINVHDLRTRVTGDQALVDAHIEVDPRVSVSEGHAI--AVRARANVLAAHTAMAVLDVQLHVDP</Hsp_hseq>
+      <Hsp_midline>GL S S  LVAD LH+ +D++A G+  ++ + S+K  DE + +G+   +  +S  +G LL+   + +++ ++  L +    AP    A   A   +   E ++RY + V     S  ++ANAW  RSDA+SS    VGV  +++GF   D +AA  V A++GR+G+    +A++ LMD ++    +Q        TP V +++ LR R  G+    D  + VDP + + +   +  AVR R      H      D++L V P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499404125|ref|WP_011091592.1|</Hit_id>
+  <Hit_def>Fe-S biogenesis protein NfuA [Buchnera aphidicola] &gt;gi|38372572|sp|Q89A55.1|NFUA_BUCBP RecName: Full=Fe/S biogenesis protein NfuA &gt;gi|27904358|gb|AAO27191.1| YhgI [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>WP_011091592</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>1.36809</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>IGFPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNL</Hsp_qseq>
+      <Hsp_hseq>VSYCYKDDVTRLDVAFTMNKFIVYVYKPHIPYLRESKIDINVEECNSQLTLIAPYANKCYFIKNNDLKRRVENFLNLNINPQL</Hsp_hseq>
+      <Hsp_midline>+ +   D +  + V+  + +  + +    +  L +S +D  + +   Q+    P  +  YF++   +   V+  + L ++P L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1129520800|ref|WP_075473954.1|</Hit_id>
+  <Hit_def>carbamoyl phosphate synthase large subunit [Buchnera aphidicola] &gt;gi|1029164715|gb|ANF16943.1| carbamoyl phosphate synthase large subunit [Buchnera aphidicola (Schlechtendalia chinensis)]</Hit_def>
+  <Hit_accession>WP_075473954</Hit_accession>
+  <Hit_len>1076</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>1.76703</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NENNSPAII--ANAWDNRSDAISSAAVMVGVIASVIGFPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVD</Hsp_qseq>
+      <Hsp_hseq>NPNNGKMIVIEMNPRVSRSSALASKAT---------GFPIAKIAAKLSVGYTLDELKNDLIGSTITASFEPTMD</Hsp_hseq>
+      <Hsp_midline>N NN   I+   N   +RS A++S A          GFPIA   A + V   +  +  +LIG  +    + ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499313869|ref|WP_011004644.1|</Hit_id>
+  <Hit_def>flagellar biosynthesis protein FlhB [Ralstonia solanacearum] &gt;gi|17431867|emb|CAD18545.1| probable flagellar biosynthetic flhb transmembrane protein [Ralstonia solanacearum GMI1000] &gt;gi|469777283|gb|AGH87366.1| Flagellar biosynthesis protein FlhB (plasmid) [Ralstonia solanacearum FQY_4] &gt;gi|557808793|gb|ESS49603.1| flagellar biosynthetic FlhB transmembrane protein [Ralstonia solanacearum SD54] &gt;gi|916489681|gb|AKZ29204.1| flagellar biosynthesis protein FlhB (plasmid) [Ralstonia solanacearum] &gt;gi|959210905|emb|CUV17666.1| flagellar export pore protein [Ralstonia solanacearum] &gt;gi|959221773|emb|CUV28575.1| flagellar export pore protein [Ralstonia solanacearum] &gt;gi|1028838895|gb|OAK88804.1| flagellar biosynthesis protein FlhB [Ralstonia solanacearum] &gt;gi|1036556635|gb|ANH35456.1| flagellar biosynthesis protein FlhB (plasmid) [Ralstonia solanacearum] &gt;gi|1057957919|gb|AOE92013.1| Flagellar biosynthetic protein FlhB (plasmid) [Ralstonia solanacearum] &gt;gi|1100712370|gb|OIN70210.1| flagellar biosynthesis protein FlhB [Ralstonia solanacearum] &gt;gi|1100714075|gb|OIN71880.1| flagellar biosynthesis protein FlhB [Ralstonia solanacearum] &gt;gi|1102200871|gb|OIT12760.1| flagellar biosynthesis protein FlhB [Ralstonia solanacearum] &gt;gi|1102203740|gb|OIT15312.1| flagellar biosynthesis protein FlhB [Ralstonia solanacearum] &gt;gi|1102798935|gb|APC66909.1| Flagellar biosynthetic protein flhB (plasmid) [Ralstonia solanacearum OE1-1] &gt;gi|1109347093|gb|APF89771.1| flagellar biosynthesis protein FlhB (plasmid) [Ralstonia solanacearum FJAT-1458] &gt;gi|1111828431|gb|API77829.1| flagellar biosynthetic protein FlhB (plasmid) [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>AKZ29204</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.28679</Hsp_evalue>
+      <Hsp_query-from>223</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>ATDTPLVHSIYFLRGRHVGEDVQFDIRL-RVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSPAPAAVTVR</Hsp_qseq>
+      <Hsp_hseq>AVDVPLALWQYARKHRMTKEEVRKEHRESEGDPQLKGRIRAMQRQAAQRRMMADVPKA-DV-IVTNPTHYAVALR</Hsp_hseq>
+      <Hsp_midline>A D PL    Y  + R   E+V+ + R    DP L+ +  +M  +A ++R+  ++P A D+ +  +P   AV +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|499991779|ref|WP_011672497.1|</Hit_id>
+  <Hit_def>NADH-quinone oxidoreductase subunit F [Buchnera aphidicola] &gt;gi|116256896|gb|ABJ90578.1| NADH dehydrogenase I chain F [Buchnera aphidicola BCc]</Hit_def>
+  <Hit_accession>WP_011672497</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.64334</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>VALVADSLH-SGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLL-IGASFLMYGSVVKLIS---GTYEAPSIFAALGASVTVIVNELMYRYQICVGN---ENNSPAIIANA---WDNRSDAISSAAVMVGVIASV</Hsp_qseq>
+      <Hsp_hseq>IIICAFTLHISCAYIFLRGDYYVAEKILNKSIDEAYQLGYLGKNILNSGFNFNLFLHTGAGRYICGEETALINSLEGLRANPRFKPPFPA------NYGLWGKPTCINNVETLSNIPAIIQHGSEWYKNLSKGKDSGTKLLGFSGKV</Hsp_hseq>
+      <Hsp_midline>+ + A +LH S A +   G   ++ KI NK  DE Y  GY     ++S    +L L  GA   + G    LI+   G    P       A      N  ++    C+ N    +N PAII +    + N S    S   ++G    V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|916492317|gb|AKZ27171.1|</Hit_id>
+  <Hit_def>DNA helicase [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>AKZ27171</Hit_accession>
+  <Hit_len>794</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.46771</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>213</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>HGLMDSSVDTELLQTAW-------QIATDTPLV--------HSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDS</Hsp_qseq>
+      <Hsp_hseq>HILVDEFQDTNRLQYAWLKILAGLGEAGVTPNAIFAVGDDDQSIYAFRGANVGNMVDFEREFRVAHRIKLEQN</Hsp_hseq>
+      <Hsp_midline>H L+D   DT  LQ AW         A  TP           SIY  RG +VG  V F+   RV   ++++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|504312759|ref|WP_014499861.1|</Hit_id>
+  <Hit_def>carbamoyl phosphate synthase large subunit [Buchnera aphidicola] &gt;gi|345539090|gb|AEO07957.1| carbamoyl phosphate synthase large subunit [Buchnera aphidicola str. Ua (Uroleucon ambrosiae)]</Hit_def>
+  <Hit_accession>WP_014499861</Hit_accession>
+  <Hit_len>1079</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>5.14116</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>285</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>QICVGNENNSPAIIA-NAWDNRSDAISSAAVMVGVIASVIGFPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVD</Hsp_qseq>
+      <Hsp_hseq>QFAVNPKNGRIIVIEMNPRVSRSSALASKAT---------GFPIAKIAAKLAIGYTLDELSHDITGKNITASFEPSID</Hsp_hseq>
+      <Hsp_midline>Q  V  +N    +I  N   +RS A++S A          GFPIA   A + +   +  +  ++ GK +    + S+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1129476097|ref|WP_075434142.1|</Hit_id>
+  <Hit_def>elongation factor G [Buchnera aphidicola]</Hit_def>
+  <Hit_accession>WP_075434142</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>6.28252</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>250</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>RDCREEVVWWAFTADICMTLFK--GILGLMSGSVALVADSLHSGADVVASG--VTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVK</Hsp_qseq>
+      <Hsp_hseq>RGLRKRALNNEITLITCGSAFKNKGVQALLDA----VIDYLPSPKDIKETKDFIDKLASPVLSRSANDKHPFSALAFKIASDAFVGNLTF----FRVYSGIVR</Hsp_hseq>
+      <Hsp_midline>R  R+  +    T   C + FK  G+  L+      V D L S  D+  +   + +L+  + ++ A++++PF     +  S A VG+L      F +Y  +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>15359</Statistics_db-num>
+      <Statistics_db-len>4878806</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

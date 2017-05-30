@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|881061467|ref|WP_048779118.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Rothia] &gt;gi|1080789799|gb|OFP56898.1| trypsin [Rothia sp. HMSC069C01]</Hit_def>
+  <Hit_accession>WP_048779118</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.84894e-25</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRG---ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS-AKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>VGTGEVLDNQGHILTNNHVVSTNGTQQSSRVEVRLHDGSIRVA-KIVGTDVTSDLAVIKIDPSGLDLKPITFGDSSKVVPGETVVALGSPHNLQDTVTAGVISNTDRAAEAEKDGVYIPMIQTDAPVNHGNSGGPLVNSSGALVGINSQIESEGGGNEGIAYAVPSNYAKRIS-DEI</Hsp_hseq>
+      <Hsp_midline>+GTG ++ N G I+TN HVV       S  V V+   GSIR + +IV  D   DLA++KI P  + L     GDS  V   + V+A+G+P  L  TV+ G+IS   R     +   +  ++QTDA +N GNSGGPLV ++G +VGIN+ I +  G   GI +AVPSN A+  + DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000168966</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>370</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>GVRVTNISSGSPAEKAGLQKGDVIVEADGHRIEQSKTLNGVVRAQAAGATVDMKIKRGSETKNIKVTLG</Hsp_hseq>
+      <Hsp_midline>GV V  ++  +PA  AGL+ GDVI++ DG  + Q + +  ++     G +V + + R  +  N+ +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.02473</Hsp_evalue>
+      <Hsp_query-from>667</Hsp_query-from>
+      <Hsp_query-to>763</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VIPKVPTEFNWLGMEIETFMAP-QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHR</Hsp_qseq>
+      <Hsp_hseq>IISKGKATHGYLGANIES--APGQTNEGESRFFP-----DGVRVTNISSGSPAEKAGLQKGDVIVEADGHRIEQSKTLNGVVRAQ-AAGATVDMKIKR</Hsp_hseq>
+      <Hsp_midline>+I K      +LG  IE+  AP Q   G     P      G +V  + +GS A  AGLQ  D+I+E +   +     L+  ++A  AAG  + +K+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|490103203|ref|WP_004005058.1|</Hit_id>
+  <Hit_def>trypsin [Rothia dentocariosa] &gt;gi|300381038|gb|EFJ77600.1| trypsin [Rothia dentocariosa M567]</Hit_def>
+  <Hit_accession>WP_004005058</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.53895e-25</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRG---ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS-AKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>VGTGEVLDNQGHILTNNHVVSTNGTQQSSRVEVRLHDGSIRVA-KIVGTDVTSDLAVIKIDPSGLDLKPITFGDSSKVVPGETVVALGSPHNLQDTVTAGVISNTDRAAEAEKDGVYIPMIQTDAPVNHGNSGGPLVNSSGALVGINSQIESEGGGNEGIAYAIPSNYAKRIS-DEI</Hsp_hseq>
+      <Hsp_midline>+GTG ++ N G I+TN HVV       S  V V+   GSIR + +IV  D   DLA++KI P  + L     GDS  V   + V+A+G+P  L  TV+ G+IS   R     +   +  ++QTDA +N GNSGGPLV ++G +VGIN+ I +  G   GI +A+PSN A+  + DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000173402</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>370</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>GVRVTNISSGSPAEKAGLQKGDVIVEADGHRIEQSKTLNGVVRAQAAGATVDMKIKRGSETKNIKVTLG</Hsp_hseq>
+      <Hsp_midline>GV V  ++  +PA  AGL+ GDVI++ DG  + Q + +  ++     G +V + + R  +  N+ +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.025597</Hsp_evalue>
+      <Hsp_query-from>667</Hsp_query-from>
+      <Hsp_query-to>763</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VIPKVPTEFNWLGMEIETFMAP-QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHR</Hsp_qseq>
+      <Hsp_hseq>IISKGKATHGYLGANIES--APGQTNEGESRFFP-----DGVRVTNISSGSPAEKAGLQKGDVIVEADGHRIEQSKTLNGVVRAQ-AAGATVDMKIKR</Hsp_hseq>
+      <Hsp_midline>+I K      +LG  IE+  AP Q   G     P      G +V  + +GS A  AGLQ  D+I+E +   +     L+  ++A  AAG  + +K+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|503162772|ref|WP_013397433.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Rothia] &gt;gi|310943240|gb|ADP39534.1| trypsin [Rothia dentocariosa ATCC 17931] &gt;gi|1080570864|gb|OFN48872.1| trypsin [Rothia sp. HMSC071F11]</Hit_def>
+  <Hit_accession>WP_013397433</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.53895e-25</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRG---ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS-AKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>VGTGEVLDNQGHILTNNHVVSTNGTQQSSRVEVRLHDGSIRVA-KIVGTDVTSDLAVIKIDPSGLDLKPITFGDSSKVVPGETVVALGSPHNLQDTVTAGVISNTDRAAEAEKDGVYIPMIQTDAPVNHGNSGGPLVNSSGALVGINSQIESEGGGNEGIAYAIPSNYAKRIS-DEI</Hsp_hseq>
+      <Hsp_midline>+GTG ++ N G I+TN HVV       S  V V+   GSIR + +IV  D   DLA++KI P  + L     GDS  V   + V+A+G+P  L  TV+ G+IS   R     +   +  ++QTDA +N GNSGGPLV ++G +VGIN+ I +  G   GI +A+PSN A+  + DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000181056</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>370</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>GVRVTNISSGSPAEKAGLQKGDVIVEADGHRIEQSKTLNGVVRAQAAGATVDMKIKRGSETKNIKVTLG</Hsp_hseq>
+      <Hsp_midline>GV V  ++  +PA  AGL+ GDVI++ DG  + Q + +  ++     G +V + + R  +  N+ +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0245179</Hsp_evalue>
+      <Hsp_query-from>667</Hsp_query-from>
+      <Hsp_query-to>763</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VIPKVPTEFNWLGMEIETFMAP-QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHR</Hsp_qseq>
+      <Hsp_hseq>IISKGKATHGYLGANIES--APGQTNEGESRFFP-----DGVRVTNISSGSPAEKAGLQKGDVIVEADGHRIEQSKTLNGVVRAQ-AAGATVDMKIKR</Hsp_hseq>
+      <Hsp_midline>+I K      +LG  IE+  AP Q   G     P      G +V  + +GS A  AGLQ  D+I+E +   +     L+  ++A  AAG  + +K+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|881034278|ref|WP_048753702.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Rothia] &gt;gi|1080536566|gb|OFN16973.1| trypsin [Rothia sp. HMSC058E10] &gt;gi|1080705942|gb|OFO77002.1| trypsin [Rothia sp. HMSC065D02]</Hit_def>
+  <Hit_accession>WP_048753702</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.88286e-25</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRG---ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIIS-AKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>VGTGEVLDNQGHILTNNHVVSTNGTQQSSRVEVRLHDGSIRVA-KIVGTDVTSDLAVIKIDPSGLDLKPITFGDSSKVVPGETVVALGSPHNLQDTVTAGVISNTDRAAEAEKDGVYIPMIQTDAPVNHGNSGGPLVNSSGALVGINSQIESEGGGNEGIAYAIPSNYAKRIS-DEI</Hsp_hseq>
+      <Hsp_midline>+GTG ++ N G I+TN HVV       S  V V+   GSIR + +IV  D   DLA++KI P  + L     GDS  V   + V+A+G+P  L  TV+ G+IS   R     +   +  ++QTDA +N GNSGGPLV ++G +VGIN+ I +  G   GI +A+PSN A+  + DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000177955</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>370</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>GVRVTNISSGSPAEKAGLQKGDVIVEADGHRIEQSKTLNGVVRAQAAGATVDMKIKRGSETKNIKVTLG</Hsp_hseq>
+      <Hsp_midline>GV V  ++  +PA  AGL+ GDVI++ DG  + Q + +  ++     G +V + + R  +  N+ +  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0262671</Hsp_evalue>
+      <Hsp_query-from>667</Hsp_query-from>
+      <Hsp_query-to>763</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>VIPKVPTEFNWLGMEIETFMAP-QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHR</Hsp_qseq>
+      <Hsp_hseq>IISKGKATHGYLGANIES--APGQTNEGESRFFP-----DGVRVTNISSGSPAEKAGLQKGDVIVEADGHRIEQSKTLNGVVRAQ-AAGATVDMKIKR</Hsp_hseq>
+      <Hsp_midline>+I K      +LG  IE+  AP Q   G     P      G +V  + +GS A  AGLQ  D+I+E +   +     L+  ++A  AAG  + +K+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|739371409|ref|WP_037232415.1|</Hit_id>
+  <Hit_def>trypsin [Rothia dentocariosa] &gt;gi|694196856|gb|KGJ00514.1| trypsin [Rothia dentocariosa] &gt;gi|694244769|gb|KGJ35562.1| trypsin [Rothia dentocariosa]</Hit_def>
+  <Hit_accession>WP_037232415</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.12704e-22</Hsp_evalue>
+      <Hsp_query-from>175</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>IVRNDGFIVTNYHVVRG----ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK-VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA--------KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>ILDTNGHILTNNHVVTDDSTKADQVEVRLHD--GTVR-AAKIVGTDPASDLAVVKIDPKGLELTPITFGDSSKLVPGDQVVALGSPYDHRDSVTVGVVASASRVSPADNKKTAYIP------MIQSDAEINHGNSGGPLVNTRGELVGINTQGYRSTDGGAAAGMSFSVTSNYAKRIS-DEI</Hsp_hseq>
+      <Hsp_midline>I+  +G I+TN HVV      A+ V V + D  G++R + +IV  D A DLA++KI PK ++LT    GDS  +   D+V+A+G+P+    +V+ G++++         +KT  I       ++Q+DA IN GNSGGPLV   G +VGINT  Y  T  GA AG+ F+V SN A+  + DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.000528298</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>371</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GVELTDISSGSPADKAGLKKGDVVVEVDGHRIEADEELNGTVRSMAPNTKATFKVQRGSEVKEIQVTLGDS</Hsp_hseq>
+      <Hsp_midline>GV +  ++  +PA  AGL+ GDV+++VDG  +   EE+   +  M         V R  +V  + +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.224098</Hsp_evalue>
+      <Hsp_query-from>667</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>338</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>VIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGK----GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ--EFWIVL</Hsp_qseq>
+      <Hsp_hseq>IIAKGKASHGYLGASVKT----------TGATTDNGKSKLFEGGVELTDISSGSPADKAGLKKGDVVVEVDGHRIEADEELNGTVRSM-APNTKATFKVQRGSEVKEIQVTL</Hsp_hseq>
+      <Hsp_midline>+I K      +LG  ++T           GAT   G  K    G ++ ++ +GS A  AGL+  D+++EV+   + +   L+  +++  A   +   KV R  +  E  + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|881060217|ref|WP_048777868.1|</Hit_id>
+  <Hit_def>MULTISPECIES: colicin V production protein [Rothia] &gt;gi|1080522149|gb|OFN03197.1| colicin V production protein [Rothia sp. HMSC064D08]</Hit_def>
+  <Hit_accession>WP_048777868</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>7.47565e-08</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-----HSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGFVV-DHGLIATNAHVLSGVNSPMV--RDQRGR-TWQGEVVYMDTAQDLAFIRV-PGMNLDPLPIGRN--ANPGETVTFMGYPQGGPFKALPATVQGVGNTQTIDVETGKPNPMRQVYQLAADVQHGNSGGPVLDENGNVVGV</Hsp_hseq>
+      <Hsp_midline>G+G +V + G I TN HV+ G NS  V  +D  G   + GE+V MD A DLA +++ P + L    +G +   N  + V  +G P G         +     T  I+  T        + Q  A +  GNSGGP++  NG VVG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|490103642|ref|WP_004005488.1|</Hit_id>
+  <Hit_def>MULTISPECIES: colicin V production protein [Rothia] &gt;gi|300381414|gb|EFJ77976.1| CvpA family protein [Rothia dentocariosa M567] &gt;gi|310943634|gb|ADP39928.1| CvpA family protein [Rothia dentocariosa ATCC 17931] &gt;gi|1080280252|gb|OFK72299.1| colicin V production protein [Rothia sp. HMSC065G12] &gt;gi|1080537767|gb|OFN18138.1| colicin V production protein [Rothia sp. HMSC058E10] &gt;gi|1080706887|gb|OFO77896.1| colicin V production protein [Rothia sp. HMSC065D02] &gt;gi|1080840341|gb|OFQ04657.1| colicin V production protein [Rothia sp. HMSC036D11]</Hit_def>
+  <Hit_accession>WP_004005488</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>7.47565e-08</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-----HSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGFVV-DHGLIATNAHVLSGVNSPMV--RDQRGR-TWQGEVVYMDTAQDLAFIRV-PGMNLDPLPIGRN--ANPGETVTFMGYPQGGPFKALPATVQGVGNTQTIDVETGKPNPMRQVYQLAADVQHGNSGGPVLDENGNVVGV</Hsp_hseq>
+      <Hsp_midline>G+G +V + G I TN HV+ G NS  V  +D  G   + GE+V MD A DLA +++ P + L    +G +   N  + V  +G P G         +     T  I+  T        + Q  A +  GNSGGP++  NG VVG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|739374879|ref|WP_037235836.1|</Hit_id>
+  <Hit_def>colicin V production protein [Rothia dentocariosa] &gt;gi|694197654|gb|KGJ01294.1| colicin V production protein [Rothia dentocariosa] &gt;gi|694242818|gb|KGJ33652.1| colicin V production protein [Rothia dentocariosa]</Hit_def>
+  <Hit_accession>WP_037235836</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>2.9639e-05</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-----HSNLLQTDAAINQGNSGGPLVAANGTVVGI</Hsp_qseq>
+      <Hsp_hseq>GSGFVAGQD-LVVTNSHVLSGVTSP--TVQDSRGR-TYPGTVVYNNPAQDLAFIRV-PRLPIQPLQVANTNSES-GETVTFMGYPKGGPFAAKPATVQGVGNIQTIDSETGKANPTRQVYQIAADVQHGNSGGPMLTQDGTVVGV</Hsp_hseq>
+      <Hsp_midline>G+G +   D  +VTN HV+ G  S   TV+D  G   Y G +V  + A DLA +++ P++ +    + ++++ +  + V  +G P G         +        I+  T        + Q  A +  GNSGGP++  +GTVVG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|300380321|gb|EFJ76884.1|</Hit_id>
+  <Hit_def>peptidase, M50 family [Rothia dentocariosa M567]</Hit_def>
+  <Hit_accession>EFJ76884</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.9415</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>653</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVV</Hsp_qseq>
+      <Hsp_hseq>SPAKAAGLRKDDRIVAINGNRTSTWEQVSSNIRQAGNN-TVTVTIERDG--SEQQLTMTPALLERPVVDEKTREYV</Hsp_hseq>
+      <Hsp_midline>+PA +AGLR  D I+ ++G      E+V++ + +  N  +V + + R G  S   L   P+ L   VV   T   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|881061034|ref|WP_048778685.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Rothia dentocariosa]</Hit_def>
+  <Hit_accession>WP_048778685</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.36843</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>653</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVV</Hsp_qseq>
+      <Hsp_hseq>SPAKAAGLRKDDRIVAINGNRTSTWEQVSSNIRQAGNN-TVTVTIERDG--SEQQLTMTPALLERPVVDEKTREYV</Hsp_hseq>
+      <Hsp_midline>+PA +AGLR  D I+ ++G      E+V++ + +  N  +V + + R G  S   L   P+ L   VV   T   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|503164067|ref|WP_013398728.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Rothia dentocariosa] &gt;gi|310944704|gb|ADP40998.1| putative RIP metalloprotease RseP [Rothia dentocariosa ATCC 17931]</Hit_def>
+  <Hit_accession>WP_013398728</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.40943</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>653</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVV</Hsp_qseq>
+      <Hsp_hseq>SPAKAAGLRKDDRIVAINGNRTSTWEQVSSNIRQAGNN-TVTVTIERDG--SEQQLTMTPALLERPVVDEKTREYV</Hsp_hseq>
+      <Hsp_midline>+PA +AGLR  D I+ ++G      E+V++ + +  N  +V + + R G  S   L   P+ L   VV   T   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|739370895|ref|WP_037231907.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Rothia dentocariosa]</Hit_def>
+  <Hit_accession>WP_037231907</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.43019</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>653</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVV</Hsp_qseq>
+      <Hsp_hseq>SPAKAAGLRKDDRIVAINGNRTSTWEQVSSNIRQAGNN-TVTVTIERDG--SEQQLTMTPALLERPVVDEKTREYV</Hsp_hseq>
+      <Hsp_midline>+PA +AGLR  D I+ ++G      E+V++ + +  N  +V + + R G  S   L   P+ L   VV   T   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|881033630|ref|WP_048753054.1|</Hit_id>
+  <Hit_def>MULTISPECIES: zinc metalloprotease [Rothia] &gt;gi|1080282263|gb|OFK74227.1| zinc metalloprotease [Rothia sp. HMSC065G12] &gt;gi|1081134241|gb|OFS82687.1| zinc metalloprotease [Rothia sp. HMSC08A08]</Hit_def>
+  <Hit_accession>WP_048753054</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.47226</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>653</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVV</Hsp_qseq>
+      <Hsp_hseq>SPAKAAGLRKDDRIVAINGNRTSTWEQVSSNIRQAGNN-TVTVTIERDG--SEQQLTMTPALLERPVVDEKTREYV</Hsp_hseq>
+      <Hsp_midline>+PA +AGLR  D I+ ++G      E+V++ + +  N  +V + + R G  S   L   P+ L   VV   T   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>12339</Statistics_db-num>
+      <Statistics_db-len>4248573</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

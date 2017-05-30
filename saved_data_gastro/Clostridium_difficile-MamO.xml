@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|296259233|gb|EFH06112.1|</Hit_id>
+  <Hit_def>trypsin [Clostridioides difficile NAP08] &gt;gi|296429277|gb|EFH15149.1| trypsin [Clostridioides difficile NAP07]</Hit_def>
+  <Hit_accession>EFH06112</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.27273e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTNNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTTMTGLLQTDASINAGNSGGPLLNQKGQVIGIN---TAKASKAEGLGFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN   T    K E  GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|497592191|ref|WP_009906375.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|549279619|emb|CCK88659.1| Serine protease, HrtA family [Clostridioides difficile T5] &gt;gi|549283623|emb|CCK92095.1| Serine protease, HrtA family [Clostridioides difficile T20] &gt;gi|549287314|emb|CCK95805.1| Serine protease, HrtA family [Clostridioides difficile E1] &gt;gi|549290851|emb|CCK99771.1| Serine protease, HrtA family [Clostridioides difficile E10] &gt;gi|1135033326|gb|OMK38977.1| hypothetical protein BER34_000520 [Clostridioides difficile] &gt;gi|1135060856|gb|OMK66452.1| hypothetical protein BER35_003336 [Clostridioides difficile] &gt;gi|1146190097|emb|SJW92121.1| protease [Clostridioides difficile] &gt;gi|1146193413|emb|SJW37449.1| protease [Clostridioides difficile] &gt;gi|1146200083|emb|SJO13800.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146218452|emb|SJW12187.1| protease [Clostridioides difficile] &gt;gi|1146232880|emb|SJV85140.1| protease [Clostridioides difficile] &gt;gi|1146272553|emb|SJP24808.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146320671|emb|SJV21038.1| protease [Clostridioides difficile] &gt;gi|1146450973|emb|SJU93761.1| protease [Clostridioides difficile] &gt;gi|1146506668|emb|SJP60220.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1152171135|emb|SKA30975.1| protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_009906375</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.67277e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTNNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTTMTGLLQTDASINAGNSGGPLLNQKGQVIGIN---TAKASKAEGLGFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN   T    K E  GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|829473204|gb|KLR54597.1|</Hit_id>
+  <Hit_def>protease, partial [[Clostridium] sordellii 8483]</Hit_def>
+  <Hit_accession>KLR54597</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>3.54047e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|930704117|ref|WP_054275192.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|930493084|gb|KPI47312.1| protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054275192</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>3.95948e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTNNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTDKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|531495137|gb|EQH81138.1|</Hit_id>
+  <Hit_def>trypsin-like peptidase domain protein [Clostridioides difficile DA00313]</Hit_def>
+  <Hit_accession>EQH81138</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>4.01849e-08</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>YTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>FAIPTETQGVG----------TGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>+ +P    GVG          +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1149139970|ref|WP_077710590.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|1147102683|emb|SJO51606.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_077710590</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.28875e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|972373089|ref|WP_059026989.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|1041775773|gb|OBW81409.1| protease [Clostridioides difficile] &gt;gi|1135015654|gb|OMK21388.1| hypothetical protein BER43_003524 [Clostridioides difficile] &gt;gi|1146727749|emb|SJW64824.1| protease [Clostridioides difficile] &gt;gi|1147079720|emb|SJW45286.1| protease [Clostridioides difficile] &gt;gi|1147116823|emb|SJW35523.1| protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_059026989</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.36556e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1122719641|ref|WP_074139632.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074139632</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.40271e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1122420671|ref|WP_074073490.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074073490</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.48336e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489530904|ref|WP_003435637.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protease [Clostridiales] &gt;gi|126700903|ref|YP_001089800.1| serine protease, HrtA family [Clostridioides difficile 630] &gt;gi|115252340|emb|CAJ70181.1| Serine protease, HrtA family [Clostridioides difficile 630] &gt;gi|260210991|emb|CBA66284.1| probable protease [Clostridioides difficile CD196] &gt;gi|260214503|emb|CBE07000.1| probable protease [Clostridioides difficile R20291] &gt;gi|357558203|gb|EHJ39705.1| trypsin [Clostridioides difficile 70-100-2010] &gt;gi|531095339|gb|EQE01173.1| trypsin family protein [Clostridioides difficile CD8] &gt;gi|531095352|gb|EQE01183.1| trypsin family protein [Clostridioides difficile CD3] &gt;gi|531098074|gb|EQE03762.1| trypsin family protein [Clostridioides difficile CD9] &gt;gi|531102607|gb|EQE08188.1| trypsin family protein [Clostridioides difficile CD13] &gt;gi|531113033|gb|EQE18112.1| trypsin family protein [Clostridioides difficile CD18] &gt;gi|531114773|gb|EQE19819.1| trypsin family protein [Clostridioides difficile CD21] &gt;gi|531124463|gb|EQE29189.1| trypsin family protein [Clostridioides difficile CD34] &gt;gi|531127574|gb|EQE32219.1| trypsin family protein [Clostridioides difficile CD38] &gt;gi|531133469|gb|EQE37938.1| trypsin family protein [Clostridioides difficile CD40] &gt;gi|531137446|gb|EQE41802.1| trypsin family protein [Clostridioides difficile CD41] &gt;gi|531150870|gb|EQE54782.1| trypsin family protein [Clostridioides difficile CD44] &gt;gi|531155696|gb|EQE59394.1| trypsin family protein [Clostridioides difficile CD45] &gt;gi|531157655|gb|EQE61268.1| trypsin family protein [Clostridioides difficile CD46] &gt;gi|531163625|gb|EQE67083.1| trypsin family protein [Clostridioides difficile CD47] &gt;gi|531169826|gb|EQE73032.1| trypsin family protein [Clostridioides difficile CD49] &gt;gi|531172206|gb|EQE75336.1| trypsin family protein [Clostridioides difficile CD51] &gt;gi|531174676|gb|EQE77706.1| trypsin family protein [Clostridioides difficile CD68] &gt;gi|531180263|gb|EQE83110.1| trypsin family protein [Clostridioides difficile CD69] &gt;gi|531185581|gb|EQE88302.1| trypsin family protein [Clostridioides difficile CD70] &gt;gi|531186991|gb|EQE89662.1| trypsin family protein [Clostridioides difficile CD104] &gt;gi|531192249|gb|EQE94765.1| trypsin family protein [Clostridioides difficile CD109] &gt;gi|531196590|gb|EQE98853.1| trypsin family protein [Clostridioides difficile CD129] &gt;gi|531199137|gb|EQF01225.1| trypsin family protein [Clostridioides difficile CD131] &gt;gi|531206868|gb|EQF08425.1| trypsin family protein [Clostridioides difficile CD133] &gt;gi|531211620|gb|EQF12924.1| trypsin family protein [Clostridioides difficile CD144] &gt;gi|531216081|gb|EQF17270.1| trypsin family protein [Clostridioides difficile CD149] &gt;gi|531234642|gb|EQF34959.1| trypsin family protein [Clostridioides difficile CD166] &gt;gi|531237142|gb|EQF37375.1| trypsin family protein [Clostridioides difficile CD169] &gt;gi|531243829|gb|EQF43332.1| trypsin family protein [Clostridioides difficile CD170] &gt;gi|531250667|gb|EQF49246.1| trypsin family protein [Clostridioides difficile CD178] &gt;gi|531252858|gb|EQF51336.1| trypsin family protein [Clostridioides difficile CD181] &gt;gi|531260336|gb|EQF58318.1| trypsin family protein [Clostridioides difficile CD196] &gt;gi|531260818|gb|EQF58701.1| trypsin family protein [Clostridioides difficile CD200] &gt;gi|531268706|gb|EQF65557.1| trypsin family protein [Clostridioides difficile CD206] &gt;gi|531269708|gb|EQF66521.1| trypsin family protein [Clostridioides difficile CD201] &gt;gi|531276904|gb|EQF73463.1| trypsin family protein [Clostridioides difficile CD211] &gt;gi|531277425|gb|EQF73971.1| trypsin family protein [Clostridioides difficile CD212] &gt;gi|531282606|gb|EQF78975.1| trypsin family protein [Clostridioides difficile 342] &gt;gi|531289309|gb|EQF85321.1| trypsin family protein [Clostridioides difficile 655] &gt;gi|531291016|gb|EQF86913.1| trypsin family protein [Clostridioides difficile 824] &gt;gi|531295505|gb|EQF91078.1| trypsin family protein [Clostridioides difficile 840] &gt;gi|531297584|gb|EQF93069.1| trypsin family protein [Clostridioides difficile 840] &gt;gi|531297944|gb|EQF93413.1| trypsin family protein [Clostridioides difficile 842] &gt;gi|531304813|gb|EQF99990.1| trypsin family protein [Clostridioides difficile 6041] &gt;gi|531304930|gb|EQG00103.1| trypsin family protein [Clostridioides difficile 6042] &gt;gi|531322275|gb|EQG16499.1| trypsin family protein [Clostridioides difficile DA00062] &gt;gi|531325764|gb|EQG19818.1| trypsin family protein [Clostridioides difficile DA00114] &gt;gi|531333623|gb|EQG26986.1| trypsin family protein [Clostridioides difficile DA00126] &gt;gi|531337814|gb|EQG31093.1| trypsin family protein [Clostridioides difficile DA00129] &gt;gi|531338811|gb|EQG32074.1| trypsin family protein [Clostridioides difficile DA00128] &gt;gi|531344536|gb|EQG37648.1| trypsin family protein [Clostridioides difficile DA00131] &gt;gi|531348347|gb|EQG41372.1| trypsin family protein [Clostridioides difficile DA00132] &gt;gi|531350214|gb|EQG43191.1| trypsin family protein [Clostridioides difficile DA00134] &gt;gi|531357187|gb|EQG50007.1| trypsin family protein [Clostridioides difficile DA00141] &gt;gi|531362049|gb|EQG54728.1| trypsin family protein [Clostridioides difficile DA00142] &gt;gi|531362451|gb|EQG55120.1| trypsin family protein [Clostridioides difficile DA00145] &gt;gi|531365888|gb|EQG58448.1| trypsin family protein [Clostridioides difficile DA00149] &gt;gi|531381758|gb|EQG73801.1| trypsin family protein [Clostridioides difficile DA00165] &gt;gi|531382618|gb|EQG74638.1| trypsin family protein [Clostridioides difficile DA00167] &gt;gi|531388128|gb|EQG80061.1| trypsin family protein [Clostridioides difficile DA00174] &gt;gi|531398296|gb|EQG89644.1| trypsin family protein [Clostridioides difficile DA00191] &gt;gi|531399857|gb|EQG91113.1| trypsin family protein [Clostridioides difficile DA00189] &gt;gi|531410278|gb|EQH01112.1| trypsin family protein [Clostridioides difficile DA00195] &gt;gi|531410663|gb|EQH01486.1| trypsin family protein [Clostridioides difficile DA00196] &gt;gi|531416082|gb|EQH06816.1| trypsin family protein [Clostridioides difficile DA00197] &gt;gi|531426164|gb|EQH16631.1| trypsin family protein [Clostridioides difficile DA00210] &gt;gi|531427932|gb|EQH18341.1| trypsin family protein [Clostridioides difficile DA00212] &gt;gi|531429363|gb|EQH19724.1| trypsin family protein [Clostridioides difficile DA00211] &gt;gi|531437382|gb|EQH27477.1| trypsin family protein [Clostridioides difficile DA00215] &gt;gi|531443091|gb|EQH32819.1| trypsin family protein [Clostridioides difficile DA00232] &gt;gi|531443095|gb|EQH32822.1| trypsin family protein [Clostridioides difficile DA00216] &gt;gi|531443599|gb|EQH33313.1| trypsin family protein [Clostridioides difficile DA00238] &gt;gi|531450204|gb|EQH39551.1| trypsin family protein [Clostridioides difficile DA00244] &gt;gi|531456974|gb|EQH45956.1| trypsin family protein [Clostridioides difficile DA00246] &gt;gi|531463729|gb|EQH52365.1| trypsin family protein [Clostridioides difficile DA00256] &gt;gi|531470023|gb|EQH58443.1| trypsin family protein [Clostridioides difficile DA00273] &gt;gi|531478411|gb|EQH66315.1| trypsin family protein [Clostridioides difficile DA00305] &gt;gi|531481715|gb|EQH69150.1| trypsin family protein [Clostridioides difficile DA00306] &gt;gi|531487149|gb|EQH74197.1| trypsin family protein [Clostridioides difficile DA00307] &gt;gi|531501069|gb|EQH86646.1| trypsin family protein [Clostridioides difficile F152] &gt;gi|531507985|gb|EQH93384.1| trypsin family protein [Clostridioides difficile F253] &gt;gi|531512732|gb|EQH97737.1| trypsin family protein [Clostridioides difficile F314] &gt;gi|531519345|gb|EQI04113.1| trypsin family protein [Clostridioides difficile Y10] &gt;gi|531524811|gb|EQI09293.1| trypsin family protein [Clostridioides difficile Y21] &gt;gi|531534513|gb|EQI18434.1| trypsin family protein [Clostridioides difficile Y41] &gt;gi|531535572|gb|EQI19472.1| trypsin family protein [Clostridioides difficile Y155] &gt;gi|531536238|gb|EQI20102.1| trypsin family protein [Clostridioides difficile Y165] &gt;gi|531540100|gb|EQI23771.1| trypsin family protein [Clostridioides difficile Y171] &gt;gi|531550042|gb|EQI32842.1| trypsin family protein [Clostridioides difficile Y215] &gt;gi|531554386|gb|EQI36939.1| trypsin family protein [Clostridioides difficile Y202] &gt;gi|531562762|gb|EQI44794.1| trypsin family protein [Clostridioides difficile Y247] &gt;gi|531568200|gb|EQI49999.1| trypsin family protein [Clostridioides difficile Y270] &gt;gi|531572665|gb|EQI54305.1| trypsin family protein [Clostridioides difficile Y307] &gt;gi|531573755|gb|EQI55342.1| trypsin family protein [Clostridioides difficile Y312] &gt;gi|531579794|gb|EQI61023.1| trypsin family protein [Clostridioides difficile Y266] &gt;gi|531582758|gb|EQI63827.1| trypsin family protein [Clostridioides difficile Y343] &gt;gi|531590290|gb|EQI71170.1| trypsin family protein [Clostridioides difficile Y381] &gt;gi|531595054|gb|EQI75794.1| trypsin family protein [Clostridioides difficile Y384] &gt;gi|531596804|gb|EQI77432.1| trypsin family protein [Clostridioides difficile Y401] &gt;gi|531596884|gb|EQI77503.1| trypsin family protein [Clostridioides difficile P1] &gt;gi|531609642|gb|EQI89491.1| trypsin family protein [Clostridioides difficile P3] &gt;gi|531613924|gb|EQI93567.1| trypsin family protein [Clostridioides difficile P5] &gt;gi|531618833|gb|EQI98196.1| trypsin family protein [Clostridioides difficile P6] &gt;gi|531625655|gb|EQJ04642.1| trypsin family protein [Clostridioides difficile P7] &gt;gi|531628843|gb|EQJ07630.1| trypsin family protein [Clostridioides difficile P8] &gt;gi|531637852|gb|EQJ16123.1| trypsin family protein [Clostridioides difficile P13] &gt;gi|531643665|gb|EQJ21780.1| trypsin family protein [Clostridioides difficile P15] &gt;gi|531653460|gb|EQJ31297.1| trypsin family protein [Clostridioides difficile P11] &gt;gi|531655399|gb|EQJ33187.1| trypsin family protein [Clostridioides difficile P21] &gt;gi|531660185|gb|EQJ37914.1| trypsin family protein [Clostridioides difficile P23] &gt;gi|531666449|gb|EQJ44079.1| trypsin family protein [Clostridioides difficile P24] &gt;gi|531667633|gb|EQJ45253.1| trypsin family protein [Clostridioides difficile P25] &gt;gi|531676642|gb|EQJ54148.1| trypsin family protein [Clostridioides difficile P29] &gt;gi|531679747|gb|EQJ57208.1| trypsin family protein [Clostridioides difficile P32] &gt;gi|531687636|gb|EQJ64969.1| trypsin family protein [Clostridioides difficile P38] &gt;gi|531688109|gb|EQJ65435.1| trypsin family protein [Clostridioides difficile P36] &gt;gi|531699270|gb|EQJ76446.1| trypsin family protein [Clostridioides difficile P46] &gt;gi|531699670|gb|EQJ76837.1| trypsin family protein [Clostridioides difficile P45] &gt;gi|531701551|gb|EQJ78691.1| trypsin family protein [Clostridioides difficile P48] &gt;gi|531710670|gb|EQJ87664.1| trypsin family protein [Clostridioides difficile P49] &gt;gi|531711305|gb|EQJ88298.1| trypsin family protein [Clostridioides difficile P50] &gt;gi|531716647|gb|EQJ93589.1| trypsin family protein [Clostridioides difficile P51] &gt;gi|531722633|gb|EQJ99493.1| trypsin family protein [Clostridioides difficile P61] &gt;gi|531724679|gb|EQK01507.1| trypsin family protein [Clostridioides difficile P59] &gt;gi|531726197|gb|EQK03008.1| trypsin family protein [Clostridioides difficile P78] &gt;gi|531732776|gb|EQK09490.1| trypsin family protein [Clostridioides difficile P69] &gt;gi|531737363|gb|EQK14005.1| trypsin family protein [Clostridioides difficile P70] &gt;gi|531739279|gb|EQK15893.1| trypsin family protein [Clostridioides difficile P72] &gt;gi|531749873|gb|EQK26348.1| trypsin family protein [Clostridioides difficile P73] &gt;gi|531752988|gb|EQK29419.1| trypsin family protein [Clostridioides difficile P75] &gt;gi|531760683|gb|EQK37006.1| trypsin family protein [Clostridioides difficile P77] &gt;gi|531772369|gb|EQK48544.1| trypsin family protein [Clostridioides difficile F480] &gt;gi|531774628|gb|EQK50778.1| trypsin family protein [Clostridioides difficile F525] &gt;gi|531777598|gb|EQK53730.1| trypsin family protein [Clostridioides difficile F200] &gt;gi|531781320|gb|EQK57404.1| trypsin family protein [Clostridioides difficile F548] &gt;gi|531787593|gb|EQK63619.1| trypsin family protein [Clostridioides difficile F601] &gt;gi|531789781|gb|EQK65764.1| trypsin family protein [Clostridioides difficile CD90] &gt;gi|531792834|gb|EQK68748.1| trypsin family protein [Clostridioides difficile CD92] &gt;gi|531797977|gb|EQK73660.1| trypsin family protein [Clostridioides difficile CD113] &gt;gi|531810473|gb|EQK85159.1| trypsin family protein [Clostridioides difficile P31] &gt;gi|531875636|gb|EQL04881.1| trypsin family protein [Clostridioides difficile CD88] &gt;gi|531876499|gb|EQL05723.1| trypsin family protein [Clostridioides difficile CD86] &gt;gi|548652672|gb|ERM22348.1| trypsin family protein [Clostridioides difficile P41] &gt;gi|548653563|gb|ERM23214.1| trypsin family protein [Clostridioides difficile P33] &gt;gi|548656616|gb|ERM26228.1| trypsin family protein [Clostridioides difficile DA00130] &gt;gi|548662683|gb|ERM32167.1| trypsin family protein [Clostridioides difficile P37] &gt;gi|548664679|gb|ERM34122.1| trypsin family protein [Clostridioides difficile P64] &gt;gi|548671891|gb|ERM41201.1| trypsin family protein [Clostridioides difficile P68] &gt;gi|548675269|gb|ERM44533.1| trypsin family protein [Clostridioides difficile F665] &gt;gi|548677288|gb|ERM46520.1| trypsin family protein [Clostridioides difficile P53] &gt;gi|549301308|emb|CCL12697.1| Serine protease, HtrA family [Clostridioides difficile E16] &gt;gi|549306254|emb|CCL15770.1| Serine protease, HrtA family [Clostridioides difficile T22] &gt;gi|549310223|emb|CCL19766.1| Serine protease, HrtA family [Clostridioides difficile E25] &gt;gi|549314681|emb|CCL23746.1| Serine protease, HrtA family [Clostridioides difficile T15] &gt;gi|549319506|emb|CCL27598.1| Serine protease, HrtA family [Clostridioides difficile T11] &gt;gi|549324001|emb|CCL31560.1| Serine protease, HrtA family [Clostridioides difficile E15] &gt;gi|549328135|emb|CCL35580.1| Serine protease, HrtA family [Clostridioides difficile T23] &gt;gi|549331993|emb|CCL39454.1| Serine protease, HrtA family [Clostridioides difficile E19] &gt;gi|549335440|emb|CCL43613.1| Serine protease, HtrA family [Clostridioides difficile E24] &gt;gi|549339047|emb|CCL47626.1| Serine protease, HtrA family [Clostridioides difficile T42] &gt;gi|549344049|emb|CCL50702.1| Serine protease, HrtA family [Clostridioides difficile T6] &gt;gi|549348404|emb|CCL54671.1| Serine protease, HrtA family [Clostridioides difficile E14] &gt;gi|549352097|emb|CCL58854.1| Serine protease, HrtA family [Clostridioides difficile T17] &gt;gi|549356551|emb|CCL62393.1| Serine protease, HrtA family [Clostridioides difficile E9] &gt;gi|549364980|emb|CCL70291.1| Serine protease, HrtA family [Clostridioides difficile T3] &gt;gi|549369010|emb|CCL74028.1| Serine protease, HrtA family [Clostridioides difficile E28] &gt;gi|549373013|emb|CCL77748.1| Serine protease, HrtA family [Clostridioides difficile E23] &gt;gi|549376900|emb|CCL81537.1| Serine protease, HrtA family [Clostridioides difficile E12] &gt;gi|549381040|emb|CCL85092.1| Serine protease, HrtA family [Clostridioides difficile T19] &gt;gi|549384524|emb|CCL89262.1| Serine protease, HrtA family [Clostridioides difficile T10] &gt;gi|549388685|emb|CCL92931.1| Serine protease, HrtA family [Clostridioides difficile T14] &gt;gi|549392181|emb|CCL97074.1| Serine protease, HtrA family [Clostridioides difficile T61] &gt;gi|612402098|gb|EZR28143.1| protease [Clostridioides difficile] &gt;gi|662026955|emb|CDS89459.1| Serine protease, HtrA family [Clostridioides difficile] &gt;gi|662028882|emb|CDS85119.1| Serine protease, HrtA family [Clostridioides difficile] &gt;gi|662240454|emb|CDT69059.1| Serine protease, HrtA family [Clostridioides difficile] &gt;gi|733570811|emb|CEJ99937.1| Serine protease, HtrA family [Clostridioides difficile] &gt;gi|760240418|gb|AJP13057.1| serine protease, HrtA family [Clostridioides difficile 630] &gt;gi|767025313|gb|KJF63274.1| protease [Clostridioides difficile] &gt;gi|873321948|gb|AKP44212.1| protease [Clostridioides difficile ATCC 9689 = DSM 1296] &gt;gi|953834315|gb|ALP05601.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1001996552|gb|AMM55104.1| protease [Clostridioides difficile] &gt;gi|1025766252|emb|CZR81797.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025769983|emb|CZR93246.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025774280|emb|CZR82348.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025782931|emb|CZS08036.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025791531|emb|CZT60630.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025796940|emb|CZR91857.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1078299821|gb|OFA31242.1| protease [Clostridioides difficile] &gt;gi|1081261846|gb|OFU03630.1| protease [Clostridium sp. HMSC19E03] &gt;gi|1081262958|gb|OFU04711.1| protease [Clostridium sp. HMSC19D07] &gt;gi|1081265423|gb|OFU07082.1| protease [Clostridium sp. HMSC19D02] &gt;gi|1081270386|gb|OFU11863.1| protease [Clostridium sp. HMSC19C11] &gt;gi|1081275727|gb|OFU17045.1| protease [Clostridium sp. HMSC19C05] &gt;gi|1081278669|gb|OFU19891.1| protease [Clostridium sp. HMSC19C09] &gt;gi|1081283295|gb|OFU24341.1| protease [Clostridium sp. HMSC19C08] &gt;gi|1081286923|gb|OFU27849.1| protease [Clostridium sp. HMSC19B12] &gt;gi|1081289892|gb|OFU30689.1| protease [Clostridium sp. HMSC19B10] &gt;gi|1081292107|gb|OFU32790.1| protease [Clostridium sp. HMSC19B11] &gt;gi|1081298392|gb|OFU38850.1| protease [Clostridium sp. HMSC19B04] &gt;gi|1081302632|gb|OFU42931.1| protease [Clostridium sp. HMSC19B01] &gt;gi|1081308915|gb|OFU48973.1| protease [Clostridioides difficile] &gt;gi|1081310530|gb|OFU50518.1| protease [Clostridium sp. HMSC19A11] &gt;gi|1113083525|gb|OJT73270.1| protease [Clostridioides difficile] &gt;gi|1113085899|gb|OJT74722.1| protease [Clostridioides difficile] &gt;gi|1113094729|gb|OJT81128.1| protease [Clostridioides difficile] &gt;gi|1113100926|gb|OJT84985.1| protease [Clostridioides difficile] &gt;gi|1113109062|gb|OJT90652.1| protease [Clostridioides difficile] &gt;gi|1129141988|gb|OLP68137.1| protease [Clostridioides difficile] &gt;gi|1135002145|gb|OMK08058.1| hypothetical protein BER28_003334 [Clostridioides difficile] &gt;gi|1135008840|gb|OMK14700.1| hypothetical protein BER27_003404 [Clostridioides difficile] &gt;gi|1135012504|gb|OMK18240.1| hypothetical protein BER29_003322 [Clostridioides difficile] &gt;gi|1135021945|gb|OMK27640.1| hypothetical protein BER30_003555 [Clostridioides difficile] &gt;gi|1135024299|gb|OMK29993.1| hypothetical protein BER39_003331 [Clostridioides difficile] &gt;gi|1135029477|gb|OMK35157.1| hypothetical protein BER41_003283 [Clostridioides difficile] &gt;gi|1135031686|gb|OMK37348.1| hypothetical protein BER42_003305 [Clostridioides difficile] &gt;gi|1135041117|gb|OMK46748.1| hypothetical protein BER38_003487 [Clostridioides difficile] &gt;gi|1135042049|gb|OMK47678.1| hypothetical protein BER31_003504 [Clostridioides difficile] &gt;gi|1135047763|gb|OMK53376.1| hypothetical protein BER40_003248 [Clostridioides difficile] &gt;gi|1135052277|gb|OMK57885.1| hypothetical protein BER45_003460 [Clostridioides difficile] &gt;gi|1135057555|gb|OMK63153.1| hypothetical protein BER33_003268 [Clostridioides difficile] &gt;gi|1135062567|gb|OMK68138.1| hypothetical protein BER32_003448 [Clostridioides difficile] &gt;gi|1135062913|gb|OMK68483.1| hypothetical protein BER46_003460 [Clostridioides difficile] &gt;gi|1135070931|gb|OMK76484.1| hypothetical protein BER44_003602 [Clostridioides difficile] &gt;gi|1146195650|emb|SJT26582.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146202783|emb|SJP87585.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146206440|emb|SJR51381.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146212794|emb|SJU29004.1| protease [Clostridioides difficile] &gt;gi|1146216040|emb|SJU06493.1| protease [Clostridioides difficile] &gt;gi|1146221736|emb|SJU68077.1| protease [Clostridioides difficile] &gt;gi|1146224557|emb|SJP91181.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146228150|emb|SJW60641.1| protease [Clostridioides difficile] &gt;gi|1146235245|emb|SJV87916.1| protease [Clostridioides difficile] &gt;gi|1146238879|emb|SJO78333.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146242776|emb|SJQ76368.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146247249|emb|SJW70155.1| protease [Clostridioides difficile] &gt;gi|1146250861|emb|SJW85556.1| protease [Clostridioides difficile] &gt;gi|1146253588|emb|SJU21013.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146257942|emb|SJP96343.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146262413|emb|SJU62621.1| protease [Clostridioides difficile] &gt;gi|1146266663|emb|SJN60710.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146268122|emb|SJU72652.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146275878|emb|SJP10614.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146279254|emb|SJR58165.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146282946|emb|SJU97566.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146287681|emb|SJP55322.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146292337|emb|SJV51678.1| protease [Clostridioides difficile] &gt;gi|1146293679|emb|SJR29073.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146298744|emb|SJU73220.1| protease [Clostridioides difficile] &gt;gi|1146301764|emb|SJS26714.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146305023|emb|SJQ05580.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146310135|emb|SJV11919.1| protease [Clostridioides difficile] &gt;gi|1146312170|emb|SJQ85331.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146316000|emb|SJQ99399.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146324127|emb|SJU75926.1| protease [Clostridioides difficile] &gt;gi|1146327078|emb|SJT80764.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146331783|emb|SJO19674.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146334909|emb|SJV93391.1| protease [Clostridioides difficile] &gt;gi|1146337928|emb|SJU32350.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146352800|emb|SJU55793.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146362207|emb|SJS06420.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146363611|emb|SJO43711.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146367536|emb|SJT58029.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146371271|emb|SJT36208.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146375012|emb|SJO67067.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146378697|emb|SJO21381.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146382744|emb|SJN93650.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146386346|emb|SJR49649.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146390394|emb|SJW89563.1| protease [Clostridioides difficile] &gt;gi|1146394074|emb|SJS54845.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146396601|emb|SJU18132.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146405475|emb|SJV62472.1| protease [Clostridioides difficile] &gt;gi|1146408964|emb|SJW68866.1| protease [Clostridioides difficile] &gt;gi|1146412148|emb|SJQ65053.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146416104|emb|SJS34676.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146420392|emb|SJR88006.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146422853|emb|SJO68184.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146426482|emb|SJO11869.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146431551|emb|SJU58090.1| protease [Clostridioides difficile] &gt;gi|1146436265|emb|SJO53752.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146437813|emb|SJR36552.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146443775|emb|SJQ38387.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146446314|emb|SJR30633.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146453453|emb|SJU30790.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146457082|emb|SJR02208.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146462176|emb|SJU74370.1| protease [Clostridioides difficile] &gt;gi|1146464876|emb|SJS50829.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146468503|emb|SJU27232.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146472386|emb|SJT91106.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146476699|emb|SJQ82913.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146480843|emb|SJT34950.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146483551|emb|SJU26523.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146487989|emb|SJW10923.1| protease [Clostridioides difficile] &gt;gi|1146491273|emb|SJU44721.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146495081|emb|SJU44879.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146500176|emb|SJR73126.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146502603|emb|SJU31681.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146510932|emb|SJS60276.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146513722|emb|SJS61110.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146517900|emb|SJU06427.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146521523|emb|SJR22570.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146525398|emb|SJR20511.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146530504|emb|SJT97875.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146534208|emb|SJW02524.1| protease [Clostridioides difficile] &gt;gi|1146536953|emb|SJO71854.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146540701|emb|SJS13299.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146545757|emb|SJV04893.1| protease [Clostridioides difficile] &gt;gi|1146549250|emb|SJV54322.1| protease [Clostridioides difficile] &gt;gi|1146552624|emb|SJR27895.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146556149|emb|SJN83921.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146558824|emb|SJS81103.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146563029|emb|SJR02060.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146568061|emb|SJQ24401.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146571657|emb|SJS29447.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146575044|emb|SJO70889.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146577888|emb|SJQ62584.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146582132|emb|SJR65388.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146585584|emb|SJQ05548.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146590696|emb|SJW29255.1| protease [Clostridioides difficile] &gt;gi|1146594310|emb|SJW70697.1| protease [Clostridioides difficile] &gt;gi|1146603127|emb|SJQ65169.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146605167|emb|SJQ36288.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146608495|emb|SJQ55828.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146612935|emb|SJU56637.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146616059|emb|SJS37446.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146621011|emb|SJS88262.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146623865|emb|SJR75160.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146628246|emb|SJQ63464.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146636280|emb|SJP11111.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146641307|emb|SJW74993.1| protease [Clostridioides difficile] &gt;gi|1146643396|emb|SJQ83798.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146647300|emb|SJU30228.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146650674|emb|SJP09290.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146655076|emb|SJS56720.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146659478|emb|SJT72444.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146664251|emb|SJV03082.1| protease [Clostridioides difficile] &gt;gi|1146666032|emb|SJT74991.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146672074|emb|SJW94952.1| protease [Clostridioides difficile] &gt;gi|1146675780|emb|SJV83287.1| protease [Clostridioides difficile] &gt;gi|1146678462|emb|SJS73500.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146682039|emb|SJR40558.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146685848|emb|SJV15479.1| protease [Clostridioides difficile] &gt;gi|1146689791|emb|SJS69373.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146693717|emb|SJO95221.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146698316|emb|SJW57292.1| protease [Clostridioides difficile] &gt;gi|1146701779|emb|SJQ69812.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146705082|emb|SJV00995.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146709740|emb|SJX11513.1| protease [Clostridioides difficile] &gt;gi|1146712887|emb|SJV34713.1| protease [Clostridioides difficile] &gt;gi|1146718645|emb|SJU28237.1| protease [Clostridioides difficile] &gt;gi|1146720403|emb|SJU97259.1| protease [Clostridioides difficile] &gt;gi|1146725128|emb|SJW60821.1| protease [Clostridioides difficile] &gt;gi|1146732249|emb|SJO90660.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146736564|emb|SJV66291.1| protease [Clostridioides difficile] &gt;gi|1146740038|emb|SJV57538.1| protease [Clostridioides difficile] &gt;gi|1146743424|emb|SJV98177.1| protease [Clostridioides difficile] &gt;gi|1146748068|emb|SJS44542.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146751474|emb|SJP72292.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146755536|emb|SJO56407.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146759448|emb|SJS52966.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146766710|emb|SJU43825.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146772547|emb|SJS35792.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146774368|emb|SJV42258.1| protease [Clostridioides difficile] &gt;gi|1146782585|emb|SJU28096.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146792068|emb|SJV18632.1| protease [Clostridioides difficile] &gt;gi|1146793869|emb|SJW00425.1| protease [Clostridioides difficile] &gt;gi|1146797781|emb|SJR17401.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146801943|emb|SJQ37507.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146805523|emb|SJO52481.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146809321|emb|SJW08468.1| protease [Clostridioides difficile] &gt;gi|1146813630|emb|SJO12985.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146817179|emb|SJV72764.1| protease [Clostridioides difficile] &gt;gi|1146821224|emb|SJP17435.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146825839|emb|SJV89907.1| protease [Clostridioides difficile] &gt;gi|1146828622|emb|SJV86502.1| protease [Clostridioides difficile] &gt;gi|1146832209|emb|SJO84143.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146836258|emb|SJU82127.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146840822|emb|SJO72258.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146843878|emb|SJW34593.1| protease [Clostridioides difficile] &gt;gi|1146847860|emb|SJO33039.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146856297|emb|SJQ02200.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146863380|emb|SJP02125.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146867920|emb|SJT01833.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146875093|emb|SJW41956.1| protease [Clostridioides difficile] &gt;gi|1146879559|emb|SJO82398.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146883247|emb|SJR69119.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146886863|emb|SJO40220.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146890734|emb|SJW97825.1| protease [Clostridioides difficile] &gt;gi|1146898597|emb|SJT40977.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146902659|emb|SJQ64884.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146906371|emb|SJR88448.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146910794|emb|SJQ88932.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146914706|emb|SJP18644.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146922334|emb|SJP32608.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146926379|emb|SJV84370.1| protease [Clostridioides difficile] &gt;gi|1146932199|emb|SJR95990.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146934476|emb|SJP28005.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146938416|emb|SJP59808.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146943211|emb|SJS61340.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146947201|emb|SJS46654.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146951754|emb|SJO09551.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146958890|emb|SJS58458.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146963153|emb|SJW56332.1| protease [Clostridioides difficile] &gt;gi|1146965979|emb|SJP30917.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146970096|emb|SJR39217.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146974204|emb|SJO91434.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146978645|emb|SJO12711.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146983612|emb|SJV30944.1| protease [Clostridioides difficile] &gt;gi|1146985774|emb|SJR32062.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146992140|emb|SJR59895.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146994062|emb|SJP69748.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146998895|emb|SJP10072.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147002777|emb|SJO29750.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147005974|emb|SJR03519.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147009927|emb|SJP25050.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147014337|emb|SJQ13011.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147018448|emb|SJP50177.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147022273|emb|SJV39452.1| protease [Clostridioides difficile] &gt;gi|1147028354|emb|SJV72634.1| protease [Clostridioides difficile] &gt;gi|1147030262|emb|SJR81559.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147034186|emb|SJQ96160.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147038642|emb|SJR10089.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147042273|emb|SJT37104.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147046652|emb|SJS59722.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147052095|emb|SJO76292.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147055212|emb|SJR21948.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147059220|emb|SJW91864.1| protease [Clostridioides difficile] &gt;gi|1147064114|emb|SJW68614.1| protease [Clostridioides difficile] &gt;gi|1147066023|emb|SJO74145.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147072089|emb|SJW66280.1| protease [Clostridioides difficile] &gt;gi|1147076191|emb|SJR66114.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147083420|emb|SJQ62230.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147088732|emb|SJS17658.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147091931|emb|SJW36017.1| protease [Clostridioides difficile] &gt;gi|1147095481|emb|SJV92518.1| protease [Clostridioides difficile] &gt;gi|1147104620|emb|SJT76095.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147108533|emb|SJT80149.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147113150|emb|SJW28501.1| protease [Clostridioides difficile] &gt;gi|1147120877|emb|SJT76115.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147125116|emb|SJT84147.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147130142|emb|SJT78061.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147135425|emb|SJP87445.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147137584|emb|SJR02178.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147141595|emb|SJT50962.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147148076|emb|SJW82759.1| protease [Clostridioides difficile] &gt;gi|1147153126|emb|SJS01382.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1150459729|gb|AQU08366.1| protease [Clostridioides difficile] &gt;gi|1152166186|emb|SKA36171.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1152181508|emb|SKA49720.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1152185311|emb|SKA34704.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1169376251|gb|ARC15654.1| protease [Clostridioides difficile] &gt;gi|1173532317|gb|ARE64235.1| serine protease, HrtA family [Clostridioides difficile] &gt;gi|1175779235|gb|OQW12658.1| protease [Clostridioides difficile] &gt;gi|1175785762|gb|OQW19124.1| protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_003435637</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.48336e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|489527643|ref|WP_003432390.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|357548282|gb|EHJ30148.1| trypsin [Clostridioides difficile 050-P50-2011] &gt;gi|357549885|gb|EHJ31723.1| trypsin [Clostridioides difficile 002-P50-2011] &gt;gi|531246110|gb|EQF45388.1| trypsin family protein [Clostridioides difficile CD175] &gt;gi|531322125|gb|EQG16350.1| trypsin family protein [Clostridioides difficile DA00065] &gt;gi|531742467|gb|EQK19045.1| trypsin family protein [Clostridioides difficile P71] &gt;gi|531752161|gb|EQK28601.1| trypsin family protein [Clostridioides difficile P74] &gt;gi|549294665|emb|CCL03705.1| Serine protease, HrtA family [Clostridioides difficile E13] &gt;gi|549297427|emb|CCL08670.1| Serine protease, HtrA family [Clostridioides difficile CD002] &gt;gi|1078290665|gb|OFA22263.1| protease [Clostridioides difficile] &gt;gi|1078294914|gb|OFA26432.1| protease [Clostridioides difficile] &gt;gi|1078296911|gb|OFA28402.1| protease [Clostridioides difficile] &gt;gi|1135017031|gb|OMK22747.1| hypothetical protein BER36_003503 [Clostridioides difficile] &gt;gi|1135074104|gb|OMK79647.1| hypothetical protein BER37_003442 [Clostridioides difficile] &gt;gi|1146343289|emb|SJT08066.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146345110|emb|SJT75879.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146349631|emb|SJP35507.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146356226|emb|SJU11190.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146401428|emb|SJO82646.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146598089|emb|SJP38528.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146632430|emb|SJU62489.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146763063|emb|SJQ16350.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146779952|emb|SJP37821.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146918485|emb|SJT36487.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_003432390</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.56364e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1123358601|ref|WP_074176584.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|1025761969|emb|CZR89933.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025778624|emb|CZS10706.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025800671|emb|CZR74922.1| protease [Clostridium difficile BI1] [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074176584</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.94307e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|930700580|ref|WP_054271724.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|930492637|gb|KPI46877.1| protease [Clostridioides difficile] &gt;gi|1025788037|emb|CZS07663.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1025808568|emb|CZR98744.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054271724</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.94307e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTNNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|544966027|ref|WP_021369844.1|</Hit_id>
+  <Hit_def>peptidase S7 [Clostridioides difficile] &gt;gi|531142638|gb|EQE46904.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile CD42] &gt;gi|531223368|gb|EQF24239.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile CD159] &gt;gi|531229852|gb|EQF30359.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile CD165] &gt;gi|531313572|gb|EQG08268.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00044] &gt;gi|531371569|gb|EQG63961.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00154] &gt;gi|531375025|gb|EQG67304.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00160] &gt;gi|531387982|gb|EQG79923.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00183] &gt;gi|531401427|gb|EQG92622.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00193] &gt;gi|531420697|gb|EQH11371.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00203] &gt;gi|531465884|gb|EQH54408.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00261] &gt;gi|531471626|gb|EQH59950.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00275] &gt;gi|531492718|gb|EQH79034.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile DA00310] &gt;gi|531506358|gb|EQH91844.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile F249] &gt;gi|531557262|gb|EQI39521.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile Y231] &gt;gi|531583203|gb|EQI64261.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile Y358] &gt;gi|531604441|gb|EQI84601.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile P2] &gt;gi|531650194|gb|EQJ28118.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile P19] &gt;gi|531654557|gb|EQJ32359.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile P20] &gt;gi|531688594|gb|EQJ65916.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile P42] &gt;gi|531810448|gb|EQK85136.1| peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile P30] &gt;gi|549360835|emb|CCL66379.1| Serine protease, HrtA family [Clostridioides difficile E7] &gt;gi|1146785750|emb|SJO61048.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146851885|emb|SJU55551.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146859960|emb|SJR34176.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146872106|emb|SJO49005.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146895652|emb|SJS85709.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1146954807|emb|SJS79068.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile] &gt;gi|1147157920|emb|SJT08893.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_021369844</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.98713e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|930706690|ref|WP_054277648.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile] &gt;gi|930493591|gb|KPI47814.1| protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054277648</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>5.21336e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTNNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|544988136|ref|WP_021386234.1|</Hit_id>
+  <Hit_def>trypsin family protein [Clostridioides difficile] &gt;gi|531222166|gb|EQF23052.1| trypsin family protein [Clostridioides difficile CD160]</Hit_def>
+  <Hit_accession>WP_021386234</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>5.7478e-08</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTNNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1122527052|ref|WP_074090894.1|</Hit_id>
+  <Hit_def>protease, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074090894</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>6.98889e-08</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>VGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|746721032|ref|WP_039678682.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protease [Peptostreptococcaceae] &gt;gi|741039072|gb|KHS58161.1| protease [Terrisporobacter othiniensis]</Hit_def>
+  <Hit_accession>WP_039678682</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.43175e-07</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>YTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVR---QGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>FSIPTESEGVG----------TGIVVDSNGYILTNSHVISDGEAKKVNVLFNDG-SSIDGNVVWYDSQLDLAVVKVNKT-GLTPAELGDSDKVSIGDISIAIG-NPLGLELQRTVTQGIISGLDRTIKTESATMTGLIQTDASINSGNSGGPLLNEKGQVIGINTAKTSE-GESLGFAIPINQAKEIIESVIK</Hsp_hseq>
+      <Hsp_midline>+++P    GVG          +G +V +NGY++T  H +++     V V  + G       VV      +LA++K+  T       + +   V  G    A G N  G  L R   QG++   D  +   +  +T L+++DA  +   +GGPL+N +G ++GIN A T   G+  GF +P       ++ V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1122464339|ref|WP_074080149.1|</Hit_id>
+  <Hit_def>protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074080149</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>3.81569e-07</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>YTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVR---QGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>FSIPTESEGVG----------TGIVVDSNGYILTNSHVISDGEAKKVNVLFNDG-SSIDGNVVWYDSQLDLAVVKVNKT-GLTPAELGDSDKVSIGDISIAIG-NPLGLELQRTVTQGIISGLDRTIKTESATMTGLIQTDASINSGNSGGPLLNEKGQVIGINTAKTSE-GESLGFAIPINQAKEIIESVIK</Hsp_hseq>
+      <Hsp_midline>+++P    GVG          +G +V +NGY++T  H +++     V V  + G       VV      +LA++K+  T       + +   V  G    A G N  G  L R   QG++   D  +   +  +T L+++DA  +   +GGPL+N +G ++GIN A T   G+  GF +P       ++ V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1122582910|ref|WP_074104072.1|</Hit_id>
+  <Hit_def>protease, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074104072</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>4.53547e-07</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVP</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIP</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|531147874|gb|EQE51892.1|</Hit_id>
+  <Hit_def>peptidase S7, Flavivirus NS3 serine protease family protein [Clostridioides difficile CD43]</Hit_def>
+  <Hit_accession>EQE51892</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>4.67471e-07</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVP</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIP</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1122645200|ref|WP_074124660.1|</Hit_id>
+  <Hit_def>protease, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074124660</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>4.9344e-07</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>QRLYYTV----PPAVVGVGGGGVNAGP----------VASGAIVGANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVP</Hsp_qseq>
+      <Hsp_hseq>QNIYQAVAEKATPSVVGITTTSVDTSNMFAIPTETQGVGTGIIVDSNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIP</Hsp_hseq>
+      <Hsp_midline>Q +Y  V     P+VVG+    V+             V +G IV +NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|545002493|ref|WP_021395136.1|</Hit_id>
+  <Hit_def>trypsin-like peptidase, partial [Clostridioides difficile] &gt;gi|531360173|gb|EQG52910.1| trypsin-like peptidase domain protein, partial [Clostridioides difficile DA00131] &gt;gi|548652437|gb|ERM22120.1| trypsin-like peptidase domain protein, partial [Clostridioides difficile DA00130]</Hit_def>
+  <Hit_accession>WP_021395136</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>2.50085e-06</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>ANGYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>SNGYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>+NGY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|531530650|gb|EQI14744.1|</Hit_id>
+  <Hit_def>trypsin family protein [Clostridioides difficile F501]</Hit_def>
+  <Hit_accession>EQI14744</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>3.40101e-06</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVG------------TTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVVLTADGYIITNNHVVEGGSAYKVTIAG----ETYDAEVVGSDPSSDVAVIKAKDASGLTPIEIGDSDKLVIGEWVMTIGSPFGLEQSVATGIVSATSRSQIVNASTDQYGNSTGESTIYPNMIQTDAAINPGNSGGALVDADGKLIGINTLITSYSGNYSGVGFAIPVNYAVNLAQQIIDGKT</Hsp_hseq>
+      <Hsp_midline>SG ++ A+GY+IT  H V       V +A       + A+VV + P  ++A++K +         + +   +V G+ V   G        V  G+V ++     V             +T   +++++DA  +   +GG LV+A G L+GIN   T  +G     GF +P    V+  Q ++  KT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|938470031|ref|WP_054629869.1|</Hit_id>
+  <Hit_def>protease [Paeniclostridium sordellii] &gt;gi|731134696|emb|CEK31708.1| serine protease [[Clostridium] sordellii] &gt;gi|808471122|emb|CEO27127.1| serine protease [[Clostridium] sordellii] &gt;gi|829470480|gb|KLR52229.1| protease [[Clostridium] sordellii 8483]</Hit_def>
+  <Hit_accession>KLR52229</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.28504e-05</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGT-TQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIA-ATGPTGKVEGFTVP</Hsp_qseq>
+      <Hsp_hseq>VGTGFIVDSKGYILTNSHVVSDGKASDVNVLFNDG-STTKGKVLWNDPTIDLAIVKVDKT-GLTVADLGNSDDVRTGDIAIAIGNPLGLEFQKSVTQGIISGLDRSIDTGKGSSMTGLIQTDASINPGNSGGPLLNDKGQVIGINTAKASGAEG--LGFAIP</Hsp_hseq>
+      <Hsp_midline>V +G IV + GY++T  H V++     V V  + G      +V+   P  +LA++K+  T       + N   V  G    A G    +     V QG++   D  +  G  + +T L+++DA  +   +GGPL+N +G ++GIN A A+G  G   GF +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1122541502|ref|WP_074092393.1|</Hit_id>
+  <Hit_def>protease, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074092393</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>2.00813e-05</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GYVITTLHSVANVPDITVQV------ATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR--NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>GYILTNSHVISDGQATSVNVLFNDGSTTSGKVVWFDQQL-------DLAIVKVDKT-GLTPAEFADSDKVKVGDISIAIGNPLGLDFQKTVTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>GY++T  H +++    +V V       TS  +  F  Q+       +LA++K+  T        A+   V  G    A G    +     V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|938471808|ref|WP_054631294.1|</Hit_id>
+  <Hit_def>anion permease [Paeniclostridium sordellii] &gt;gi|724425043|emb|CEJ74964.1| putative membrane protein, DUF81 family [[Clostridium] sordellii] &gt;gi|731134309|emb|CEK32053.1| putative permease [[Clostridium] sordellii] &gt;gi|770665996|emb|CEO30016.1| putative permease [[Clostridium] sordellii] &gt;gi|808460945|emb|CEN70732.1| putative permease [[Clostridium] sordellii] &gt;gi|808495099|emb|CEN74126.1| putative permease [[Clostridium] sordellii] &gt;gi|808505288|emb|CEN92043.1| putative permease [[Clostridium] sordellii] &gt;gi|808513004|emb|CEP65706.1| putative permease [[Clostridium] sordellii] &gt;gi|829468412|gb|KLR50248.1| hypothetical protein WS9_33799 [[Clostridium] sordellii 8483]</Hit_def>
+  <Hit_accession>KLR50248</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>3.94069e-05</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>TKNSLIGFITGFINGIFGSGGGTLLVPILNNILKVDEHKSHATALAIILFLTSTSSVIYVYQGTYDFNLTWKVAI--------GSAIGGLVGAKLLCKLTGRFLRISFGLIMIFAAIRMV</Hsp_hseq>
+      <Hsp_midline>T+++++G   G  +GI G  GG + VP+   I ++    + A +  ++ + +   SV+    G     + W+  +        G+ +GG++GA+L+  L  R L+  +   M   AI+M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|497274502|ref|WP_009588719.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Firmicutes] &gt;gi|312954881|gb|EFR36555.1| trypsin [Clostridium sp. HGF2] &gt;gi|531684515|gb|EQJ61919.1| trypsin family protein [Clostridioides difficile P28] &gt;gi|1097758451|emb|SFL95621.1| serine protease Do [[Clostridium] innocuum]</Hit_def>
+  <Hit_accession>WP_009588719</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.27025e-05</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANG---YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPL-------VRQGMVQSSDAPLAVGTTQ------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGF</Hsp_qseq>
+      <Hsp_hseq>SGAVYKVDGKTVYIITNNHVVADGDE---AVVTFANGKEQKVDIVGKDELTDLALLKTDVDFKAEAFVMGNSSLVKKGEYVIAMG-----SPLGIEYQGSVSGGLISGVDRRMEMDIDNNGVADWDVNVLQTDAAINPGNSGGPLINMAGELIGINSMKITDTS-VEGF</Hsp_hseq>
+      <Hsp_midline>SGA+   +G   Y+IT  H VA+  +    V T A  +     +V      +LALLK     K   F M N   V  G+ V A G     +PL       V  G++   D  + +            ++L++DA  +   +GGPL+N  G+L+GIN      T  VEGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|488679561|ref|WP_002608333.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease HtrA [Firmicutes] &gt;gi|312956678|gb|EFR38309.1| trypsin [Clostridium sp. HGF2] &gt;gi|345907517|gb|EGX77227.1| hypothetical protein HMPREF9022_00846 [Erysipelotrichaceae bacterium 2_2_44A] &gt;gi|371656043|gb|EHO21376.1| hypothetical protein HMPREF0981_03963 [Erysipelotrichaceae bacterium 6_1_45] &gt;gi|371664065|gb|EHO29247.1| hypothetical protein HMPREF0982_00926 [Erysipelotrichaceae bacterium 21_3] &gt;gi|480641733|gb|ENY86194.1| hypothetical protein HMPREF1094_02669 [ [[Clostridium] innocuum 2959] &gt;gi|524558441|emb|CDC84912.1| putative uncharacterized protein [Erysipelotrichaceae bacterium CAG:64] &gt;gi|531674825|gb|EQJ52357.1| trypsin family protein [Clostridioides difficile P28] &gt;gi|933161749|emb|CUQ93706.1| peptidase S1 and S6 chymotrypsin/Hap [[Clostridium] innocuum] &gt;gi|1097761976|emb|SFL26990.1| serine protease Do [[Clostridium] innocuum]</Hit_def>
+  <Hit_accession>WP_002608333</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000114996</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPL------VRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI-NIAATGPTGKVEGFTVP---AQVIVSHL</Hsp_qseq>
+      <Hsp_hseq>SGVILSKDGYIVTNNHVIDGASKI--KVTTKDG-KSYDAKLIGNDSSTDLAVIKVEAS-NLKPAVLGNSSKLEVGDTAVAIGN-----PLGELGGTVTSGIISALDREVTIDN-QTMHLLQTNAAINPGNSGGGLFNDQGELIGIVNAKSSGSNIEGLGFAIPIDRAKDVITNL</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H +     I  +V T  G + + A+++      +LA++K++ +       + N   +  G    A G      PL      V  G++ + D  + +   Q  HLL+++A  +   +GG L N QG+L+GI N  ++G   +  GF +P   A+ ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|544961327|ref|WP_021365880.1|</Hit_id>
+  <Hit_def>trypsin family protein, partial [Clostridioides difficile] &gt;gi|531120597|gb|EQE25451.1| trypsin family protein, partial [Clostridioides difficile CD22]</Hit_def>
+  <Hit_accession>WP_021365880</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000148015</Hsp_evalue>
+      <Hsp_query-from>191</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>VRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>VTQGIISGLDRTIQTEKTNMTGLLQTDASINAGNSGGPLLNQKGQVIGINTAKASQAEGL-GFAIPINTAKSIVEEVIK</Hsp_hseq>
+      <Hsp_midline>V QG++   D  +    T +T LL++DA  +   +GGPL+N +G ++GIN A       + GF +P     S +++V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|489532801|ref|WP_003437532.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Clostridiales] &gt;gi|126698373|ref|YP_001087270.1| hypothetical protein CD630_07930 [Clostridioides difficile 630] &gt;gi|115249810|emb|CAJ67627.1| putative membrane protein, DUF81 family [Clostridioides difficile 630] &gt;gi|260208656|emb|CBA61418.1| putative membrane protein [Clostridioides difficile CD196] &gt;gi|260212108|emb|CBE02725.1| putative membrane protein [Clostridioides difficile R20291] &gt;gi|357549330|gb|EHJ31177.1| hypothetical protein HMPREF1122_01661 [Clostridioides difficile 002-P50-2011] &gt;gi|357549601|gb|EHJ31447.1| hypothetical protein HMPREF1123_01270 [Clostridioides difficile 050-P50-2011] &gt;gi|357556558|gb|EHJ38153.1| hypothetical protein HMPREF9945_01935 [Clostridioides difficile 70-100-2010] &gt;gi|531101189|gb|EQE06815.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD9] &gt;gi|531106432|gb|EQE11882.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD13] &gt;gi|531109247|gb|EQE14533.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD3] &gt;gi|531109684|gb|EQE14938.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD8] &gt;gi|531117191|gb|EQE22180.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD18] &gt;gi|531118788|gb|EQE23732.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD17] &gt;gi|531122948|gb|EQE27724.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD21] &gt;gi|531127676|gb|EQE32314.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD22] &gt;gi|531133784|gb|EQE38245.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD38] &gt;gi|531140952|gb|EQE45261.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD41] &gt;gi|531146805|gb|EQE50861.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD39] &gt;gi|531152432|gb|EQE56283.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD43] &gt;gi|531153254|gb|EQE57062.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD42] &gt;gi|531161532|gb|EQE65058.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD46] &gt;gi|531163942|gb|EQE67389.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD44] &gt;gi|531165241|gb|EQE68644.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD45] &gt;gi|531173050|gb|EQE76130.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD68] &gt;gi|531177524|gb|EQE80474.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD51] &gt;gi|531183252|gb|EQE86036.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD49] &gt;gi|531190720|gb|EQE93307.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD104] &gt;gi|531196326|gb|EQE98602.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD109] &gt;gi|531197105|gb|EQE99331.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD70] &gt;gi|531204256|gb|EQF05928.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD131] &gt;gi|531208458|gb|EQF09952.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD132] &gt;gi|531211536|gb|EQF12842.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD133] &gt;gi|531215596|gb|EQF16791.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD144] &gt;gi|531219335|gb|EQF20397.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD149] &gt;gi|531225728|gb|EQF26491.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD160] &gt;gi|531229211|gb|EQF29772.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD159] &gt;gi|531233423|gb|EQF33778.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD165] &gt;gi|531239784|gb|EQF39513.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD166] &gt;gi|531242174|gb|EQF41842.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD169] &gt;gi|531248001|gb|EQF47003.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD170] &gt;gi|531256229|gb|EQF54578.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD178] &gt;gi|531264674|gb|EQF62013.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD175] &gt;gi|531267966|gb|EQF64900.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD200] &gt;gi|531274318|gb|EQF71000.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD201] &gt;gi|531275288|gb|EQF71937.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD206] &gt;gi|531280560|gb|EQF77022.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD212] &gt;gi|531288013|gb|EQF84099.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD196] &gt;gi|531294651|gb|EQF90291.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile 655] &gt;gi|531298246|gb|EQF93702.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile 824] &gt;gi|531301304|gb|EQF96643.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile 842] &gt;gi|531307604|gb|EQG02651.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile 840] &gt;gi|531316359|gb|EQG10905.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile 6042] &gt;gi|531319294|gb|EQG13682.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00044] &gt;gi|531320225|gb|EQG14564.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile 6057] &gt;gi|531329009|gb|EQG22936.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00062] &gt;gi|531329305|gb|EQG23223.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00065] &gt;gi|531334338|gb|EQG27688.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00114] &gt;gi|531337174|gb|EQG30465.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00126] &gt;gi|531344295|gb|EQG37411.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00129] &gt;gi|531353630|gb|EQG46544.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00132] &gt;gi|531355852|gb|EQG48719.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00134] &gt;gi|531356810|gb|EQG49640.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00131] &gt;gi|531361382|gb|EQG54075.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00141] &gt;gi|531367800|gb|EQG60315.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00145] &gt;gi|531370398|gb|EQG62835.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00149] &gt;gi|531376515|gb|EQG68755.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00142] &gt;gi|531377588|gb|EQG69807.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00154] &gt;gi|531380398|gb|EQG72510.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00160] &gt;gi|531386303|gb|EQG78283.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00165] &gt;gi|531394121|gb|EQG85769.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00183] &gt;gi|531395978|gb|EQG87542.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00174] &gt;gi|531405135|gb|EQG96220.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00191] &gt;gi|531407449|gb|EQG98428.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00193] &gt;gi|531409197|gb|EQH00078.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00189] &gt;gi|531415266|gb|EQH06004.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00196] &gt;gi|531419731|gb|EQH10410.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00197] &gt;gi|531423723|gb|EQH14341.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00195] &gt;gi|531424472|gb|EQH15058.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00203] &gt;gi|531433182|gb|EQH23418.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00210] &gt;gi|531435730|gb|EQH25872.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00211] &gt;gi|531437821|gb|EQH27896.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00212] &gt;gi|531440569|gb|EQH30462.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00215] &gt;gi|531448090|gb|EQH37592.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00232] &gt;gi|531453795|gb|EQH43089.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00244] &gt;gi|531460596|gb|EQH49462.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00246] &gt;gi|531462312|gb|EQH51086.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00216] &gt;gi|531468191|gb|EQH56686.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00261] &gt;gi|531469298|gb|EQH57763.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00245] &gt;gi|531474379|gb|EQH62636.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00275] &gt;gi|531485330|gb|EQH72558.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00306] &gt;gi|531488643|gb|EQH75534.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00256] &gt;gi|531503025|gb|EQH88571.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00313] &gt;gi|531504585|gb|EQH90117.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F152] &gt;gi|531508886|gb|EQH94220.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00310] &gt;gi|531510577|gb|EQH95775.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F249] &gt;gi|531517164|gb|EQI02042.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F314] &gt;gi|531522418|gb|EQI07108.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y10] &gt;gi|531527736|gb|EQI12034.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F253] &gt;gi|531530238|gb|EQI14357.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y21] &gt;gi|531538970|gb|EQI22673.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y41] &gt;gi|531541630|gb|EQI25199.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y155] &gt;gi|531546642|gb|EQI29739.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y165] &gt;gi|531548151|gb|EQI31117.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y171] &gt;gi|531553402|gb|EQI36031.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y215] &gt;gi|531560697|gb|EQI42835.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y231] &gt;gi|531562978|gb|EQI44994.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y202] &gt;gi|531563463|gb|EQI45473.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y184] &gt;gi|531565989|gb|EQI47900.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y247] &gt;gi|531571392|gb|EQI53086.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y270] &gt;gi|531579667|gb|EQI60903.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y266] &gt;gi|531580034|gb|EQI61256.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y312] &gt;gi|531587726|gb|EQI68684.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y343] &gt;gi|531589299|gb|EQI70212.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y307] &gt;gi|531590164|gb|EQI71046.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y358] &gt;gi|531594220|gb|EQI74996.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y381] &gt;gi|531606587|gb|EQI86603.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y401] &gt;gi|531608946|gb|EQI88819.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y384] &gt;gi|531610385|gb|EQI90202.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P2] &gt;gi|531615020|gb|EQI94616.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P3] &gt;gi|531621088|gb|EQJ00352.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P5] &gt;gi|531632586|gb|EQJ11139.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P7] &gt;gi|531634402|gb|EQJ12852.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P9] &gt;gi|531634673|gb|EQJ13088.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P8] &gt;gi|531640876|gb|EQJ19087.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P13] &gt;gi|531647544|gb|EQJ25584.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P15] &gt;gi|531649252|gb|EQJ27230.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P11] &gt;gi|531654993|gb|EQJ32793.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P19] &gt;gi|531661020|gb|EQJ38737.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P21] &gt;gi|531662925|gb|EQJ40619.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P20] &gt;gi|531665533|gb|EQJ43182.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P23] &gt;gi|531672030|gb|EQJ49615.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P25] &gt;gi|531674271|gb|EQJ51818.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P24] &gt;gi|531683281|gb|EQJ60703.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P29] &gt;gi|531684976|gb|EQJ62375.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P32] &gt;gi|531693842|gb|EQJ71107.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P42] &gt;gi|531694790|gb|EQJ72042.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P38] &gt;gi|531697644|gb|EQJ74860.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P36] &gt;gi|531705886|gb|EQJ82976.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P45] &gt;gi|531707037|gb|EQJ84104.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P46] &gt;gi|531709565|gb|EQJ86572.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P48] &gt;gi|531717185|gb|EQJ94123.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P50] &gt;gi|531718265|gb|EQJ95190.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P49] &gt;gi|531721542|gb|EQJ98427.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P51] &gt;gi|531727176|gb|EQK03971.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P61] &gt;gi|531732101|gb|EQK08823.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P59] &gt;gi|531732462|gb|EQK09180.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P78] &gt;gi|531737723|gb|EQK14351.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P69] &gt;gi|531744222|gb|EQK20777.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P70] &gt;gi|531745581|gb|EQK22128.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P72] &gt;gi|531748486|gb|EQK24985.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P71] &gt;gi|531755576|gb|EQK31979.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P73] &gt;gi|531758335|gb|EQK34711.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P74] &gt;gi|531760454|gb|EQK36778.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P75] &gt;gi|531767987|gb|EQK44224.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P77] &gt;gi|531790962|gb|EQK66933.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F601] &gt;gi|531795555|gb|EQK71344.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD90] &gt;gi|531802434|gb|EQK77874.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD113] &gt;gi|531806739|gb|EQK81803.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD111] &gt;gi|531815596|gb|EQK90195.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P31] &gt;gi|531815920|gb|EQK90509.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P30] &gt;gi|531875811|gb|EQL05050.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD86] &gt;gi|531880885|gb|EQL09963.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD88] &gt;gi|548659968|gb|ERM29526.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P33] &gt;gi|548667167|gb|ERM36572.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P37] &gt;gi|548669853|gb|ERM39214.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00130] &gt;gi|548669936|gb|ERM39296.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P64] &gt;gi|548674460|gb|ERM43742.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P68] &gt;gi|548680285|gb|ERM49489.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P53] &gt;gi|548681436|gb|ERM50630.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F665] &gt;gi|549293389|emb|CCL04815.1| Putative membrane protein, DUF81 family [Clostridioides difficile E13] &gt;gi|549300073|emb|CCL06036.1| Putative membrane protein, DUF81 family [Clostridioides difficile CD002] &gt;gi|549303802|emb|CCL10141.1| Putative membrane protein, DUF81 family [Clostridioides difficile E16] &gt;gi|549305092|emb|CCL16785.1| Putative membrane protein, DUF81 family [Clostridioides difficile T22] &gt;gi|549313259|emb|CCL16963.1| Putative membrane protein, DUF81 family [Clostridioides difficile E25] &gt;gi|549317859|emb|CCL20910.1| Putative membrane protein, DUF81 family [Clostridioides difficile T15] &gt;gi|549318172|emb|CCL28804.1| Putative membrane protein, DUF81 family [Clostridioides difficile T11] &gt;gi|549322454|emb|CCL32893.1| Putative membrane protein, DUF81 family [Clostridioides difficile E15] &gt;gi|549326952|emb|CCL36651.1| Putative membrane protein, DUF81 family [Clostridioides difficile T23] &gt;gi|549330932|emb|CCL40408.1| Putative membrane protein, DUF81 family [Clostridioides difficile E19] &gt;gi|549337504|emb|CCL41538.1| Putative membrane protein, DUF81 family [Clostridioides difficile E24] &gt;gi|549341330|emb|CCL45289.1| Putative membrane protein, DUF81 family [Clostridioides difficile T42] &gt;gi|549342611|emb|CCL52024.1| Putative membrane protein, DUF81 family [Clostridioides difficile T6] &gt;gi|549347197|emb|CCL55775.1| Putative membrane protein, DUF81 family [Clostridioides difficile E14] &gt;gi|549355084|emb|CCL56078.1| Putative membrane protein, DUF81 family [Clostridioides difficile T17] &gt;gi|549355315|emb|CCL63493.1| Putative membrane protein, DUF81 family [Clostridioides difficile E9] &gt;gi|549359421|emb|CCL67613.1| Putative membrane protein, DUF81 family [Clostridioides difficile E7] &gt;gi|549363950|emb|CCL71259.1| Putative membrane protein, DUF81 family [Clostridioides difficile T3] &gt;gi|549368082|emb|CCL74882.1| Putative membrane protein, DUF81 family [Clostridioides difficile E28] &gt;gi|549375749|emb|CCL82599.1| Putative membrane protein, DUF81 family [Clostridioides difficile E12] &gt;gi|549380006|emb|CCL86061.1| Putative membrane protein, DUF81 family [Clostridioides difficile T19] &gt;gi|549391686|emb|CCL90176.1| Putative membrane protein, DUF81 family [Clostridioides difficile T14] &gt;gi|549394559|emb|CCL94705.1| Putative membrane protein, DUF81 family [Clostridioides difficile T61] &gt;gi|612402478|gb|EZR28512.1| permease [Clostridioides difficile] &gt;gi|733568279|emb|CEJ97340.1| putative membrane protein, DUF81 family [Clostridioides difficile] &gt;gi|760237831|gb|AJP10470.1| putative membrane protein, TauE-like [Clostridioides difficile 630] &gt;gi|953831468|gb|ALP02754.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025764791|emb|CZR84102.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025768796|emb|CZR76771.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025777234|emb|CZR77195.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025781079|emb|CZS02933.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025794426|emb|CZT57900.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025803302|emb|CZR72363.1| hypothetical protein [Clostridium difficile BI1] [Clostridioides difficile] &gt;gi|1041778724|gb|OBW84330.1| permease [Clostridioides difficile] &gt;gi|1078291041|gb|OFA22638.1| permease [Clostridioides difficile] &gt;gi|1078292577|gb|OFA24135.1| permease [Clostridioides difficile] &gt;gi|1078296102|gb|OFA27600.1| permease [Clostridioides difficile] &gt;gi|1078297518|gb|OFA28993.1| permease [Clostridioides difficile] &gt;gi|1081258020|gb|OFT99989.1| permease [Clostridium sp. HMSC19D07] &gt;gi|1081260442|gb|OFU02288.1| permease [Clostridium sp. HMSC19E03] &gt;gi|1081265628|gb|OFU07283.1| permease [Clostridium sp. HMSC19C11] &gt;gi|1081267881|gb|OFU09461.1| permease [Clostridium sp. HMSC19D02] &gt;gi|1081277079|gb|OFU18365.1| permease [Clostridium sp. HMSC19C08] &gt;gi|1081279252|gb|OFU20444.1| permease [Clostridium sp. HMSC19C09] &gt;gi|1081282521|gb|OFU23606.1| permease [Clostridium sp. HMSC19B12] &gt;gi|1081282744|gb|OFU23815.1| permease [Clostridium sp. HMSC19C05] &gt;gi|1081284396|gb|OFU25406.1| permease [Clostridium sp. HMSC19B11] &gt;gi|1081291353|gb|OFU32084.1| permease [Clostridium sp. HMSC19B10] &gt;gi|1081298782|gb|OFU39223.1| permease [Clostridium sp. HMSC19A11] &gt;gi|1081299044|gb|OFU39481.1| permease [Clostridium sp. HMSC19B01] &gt;gi|1081300378|gb|OFU40763.1| permease [Clostridium sp. HMSC19B04] &gt;gi|1081310242|gb|OFU50240.1| permease [Clostridioides difficile] &gt;gi|1113083639|gb|OJT73328.1| permease [Clostridioides difficile] &gt;gi|1113095628|gb|OJT81572.1| permease [Clostridioides difficile] &gt;gi|1113106107|gb|OJT88343.1| permease [Clostridioides difficile] &gt;gi|1129144408|gb|OLP70237.1| permease [Clostridioides difficile] &gt;gi|1135003660|gb|OMK09522.1| hypothetical protein BER28_000875 [Clostridioides difficile] &gt;gi|1135006309|gb|OMK12169.1| hypothetical protein BER27_000864 [Clostridioides difficile] &gt;gi|1135010059|gb|OMK15795.1| hypothetical protein BER29_000868 [Clostridioides difficile] &gt;gi|1135016429|gb|OMK22154.1| hypothetical protein BER43_000629 [Clostridioides difficile] &gt;gi|1135019059|gb|OMK24755.1| hypothetical protein BER36_000934 [Clostridioides difficile] &gt;gi|1135025766|gb|OMK31452.1| hypothetical protein BER39_000862 [Clostridioides difficile] &gt;gi|1135027056|gb|OMK32736.1| hypothetical protein BER41_000853 [Clostridioides difficile] &gt;gi|1135036332|gb|OMK41981.1| hypothetical protein BER42_000866 [Clostridioides difficile] &gt;gi|1135043000|gb|OMK48627.1| hypothetical protein BER38_000938 [Clostridioides difficile] &gt;gi|1135044406|gb|OMK50031.1| hypothetical protein BER31_000850 [Clostridioides difficile] &gt;gi|1135049760|gb|OMK55368.1| hypothetical protein BER45_000934 [Clostridioides difficile] &gt;gi|1135054143|gb|OMK59744.1| hypothetical protein BER40_000669 [Clostridioides difficile] &gt;gi|1135055140|gb|OMK60738.1| hypothetical protein BER33_000844 [Clostridioides difficile] &gt;gi|1135065319|gb|OMK70874.1| hypothetical protein BER46_000844 [Clostridioides difficile] &gt;gi|1135068397|gb|OMK73950.1| hypothetical protein BER44_001059 [Clostridioides difficile] &gt;gi|1135072808|gb|OMK78352.1| hypothetical protein BER32_000912 [Clostridioides difficile] &gt;gi|1135075720|gb|OMK81252.1| hypothetical protein BER37_000902 [Clostridioides difficile] &gt;gi|1146211314|emb|SJU69610.1| permease [Clostridioides difficile] &gt;gi|1146216318|emb|SJU11898.1| permease [Clostridioides difficile] &gt;gi|1146222422|emb|SJU42926.1| permease [Clostridioides difficile] &gt;gi|1146225376|emb|SJP77930.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146229503|emb|SJW39967.1| permease [Clostridioides difficile] &gt;gi|1146243433|emb|SJQ48221.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146246397|emb|SJW93412.1| permease [Clostridioides difficile] &gt;gi|1146250290|emb|SJX07284.1| permease [Clostridioides difficile] &gt;gi|1146254182|emb|SJT99160.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146257807|emb|SJQ07802.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146260951|emb|SJU88427.1| permease [Clostridioides difficile] &gt;gi|1146265770|emb|SJN77191.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146269439|emb|SJU23880.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146276788|emb|SJO81945.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146279688|emb|SJR54723.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146283828|emb|SJU68728.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146287404|emb|SJP62260.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146290356|emb|SJW59253.1| permease [Clostridioides difficile] &gt;gi|1146295413|emb|SJQ42699.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146298475|emb|SJU86199.1| permease [Clostridioides difficile] &gt;gi|1146302427|emb|SJS08888.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146305428|emb|SJQ01245.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146309443|emb|SJV18758.1| permease [Clostridioides difficile] &gt;gi|1146317468|emb|SJQ68349.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146323733|emb|SJU80759.1| permease [Clostridioides difficile] &gt;gi|1146328358|emb|SJT38603.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146330065|emb|SJO93213.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146336710|emb|SJV28287.1| permease [Clostridioides difficile] &gt;gi|1146338629|emb|SJU03520.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146342140|emb|SJT20145.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146346001|emb|SJT42003.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146349882|emb|SJP27459.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146353257|emb|SJU27057.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146356723|emb|SJT94201.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146359993|emb|SJS56456.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146364065|emb|SJO28233.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146368756|emb|SJT09184.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146371544|emb|SJT26829.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146375688|emb|SJO16138.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146379849|emb|SJN82509.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146382233|emb|SJO21253.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146387375|emb|SJR39771.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146390811|emb|SJW82582.1| permease [Clostridioides difficile] &gt;gi|1146395246|emb|SJS29888.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146402472|emb|SJO37221.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146405669|emb|SJV51747.1| permease [Clostridioides difficile] &gt;gi|1146409863|emb|SJW47300.1| permease [Clostridioides difficile] &gt;gi|1146412955|emb|SJQ27094.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146418298|emb|SJR81819.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146419970|emb|SJR91069.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146425830|emb|SJN90166.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146432722|emb|SJU30845.1| permease [Clostridioides difficile] &gt;gi|1146434355|emb|SJP28532.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146442909|emb|SJR28351.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146446907|emb|SJR21837.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146454271|emb|SJU06762.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146459286|emb|SJQ50141.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146463051|emb|SJU39133.1| permease [Clostridioides difficile] &gt;gi|1146469189|emb|SJU00070.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146473204|emb|SJT75831.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146477828|emb|SJQ20044.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146480305|emb|SJT46328.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146484886|emb|SJT73133.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146489493|emb|SJV61862.1| permease [Clostridioides difficile] &gt;gi|1146492062|emb|SJU19666.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146495767|emb|SJU20640.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146501029|emb|SJR64891.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146503289|emb|SJT96257.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146510317|emb|SJS77869.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146517640|emb|SJU14547.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146525550|emb|SJR08624.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146530031|emb|SJU20953.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146534671|emb|SJV77781.1| permease [Clostridioides difficile] &gt;gi|1146537693|emb|SJO38158.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146541358|emb|SJR99215.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146544144|emb|SJV55506.1| permease [Clostridioides difficile] &gt;gi|1146550162|emb|SJV20444.1| permease [Clostridioides difficile] &gt;gi|1146553309|emb|SJR10602.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146556846|emb|SJN71547.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146565023|emb|SJQ57381.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146568313|emb|SJQ12487.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146571944|emb|SJS23715.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146574548|emb|SJO89571.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146582856|emb|SJR52527.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146592599|emb|SJV76483.1| permease [Clostridioides difficile] &gt;gi|1146595842|emb|SJW30981.1| permease [Clostridioides difficile] &gt;gi|1146598639|emb|SJP32303.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146601426|emb|SJR16030.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146604907|emb|SJQ43300.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146613593|emb|SJU30590.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146623098|emb|SJS28386.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146629824|emb|SJQ20685.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146633047|emb|SJU51125.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146637255|emb|SJO43020.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146641130|emb|SJW89232.1| permease [Clostridioides difficile] &gt;gi|1146644504|emb|SJQ46476.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146649285|emb|SJT81971.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146656688|emb|SJS03437.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146659063|emb|SJT89433.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146662920|emb|SJV20018.1| permease [Clostridioides difficile] &gt;gi|1146672845|emb|SJW65600.1| permease [Clostridioides difficile] &gt;gi|1146676818|emb|SJV52875.1| permease [Clostridioides difficile] &gt;gi|1146679144|emb|SJS54972.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146684538|emb|SJQ23745.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146690804|emb|SJS38482.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146694720|emb|SJO62337.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146699909|emb|SJW25668.1| permease [Clostridioides difficile] &gt;gi|1146703670|emb|SJQ10070.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146706528|emb|SJU58404.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146710249|emb|SJX04078.1| permease [Clostridioides difficile] &gt;gi|1146718326|emb|SJU38183.1| permease [Clostridioides difficile] &gt;gi|1146725770|emb|SJW44826.1| permease [Clostridioides difficile] &gt;gi|1146729345|emb|SJW07181.1| permease [Clostridioides difficile] &gt;gi|1146733224|emb|SJO58298.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146737237|emb|SJV36802.1| permease [Clostridioides difficile] &gt;gi|1146740980|emb|SJV28264.1| permease [Clostridioides difficile] &gt;gi|1146743910|emb|SJV87414.1| permease [Clostridioides difficile] &gt;gi|1146749136|emb|SJS27288.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146752792|emb|SJP61289.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146755876|emb|SJO45218.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146759656|emb|SJS42880.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146764312|emb|SJP92390.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146767723|emb|SJU03468.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146772873|emb|SJS30432.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146774855|emb|SJV31987.1| permease [Clostridioides difficile] &gt;gi|1146778681|emb|SJP52495.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146783666|emb|SJT93597.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146786322|emb|SJO54047.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146791851|emb|SJV30380.1| permease [Clostridioides difficile] &gt;gi|1146794126|emb|SJV94881.1| permease [Clostridioides difficile] &gt;gi|1146798438|emb|SJR02174.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146803169|emb|SJP96041.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146807123|emb|SJO04476.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146810074|emb|SJV81174.1| permease [Clostridioides difficile] &gt;gi|1146814025|emb|SJN92735.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146818428|emb|SJV11941.1| permease [Clostridioides difficile] &gt;gi|1146821874|emb|SJP03131.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146824799|emb|SJW07068.1| permease [Clostridioides difficile] &gt;gi|1146829998|emb|SJV28495.1| permease [Clostridioides difficile] &gt;gi|1146835069|emb|SJN81271.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146837172|emb|SJU58366.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146841459|emb|SJO32205.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146845880|emb|SJV66964.1| permease [Clostridioides difficile] &gt;gi|1146853299|emb|SJU22886.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146858277|emb|SJP79042.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146861419|emb|SJQ96110.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146869088|emb|SJS55003.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146871958|emb|SJO65948.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146877500|emb|SJV36906.1| permease [Clostridioides difficile] &gt;gi|1146881621|emb|SJN88993.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146883939|emb|SJR55475.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146887244|emb|SJO21569.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146892847|emb|SJW58713.1| permease [Clostridioides difficile] &gt;gi|1146895267|emb|SJS91472.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146900026|emb|SJT15128.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146903370|emb|SJQ53749.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146906639|emb|SJR80848.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146911592|emb|SJQ66532.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146916137|emb|SJO56008.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146919031|emb|SJT16148.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146928227|emb|SJV47545.1| permease [Clostridioides difficile] &gt;gi|1146931130|emb|SJS26396.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146935481|emb|SJP09936.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146940044|emb|SJP48362.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146941823|emb|SJS94583.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146948579|emb|SJS08996.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146951208|emb|SJO72100.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146954621|emb|SJS93489.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146960167|emb|SJS20238.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146962529|emb|SJW73021.1| permease [Clostridioides difficile] &gt;gi|1146966124|emb|SJP17654.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146971332|emb|SJR02826.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146976691|emb|SJO06150.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146978469|emb|SJO25894.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146983818|emb|SJV22510.1| permease [Clostridioides difficile] &gt;gi|1146988067|emb|SJR01063.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146995455|emb|SJP50185.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146997414|emb|SJP44561.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147002250|emb|SJO42769.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147008289|emb|SJQ17732.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147011300|emb|SJO85418.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147015064|emb|SJQ00855.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147018316|emb|SJP53128.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147027107|emb|SJW27633.1| permease [Clostridioides difficile] &gt;gi|1147032709|emb|SJR61892.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147034894|emb|SJQ77858.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147038977|emb|SJR05237.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147043047|emb|SJT19248.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147048018|emb|SJS05464.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147050686|emb|SJP03533.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147055640|emb|SJR00423.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147057703|emb|SJX09376.1| permease [Clostridioides difficile] &gt;gi|1147064696|emb|SJW51143.1| permease [Clostridioides difficile] &gt;gi|1147067762|emb|SJO09647.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147070164|emb|SJX14012.1| permease [Clostridioides difficile] &gt;gi|1147077708|emb|SJR49201.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147079452|emb|SJW49819.1| permease [Clostridioides difficile] &gt;gi|1147083494|emb|SJQ56361.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147086809|emb|SJS57463.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147092546|emb|SJW20851.1| permease [Clostridioides difficile] &gt;gi|1147096330|emb|SJV59800.1| permease [Clostridioides difficile] &gt;gi|1147100221|emb|SJP24160.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147105147|emb|SJT65681.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147108157|emb|SJT89552.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147113486|emb|SJW10906.1| permease [Clostridioides difficile] &gt;gi|1147117749|emb|SJW12205.1| permease [Clostridioides difficile] &gt;gi|1147121022|emb|SJT53306.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147126304|emb|SJT60340.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147130685|emb|SJT40943.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147134717|emb|SJP93662.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147137248|emb|SJR11429.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147143552|emb|SJT08468.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147148625|emb|SJW67464.1| permease [Clostridioides difficile] &gt;gi|1147150366|emb|SJS91901.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1147157542|emb|SJT13293.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1150462087|gb|AQU10724.1| anion permease [Clostridioides difficile] &gt;gi|1152167039|emb|SKA28957.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1152183108|emb|SKA40120.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1173529778|gb|ARE61696.1| putative membrane protein, TauE-like [Clostridioides difficile] &gt;gi|1175779999|gb|OQW13422.1| anion permease [Clostridioides difficile] &gt;gi|1175786893|gb|OQW20255.1| anion permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_003437532</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00192262</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNTIIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGTYD-------VNLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+         V L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1122742071|ref|WP_074141538.1|</Hit_id>
+  <Hit_def>permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074141538</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00207632</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNTIIGVFTGFINGVFGSGGGTLLVPILNDIIKVEEHKSHATALSIIIFLTTASSVL-YVSKGTYD-------VNLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+         V L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|497581642|ref|WP_009895826.1|</Hit_id>
+  <Hit_def>anion permease [Clostridioides difficile] &gt;gi|531130663|gb|EQE35225.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD34] &gt;gi|531141394|gb|EQE45694.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD40] &gt;gi|531169908|gb|EQE73112.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD47] &gt;gi|531244162|gb|EQF43621.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD129] &gt;gi|531258068|gb|EQF56311.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD181] &gt;gi|531286235|gb|EQF82416.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD211] &gt;gi|531287684|gb|EQF83790.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile 342] &gt;gi|531310889|gb|EQG05740.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile 6041] &gt;gi|531345897|gb|EQG38981.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00128] &gt;gi|531395628|gb|EQG87206.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00167] &gt;gi|531454941|gb|EQH44141.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00238] &gt;gi|531479095|gb|EQH66906.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00273] &gt;gi|531491283|gb|EQH77776.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00305] &gt;gi|531499384|gb|EQH85091.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile DA00307] &gt;gi|531602494|gb|EQI82779.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P1] &gt;gi|531624381|gb|EQJ03454.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P6] &gt;gi|531777020|gb|EQK53157.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F480] &gt;gi|531780135|gb|EQK56229.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F525] &gt;gi|531786159|gb|EQK62205.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F548] &gt;gi|531786448|gb|EQK62492.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile F200] &gt;gi|531807584|gb|EQK82559.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD92] &gt;gi|548660224|gb|ERM29780.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile P41] &gt;gi|549372031|emb|CCL78635.1| Putative membrane protein, DUF81 family [Clostridioides difficile E23] &gt;gi|549383656|emb|CCL90038.1| Putative membrane protein, DUF81 family [Clostridioides difficile T10] &gt;gi|662024277|emb|CDS84224.1| Putative membrane protein, DUF81 family [Clostridioides difficile] &gt;gi|662028637|emb|CDS84676.1| putative membrane protein [Clostridioides difficile] &gt;gi|662239428|emb|CDT44311.1| Putative membrane protein, DUF81 family [Clostridioides difficile] &gt;gi|873319585|gb|AKP41849.1| permease [Clostridioides difficile ATCC 9689 = DSM 1296] &gt;gi|1025772766|emb|CZR86715.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025785539|emb|CZS01557.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025799480|emb|CZR85759.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1135038462|gb|OMK44110.1| hypothetical protein BER30_000989 [Clostridioides difficile] &gt;gi|1146197144|emb|SJS87476.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146203457|emb|SJP76574.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146207371|emb|SJR36622.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146236576|emb|SJV55300.1| permease [Clostridioides difficile] &gt;gi|1146239810|emb|SJO36131.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146313100|emb|SJQ48678.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146397473|emb|SJT90497.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146428511|emb|SJN68592.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146438895|emb|SJR11463.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146464348|emb|SJS71675.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146514392|emb|SJS45661.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146522168|emb|SJQ86527.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146560648|emb|SJS15453.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146579860|emb|SJQ20276.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146586859|emb|SJP77649.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146609479|emb|SJQ08274.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146618063|emb|SJR89676.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146625673|emb|SJR56072.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146651791|emb|SJO59680.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146667987|emb|SJT27029.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146848903|emb|SJO06272.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146865056|emb|SJO26476.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146922873|emb|SJP16809.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146989543|emb|SJS01233.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1152186004|emb|SKA25475.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1169375123|gb|ARC14526.1| anion permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_009895826</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00219959</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNTIIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGTYD-------VNLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+         V L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|930698287|ref|WP_054269431.1|</Hit_id>
+  <Hit_def>anion permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054269431</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00239835</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNTIIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGTYD-------VNLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+         V L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1123362895|ref|WP_074179198.1|</Hit_id>
+  <Hit_def>permease [Clostridioides difficile] &gt;gi|1025788375|emb|CZS07115.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025811271|emb|CZR96166.1| Sulfite exporter TauE/SafE [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074179198</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00256526</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNTIIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGTYD-------VNLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+         V L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|544972022|ref|WP_021374695.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE family protein [Clostridioides difficile] &gt;gi|531185325|gb|EQE88054.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD69] &gt;gi|1146686642|emb|SJV00578.1| permease [Clostridioides difficile] &gt;gi|1146713515|emb|SJV18030.1| permease [Clostridioides difficile] &gt;gi|1146721012|emb|SJU81266.1| permease [Clostridioides difficile] &gt;gi|1147022988|emb|SJV08287.1| permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_021374695</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0026403</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNMIIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGTYD-------VNLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+         V L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|930701654|ref|WP_054272729.1|</Hit_id>
+  <Hit_def>anion permease [Clostridioides difficile] &gt;gi|930502859|gb|KPI56916.1| permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054272729</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00752252</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNTIIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTTSSVL-YVSKGTYD-------INLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + +   SV+ ++  G+         + L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|489513622|ref|WP_003418463.1|</Hit_id>
+  <Hit_def>anion permease [Clostridioides difficile] &gt;gi|296261649|gb|EFH08467.1| hypothetical protein HMPREF0220_0607 [Clostridioides difficile NAP08] &gt;gi|296430845|gb|EFH16677.1| hypothetical protein HMPREF0219_0630 [Clostridioides difficile NAP07] &gt;gi|549278573|emb|CCK89621.1| Putative membrane protein, DUF81 family [Clostridioides difficile T5] &gt;gi|549282556|emb|CCK93088.1| Putative membrane protein, DUF81 family [Clostridioides difficile T20] &gt;gi|549286328|emb|CCK96715.1| Putative membrane protein, DUF81 family [Clostridioides difficile E1] &gt;gi|549289844|emb|CCL00695.1| Putative membrane protein, DUF81 family [Clostridioides difficile E10] &gt;gi|1135030958|gb|OMK36622.1| hypothetical protein BER34_003482 [Clostridioides difficile] &gt;gi|1135058471|gb|OMK64067.1| hypothetical protein BER35_000942 [Clostridioides difficile] &gt;gi|1146189569|emb|SJX02401.1| permease [Clostridioides difficile] &gt;gi|1146193213|emb|SJW42558.1| permease [Clostridioides difficile] &gt;gi|1146199715|emb|SJO20293.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146218188|emb|SJW24106.1| permease [Clostridioides difficile] &gt;gi|1146232565|emb|SJV90440.1| permease [Clostridioides difficile] &gt;gi|1146273962|emb|SJO59504.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146320322|emb|SJV34637.1| permease [Clostridioides difficile] &gt;gi|1146450573|emb|SJV05020.1| permease [Clostridioides difficile] &gt;gi|1146508585|emb|SJP12544.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1152170871|emb|SKA35366.1| permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_003418463</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0092913</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNTIIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTTSSVL-YVSKGTYD-------VNLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + +   SV+ ++  G+         V L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|544987878|ref|WP_021385979.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE family protein [Clostridioides difficile] &gt;gi|531222299|gb|EQF23182.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile CD160]</Hit_def>
+  <Hit_accession>WP_021385979</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0120662</Hsp_evalue>
+      <Hsp_query-from>512</Hsp_query-from>
+      <Hsp_query-to>606</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGS--TGLIHWEAPVTLALVMIPGAYVGGILGARLMR</Hsp_qseq>
+      <Hsp_hseq>TLLLGYTLGMISSFLGIGGGPINITALTLFFSMNLKSASVNSVILILFSQ-ASKIITLLISKSIPSGL-----EISMLLCIIPAAILGGLLGTTINR</Hsp_hseq>
+      <Hsp_midline>+ +LG  +G+ S  LGI GG I +        ++L++A  NS +L+ ++  A  ++  +   S  +GL      +++ L +IP A +GG+LG  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|531532698|gb|EQI16659.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE family protein [Clostridioides difficile F501]</Hit_def>
+  <Hit_accession>EQI16659</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0267968</Hsp_evalue>
+      <Hsp_query-from>523</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>SGYVGVGGGFIMVPLMLSLIGIEMRQASGTSLIAVMILAIPGVVEQALLGN----INYAAGIAIAVGSIPGA----VIGARLVRVVPELALRFVF</Hsp_hseq>
+      <Hsp_midline>SG +G+ GG I VPL   +  I ++ A   S + V   ++ G V   + G     I++ A + +A+  IPGA    ++GARL+RV+P   L+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|930500814|gb|KPI54943.1|</Hit_id>
+  <Hit_def>permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>KPI54943</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0401456</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>RSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>KNTIIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGT-----YDVNLTIKVAV--GSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++ ++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+     ++  +T+ + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|930700425|ref|WP_054271569.1|</Hit_id>
+  <Hit_def>anion permease [Clostridioides difficile] &gt;gi|930493335|gb|KPI47562.1| hypothetical protein KW95_17175 [Clostridioides difficile] &gt;gi|1025786844|emb|CZS10944.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1025808786|emb|CZR98537.1| Sulfite exporter TauE/SafE [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054271569</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0657294</Hsp_evalue>
+      <Hsp_query-from>512</Hsp_query-from>
+      <Hsp_query-to>606</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGS--TGLIHWEAPVTLALVMIPGAYVGGILGARLMR</Hsp_qseq>
+      <Hsp_hseq>TVLLGYTLGMISSFLGIGGGPINITALTLFFSMNLKSASVNSIILILFSQ-ASKIITLLISKSIPSGL-----EISMLLYIIPAAILGGIFGTTINK</Hsp_hseq>
+      <Hsp_midline>+ +LG  +G+ S  LGI GG I +        ++L++A  NS +L+ ++  A  ++  +   S  +GL      +++ L +IP A +GGI G  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|930706576|ref|WP_054277534.1|</Hit_id>
+  <Hit_def>anion permease [Clostridioides difficile] &gt;gi|930494368|gb|KPI48580.1| hypothetical protein KW94_16945 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054277534</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0712134</Hsp_evalue>
+      <Hsp_query-from>512</Hsp_query-from>
+      <Hsp_query-to>606</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGS--TGLIHWEAPVTLALVMIPGAYVGGILGARLMR</Hsp_qseq>
+      <Hsp_hseq>TVLLGYTLGMISSFLGIGGGPINITALTLFFSMNLKSASVNSIILILFSQ-ASKIITLLISKSIPSGL-----EISMLLYIIPAAILGGIFGTTINK</Hsp_hseq>
+      <Hsp_midline>+ +LG  +G+ S  LGI GG I +        ++L++A  NS +L+ ++  A  ++  +   S  +GL      +++ L +IP A +GGI G  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1160903655|ref|WP_079746692.1|</Hit_id>
+  <Hit_def>permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_079746692</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.166698</Hsp_evalue>
+      <Hsp_query-from>365</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>MTMGGGVLQVAGMMVFFGYGMYLIRPVVFLTNVVVYGAAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMA</Hsp_qseq>
+      <Hsp_hseq>MGMGGGTILIPALVLLAGIDTKIAQSVNLLSSIPMTLIALAIHIKNKNVIFKLVIPIAVFGVLGAVFGSLLANYLSSDILKKIFGIFLLLVG</Hsp_hseq>
+      <Hsp_midline>M MGGG + +  +++  G    + + V  L+++ +   A   + K + V +  V P+  +GV G V G  + N +   ++  + G+F L++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1122602335|ref|WP_074105360.1|</Hit_id>
+  <Hit_def>permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074105360</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.223287</Hsp_evalue>
+      <Hsp_query-from>521</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>LFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>FINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGTYD-------VNLTIKVAVGSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+         V L + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|767026428|gb|KJF64385.1|</Hit_id>
+  <Hit_def>permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>KJF64385</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.229346</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>IIGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGT-----YDVNLTIKVAV--GSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>++G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+     ++  +T+ + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|930498701|gb|KPI52862.1|</Hit_id>
+  <Hit_def>permease [Clostridioides difficile] &gt;gi|1001999998|gb|AMM58550.1| permease [Clostridioides difficile] &gt;gi|1113092479|gb|OJT79792.1| permease [Clostridioides difficile] &gt;gi|1113105277|gb|OJT87742.1| permease [Clostridioides difficile] &gt;gi|1113111780|gb|OJT92744.1| permease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>KPI52862</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.410192</Hsp_evalue>
+      <Hsp_query-from>515</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>LGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>IGVFTGFINGVFGSGGGTLLVPILNDIVKVEEHKSHATALSIIIFLTTASSVL-YVSKGT-----YDVNLTIKVAV--GSILGGIIGAKLLNKVTGKFLRISFGIIMIIAALRMV</Hsp_hseq>
+      <Hsp_midline>+G+  G  +G+ G  GG + VP+   I ++    + A +  ++ + + A SV+ ++  G+     ++  +T+ + +  G+ +GGI+GA+L+  +  + L+  +   M   A++M+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|489515424|ref|WP_003420260.1|</Hit_id>
+  <Hit_def>serine protease [Clostridioides difficile] &gt;gi|296259484|gb|EFH06346.1| trypsin [Clostridioides difficile NAP08] &gt;gi|296430169|gb|EFH16016.1| trypsin [Clostridioides difficile NAP07] &gt;gi|549277744|emb|CCK90443.1| Putative serine protease [Clostridioides difficile T5] &gt;gi|549281787|emb|CCK93838.1| Putative serine protease [Clostridioides difficile T20] &gt;gi|549285458|emb|CCK97579.1| Putative serine protease [Clostridioides difficile E1] &gt;gi|549292706|emb|CCK97975.1| Putative serine protease [Clostridioides difficile E10] &gt;gi|1135034924|gb|OMK40575.1| hypothetical protein BER34_002215 [Clostridioides difficile] &gt;gi|1135059227|gb|OMK64823.1| hypothetical protein BER35_001703 [Clostridioides difficile] &gt;gi|1146191021|emb|SJW74002.1| serine protease [Clostridioides difficile] &gt;gi|1146193985|emb|SJW30329.1| serine protease [Clostridioides difficile] &gt;gi|1146201342|emb|SJN73604.1| Probable periplasmic serine endoprotease DegP-like precursor [Clostridioides difficile] &gt;gi|1146219056|emb|SJV84450.1| serine protease [Clostridioides difficile] &gt;gi|1146233648|emb|SJV61049.1| serine protease [Clostridioides difficile] &gt;gi|1146273543|emb|SJO74508.1| Probable periplasmic serine endoprotease DegP-like precursor [Clostridioides difficile] &gt;gi|1146321070|emb|SJV13798.1| serine protease [Clostridioides difficile] &gt;gi|1146451473|emb|SJU81248.1| serine protease [Clostridioides difficile] &gt;gi|1146505968|emb|SJP71670.1| Probable periplasmic serine endoprotease DegP-like precursor [Clostridioides difficile] &gt;gi|1152171842|emb|SKA15228.1| serine protease [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_003420260</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.668113</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>SGVVINNEGYILTNLHVVNDGYSFLVRFENDDKVYT-SYQIIKYHSGYDLAVIKVDRKCKPIPVKIG--KKPVRGQKIVAIGSPLGLFNTVSDGIISAFRDFETVQMIQFTAPISSGS------SGGALLDMFGNLLGL</Hsp_hseq>
+      <Hsp_midline>SG ++   GY++T LH V +     V+      +     Q++K   G++LA++K+    K +  ++   +  V GQ++ A G  +     V  G++ +      V   Q T  + S +      +GG L++  G+L+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|531183091|gb|EQE85879.1|</Hit_id>
+  <Hit_def>trypsin family protein [Clostridioides difficile CD69]</Hit_def>
+  <Hit_accession>EQE85879</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.17701</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>SGVVINNEGYILTNLHVVNDGYSFLVRFENDDKVYT-SYQIIKYHSDYDLAVIKVDRKCKPIPVKVS--KKPVRGQKIVAIGSPLGLFNTVSDGIIS------AFRDFETVQMIQFTAPISSGSSGGALLDMFGNLLGL</Hsp_hseq>
+      <Hsp_midline>SG ++   GY++T LH V +     V+      +     Q++K    ++LA++K+    K +  +++  +  V GQ++ A G  +     V  G++       A    +   +++  A  S   +GG L++  G+L+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1149133258|ref|WP_077705237.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1146402522|emb|SJO39160.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146778731|emb|SJP52875.1| Sulfite exporter TauE/SafE [Clostridioides difficile] &gt;gi|1146918980|emb|SJT14036.1| Sulfite exporter TauE/SafE [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_077705237</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.18756</Hsp_evalue>
+      <Hsp_query-from>497</Hsp_query-from>
+      <Hsp_query-to>618</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>RPKTSGIALPEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYA</Hsp_qseq>
+      <Hsp_hseq>RDKSLNIKFNTNITYFSI-GIFLGVISSFLGIGGGPINVVVFTLLFGLSTKEAAFNSIIIILFSNISKLMTVLINTGFGAYDLSGLP-----FMIIGAVLGGFMGSFISKMVDDRKVKYMFS</Hsp_hseq>
+      <Hsp_midline>R K+  I      T  ++ G+ +G+ S  LGI GG I V +   +  +S + A  NS +++ +++++  +   I+ G         P      MI GA +GG +G+ + +++  R +K +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>221477</Statistics_db-num>
+      <Statistics_db-len>71408300</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

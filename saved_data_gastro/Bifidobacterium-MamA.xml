@@ -1,0 +1,1078 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1045307726|ref|WP_065438943.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_065438943</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.15601</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>451</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>GDEHARYWKLPDAVVDVHQ-------------NLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>G  HA+  +  +AVV + Q             +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1001826197|gb|KXS23177.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>KXS23177</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.169199</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1045327364|ref|WP_065446815.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_065446815</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.172278</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|736880434|ref|WP_034880020.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum] &gt;gi|656094420|gb|KEF29011.1| exopolyphosphatase [Bifidobacterium pseudocatenulatum IPLA36007]</Hit_def>
+  <Hit_accession>WP_034880020</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.173838</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1045303765|ref|WP_065435446.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_065435446</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.177001</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1045319069|ref|WP_065440188.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_065440188</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.178604</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1045306300|ref|WP_065437681.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_065437681</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.178604</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|524473964|emb|CDC15114.1|</Hit_id>
+  <Hit_def>putative uncharacterized protein [Bifidobacterium pseudocatenulatum CAG:263]</Hit_def>
+  <Hit_accession>CDC15114</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.178604</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1045321847|ref|WP_065441501.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_065441501</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.180222</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|490330772|ref|WP_004220194.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum] &gt;gi|225158646|gb|EEG71888.1| tetratricopeptide repeat protein [Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505] &gt;gi|672979844|gb|KFI75157.1| exopolyphosphatase [Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505] &gt;gi|781878648|dbj|BAR02890.1| conserved hypothetical protein [Bifidobacterium pseudocatenulatum DSM 20438 = JCM 1200 = LMG 10505] &gt;gi|1171891343|gb|OQM53753.1| exopolyphosphatase [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_004220194</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.180222</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|941091486|ref|WP_055062972.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium pseudocatenulatum] &gt;gi|932906867|emb|CUN43381.1| TPR repeat protein [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_055062972</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.181854</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLV---KVAEANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGELAKNNGDYERAERELRACIKLAPTSVRFYEELSQVYARTDEYGKAADVLIGALKIA-VLPIDCEVLYYRLGYALWQLGRLPEALACYAMMV----NGGTPFRTAARDEAEEVSRQMGLP</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G  +R    L   I  AP +++    L   Y +  +Y  A  +L+   K+A   P++  V + RLG AL  LGR  EA+  + + +    N G   R  A    +  S +  LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|705434970|ref|WP_033511036.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium mongoliense] &gt;gi|672985077|gb|KFI80341.1| DNA polymerase I [Bifidobacterium mongoliense DSM 21395]</Hit_def>
+  <Hit_accession>WP_033511036</Hit_accession>
+  <Hit_len>979</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.628084</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLE-RSIADA-PDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>ITMLAQVIDAEAPD-----HLAVAFDMKGGTFRNTMLPQYKGTRDAAPEDLLTQLPLIQRLLTALGITYIEVPGYE</Hsp_hseq>
+      <Hsp_midline>+ ML QV DA+A D     HL +A+   G   R T L + +   DA P+++        ++ T LG+TY++V  Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|736876861|ref|WP_034876495.1|</Hit_id>
+  <Hit_def>exopolyphosphatase [Bifidobacterium moukalabense] &gt;gi|575769271|gb|ETY70730.1| exopolyphosphatase [Bifidobacterium moukalabense DSM 27321]</Hit_def>
+  <Hit_accession>WP_034876495</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.72708</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAE--ANPVNFNVRF-RLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY--SYE---QMG</Hsp_qseq>
+      <Hsp_hseq>VDVHQNLGTLAKDNGSKERAESEGLKCVELGPTCVRFREELSQVYAKNDEYGKAVDVLIEALKLAVPPVDCEVLYYRLGYALWQIGRLPEALACYAMVV----NGGTPFRSAARDEAYELSQQMG</Hsp_hseq>
+      <Hsp_midline>V+V  +LG      G+ +R      + +   P  ++    L   Y +  +Y  AV +L++  +    PV+  V + RLG AL  +GR  EA+  + + +    N G   R+ A   +YE   QMG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1124917287|gb|OKY89859.1|</Hit_id>
+  <Hit_def>hypothetical protein BHV59_01925 [Bifidobacterium sp. 56_9_plus]</Hit_def>
+  <Hit_accession>OKY89859</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.17403</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>RGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVA-LDNLGRFDEAIDSFKIALGLRPNE</Hsp_qseq>
+      <Hsp_hseq>RLAEIRVLTFAREQNAVKAPFLLGCLLYDKRQYEAAAKLFVESTEAEPGNYMTYRSLAIACFTHLNRKDEAVKLMEKARSLNCSQ</Hsp_hseq>
+      <Hsp_midline>R  E+   + A   + +K   +LG      ++Y+ A  L V+  EA P N+     L +A   +L R DEA+   + A  L  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1114019472|ref|WP_072043292.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bifidobacterium pseudocatenulatum]</Hit_def>
+  <Hit_accession>WP_072043292</Hit_accession>
+  <Hit_len>722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.27098</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>AGRYSEAVVMLEQVYDA--DAFDVE----VALH--LGIAYVKTG-------AVDRGTELLERSIADAPDNIKVA---TVLGLTYVQVQKY</Hsp_qseq>
+      <Hsp_hseq>AGRYEEAEQLYRQALDAATSAFSPTDRRLAALHNNMSMLYSETGRLNQAKRELEQALDLLEQSSPDASADIDVASTHTNLALLLLQMGRY</Hsp_hseq>
+      <Hsp_midline>AGRY EA  +  Q  DA   AF        ALH  + + Y +TG        +++  +LLE+S  DA  +I VA   T L L  +Q+ +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|504573019|ref|WP_014760121.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|389890272|gb|AFL04339.1| DNA polymerase I [Bifidobacterium bifidum BGN4]</Hit_def>
+  <Hit_accession>WP_014760121</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.21472</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1124455462|ref|WP_074741461.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|1097030542|emb|SFC32226.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_074741461</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.32639</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|927810728|ref|WP_053824962.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|927300119|gb|ALE11224.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_053824962</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.32639</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|829065390|ref|WP_047298898.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|827583962|gb|KLN87074.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_047298898</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.32639</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|829053363|ref|WP_047287340.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|827575512|gb|KLN78692.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_047287340</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.32639</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|829056929|ref|WP_047290652.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|827574223|gb|KLN77407.1| DNA polymerase I [Bifidobacterium bifidum LMG 13195]</Hit_def>
+  <Hit_accession>WP_047290652</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.32639</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1001830622|gb|KXS27458.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>KXS27458</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.38297</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|829032280|ref|WP_047271889.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|827572637|gb|KLN75840.1| DNA polymerase I [Bifidobacterium bifidum] &gt;gi|827583567|gb|KLN86680.1| DNA polymerase I [Bifidobacterium bifidum] &gt;gi|1124917227|gb|OKY89802.1| DNA polymerase I [Bifidobacterium sp. 56_9_plus]</Hit_def>
+  <Hit_accession>WP_047271889</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.44006</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|489909319|ref|WP_003812735.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|313132516|gb|EFR50133.1| DNA-directed DNA polymerase [Bifidobacterium bifidum NCIMB 41171]</Hit_def>
+  <Hit_accession>WP_003812735</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.44006</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1008819172|ref|WP_061870577.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|1008699448|gb|KYJ84921.1| DNA polymerase I [Bifidobacterium bifidum] &gt;gi|1187484572|gb|OSP26910.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_061870577</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.49766</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1001830803|gb|KXS27638.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>KXS27638</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.49766</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|829051274|ref|WP_047285614.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|827579249|gb|KLN82398.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_047285614</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.49766</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|829055212|ref|WP_047289025.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|827571866|gb|KLN75071.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_047289025</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.49766</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|503155117|ref|WP_013389778.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|311064149|ref|YP_003970874.1| DNA polymerase I [Bifidobacterium bifidum PRL2010] &gt;gi|310866468|gb|ADP35837.1| PolA DNA polymerase I [Bifidobacterium bifidum PRL2010] &gt;gi|827577862|gb|KLN81019.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_013389778</Hit_accession>
+  <Hit_len>944</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.49834</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|949747922|ref|WP_057081238.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|932896612|emb|CUM73970.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_057081238</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.6144</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|995888991|ref|WP_061085790.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|985297366|gb|KWZ82301.1| DNA-directed DNA polymerase [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_061085790</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.67356</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|829064560|ref|WP_047298085.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|827587440|gb|KLN90521.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_047298085</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.67356</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|489916395|ref|WP_003819790.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|407296856|gb|EKF16360.1| DNA polymerase I [Bifidobacterium bifidum IPLA 20015] &gt;gi|827581776|gb|KLN84908.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_003819790</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.67356</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMEGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|503128713|ref|WP_013363374.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|309251237|gb|ADO52985.1| DNA polymerase I [Bifidobacterium bifidum S17]</Hit_def>
+  <Hit_accession>WP_013363374</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.67356</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|524370711|emb|CDB22261.1|</Hit_id>
+  <Hit_def>polA DNA polymerase I [Bifidobacterium bifidum CAG:234]</Hit_def>
+  <Hit_accession>CDB22261</Hit_accession>
+  <Hit_len>944</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.67426</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1045302749|ref|WP_065434458.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|1171904953|gb|OQM66984.1| DNA polymerase I [Bifidobacterium bifidum]</Hit_def>
+  <Hit_accession>WP_065434458</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.73324</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|545408178|ref|WP_021647430.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Bifidobacterium bifidum] &gt;gi|542988447|gb|ERI84390.1| DNA-directed DNA polymerase [Bifidobacterium bifidum ATCC 29521 = JCM 1255 = DSM 20456] &gt;gi|672947085|gb|KFI42813.1| PolA DNA polymerase I [Bifidobacterium bifidum] &gt;gi|781873207|dbj|BAQ97955.1| DNA polymerase I [Bifidobacterium bifidum ATCC 29521 = JCM 1255 = DSM 20456]</Hit_def>
+  <Hit_accession>WP_021647430</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.73324</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAV----VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER---SIADAPDNI--------KVATVLGLTYVQVQKYD</Hsp_qseq>
+      <Hsp_hseq>QAGQATNAVWGFATMLSQVLDSEKPD-----HLAVAFDMKGGTFR-NEMLPQYKGTREAAPEDLLTQLPLIQKMLTALGVTYVEKQGYE</Hsp_hseq>
+      <Hsp_midline>+AG+ + AV     ML QV D++  D     HL +A+   G   R  E+L +   +   AP+++        K+ T LG+TYV+ Q Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>318803</Statistics_db-num>
+      <Statistics_db-len>119915425</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

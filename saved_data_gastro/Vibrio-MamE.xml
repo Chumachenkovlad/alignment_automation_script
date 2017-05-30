@@ -1,0 +1,2791 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|749471439|dbj|GAM54167.1|</Hit_id>
+  <Hit_def>outer membrane stress sensor protease degQ [Vibrio ishigakensis]</Hit_def>
+  <Hit_accession>GAM54167</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>9.00294e-39</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>VSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQ-LTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>IAVEGTQVSRQRIPESFRFFFGDEFPA-DQVRERPFRGLGSGVIIDADKGYIVTNYHVINGANTIKVQLTD---GREYDAELVGGDQMTDVALLKLEKKVKNLTQIKLADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNLENL--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>++V  +    Q +P+       D  P       R    +G+GVI+  D G+IVTNYHV+ GAN++ V + D      Y  E+V  D+  D+ALLK+  KV+ LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E +   N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.52012e-08</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>652</Hsp_query-to>
+      <Hsp_hit-from>221</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPV</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYESSKGAFVNQVMPDSAAEKAGLQAGDIIVSLNGKSINTFSELRAKVATLGAGKEITLGVIRDGDKKDFDVTLGESQMQQAKLSRSTKAI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FVN V P++ A  AGL+ GD+I+ ++G+ ++   E+ A +A +  G+ + +GV+R GD  +  +  G S +  A +   T  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0299363</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG--QEFWIVL</Hsp_qseq>
+      <Hsp_hseq>KGAFVNQVMPDSAAEKAGLQAGDIIVSLNGKSINTFSELRAKV-ATLGAGKEITLGVIRDGDKKDFDVTL</Hsp_hseq>
+      <Hsp_midline>KGA V +V+  S A  AGLQA D+I+ +N + + + + L A + A   AG++I L V R+G  ++F + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|749448346|dbj|GAM76969.1|</Hit_id>
+  <Hit_def>outer membrane stress sensor protease degQ [Vibrio ishigakensis]</Hit_def>
+  <Hit_accession>GAM76969</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.65912e-38</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>VSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQ-LTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>IAVEGTQVSRQRIPESFRFFFGDEFPA-DQVRERPFRGLGSGVIIDADKGYIVTNYHVINGANTIKVQLTD---GREYDAELVGGDQMTDVALLKLEKKVKNLTQIKLADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNLENL--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>++V  +    Q +P+       D  P       R    +G+GVI+  D G+IVTNYHV+ GAN++ V + D      Y  E+V  D+  D+ALLK+  KV+ LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E +   N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>9.37187e-08</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>643</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAA</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYESSKGAFVNQVMPDSAAEKAGLQAGDIIVSLNGKSINTFSELRAKVATLGAGKEITLGVIRDGDKKDFDVTLGESQMQQA</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FVN V P++ A  AGL+ GD+I+ ++G+ ++   E+ A +A +  G+ + +GV+R GD  +  +  G S +  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0331368</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG--QEFWIVL</Hsp_qseq>
+      <Hsp_hseq>KGAFVNQVMPDSAAEKAGLQAGDIIVSLNGKSINTFSELRAKV-ATLGAGKEITLGVIRDGDKKDFDVTL</Hsp_hseq>
+      <Hsp_midline>KGA V +V+  S A  AGLQA D+I+ +N + + + + L A + A   AG++I L V R+G  ++F + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|782699867|ref|WP_045610933.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_045610933</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>2.37628e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>7.95652e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|748720708|ref|WP_039978827.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio sagamiensis]</Hit_def>
+  <Hit_accession>WP_039978827</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>3.0426e-37</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRF--ANPTTRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PEFPSAQTQERPFKGLGSGVIVDADKGQIVTNYHVIKGADDIRVRLHD---GREYDAELIGGDEMSDVALLKLEKAKDLTEIKIADSDKLNVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNLENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>P F  A    R  + +G+GVIV  D G IVTNYHV++GA+ + V + D      Y  E++  DE  D+ALLK+     LT   + DSD +NV D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>2.85537e-06</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFVSQVVPDSAADKAGLEAGDVIITINNKSIDTFSELRAKVATLGAGKQVNLGVIRDGKKKDFNVTLGESKNMKAKAENLHEGLKGAELSNTTPNDQI--------------------------------------QGVKVTKVESKSPAARYELKKGDIIIGVNRQRVKNLAELRALIEKQDGV---LAMNIQRGARTLYLVI</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G FV+ V P++ A  AGL  GDVI+ ++ + +    E+ A +A +  G+ V +GV+R G   + ++  G S    A  +     +  A  + T P  Q                                       +G +V +V + S AA   L+  D+II VN + V + A L A I+        + + + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1130945031|ref|WP_075709904.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio panuliri] &gt;gi|1129689297|gb|OLQ87091.1| serine endoprotease DegQ [Vibrio panuliri]</Hit_def>
+  <Hit_accession>WP_075709904</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>4.98681e-37</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>RPFRGLGSGVIVDAKKGYIVTNFHVIKGAETIQVKLHD---GREYDAELIGGDEMADIALLKLEEAKNLTQIELADSDQLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMRNLA</Hsp_hseq>
+      <Hsp_midline>R    +G+GVIV    G+IVTN+HV++GA ++ V + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.81279e-08</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEVTSELAEALGYESSKGAFVSQVMPDSAAEKAGLKAGDIIVSVNGKAISTFHELRAKIGTLGAGKEIELGVLRDGKEKNFDVVLGEQTNVKT-----TADKLHDGLA--------------------GAELTNTNASDKV-------------QGVKVTAVAEGSPAEGYQLQKDDIIIGVNRQRVKNLAEFRAIVEKHKGV---LALNIHRGDRSIYLVV</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AGL+ GD+I+ V+G+ +    E+ A +  +  G+ + +GVLR G   N  +V G            TA  +  G A                    G E+    A   V             +G +V  V  GS A    LQ +D+II VN + V + A   A ++        + L +HR  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|516400031|ref|WP_017789429.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|586666859|gb|EWS70108.1| serine endoprotease DegQ [Vibrio vulnificus BAA87] &gt;gi|674442601|gb|KFK59730.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|674447326|gb|KFK63746.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|674455345|gb|KFK70704.1| serine endoprotease DegQ [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_017789429</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>4.98681e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDIALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>7.68498e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1130948880|ref|WP_075713677.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio panuliri] &gt;gi|1129698503|gb|OLQ95882.1| serine endoprotease DegQ [Vibrio panuliri]</Hit_def>
+  <Hit_accession>WP_075713677</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>5.1799e-37</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>RPFRGLGSGVIVDAKKGYIVTNFHVIKGAETIQVKLHD---GREYDAELIGGDEMADIALLKLEEAKNLTQIELADSDQLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMRNLA</Hsp_hseq>
+      <Hsp_midline>R    +G+GVIV    G+IVTN+HV++GA ++ V + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>2.5038e-08</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFVSQIMPDSAAEKAGLKAGDIIVSVNGKAISTFHELRAKIGTLGAGKEIELGVLRDGKEKNFDVVLGEQTNVKT-----TADKLHDGLA--------------------GAELTNTNASDKV-------------QGVKVTAVAEGSPAEGYQLQKDDIIIGVNRQRVKNLAEFRAIVEKHKGV---LALNIHRGDRSIYLVV</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G FV+ + P++ A  AGL+ GD+I+ V+G+ +    E+ A +  +  G+ + +GVLR G   N  +V G            TA  +  G A                    G E+    A   V             +G +V  V  GS A    LQ +D+II VN + V + A   A ++        + L +HR  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|545472985|ref|WP_021709333.1|</Hit_id>
+  <Hit_def>periplasmic serine endoprotease DegP [Vibrio azureus] &gt;gi|543447006|dbj|GAD75574.1| periplasmic serine endoprotease DegP [Vibrio azureus NBRC 104587]</Hit_def>
+  <Hit_accession>WP_021709333</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>5.75029e-37</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRF--ANPTTRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPSAQTQERPFKGLGSGVIVNADKGQVVTNYHVIKGADDIRVRLHD---GREYDAELIGGDEMSDVALLKLEKAKDLTEIKIADSDKLNVGDFAVAIGNPFGLGQTVTSGIVSALGRSGLNLENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>P F  A    R  + +G+GVIV  D G +VTNYHV++GA+ + V + D      Y  E++  DE  D+ALLK+     LT   + DSD +NV D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.83311e-06</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWL-GMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFVSQVVPDSAADKAGLQAGDIIVAINGKSIETFSELRAKVATLGAGKEVKLGVVRDGQKKDFKVTLGES--------------------------KNMKAKAESLHDGLKGAELSNTSQSDKI-------------QGVKVTHVDEKSPAAQYQLKKGDIIIGVNRKRVKNLAELRALIEKQDGV---LAMNIQRGDRTLYLVI</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G FV+ V P++ A  AGL+ GD+I+ ++G+ +    E+ A +A +  G+ V++GV+R G   +  +  G S                          + +  K  +  + L G E+        +             +G +V  V   S AA   L+  D+II VN + V + A L A I+        + + + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|746406358|ref|WP_039447961.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|695267506|gb|KGK71381.1| serine endoprotease DegQ [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_039447961</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>5.80516e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIE--NFENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>8.83098e-07</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GGVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>GG +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1119680998|ref|WP_072599942.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|1111634707|gb|OJI44927.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_072599942</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>6.20413e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>3.72728e-05</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGASKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +   + + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1170460780|ref|WP_080540400.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|1169235167|gb|OQK59894.1| protease DO [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_080540400</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>6.26332e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>6.2904e-07</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GGVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVTDKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>GG +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|823697453|ref|WP_047109965.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|823484741|gb|KLI67778.1| serine endoprotease DegQ [Vibrio vulnificus CladeA-yb158]</Hit_def>
+  <Hit_accession>WP_047109965</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>6.75757e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>8.60307e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSNDRIAGV-------------KVINVADNSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|924861207|ref|WP_053541724.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|924366640|gb|KOR99514.1| serine endoprotease DegQ [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_053541724</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>6.88711e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.21738e-05</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIQAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|499391220|ref|WP_011078687.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|37197516|dbj|BAC93355.1| protease DO [Vibrio vulnificus YJ016] &gt;gi|319932758|gb|ADV87622.1| outer membrane stress sensor protease DegQ, serine protease [Vibrio vulnificus MO6-24/O] &gt;gi|319999101|gb|AAO09118.2| Outer membrane stress sensor protease DegQ [Vibrio vulnificus CMCP6] &gt;gi|675335115|gb|AIL69629.1| protease DO [Vibrio vulnificus] &gt;gi|948524389|gb|ALM71935.1| Outer membrane stress sensor protease DegQ, serine protease [Vibrio vulnificus] &gt;gi|967433031|gb|KTL04071.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|991842905|gb|AMG11182.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|1033648251|gb|ANH62263.1| Outer membrane stress sensor protease DegQ, serine protease [Vibrio vulnificus] &gt;gi|1110990231|gb|OJH74696.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1111607255|gb|OJI18077.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1111624654|gb|OJI35069.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1111628779|gb|OJI39117.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1111633112|gb|OJI43369.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1169232716|gb|OQK57518.1| protease DO [Vibrio vulnificus] &gt;gi|1169241730|gb|OQK66237.1| protease DO [Vibrio vulnificus] &gt;gi|1169243401|gb|OQK67836.1| protease DO [Vibrio vulnificus] &gt;gi|1189018277|gb|ARN64900.1| Outer membrane stress sensor protease DegQ (serine protease) [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_011078687</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.01912e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>6.07907e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADNSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|515990703|ref|WP_017421286.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|674430935|gb|KFK49557.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|674437975|gb|KFK55960.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|727869158|gb|KHF86684.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|727870469|gb|KHF87988.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|727874437|gb|KHF91912.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|727878640|gb|KHF96011.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|967460196|gb|KTL31091.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|967465952|gb|KTL36839.1| serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|1111609372|gb|OJI20103.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1111611414|gb|OJI22075.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1111620432|gb|OJI30921.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1169219974|gb|OQK45199.1| protease DO [Vibrio vulnificus] &gt;gi|1169222423|gb|OQK47579.1| protease DO [Vibrio vulnificus] &gt;gi|1169229670|gb|OQK54632.1| protease DO [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_017421286</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.08607e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>7.5527e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|782752737|ref|WP_045629391.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_045629391</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.22189e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.0234e-05</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSVADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|742485900|ref|WP_038940953.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_038940953</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.29077e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKNLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>8.09587e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|782660582|ref|WP_045595006.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_045595006</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.36031e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIE--NFENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.25397e-05</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWL-GMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGE--------------------------LQQTKAKADKMHEGLAGAELANTTSDDRIAGV-------------KVINVADKSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G                           +Q    K       L G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|782720458|ref|WP_045618417.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_045618417</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.43051e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>4.72573e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKVDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADNSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ V    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1040131366|ref|WP_065090727.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio vulnificus] &gt;gi|1039809383|gb|ANN27619.1| Outer membrane stress sensor protease DegQ, serine protease [Vibrio vulnificus]</Hit_def>
+  <Hit_accession>WP_065090727</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.71806e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIINANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.30982e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKIHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADNSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1119685313|ref|WP_072604153.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Vibrio] &gt;gi|1111643642|gb|OJI53674.1| Periplasmic serine endoprotease DegP precursor [Vibrio vulnificus] &gt;gi|1111647774|gb|OJI57756.1| Periplasmic serine endoprotease DegP precursor [Vibrio fluvialis]</Hit_def>
+  <Hit_accession>WP_072604153</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>8.01672e-37</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>PDGLPRFANPT-------TRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDQFQFFFGPDFPTEQVRERPFRGLGSGVIISANKGYIVTNYHVIKGADEIRIQLHD---GREYDAELIGGDEMSDVALLKVDGAKDLTEIKLADSDKLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>PD    F  P         R    +G+GVI+  N G+IVTNYHV++GA+ + + + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>6.07907e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEITSELAEALGYNSSKGAFVSQVVPDSAADKAGIKAGDIIVSLNGKKIDTFSELRAKIATLGAGKEIELGVVRDGKDKRFDVTLGESQQTKA-----KADKMHEGLA--------------------GAELANTTSDDRIAGV-------------KVINVADNSPAAQYQLQKDDIIIGVNRQRVKNLADFRAIVEKQTGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G FV+ V P++ A  AG++ GD+I+ ++G+ +    E+ A +A +  G+ + +GV+R G      +  G S    A      A  +  G A                    G E+    +   + G+             +V  V   S AA   LQ +D+II VN + V + A   A ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|727821262|ref|WP_033904515.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ, partial [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_033904515</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>1.34458e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.00071e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.220766</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|491644643|ref|WP_005502170.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Grimontia hollisae] &gt;gi|262222252|gb|EEY73564.1| outer membrane stress sensor protease DegQ [Grimontia hollisae CIP 101886] &gt;gi|991861969|gb|AMG30260.1| serine endoprotease DegQ [Grimontia hollisae]</Hit_def>
+  <Hit_accession>EEY73564</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.37675e-36</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>VSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRS--VENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>IAVEGSHTSKQRIPESFRFFFG---PDFPSEQVRERPFRGLGSGVIIDADKGYVITNHHVIDGANKIRVQLHD---GREYNAELIGSDGMSDVALLKLEKAVDLTEIKMADSDALRVGDFAIAIGNPFGLGQTVTSGIISALGRSGLNLENF--ENFIQTDAAINSGNSGGALVNLNGELVGINTAILGPNGGNVGIGFAIPVNMAK</Hsp_hseq>
+      <Hsp_midline>++V  S +  Q +P+          P F +   R      +G+GVI+  D G+++TN+HV+ GAN + V + D      Y+ E++  D   D+ALLK+   V LT   + DSDA+ V D  IAIG PFGL  TV+ GIISA  R  + +E     N +QTDAAIN GNSGG LV  NG +VGINTAI  PNG   GIGFA+P N A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>0.000407161</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GELTSELAEAFGYETN----HGAFVSQIVPDSAADKAGIEAGDIITSVNGKEIRSFGELRAKIATLGAGKEVKLGIIRDG</Hsp_hseq>
+      <Hsp_midline>G   + L +  G + N     G FV+ + P++ A  AG+  GD+I  V+G+ +    E+ A +A +  G+ V++G++R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>3.25079</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>GAFVSQIVPDSAADKAGIEAGDIITSVNGKEIRSFGELRAKI-ATLGAGKEVKLGIIRDGK</Hsp_hseq>
+      <Hsp_midline>GA V++++  S A  AG++A D+I  VN + + S   L A I A   AG+++ L + R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|779958727|ref|WP_045406086.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio jasicida]</Hit_def>
+  <Hit_accession>WP_045406086</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>1.64854e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>PEFPTEQTRERPFRGLGSGVIIDAKKGQIVTNYHVIKGADDIRVRLYD---GREYDAELVGGDEMSDIALLKLEKAKELTQIKVADSDALRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSN</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+    +LT   + DSDA+ V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>6.23591e-07</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFVSQVVPDSAADKAGLKAGDVIVSVNGKSIDTFSELRAKVATLGAGKKIELGVIRDGKSKSFDVTLGESTNIKAKAETLHEGLKGAELSNTTPN-----DKI---------------------------------QGVKVTSVVENSPAAQYQLEQDDIIIGVNRKRVKNLAELRAIVEKHKGV---LAINVQRGDRTVYLVI</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G FV+ V P++ A  AGL+ GDVI+ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S    A  +     +  A  + T P       K+                                 +G +V  V+  S AA   L+ +D+II VN + V + A L A ++        + + V R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|432507418|gb|AGB08935.1|</Hit_id>
+  <Hit_def>Outer membrane stress sensor protease DegQ, serine protease [Vibrio parahaemolyticus BB22OP] &gt;gi|532389482|gb|EQL96113.1| peptidase Do family protein [Vibrio parahaemolyticus VP250] &gt;gi|532396017|gb|EQM02591.1| peptidase Do family protein [Vibrio parahaemolyticus NIHCB0603] &gt;gi|532400951|gb|EQM07486.1| peptidase Do family protein [Vibrio parahaemolyticus VP-NY4] &gt;gi|532412843|gb|EQM11961.1| peptidase Do family protein [Vibrio parahaemolyticus 3259] &gt;gi|532608422|gb|EQM42216.1| peptidase Do family protein [Vibrio parahaemolyticus 949] &gt;gi|573512813|gb|ETT12783.1| peptidase Do family protein [Vibrio parahaemolyticus 605] &gt;gi|575558199|gb|ETX58098.1| peptidase Do family protein [Vibrio parahaemolyticus IDH02189] &gt;gi|575628740|gb|ETY27636.1| peptidase Do family protein [Vibrio parahaemolyticus EKP-028] &gt;gi|576900697|gb|EUC25336.1| peptidase Do family protein [Vibrio parahaemolyticus 861] &gt;gi|577085989|gb|EUD16749.1| peptidase Do family protein [Vibrio parahaemolyticus EKP-026] &gt;gi|582108394|gb|EVU19637.1| peptidase Do family protein [Vibrio parahaemolyticus V-223/04] &gt;gi|585146639|gb|EWM38346.1| peptidase Do family protein [Vibrio parahaemolyticus EKP-021] &gt;gi|588750043|gb|EXF70060.1| peptidase Do family protein [Vibrio parahaemolyticus AQ3810] &gt;gi|589860492|gb|EXJ37219.1| peptidase Do family protein [Vibrio parahaemolyticus VP-48] &gt;gi|1050208854|gb|ANZ08994.1| protease Do [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>AGB08935</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.93315e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.23547e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.363167</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|532381384|gb|EQL88064.1|</Hit_id>
+  <Hit_def>peptidase Do family protein [Vibrio parahaemolyticus 10290] &gt;gi|562753456|gb|ESW43162.1| peptidase Do family protein [Vibrio parahaemolyticus 12310]</Hit_def>
+  <Hit_accession>EQL88064</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.98928e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVRN-DGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDSQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+ +  G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>8.05664e-06</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTV-PGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES-------------TNMKAKAETLHEGLK-------------GAELSN-TTPSDVI------------QGVKVSSVAENSPAAQYQLKQGDIIIGVNRQRVKNLAELRSIVDKHKGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S               M   A T+  G++             G E+     P  V+            +G +V+ V   S AA   L+  D+II VN + V + A L + +         + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|582076763|gb|EVT93030.1|</Hit_id>
+  <Hit_def>peptidase Do family protein [Vibrio parahaemolyticus VP2007-007]</Hit_def>
+  <Hit_accession>EVT93030</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>2.10647e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVRN-DGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDSQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+ +  G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.2141e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.363167</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1042739264|ref|WP_065301950.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio natriegens] &gt;gi|1042381675|gb|ANQ16085.1| serine endoprotease DegQ [Vibrio natriegens]</Hit_def>
+  <Hit_accession>WP_065301950</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.1093e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDANKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+  N G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>7.5527e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWL-GMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEVTSELAEALGYESSKGAFIGQVVPDSAADKAGLKAGDIIVSVNGKSIDTFSELRAKVATLGAGKKITLGVVRDGKSETFDVTLGES--------------------------TNIKAKAETLHDGLKGAELSNTNPSDSV-------------QGVKVTSVTENSPAAQYQLQEGDIIIGVNRQRVKNLAELRAIVDKQKGV---LALNIQRGDRTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G F+  V P++ A  AGL+ GD+I+ V+G+ +    E+ A +A +  G+ + +GV+R G      +  G S                            +  K  T  + L G E+        V             +G +V  V   S AA   LQ  D+II VN + V + A L A +         + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|497393533|ref|WP_009707746.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Vibrio] &gt;gi|408883262|gb|EKM22049.1| protease do [Vibrio sp. HENC-03] &gt;gi|641264527|dbj|GAK23957.1| outer membrane stress sensor protease DegQ, serine protease [Vibrio sp. JCM 19052] &gt;gi|747025701|gb|KIF45586.1| serine endoprotease DegQ [Vibrio owensii 47666-1] &gt;gi|747030938|gb|KIF50770.1| serine endoprotease DegQ [Vibrio owensii CAIM 1854 = LMG 25443] &gt;gi|1153099283|gb|AQW57729.1| serine endoprotease DegQ [Vibrio owensii]</Hit_def>
+  <Hit_accession>WP_009707746</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.1093e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PEFPTEQTRERPFRGLGSGVIINADKGQIVTNYHVIKGADDIRVRLYD---GREYDAELVGGDEMSDIALLKLEKAKDLTQIKVADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+  D G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>2.95635e-06</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFVSQVVPDSAADKAGLKAGDVITSVNGKSIDTFSELRAKVATLGAGKEITLGVIRDGKKKSFDVTLGESTNVKA--KAETLHEGLKGAE-----------------------------------LSNTTP-SDKIQGVKVTSVAENSPAAQYQLEQDDIIIGVNRKRVKNLAELRAIVEKHKGV---LAINVQRGDRTVYLVI</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G FV+ V P++ A  AGL+ GDVI  V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S    A  +A T    + G                                     +   TP +   +G +V  V   S AA   L+ +D+II VN + V + A L A ++        + + V R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|491578515|ref|WP_005436090.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Vibrio harveyi group] &gt;gi|269835025|gb|EEZ89109.1| protease DO [Vibrio harveyi 1DA3]</Hit_def>
+  <Hit_accession>WP_005436090</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.12938e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PEFPTEQTRERPFRGLGSGVIINADKGQIVTNYHVIKGADDIRVRLYD---GREYDAELVGGDEMSDIALLKLEKAKDLTQIKVADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+  D G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>3.73785e-06</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFVSQVVPDSAADKAGLKAGDVITSVNGKSIDTFSELRAKVATLGAGKEITLGVIRDGKKKSFDVTLGESTNVKAKAETLHEGLKGAELSNTTPN-----DKI---------------------------------QGVKVTSVAENSPAAQYQLEQDDIIIGVNRKRVKNLAELRAIVEKHKGV---LAINVQRGDRTVYLVI</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G FV+ V P++ A  AGL+ GDVI  V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S    A  +     +  A  + T P       K+                                 +G +V  V   S AA   L+ +D+II VN + V + A L A ++        + + V R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|992029171|ref|WP_061007775.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio harveyi]</Hit_def>
+  <Hit_accession>WP_061007775</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.14966e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PEFPTEQTRERPFRGLGSGVIINADKGQIVTNYHVIKGADDIRVRLYD---GREYDAELVGGDEMSDIALLKLEKAKDLTQIKVADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+  D G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>5.02192e-06</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFVSQVVPDSAADKAGLKAGDVITSVNGKSIDTFSELRAKVATLGAGKEITLGVIRDGKKKSFGVTLGESTNVKA--KAETLHEGLKGAE-----------------------------------LSNTTP-SDKIQGVKVTSVAENSPAAQYQLEQDDIIIGVNRKRVKNLAELRAIVEKHKGV---LAINVQRGDRTVYLVI</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G FV+ V P++ A  AGL+ GDVI  V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S    A  +A T    + G                                     +   TP +   +G +V  V   S AA   L+ +D+II VN + V + A L A ++        + + V R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|686216745|ref|WP_031818288.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|589869753|gb|EXJ45638.1| peptidase Do family protein [Vibrio parahaemolyticus VPTS-2010_2]</Hit_def>
+  <Hit_accession>WP_031818288</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.25397e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLHVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD ++V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.35099e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.334406</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|503996785|ref|WP_014230779.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Vibrio] &gt;gi|369839746|gb|AEX20890.1| outer membrane stress sensor protease DegQ [Vibrio sp. EJY3] &gt;gi|519118619|gb|EPM39166.1| peptidase [Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759] &gt;gi|959183302|gb|ALR16525.1| serine endoprotease DegQ [Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759] &gt;gi|1042377197|gb|ANQ11609.1| serine endoprotease DegQ [Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759] &gt;gi|1042386149|gb|ANQ20557.1| serine endoprotease DegQ [Vibrio natriegens] &gt;gi|1042390985|gb|ANQ25391.1| serine endoprotease DegQ [Vibrio natriegens]</Hit_def>
+  <Hit_accession>WP_014230779</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.27543e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDANKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+  N G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.37464e-05</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWL-GMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVKRGMLGVQGGEVTSELAEALGYESSKGAFIGQVVPDSAADKAGLKAGDIIVSVNGKSIDTFSELRAKVATLGAGKKITLGVVRDGKNETFNVTLGES--------------------------TNIKAKAETLHDGLKGAELSNTNPSDSV-------------QGVKVTSVAENSPAAQYQLQEGDIIIGVNRQRVKNLAELRAIVDKQKGV---LALNIQRGDRTIYLVI</Hsp_hseq>
+      <Hsp_midline>G  +  +LG     +T  L       + +G F+  V P++ A  AGL+ GD+I+ V+G+ +    E+ A +A +  G+ + +GV+R G     ++  G S                            +  K  T  + L G E+        V             +G +V  V   S AA   LQ  D+II VN + V + A L A +         + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|532606162|gb|EQM39964.1|</Hit_id>
+  <Hit_def>peptidase Do family protein [Vibrio parahaemolyticus NIHCB0757]</Hit_def>
+  <Hit_accession>EQM39964</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>2.54918e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLAKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.22474e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.385828</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1130877390|ref|WP_075649309.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio ponticus] &gt;gi|1129695055|gb|OLQ92735.1| serine endoprotease DegQ [Vibrio ponticus]</Hit_def>
+  <Hit_accession>WP_075649309</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>2.62296e-36</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>RSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>RPFRGLGSGVIVDAKKGYIVTNFHVIKGAEKIRVKLHD---GREYDAELIGGDEMSDIALLKLEEAKNLTQITLADSDQLRVGDFSVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMK</Hsp_hseq>
+      <Hsp_midline>R    +G+GVIV    G+IVTN+HV++GA  + V + D      Y  E++  DE  D+ALLK+     LT   L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>4.9734e-07</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGA----TPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFVSQVMPDSAAEKAGLKAGDIIVSVNGKAISTFHELRAKIGTLGAGKEVELGVLRDGKEKSFDVVLGEQ-----------------------TNVKTTADKLHE-------------------GLAGAELTNTNASDNATGVKVTSVAEGSPAASYELQQGDIIIGVNRQRVKNLAEFRAIVEKHKGI---LALNIQRGDRTLYLVV</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G FV+ V P++ A  AGL+ GD+I+ V+G+ +    E+ A +  +  G+ V +GVLR G   +  +V G                           V+    K+                     G+ GA    T  +    G +V  V  GS AA   LQ  D+II VN + V + A   A ++        + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|515592302|ref|WP_017024947.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio rumoiensis] &gt;gi|1067455437|gb|OEF25490.1| serine endoprotease DegQ [Vibrio rumoiensis 1S-45]</Hit_def>
+  <Hit_accession>WP_017024947</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>2.79086e-36</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>VVDPAMSVPARARVAPPSAAGAIATFPPVVDFGPAPVVSGGPFTGVVTLLRNSVVSVT---ASSSGGQVMPDPLG-LVNPDGLPRFANPTTRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQ-LTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LVLSAVSLSLSAILTPVSAS---ATIPNSVNGQEMPSLA--PMLAKVT---PAVVTVSVEGKKTSNAQSIPEQFRYFFGPD-IPVQSLPE-RQFKGLGSGVIIDAKNGYIVTNYHVINDADKIQVTLSDKR---EFNATLIGGDKLSDIALIKLDKKISGLTQATLADSDHLRVGDFAVAIGNPFGLGQTVTSGIISALGRSGLNIENF--ENFIQTDAAINTGNSGGALVNLNGELVGINTAILGPNGGNVGIGFAIPSNMVK</Hsp_hseq>
+      <Hsp_midline>+V  A+S+   A + P SA+   AT P  V+    P ++  P    VT    +VV+V+     +S  Q +P+       PD +P  + P  R  + +G+GVI+   +G+IVTNYHV+  A+ + VT+ D      ++  ++  D+  D+AL+K+  K+  LT A L DSD + V D  +AIG PFGL  TV+ GIISA  R  + IE     N +QTDAAIN GNSGG LV  NG +VGINTAI  PNG   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>4.07892e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>GAALTP-LTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GGEITPDLAEAMGYSSS----KGAFVSQVMPDSAAEKAGLKAGDVITSINGKEIATFGELRAKIATIGAGKEVELGLLRDG-------------------KAITADVTLGEMQQLQASAEELHP---------GLEGAQF----------SNTNSSDAISGIKITDVAKGSPAESYQLKQDDIIIGVNRTRVKNLAQMKKVLEHKTNI---LALNIQRGDRTIYLVV</Hsp_hseq>
+      <Hsp_midline>G  +TP L + +G  ++    +G FV+ V P++ A  AGL+ GDVI  ++G+ +    E+ A +A +  G+ V +G+LR G                   +A TA V +          + + P         G+E   F            T  +    G ++ +V  GS A    L+ +D+II VN   V + A++   ++  T     + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|909624112|ref|WP_049879686.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_049879686</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>2.88556e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.31829e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.337137</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1067201541|ref|WP_069535550.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065275782|gb|ODX17140.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_069535550</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.35548e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAEKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.42319e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.334406</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|646512901|ref|WP_025547154.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|820940340|gb|KKX90330.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|967461384|gb|KTL32275.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014743699|gb|KYY17888.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014764773|gb|KYY38810.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014833913|gb|KYZ07268.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014853051|gb|KYZ26231.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033241246|gb|OAR51088.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047926332|gb|OCP76173.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065716170|gb|OEB39888.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1174266756|gb|OQS73299.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_025547154</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.41964e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>9.42248e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGIIRDSKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +G++R     +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>2.26428</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGIIRDSK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L + R+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|922316454|ref|WP_053340218.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|921098786|gb|KON51591.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_053340218</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.45218e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>8.38192e-06</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVIVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDVI+ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.197643</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVIVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+I+ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|659053246|ref|WP_029864181.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047925292|gb|OCP75149.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065233680|gb|ODW76551.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065244349|gb|ODW86826.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1152723783|gb|OOX75473.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1174432089|gb|OQU27414.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_029864181</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.45218e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.43559e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.343166</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|658961623|ref|WP_029809431.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_029809431</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.45218e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.4481e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.340221</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|782743150|ref|WP_045626150.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918178264|gb|KOF29978.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065238174|gb|ODW80907.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065319451|gb|ODX59246.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065400607|gb|ODY37415.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065405602|gb|ODY42165.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065408623|gb|ODY45088.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065579364|gb|OEA08677.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065642495|gb|OEA69374.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065658354|gb|OEA84352.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_045626150</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.51819e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>7.75198e-06</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGA----TPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES-------------TNMKAKAETLHE-----------------------------GLKGAELSNTTLSDAIQGVKVSSVAENSPAAQYQLKQGDIIIGVNRQRVKNLAELRSIVDKHKGV---LALNIQRGERTIYLVI</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S               M   A T+                               G+ GA    T ++   +G +V+ V   S AA   L+  D+II VN + V + A L + +         + L + R  +  ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|647521375|ref|WP_025817086.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_025817086</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.51819e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.41089e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.331536</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|646805084|ref|WP_025588536.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918192051|gb|KOF43420.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_025588536</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.55167e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVRN-DGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDSQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+ +  G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.49924e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.346137</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|491599607|ref|WP_005457169.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Vibrio] &gt;gi|28897207|ref|NP_796812.1| protease DO [Vibrio parahaemolyticus RIMD 2210633] &gt;gi|28805416|dbj|BAC58696.1| protease DO [Vibrio parahaemolyticus RIMD 2210633] &gt;gi|149746017|gb|EDM57147.1| protease do [Vibrio parahaemolyticus AQ3810] &gt;gi|308086333|gb|EFO36028.1| peptidase Do [Vibrio parahaemolyticus Peru-466] &gt;gi|308094172|gb|EFO43867.1| peptidase Do [Vibrio parahaemolyticus AN-5034] &gt;gi|308106485|gb|EFO44025.1| peptidase Do [Vibrio parahaemolyticus AQ4037] &gt;gi|308111417|gb|EFO48957.1| peptidase Do [Vibrio parahaemolyticus K5030] &gt;gi|523835381|gb|AGQ99247.1| peptidase [Vibrio parahaemolyticus O1:K33 str. CDC_K4557] &gt;gi|532384547|gb|EQL91209.1| peptidase Do family protein [Vibrio parahaemolyticus VP232] &gt;gi|567330188|gb|ETJ90907.1| peptidase Do family protein [Vibrio parahaemolyticus EKP-008] &gt;gi|567331773|gb|ETJ92445.1| peptidase Do family protein [Vibrio parahaemolyticus 970107] &gt;gi|572322392|gb|ETS22327.1| peptidase Do family protein [Vibrio parahaemolyticus B-265] &gt;gi|573517736|gb|ETT17511.1| peptidase Do family protein [Vibrio parahaemolyticus 50] &gt;gi|575492940|gb|ETX24924.1| peptidase Do family protein [Vibrio parahaemolyticus IDH02640] &gt;gi|575574302|gb|ETX73806.1| peptidase Do family protein [Vibrio parahaemolyticus Peru-288] &gt;gi|582063277|gb|EVT80098.1| peptidase Do family protein [Vibrio parahaemolyticus V14/01] &gt;gi|584469166|gb|AHI98386.1| Outer membrane stress sensor protease DegQ, serine protease [Vibrio parahaemolyticus UCM-V493] &gt;gi|589850250|gb|EXJ27248.1| peptidase Do family protein [Vibrio parahaemolyticus VPCR-2009] &gt;gi|589851997|gb|EXJ28968.1| peptidase Do family protein [Vibrio parahaemolyticus VPTS-2009] &gt;gi|589867011|gb|EXJ43148.1| peptidase Do family protein [Vibrio parahaemolyticus VPTS-2010] &gt;gi|726135239|gb|KHF06487.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|726136325|gb|KHF07493.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|726145179|gb|KHF15732.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|726150795|gb|KHF20531.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|738583638|gb|KHQ87000.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|757966993|gb|KIS80059.1| peptidase [Vibrio parahaemolyticus 863] &gt;gi|757969150|gb|KIS82205.1| peptidase [Vibrio parahaemolyticus VP551] &gt;gi|758000673|gb|KIT13240.1| peptidase [Vibrio parahaemolyticus 930] &gt;gi|767871119|gb|KJH10474.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|778221438|gb|KJR16441.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|778225294|gb|KJR20197.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|778237045|gb|KJR31141.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|807086676|gb|KKC75632.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|807103565|gb|KKC92260.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|808783570|gb|KKF05455.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|814973778|gb|KKI10038.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|820923711|gb|KKX74425.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|823653045|gb|KLI84002.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|911833981|gb|AKU56060.1| Outer membrane stress sensor protease DegQ, serine protease [Vibrio parahaemolyticus] &gt;gi|916459513|gb|KOE00797.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|916465217|gb|KOE06224.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|917686753|gb|KOE77375.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|917693051|gb|KOE83477.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|917706482|gb|KOE96644.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918181674|gb|KOF33341.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918865855|gb|KOH10106.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918872208|gb|KOH16319.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918874823|gb|KOH18894.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918875526|gb|KOH19584.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918885844|gb|KOH29715.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918887594|gb|KOH31442.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918891507|gb|KOH35327.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918893432|gb|KOH37176.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|921100127|gb|KON52901.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|926580863|gb|KOY23091.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|926588927|gb|KOY31029.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|926597883|gb|KOY39861.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|926600506|gb|KOY42400.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|932133773|gb|ALG52926.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|948517827|gb|ALM65376.1| Outer membrane stress sensor protease DegQ, serine protease [Vibrio parahaemolyticus] &gt;gi|971816414|gb|KUH60703.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|983129646|gb|KWU32161.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|983134707|gb|KWU37186.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|991837378|gb|AMG05658.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1008711206|gb|KYJ90994.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014664670|gb|KYX39670.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014667999|gb|KYX42954.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014691530|gb|KYX66225.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014694975|gb|KYX69637.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014724779|gb|KYX99143.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014737881|gb|KYY12136.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014766357|gb|KYY40373.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014785522|gb|KYY59350.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014800825|gb|KYY74484.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014810559|gb|KYY84133.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014838271|gb|KYZ11583.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1014866828|gb|KYZ39894.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024119377|gb|KZW10459.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024127363|gb|KZW18391.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024128127|gb|KZW19145.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024138196|gb|KZW29118.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024139269|gb|KZW30182.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024140616|gb|KZW31524.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024145381|gb|KZW36232.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024150593|gb|KZW41401.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024157862|gb|KZW48620.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024161560|gb|KZW52281.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024164217|gb|KZW54918.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024165908|gb|KZW56594.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024167434|gb|KZW58115.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024175793|gb|KZW66381.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024177418|gb|KZW67993.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024182997|gb|KZW73509.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024188104|gb|KZW78520.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024195408|gb|KZW85664.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024196394|gb|KZW86632.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1024199586|gb|KZW89769.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1032970215|gb|OAR09743.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1032972801|gb|OAR12309.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1032978340|gb|OAR17811.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033222575|gb|OAR32664.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033223306|gb|OAR33394.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033229578|gb|OAR39573.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033230114|gb|OAR40107.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033247722|gb|OAR57540.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033250927|gb|OAR60713.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033263493|gb|OAR73159.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1033268691|gb|OAR78290.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047894316|gb|OCP44666.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047895368|gb|OCP45709.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047898349|gb|OCP48637.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047905452|gb|OCP55559.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047914037|gb|OCP64071.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047932484|gb|OCP82255.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047936954|gb|OCP86526.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047947420|gb|OCP96740.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047948338|gb|OCP97646.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047960117|gb|OCQ09054.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1047963162|gb|OCQ11960.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1061860608|gb|ODN32111.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065166761|gb|ODW12482.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065173595|gb|ODW19066.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065186074|gb|ODW31021.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065189759|gb|ODW34547.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065204218|gb|ODW48199.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065212659|gb|ODW56329.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065212826|gb|ODW56493.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065226932|gb|ODW70014.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065247051|gb|ODW89433.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065249968|gb|ODW92248.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065254603|gb|ODW96726.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065266176|gb|ODX07876.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065266421|gb|ODX08120.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065267320|gb|ODX09005.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065282686|gb|ODX23814.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065301061|gb|ODX41504.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065310638|gb|ODX50780.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065311650|gb|ODX51777.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065318952|gb|ODX58763.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065324885|gb|ODX64521.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065333093|gb|ODX72466.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065339919|gb|ODX79047.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065340620|gb|ODX79747.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065342715|gb|ODX81713.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065347941|gb|ODX86765.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065352680|gb|ODX91321.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065359680|gb|ODX98088.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065363803|gb|ODY02071.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065365913|gb|ODY04132.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065370044|gb|ODY08127.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065372413|gb|ODY10415.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065377325|gb|ODY15140.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065390786|gb|ODY28006.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065392351|gb|ODY29547.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065419008|gb|ODY54948.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065420112|gb|ODY55997.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065427384|gb|ODY62873.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065436501|gb|ODY71499.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065442642|gb|ODY77359.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065444964|gb|ODY79597.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065448160|gb|ODY82724.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065454215|gb|ODY88479.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065457902|gb|ODY91983.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065469854|gb|ODZ03452.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065478478|gb|ODZ11653.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065479001|gb|ODZ12153.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065482182|gb|ODZ15260.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065489829|gb|ODZ22659.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065498268|gb|ODZ30708.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065503453|gb|ODZ35651.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065517945|gb|ODZ49552.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065520128|gb|ODZ51677.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065525724|gb|ODZ57125.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065527646|gb|ODZ58996.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065542895|gb|ODZ73705.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065548516|gb|ODZ79002.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065551342|gb|ODZ81725.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065552760|gb|ODZ83119.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065561400|gb|ODZ91480.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065566934|gb|ODZ96801.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065568291|gb|ODZ98064.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065580446|gb|OEA09706.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065587678|gb|OEA16628.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065590159|gb|OEA19021.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065625667|gb|OEA53147.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065638206|gb|OEA65250.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065656926|gb|OEA82965.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065657489|gb|OEA83513.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065685118|gb|OEB10029.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065707407|gb|OEB31534.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065727013|gb|OEB50356.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065741559|gb|OEB64274.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065751271|gb|OEB73664.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1078274858|gb|AOV90986.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1093489803|gb|OHX41802.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1093507744|gb|OHX58611.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1108633209|gb|APE85118.1| Outer membrane stress sensor protease DegQ, serine protease [Vibrio parahaemolyticus] &gt;gi|1114417508|gb|OKA68026.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1123488755|gb|OKY28818.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1123651345|gb|OKY38395.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1123654881|gb|OKY41915.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1123655310|gb|OKY42343.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1123662379|gb|OKY49357.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1125670120|gb|OLF43332.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1131361187|gb|APU72919.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1132966640|gb|OMC61401.1| serine endoprotease DegQ [Vibrio parahaemolyticus CFSAN001595] &gt;gi|1137452099|gb|OMP49339.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1145975521|gb|OOE25683.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1145979433|gb|OOE29551.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1148007975|gb|OOI08189.1| serine endoprotease DegQ [Vibrio sp. SALL6] &gt;gi|1151404576|gb|OOQ66712.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1151407335|gb|OOQ69001.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1151416388|gb|OOQ76852.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1151421485|gb|OOQ81265.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1152672175|gb|OOX24554.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1152687788|gb|OOX39701.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1152689274|gb|OOX41179.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1152692606|gb|OOX44479.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1152707668|gb|OOX59449.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1169204484|gb|OQK30185.1| protease Do [Vibrio parahaemolyticus] &gt;gi|1169205356|gb|OQK31043.1| protease Do [Vibrio parahaemolyticus] &gt;gi|1169216978|gb|OQK42342.1| protease Do [Vibrio parahaemolyticus] &gt;gi|1169378864|gb|ARC18264.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1174296634|gb|OQT02939.1| serine endoprotease DegQ [Vibrio parahaemolyticus 98-513-F52] &gt;gi|1174414374|gb|OQU09947.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1174417461|gb|OQU12963.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1174446880|gb|OQU41954.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1174454436|gb|OQU49413.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_005457169</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.58546e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.46072e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.340221</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|659037508|ref|WP_029856475.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_029856475</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.58546e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.35388e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPESAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P + A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.436834</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPESAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1178622555|ref|WP_083135569.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1174458873|gb|OQU53821.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_083135569</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.61958e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVRN-DGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDSQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKISDSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+ +  G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.52549e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.346137</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|922020762|ref|WP_053300866.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|916473265|gb|KOE14182.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|916475105|gb|KOE15987.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|918172627|gb|KOF24534.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065168879|gb|ODW14527.1| serine endoprotease DegQ [Vibrio parahaemolyticus] &gt;gi|1065175846|gb|ODW21258.1| serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_053300866</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.61958e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.4481e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.364509</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|658990832|ref|WP_029828443.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Vibrio parahaemolyticus]</Hit_def>
+  <Hit_accession>WP_029828443</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>3.61958e-36</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRS--VENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>PDFPMEQTRERPFRGLGSGVIIDAQKGHIVTNYHVIKGADEIRVRLYD---GREYDAELVGGDEMADVALLKLEKAKNLTQIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSGLNVENF--ENFIQTDAAINSGNSGGALVNLNGELIGINTAILGPNGGNVGIGFAIPSNMMR</Hsp_hseq>
+      <Hsp_midline>P F    TR      +G+GVI+    G IVTNYHV++GA+ + V + D      Y  E+V  DE  D+ALLK+     LT   + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + +E     N +QTDAAIN GNSGG LV  NG ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.4481e-05</Hsp_evalue>
+      <Hsp_query-from>547</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GEVTSELAEALGYESS----KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKVATLGAGKKITLGVIRDGKSKSFDVTLGES</Hsp_hseq>
+      <Hsp_midline>G   + L + LG +++    +G F++ V P++ A  AGL+ GDV++ V+G+ +    E+ A +A +  G+ + +GV+R G   +  +  G S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.364509</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>KGAFISQVVPDSAADKAGLKAGDVVVSVNGKSIDTFSELRAKV-ATLGAGKKITLGVIRDGK</Hsp_hseq>
+      <Hsp_midline>KGA +++V+  S A  AGL+A D+++ VN + + + + L A + A   AG++I L V R+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2080159</Statistics_db-num>
+      <Statistics_db-len>728704751</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

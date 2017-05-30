@@ -1,0 +1,1218 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99592.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>347</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99592.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>347</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|769996555|ref|WP_045112162.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Moritella viscosa] &gt;gi|692313248|emb|CED62109.1| rod shape-determining protein mreB [Moritella viscosa] &gt;gi|1108355670|emb|SGY96760.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1108360404|emb|SGY97210.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1108365205|emb|SGZ02994.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1108377688|emb|SGY92315.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1108382448|emb|SGZ02477.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1111430231|emb|SHO08290.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1111435420|emb|SHO15502.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1111440107|emb|SHO22125.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1111445108|emb|SHO07341.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1111450257|emb|SHO26449.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1111454966|emb|SHO11213.1| Rod shape-determining protein MreB [Moritella viscosa] &gt;gi|1111459918|emb|SHO07254.1| Rod shape-determining protein MreB [Moritella viscosa]</Hit_def>
+  <Hit_accession>SGY96760</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000429046</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLK--SVVGYPKDVIGLKLLGRPYVVGDEAFEM--RSYLDLR--YPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEV-VHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGSRIRGL</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYV-KGQGIVLDEPSVVAIRQERGANKSVA---AVGTAAKQMLGRTPGNIAAIRPMKDGVIA-----DFFVTEKMLQHFIKQVHDNNFFRPSPRVLVC----VPCGSTQVERRAIRESAQGAGAREVFLIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSSSVRI----GGDKLDEAIISYVRRNYGSL-IGEATAERIKKEIGSAYPLDEVVEIEVRGRNLAEGVP-RSFILNSTEILEALQEPLSGVVSAVMTALEQSPPELASDIAERGMVLTGGGALIRGL</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T +   +G+  +L   SVV   ++    K +     VG  A +M  R+  ++    P++DGV++     D  V   +L H +K         P     +C    VP  ++   +  + + AQ        ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+ LDE + + +   +  L +    A  +K++        E    E R    A G P R  +  S +I  A +  +  ++ ++   L    PE  + + +  +V  GGG+ IRGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|739135600|ref|WP_037000556.1|</Hit_id>
+  <Hit_def>MULTISPECIES: rod shape-determining protein [Pseudomonas] &gt;gi|610712456|gb|EZH81826.1| rod shape-determining protein MreB [Pseudomonas pseudoalcaligenes AD6] &gt;gi|1098292825|emb|SFO69531.1| rod shape-determining protein MreB [Pseudomonas composti]</Hit_def>
+  <Hit_accession>EZH81826</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00512313</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVV-----GYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSA------EPGANDEICAVIGVPARASGANKALLLKMAQEV-VHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTDIC--ALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDV-TESVKIACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIRGL</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVRERGIVLNEPSVVAIRTHGNQKSVVA---------VGTEAKRMLGRTPGNISAIRPMKDGVIA-----DFSVCEKMLQYFINKVHENSFLQPSPRVLIC----VPCKSTQVERRAIRESALGAGAREVFLIEEPMAAAIGAGLPVEEARGSMVVDIGGGTTEIALISLNGVVYAESVRV----GGDRFDEAIITYVRRNYGSL-IGESTAERIKQEIGTAYPGGEIREVDVRGRNLAEGVPRSFTLNSNEVLEALQESLATIVQAVKSALEQSPPELASDIAERGLVLTGGGALLRDL</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  RG      SVV     G  K V+          VG EA  M       +    P++DGV++     D  V   +L + +         +P     IC    VP +++   +  + + A         ++ EP    +G GL  ++   +++VDIG GTT+I   +L G V     +V     G+  DE +   +   +  L +  + A  +K++       GE    + R    A G P    + +  V  A +  +  I+++++  L    PE  + + +  +V  GGG+ +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488618259|ref|WP_002555108.1|</Hit_id>
+  <Hit_def>MULTISPECIES: rod shape-determining protein [Pseudomonas] &gt;gi|28871607|ref|NP_794226.1| rod shape-determining protein MreB [[Pseudomonas syringae] pv. tomato str. DC3000] &gt;gi|66047390|ref|YP_237231.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae B728a] &gt;gi|28854859|gb|AAO57921.1| rod shape-determining protein MreB [[Pseudomonas syringae] pv. tomato str. DC3000] &gt;gi|63258097|gb|AAY39193.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae B728a] &gt;gi|68342577|gb|AAY90183.1| rod shape-determining protein MreB [Pseudomonas protegens Pf-5] &gt;gi|71557924|gb|AAZ37135.1| rod shape-determining protein MreB [Pseudomonas savastanoi pv. phaseolicola 1448A] &gt;gi|77381068|gb|ABA72581.1| rod shape-determining protein [Pseudomonas fluorescens Pf0-1] &gt;gi|213928480|gb|EEB62024.1| rod shape-determining protein MreB [Pseudomonas syringae pv. tomato T1] &gt;gi|229360273|emb|CAY47130.1| rod shape-determining protein [Pseudomonas fluorescens SBW25] &gt;gi|311286748|gb|EFQ65310.1| rod shape-determining protein MreB [Pseudomonas fluorescens WH6] &gt;gi|320322511|gb|EFW78604.1| rod shape-determining protein MreB [Pseudomonas savastanoi pv. glycinea str. B076] &gt;gi|320330020|gb|EFW86007.1| rod shape-determining protein MreB [Pseudomonas savastanoi pv. glycinea str. race 4] &gt;gi|327375643|gb|AEA66993.1| rod shape-determining protein, (rod shape-determining protein MreB) [Pseudomonas brassicacearum subsp. brassicacearum NFM421] &gt;gi|330868263|gb|EGH02972.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. aesculi str. 0893_23] &gt;gi|330875176|gb|EGH09325.1| rod shape-determining protein MreB [Pseudomonas savastanoi pv. glycinea str. race 4] &gt;gi|330877210|gb|EGH11359.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. morsprunorum str. M302280] &gt;gi|330895287|gb|EGH27625.1| rod shape-determining protein MreB [Pseudomonas syringae pv. japonica str. M301072] &gt;gi|330937964|gb|EGH41751.1| rod shape-determining protein MreB [Pseudomonas syringae pv. pisi str. 1704B] &gt;gi|330950287|gb|EGH50547.1| rod shape-determining protein MreB [Pseudomonas syringae Cit 7] &gt;gi|330963991|gb|EGH64251.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae str. M302091] &gt;gi|330969669|gb|EGH69735.1| rod shape-determining protein MreB [Pseudomonas syringae pv. aceris str. M302273] &gt;gi|330981110|gb|EGH79213.1| rod shape-determining protein MreB [Pseudomonas syringae pv. aptata str. DSM 50252] &gt;gi|330987073|gb|EGH85176.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. lachrymans str. M301315] &gt;gi|331011516|gb|EGH91572.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. tabaci str. ATCC 11528] &gt;gi|331016668|gb|EGH96724.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. lachrymans str. M302278] &gt;gi|331021435|gb|EGI01492.1| rod shape-determining protein MreB [Pseudomonas coronafaciens pv. oryzae str. 1_6] &gt;gi|341872713|gb|AEL00025.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|359758873|gb|AEV60952.1| MreB [Pseudomonas fluorescens F113] &gt;gi|387164325|gb|AFJ59524.1| rod shape-determining protein MreB [Pseudomonas fluorescens A506] &gt;gi|387998163|gb|EIK59492.1| rod shape-determining protein MreB [Pseudomonas fluorescens SS101] &gt;gi|388009483|gb|EIK70734.1| rod shape-determining protein MreB [Pseudomonas fluorescens Q8r1-96] &gt;gi|388552651|gb|EIM15912.1| rod shape-determining protein MreB [Pseudomonas chlororaphis O6] &gt;gi|395337415|gb|EJF69271.1| rod shape-determining protein MreB [Pseudomonas sp. Ag1] &gt;gi|397888951|gb|EJL05434.1| rod shape-determining protein MreB [Pseudomonas fluorescens Q2-87] &gt;gi|397891294|gb|EJL07772.1| rod shape-determining protein MreB [Pseudomonas chlororaphis subsp. aureofaciens 30-84] &gt;gi|398109876|gb|EJL99788.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM102] &gt;gi|398111044|gb|EJM00936.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM16] &gt;gi|398112614|gb|EJM02473.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM17] &gt;gi|398122079|gb|EJM11685.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM18] &gt;gi|398135970|gb|EJM25071.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM21] &gt;gi|398139619|gb|EJM28614.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM25] &gt;gi|398151489|gb|EJM40037.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM24] &gt;gi|398151630|gb|EJM40173.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM33] &gt;gi|398175489|gb|EJM63239.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM48] &gt;gi|398177215|gb|EJM64904.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM49] &gt;gi|398179696|gb|EJM67296.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM50] &gt;gi|398186347|gb|EJM73723.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM55] &gt;gi|398197727|gb|EJM84700.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM60] &gt;gi|398200340|gb|EJM87255.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM74] &gt;gi|398205127|gb|EJM91916.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM67] &gt;gi|398237816|gb|EJN23559.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM80] &gt;gi|398243056|gb|EJN28655.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM79] &gt;gi|398250112|gb|EJN35460.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM78] &gt;gi|404302577|gb|EJZ56539.1| MreB [Pseudomonas fluorescens R124] &gt;gi|407987920|gb|EKG30592.1| rod shape-determining protein MreB [Pseudomonas avellanae BPIC 631] &gt;gi|407994952|gb|EKG35504.1| rod shape-determining protein MreB [Pseudomonas syringae pv. avellanae str. ISPaVe013] &gt;gi|407995526|gb|EKG36049.1| rod shape-determining protein MreB [Pseudomonas syringae pv. avellanae str. ISPaVe037] &gt;gi|409762223|gb|EKN47248.1| rod shape-determining protein MreB [Pseudomonas viridiflava UASWS0038] &gt;gi|440361703|gb|ELP98920.1| rod shape-determining protein MreB [Pseudomonas syringae BRIP34876] &gt;gi|440367773|gb|ELQ04828.1| rod shape-determining protein MreB [Pseudomonas syringae BRIP34881] &gt;gi|440377222|gb|ELQ13871.1| rod shape-determining protein MreB [Pseudomonas syringae BRIP39023] &gt;gi|440380330|gb|ELQ16897.1| rod shape-determining protein MreB [Pseudomonas fluorescens BRIP34879] &gt;gi|443282397|gb|ELS41402.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. syringae B64] &gt;gi|445199084|gb|AGE24293.1| rod shape-determining protein MreB [Pseudomonas poae RE*1-1-14] &gt;gi|500240544|gb|AGL82702.1| Rod shape-determining protein MreB [Pseudomonas protegens CHA0] &gt;gi|510312869|gb|EPA97935.1| rod shape-determining protein MreB [Pseudomonas sp. G5(2012)] &gt;gi|514087469|gb|EPF68204.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. syringae SM] &gt;gi|515441316|gb|EPJ89418.1| rod shape-determining protein MreB [Pseudomonas sp. CFT9] &gt;gi|515448968|gb|EPJ97180.1| rod shape-determining protein MreB [Pseudomonas sp. CFII68] &gt;gi|515460911|gb|EPL09390.1| rod shape-determining protein MreB [Pseudomonas sp. CF161] &gt;gi|515465004|gb|EPL13546.1| rod shape-determining protein MreB [Pseudomonas sp. CF150] &gt;gi|519154916|gb|EPM46056.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19098] &gt;gi|519163915|gb|EPM54452.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19103] &gt;gi|519167887|gb|EPM58091.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19071] &gt;gi|519169267|gb|EPM59365.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19073] &gt;gi|519187830|gb|EPM75694.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 18886] &gt;gi|519188921|gb|EPM76666.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19072] &gt;gi|519203048|gb|EPM88365.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19068] &gt;gi|519213672|gb|EPM97107.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19104] &gt;gi|519221868|gb|EPN04019.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19070] &gt;gi|519222693|gb|EPN04725.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19102] &gt;gi|519230054|gb|EPN11150.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 9855] &gt;gi|519237809|gb|EPN17491.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19100] &gt;gi|519246800|gb|EPN25121.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19099] &gt;gi|519255886|gb|EPN32849.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 18883] &gt;gi|519268467|gb|EPN41685.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19095] &gt;gi|519282778|gb|EPN52378.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19094] &gt;gi|519300284|gb|EPN64820.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19079] &gt;gi|519309239|gb|EPN70864.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19101] &gt;gi|519318064|gb|EPN78425.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19097] &gt;gi|519318737|gb|EPN79028.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 18801] &gt;gi|542012516|gb|ERH58362.1| rod shape-determining protein Mbl [Pseudomonas fluorescens EGD-AQ6] &gt;gi|562780948|gb|ESW55039.1| rod shape-determining protein MreB [Pseudomonas fluorescens BBc6R8] &gt;gi|564819263|gb|ETD35765.1| rod shape-determining protein Mbl [Pseudomonas chlororaphis subsp. aurantiaca PB-St2] &gt;gi|565415585|gb|ETF08099.1| rod shape-determining protein Mbl [Pseudomonas moraviensis R28-S] &gt;gi|566061552|gb|AHC33653.1| rod shape-determining protein Mbl [Pseudomonas sp. TKP] &gt;gi|567643237|gb|ETK18638.1| rod shape-determining protein MreB [Pseudomonas sp. FH4] &gt;gi|567647263|gb|ETK22530.1| rod shape-determining protein MreB [Pseudomonas sp. FH1] &gt;gi|567819200|gb|ETK40514.1| rod shape-determining protein Mbl [Pseudomonas fluorescens FH5] &gt;gi|573003107|gb|AHF69450.1| rod shape-determining protein MreB [Pseudomonas cichorii JBC1] &gt;gi|576704970|gb|EUB71410.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM41(2012)] &gt;gi|576712112|gb|EUB84047.1| cell shape determining protein, MreB/Mrl family [Pseudomonas sp. GM30] &gt;gi|589146056|gb|EXF92257.1| rod shape-determining protein Mbl [Pseudomonas fluorescens HK44] &gt;gi|590455774|gb|EXL32378.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. syringae str. B301D-R] &gt;gi|591391297|gb|AHL32190.1| rod shape-determining protein MreB [Pseudomonas brassicacearum] &gt;gi|610524874|dbj|BAO60278.1| rod shape-determining protein MreB [Pseudomonas protegens Cab57] &gt;gi|610827435|gb|EZI24170.1| rod shape-determining protein MreB [Pseudomonas extremaustralis 14-3 substr. 14-3b] &gt;gi|612074111|gb|EZP33040.1| rod shape-determining protein MreB [Pseudomonas sp. RIT288] &gt;gi|612108778|gb|EZP66964.1| rod shape-determining protein MreB [Pseudomonas sp. RIT357] &gt;gi|627403592|gb|KCU95902.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 9617] &gt;gi|633678384|gb|KDD67955.1| rod shape-determining protein Mbl [Pseudomonas mandelii PD30] &gt;gi|635286901|gb|AHZ69646.1| rod shape-determining protein MreB [Pseudomonas mandelii JR-1] &gt;gi|646232427|gb|AIB34787.1| rod shape-determining protein MreB [Pseudomonas simiae] &gt;gi|647802962|gb|AIC18046.1| rod shape-determining protein MreB [Pseudomonas chlororaphis] &gt;gi|665422738|gb|KEX94667.1| rod shape-determining protein MreB [Pseudomonas putida] &gt;gi|666087027|gb|AIG02947.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|666693460|gb|KEZ27380.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. tabaci str. 6605] &gt;gi|666927605|gb|KEZ70491.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. tabaci str. ATCC 11528] &gt;gi|666929330|gb|KEZ72216.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae FF5] &gt;gi|670181196|gb|KFE44273.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|671398185|gb|KFF44071.1| rod shape-determining protein MreB [Pseudomonas sp. BRG-100] &gt;gi|671770659|gb|KFF81813.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|689659039|gb|KGE64353.1| rod shape-determining protein MreB [Pseudomonas fluorescens LMG 5329] &gt;gi|692341048|gb|AIS14965.1| rod shape-determining protein MreB [Pseudomonas chlororaphis subsp. aurantiaca] &gt;gi|695906910|gb|KGK97223.1| rod shape-determining protein MreB [Pseudomonas syringae pv. tomato] &gt;gi|705518139|gb|KGS13095.1| rod shape-determining protein MreB [Pseudomonas coronafaciens] &gt;gi|713119316|gb|KGU86723.1| rod shape-determining protein MreB [Pseudomonas mediterranea CFBP 5447] &gt;gi|722458319|gb|KHA74820.1| rod shape-determining protein MreB [Pseudomonas chlororaphis] &gt;gi|727042793|emb|CDF96922.1| Rod shape-determining protein MreB [Pseudomonas sp. SHC52] &gt;gi|733393858|gb|KHK63708.1| rod shape-determining protein MreB [Pseudomonas frederiksbergensis] &gt;gi|747112926|gb|KIF59512.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|747116260|gb|KIF62831.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|748444327|gb|KIH85306.1| Rod shape-determining protein MreB [Pseudomonas batumici] &gt;gi|749421536|gb|KII32462.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|749422301|gb|KII33227.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|749472804|emb|CEL27555.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|751049194|gb|KIK84566.1| rod shape-determining protein MreB [Pseudomonas sp. W15Feb9B] &gt;gi|755301603|gb|KIP92905.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|755321659|gb|KIQ09416.1| rod shape-determining protein MreB [Pseudomonas simiae] &gt;gi|755350950|gb|KIQ34025.1| rod shape-determining protein MreB [Pseudomonas viridiflava] &gt;gi|756406315|gb|KIQ58550.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|757243038|gb|KIR16349.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|757249236|gb|KIR22273.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|758846828|gb|AJO76602.1| rod shape-determining protein MreB [Pseudomonas sp. MRSN12121] &gt;gi|761530218|gb|AJP50536.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|761537663|gb|KIY17981.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. tabaci] &gt;gi|768453158|gb|KJH74850.1| rod shape-determining protein MreB [Pseudomonas sp. ES3-33] &gt;gi|768549212|gb|KJH84006.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|771840809|dbj|BAQ72596.1| rod shape-determining protein MreB [Pseudomonas sp. Os17] &gt;gi|771847016|dbj|BAQ78802.1| rod shape-determining protein MreB [Pseudomonas sp. St29] &gt;gi|785764259|gb|AJZ92776.1| rod shape-determining protein Mbl [Pseudomonas fluorescens PICF7] &gt;gi|787857484|gb|AKA26642.1| rod shape-determining protein Mbl [Pseudomonas chlororaphis] &gt;gi|799196198|gb|KJZ41151.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|799201584|gb|KJZ46434.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|799201851|gb|KJZ46699.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|799213154|gb|KJZ57718.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|799216413|gb|KJZ60893.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|799222780|gb|KJZ66954.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|800914123|gb|AKA84491.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|801169138|gb|KKA08454.1| rod shape-determining protein MreB [Pseudomonas kilonensis] &gt;gi|814997583|gb|KKI27144.1| rod shape-determining protein MreB [Pseudomonas syringae pv. persicae] &gt;gi|817569337|gb|AKF49922.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae HS191] &gt;gi|817609795|gb|AKF47777.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae B301D] &gt;gi|820906171|gb|KKX57401.1| rod shape-determining protein MreB [Pseudomonas putida] &gt;gi|821147447|gb|KKY52012.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. tabaci str. ATCC 11528] &gt;gi|821153112|gb|KKY57646.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. lachrymans] &gt;gi|829494379|gb|AKK00252.1| rod shape-determining protein MreB [Pseudomonas chlororaphis] &gt;gi|856767309|gb|KMM85826.1| rod shape-determining protein MreB [Pseudomonas taetrolens] &gt;gi|856771618|gb|KMM90038.1| rod shape-determining protein MreB [Pseudomonas lini] &gt;gi|856775264|gb|KMM93653.1| rod shape-determining protein MreB [Pseudomonas lundensis] &gt;gi|856792711|gb|KMN10576.1| rod shape-determining protein MreB [Pseudomonas helleri] &gt;gi|856796816|gb|KMN14597.1| rod shape-determining protein MreB [Pseudomonas weihenstephanensis] &gt;gi|856802161|gb|KMN19846.1| rod shape-determining protein MreB [Pseudomonas sp. DSM 28140] &gt;gi|856803392|gb|KMN21039.1| rod shape-determining protein MreB [Pseudomonas helleri] &gt;gi|873534140|gb|KMT55144.1| rod shape-determining protein MreB [Pseudomonas sp. KG01] &gt;gi|896768735|gb|KMY00732.1| rod shape-determining protein MreB [Pseudomonas syringae KCTC 12500] &gt;gi|902689008|gb|AKS06368.1| rod shape-determining protein MreB [Pseudomonas trivialis] &gt;gi|908349689|gb|AKT32273.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 18884] &gt;gi|910849337|gb|KNH26574.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|910868298|gb|KNH44082.1| rod shape-determining protein MreB [Pseudomonas lini] &gt;gi|913044754|dbj|GAO97052.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|913661099|gb|AKV06649.1| rod shape-determining protein MreB [Pseudomonas fluorescens NCIMB 11764] &gt;gi|918460301|gb|KOG06320.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. aceris] &gt;gi|923163145|gb|KOP56412.1| rod shape-determining protein MreB [Pseudomonas coronafaciens pv. porri] &gt;gi|923164593|gb|KOP57822.1| rod shape-determining protein MreB [Pseudomonas coronafaciens pv. porri] &gt;gi|926555538|gb|KOY01172.1| rod shape-determining protein MreB [Pseudomonas sp. 655] &gt;gi|927285147|gb|ALD97651.1| rod shape-determining protein Mbl [Pseudomonas syringae UMAF0158] &gt;gi|928208748|gb|KPA93441.1| cell shape determining protein, MreB/Mrl family [Pseudomonas fuscovaginae] &gt;gi|928208888|gb|KPA93554.1| cell shape determining protein, MreB/Mrl family [Pseudomonas fuscovaginae] &gt;gi|928252872|gb|KPB16713.1| Rod shape-determining protein MreB [Pseudomonas savastanoi] &gt;gi|928262626|gb|KPB26210.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|928265490|gb|KPB29034.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|928268604|gb|KPB32114.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. sesami] &gt;gi|928270917|gb|KPB34381.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. phaseolicola] &gt;gi|928273778|gb|KPB37196.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. phaseolicola] &gt;gi|928275410|gb|KPB38812.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. phaseolicola] &gt;gi|928291421|gb|KPB54681.1| Rod shape-determining protein MreB [Pseudomonas coronafaciens pv. oryzae] &gt;gi|928294341|gb|KPB57584.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. mellea] &gt;gi|928296382|gb|KPB59587.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. myricae] &gt;gi|928303898|gb|KPB66997.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. phaseolicola] &gt;gi|928318305|gb|KPB81092.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. maculicola] &gt;gi|928319696|gb|KPB82476.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. maculicola] &gt;gi|928327050|gb|KPB89670.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. maculicola] &gt;gi|928338610|gb|KPC00787.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. maculicola] &gt;gi|928340360|gb|KPC02488.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. lachrymans] &gt;gi|928344957|gb|KPC06897.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. maculicola str. M6] &gt;gi|928345803|gb|KPC07702.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. lachrymans] &gt;gi|928352200|gb|KPC13779.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. lachrymans] &gt;gi|928362526|gb|KPC23848.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. glycinea] &gt;gi|928375888|gb|KPC36937.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. glycinea] &gt;gi|928382550|gb|KPC43367.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. glycinea] &gt;gi|928387693|gb|KPC48311.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. glycinea] &gt;gi|928388377|gb|KPC48945.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. morsprunorum] &gt;gi|929875635|gb|KPG72497.1| rod shape-determining protein MreB [Pseudomonas libanensis] &gt;gi|929884035|gb|KPG80647.1| rod shape-determining protein MreB [Pseudomonas sp. RIT-PI-o] &gt;gi|929904436|gb|KPH00472.1| rod shape-determining protein MreB [Pseudomonas sp. RIT-PI-q] &gt;gi|929905250|gb|KPH01273.1| rod shape-determining protein MreB [Pseudomonas sp. RIT-PI-r] &gt;gi|934020868|gb|KPL62305.1| rod shape-determining protein MreB [Pseudomonas viridiflava] &gt;gi|937309626|gb|ALI00489.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|937315720|gb|ALI06582.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|937650263|gb|KPN92791.1| rod shape-determining protein MreB [Pseudomonas sp. In5] &gt;gi|939140954|gb|KPU57547.1| cell shape determining, MreB/Mrl family protein [Pseudomonas fluorescens] &gt;gi|939980454|gb|KPW08375.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. atrofaciens] &gt;gi|939993217|gb|KPW20107.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. aceris] &gt;gi|940000246|gb|KPW26472.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. aesculi] &gt;gi|940003508|gb|KPW29575.1| Rod shape-determining protein MreB [Pseudomonas coronafaciens pv. atropurpurea] &gt;gi|940011111|gb|KPW36897.1| Rod shape-determining protein MreB [Pseudomonas amygdali] &gt;gi|940016187|gb|KPW41790.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. apii] &gt;gi|940020858|gb|KPW46257.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. antirrhini] &gt;gi|940029928|gb|KPW54822.1| Rod shape-determining protein MreB [Pseudomonas caricapapayae] &gt;gi|940040067|gb|KPW64378.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. broussonetiae] &gt;gi|940044128|gb|KPW68049.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. ciccaronei] &gt;gi|940059288|gb|KPW81766.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. cerasicola] &gt;gi|940065302|gb|KPW87480.1| Rod shape-determining protein MreB [Pseudomonas congelans] &gt;gi|940066197|gb|KPW88301.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. castaneae] &gt;gi|940075839|gb|KPW96742.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. coryli] &gt;gi|940087072|gb|KPX06704.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. cunninghamiae] &gt;gi|940106464|gb|KPX24503.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. dendropanacis] &gt;gi|940116345|gb|KPX33830.1| Rod shape-determining protein MreB [Pseudomonas coronafaciens pv. garcae] &gt;gi|940118501|gb|KPX35889.1| Rod shape-determining protein MreB [Pseudomonas ficuserectae] &gt;gi|940123231|gb|KPX40237.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. glycinea] &gt;gi|940125833|gb|KPX42658.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. helianthi] &gt;gi|940140649|gb|KPX56584.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. hibisci] &gt;gi|940144737|gb|KPX60460.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. photiniae] &gt;gi|940149146|gb|KPX64665.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. lapsa] &gt;gi|940154187|gb|KPX69428.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. maculicola] &gt;gi|940169261|gb|KPX83302.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. mellea] &gt;gi|940174443|gb|KPX88126.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. mori] &gt;gi|940177938|gb|KPX91325.1| Rod shape-determining protein MreB [Pseudomonas meliae] &gt;gi|940186086|gb|KPX98847.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. myricae] &gt;gi|940188463|gb|KPY01038.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. nerii] &gt;gi|940193359|gb|KPY05701.1| Rod shape-determining protein Mbl [Pseudomonas coronafaciens pv. oryzae] &gt;gi|940206210|gb|KPY17891.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. philadelphi] &gt;gi|940208563|gb|KPY20089.1| Rod shape-determining protein Mbl [Pseudomonas savastanoi pv. phaseolicola] &gt;gi|940208947|gb|KPY20453.1| Rod shape-determining protein MreB [Pseudomonas coronafaciens pv. porri] &gt;gi|940213435|gb|KPY24641.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. papulans] &gt;gi|940223054|gb|KPY33659.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. primulae] &gt;gi|940240608|gb|KPY50048.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. ribicola] &gt;gi|940241371|gb|KPY50758.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. retacarpa] &gt;gi|940245074|gb|KPY54226.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. rhaphiolepidis] &gt;gi|940246333|gb|KPY55387.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. spinaceae] &gt;gi|940248043|gb|KPY56921.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. solidagae] &gt;gi|940255085|gb|KPY63358.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. sesami] &gt;gi|940261128|gb|KPY68950.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|940267778|gb|KPY75209.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. savastanoi] &gt;gi|940272707|gb|KPY79881.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. tabaci] &gt;gi|940277818|gb|KPY84731.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. tagetis] &gt;gi|940282768|gb|KPY89383.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. tomato] &gt;gi|940290510|gb|KPY96441.1| Rod shape-determining protein MreB [Pseudomonas tremae] &gt;gi|940292523|gb|KPY98286.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. aptata] &gt;gi|940301916|gb|KPZ07059.1| Rod shape-determining protein MreB [Pseudomonas amygdali pv. ulmi] &gt;gi|940313918|gb|KPZ18001.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. viburni] &gt;gi|940316576|gb|KPZ20490.1| Rod shape-determining protein MreB [Pseudomonas coronafaciens pv. zizaniae] &gt;gi|940323687|gb|KPZ26894.1| Rod shape-determining protein MreB [Pseudomonas viridiflava] &gt;gi|940334514|gb|KPZ35216.1| hypothetical protein AN901_200504 [Pseudomonas syringae pv. theae] &gt;gi|940723138|gb|KQB53058.1| rod shape-determining protein MreB [Pseudomonas endophytica] &gt;gi|944600789|gb|KQM52699.1| rod shape-determining protein MreB [Pseudomonas sp. Leaf15] &gt;gi|944692467|gb|KQN43844.1| rod shape-determining protein MreB [Pseudomonas sp. Leaf48] &gt;gi|945308842|gb|KQT66420.1| rod shape-determining protein MreB [Pseudomonas sp. Leaf434] &gt;gi|945459019|gb|KQV15063.1| rod shape-determining protein MreB [Pseudomonas sp. Root329] &gt;gi|945563779|gb|KQW18823.1| rod shape-determining protein MreB [Pseudomonas sp. Root401] &gt;gi|945929263|gb|KQZ82492.1| rod shape-determining protein MreB [Pseudomonas sp. Root562] &gt;gi|945974566|gb|KRA27612.1| rod shape-determining protein MreB [Pseudomonas sp. Root569] &gt;gi|946032994|gb|KRA85765.1| rod shape-determining protein MreB [Pseudomonas sp. Root68] &gt;gi|946119238|gb|KRB71439.1| rod shape-determining protein MreB [Pseudomonas sp. Root71] &gt;gi|946239664|gb|KRC91258.1| rod shape-determining protein MreB [Pseudomonas sp. Root9] &gt;gi|949183167|gb|KRP44505.1| rod shape-determining protein MreB [Pseudomonas libanensis] &gt;gi|949192031|gb|KRP53307.1| rod shape-determining protein MreB [Pseudomonas poae] &gt;gi|949196142|gb|KRP57391.1| rod shape-determining protein MreB [Pseudomonas synxantha] &gt;gi|949201221|gb|KRP62381.1| rod shape-determining protein MreB [Pseudomonas trivialis] &gt;gi|949202973|gb|KRP64121.1| rod shape-determining protein MreB [Pseudomonas orientalis] &gt;gi|949213152|gb|KRP74208.1| rod shape-determining protein MreB [Pseudomonas sp. DSM 29164] &gt;gi|949219327|gb|KRP80335.1| rod shape-determining protein MreB [Pseudomonas veronii] &gt;gi|949230208|gb|KRP91129.1| rod shape-determining protein MreB [Pseudomonas sp. DSM 28142] &gt;gi|953256017|emb|CRL48830.1| Rod shape-determining protein MreB [Pseudomonas sp. URMO17WK12:I11] &gt;gi|955698610|gb|ALQ01547.1| Rod shape-determining protein MreB [Pseudomonas brassicacearum] &gt;gi|962053873|gb|KTB68607.1| rod shape-determining protein MreB [Pseudomonas fluorescens ICMP 11288] &gt;gi|962054401|gb|KTB69124.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|962059597|gb|KTB74135.1| rod shape-determining protein MreB [Pseudomonas sp. ICMP 3272] &gt;gi|962067116|gb|KTB77179.1| rod shape-determining protein MreB [Pseudomonas syringae ICMP 13102] &gt;gi|962079705|gb|KTB88957.1| rod shape-determining protein MreB [Pseudomonas syringae ICMP 11293] &gt;gi|962087788|gb|KTB92511.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae PD2774] &gt;gi|962095222|gb|KTB95851.1| rod shape-determining protein MreB [Pseudomonas syringae ICMP 11292] &gt;gi|962108738|gb|KTC09091.1| rod shape-determining protein MreB [Pseudomonas syringae ICMP 11168] &gt;gi|962110847|gb|KTC11117.1| rod shape-determining protein MreB [Pseudomonas sp. ICMP 10191] &gt;gi|962112247|gb|KTC12465.1| rod shape-determining protein MreB [Pseudomonas marginalis ICMP 11289] &gt;gi|962114602|gb|KTC14766.1| rod shape-determining protein MreB [Pseudomonas marginalis ICMP 9505] &gt;gi|962132913|gb|KTC32315.1| rod shape-determining protein MreB [Pseudomonas sp. ICMP 19500] &gt;gi|962152245|gb|KTC42814.1| rod shape-determining protein MreB [Pseudomonas sp. ABAC21] &gt;gi|962162335|gb|KTC50953.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 19497] &gt;gi|962168524|gb|KTC56628.1| rod shape-determining protein MreB [Pseudomonas syringae ICMP 19498] &gt;gi|962172775|gb|KTC60578.1| rod shape-determining protein MreB [Pseudomonas syringae ICMP 19499] &gt;gi|970584160|gb|ALU62155.1| rod shape-determining protein MreB [Pseudomonas syringae pv. lapsa] &gt;gi|970928947|gb|KUG40568.1| Rod shape-determining protein MreB [Pseudomonas savastanoi pv. fraxini] &gt;gi|974962833|gb|KUR41640.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. tomato] &gt;gi|974965495|gb|KUR44178.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. tomato] &gt;gi|979224367|gb|KVV06827.1| Rod shape-determining protein MreB [Pseudomonas sp. TAD18] &gt;gi|979225823|gb|KVV08270.1| Rod shape-determining protein MreB [Pseudomonas sp. TAA207] &gt;gi|982589167|gb|KWS12815.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|982596049|gb|KWS19511.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|982598887|gb|KWS22291.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|982603525|gb|KWS26827.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|982612698|gb|KWS35691.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. ulmi] &gt;gi|982613539|gb|KWS36494.1| rod shape-determining protein MreB [Pseudomonas syringae pv. rhaphiolepidis] &gt;gi|982616340|gb|KWS39176.1| rod shape-determining protein MreB [Pseudomonas syringae pv. papulans] &gt;gi|982626891|gb|KWS49229.1| rod shape-determining protein MreB [Pseudomonas savastanoi pv. nerii] &gt;gi|982629570|gb|KWS51795.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. myricae] &gt;gi|982635262|gb|KWS57308.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. morsprunorum] &gt;gi|982635679|gb|KWS57718.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. morsprunorum] &gt;gi|982639890|gb|KWS61769.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. morsprunorum] &gt;gi|982645570|gb|KWS67205.1| rod shape-determining protein MreB [Pseudomonas savastanoi pv. fraxini] &gt;gi|982659387|gb|KWS80513.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. eriobotryae] &gt;gi|982661211|gb|KWS82224.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. dendropanacis] &gt;gi|982676863|gb|KWS97021.1| rod shape-determining protein MreB [Pseudomonas syringae pv. castaneae] &gt;gi|982680597|gb|KWT00543.1| rod shape-determining protein MreB [Pseudomonas syringae pv. cerasicola] &gt;gi|982690235|gb|KWT09638.1| rod shape-determining protein MreB [Pseudomonas syringae pv. avii] &gt;gi|982693019|gb|KWT12240.1| rod shape-determining protein MreB [Pseudomonas syringae pv. broussonetiae] &gt;gi|982695289|gb|KWT14372.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. aesculi] &gt;gi|982695616|gb|KWT14671.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. aesculi] &gt;gi|982697501|gb|KWT16450.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. aesculi] &gt;gi|982699187|gb|KWT18051.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. aesculi] &gt;gi|982717103|gb|KWT34979.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. aesculi] &gt;gi|982717708|gb|KWT35549.1| rod shape-determining protein MreB [Pseudomonas amygdali pv. aesculi] &gt;gi|983186092|gb|KWU50324.1| rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|984322384|gb|KWV71737.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|984325510|gb|KWV74806.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|984332744|gb|KWV81960.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|984337303|gb|KWV86302.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|984710772|gb|AMB84338.1| rod shape-determining protein MreB [Pseudomonas agarici] &gt;gi|1002769654|gb|AMN78932.1| rod shape-determining protein MreB [Pseudomonas azotoformans] &gt;gi|1008269543|gb|AMQ85442.1| rod shape-determining protein MreB [Pseudomonas sp. MS586] &gt;gi|1012293112|gb|AMS14301.1| rod shape-determining protein [Pseudomonas chlororaphis] &gt;gi|1012299040|gb|AMS20228.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1013847435|gb|AMT87292.1| rod shape-determining protein [Pseudomonas koreensis] &gt;gi|1015851785|gb|AMW81510.1| Rod shape-determining protein MreB [Pseudomonas fluorescens] &gt;gi|1020298124|gb|KZL37505.1| rod shape-determining protein MreB [Pseudomonas syringae pv. syringae] &gt;gi|1020385715|gb|AMZ72615.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1021240544|gb|KZN16514.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1021678815|gb|KZO50114.1| Rod shape-determining protein MreB [Pseudomonas chlororaphis subsp. piscium] &gt;gi|1025903920|gb|OAB52994.1| rod shape-determining protein MreB [Pseudomonas thivervalensis] &gt;gi|1026749139|gb|OAE12812.1| rod shape-determining protein [Pseudomonas simiae] &gt;gi|1026755293|gb|OAE17900.1| rod shape-determining protein [Pseudomonas brenneri] &gt;gi|1027492821|gb|OAG90326.1| rod shape-determining protein MreB [Pseudomonas viridiflava] &gt;gi|1028578361|gb|OAJ46627.1| rod shape-determining protein MreB [Pseudomonas marginalis] &gt;gi|1030111847|gb|ANF84308.1| Rod shape-determining protein MreB [Pseudomonas antarctica] &gt;gi|1033855767|gb|ANH96615.1| rod shape-determining protein [Pseudomonas koreensis] &gt;gi|1034259588|gb|ANI52602.1| rod shape-determining protein Mbl [Pseudomonas sp. DR 5-09] &gt;gi|1034269425|gb|ANI62438.1| rod shape-determining protein Mbl [Pseudomonas sp. GR 6-02] &gt;gi|1035885315|gb|ANJ58289.1| rod shape-determining protein [Pseudomonas sp. A3(2016)] &gt;gi|1040042730|gb|OBS33670.1| rod shape-determining protein [Pseudomonas syringae pv. syringae] &gt;gi|1040047976|gb|OBS38820.1| rod shape-determining protein [Pseudomonas syringae pv. syringae] &gt;gi|1041609516|emb|CZT30609.1| Rod shape-determining protein MreB [Pseudomonas cerasi] &gt;gi|1043066074|gb|OBZ25143.1| rod shape-determining protein [Pseudomonas protegens] &gt;gi|1043072687|gb|OBZ31745.1| rod shape-determining protein [Pseudomonas protegens] &gt;gi|1044870313|dbj|BAV29721.1| rod shape-determining protein MreB [Pseudomonas sp. LAB-08] &gt;gi|1048543869|emb|CRL98868.1| Rod shape-determining protein MreB [Pseudomonas sp. 25 E 4] &gt;gi|1048548436|emb|CRM22691.1| Rod shape-determining protein MreB [Pseudomonas sp. 31 E 5] &gt;gi|1048554044|emb|CRM34528.1| Rod shape-determining protein MreB [Pseudomonas sp. 31 E 6] &gt;gi|1048561211|emb|CRM06202.1| Rod shape-determining protein MreB [Pseudomonas sp. 31 R 17] &gt;gi|1048564163|emb|CRM53649.1| Rod shape-determining protein MreB [Pseudomonas sp. 58 R 12] &gt;gi|1048571027|emb|CRM24175.1| Rod shape-determining protein MreB [Pseudomonas sp. 28 E 9] &gt;gi|1048577629|emb|CRM37636.1| Rod shape-determining protein MreB [Pseudomonas sp. 24 E 13] &gt;gi|1048582500|emb|CRM48982.1| Rod shape-determining protein MreB [Pseudomonas sp. 44 R 15] &gt;gi|1048589020|emb|CRM52598.1| Rod shape-determining protein MreB [Pseudomonas sp. 35 E 8] &gt;gi|1048594145|emb|CRM53800.1| Rod shape-determining protein MreB [Pseudomonas sp. 37 R 15] &gt;gi|1048603964|emb|CRL96665.1| Rod shape-determining protein MreB [Pseudomonas sp. 24 E 1] &gt;gi|1048605964|emb|CRM60098.1| Rod shape-determining protein MreB [Pseudomonas sp. 52 E 6] &gt;gi|1048611742|emb|CRM49549.1| Rod shape-determining protein MreB [Pseudomonas sp. 24 R 17] &gt;gi|1048617720|emb|CRM82650.1| Rod shape-determining protein MreB [Pseudomonas sp. 25 R 14] &gt;gi|1048625585|emb|CRN01735.1| Rod shape-determining protein MreB [Pseudomonas sp. 34 E 7] &gt;gi|1048634987|emb|CRM12963.1| Rod shape-determining protein MreB [Pseudomonas sp. 58 R 3] &gt;gi|1048641696|emb|CRM01212.1| Rod shape-determining protein MreB [Pseudomonas sp. 8 R 14] &gt;gi|1048647397|emb|SAM31715.1| Rod shape-determining protein MreB [Pseudomonas sp. 1 R 17] &gt;gi|1048660420|emb|CRM88787.1| Rod shape-determining protein MreB [Pseudomonas sp. 22 E 5] &gt;gi|1050820802|gb|OCW26146.1| rod shape-determining protein [Pseudomonas sp. S3E12] &gt;gi|1050824389|gb|OCW29712.1| rod shape-determining protein [Pseudomonas sp. S1E40] &gt;gi|1057924512|gb|AOE58616.1| rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae ICMP 18708] &gt;gi|1057932125|gb|AOE66226.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1057937947|gb|AOE72047.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1057943608|gb|AOE77707.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1060287323|gb|ODJ90735.1| rod shape-determining protein [Pseudomonas viridiflava] &gt;gi|1063928003|gb|ODS49301.1| rod shape-determining protein [Pseudomonas sp. BDAL1] &gt;gi|1065878238|gb|OEC51270.1| rod shape-determining protein [Pseudomonas sp. AP42] &gt;gi|1065896016|gb|OEC68644.1| rod shape-determining protein [Pseudomonas sp. AP19] &gt;gi|1070527886|gb|AOS39458.1| rod shape-determining protein [Pseudomonas brassicacearum] &gt;gi|1070898295|gb|AOS72392.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1072291872|emb|SBW78827.1| Rod shape-determining protein MreB [Pseudomonas veronii 1YdBTEX2] &gt;gi|1076795605|dbj|BAV72949.1| rod shape-determining protein MreB [Pseudomonas chlororaphis subsp. aurantiaca] &gt;gi|1079671846|emb|SCW99190.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC56-3] &gt;gi|1079696692|emb|SCW93136.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC05-1] &gt;gi|1080102492|gb|OFJ41870.1| rod shape-determining protein [Pseudomonas koreensis] &gt;gi|1081616738|emb|SCX55092.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC32-1] &gt;gi|1081623258|emb|SCZ25115.1| rod shape-determining protein MreB [Pseudomonas sp. NFIX46] &gt;gi|1081657393|emb|SCX17389.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC25] &gt;gi|1081662819|emb|SCZ66042.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP17] &gt;gi|1081667836|emb|SCY92067.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC37-1] &gt;gi|1081672968|emb|SCZ42894.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC44-2] &gt;gi|1085623870|emb|SDD13540.1| rod shape-determining protein MreB [Pseudomonas koreensis] &gt;gi|1085635421|emb|SDF69607.1| rod shape-determining protein MreB [Pseudomonas extremaustralis] &gt;gi|1085644893|emb|SDG12873.1| rod shape-determining protein MreB [Pseudomonas thivervalensis] &gt;gi|1085680609|emb|SDL04777.1| rod shape-determining protein MreB [Pseudomonas libanensis] &gt;gi|1085698100|emb|SDO72004.1| rod shape-determining protein MreB [Pseudomonas azotoformans] &gt;gi|1085711469|emb|SDN77539.1| rod shape-determining protein MreB [Pseudomonas antarctica] &gt;gi|1085711720|emb|SDN35239.1| rod shape-determining protein MreB [Pseudomonas arsenicoxydans] &gt;gi|1085719795|emb|SDO05532.1| rod shape-determining protein MreB [Pseudomonas poae] &gt;gi|1085730893|emb|SDP69682.1| rod shape-determining protein MreB [Pseudomonas extremorientalis] &gt;gi|1085733992|emb|SDO75546.1| rod shape-determining protein MreB [Pseudomonas reinekei] &gt;gi|1085753125|emb|SDP99362.1| rod shape-determining protein MreB [Pseudomonas brassicacearum] &gt;gi|1085779391|emb|SDT52133.1| rod shape-determining protein MreB [Pseudomonas chlororaphis] &gt;gi|1085803668|emb|SDT09866.1| rod shape-determining protein MreB [Pseudomonas sp. bs2935] &gt;gi|1085807681|emb|SDR87433.1| rod shape-determining protein MreB [Pseudomonas lini] &gt;gi|1085818698|emb|SDT61329.1| rod shape-determining protein MreB [Pseudomonas chlororaphis] &gt;gi|1085842455|emb|SDR83804.1| rod shape-determining protein MreB [Pseudomonas cedrina] &gt;gi|1085860262|emb|SDT51458.1| rod shape-determining protein MreB [Pseudomonas sp. Z003-0.4C(8344-21)] &gt;gi|1085878022|emb|SDS34853.1| rod shape-determining protein MreB [Pseudomonas trivialis] &gt;gi|1085887025|emb|SDT45937.1| rod shape-determining protein MreB [Pseudomonas chlororaphis] &gt;gi|1085888716|emb|SDS55484.1| rod shape-determining protein MreB [Pseudomonas prosekii] &gt;gi|1085906675|emb|SDS04860.1| rod shape-determining protein MreB [Pseudomonas umsongensis] &gt;gi|1085923262|emb|SDT15023.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|1085958865|emb|SDS69305.1| rod shape-determining protein MreB [Pseudomonas asplenii] &gt;gi|1085962696|emb|SDS33059.1| rod shape-determining protein MreB [Pseudomonas granadensis] &gt;gi|1085981904|emb|SDU31113.1| rod shape-determining protein MreB [Pseudomonas orientalis] &gt;gi|1085984875|emb|SDU37501.1| rod shape-determining protein MreB [Pseudomonas fragi] &gt;gi|1085999115|emb|SDU53907.1| rod shape-determining protein MreB [Pseudomonas synxantha] &gt;gi|1086009751|emb|SDU75306.1| rod shape-determining protein MreB [Pseudomonas moraviensis] &gt;gi|1086023878|emb|SDU76154.1| rod shape-determining protein MreB [Pseudomonas mediterranea] &gt;gi|1086037323|emb|SDU33379.1| rod shape-determining protein MreB [Pseudomonas yamanorum] &gt;gi|1086048038|emb|SDU14055.1| rod shape-determining protein MreB [Pseudomonas mandelii] &gt;gi|1086071027|emb|SDV04708.1| rod shape-determining protein MreB [Pseudomonas brenneri] &gt;gi|1086076844|emb|SDV13715.1| rod shape-determining protein MreB [Pseudomonas rhodesiae] &gt;gi|1086078849|emb|SDU82304.1| rod shape-determining protein MreB [Pseudomonas mucidolens] &gt;gi|1086088122|emb|SDV14212.1| rod shape-determining protein MreB [Pseudomonas vancouverensis] &gt;gi|1086800242|emb|SDQ47901.1| rod shape-determining protein MreB [Pseudomonas lundensis] &gt;gi|1087018154|emb|SDP58577.1| rod shape-determining protein MreB [Pseudomonas congelans] &gt;gi|1087100177|emb|SDN71922.1| rod shape-determining protein MreB [Pseudomonas cichorii] &gt;gi|1087134103|emb|SDG93659.1| rod shape-determining protein MreB [Pseudomonas sp. BS3767] &gt;gi|1087214195|emb|SDB63628.1| rod shape-determining protein MreB [Pseudomonas putida] &gt;gi|1087242275|emb|SDQ07213.1| rod shape-determining protein MreB [Pseudomonas moorei] &gt;gi|1087283073|emb|SDM34595.1| rod shape-determining protein MreB [Pseudomonas sp. BS3759] &gt;gi|1087293697|emb|SDR29276.1| rod shape-determining protein MreB [Pseudomonas gessardii] &gt;gi|1087300689|emb|SDM04292.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|1087304718|emb|SDA67079.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP15] &gt;gi|1087307548|emb|SDA90778.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC51] &gt;gi|1087336708|emb|SDA23370.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP12] &gt;gi|1087358112|emb|SDB08250.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC17-2] &gt;gi|1087371316|emb|SDA94268.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC15-1] &gt;gi|1087414453|emb|SDB66045.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC13-1] &gt;gi|1088395213|gb|OHC35919.1| rod shape-determining protein [Pseudomonadales bacterium RIFCSPLOWO2_12_60_38] &gt;gi|1088400847|gb|OHC41054.1| rod shape-determining protein [Pseudomonadales bacterium RIFCSPLOWO2_12_FULL_59_450] &gt;gi|1089072134|emb|SED10322.1| rod shape-determining protein MreB [Pseudomonas taetrolens] &gt;gi|1089230940|emb|SEE40642.1| rod shape-determining protein MreB [Pseudomonas palleroniana] &gt;gi|1089253875|emb|SEE18556.1| rod shape-determining protein MreB [Pseudomonas kilonensis] &gt;gi|1089265593|emb|SEC69885.1| rod shape-determining protein MreB [Pseudomonas frederiksbergensis] &gt;gi|1089274784|emb|SDY01765.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|1089287418|emb|SEE69523.1| rod shape-determining protein MreB [Pseudomonas proteolytica] &gt;gi|1089295961|emb|SED08146.1| rod shape-determining protein MreB [Pseudomonas mohnii] &gt;gi|1089306867|emb|SEE18870.1| rod shape-determining protein MreB [Pseudomonas costantinii] &gt;gi|1089308969|emb|SEE04707.1| rod shape-determining protein MreB [Pseudomonas migulae] &gt;gi|1089317264|emb|SDZ41418.1| rod shape-determining protein MreB [Pseudomonas sp. NFIX28] &gt;gi|1089321271|emb|SDY50653.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC08-1] &gt;gi|1089341214|emb|SEB90281.1| rod shape-determining protein MreB [Pseudomonas panacis] &gt;gi|1089345274|emb|SDZ13382.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC14] &gt;gi|1089356456|emb|SDX54502.1| rod shape-determining protein MreB [Pseudomonas salomonii] &gt;gi|1089374765|emb|SDY58426.1| rod shape-determining protein MreB [Pseudomonas sp. PDC86] &gt;gi|1089381479|emb|SEB33770.1| rod shape-determining protein MreB [Pseudomonas marginalis] &gt;gi|1089390726|emb|SEC98241.1| rod shape-determining protein MreB [Pseudomonas saponiphila] &gt;gi|1091393445|emb|SEB72912.1| rod shape-determining protein MreB [Pseudomonas jessenii] &gt;gi|1092255413|gb|AOZ13740.1| rod shape-determining protein [Pseudomonas sp. BS-2016] &gt;gi|1092915508|gb|OHW41643.1| rod shape-determining protein [Pseudomonas sp. 06C 126] &gt;gi|1093274349|emb|SEI04250.1| rod shape-determining protein MreB [Pseudomonas fuscovaginae] &gt;gi|1094853515|emb|SEM30182.1| rod shape-determining protein MreB [Pseudomonas sp. ok272] &gt;gi|1094924284|emb|SEK23216.1| rod shape-determining protein MreB [Pseudomonas agarici] &gt;gi|1095009338|emb|SEN61842.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC39-1] &gt;gi|1095049974|emb|SEM05014.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC41-3] &gt;gi|1095072291|emb|SEO74558.1| rod shape-determining protein MreB [Pseudomonas sp. ok266] &gt;gi|1095087588|emb|SES81947.1| rod shape-determining protein MreB [Pseudomonas sp. NFR09] &gt;gi|1095097289|emb|SEL01802.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP18] &gt;gi|1095113060|emb|SEJ93118.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC07-1] &gt;gi|1095129177|emb|SEQ44913.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP19] &gt;gi|1095140738|emb|SEL55486.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP10] &gt;gi|1095167969|emb|SEJ01486.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC23-1] &gt;gi|1098261377|emb|SFM30390.1| rod shape-determining protein MreB [Pseudomonas sp. ok602] &gt;gi|1099466895|emb|SFG75518.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|1099486236|emb|SFI23875.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|1099530303|emb|SFH07119.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC45] &gt;gi|1099553703|emb|SFA99905.1| rod shape-determining protein MreB [Pseudomonas simiae] &gt;gi|1099588489|emb|SFN55294.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|1099593862|emb|SFH77444.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP04] &gt;gi|1099605461|emb|SFI24116.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP11] &gt;gi|1099617371|emb|SFO85822.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP28] &gt;gi|1099620297|emb|SFB13391.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP24] &gt;gi|1099627899|emb|SFQ79232.1| rod shape-determining protein MreB [Pseudomonas sp. NFIX49] &gt;gi|1099638680|emb|SFO39249.1| rod shape-determining protein MreB [Pseudomonas syringae] &gt;gi|1099664423|emb|SFK95734.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC52] &gt;gi|1099686303|emb|SFP66765.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP07] &gt;gi|1099694569|emb|SFB54173.1| rod shape-determining protein MreB [Pseudomonas sp. NFIX10] &gt;gi|1099715206|emb|SFS25232.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC42-2] &gt;gi|1099718889|emb|SFF39388.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC06-1] &gt;gi|1099745537|emb|SFA60065.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP13] &gt;gi|1099751530|emb|SFT75724.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP25] &gt;gi|1099755712|emb|SFL90234.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC46-3] &gt;gi|1099773316|emb|SFT29364.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC48-1] &gt;gi|1099780345|emb|SFO64347.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC24-1] &gt;gi|1099789617|emb|SFU59924.1| rod shape-determining protein MreB [Pseudomonas sp. OV546] &gt;gi|1099794397|emb|SFJ23612.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP08] &gt;gi|1099807655|emb|SFM76978.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP05] &gt;gi|1099818248|emb|SFI79232.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC54] &gt;gi|1100631744|gb|OIN06417.1| rod shape-determining protein [Pseudomonas extremorientalis] &gt;gi|1100685240|gb|OIN48714.1| rod shape-determining protein [Pseudomonas azotoformans] &gt;gi|1100686018|gb|OIN49486.1| rod shape-determining protein [Pseudomonas costantinii] &gt;gi|1101504407|gb|APC15901.1| rod shape-determining protein [Pseudomonas frederiksbergensis] &gt;gi|1101508721|gb|APC20213.1| rod shape-determining protein [Pseudomonas protegens] &gt;gi|1102079313|emb|SFW74984.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC10-1] &gt;gi|1102087402|emb|SFW18375.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC09-4] &gt;gi|1102088485|emb|SFW77873.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC04-2] &gt;gi|1102098039|emb|SFW40161.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC16-2] &gt;gi|1104094394|emb|SFX47800.1| rod shape-determining protein MreB [Pseudomonas sp. NFR02] &gt;gi|1104099027|emb|SFX69316.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP02] &gt;gi|1104104906|emb|SFX72637.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC43] &gt;gi|1104111760|emb|SFX04766.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC36] &gt;gi|1104115711|emb|SFX32928.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC47-1] &gt;gi|1104120745|emb|SFX53381.1| rod shape-determining protein MreB [Pseudomonas sp. NFACC49-2] &gt;gi|1104137578|emb|SFX62330.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP16] &gt;gi|1104143253|emb|SFX74169.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP14] &gt;gi|1104150286|emb|SFX54517.1| rod shape-determining protein MreB [Pseudomonas sp. NFPP09] &gt;gi|1110469198|emb|SHN11964.1| rod shape-determining protein MreB [Pseudomonas asturiensis] &gt;gi|1113039266|gb|OJT33099.1| rod shape-determining protein [Pseudomonas sp. FSL W5-0203] &gt;gi|1113057243|gb|OJT50381.1| rod shape-determining protein [Pseudomonas moraviensis] &gt;gi|1115895394|gb|OKK42458.1| rod shape-determining protein [Pseudomonas protegens] &gt;gi|1115899674|gb|OKK46726.1| rod shape-determining protein [Pseudomonas protegens] &gt;gi|1115914717|gb|OKK61725.1| rod shape-determining protein [Pseudomonas protegens] &gt;gi|1115919253|gb|OKK66259.1| rod shape-determining protein [Pseudomonas protegens] &gt;gi|1119498331|gb|OKO49039.1| rod shape-determining protein [Pseudomonas sp. BTN1] &gt;gi|1121031199|gb|OKP72026.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1122296153|gb|OKS56242.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1122298539|gb|OKS58584.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1122302218|gb|OKS62161.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1122317663|gb|OKS76731.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1122319533|gb|OKS78574.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1123402139|gb|APP99570.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1123407909|gb|APQ05330.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1125686643|gb|OLF55884.1| rod shape-determining protein [Pseudomonas chlororaphis] &gt;gi|1130676558|gb|OLU01573.1| rod shape-determining protein [Pseudomonas reinekei] &gt;gi|1131749331|emb|SIR62544.1| rod shape-determining protein MreB [Pseudomonas sp. A214] &gt;gi|1131757123|emb|SIR71363.1| rod shape-determining protein MreB [Pseudomonas sp. B10] &gt;gi|1131758964|emb|SIR92986.1| rod shape-determining protein MreB [Pseudomonas sp. 7SR1] &gt;gi|1132348550|gb|OLY75908.1| rod shape-determining protein MreB [Pseudomonas sp. ATCC PTA-122608] &gt;gi|1132396943|gb|APV39098.1| rod shape-determining protein [Pseudomonas frederiksbergensis] &gt;gi|1137710577|gb|OMQ40337.1| rod shape-determining protein [Pseudomonas putida] &gt;gi|1139651190|gb|ONH39372.1| rod shape-determining protein [Pseudomonas gessardii] &gt;gi|1139653400|gb|ONH41524.1| rod shape-determining protein [Pseudomonas azotoformans] &gt;gi|1139667349|gb|ONH55070.1| rod shape-determining protein [Pseudomonas cedrina subsp. cedrina] &gt;gi|1142892887|gb|AQL39418.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae ICMP 9853] &gt;gi|1147647149|gb|OOG12409.1| rod shape-determining protein [Pseudomonas sp. C9] &gt;gi|1147881914|gb|OOG85389.1| rod shape-determining protein [Pseudomonas sp. A25(2017)] &gt;gi|1147982363|gb|OOH83202.1| rod shape-determining protein [Pseudomonas koreensis] &gt;gi|1148409280|gb|OOK98920.1| rod shape-determining protein [Pseudomonas syringae pv. actinidifoliorum] &gt;gi|1148950357|gb|OOL39950.1| rod shape-determining protein [Pseudomonas sp. FSL W5-0299] &gt;gi|1149545888|gb|AQT07644.1| rod shape-determining protein MreB [Pseudomonas protegens] &gt;gi|1150443921|gb|AQT92563.1| rod shape-determining protein [Pseudomonas azotoformans] &gt;gi|1151337117|gb|OOQ46416.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1152220846|emb|SKB06713.1| rod shape-determining protein MreB [Pseudomonas extremaustralis] &gt;gi|1152538412|gb|OOV98208.1| rod shape-determining protein [Pseudomonas sp. MF4836] &gt;gi|1152546518|gb|OOW06246.1| rod shape-determining protein [Pseudomonas sp. MF6394] &gt;gi|1153172832|gb|OPA93201.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1153173906|gb|OPA94269.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1153176783|gb|OPA97136.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1153188663|gb|OPB08917.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1153189871|gb|OPB10121.1| rod shape-determining protein [Pseudomonas synxantha] &gt;gi|1153193624|gb|OPB13848.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1153207353|gb|OPB27478.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1153213889|gb|OPB33870.1| rod shape-determining protein [Pseudomonas fluorescens] &gt;gi|1154275348|gb|AQX60955.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1154278913|gb|AQX64518.1| rod shape-determining protein [Pseudomonas syringae pv. actinidiae] &gt;gi|1158610497|gb|OPE59862.1| rod shape-determining protein [Pseudomonas syringae pv. tomato] &gt;gi|1159161262|gb|OPG71068.1| rod shape-determining protein [Pseudomonas sp. Ep R1] &gt;gi|1159168844|gb|OPG76741.1| rod shape-determining protein [Pseudomonas sp. Ea RS28] &gt;gi|1159378674|gb|AQY64356.1| rod shape-determining protein [Pseudomonas veronii] &gt;gi|1159680314|gb|OPK03144.1| rod shape-determining protein [Pseudomonas veronii] &gt;gi|1159685335|gb|OPK07986.1| rod shape-determining protein [Pseudomonas sp. VI4.1] &gt;gi|1167020545|gb|ARA82807.1| rod shape-determining protein [Pseudomonas amygdali pv. lachrymans] &gt;gi|1168989629|gb|ARB27768.1| rod shape-determining protein [Pseudomonas tolaasii] &gt;gi|1171856235|gb|ARD10438.1| rod shape-determining protein [Pseudomonas savastanoi pv. savastanoi NCPPB 3335] &gt;gi|1177761683|gb|ORC58529.1| rod shape-determining protein [Pseudomonas sp. GEV388] &gt;gi|1179811298|gb|ORJ06731.1| rod shape-determining protein [Pseudomonas graminis] &gt;gi|1181637786|gb|ORM49332.1| rod shape-determining protein [Pseudomonas chlororaphis subsp. chlororaphis] &gt;gi|1182751013|emb|SMF21705.1| rod shape-determining protein MreB [Pseudomonas sp. LAMO17WK12:I1] &gt;gi|1184422914|emb|SMH29039.1| rod shape-determining protein MreB [Pseudomonas sp. NFIX51] &gt;gi|1187229647|gb|OSN20362.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187231683|gb|OSN22360.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187237090|gb|OSN27486.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187247021|gb|OSN36779.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187248523|gb|OSN38245.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187255415|gb|OSN44692.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187263282|gb|OSN52154.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187267174|gb|OSN55956.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187272821|gb|OSN61276.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187279993|gb|OSN68080.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187285022|gb|OSN72906.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187290869|gb|OSN78389.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187297626|gb|OSN84769.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187302849|gb|OSN89763.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187308451|gb|OSN95029.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187314985|gb|OSO01212.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187320760|gb|OSO06694.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187326974|gb|OSO12551.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187332998|gb|OSO18294.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187342360|gb|OSO27449.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187344494|gb|OSO29550.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187350708|gb|OSO35336.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187357794|gb|OSO42055.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187362641|gb|OSO46689.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187369390|gb|OSO53022.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187375610|gb|OSO58942.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187381759|gb|OSO64854.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187386357|gb|OSO69342.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187429083|gb|OSO79407.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187831106|gb|OSR28215.1| rod shape-determining protein [Pseudomonas savastanoi pv. retacarpa] &gt;gi|1187852368|gb|OSR42132.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187853011|gb|OSR42765.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187854296|gb|OSR44034.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187867351|gb|OSR56195.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187871236|gb|OSR60000.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187873448|gb|OSR62154.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187887099|gb|OSR74836.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187889758|gb|OSR77452.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187891320|gb|OSR78972.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187900992|gb|OSR87808.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187906752|gb|OSR93376.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187910185|gb|OSR96671.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187919540|gb|OSS05353.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187923966|gb|OSS09631.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187928616|gb|OSS14011.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187935279|gb|OSS20230.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187940749|gb|OSS25407.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187946740|gb|OSS31141.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae] &gt;gi|1187951524|gb|OSS35811.1| Rod shape-determining protein MreB [Pseudomonas syringae pv. actinidiae]</Hit_def>
+  <Hit_accession>OKP72026</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00711558</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVV-----GYPKDVIGLKLLGRPYVVGDEAFEM--RSYLDLR--YPLQDGVLSEISDRDIEVARHLLTHVVKSA------EPGANDEICAVIGVPARASGANKALLLKMAQEV-VHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTDIC--ALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIRGL</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVRERGIVLNEPSVVAIRTHGNQKSVVA---------VGTEAKRMLGRTPGNIAAIRPMKDGVIA-----DFSVCEKMLQYFINKVHENSFLQPSPRVLIC----VPCKSTQVERRAIRESALGAGAREVFLIEEPMAAAIGAGLPVEEARGSMVVDIGGGTTEIALISLNGVVYAESVRV----GGDRFDEAIITYVRRNYGSL-IGESTAERIKQEIGTAYPGGEVREVDVRGRNLAEGVP-RAFTLNSNEVLEALQESLATIVQAVKSALEQSPPELASDIAERGLVLTGGGALLRDL</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  RG      SVV     G  K V+          VG EA  M  R+  ++    P++DGV++     D  V   +L + +         +P     IC    VP +++   +  + + A         ++ EP    +G GL  ++   +++VDIG GTT+I   +L G V     +V     G+  DE +   +   +  L +  + A  +K++       GE    + R    A G P R     S ++  A +  +  I+++++  L    PE  + + +  +V  GGG+ +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|491495174|ref|WP_005352893.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas diversa] &gt;gi|480570198|gb|ENY72019.1| rod shape-determining protein MreB [Aeromonas diversa CDC 2478-85]</Hit_def>
+  <Hit_accession>WP_005352893</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0906599</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGS</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNFFRPSPRVLVCIPCGSTQVERRAIRESALGAGAREVH---LIEEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYAQSVRI----GGDKFDEAIINYVRRNYGSL-IGESTAERIKHEIGSAYPGEEVRELEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGA</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A +   L      VH   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + N +   +  L +  + A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1134336024|ref|WP_076575656.1|</Hit_id>
+  <Hit_def>Fe-S protein assembly chaperone HscA [Aeromonas sp. RU39B] &gt;gi|1131891622|emb|SIQ84851.1| Chaperone protein HscA [Aeromonas sp. RU39B]</Hit_def>
+  <Hit_accession>WP_076575656</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.216143</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>78</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>KNRLFLGIDLGTSHTAVMTSRGKKF----------LLKSVVGYPKDVIGLKLLGRPYVVGD-------------EAFEMRSYLDLRYPLQDGV-LSEISDRD-----IEVARHLLTHV-VKSAEPGANDEICAVIGVPARASGANKALLLKMAQEV-VHTALVVSEPF--MVGYGLDKLNNTIIV--DIGAGTTDICALKGTVPGPEDQVT---LTKAGNYLDERLQNAILERHPELQMNT-------NVACAVKEQFS--------FVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDI-IESIEILLRSFQPEYQATVLQNIVFAGGGSRIRGLAAYVKDKL-RPFGNADVTCVKDP</Hsp_qseq>
+      <Hsp_hseq>QQKRAVGIDLGTTNSLVATVRSGEAQTLPDSLGRPLLPSVVHYQADAIRVGHEARTEAAQDPENTIVSVKRLMGKALSDVDTARMPYRFADGVAVPHILTRQGPVNPVQVSAEILNVLALRGAEALAGDLDGVVITVPAYFDDAQRQGTKDAARLAGLHVLRLLNEPTAAAIAYGLDSGQEGVIAVYDLGGGTFDISILRLNRGVFEVMATGGDSALGGDDFDHLLADWICEQAGSPALNSSEQRTLLDLACDTKQRLTDSDAVTIAFAGWQGEVTRECFNVLTLP----LVKRTLLACRRALKDAGVEADEV--------------REVVMVGGSTRV----PLVREKVGEFFGRMPLTSI-DP</Hsp_hseq>
+      <Hsp_midline>+ +  +GIDLGT+++ V T R  +           LL SVV Y  D I +    R     D             +A        + Y   DGV +  I  R      ++V+  +L  + ++ AE  A D    VI VPA    A +      A+   +H   +++EP    + YGLD     +I   D+G GT DI  L+      E   T       G+  D  L + I E+     +N+       ++AC  K++ +        F G +GE     F     P    + +   +AC   + D  +E+ E+              + +V  GG +R+      V++K+   FG   +T + DP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|516393781|ref|WP_017783180.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_017783180</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.223368</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVV----DSQSVRIGGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V    D  ++   G+  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1134337709|ref|WP_076577335.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas sp. RU39B] &gt;gi|1131890142|emb|SIR55095.1| rod shape-determining protein MreB [Aeromonas sp. RU39B]</Hit_def>
+  <Hit_accession>WP_076577335</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.460803</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGS</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNFFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIINYVRRNYGSL-IGEATAERIKHEIGSAYPGDEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGA</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + N +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|516374640|ref|WP_017764673.1|</Hit_id>
+  <Hit_def>MULTISPECIES: rod shape-determining protein [Aeromonas] &gt;gi|848280253|gb|KMK90651.1| rod shape-determining protein MreB [Aeromonas enteropelogenes]</Hit_def>
+  <Hit_accession>WP_017764673</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.481595</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGNKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     GN  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|914676365|ref|WP_050666789.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas schubertii] &gt;gi|954047381|gb|ALP41139.1| rod shape-determining protein MreB [Aeromonas schubertii] &gt;gi|969728342|gb|KUE80698.1| rod shape-determining protein MreB [Aeromonas schubertii]</Hit_def>
+  <Hit_accession>WP_050666789</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.530697</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGS</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIINYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVRELEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGA</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + N +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1189306560|ref|WP_085722895.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1187444036|gb|OSO87179.1| rod shape-determining protein [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_085722895</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.600486</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQAHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K A       P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|754688301|ref|WP_042066878.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_042066878</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.650118</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYAGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVSLEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K +     A  E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|754667696|ref|WP_042048939.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas simiae]</Hit_def>
+  <Hit_accession>WP_042048939</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.667556</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGS</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNFFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIINYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGA</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + N +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1172665578|ref|WP_080938207.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_080938207</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.03154</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHT--AVMTSRGKKFLLK-------SVVGYPKDVI-------------GLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGANDEICAVIGVPARASGANK-ALLLKMAQEVVHTALVVSEPF--MVGYGLDKLNNT-----------IIVDIGAGTTDICALK---GTVPGPEDQVTLTKAGNYLDERLQNAILERHPE</Hsp_qseq>
+      <Hsp_hseq>IGIDFGTTNSLISVVTRAGRVTSFDILGRPHPSVVRYESDQIICGKRAKDKLEQSGIGVLGNT-VRGPKKLLGSSVINL-----DGRLMSPIEVVTDYIRYLVGHARKEDEEQSADLTNAVVTIPVAMGGKERQALREALLNAGVYVETFVHEPLAALYGYFKDRADPQEALRRFEGKMLLVFDWGGGTLDLTLCKVVDGAILQILNRGNNKVGGDYIDDAILRYVEQKHAE</Hsp_hseq>
+      <Hsp_midline>+GID GT+++  +V+T  G+            SVV Y  D I             G+ +LG   V G +     S ++L     DG L    +   +  R+L+ H  K  E  + D   AV+ +P    G  + AL   +    V+    V EP   + GY  D+ +             ++ D G GT D+   K   G +    ++      G+Y+D+ +   + ++H E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|491470260|ref|WP_005328016.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas media] &gt;gi|615554575|gb|AHX63620.1| rod shape-determining protein MreB [Aeromonas media WS]</Hit_def>
+  <Hit_accession>WP_005328016</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.77649</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGTLLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|491450325|ref|WP_005308111.1|</Hit_id>
+  <Hit_def>MULTISPECIES: rod shape-determining protein [Aeromonas] &gt;gi|117620747|ref|YP_854929.1| rod shape-determining protein MreB [Aeromonas hydrophila subsp. hydrophila ATCC 7966] &gt;gi|117562154|gb|ABK39102.1| rod shape-determining protein MreB [Aeromonas hydrophila subsp. hydrophila ATCC 7966] &gt;gi|142853568|gb|ABO91889.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida A449] &gt;gi|356687378|gb|EHI51960.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida 01-B526] &gt;gi|404629278|gb|EKB26039.1| rod shape-determining protein mreB [Aeromonas hydrophila SSU] &gt;gi|507219645|gb|AGM42182.1| rod shape-determining protein MreB [Aeromonas hydrophila ML09-119] &gt;gi|530713747|gb|EQC04362.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. pectinolytica 34mel] &gt;gi|569546217|gb|AHE47838.1| mreB product [Aeromonas hydrophila 4AK4] &gt;gi|604187457|gb|AHV36900.1| rod shape-determining protein MreB [Aeromonas hydrophila YL17] &gt;gi|610713201|gb|EZH82548.1| rod shape-determining protein MreB [Aeromonas hydrophila AD9] &gt;gi|612338415|dbj|GAJ47598.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. masoucida NBRC 13784] &gt;gi|613731225|gb|AHX30911.1| rod shape-determining protein MreB [Aeromonas hydrophila AL09-71] &gt;gi|615568144|gb|AHX67706.1| rod shape-determining protein MreB [Aeromonas hydrophila pc104A] &gt;gi|651304701|gb|KDV03478.1| rod shape-determining protein MreB [Aeromonas sp. HZM] &gt;gi|662018020|gb|KEP90769.1| rod shape-determining protein MreB [Aeromonas caviae] &gt;gi|663469945|gb|KER64772.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|675523822|gb|KFN18493.1| rod shape-determining protein MreB [Aeromonas salmonicida] &gt;gi|721507814|gb|KGY51297.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|721525582|gb|KGY68984.1| rod shape-determining protein MreB [Aeromonas caviae] &gt;gi|721527755|gb|KGY71140.1| rod shape-determining protein MreB [Aeromonas caviae] &gt;gi|721534670|gb|KGY78029.1| rod shape-determining protein MreB [Aeromonas caviae] &gt;gi|722065716|gb|KHA55401.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|725523820|gb|KHE16038.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|726079295|gb|KHE98861.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|726081047|gb|KHF00559.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|734499657|gb|KHN65302.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|748235765|gb|AJE38236.1| rod shape-determining protein MreB [Aeromonas hydrophila J-1] &gt;gi|760177627|gb|KIX25686.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|764079540|gb|AJQ52967.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|785811611|gb|AKA19130.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|827374346|gb|AKJ36533.1| rod shape-determining protein MreB [Aeromonas hydrophila NJ-35] &gt;gi|838554379|gb|KLV38987.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|899688635|gb|KMY26350.1| rod shape-determining protein MreB [Aeromonas caviae] &gt;gi|918712769|gb|KOG95204.1| rod shape-determining protein MreB [Aeromonas caviae] &gt;gi|958621263|gb|ALQ65327.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|961686894|gb|KTA76479.1| rod shape-determining protein MreB [Aeromonas salmonicida] &gt;gi|961694549|gb|KTA83945.1| rod shape-determining protein MreB [Aeromonas salmonicida] &gt;gi|961694753|gb|KTA84147.1| rod shape-determining protein MreB [Aeromonas salmonicida] &gt;gi|961701109|gb|KTA90239.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|961703709|gb|KTA92735.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. smithia] &gt;gi|975029379|gb|ALZ82004.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|982542130|gb|KWR66348.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|1009560803|gb|KYN74362.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1012446673|gb|KYQ07065.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|1012450655|gb|KYQ11036.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|1012459929|gb|KYQ20243.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|1028016765|gb|OAH70665.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028024281|gb|OAH78033.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028031367|gb|OAH84843.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028037640|gb|OAH90905.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1039459894|gb|OBR44651.1| rod shape-determining protein [Aeromonas dhakensis] &gt;gi|1043233061|gb|ANS01871.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1043503454|gb|OCA62053.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1044520873|gb|ANT69577.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|1050873219|gb|OCW46901.1| rod shape-determining protein [Aeromonas caviae] &gt;gi|1053087033|gb|OCY00558.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1053093921|gb|OCY07403.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1053095986|gb|OCY09461.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1061078105|gb|ODM31308.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1067540410|gb|OEG02184.1| rod shape-determining protein [Aeromonas caviae] &gt;gi|1067540739|gb|OEG02512.1| rod shape-determining protein [Aeromonas caviae] &gt;gi|1078524469|gb|OFC46182.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1078530259|gb|OFC51701.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1112971820|gb|APJ13723.1| rod shape-determining protein [Aeromonas aquatica] &gt;gi|1113402174|gb|OJW65025.1| rod shape-determining protein [Aeromonas sp. 62-46] &gt;gi|1114449100|gb|OKA72370.1| rod shape-determining protein [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114454052|gb|OKA77102.1| rod shape-determining protein [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114461580|gb|OKA84356.1| rod shape-determining protein [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114463350|gb|OKA86036.1| rod shape-determining protein [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114466074|gb|OKA88660.1| rod shape-determining protein [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114476649|gb|OKA98923.1| rod shape-determining protein [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114476819|gb|OKA99091.1| rod shape-determining protein [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114479123|gb|OKB01330.1| rod shape-determining protein [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114493766|gb|OKB15548.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1128277208|gb|OLO00504.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1129674198|gb|OLQ72412.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1131967957|emb|SIQ86777.1| rod shape-determining protein MreB [Aeromonas sp. RU34C] &gt;gi|1131972227|emb|SIQ89541.1| rod shape-determining protein MreB [Aeromonas hydrophila] &gt;gi|1139507194|gb|ONG10543.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1145725272|gb|OOD34609.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1179821687|gb|ORJ14382.1| rod shape-determining protein [Aeromonas salmonicida] &gt;gi|1179825674|gb|ORJ17679.1| rod shape-determining protein [Aeromonas salmonicida] &gt;gi|1180863303|gb|ORJ69333.1| rod shape-determining protein [Aeromonas hydrophila] &gt;gi|1186231960|gb|OSM51895.1| rod shape-determining protein MreB [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1187638504|gb|OSP53299.1| rod shape-determining protein [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_005308111</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.88953</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSAVMVALEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|671706077|gb|AII80324.1|</Hit_id>
+  <Hit_def>78 kDa glucose-regulated protein precursor, partial [Labeo rohita]</Hit_def>
+  <Hit_accession>AII80324</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.58442</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPFM--VGYGLDKLN---NTIIVDIGAGTTDICAL</Hsp_qseq>
+      <Hsp_hseq>EISAMVLTKMKETAEAYLGKKVTHAVVTVPAYFNDAQRQAT-KDAGTIAGLNVMRIINEPTAAAIAYGLDKKDGEKNILVFDLGGGTFDVSLL</Hsp_hseq>
+      <Hsp_midline>E++  +LT + ++AE     ++  AV+ VPA  + A +    K A  +  ++   +++EP    + YGLDK +   N ++ D+G GT D+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|491482310|ref|WP_005340051.1|</Hit_id>
+  <Hit_def>MULTISPECIES: rod shape-determining protein [Aeromonas] &gt;gi|328806489|gb|AEB51688.1| Actin-like ATPase involved in cell morphogenesis [Aeromonas veronii B565] &gt;gi|404613078|gb|EKB10114.1| rod shape-determining protein mreB [Aeromonas veronii AER39] &gt;gi|404619628|gb|EKB16537.1| rod shape-determining protein mreB [Aeromonas veronii AER397] &gt;gi|404624863|gb|EKB21681.1| rod shape-determining protein mreB [Aeromonas veronii AMC34] &gt;gi|404627752|gb|EKB24552.1| rod shape-determining protein mreB [Aeromonas veronii AMC35] &gt;gi|485940678|gb|EOD53561.1| rod shape-determining protein MreB [Aeromonas molluscorum 848] &gt;gi|538454129|gb|ERF62385.1| rod shape-determining protein Mbl [Aeromonas veronii Hm21] &gt;gi|756562319|gb|KIQ80235.1| rod shape-determining protein MreB [Aeromonas sp. L_1B5_3] &gt;gi|953575245|gb|KRV63329.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953590263|gb|KRV78008.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953592010|gb|KRV79690.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953601560|gb|KRV89021.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953602601|gb|KRV90055.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953610063|gb|KRV97330.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953620214|gb|KRW07269.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953625962|gb|KRW12889.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953634832|gb|KRW21592.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953635781|gb|KRW22531.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953638885|gb|KRW25609.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953645476|gb|KRW32025.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953645893|gb|KRW32433.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953649716|gb|KRW36171.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953654313|gb|KRW40692.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953658672|gb|KRW44991.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953662230|gb|KRW48488.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|953664381|gb|KRW50611.1| rod shape-determining protein MreB [Aeromonas allosaccharophila] &gt;gi|1002974046|gb|KXU79339.1| rod shape-determining protein MreB [Aeromonas enteropelogenes] &gt;gi|1006071627|gb|AMQ44721.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|1024206148|gb|KZW96241.1| rod shape-determining protein MreB [Aeromonas veronii] &gt;gi|1024270741|gb|ANB53078.1| rod shape-determining protein [Aeromonas veronii] &gt;gi|1024309546|gb|ANB68273.1| rod shape-determining protein [Aeromonas veronii] &gt;gi|1043504631|gb|OCA63166.1| rod shape-determining protein [Aeromonas piscicola] &gt;gi|1047997912|gb|OCQ44524.1| rod shape-determining protein [Aeromonas veronii] &gt;gi|1065870017|gb|OEC43304.1| rod shape-determining protein [Aeromonas sp. DNP9] &gt;gi|1065880209|gb|OEC53203.1| rod shape-determining protein [Aeromonas sp. ANNP30] &gt;gi|1065891270|gb|OEC64012.1| rod shape-determining protein [Aeromonas sp. ANP5] &gt;gi|1120838986|gb|OKP35345.1| rod shape-determining protein [Aeromonas veronii bv. veronii] &gt;gi|1120842206|gb|OKP38491.1| rod shape-determining protein [Aeromonas veronii] &gt;gi|1120848504|gb|OKP44678.1| rod shape-determining protein [Aeromonas allosaccharophila] &gt;gi|1125645919|gb|OLF22199.1| rod shape-determining protein [Aeromonas sp. YN13HZO-058] &gt;gi|1125688216|gb|OLF57440.1| rod shape-determining protein [Aeromonas veronii] &gt;gi|1131976883|emb|SIQ70727.1| rod shape-determining protein MreB [Aeromonas veronii]</Hit_def>
+  <Hit_accession>WP_005340051</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.75979</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVAAVMVALEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|381148021|gb|AFF60301.1|</Hit_id>
+  <Hit_def>MreB [Aeromonas veronii bv. sobria]</Hit_def>
+  <Hit_accession>AFF60301</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.69053</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFMVGYG----LDKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGDGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVAAVMVALEQSPPELASDISKRGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP     G    + +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|756837893|ref|WP_042651882.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas encheleia]</Hit_def>
+  <Hit_accession>WP_042651882</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.80607</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHSIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVAAVMVALEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K          E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|754633023|ref|WP_042019651.1|</Hit_id>
+  <Hit_def>MULTISPECIES: rod shape-determining protein [Aeromonas] &gt;gi|1095540630|gb|OHY94793.1| rod shape-determining protein [Aeromonas sobria]</Hit_def>
+  <Hit_accession>WP_042019651</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.84856</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>PLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQ-NIVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>PMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVAAVMVALEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+ ++ + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|516388826|ref|WP_017778502.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_017778502</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.06671</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAV-MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAE------PGANDEICAVIGVPARASGANKALLLKMAQEVVHTALVVSEPFM--VGYGL--DKLNNTIIVDIGAGTTD--ICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR----AAGKPVRCDVTESVKI--ACEALMPDIIESIEILLRSFQPEYQATVLQN-IVFAGGGSRIR</Hsp_qseq>
+      <Hsp_hseq>LSIDLGTANTLIYVKDQGIVLNEPSVVAIRQERGNAKSVA---AVGHAAKQMLGRTPGNISAIRPMKDGVIA-----DFYVTEKMLQHFIKQVHDNNYFRPSPRVLVCVPCGSTQVERRAIKESALGAGAREVY---LIDEPMAAAIGAGLPVSEATGSMVVDIGGGTTEVAIISLNGVVYSQSVRI----GGDKFDEAIISYVRRNYGSL-IGEATAERIKHEIGSAYPGEEVREIEVRGRNLAEGVP-RSFTLNSNEILEALQEPLSGIVSVVMVALEQSPPELASDISERGMVLTGGGALLK</Hsp_hseq>
+      <Hsp_midline>L IDLGT++T + +  +G      SVV   ++    K +     VG  A +M       +    P++DGV++     D  V   +L H +K         P     +C   G       A K   L      V+   ++ EP    +G GL   +   +++VDIG GTT+  I +L G V     ++     G+  DE + + +   +  L +    A  +K +        E    E R    A G P R     S +I  A +  +  I+  + + L    PE  + + +  +V  GGG+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|498321608|ref|WP_010635764.1|</Hit_id>
+  <Hit_def>MULTISPECIES: molecular chaperone [Aeromonas] &gt;gi|604187971|gb|AHV37414.1| molecular chaperone [Aeromonas hydrophila YL17]</Hit_def>
+  <Hit_accession>WP_010635764</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.13174</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|516391838|ref|WP_017781237.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_017781237</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.17678</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1039949149|ref|WP_065018480.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas dhakensis] &gt;gi|1039456697|gb|OBR41683.1| molecular chaperone [Aeromonas dhakensis]</Hit_def>
+  <Hit_accession>WP_065018480</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.22222</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|648449574|ref|WP_026141325.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_026141325</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.22222</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|754616878|ref|WP_042005629.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas dhakensis]</Hit_def>
+  <Hit_accession>WP_042005629</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.26806</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|648447366|ref|WP_026139117.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_026139117</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.26806</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|516397668|ref|WP_017787066.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_017787066</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.26806</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|850345797|ref|WP_048018430.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas enteropelogenes] &gt;gi|848282449|gb|KMK92809.1| chaperone [Aeromonas enteropelogenes]</Hit_def>
+  <Hit_accession>WP_048018430</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.3143</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|640505584|ref|WP_024942062.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_024942062</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>5.3143</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|759448812|ref|WP_043170580.1|</Hit_id>
+  <Hit_def>MULTISPECIES: molecular chaperone [Aeromonas]</Hit_def>
+  <Hit_accession>WP_043170580</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.36094</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|491448856|ref|WP_005306643.1|</Hit_id>
+  <Hit_def>MULTISPECIES: molecular chaperone [Aeromonas] &gt;gi|404629943|gb|EKB26668.1| hypothetical protein HMPREF1171_03368 [Aeromonas hydrophila SSU]</Hit_def>
+  <Hit_accession>WP_005306643</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.45546</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>EPVAAGFEFEARLNEDAVVLVVDIGGGTTDCSVLR---MGPSHRAQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>EP   G+  + +LN     ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|544708091|ref|WP_021138474.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas salmonicida] &gt;gi|530715075|gb|EQC05668.1| chaperone [Aeromonas salmonicida subsp. pectinolytica 34mel]</Hit_def>
+  <Hit_accession>WP_021138474</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.90183</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LLTHVVKSAEPGANDEIC-AVIGVPARASG-----ANK---ALLLKMAQEV-VHTALVVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MMLHVRREAEQQLGTQVRRAVIGRPVNFQGLAGEESNRQAIAILTEAARLAGFEQVEFLYEPVAAGFEFEARLDEDAVVLVVDIGGGTTDCSMLR---MGPSHRNQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>++ HV + AE     ++  AVIG P    G     +N+   A+L + A+         + EP   G+     LD+    ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|966346377|ref|WP_058395142.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas salmonicida] &gt;gi|961686359|gb|KTA75953.1| chaperone [Aeromonas salmonicida]</Hit_def>
+  <Hit_accession>WP_058395142</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.72832</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LLTHVVKSAEPGANDEIC-AVIGVPARASG-----ANK---ALLLKMAQEV-VHTALVVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MMLHVRREAEQQLGTQVRRAVIGRPVNFQGLAGEESNRQAIAILTEAARLAGFEQVEFLYEPVAAGFEFEARLDEDAVVLVVDIGGGTTDCSMLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>++ HV + AE     ++  AVIG P    G     +N+   A+L + A+         + EP   G+     LD+    ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|491460537|ref|WP_005318313.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas salmonicida] &gt;gi|142850042|gb|ABO88363.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida A449] &gt;gi|356686657|gb|EHI51250.1| putative chaperone [Aeromonas salmonicida subsp. salmonicida 01-B526] &gt;gi|612335105|dbj|GAJ50821.1| putative chaperone protein [Aeromonas salmonicida subsp. masoucida NBRC 13784] &gt;gi|726078522|gb|KHE98109.1| chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|726078562|gb|KHE98147.1| chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|760177281|gb|KIX25367.1| chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|961700888|gb|KTA90025.1| chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|961704272|gb|KTA93276.1| chaperone [Aeromonas salmonicida subsp. smithia] &gt;gi|1009560462|gb|KYN74059.1| chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028020846|gb|OAH74675.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028023324|gb|OAH77097.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028029705|gb|OAH83242.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028037864|gb|OAH91125.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114448938|gb|OKA72252.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114451884|gb|OKA74994.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114453507|gb|OKA76574.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114462452|gb|OKA85188.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114463706|gb|OKA86381.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114464263|gb|OKA86913.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114474566|gb|OKA96935.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114475717|gb|OKA98049.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114477889|gb|OKB00125.1| molecular chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114491442|gb|OKB13286.1| chaperone [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1179817432|gb|ORJ11001.1| molecular chaperone [Aeromonas salmonicida] &gt;gi|1179824966|gb|ORJ17163.1| molecular chaperone [Aeromonas salmonicida] &gt;gi|1186231440|gb|OSM51440.1| chaperone [Aeromonas salmonicida subsp. salmonicida]</Hit_def>
+  <Hit_accession>WP_005318313</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.90701</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LLTHVVKSAEPGANDEIC-AVIGVPARASG-----ANK---ALLLKMAQEV-VHTALVVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MMLHVRREAEQQLGTQVRRAVIGRPVNFQGLAGEESNRQAIAILTEAARLAGFEQVEFLYEPVAAGFEFEARLDEDAVVLVVDIGGGTTDCSMLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>++ HV + AE     ++  AVIG P    G     +N+   A+L + A+         + EP   G+     LD+    ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|973368247|ref|WP_059111859.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas salmonicida] &gt;gi|961694114|gb|KTA83515.1| chaperone [Aeromonas salmonicida]</Hit_def>
+  <Hit_accession>WP_059111859</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.90701</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LLTHVVKSAEPGANDEIC-AVIGVPARASG-----ANK---ALLLKMAQEV-VHTALVVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MMLHVRREAEQQLGTQVRRAVIGRPVNFQGLAGEESNRQAIAILTEAARLAGFEQVEFLYEPVAAGFEFEARLDEDAVVLVVDIGGGTTDCSMLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>++ HV + AE     ++  AVIG P    G     +N+   A+L + A+         + EP   G+     LD+    ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|974577628|ref|WP_059168236.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas salmonicida] &gt;gi|961696344|gb|KTA85702.1| chaperone [Aeromonas salmonicida]</Hit_def>
+  <Hit_accession>WP_059168236</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.02876</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LLTHVVKSAEPGANDEIC-AVIGVPARASG-----ANK---ALLLKMAQEV-VHTALVVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MMLHVRREAEQQLGTQVRRAVIGRPVNFQGLAGEESNRQAIAILTEAARLAGFEQVEFLYEPVAAGFEFEARLDEDAVVLVVDIGGGTTDCSMLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>++ HV + AE     ++  AVIG P    G     +N+   A+L + A+         + EP   G+     LD+    ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|851893980|ref|WP_048209589.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas hydrophila] &gt;gi|838552705|gb|KLV37336.1| hypothetical protein SH16_03981 [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_048209589</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.74431</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LFLGIDLGTSHTAV----------MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRYPL------------QDGVLSEISDRDIEVARHL------------------------------------LTHVVKSAEPGANDEI-CAVIGVPARASGANKALLLKMAQEVVHTALVVS---------EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MFIGFDYGTSNCAVAVMEQGSPRLLTLSGSHYLPSTLHAPHRDAIAGLL-----AEGLAPVQQSEYLKLRGPVVTRAQAVRRQMREEGLIDELSFGGAALARYLEEPDEGYYIKSPKSFLGAYGLKAPQIALFEDIVCAMMLHVRREAEQQTGSTIRQAVIGRPVNFQGLAGEESNRQAIAILREAARLAGFERVEFLYEPVAAGFEFEARLTEDAVVLVVDIGGGTTDCSVLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>+F+G D GTS+ AV          +T  G  +L  ++    +D I   L       G    +   YL LR P+            ++G++ E+S     +AR+L                                    + HV + AE      I  AVIG P    G       + A  ++  A  ++         EP   G+  + +L      ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|754629333|ref|WP_042016443.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas caviae] &gt;gi|721535058|gb|KGY78417.1| chaperone [Aeromonas caviae]</Hit_def>
+  <Hit_accession>WP_042016443</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.97648</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LFLGIDLGTSHTAV----------MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRYPL------------QDGVLSEISDRDIEVARHL------------------------------------LTHVVKSAEPGANDEI-CAVIGVPARASGANKALLLKMAQEVVHTALVVS---------EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MFIGFDYGTSNCAVAVMEQGSPRLLTLSGSHYLPSTLHAPHRDAIAGLL-----AEGLAPVQQSEYLKLRGPVVTRAQAVRRQMREEGLIDELSFGGAALARYLEEPDEGYYIKSPKSFLGAYGLKAPQIALFEDIVCAMMLHVRREAEQQTGSTIRQAVIGRPVNFQGLAGEESNRQAIAILREAARLAGFERVEFLYEPVAAGFEFEARLTEDAVVLVVDIGGGTTDCSVLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>+F+G D GTS+ AV          +T  G  +L  ++    +D I   L       G    +   YL LR P+            ++G++ E+S     +AR+L                                    + HV + AE      I  AVIG P    G       + A  ++  A  ++         EP   G+  + +L      ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|743522382|ref|WP_039039669.1|</Hit_id>
+  <Hit_def>MULTISPECIES: molecular chaperone [Aeromonas] &gt;gi|651305678|gb|KDV04414.1| chaperone [Aeromonas sp. HZM] &gt;gi|1050873001|gb|OCW46705.1| molecular chaperone [Aeromonas caviae]</Hit_def>
+  <Hit_accession>WP_039039669</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>9.29564</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LFLGIDLGTSHTAV----------MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRYPL------------QDGVLSEISDRDIEVARHL------------------------------------LTHVVKSAEPGANDEI-CAVIGVPARASGANKALLLKMAQEVVHTALVVS---------EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MFIGFDYGTSNCAVAVMEQGSPRLLTLSGSHYLPSTLHAPHRDAIAGLL-----AEGLAPVQQSEYLKLRGPVVTRAQAVRRQMREEGLIDELSFGGAALARYLEEPDEGYYIKSPKSFLGAYGLKAPQIALFEDIVCAMMLHVRREAEQQTGSTIRQAVIGRPVNFQGLAGEESNRQAIAILREAARLAGFERVEFLYEPVAAGFEFEARLTEDAVVLVVDIGGGTTDCSVLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>+F+G D GTS+ AV          +T  G  +L  ++    +D I   L       G    +   YL LR P+            ++G++ E+S     +AR+L                                    + HV + AE      I  AVIG P    G       + A  ++  A  ++         EP   G+  + +L      ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|902764519|ref|WP_049636070.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas caviae] &gt;gi|721525200|gb|KGY68602.1| chaperone [Aeromonas caviae] &gt;gi|899702248|gb|KMY39773.1| chaperone [Aeromonas caviae]</Hit_def>
+  <Hit_accession>WP_049636070</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.45945</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LFLGIDLGTSHTAV----------MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRYPL------------QDGVLSEISDRDIEVARHL------------------------------------LTHVVKSAEPGANDEI-CAVIGVPARASG-----ANK---ALLLKMAQEV-VHTALVVSEPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MFIGFDYGTSNCAVAVMEQGSPRLLTLSGSHYLPSTLHAPHRDAIAGLL-----AEGLAPVQQSEYLKLRGPVVTRAQAVRRQMREEGLIDELSFGGAALARYLEEPDEGYYIKSPKSFLGAYGLKAPQIALFEDIVCAMMLHVRREAEQQTGSTIRQAVIGRPVNFQGLAGEESNRQAIAILREAARLAGFERVKFLYEPVAAGFEFEARLTEDAVVLVVDIGGGTTDCSVLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>+F+G D GTS+ AV          +T  G  +L  ++    +D I   L       G    +   YL LR P+            ++G++ E+S     +AR+L                                    + HV + AE      I  AVIG P    G     +N+   A+L + A+         + EP   G+  + +L      ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|919383142|ref|WP_052815786.1|</Hit_id>
+  <Hit_def>molecular chaperone [Aeromonas caviae]</Hit_def>
+  <Hit_accession>WP_052815786</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.54243</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>80</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>LFLGIDLGTSHTAV----------MTSRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRYPL------------QDGVLSEISDRDIEVARHL------------------------------------LTHVVKSAEPGANDEI-CAVIGVPARASGANKALLLKMAQEVVHTALVVS---------EPFMVGYGLD-KLNN---TIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYL</Hsp_qseq>
+      <Hsp_hseq>MFIGFDYGTSNCAVAVMEQGSPRLLTLSGSHYLPSTLHAPHRDAIAGLL-----AEGLAPVQQSEYLKLRGPVVTRAQAVRRQMREEGLIDELSFGGAALARYLEEPDEGYYIKSPKSFLGAYGLKAPQIALFEDIVCAMMLHVRREAEQQTGSTIRQAVIGRPVNFQGLAGEESNRQAIAILREAARLAGFERVEFLYEPVAAGFEFEARLTEDAVVLVVDIGGGTTDCSVLR---MGPSHRDQLDRSGDLL</Hsp_hseq>
+      <Hsp_midline>+F+G D GTS+ AV          +T  G  +L  ++    +D I   L       G    +   YL LR P+            ++G++ E+S     +AR+L                                    + HV + AE      I  AVIG P    G       + A  ++  A  ++         EP   G+  + +L      ++VDIG GTTD   L+    GP  +  L ++G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>398636</Statistics_db-num>
+      <Statistics_db-len>136708912</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

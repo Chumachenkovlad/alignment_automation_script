@@ -1,0 +1,1358 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99596.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>431</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99596.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>431</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489030881|ref|WP_002941270.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|384577496|gb|EIF06778.1| Putative efflux protein [Campylobacter concisus UNSWCD]</Hit_def>
+  <Hit_accession>WP_002941270</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00448893</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAF-GVTLVYAVLM--QIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDKIGRKKALTIGLLIFVVGSIVCALASEIYTMLFGRFL----------QGVGAVGAVATAMISDFVAEENRSKAM---AIMGAFIGLSFTFSMVLGPLLARSYGLSSLFYLSAALSL----LCVVLLYTVVPKEIKVSAKAQKV</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G L+  VG+++  L+  +     G  +           G GAV    +A+  DF  + NR++ +   A M AF G++  +++++   +    G++    L+AA+S+    L    L  V P+ ++ S   + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|544651014|ref|WP_021085018.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|543201837|gb|ERJ21226.1| Putative efflux protein [Campylobacter concisus UNSW3]</Hit_def>
+  <Hit_accession>WP_021085018</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0144797</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GTLSDKIGRKKALTIGLLIFVAGSIVCALASEIYTMLFGRFL----------QGVGAVGAVATAMISDFVTEENRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCVVLLYTVVPKEIKVSAKAEKV</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G L+   G+++  L+  +     G  +           G GAV    +A+  DF  + NR++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|696195208|gb|KGL36032.1|</Hit_id>
+  <Hit_def>MFS transporter, partial [Helicobacter sp. MIT 05-5294]</Hit_def>
+  <Hit_accession>KGL36032</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0203133</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRAR</Hsp_qseq>
+      <Hsp_hseq>GFLSDKFGRKSMIALGLVIFALGSVICALS----------LDIYWLILGRLLQGAGAIGGVISAMIADLVREENRTK</Hsp_hseq>
+      <Hsp_midline>G+LSD+ GR  +I  G ++ A+G+VI  LS          L +Y++    +  G+GA+   +SA+  D   + NR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|544659141|ref|WP_021092758.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|543212842|gb|ERJ31850.1| Putative efflux protein [Campylobacter concisus UNSW2]</Hit_def>
+  <Hit_accession>WP_021092758</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0264519</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDKIGRKKALTIGLLIFVAGSIVCALASEIYTMLFGRFL----------QGVGAVGAVATAMISDFVAEENRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCVVLLYTVVPKEIKVSAKAEKV</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G L+   G+++  L+  +     G  +           G GAV    +A+  DF  + NR++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|544652088|ref|WP_021086045.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|543203814|gb|ERJ23123.1| Putative efflux protein [Campylobacter concisus UNSW1]</Hit_def>
+  <Hit_accession>WP_021086045</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0286142</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDKIGRKKALTIGLLIFVAGSIVCALASEIYTMLFGRFL----------QGVGAVGAVATAMISDFVAEENRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCVVLLYTVVPKEIKVSAKAEKV</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G L+   G+++  L+  +     G  +           G GAV    +A+  DF  + NR++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|496652332|ref|WP_009294826.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter sp. 10_1_50] &gt;gi|363650790|gb|EHL89877.1| hypothetical protein HMPREF1019_01195 [Campylobacter sp. 10_1_50]</Hit_def>
+  <Hit_accession>WP_009294826</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0304174</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDKIGRKKALTIGLLIFVAGSIVCALASEIYTMLFGRFL----------QGVGAVGAVATAMISDFVAEENRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCVVLLYTVVPKEIKVSAKAEKV</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G L+   G+++  L+  +     G  +           G GAV    +A+  DF  + NR++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|930447812|ref|WP_054196105.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|930358833|gb|ALF47020.1| putative sugar transporter, major facilitator superfamily [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_054196105</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0375063</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDRIGRKKTLTIGLLVFIIGSIICALTSDIFTMLFGRFL----------QGVGAIGAVATAMISDYITEEKRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCIVLLYTVVPKEIKVSAKSEKV</Hsp_hseq>
+      <Hsp_midline>G LSDRIGR + +  G LV  +G++I  L+  +     G  +           G GA+    +A+  D+  +  R++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|544655689|ref|WP_021089395.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|543209494|gb|ERJ28602.1| Putative efflux protein [Campylobacter concisus ATCC 51561]</Hit_def>
+  <Hit_accession>WP_021089395</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0398692</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDKIGRKKALTIGLLIFVAGSIVCALASEIYTMLFGRFL----------QGVGAVGAVATAMISDFVAEENRSKAMAIMGAFIGLSFTLSMVLGPLLARSFGLSSLFYLSAALSL----LCVMLLYTVVPKEIKVSAKAEKV</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G L+   G+++  L+  +     G  +           G GAV    +A+  DF  + NR++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1119674783|ref|WP_072593923.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|1111821367|gb|OJJ29328.1| major facilitator transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_072593923</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0405712</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDRIGRKKTLTIGLLVFIIGSIICALTSDIFTMLFGRFL----------QGVGAIGAVATAMISDYITEEKRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCIVLLYTVVPKEIKVSAKSEKV</Hsp_hseq>
+      <Hsp_midline>G LSDRIGR + +  G LV  +G++I  L+  +     G  +           G GA+    +A+  D+  +  R++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1179359773|gb|ORI08332.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>ORI08332</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0412856</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDRIGRKKTLTIGLLVFIIGSIICALTSDIFTMLFGRFL----------QGVGAIGAVATAMISDYITEEKRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCIVLLYTVVPKEIKVSAKSEKV</Hsp_hseq>
+      <Hsp_midline>G LSDRIGR + +  G LV  +G++I  L+  +     G  +           G GA+    +A+  D+  +  R++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|500829806|ref|WP_012001207.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|112801540|gb|EAT98884.1| putative sugar transporter, major facilitator superfamily [Campylobacter concisus 13826]</Hit_def>
+  <Hit_accession>WP_012001207</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0427523</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDKIGRKKALTIGLLIFVAGSIVCALASEIYTMLFGRFL----------QGVGAVGAVATAMISDFVAEENRSKAMAIMGAFIGLSFTLSMVLGPLLVKDYGLSSLFYLSAALSL----LCVVLLYTVVPKEIKVSAKAEKV</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G L+   G+++  L+  +     G  +           G GAV    +A+  DF  + NR++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|544654473|ref|WP_021088322.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|543207667|gb|ERJ26840.1| Putative efflux protein [Campylobacter concisus UNSWCS]</Hit_def>
+  <Hit_accession>WP_021088322</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0474722</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDKIGRKKALTIGLLIFVAGSIVCALASDIYTMLFGRFL----------QGVGAVGAVATAMISDFVAEENRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCVVLLYTVVPKEIKVSAKAEKV</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G L+   G+++  L+  +     G  +           G GAV    +A+  DF  + NR++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1176352118|ref|WP_082199279.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter helveticus] &gt;gi|1173741609|gb|ARE80010.1| putative sugar transporter, major facilitator superfamily [Campylobacter helveticus] &gt;gi|1174989440|emb|SMC21202.1| Predicted arabinose efflux permease, MFS family [Campylobacter helveticus]</Hit_def>
+  <Hit_accession>WP_082199279</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.051531</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNT-AFM-MAFGVTLVYAVLMQIPGHAGITVTMLLTAAIS------VAGAWLARKFLVDVAPRTVETSVPWRAVWDLVKAEPRLRLAFASSLFARSDMVFVGLF--LMLWFIYFADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRI-QAVLLGMMLSALGFIMLGFVVNP----------FDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLG</Hsp_qseq>
+      <Hsp_hseq>GVLSDKIGRKKTMLLGLVIFIIGSLIC--------SSATDIYTMLLGRIL--QGSGAIGAVASALISDFVSEEKRGKAMAMMGGFIGIAFALSMVLAPIMS--AKYGLSSLFDLSAALSFFCIILLYTAVPKEPKITHENDKTPLLSLLKQKNLALMNATNFMQKMLMSIAFLAIPIVLVGHFGYEKLWVVY--------------SASMLVGF------VAMGFAGAFAEKRGKAKQILLLGVAFFILSYIFFAFFENLIIFMVAVVIFFLGFNLHEPIMQSCASKFCKVNEK------------GKALGAFNAFGYAG</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G ++  +G++I         +S   +    + R++   GSGA+    SAL  DF  +  R + ++    F+ +AF +++V A +M      G++    L+AA+S      +  A      +     +T   S+  +    L+ A   ++    S  F    +V VG F    LW +Y               A ML+G       +++    +F E+ G+  Q +LLG+    L +I   F  N           F GF +   ++ S     C V  +            G  LGAFN  G  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1180550329|ref|WP_084041639.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter concisus] &gt;gi|1179361128|gb|ORI09639.1| MFS transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_084041639</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0541108</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV</Hsp_qseq>
+      <Hsp_hseq>GALSDRIGRKKTLTIGLLVFIIGSIICALTSDIFTMLFGRFL----------QGVGAIGAVATAMISDYITEEKRSKAMAIMGAFIGLSFTLSMVLGPLLAKDYGLSSLFYLSAALSL----LCIVLLYTVVPKEIKVSSKSEKV</Hsp_hseq>
+      <Hsp_midline>G LSDRIGR + +  G LV  +G++I  L+  +     G  +           G GA+    +A+  D+  +  R++ ++     +    TL   +   +    G++    L+AA+S+    L    L  V P+ ++ S     V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1079997941|ref|WP_070306416.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter jejuni] &gt;gi|1073310045|gb|OEX32904.1| MFS transporter [Campylobacter jejuni] &gt;gi|1073320215|gb|OEX42776.1| MFS transporter [Campylobacter jejuni]</Hit_def>
+  <Hit_accession>WP_070306416</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0661353</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLLVFIVGSLICSFAENIYTMLLGR----------MLQGAGAIGAVATAMISDFITEENRGKAMAVMGSFIGLSFAASMVISPLMS--AKWGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G LV  VG++I   +  +    +G           M  G+GA+    +A+  DF  + NR + ++   +   ++F  ++V + LM      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|490399851|ref|WP_004275206.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter upsaliensis] &gt;gi|57016700|gb|EAL53483.1| multidrug-efflux transporter [Campylobacter upsaliensis RM3195]</Hit_def>
+  <Hit_accession>WP_004275206</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0767845</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNT-AFM-MAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GMLSDKIGRKKTMLLGLVLFIIGSLICSLTNDIYTMLLGRIL----------QGSGAIGAVASAMISDFVSEEQRGKAMAMMGGFIGIAFALSMVLAPIMS--AKFGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G ++  +G++I  L+  +    +G ++           GSGA+    SA+  DF  +  R + ++    F+ +AF +++V A +M      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|490403172|ref|WP_004277737.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter upsaliensis] &gt;gi|315480899|gb|EFU71533.1| MFS family major facilitator transporter [Campylobacter upsaliensis JV21]</Hit_def>
+  <Hit_accession>WP_004277737</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0922182</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNT-AFM-MAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GMLSDKIGRKKTMLLGLVLFIIGSLICSLANDIYTMLLGRIL----------QGSGAIGAVASAMISDFVSEEQRGKAMAMMGGFIGIAFALSMVLAPIMS--AKFGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G ++  +G++I  L+  +    +G ++           GSGA+    SA+  DF  +  R + ++    F+ +AF +++V A +M      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|653052101|ref|WP_027303667.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter upsaliensis]</Hit_def>
+  <Hit_accession>WP_027303667</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.107892</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNT-AFM-MAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GMLSDKIGRKKTMLLGLVLFIIGSLICSLANDIYTMLLGRIL----------QGSGAIGAVASAMISDFVSEEQRGKAMAMMGGFIGIAFALSMVLAPIMS--AKFGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G ++  +G++I  L+  +    +G ++           GSGA+    SA+  DF  +  R + ++    F+ +AF +++V A +M      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|757802954|ref|WP_043020137.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter subantarcticus] &gt;gi|744815112|gb|AJC93054.1| putative sugar transporter, major facilitator superfamily [Campylobacter subantarcticus LMG 24377]</Hit_def>
+  <Hit_accession>WP_043020137</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.151441</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLIVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAVSLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F V+LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1129502066|ref|WP_075457360.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter coli]</Hit_def>
+  <Hit_accession>WP_075457360</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.225718</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLIVFIIGSLIC---SWADN-----IYIMLVGR--MLQGAGAIGAVATAMISDFITEENRGKAMAIMGSFIGLSFAASMVISPLMS--AKWGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G +V  +G++I     W        + +  V R  M  G+GA+    +A+  DF  + NR + ++   +   ++F  ++V + LM      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1129482688|ref|WP_075439488.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter coli]</Hit_def>
+  <Hit_accession>WP_075439488</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.33998</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLIVFIIGSLIC---SWADN-------IYTMLAGRMLQGAGAIGAVATAMISDFITEENRGKAMAIMGSFIGLSFAASMVISPLMS--AKWGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G +V  +G++I     W          +Y +    M  G+GA+    +A+  DF  + NR + ++   +   ++F  ++V + LM      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1129541385|ref|WP_075492219.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter coli]</Hit_def>
+  <Hit_accession>WP_075492219</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.348985</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLIVFIIGSLIC---SWADN-------IYTMLAGRMLQGAGAIGAVATAMISDFITEENRGKAMAIMGSFIGLSFAASMVISPLMS--AKWGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G +V  +G++I     W          +Y +    M  G+GA+    +A+  DF  + NR + ++   +   ++F  ++V + LM      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1129523374|ref|WP_075476432.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter coli]</Hit_def>
+  <Hit_accession>WP_075476432</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.352039</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLIVFIIGSLIC---SWADN-------IYTMLAGRMLQGAGAIGAVATAMISDFITEENRGKAMAIMGSFIGLSFAASMVISPLMS--AKWGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G +V  +G++I     W          +Y +    M  G+GA+    +A+  DF  + NR + ++   +   ++F  ++V + LM      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1129526475|ref|WP_075479129.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter coli]</Hit_def>
+  <Hit_accession>WP_075479129</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.361362</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISV</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLIVFIIGSLIC---SWADN-------IYTMLAGRMLQGAGAIGAVATAMISDFITEENRGKAMAIMGSFIGLSFAASMVISPLMS--AKWGLSSLFDLSAALSL</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G +V  +G++I     W          +Y +    M  G+GA+    +A+  DF  + NR + ++   +   ++F  ++V + LM      G++    L+AA+S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|746642576|ref|WP_039667410.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter sp. RM16704] &gt;gi|744808791|gb|AJC86733.1| putative sugar transporter, major facilitator superfamily [Campylobacter sp. RM16704]</Hit_def>
+  <Hit_accession>WP_039667410</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.367715</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLVIFIIGSLVCSYANDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFATSLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G ++  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|736537854|ref|WP_034552588.1|</Hit_id>
+  <Hit_def>MFS transporter [Helicobacter apodemus] &gt;gi|696174845|gb|KGL20089.1| MFS transporter [Helicobacter apodemus]</Hit_def>
+  <Hit_accession>KGL20089</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.375518</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRAR</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKSVIFIGLLIFACGSFICAVSDDIFILVIGRLL----------QGAGAIGGVVSAMIADLVKEESRTK</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR  +I  G L+ A G+ I  +S  +    IG L+           G+GA+   +SA+  D   + +R +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1129553227|ref|WP_075502834.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter coli]</Hit_def>
+  <Hit_accession>WP_075502834</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.4047</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRAR</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLIVFIIGSLICSWADNIYTMLVGR----------MLQGAGAIGAVATAMISDFITEENRGK</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G +V  +G++I   +  +    +G           M  G+GA+    +A+  DF  + NR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|746641128|ref|WP_039665964.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter volucris] &gt;gi|744816610|gb|AJC94551.1| putative sugar transporter, major facilitator superfamily [Campylobacter volucris LMG 24379]</Hit_def>
+  <Hit_accession>WP_039665964</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.458013</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRAR</Hsp_qseq>
+      <Hsp_hseq>GVISDKIGRKKTMLIGLIVFIIGSLICSYADDIYTMIFGRLL----------QGAGAIGAVATAMISDFINEENRGK</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G++I   +  +     G L+           G+GA+    +A+  DF ++ NR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|746639621|ref|WP_039664458.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter subantarcticus] &gt;gi|744813343|gb|AJC91286.1| putative sugar transporter, major facilitator superfamily [Campylobacter subantarcticus LMG 24374]</Hit_def>
+  <Hit_accession>WP_039664458</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.517411</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLIVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1053220108|ref|WP_066006661.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter ornithocola] &gt;gi|1052246920|gb|OCX43596.1| MFS transporter [Campylobacter ornithocola]</Hit_def>
+  <Hit_accession>WP_066006661</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.573403</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GMISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|493705792|ref|WP_006655491.1|</Hit_id>
+  <Hit_def>MFS transporter [Helicobacter canadensis] &gt;gi|253510844|gb|EES89503.1| putative multidrug efflux pump [Helicobacter canadensis MIT 98-5491] &gt;gi|313130677|gb|EFR48294.1| transporter, major facilitator family protein [Helicobacter canadensis MIT 98-5491]</Hit_def>
+  <Hit_accession>EES89503</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.573943</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>396</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVY-AVLMQIP---GHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAVWDLVKAEPRLRLAFASSLFARSDMVFVGLFLMLWFIYFADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVL-LGMML-SALGFIMLG-----FVVNPFDGFIVF----PILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIF</Hsp_qseq>
+      <Hsp_hseq>GFLSDRFGRKSIIALGLVIFILGSIVCAMSDNIYMLIIGRFL----------QGAGAIGGVVSAMIADLVREEKRTKAMA----LMGATISLSFTAALILGPILGAYFGVASLFWITAILGVLSLGILILF-VPEAPKIHYSFASSSDNYKTILKNKNLQIMNITNFLQKSFMTLAFLIIPIALTKGFEMPK----EDLYQVYIPASLLGFFAMIPAAI---FAEKKGKFKSVLVIGILLFMAAYLLMLGQNVWVFVVGVLIFFIGFSVHEPIM-------------QSLASRYCKAHQKGSALGIFTSFGYFGSFVGALIGGQLYEHFGMVAISIF</Hsp_hseq>
+      <Hsp_midline>G+LSDR GR  II  G ++  +G+++  +S  +    IG  +           G+GA+   +SA+  D   +  R + ++    +M   ++L + A L+  P    + G+     +TA + V    +   F V  AP+   +       +  +     L++   ++   +S M    L + +      ++ K    E   +  +   L+G   M+   +   F E+ G+ ++VL +G++L  A   +MLG     FVV     FI F    PI+             Q L   +      GS LG F   G  G      IGG L+++ G  A  IF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|746600734|ref|WP_039626922.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|744818329|gb|AJD02326.1| putative sugar transporter, major facilitator superfamily [Campylobacter lari NCTC 11845]</Hit_def>
+  <Hit_accession>WP_039626922</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.593732</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GMISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1079857446|ref|WP_070257243.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|1073139790|gb|OEV69127.1| MFS transporter [Campylobacter lari] &gt;gi|1073140495|gb|OEV69823.1| MFS transporter [Campylobacter lari] &gt;gi|1073163359|gb|OEV92223.1| MFS transporter [Campylobacter lari]</Hit_def>
+  <Hit_accession>WP_070257243</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.621244</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GMISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|746592875|ref|WP_039619090.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|744821294|gb|AJD05288.1| putative sugar transporter, major facilitator superfamily [Campylobacter lari RM16701]</Hit_def>
+  <Hit_accession>WP_039619090</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.648891</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|827446912|ref|WP_047208571.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|827024460|gb|AKJ53990.1| major facilitator transporter [Campylobacter lari]</Hit_def>
+  <Hit_accession>WP_047208571</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.654566</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|501873510|ref|WP_012661977.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|222539493|gb|ACM64594.1| major facilitator superfamily transporter [Campylobacter lari RM2100]</Hit_def>
+  <Hit_accession>WP_012661977</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.70179</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|746602755|ref|WP_039628880.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|744819806|gb|AJD03802.1| putative sugar transporter, major facilitator superfamily [Campylobacter lari CCUG 22395]</Hit_def>
+  <Hit_accession>WP_039628880</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.707927</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1124404970|ref|WP_074692846.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|1094175097|emb|SET00771.1| Predicted arabinose efflux permease, MFS family [Campylobacter lari subsp. lari]</Hit_def>
+  <Hit_accession>WP_074692846</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.726663</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|746643927|ref|WP_039668760.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|744811686|gb|AJC89630.1| putative sugar transporter, major facilitator superfamily [Campylobacter lari subsp. concheus LMG 11760]</Hit_def>
+  <Hit_accession>WP_039668760</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.733018</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|765033399|ref|WP_044599207.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter peloridis] &gt;gi|744807248|gb|AJC85194.1| putative sugar transporter, major facilitator superfamily [Campylobacter peloridis LMG 23910]</Hit_def>
+  <Hit_accession>WP_044599207</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.983863</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRAR</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLVVFIIGSMVCSYANDIYTMMFGRLL----------QGAGAIGAVATAMISDFINEENRGK</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|746616078|ref|WP_039642164.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter lari] &gt;gi|744822784|gb|AJD06777.1| putative sugar transporter, major facilitator superfamily [Campylobacter lari RM16712]</Hit_def>
+  <Hit_accession>WP_039642164</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.04745</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLS--NTAFMMAFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GIISDKIGRKKTMLIGLVVFIIGSLVCSYADDIYMMMFGRLL----------QGAGAIGAVATAMISDFINEENRGKAMAIMGSFIGLSFAASLVLSPLMS</Hsp_hseq>
+      <Hsp_midline>G +SD+IGR + ++ G +V  +G+++   +  +     G L+           G+GA+    +A+  DF ++ NR + ++   +   ++F  +LV + LM </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|492512074|ref|WP_005870961.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter gracilis] &gt;gi|257442777|gb|EEV17914.1| transporter, major facilitator family protein [Campylobacter gracilis RM3268] &gt;gi|909719122|gb|AKT93461.1| putative sugar transporter, major facilitator superfamily [Campylobacter gracilis]</Hit_def>
+  <Hit_accession>WP_005870961</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.12205</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMM--AFGVTLVYAVLMQ</Hsp_qseq>
+      <Hsp_hseq>GVLSDKIGRKKTLAIGLALFIVGACVCAASESIYTMIFGRFL----------QGCGAVGAVATALISDFTREEERGKAMAVMGAMIGVSFGVAMILSPLLS</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + +  G  +  VGA +   S  +     G  +           G GAV    +AL  DF+ +  R + ++    M+  +FGV ++ + L+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|497336448|ref|WP_009650661.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter sp. FOBRC14] &gt;gi|401016177|gb|EJP74945.1| transporter, major facilitator family protein [Campylobacter sp. FOBRC14]</Hit_def>
+  <Hit_accession>WP_009650661</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.43679</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>RNALYLLS---ALCMVFMTLVVAIQPLFLRNVLNIPFETAGAVNANVQVVTEVLDLFIFAYLGYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGG--ASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPG----HAGITVTMLLTAAIS-VAGAWLARKFLVDVAPRTVETSVPWRAVWDLVKAEPRLRLAFASSLFARSDMVF-VGLFLMLWFIYFADLVKVGQAEAAARAGMLIGL-MGAVVMLSIPVWRSFIERFGRIQAV</Hsp_qseq>
+      <Hsp_hseq>KNHIYLLTLGHAANDMCQGALPALLPFFIK-AYSLSYESAATLIFASTVFSSILQ----PVFGYFSDKISRSALI-------SLGLVLSGLGIYTMGFVSSYGALL---SAAIVSSIGSALFHPEAAKMANAISSADKKAKGIS----IFAVGGNIGFAVGPLIAGFCAYHAGLHGLLVFGVITTLVAFAFLLAMPAIKNLAKDVASSEPKGQ--NLAKNDWRSFSKLTAVIFSRSVIFFTLNTFIPIYWVHV-----LHQSESSASMALTILFSFGVVVTLA---GGALSDKFGHIKTL</Hsp_hseq>
+      <Hsp_midline>+N +YLL+   A   +    + A+ P F++   ++ +E+A  +     V + +L        GY SD+I R  +I       ++G V++ L  +  G  +S GAL+    + ++ S GS    P+ + +A   S    +A+ +S    + A G  + +AV   I G    HAG+   ++     + VA A+L     +    + V +S P     +L K + R      + +F+RS + F +  F+ +++++      + Q+E++A   + I    G VV L+     +  ++FG I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|736573814|ref|WP_034585349.1|</Hit_id>
+  <Hit_def>MFS transporter [Helicobacter magdeburgensis] &gt;gi|696171661|gb|KGL17147.1| MFS transporter [Helicobacter magdeburgensis]</Hit_def>
+  <Hit_accession>KGL17147</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.4188</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFG</Hsp_qseq>
+      <Hsp_hseq>GFLLDKYGRLRFLYPAIFIWSVSGA----SGFFLESSIYLILI---SRAIFGIATAFVMTSVSALVGDYYQGTRRERALGLQGFFMAGG</Hsp_hseq>
+      <Hsp_midline>G+L D+ GR+R +     + +V       S +   +SI  +++   SR I    +  V   +SAL GD+   + R R L    F MA G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1055025676|ref|WP_066776988.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter hepaticus] &gt;gi|1044852740|gb|OCC26802.1| MFS transporter [Campylobacter hepaticus]</Hit_def>
+  <Hit_accession>WP_066776988</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.51586</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNT-AFM-MAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAV--WDLVKAE</Hsp_qseq>
+      <Hsp_hseq>GILSDKIGRKKTMLIGLIIFIIGSLICSFADNIYTMLLGR----------MLQGSGAIGAVATAMISDFITEENRAKAMAIMGAFIGLSFAASMVISPLMS--AKWGLSSLFDLSAALSL----LCIILLYTVVPKENKISHENKKTPFFHLIKQK</Hsp_hseq>
+      <Hsp_midline>G LSD+IGR + ++ G ++  +G++I   +  +    +G           M  GSGA+    +A+  DF  + NRA+ ++   AF+ ++F  ++V + LM      G++    L+AA+S+    L    L  V P+  + S   +    + L+K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|500770725|ref|WP_011991835.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter curvus] &gt;gi|112802533|gb|EAT99877.1| major facilitator superfamily transporter [Campylobacter curvus 525.92]</Hit_def>
+  <Hit_accession>WP_011991835</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>5.75173</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>RNALYLLS---ALCMVFMTLVVAIQPLFLRNVLNIPFETAGAVNANVQVVTEVLDLFIFAYLGYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGG--ASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPG----HAGITVTMLLTAAIS-VAGAWLARKFLVDVAPRTVETSVPWRAVWDLVKAEPRLRLAFASSLFARSDMVF-VGLFLMLWFIYFADLVKVGQAEAAARAGMLIGL-MGAVVMLSIPVWRSFIERFGRIQAV</Hsp_qseq>
+      <Hsp_hseq>KNHIYLLTLGHAANDMCQGALPALLPFFIK-AYSLSYESAATLIFASTVFSSILQ----PVFGYFSDKISRSALI-------SLGLVLSGLGIYTMGFVSSYGALL---SAAIVSGIGSALFHPEAAKMANAISSADKKAKGIS----IFAVGGNIGFAVGPLIAGFCAYHAGLHGLLVFGVITTLVAFAFLLAMPAIKNLAKDVASSEPKGQ--NLAKNDWRSFSKLTAVIFSRSVIFFTLNTFIPIYWVHV-----LHQSESSASMALTILFSFGVVVTLA---GGALSDKFGHIKTL</Hsp_hseq>
+      <Hsp_midline>+N +YLL+   A   +    + A+ P F++   ++ +E+A  +     V + +L        GY SD+I R  +I       ++G V++ L  +  G  +S GAL+    + ++   GS    P+ + +A   S    +A+ +S    + A G  + +AV   I G    HAG+   ++     + VA A+L     +    + V +S P     +L K + R      + +F+RS + F +  F+ +++++      + Q+E++A   + I    G VV L+     +  ++FG I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|517542080|ref|WP_018712288.1|</Hit_id>
+  <Hit_def>MFS transporter [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_018712288</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>7.96013</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMM--AFGVTLV</Hsp_qseq>
+      <Hsp_hseq>GAMSDKFGRKNVMSLGLVIFIIGSLICGFTNDIYWMIFGRFL----------QGSGAVGSVAIAMISDFTSEEKRGKAMAIMGMMIGAAFGLSMV</Hsp_hseq>
+      <Hsp_midline>G +SD+ GR  ++  G ++  +G++I   +  +     G  +           GSGAV     A+  DF+ +  R + ++    M+  AFG+++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>470744</Statistics_db-num>
+      <Statistics_db-len>162470253</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

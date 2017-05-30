@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|736658119|ref|WP_034665371.1|</Hit_id>
+  <Hit_def>hypothetical protein [Cellulophaga sp. E6(2014)] &gt;gi|694994461|gb|KGK32242.1| hypothetical protein EL45_02905 [Cellulophaga sp. E6(2014)]</Hit_def>
+  <Hit_accession>KGK32242</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000850139</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNV------------RFRLGV----------------------ALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>HKDRGIQLFELGRIKDAIDHFKKAISEDHEDWTSKFYLAICYLNEKQLEEAEKITERLLEDTPNDANVFYLKAKIKLQKDEYDASRKFIDMAIAINPYDADYFGHKAGLLLQKKKFEEGLEAVNEGLRIDAKNAYCLNLRAQILTKLNRIPEADQTVEDILYDNPEDSYSHANIGWVQLENGNHKKALDHFKQALQFD</Hsp_hseq>
+      <Hsp_midline>++D+GI   + GR  +A+   ++    D  D     +L I Y+    ++   ++ ER + D P++  V  +     +Q  +YD +   +      NP + +             +F  G+                       L  L R  EA  + +  L   P +   H  I +   + G+H++AL HFK+A + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1133687931|ref|WP_076073679.1|</Hit_id>
+  <Hit_def>hypothetical protein [Sphingopyxis granuli] &gt;gi|1064130469|gb|ODU29737.1| hypothetical protein ABS88_07910 [Sphingopyxis sp. SCN 67-31] &gt;gi|1133385800|gb|APW71795.1| hypothetical protein BWD40_01940 [Sphingopyxis granuli]</Hit_def>
+  <Hit_accession>APW71795</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0047147</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AKAGRYSEAVVMLEQVYDADAFDVEVALHL-GIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKY------------------DLAVPL-LVKVAEANPVNFN------VRFR---------LGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>ARSGRFDAAEAGLQAIL-AQSPDQPDALQLLGMVARRRGDHTAATALFRRSLAARPGQPHVLNNLGSSLSDLGRHAEAAAAYQEALALAPSYDDARINLALARIALGDPGAARDGLAPLVRARPDHARAWAVLGQALNALNDGKQAVDAYRTALRLRPDHAPWQHNLAVALRLVGRPEEALPLFEEC</Hsp_hseq>
+      <Hsp_midline>A++GR+  A   L+ +  A + D   AL L G+   + G     T L  RS+A  P    V   LG +   + ++                  D  + L L ++A  +P          VR R         LG AL+ L    +A+D+++ AL LRP+       +A +   +G  EEALP F++ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.103924</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIA</Hsp_qseq>
+      <Hsp_hseq>PDHAPWQHNLAVALRLVGRPEEALPLFEECAAQAPGEAKIRYNLGHCLQDLGRIDEAAAAYRAAIRLTPADAAMHDSLS</Hsp_hseq>
+      <Hsp_midline>PD+      L +    V + + A+PL  + A   P    +R+ LG  L +LGR DEA  +++ A+ L P +  +H +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>8.18131</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGR</Hsp_qseq>
+      <Hsp_hseq>LEQALGQAMVLARSGRFDAAEAGLQAILAQSPDQPDALQLLGMVARRRGDHTAATALFRRSLAARPGQPHVLNNLGSSLSDLGR</Hsp_hseq>
+      <Hsp_midline>+E AL   +   ++G  D     L+  +A +PD      +LG+   +   +  A  L  +   A P   +V   LG +L +LGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|505191674|ref|WP_015378776.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type IV pilus biogenesis/stability protein PilW [Serratia] &gt;gi|445213837|gb|AGE19507.1| type IV pilus biogenesis/stability protein PilW [Serratia marcescens WW4] &gt;gi|672092441|gb|KFF88466.1| pilus assembly protein PilW [Serratia nematodiphila DZ0503SBS1] &gt;gi|839839500|gb|KMJ11846.1| type IV pilus biogenesis/stability protein PilW [Serratia marcescens] &gt;gi|943368684|gb|ALL40358.1| type IV pilus biogenesis/stability protein PilW [Serratia marcescens] &gt;gi|1039033702|gb|ANM77897.1| type IV pilus biogenesis/stability protein PilW [Serratia marcescens] &gt;gi|1081561253|emb|SCY99218.1| type IV pilus assembly protein PilF [Serratia nematodiphila]</Hit_def>
+  <Hit_accession>AGE19507</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0363722</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLT-YVQV--------QKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAI---AYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>QTRLQLGLEYLQQGDMDAARQNLEKALDAAPQDYR--TQLGMALYAQRSGENAEAEQRYRQALKL-------APGNGTVLNNYGAFLCGLGQYVPAQQQFSAA-ALAPDYGQVADSLENAGYCFLKAGQNDEARTLLSRALKVD</Hsp_hseq>
+      <Hsp_midline>+  L LG+ Y++ G +D   + LE+++  AP + +  T LG+  Y Q         Q+Y  A+ L        P N  V    G  L  LG++  A   F  A  L P+ G+V  ++    Y + + G ++EA     +A ++D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1057113976|ref|WP_068509731.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Leptolyngbya sp. O-77] &gt;gi|984536970|dbj|BAU41950.1| Polyphosphate kinase [Leptolyngbya sp. O-77]</Hit_def>
+  <Hit_accession>BAU41950</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0592707</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>497</Hsp_hit-from>
+      <Hsp_hit-to>617</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LYTHYGL-SVAKKLGANMVDAFR--SAFSVNDDIRQVY-----YRDK-------GISHAKAGRYSEAVV---------MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>LYTDLGLLSCREELGADLSDLFNYLTGYSRQHSYRKILVSPVNMRDRMTALIHREIEHAKAGKPAKIIAKMNSLVDPGMIAKLYEASQAGVEIDL-----------IVRGICCLKPGIPNVSENIRVISVIG</Hsp_hseq>
+      <Hsp_midline>LYT  GL S  ++LGA++ D F   + +S     R++       RD+        I HAKAG+ ++ +          M+ ++Y+A    VE+ L           + RG   L+  I +  +NI+V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|503841837|ref|WP_014075831.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Sphingobium sp. SYK-6] &gt;gi|345136571|dbj|BAK66180.1| polyphosphate kinase [Sphingobium sp. SYK-6]</Hit_def>
+  <Hit_accession>WP_014075831</Hit_accession>
+  <Hit_len>716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.102938</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>525</Hsp_hit-from>
+      <Hsp_hit-to>683</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG--LTYVQVQKY--DLAVP-----LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>DAEIEHARAGRPGNIWAKMNSLVDAAI--IEKLYAASNAGVKIELIVRGICCLRPGVPGMSDNIHVKSVVGRFLEHSRIWAFGNGKALPNNDAKLFISSADWMPRNFDRRVEYMLPIENPTVHDQVLDQVLVA-NLLDNEQ------SWVLNADGSYERLKPEGKRFN</Hsp_hseq>
+      <Hsp_midline>D  I HA+AGR       +  + DA    +E       A VK   + RG   L   +    DNI V +V+G  L + ++  +    A+P     L +  A+  P NF+ R    + ++N    D+ +D   +A  L  NE       ++     GS+E   P  K+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|504986281|ref|WP_015173383.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Geitlerinema sp. PCC 7407] &gt;gi|427986675|gb|AFY67819.1| Polyphosphate kinase [Geitlerinema sp. PCC 7407]</Hit_def>
+  <Hit_accession>WP_015173383</Hit_accession>
+  <Hit_len>719</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.111752</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>502</Hsp_hit-from>
+      <Hsp_hit-to>622</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LYTHYGL-SVAKKLGANMVDAFR--SAFSVNDDIRQ-----VYYRDKGIS-------HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>LYTDLGLLSCREDLGADLTDLFNYLTGYSRQQSYRELLVAPVNLRDKMLELIRRETEHAKQGRQGRIVAKMNALVDPAI--IAALYEASQAGVRIDLIIRGICCLRPGIKDVSENIRVISIIG</Hsp_hseq>
+      <Hsp_midline>LYT  GL S  + LGA++ D F   + +S     R+     V  RDK +        HAK GR    V  +  + D     +        A V+   + RG   L   I D  +NI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|499233772|ref|WP_010931312.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bordetella pertussis] &gt;gi|33594049|ref|NP_881693.1| hypothetical protein BP3128 [Bordetella pertussis Tohama I] &gt;gi|33564123|emb|CAE43395.1| conserved hypothetical protein [Bordetella pertussis Tohama I] &gt;gi|332383466|gb|AEE68313.1| hypothetical protein BPTD_3090 [Bordetella pertussis CS] &gt;gi|563507961|gb|ETA64534.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-11] &gt;gi|565689473|gb|ETG99520.1| tetratricopeptide repeat protein [Bordetella pertussis 2250905] &gt;gi|565694881|gb|ETH04632.1| tetratricopeptide repeat protein [Bordetella pertussis 2356847] &gt;gi|565698152|gb|ETH07743.1| tetratricopeptide repeat protein [Bordetella pertussis 2371640] &gt;gi|565701268|gb|ETH10729.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-SEAT-0006] &gt;gi|565704631|gb|ETH14051.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-SEAT-0007] &gt;gi|565708850|gb|ETH18229.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-13] &gt;gi|565714908|gb|ETH24117.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-15] &gt;gi|565716974|gb|ETH26107.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-20] &gt;gi|565722041|gb|ETH31051.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-26] &gt;gi|565727171|gb|ETH36042.1| tetratricopeptide repeat protein [Bordetella pertussis H897] &gt;gi|565734642|gb|ETH43375.1| tetratricopeptide repeat protein [Bordetella pertussis H939] &gt;gi|565737114|gb|ETH45816.1| tetratricopeptide repeat protein [Bordetella pertussis H921] &gt;gi|565744235|gb|ETH52840.1| tetratricopeptide repeat protein [Bordetella pertussis H973] &gt;gi|565744983|gb|ETH53574.1| tetratricopeptide repeat protein [Bordetella pertussis I002] &gt;gi|565752072|gb|ETH60563.1| tetratricopeptide repeat protein [Bordetella pertussis I036] &gt;gi|565754172|gb|ETH62644.1| tetratricopeptide repeat protein [Bordetella pertussis I176] &gt;gi|565758491|gb|ETH66911.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHLA-0006] &gt;gi|565764255|gb|ETH72617.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHLA-0011] &gt;gi|565765193|gb|ETH73542.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0008] &gt;gi|565771945|gb|ETH80133.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0016] &gt;gi|565773491|gb|ETH81645.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0017] &gt;gi|565777938|gb|ETH85979.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0018] &gt;gi|565781448|gb|ETH89386.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0019] &gt;gi|565785835|gb|ETH93651.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0021] &gt;gi|565793376|gb|ETI01108.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOM-0012] &gt;gi|565794994|gb|ETI02680.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-SEAT-0004] &gt;gi|565800826|gb|ETI08302.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CNMC-0004] &gt;gi|627867569|gb|KCV25643.1| tetratricopeptide repeat protein [Bordetella pertussis H934] &gt;gi|719634351|gb|AIW91204.1| hypothetical protein B1917_0694 [Bordetella pertussis B1917] &gt;gi|719640621|gb|AIW96866.1| hypothetical protein B1920_3154 [Bordetella pertussis B1920] &gt;gi|742223212|gb|AJB27628.1| hypothetical protein Q425_31060 [Bordetella pertussis 137] &gt;gi|800856268|emb|CFO69286.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801263512|emb|CFB54454.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801741388|emb|CFL73638.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801756446|emb|CFL82135.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801764818|emb|CFL99771.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801775499|emb|CFL99391.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801802944|emb|CFM39489.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801817571|emb|CFM50847.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801831613|emb|CFM77345.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801854331|emb|CFN04532.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801858034|emb|CFN12566.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801862179|emb|CFN19895.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801868823|emb|CFN13546.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801873269|emb|CFN17054.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801877394|emb|CFN24984.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801887053|emb|CFN29471.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801900244|emb|CFN35973.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801917613|emb|CFN63162.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801928324|emb|CFN65594.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801935317|emb|CFN89769.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801941126|emb|CFN86200.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801945570|emb|CFN86135.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801958343|emb|CFO06911.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801988945|emb|CFO17334.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|801992932|emb|CFO18933.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802010487|emb|CFO50619.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802022579|emb|CFO71772.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802036283|emb|CFO96585.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802040758|emb|CFO94835.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802047576|emb|CFP10993.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802064115|emb|CFP28581.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802067260|emb|CFP36888.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802140146|emb|CFP42327.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802155611|emb|CFP36974.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802187178|emb|CFP55098.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802199065|emb|CFP65717.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802841495|emb|CFU21698.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802846462|emb|CFU46189.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802863180|emb|CFU47891.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|802866679|emb|CFU53221.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|803018633|emb|CFV86969.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|803061834|emb|CFW05815.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|803067102|emb|CFW17409.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|803076039|emb|CFW32773.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|803100174|emb|CFW41594.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|803125705|emb|CFW47838.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|803176822|emb|CFW81284.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|803184353|emb|CFW83022.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|805098796|emb|CRD57546.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|805102907|emb|CRD57181.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|805106850|emb|CRD64577.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|805110924|emb|CRD70653.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|805113123|emb|CRD77999.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811364830|emb|CPO73823.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811382666|emb|CPN80278.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811403667|emb|CPK03221.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811410418|emb|CPL76037.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811420213|emb|CPQ68212.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811426625|emb|CPJ18239.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811445103|emb|CPM31947.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811467304|emb|CPL92992.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811475475|emb|CPL59824.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811488503|emb|CPO91141.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811495358|emb|CPJ47172.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|811503348|emb|CPH97580.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897502420|emb|CPQ87685.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897583954|emb|CPL77897.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897597825|emb|CPR02001.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897608326|emb|CPQ13039.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897618112|emb|CPM87091.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897624578|emb|CPL79572.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897652375|emb|CPN25494.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897659736|emb|CPQ30228.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897666236|emb|CPQ21117.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897669424|emb|CPN79155.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897705895|emb|CPM09110.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897708206|emb|CPO88657.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897712411|emb|CPJ25709.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897718829|emb|CPI40927.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897721735|emb|CPM33882.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897725331|emb|CPO30514.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897731325|emb|CPI26209.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897733817|emb|CPQ81187.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897739141|emb|CPI31113.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897748715|emb|CPI39784.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897750682|emb|CPQ07798.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897755756|emb|CPK85947.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897769188|emb|CPO36779.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897778153|emb|CPQ00867.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897781878|emb|CPP17319.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897786433|emb|CPN63923.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897790547|emb|CPO41126.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897794148|emb|CPN54994.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897798289|emb|CPK04218.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897808485|emb|CPL10917.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897814087|emb|CPM02059.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897818010|emb|CPM39669.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897822066|emb|CPP06923.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897825850|emb|CPL96731.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897830385|emb|CPJ44549.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897834419|emb|CPH69000.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897838294|emb|CPJ68601.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897842828|emb|CPI11109.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897846805|emb|CPN41373.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897854661|emb|CPO37264.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897858462|emb|CPK30647.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897862524|emb|CPJ61318.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897866658|emb|CPP97319.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897870338|emb|CPO42117.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897874230|emb|CPK30941.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897878114|emb|CPM62202.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897886149|emb|CPK58366.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897890016|emb|CPQ06279.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|897900587|emb|CPO79291.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|937373525|gb|ALH48255.1| hypothetical protein B1838_0693 [Bordetella pertussis] &gt;gi|937377090|gb|ALH51718.1| hypothetical protein B1865_0693 [Bordetella pertussis] &gt;gi|937382801|gb|ALH57382.1| hypothetical protein B3405_3152 [Bordetella pertussis] &gt;gi|937384088|gb|ALH58643.1| hypothetical protein B3582_0695 [Bordetella pertussis] &gt;gi|937389748|gb|ALH64302.1| hypothetical protein B3585_3149 [Bordetella pertussis] &gt;gi|937393214|gb|ALH67767.1| hypothetical protein B3640_3153 [Bordetella pertussis] &gt;gi|937396672|gb|ALH71224.1| hypothetical protein B3658_3146 [Bordetella pertussis] &gt;gi|937403655|gb|ALH74688.1| hypothetical protein B3913_3152 [Bordetella pertussis] &gt;gi|937407118|gb|ALH78150.1| hypothetical protein B3921_3153 [Bordetella pertussis] &gt;gi|937411614|gb|ALI19508.1| hypothetical protein B3629_2872 [Bordetella pertussis] &gt;gi|937413116|gb|ALI21009.1| hypothetical protein B3621_0693 [Bordetella pertussis] &gt;gi|973417423|gb|ALX20408.1| hypothetical protein UN82_03480 [Bordetella pertussis] &gt;gi|973423122|gb|ALX26106.1| hypothetical protein RD18_15895 [Bordetella pertussis] &gt;gi|1001136470|emb|CZQ27968.1| tetratricopeptide repeat protein [Bordetella pertussis] &gt;gi|1012133062|gb|KYP04599.1| hypothetical protein RD23_15535 [Bordetella pertussis] &gt;gi|1012134046|gb|KYP05582.1| hypothetical protein QR53_14275 [Bordetella pertussis] &gt;gi|1012905343|gb|AMS50418.1| hypothetical protein RD08_03490 [Bordetella pertussis] &gt;gi|1012908982|gb|AMS54056.1| hypothetical protein RD09_03610 [Bordetella pertussis] &gt;gi|1012914705|gb|AMS59778.1| hypothetical protein RD11_15935 [Bordetella pertussis] &gt;gi|1012916157|gb|AMS61219.1| hypothetical protein RD12_03490 [Bordetella pertussis] &gt;gi|1012921888|gb|AMS66941.1| hypothetical protein RD13_15885 [Bordetella pertussis] &gt;gi|1012923581|gb|AMS68633.1| hypothetical protein RD15_04670 [Bordetella pertussis] &gt;gi|1012929093|gb|AMS74144.1| hypothetical protein RD16_15785 [Bordetella pertussis] &gt;gi|1012932726|gb|AMS77866.1| hypothetical protein RD03_15875 [Bordetella pertussis] &gt;gi|1012934261|gb|AMS79400.1| hypothetical protein RD05_03615 [Bordetella pertussis] &gt;gi|1012937861|gb|AMS82999.1| hypothetical protein RD06_03485 [Bordetella pertussis] &gt;gi|1012941481|gb|AMS86618.1| hypothetical protein RD07_03480 [Bordetella pertussis] &gt;gi|1012945131|gb|AMS90267.1| hypothetical protein RD10_03615 [Bordetella pertussis] &gt;gi|1012954442|gb|AMS99576.1| hypothetical protein RD14_15880 [Bordetella pertussis] &gt;gi|1012988016|gb|AMT01150.1| hypothetical protein RD19_03485 [Bordetella pertussis] &gt;gi|1012993748|gb|AMT10484.1| hypothetical protein RD20_15880 [Bordetella pertussis] &gt;gi|1012995224|gb|AMT11959.1| hypothetical protein RD21_03480 [Bordetella pertussis] &gt;gi|1012998824|gb|AMT15558.1| hypothetical protein RD22_03480 [Bordetella pertussis] &gt;gi|1013004551|gb|AMT21282.1| hypothetical protein QR48_15895 [Bordetella pertussis] &gt;gi|1013008153|gb|AMT24883.1| hypothetical protein QR49_15880 [Bordetella pertussis] &gt;gi|1013011756|gb|AMT28485.1| hypothetical protein QR50_15895 [Bordetella pertussis] &gt;gi|1013015361|gb|AMT32089.1| hypothetical protein QR51_15895 [Bordetella pertussis] &gt;gi|1013016834|gb|AMT04754.1| hypothetical protein OZ70_03485 [Bordetella pertussis] &gt;gi|1013020479|gb|AMT33602.1| hypothetical protein QR52_03620 [Bordetella pertussis] &gt;gi|1013026153|gb|AMT39275.1| hypothetical protein QR54_15885 [Bordetella pertussis] &gt;gi|1013029763|gb|AMT42884.1| hypothetical protein QR55_15885 [Bordetella pertussis] &gt;gi|1013033361|gb|AMT46481.1| hypothetical protein QR56_15880 [Bordetella pertussis] &gt;gi|1013036969|gb|AMT50088.1| hypothetical protein QR57_15880 [Bordetella pertussis] &gt;gi|1013040568|gb|AMT53686.1| hypothetical protein QR58_15880 [Bordetella pertussis] &gt;gi|1013044181|gb|AMT57298.1| hypothetical protein QR59_15870 [Bordetella pertussis] &gt;gi|1013045663|gb|AMT58779.1| hypothetical protein QR60_03495 [Bordetella pertussis] &gt;gi|1013049300|gb|AMT62415.1| hypothetical protein QR61_03620 [Bordetella pertussis] &gt;gi|1013054094|gb|AMT67208.1| hypothetical protein RZ82_10740 [Bordetella pertussis] &gt;gi|1043728502|gb|ANS92819.1| hypothetical protein A8B95_05120 [Bordetella pertussis] &gt;gi|1043734129|gb|ANS98445.1| hypothetical protein A8B96_16700 [Bordetella pertussis] &gt;gi|1043737624|gb|ANT01940.1| hypothetical protein A8B94_15930 [Bordetella pertussis] &gt;gi|1043743562|gb|ANT07876.1| hypothetical protein A8B90_08515 [Bordetella pertussis] &gt;gi|1043747634|gb|ANT11947.1| hypothetical protein A8B97_11190 [Bordetella pertussis] &gt;gi|1043752344|gb|ANT16656.1| hypothetical protein A8B86_17115 [Bordetella pertussis] &gt;gi|1043755700|gb|ANT20011.1| hypothetical protein A8B88_15765 [Bordetella pertussis] &gt;gi|1043756997|gb|ANT21307.1| hypothetical protein A8B89_02270 [Bordetella pertussis] &gt;gi|1043762836|gb|ANT27145.1| hypothetical protein A8B91_14840 [Bordetella pertussis] &gt;gi|1043766884|gb|ANT31192.1| hypothetical protein A8B92_17220 [Bordetella pertussis] &gt;gi|1043770524|gb|ANT34831.1| hypothetical protein A8B87_17235 [Bordetella pertussis] &gt;gi|1044682763|gb|ANT90629.1| hypothetical protein ADU61_15570 [Bordetella pertussis] &gt;gi|1044686469|gb|ANT94334.1| hypothetical protein BBB38_16005 [Bordetella pertussis] &gt;gi|1089715572|gb|AOY21540.1| hypothetical protein BH370_16005 [Bordetella pertussis] &gt;gi|1089718760|gb|AOY23112.1| hypothetical protein BH371_03825 [Bordetella pertussis] &gt;gi|1089726032|gb|AOY28949.1| hypothetical protein BH372_16630 [Bordetella pertussis] &gt;gi|1089731845|gb|AOY32803.1| hypothetical protein BH373_17245 [Bordetella pertussis] &gt;gi|1141742756|gb|AQB02405.1| hypothetical protein WG72_15885 [Bordetella pertussis] &gt;gi|1141746376|gb|AQB06024.1| hypothetical protein WU02_15860 [Bordetella pertussis] &gt;gi|1141747881|gb|AQB07528.1| hypothetical protein WU03_03475 [Bordetella pertussis] &gt;gi|1141753620|gb|AQB13266.1| hypothetical protein WU04_15895 [Bordetella pertussis] &gt;gi|1141755137|gb|AQB14782.1| hypothetical protein WU05_03530 [Bordetella pertussis] &gt;gi|1141758767|gb|AQB18411.1| hypothetical protein WU06_03480 [Bordetella pertussis] &gt;gi|1141762395|gb|AQB22038.1| hypothetical protein WU07_03480 [Bordetella pertussis] &gt;gi|1141766024|gb|AQB25666.1| hypothetical protein WU08_03480 [Bordetella pertussis] &gt;gi|1141775393|gb|AQB35033.1| hypothetical protein WU10_15885 [Bordetella pertussis] &gt;gi|1141779020|gb|AQB38659.1| hypothetical protein WU11_15870 [Bordetella pertussis] &gt;gi|1141780528|gb|AQB40166.1| hypothetical protein WU12_03480 [Bordetella pertussis] &gt;gi|1141784163|gb|AQB43800.1| hypothetical protein WU13_03490 [Bordetella pertussis] &gt;gi|1141787788|gb|AQB47424.1| hypothetical protein WU14_03480 [Bordetella pertussis] &gt;gi|1141793544|gb|AQB53179.1| hypothetical protein WU15_15875 [Bordetella pertussis] &gt;gi|1141795059|gb|AQB54693.1| hypothetical protein WU16_03485 [Bordetella pertussis] &gt;gi|1141798685|gb|AQB58318.1| hypothetical protein WU17_03480 [Bordetella pertussis] &gt;gi|1141802310|gb|AQB61942.1| hypothetical protein WU18_03475 [Bordetella pertussis] &gt;gi|1141805942|gb|AQB65573.1| hypothetical protein WU19_03480 [Bordetella pertussis] &gt;gi|1141811685|gb|AQB71315.1| hypothetical protein WU20_15895 [Bordetella pertussis] &gt;gi|1141813200|gb|AQB72829.1| hypothetical protein WU21_03485 [Bordetella pertussis] &gt;gi|1141816828|gb|AQB76456.1| hypothetical protein WU22_03480 [Bordetella pertussis] &gt;gi|1141822589|gb|AQB82216.1| hypothetical protein WU23_15885 [Bordetella pertussis] &gt;gi|1141829835|gb|AQB89460.1| hypothetical protein WU25_15875 [Bordetella pertussis] &gt;gi|1141833455|gb|AQB93079.1| hypothetical protein WU26_15860 [Bordetella pertussis] &gt;gi|1141837046|gb|AQB96669.1| hypothetical protein WU27_15535 [Bordetella pertussis] &gt;gi|1141838631|gb|AQB98253.1| hypothetical protein WU28_03615 [Bordetella pertussis] &gt;gi|1141844349|gb|AQC03971.1| hypothetical protein WU29_15875 [Bordetella pertussis] &gt;gi|1141847976|gb|AQC07597.1| hypothetical protein WU30_15890 [Bordetella pertussis] &gt;gi|1141849510|gb|AQC09130.1| hypothetical protein WU31_03615 [Bordetella pertussis] &gt;gi|1141853115|gb|AQC12734.1| hypothetical protein WU32_03475 [Bordetella pertussis] &gt;gi|1141858875|gb|AQC18493.1| hypothetical protein WU33_15880 [Bordetella pertussis] &gt;gi|1141860402|gb|AQC20019.1| hypothetical protein WU34_03615 [Bordetella pertussis] &gt;gi|1141866130|gb|AQC25746.1| hypothetical protein WU35_15900 [Bordetella pertussis] &gt;gi|1141869752|gb|AQC29367.1| hypothetical protein WU36_15895 [Bordetella pertussis] &gt;gi|1141873389|gb|AQC33003.1| hypothetical protein WU37_15890 [Bordetella pertussis] &gt;gi|1141880706|gb|AQC40318.1| hypothetical protein WU39_16180 [Bordetella pertussis] &gt;gi|1141884291|gb|AQC43902.1| hypothetical protein WU40_15865 [Bordetella pertussis] &gt;gi|1141887919|gb|AQC47529.1| hypothetical protein WU41_15930 [Bordetella pertussis] &gt;gi|1141891543|gb|AQC51152.1| hypothetical protein WU42_15880 [Bordetella pertussis] &gt;gi|1141893056|gb|AQC52664.1| hypothetical protein AC877_03480 [Bordetella pertussis] &gt;gi|1141898793|gb|AQC58400.1| hypothetical protein AC878_15875 [Bordetella pertussis] &gt;gi|1141902429|gb|AQC62035.1| hypothetical protein AC879_15855 [Bordetella pertussis] &gt;gi|1141906055|gb|AQC65660.1| hypothetical protein AC880_15905 [Bordetella pertussis] &gt;gi|1141909679|gb|AQC69283.1| hypothetical protein AC881_15895 [Bordetella pertussis] &gt;gi|1141911192|gb|AQC70795.1| hypothetical protein AC882_03475 [Bordetella pertussis] &gt;gi|1141917017|gb|AQC76619.1| hypothetical protein AC883_16270 [Bordetella pertussis] &gt;gi|1141920565|gb|AQC80166.1| hypothetical protein AC884_15900 [Bordetella pertussis] &gt;gi|1141924185|gb|AQC83785.1| hypothetical protein AC885_15880 [Bordetella pertussis] &gt;gi|1141927817|gb|AQC87416.1| hypothetical protein AC886_15890 [Bordetella pertussis] &gt;gi|1141931442|gb|AQC91040.1| hypothetical protein AC887_15890 [Bordetella pertussis] &gt;gi|1141935053|gb|AQC94650.1| hypothetical protein AC888_15775 [Bordetella pertussis] &gt;gi|1141936577|gb|AQC96173.1| hypothetical protein ADU62_03495 [Bordetella pertussis] &gt;gi|1141942368|gb|AQD01964.1| hypothetical protein ADU63_16035 [Bordetella pertussis] &gt;gi|1141945951|gb|AQD05546.1| hypothetical protein ADU64_15890 [Bordetella pertussis] &gt;gi|1141947494|gb|AQD07088.1| hypothetical protein ADU65_03615 [Bordetella pertussis] &gt;gi|1141953222|gb|AQD12815.1| hypothetical protein ADU66_15875 [Bordetella pertussis] &gt;gi|1141956841|gb|AQD16433.1| hypothetical protein ADU67_15890 [Bordetella pertussis] &gt;gi|1142001928|gb|AQD21358.1| hypothetical protein XA07_03485 [Bordetella pertussis] &gt;gi|1142005567|gb|AQD24996.1| hypothetical protein XA09_03480 [Bordetella pertussis] &gt;gi|1142009196|gb|AQD28624.1| hypothetical protein XA08_03485 [Bordetella pertussis] &gt;gi|1142012847|gb|AQD32274.1| hypothetical protein XA10_03615 [Bordetella pertussis] &gt;gi|1142018566|gb|AQD37992.1| hypothetical protein XA11_15865 [Bordetella pertussis] &gt;gi|1142020079|gb|AQD39504.1| hypothetical protein XA12_03490 [Bordetella pertussis] &gt;gi|1142025825|gb|AQD45249.1| hypothetical protein XA13_15875 [Bordetella pertussis] &gt;gi|1142029454|gb|AQD48877.1| hypothetical protein XA14_15880 [Bordetella pertussis] &gt;gi|1142030995|gb|AQD50417.1| hypothetical protein XA15_03620 [Bordetella pertussis] &gt;gi|1142036718|gb|AQD56139.1| hypothetical protein XA16_15905 [Bordetella pertussis] &gt;gi|1142038258|gb|AQD57678.1| hypothetical protein XA17_03615 [Bordetella pertussis] &gt;gi|1142041860|gb|AQD61279.1| hypothetical protein ABB80_03480 [Bordetella pertussis] &gt;gi|1142046619|gb|AQD64905.1| hypothetical protein ABB81_03485 [Bordetella pertussis] &gt;gi|1142051628|gb|AQD68534.1| hypothetical protein ABB82_03495 [Bordetella pertussis] &gt;gi|1142057213|gb|AQD72163.1| hypothetical protein ABB83_03475 [Bordetella pertussis] &gt;gi|1142064296|gb|AQD87000.1| hypothetical protein ABB84_15865 [Bordetella pertussis] &gt;gi|1142069595|gb|AQD90619.1| hypothetical protein ABB85_15880 [Bordetella pertussis] &gt;gi|1142074947|gb|AQD94240.1| hypothetical protein ABB86_15875 [Bordetella pertussis] &gt;gi|1142077651|gb|AQD95755.1| hypothetical protein ABB87_03485 [Bordetella pertussis] &gt;gi|1142081283|gb|AQD99386.1| hypothetical protein ABB88_03480 [Bordetella pertussis] &gt;gi|1142087040|gb|AQE05143.1| hypothetical protein ABB89_15880 [Bordetella pertussis] &gt;gi|1142090666|gb|AQE21911.1| hypothetical protein ABB90_15905 [Bordetella pertussis] &gt;gi|1142094282|gb|AQE25526.1| hypothetical protein ABB91_15880 [Bordetella pertussis] &gt;gi|1142098004|gb|AQE29234.1| hypothetical protein ABB92_16275 [Bordetella pertussis] &gt;gi|1142101592|gb|AQE47967.1| hypothetical protein ABB93_15885 [Bordetella pertussis] &gt;gi|1142105294|gb|AQE51577.1| hypothetical protein ABB94_15895 [Bordetella pertussis] &gt;gi|1142106846|gb|AQE64258.1| hypothetical protein ABB95_03615 [Bordetella pertussis] &gt;gi|1142110444|gb|AQE67877.1| hypothetical protein ABB96_03475 [Bordetella pertussis] &gt;gi|1142114063|gb|AQE71487.1| hypothetical protein ABB97_03480 [Bordetella pertussis] &gt;gi|1142119864|gb|AQE98562.1| hypothetical protein ABB98_15900 [Bordetella pertussis] &gt;gi|1142123489|gb|AQF02187.1| hypothetical protein ABB99_15860 [Bordetella pertussis] &gt;gi|1142127177|gb|AQF05874.1| hypothetical protein ABC00_16265 [Bordetella pertussis] &gt;gi|1142130766|gb|AQF09433.1| hypothetical protein ABC01_15905 [Bordetella pertussis] &gt;gi|1142132301|gb|AQF10967.1| hypothetical protein ABC02_03615 [Bordetella pertussis] &gt;gi|1142138065|gb|AQF16690.1| hypothetical protein ABC03_15895 [Bordetella pertussis] &gt;gi|1142141706|gb|AQF20324.1| hypothetical protein ABC04_15875 [Bordetella pertussis] &gt;gi|1142145385|gb|AQF23949.1| hypothetical protein ABC05_15890 [Bordetella pertussis] &gt;gi|1142149197|gb|AQF27570.1| hypothetical protein ABC06_15890 [Bordetella pertussis] &gt;gi|1142152865|gb|AQF31203.1| hypothetical protein ABC07_15895 [Bordetella pertussis] &gt;gi|1142156520|gb|AQF34830.1| hypothetical protein ABC08_15885 [Bordetella pertussis] &gt;gi|1142160155|gb|AQF38464.1| hypothetical protein ABC09_15905 [Bordetella pertussis] &gt;gi|1142163833|gb|AQF42097.1| hypothetical protein ABC10_15905 [Bordetella pertussis] &gt;gi|1142165383|gb|AQF43611.1| hypothetical protein ABC11_03480 [Bordetella pertussis] &gt;gi|1142171162|gb|AQF49362.1| hypothetical protein ABC12_15885 [Bordetella pertussis] &gt;gi|1142174798|gb|AQF52997.1| hypothetical protein ABC13_15880 [Bordetella pertussis] &gt;gi|1142176301|gb|AQF54499.1| hypothetical protein ABC14_03490 [Bordetella pertussis] &gt;gi|1142185567|gb|AQF61637.1| hypothetical protein ABC15_15890 [Bordetella pertussis] &gt;gi|1142187097|gb|AQF63154.1| hypothetical protein ABC16_03485 [Bordetella pertussis] &gt;gi|1142192944|gb|AQF68970.1| hypothetical protein ABC17_16275 [Bordetella pertussis] &gt;gi|1142196617|gb|AQF72599.1| hypothetical protein ABC18_16275 [Bordetella pertussis] &gt;gi|1142200281|gb|AQF76228.1| hypothetical protein ABC19_16265 [Bordetella pertussis] &gt;gi|1142203906|gb|AQF79791.1| hypothetical protein ABC20_15925 [Bordetella pertussis] &gt;gi|1142207561|gb|AQF83414.1| hypothetical protein ABC21_15890 [Bordetella pertussis] &gt;gi|1142211221|gb|AQF87049.1| hypothetical protein ABC22_15875 [Bordetella pertussis] &gt;gi|1142214886|gb|AQF90675.1| hypothetical protein ABC23_15880 [Bordetella pertussis] &gt;gi|1142218553|gb|AQF94314.1| hypothetical protein ABC24_15890 [Bordetella pertussis] &gt;gi|1142220094|gb|AQF95827.1| hypothetical protein ABC25_03495 [Bordetella pertussis] &gt;gi|1142225910|gb|AQG01586.1| hypothetical protein ABC26_15890 [Bordetella pertussis] &gt;gi|1142227453|gb|AQG03084.1| hypothetical protein ABC27_03490 [Bordetella pertussis] &gt;gi|1142233218|gb|AQG08846.1| hypothetical protein ABC28_15880 [Bordetella pertussis] &gt;gi|1142234721|gb|AQG10344.1| hypothetical protein ABC29_03490 [Bordetella pertussis] &gt;gi|1142240508|gb|AQG16085.1| hypothetical protein ABC30_15905 [Bordetella pertussis] &gt;gi|1142242035|gb|AQG17590.1| hypothetical protein ABC31_03480 [Bordetella pertussis] &gt;gi|1142247781|gb|AQG23331.1| hypothetical protein ABC32_15885 [Bordetella pertussis] &gt;gi|1142251430|gb|AQG26979.1| hypothetical protein ABC33_15890 [Bordetella pertussis] &gt;gi|1142252932|gb|AQG28480.1| hypothetical protein ABC34_03490 [Bordetella pertussis] &gt;gi|1142258686|gb|AQG34233.1| hypothetical protein ABC35_15890 [Bordetella pertussis] &gt;gi|1142262305|gb|AQG37851.1| hypothetical protein ABC36_15900 [Bordetella pertussis] &gt;gi|1142263813|gb|AQG39358.1| hypothetical protein ABC37_03475 [Bordetella pertussis] &gt;gi|1142269576|gb|AQG45120.1| hypothetical protein ABC38_15895 [Bordetella pertussis] &gt;gi|1142271105|gb|AQG46648.1| hypothetical protein ABC39_03615 [Bordetella pertussis] &gt;gi|1142274738|gb|AQG50280.1| hypothetical protein ABC40_03615 [Bordetella pertussis] &gt;gi|1142278371|gb|AQG53912.1| hypothetical protein ABC41_03615 [Bordetella pertussis] &gt;gi|1142284096|gb|AQG59636.1| hypothetical protein ABC42_15905 [Bordetella pertussis] &gt;gi|1142287737|gb|AQG63276.1| hypothetical protein ABC43_15890 [Bordetella pertussis] &gt;gi|1142291364|gb|AQG66902.1| hypothetical protein ABC44_15890 [Bordetella pertussis] &gt;gi|1142295008|gb|AQG70545.1| hypothetical protein ABC45_15875 [Bordetella pertussis] &gt;gi|1142299327|gb|AQG74861.1| hypothetical protein ABC46_03615 [Bordetella pertussis] &gt;gi|1142305052|gb|AQG85400.1| hypothetical protein ABC47_15880 [Bordetella pertussis] &gt;gi|1142306590|gb|AQG94385.1| hypothetical protein ABC48_03615 [Bordetella pertussis] &gt;gi|1142321194|gb|AQH08981.1| hypothetical protein ABC49_15885 [Bordetella pertussis] &gt;gi|1142324824|gb|AQH12610.1| hypothetical protein ABC50_15880 [Bordetella pertussis] &gt;gi|1142328457|gb|AQH16242.1| hypothetical protein ABC51_15890 [Bordetella pertussis] &gt;gi|1142332088|gb|AQH19872.1| hypothetical protein ABC52_15905 [Bordetella pertussis] &gt;gi|1142335742|gb|AQH23497.1| hypothetical protein ABC53_15905 [Bordetella pertussis] &gt;gi|1142339957|gb|AQH27148.1| hypothetical protein ABC54_15900 [Bordetella pertussis] &gt;gi|1142342140|gb|AQH28778.1| hypothetical protein ABC55_03620 [Bordetella pertussis] &gt;gi|1142348519|gb|AQH35307.1| hypothetical protein ABC56_15895 [Bordetella pertussis] &gt;gi|1142352193|gb|AQH38921.1| hypothetical protein ABC57_15890 [Bordetella pertussis] &gt;gi|1142355850|gb|AQH42561.1| hypothetical protein ABC58_15900 [Bordetella pertussis] &gt;gi|1142359542|gb|AQH46182.1| hypothetical protein ABC59_15905 [Bordetella pertussis] &gt;gi|1142363170|gb|AQH49809.1| hypothetical protein ABC60_15880 [Bordetella pertussis] &gt;gi|1142366812|gb|AQH53450.1| hypothetical protein ABC61_15895 [Bordetella pertussis] &gt;gi|1142370452|gb|AQH57080.1| hypothetical protein ASC12_15950 [Bordetella pertussis] &gt;gi|1142372017|gb|AQH58644.1| hypothetical protein ASC13_03775 [Bordetella pertussis] &gt;gi|1142375609|gb|AQH62235.1| hypothetical protein ASC14_03485 [Bordetella pertussis] &gt;gi|1142381368|gb|AQH67993.1| hypothetical protein ASC15_15855 [Bordetella pertussis] &gt;gi|1142382869|gb|AQH69493.1| hypothetical protein ASC16_03485 [Bordetella pertussis] &gt;gi|1142386507|gb|AQH73130.1| hypothetical protein ASC17_03495 [Bordetella pertussis] &gt;gi|1142392268|gb|AQH78890.1| hypothetical protein ASC18_15895 [Bordetella pertussis] &gt;gi|1142395900|gb|AQH82521.1| hypothetical protein ASC19_15895 [Bordetella pertussis] &gt;gi|1142399536|gb|AQH86156.1| hypothetical protein ASC20_15870 [Bordetella pertussis] &gt;gi|1142403169|gb|AQH89788.1| hypothetical protein ASC21_15870 [Bordetella pertussis] &gt;gi|1142406795|gb|AQH93402.1| hypothetical protein ASC22_15875 [Bordetella pertussis] &gt;gi|1142408303|gb|AQH94909.1| hypothetical protein ASC23_03490 [Bordetella pertussis] &gt;gi|1142411935|gb|AQH98540.1| hypothetical protein ASC24_03485 [Bordetella pertussis] &gt;gi|1142418019|gb|AQI04299.1| hypothetical protein ASC25_15890 [Bordetella pertussis] &gt;gi|1142422474|gb|AQI07934.1| hypothetical protein ASC26_15915 [Bordetella pertussis] &gt;gi|1142424597|gb|AQI09805.1| hypothetical protein ASC27_03480 [Bordetella pertussis] &gt;gi|1142431122|gb|AQI16053.1| hypothetical protein ASC28_15910 [Bordetella pertussis] &gt;gi|1142435446|gb|AQI20142.1| hypothetical protein ASC29_15885 [Bordetella pertussis] &gt;gi|1142439076|gb|AQI24226.1| hypothetical protein ASC30_15885 [Bordetella pertussis] &gt;gi|1142442702|gb|AQI27990.1| hypothetical protein ASC31_15890 [Bordetella pertussis] &gt;gi|1142446346|gb|AQI31633.1| hypothetical protein ASC32_15870 [Bordetella pertussis] &gt;gi|1142449966|gb|AQI35252.1| hypothetical protein ASC33_15895 [Bordetella pertussis] &gt;gi|1142458474|gb|AQI51108.1| hypothetical protein AVS81_15895 [Bordetella pertussis] &gt;gi|1142462099|gb|AQI54732.1| hypothetical protein AVS82_15885 [Bordetella pertussis] &gt;gi|1142465749|gb|AQI58471.1| hypothetical protein AVS83_15910 [Bordetella pertussis] &gt;gi|1142469369|gb|AQI62090.1| hypothetical protein AVS84_15880 [Bordetella pertussis] &gt;gi|1142470873|gb|AQI63593.1| hypothetical protein AVS41_03485 [Bordetella pertussis] &gt;gi|1142474688|gb|AQI67225.1| hypothetical protein AVS42_03485 [Bordetella pertussis] &gt;gi|1142478317|gb|AQI70853.1| hypothetical protein AVS43_03480 [Bordetella pertussis] &gt;gi|1142481949|gb|AQI74484.1| hypothetical protein AVS44_03485 [Bordetella pertussis] &gt;gi|1142487760|gb|AQI80294.1| hypothetical protein AVS45_16035 [Bordetella pertussis] &gt;gi|1142489209|gb|AQI81742.1| hypothetical protein AVS46_03495 [Bordetella pertussis] &gt;gi|1142492840|gb|AQI85372.1| hypothetical protein AVS47_03500 [Bordetella pertussis] &gt;gi|1142498597|gb|AQI91128.1| hypothetical protein AVS48_15870 [Bordetella pertussis] &gt;gi|1142500104|gb|AQI92633.1| hypothetical protein AVS49_03485 [Bordetella pertussis] &gt;gi|1142505864|gb|AQI98392.1| hypothetical protein AVS50_15880 [Bordetella pertussis] &gt;gi|1142507365|gb|AQI99892.1| hypothetical protein AVS51_03485 [Bordetella pertussis] &gt;gi|1142513133|gb|AQJ05660.1| hypothetical protein AVS52_15890 [Bordetella pertussis] &gt;gi|1142516762|gb|AQJ09288.1| hypothetical protein AVS53_15885 [Bordetella pertussis] &gt;gi|1142518267|gb|AQJ10792.1| hypothetical protein AVS54_03490 [Bordetella pertussis] &gt;gi|1142521900|gb|AQJ14423.1| hypothetical protein AVS55_03490 [Bordetella pertussis] &gt;gi|1142527655|gb|AQJ20177.1| hypothetical protein AVS56_15875 [Bordetella pertussis] &gt;gi|1142529129|gb|AQJ21650.1| hypothetical protein AVS57_03480 [Bordetella pertussis] &gt;gi|1142534890|gb|AQJ27410.1| hypothetical protein AVS58_15900 [Bordetella pertussis] &gt;gi|1142538515|gb|AQJ31034.1| hypothetical protein AVS59_15905 [Bordetella pertussis] &gt;gi|1142542143|gb|AQJ34659.1| hypothetical protein AVS60_15890 [Bordetella pertussis] &gt;gi|1142545768|gb|AQJ38283.1| hypothetical protein AVS61_15895 [Bordetella pertussis] &gt;gi|1142549385|gb|AQJ41899.1| hypothetical protein AVS62_15880 [Bordetella pertussis] &gt;gi|1142553027|gb|AQJ54631.1| hypothetical protein AVS63_15890 [Bordetella pertussis] &gt;gi|1142556653|gb|AQJ58256.1| hypothetical protein AVS64_15860 [Bordetella pertussis] &gt;gi|1142560285|gb|AQJ61887.1| hypothetical protein AVS65_15900 [Bordetella pertussis] &gt;gi|1142563909|gb|AQJ65510.1| hypothetical protein AVS66_15890 [Bordetella pertussis] &gt;gi|1142567533|gb|AQJ69133.1| hypothetical protein AVS67_15870 [Bordetella pertussis] &gt;gi|1142571174|gb|AQJ72770.1| hypothetical protein AVS68_15895 [Bordetella pertussis] &gt;gi|1142574792|gb|AQJ76387.1| hypothetical protein AVS69_15885 [Bordetella pertussis] &gt;gi|1142578421|gb|AQJ80016.1| hypothetical protein AVS70_15890 [Bordetella pertussis] &gt;gi|1142582059|gb|AQJ83653.1| hypothetical protein AVS71_15885 [Bordetella pertussis] &gt;gi|1142585667|gb|AQJ87258.1| hypothetical protein AVS72_15860 [Bordetella pertussis] &gt;gi|1142589303|gb|AQJ90893.1| hypothetical protein AVS73_15900 [Bordetella pertussis] &gt;gi|1142592935|gb|AQJ94525.1| hypothetical protein AVS74_15895 [Bordetella pertussis] &gt;gi|1142596589|gb|AQJ98178.1| hypothetical protein AVS75_15925 [Bordetella pertussis] &gt;gi|1142600215|gb|AQK01804.1| hypothetical protein AVS76_15910 [Bordetella pertussis] &gt;gi|1142603835|gb|AQK05423.1| hypothetical protein AVS77_15905 [Bordetella pertussis] &gt;gi|1142607472|gb|AQK09059.1| hypothetical protein AVS78_15915 [Bordetella pertussis] &gt;gi|1142611116|gb|AQK12702.1| hypothetical protein AVS79_15910 [Bordetella pertussis] &gt;gi|1142614744|gb|AQK16329.1| hypothetical protein AVS80_15900 [Bordetella pertussis] &gt;gi|1142618376|gb|AQK19960.1| hypothetical protein AV742_15905 [Bordetella pertussis] &gt;gi|1153107395|gb|AQW65837.1| hypothetical protein B2G54_16095 [Bordetella pertussis] &gt;gi|1175774951|gb|OQW08477.1| hypothetical protein A6J34_03780 [Bordetella pertussis]</Hit_def>
+  <Hit_accession>CAE43395</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.129481</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>479</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYV-QVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>VEIKYELAMLYERQGRIDQLERLLREVIALDPDHAHAYNALGYTLADRNQRLPEALDLITQALELSPEDPFILDSMGWVKFRMGEPSAAIEYLKRAYALRPE</Hsp_hseq>
+      <Hsp_midline>VE+   L + Y + G +D+   LL   IA  PD+      LG T   + Q+   A+ L+ +  E +P +  +   +G     +G    AI+  K A  LRP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|495471106|ref|WP_008195795.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Labrenzia alexandrii] &gt;gi|222440222|gb|EEE46901.1| polyphosphate kinase [Labrenzia alexandrii DFL-11]</Hit_def>
+  <Hit_accession>WP_008195795</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.167145</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>530</Hsp_hit-from>
+      <Hsp_hit-to>699</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG--LTYVQV----QKYDLAVP---LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>FLAVSPVNLRKRMIEMTEAEIEHARAGRPAQIWMKMNSLVDPEIID--TLYKASQAGVQVDLVIRGICCLRPGIAGLSDNIRVKSIVGRFLEHSRIFCFGNGHGLPSPEAHVYIGSADLMPRNIDRRVEVLVPLTTPTVHEQVLDQIMVA-NLKDNQQ------SWRILSNGSHERIEP</Hsp_hseq>
+      <Hsp_midline>F +   VN   R +   +  I HA+AGR ++  + +  + D +  D         A V+   V RG   L   IA   DNI+V +++G  L + ++      + L  P   + +  A+  P N + R  + V L      ++ +D   +A  L+ N+       ++     GSHE   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|489907892|ref|WP_003811313.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bordetella] &gt;gi|33592426|ref|NP_880070.1| hypothetical protein BP1304 [Bordetella pertussis Tohama I] &gt;gi|412338013|ref|YP_006966768.1| hypothetical protein BN112_0686 [Bordetella bronchiseptica 253] &gt;gi|33572071|emb|CAE41600.1| conserved hypothetical protein [Bordetella pertussis Tohama I] &gt;gi|33576297|emb|CAE33376.1| conserved hypothetical protein [Bordetella bronchiseptica RB50] &gt;gi|332381842|gb|AEE66689.1| hypothetical protein BPTD_1294 [Bordetella pertussis CS] &gt;gi|401777837|emb|CCJ63179.1| conserved hypothetical protein [Bordetella pertussis 18323] &gt;gi|408447343|emb|CCJ59016.1| conserved hypothetical protein [Bordetella bronchiseptica MO149] &gt;gi|408767847|emb|CCJ52604.1| conserved hypothetical protein [Bordetella bronchiseptica 253] &gt;gi|410565512|emb|CCN23069.1| conserved hypothetical protein [Bordetella bronchiseptica 1289] &gt;gi|410569901|emb|CCN18026.1| conserved hypothetical protein [Bordetella bronchiseptica MO211] &gt;gi|410587740|emb|CCN02787.1| conserved hypothetical protein [Bordetella bronchiseptica Bbr77] &gt;gi|563509095|gb|ETA65654.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-11] &gt;gi|565690262|gb|ETH00252.1| tetratricopeptide repeat protein [Bordetella pertussis 2250905] &gt;gi|565692710|gb|ETH02548.1| tetratricopeptide repeat protein [Bordetella pertussis 2356847] &gt;gi|565699320|gb|ETH08848.1| tetratricopeptide repeat protein [Bordetella pertussis 2371640] &gt;gi|565703609|gb|ETH13040.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-SEAT-0006] &gt;gi|565707038|gb|ETH16441.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-SEAT-0007] &gt;gi|565709611|gb|ETH18978.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-13] &gt;gi|565715831|gb|ETH25009.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-15] &gt;gi|565718632|gb|ETH27712.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-20] &gt;gi|565722263|gb|ETH31271.1| tetratricopeptide repeat protein [Bordetella pertussis CHLA-26] &gt;gi|565728464|gb|ETH37278.1| tetratricopeptide repeat protein [Bordetella pertussis H897] &gt;gi|565732204|gb|ETH40960.1| tetratricopeptide repeat protein [Bordetella pertussis H918] &gt;gi|565733606|gb|ETH42347.1| tetratricopeptide repeat protein [Bordetella pertussis H939] &gt;gi|565739315|gb|ETH47988.1| tetratricopeptide repeat protein [Bordetella pertussis H921] &gt;gi|565744606|gb|ETH53206.1| tetratricopeptide repeat protein [Bordetella pertussis H973] &gt;gi|565747441|gb|ETH55997.1| tetratricopeptide repeat protein [Bordetella pertussis I002] &gt;gi|565750756|gb|ETH59261.1| tetratricopeptide repeat protein [Bordetella pertussis I036] &gt;gi|565756471|gb|ETH64926.1| tetratricopeptide repeat protein [Bordetella pertussis I176] &gt;gi|565759786|gb|ETH68184.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHLA-0006] &gt;gi|565762602|gb|ETH70976.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHLA-0011] &gt;gi|565767224|gb|ETH75514.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0008] &gt;gi|565769162|gb|ETH77388.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0016] &gt;gi|565776339|gb|ETH84424.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0017] &gt;gi|565780838|gb|ETH88790.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0018] &gt;gi|565781484|gb|ETH89421.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0019] &gt;gi|565785775|gb|ETH93592.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOC-0021] &gt;gi|565790941|gb|ETH98690.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CHOM-0012] &gt;gi|565795589|gb|ETI03254.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-SEAT-0004] &gt;gi|565801320|gb|ETI08777.1| tetratricopeptide repeat protein [Bordetella pertussis STO1-CNMC-0004] &gt;gi|620690549|gb|KAK50679.1| tetratricopeptide repeat protein [Bordetella bronchiseptica OSU054] &gt;gi|620701961|gb|KAK61330.1| tetratricopeptide repeat protein [Bordetella bronchiseptica 980-2] &gt;gi|620716878|gb|KAK75789.1| tetratricopeptide repeat protein [Bordetella bronchiseptica CA90 BB02] &gt;gi|620717161|gb|KAK76058.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MO211] &gt;gi|627860321|gb|KCV19351.1| tetratricopeptide repeat protein [Bordetella pertussis B200] &gt;gi|627865565|gb|KCV23880.1| tetratricopeptide repeat protein [Bordetella pertussis H934] &gt;gi|627869482|gb|KCV27288.1| tetratricopeptide repeat protein [Bordetella bronchiseptica 00-P-2730] &gt;gi|627881248|gb|KCV37558.1| tetratricopeptide repeat protein [Bordetella bronchiseptica 00-P-2796] &gt;gi|627885156|gb|KCV41128.1| tetratricopeptide repeat protein [Bordetella bronchiseptica 345] &gt;gi|627894876|gb|KCV50066.1| tetratricopeptide repeat protein [Bordetella bronchiseptica 3E44] &gt;gi|627900163|gb|KCV55049.1| tetratricopeptide repeat protein [Bordetella bronchiseptica 7E71] &gt;gi|627906669|gb|KCV60971.1| tetratricopeptide repeat protein [Bordetella bronchiseptica 980] &gt;gi|633377000|gb|KDB64017.1| tetratricopeptide repeat protein [Bordetella bronchiseptica B18-5 (C3)] &gt;gi|633383731|gb|KDB70394.1| tetratricopeptide repeat protein [Bordetella bronchiseptica A1-7] &gt;gi|633386971|gb|KDB73478.1| tetratricopeptide repeat protein [Bordetella bronchiseptica B20-10725633] &gt;gi|633386980|gb|KDB73483.1| tetratricopeptide repeat protein [Bordetella bronchiseptica CA90 BB1334] &gt;gi|633399821|gb|KDB85745.1| tetratricopeptide repeat protein [Bordetella bronchiseptica D756] &gt;gi|633407744|gb|KDB93368.1| tetratricopeptide repeat protein [Bordetella bronchiseptica D989] &gt;gi|633411733|gb|KDB97132.1| tetratricopeptide repeat protein [Bordetella bronchiseptica E010] &gt;gi|633413001|gb|KDB98305.1| tetratricopeptide repeat protein [Bordetella bronchiseptica D993] &gt;gi|633422827|gb|KDC07494.1| tetratricopeptide repeat protein [Bordetella bronchiseptica E012] &gt;gi|633427008|gb|KDC11490.1| tetratricopeptide repeat protein [Bordetella bronchiseptica E013] &gt;gi|633434652|gb|KDC18771.1| tetratricopeptide repeat protein [Bordetella bronchiseptica E014] &gt;gi|633437182|gb|KDC21200.1| tetratricopeptide repeat protein [Bordetella bronchiseptica F-1] &gt;gi|633440682|gb|KDC24514.1| tetratricopeptide repeat protein [Bordetella bronchiseptica F2] &gt;gi|633448385|gb|KDC31803.1| tetratricopeptide repeat protein [Bordetella bronchiseptica F4563] &gt;gi|633456333|gb|KDC39277.1| tetratricopeptide repeat protein [Bordetella bronchiseptica M435/02/3] &gt;gi|633459654|gb|KDC42388.1| tetratricopeptide repeat protein [Bordetella bronchiseptica GA96-01] &gt;gi|633460429|gb|KDC43127.1| tetratricopeptide repeat protein [Bordetella bronchiseptica M85/00/2] &gt;gi|633483947|gb|KDC59088.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD595] &gt;gi|633493824|gb|KDC68309.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD591] &gt;gi|633494208|gb|KDC68644.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD624] &gt;gi|633504843|gb|KDC78723.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD635] &gt;gi|633505393|gb|KDC79260.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD632] &gt;gi|633512869|gb|KDC86478.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD665] &gt;gi|633514539|gb|KDC88118.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD668] &gt;gi|633524517|gb|KDC97839.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD675] &gt;gi|633529103|gb|KDD02282.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD698] &gt;gi|633537300|gb|KDD10277.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD681] &gt;gi|633540557|gb|KDD13433.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD707] &gt;gi|633542690|gb|KDD15514.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD731] &gt;gi|633550448|gb|KDD23020.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD782] &gt;gi|633559444|gb|KDD31709.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD839] &gt;gi|633567413|gb|KDD39394.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD901] &gt;gi|633575692|gb|KDD47416.1| tetratricopeptide repeat protein [Bordetella bronchiseptica OSU095] &gt;gi|633581043|gb|KDD52528.1| tetratricopeptide repeat protein [Bordetella bronchiseptica RB630] &gt;gi|633581724|gb|KDD53193.1| tetratricopeptide repeat protein [Bordetella bronchiseptica OSU553] &gt;gi|633586220|gb|KDD57511.1| tetratricopeptide repeat protein [Bordetella bronchiseptica SO10328] &gt;gi|633964174|gb|KDD82775.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD678] &gt;gi|633971037|gb|KDD89524.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MO275] &gt;gi|633973735|gb|KDD92182.1| tetratricopeptide repeat protein [Bordetella bronchiseptica MBORD762] &gt;gi|633983302|gb|KDE01445.1| tetratricopeptide repeat protein [Bordetella bronchiseptica SBL-F6116] &gt;gi|673491963|gb|KFJ58392.1| tetratricopeptide repeat family protein [Bordetella bronchiseptica] &gt;gi|719635996|gb|AIW92849.1| hypothetical protein B1917_2548 [Bordetella pertussis B1917] &gt;gi|719638981|gb|AIW95226.1| hypothetical protein B1920_1300 [Bordetella pertussis B1920] &gt;gi|742222929|gb|AJB27345.1| hypothetical protein Q425_27770 [Bordetella pertussis 137] &gt;gi|800852611|emb|CFO85034.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801261344|emb|CFB56567.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801358747|emb|CFD96647.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801362665|emb|CFE04022.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801738401|emb|CFL87219.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801742458|emb|CFM03691.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801753437|emb|CFL98472.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801763803|emb|CFM07556.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801768859|emb|CFM13451.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801772456|emb|CFM17542.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801782958|emb|CFM31397.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801786800|emb|CFM35598.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801796678|emb|CFM50531.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801801015|emb|CFM50361.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801806476|emb|CFM58106.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801810404|emb|CFM63768.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801815535|emb|CFM59816.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801824986|emb|CFM77990.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801828749|emb|CFM89117.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801833339|emb|CFM89411.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801837246|emb|CFN08773.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801848739|emb|CFM99679.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801852688|emb|CFN14575.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801857042|emb|CFN17425.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801860973|emb|CFN26183.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801865817|emb|CFN26399.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801869589|emb|CFN32125.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801874259|emb|CFN39797.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801884057|emb|CFN45109.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801888357|emb|CFN55769.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801893369|emb|CFN54791.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801896585|emb|CFN59696.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801902033|emb|CFN61381.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801906742|emb|CFN61147.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801911564|emb|CFN62398.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801914836|emb|CFN74716.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801930441|emb|CFN78631.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801934279|emb|CFN95376.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801938287|emb|CFN99023.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801942385|emb|CFN99823.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801946469|emb|CFO02711.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801951904|emb|CFO08045.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801957250|emb|CFO09893.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801969475|emb|CFO23702.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801980868|emb|CFO34577.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801985464|emb|CFO31305.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801989338|emb|CFO32810.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801994602|emb|CFO34189.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|801998273|emb|CFO44259.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802003739|emb|CFO42181.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802007585|emb|CFO64369.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802012521|emb|CFO65776.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802016296|emb|CFO80337.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802021587|emb|CFO77159.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802028656|emb|CFP14622.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802033451|emb|CFP11091.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802038636|emb|CFP04085.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802041512|emb|CFP17817.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802046714|emb|CFP14363.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802056326|emb|CFP31922.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802061086|emb|CFP37043.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802065352|emb|CFP45538.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802139024|emb|CFP46472.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802146460|emb|CFP47514.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802153357|emb|CFP44755.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802161409|emb|CFP56352.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802168560|emb|CFP62681.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802176597|emb|CFP63503.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802183000|emb|CFP64731.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802195208|emb|CFP72725.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802209496|emb|CFP73445.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802216565|emb|CFP76888.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802753791|emb|CFT82617.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802799098|emb|CFU10301.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802808145|emb|CFU11686.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802812014|emb|CFU15472.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802834793|emb|CFU37671.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802838114|emb|CFU41616.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802845467|emb|CFU51309.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802850992|emb|CFU51892.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802860329|emb|CFU59235.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802864679|emb|CFU60023.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|802875897|emb|CFU69898.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803007541|emb|CFV99028.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803015964|emb|CFV95416.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803032675|emb|CFW09210.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803043975|emb|CFW17252.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803057421|emb|CFW26121.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803064338|emb|CFW28678.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803076247|emb|CFW32322.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803084264|emb|CFW48870.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803098917|emb|CFW45269.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803107294|emb|CFW45767.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803121429|emb|CFW55512.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803130215|emb|CFW65557.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803172652|emb|CFW89070.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|803180042|emb|CFW91729.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805095330|emb|CRD72542.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805100736|emb|CRD67092.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805103353|emb|CRD75119.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805107474|emb|CRD78649.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805111717|emb|CRD80208.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805116276|emb|CRD86132.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805120794|emb|CRD88250.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805125514|emb|CRD93621.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805128927|emb|CRE26813.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805134864|emb|CRE17578.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805139517|emb|CRE07855.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805142940|emb|CRE24605.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805149037|emb|CRE10855.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805152429|emb|CRE26971.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805157305|emb|CRE28991.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805162123|emb|CRE28841.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805167047|emb|CRE31360.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805172051|emb|CRE31977.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805177049|emb|CRE32458.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|805182248|emb|CRE33280.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811266583|emb|CPQ48583.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811275862|emb|CPP87687.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811284375|emb|CPI84817.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811292674|emb|CPO29025.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811301173|emb|CPJ17532.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811321793|emb|CPL55136.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811329005|emb|CPN28032.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811338736|emb|CPK40076.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811345978|emb|CPN98736.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811355517|emb|CPM19602.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811362782|emb|CPP03229.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811371306|emb|CPQ06790.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811379621|emb|CPO16993.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811387719|emb|CPN73946.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811402117|emb|CPK62076.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811410573|emb|CPL71450.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811419189|emb|CPQ89959.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811425249|emb|CPJ71136.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811433668|emb|CPO17496.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811439671|emb|CPN61624.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811455839|emb|CPP76830.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811463903|emb|CPN19491.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811470000|emb|CPM75090.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811483837|emb|CPQ08827.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811493231|emb|CPK19248.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|811497923|emb|CPJ36605.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|821322191|emb|CRI71596.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897344870|emb|CPP82746.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897350151|emb|CPP32029.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897355597|emb|CPK25881.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897360300|emb|CPL16241.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897365517|emb|CPQ63428.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897371143|emb|CPJ45786.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897374739|emb|CPJ34853.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897379285|emb|CPK12679.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897385337|emb|CPP11214.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897390600|emb|CPM75494.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897393828|emb|CPP17260.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897400467|emb|CPO70947.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897404640|emb|CPK59268.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897408200|emb|CPN06332.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897418174|emb|CPQ70385.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897422350|emb|CPM95576.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897427002|emb|CPL56087.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897430635|emb|CPJ62928.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897436034|emb|CPJ81849.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897440575|emb|CPK56224.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897445633|emb|CPL55137.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897449824|emb|CPL77689.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897454316|emb|CPO05623.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897459111|emb|CPQ59679.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897475153|emb|CPJ61823.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897478629|emb|CPQ10349.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897483365|emb|CPL37937.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897488023|emb|CPP32938.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897493506|emb|CPR04379.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897497992|emb|CPP56731.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897502557|emb|CPQ84863.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897506618|emb|CPJ70170.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897511518|emb|CPJ50432.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897515577|emb|CPQ86104.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897520308|emb|CPL41720.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897524378|emb|CPQ31533.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897528902|emb|CPI75053.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897534194|emb|CPN53979.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897538540|emb|CPM60641.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897542033|emb|CPL77774.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897547530|emb|CPJ27255.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897550851|emb|CPO70399.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897555660|emb|CPQ60924.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897560904|emb|CPL26906.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897565922|emb|CPQ12651.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897570458|emb|CPL31139.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897575073|emb|CPQ81090.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897579295|emb|CPJ77860.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897584136|emb|CPL72303.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897588946|emb|CPO88703.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897597983|emb|CPR00260.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897602483|emb|CPJ68687.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897606646|emb|CPQ70958.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897611287|emb|CPL10662.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897615381|emb|CPN90793.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897619134|emb|CPJ83134.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897624768|emb|CPL73419.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897629374|emb|CPI87952.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897633708|emb|CPQ25353.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897637966|emb|CPL47285.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897642311|emb|CPK51197.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897646939|emb|CPM97856.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897651274|emb|CPN70828.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897655249|emb|CPN97722.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897659882|emb|CPQ24538.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897664119|emb|CPQ83441.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897668444|emb|CPO13027.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897672774|emb|CPN88264.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897676820|emb|CPJ63930.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897680538|emb|CPO41416.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897685611|emb|CPM15020.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897690045|emb|CPM10617.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897693946|emb|CPN91938.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897698714|emb|CPQ90121.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897702552|emb|CPN35263.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897707151|emb|CPP26550.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897711378|emb|CPJ63889.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897715334|emb|CPJ81477.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897719706|emb|CPN13374.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897724249|emb|CPO66008.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897728325|emb|CPJ51124.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897732881|emb|CPQ97348.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897737078|emb|CPJ25732.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897740993|emb|CPL29213.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897745303|emb|CPJ78125.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897749694|emb|CPQ45932.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897753799|emb|CPL59454.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897758004|emb|CPJ23741.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897762128|emb|CPQ20500.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897766440|emb|CPP23323.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897770584|emb|CPQ25871.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897774719|emb|CPQ94973.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897778835|emb|CPQ18985.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897782952|emb|CPO73191.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897787015|emb|CPP49049.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897791157|emb|CPO52875.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897795375|emb|CPL15940.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897806554|emb|CPL75914.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897810475|emb|CPN36373.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897814484|emb|CPN71529.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897818560|emb|CPQ21876.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897822866|emb|CPN07974.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897826912|emb|CPK69756.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897830995|emb|CPJ15812.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897835250|emb|CPK84122.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897839298|emb|CPJ52862.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897843208|emb|CPO60004.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897848416|emb|CPO83062.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897850856|emb|CPP58032.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897856449|emb|CPL06849.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897858953|emb|CPK94029.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897862821|emb|CPQ97810.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897868264|emb|CPO96373.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897872092|emb|CPL14685.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897876081|emb|CPN37176.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897879877|emb|CPK96077.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897883942|emb|CPL38394.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897886424|emb|CPQ98073.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|897898341|emb|CPP49870.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|937375169|gb|ALH49899.1| hypothetical protein B1838_2549 [Bordetella pertussis] &gt;gi|937378731|gb|ALH53359.1| hypothetical protein B1865_2546 [Bordetella pertussis] &gt;gi|937381156|gb|ALH55737.1| hypothetical protein B3405_1298 [Bordetella pertussis] &gt;gi|937385728|gb|ALH60283.1| hypothetical protein B3582_2546 [Bordetella pertussis] &gt;gi|937388105|gb|ALH62659.1| hypothetical protein B3585_1296 [Bordetella pertussis] &gt;gi|937391566|gb|ALH66119.1| hypothetical protein B3640_1296 [Bordetella pertussis] &gt;gi|937395033|gb|ALH69585.1| hypothetical protein B3658_1296 [Bordetella pertussis] &gt;gi|937402010|gb|ALH73043.1| hypothetical protein B3913_1297 [Bordetella pertussis] &gt;gi|937405472|gb|ALH76504.1| hypothetical protein B3921_1297 [Bordetella pertussis] &gt;gi|937409973|gb|ALI17867.1| hypothetical protein B3629_1019 [Bordetella pertussis] &gt;gi|937414753|gb|ALI22646.1| hypothetical protein B3621_2543 [Bordetella pertussis] &gt;gi|1001134346|emb|CZQ34965.1| Uncharacterized enzyme of heme biosynthesis [Bordetella pertussis] &gt;gi|1119059953|emb|SHR70733.1| Uncharacterized enzyme of heme biosynthesis [Mycobacterium abscessus subsp. abscessus] &gt;gi|1141756768|gb|AQB16413.1| hypothetical protein WU05_13090 [Bordetella pertussis] &gt;gi|1141879069|gb|AQC38681.1| hypothetical protein WU39_06580 [Bordetella pertussis] &gt;gi|1153105776|gb|AQW64218.1| hypothetical protein B2G54_06630 [Bordetella pertussis] &gt;gi|1175776498|gb|OQW10024.1| hypothetical protein A6J34_13205 [Bordetella pertussis]</Hit_def>
+  <Hit_accession>CAE41600</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.180272</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>TELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFR-LGVALDNLG</Hsp_qseq>
+      <Hsp_hseq>TERLEAMLAQGTDNMLLRFTLGKTYAEHEQFDAALPHLRAALDFDPT-YSVAWKWLGKTLQGQG</Hsp_hseq>
+      <Hsp_midline>TE LE  +A   DN+ +   LG TY + +++D A+P L    + +P  ++V ++ LG  L   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|505192119|ref|WP_015379221.1|</Hit_id>
+  <Hit_def>hypothetical protein [Serratia marcescens] &gt;gi|445214539|gb|AGE20209.1| hypothetical protein SMWW4_v1c44220 [Serratia marcescens WW4]</Hit_def>
+  <Hit_accession>AGE20209</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.185884</Hsp_evalue>
+      <Hsp_query-from>57</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>AKAGRYSEAVVMLEQVYDADAFDVEVAL-HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLA</Hsp_qseq>
+      <Hsp_hseq>AKSGRYQEAIDMLNTLQNPN---TAVALNYRGYATRKLGRTDEGIGYYLKSVALDPKYPKVREYLGEAYMLKGRPDLA</Hsp_hseq>
+      <Hsp_midline>AK+GRY EA+ ML  + + +     VAL + G A  K G  D G     +S+A  P   KV   LG  Y+   + DLA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|49612670|emb|CAG76120.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>CAG76120</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.224591</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAI---AYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>AQTRLQLGLAYLAHNNLDAARQNLEKAVAIAPQDYRTQLGMALYEQRIGENRLAEQRYQHVLNRVPENGSVMNNYGAFLCSLGQYVAAQRQFSAAAQL-PDYSQVADALENAGYCFFNAGQTEDA</Hsp_hseq>
+      <Hsp_midline> +  L LG+AY+    +D   + LE+++A AP + +    + L   ++ +  LA      V    P N +V    G  L +LG++  A   F  A  L P+  +V  A+    Y +   G  E+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|736660425|ref|WP_034667549.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Cellulophaga sp. E6(2014)] &gt;gi|694992326|gb|KGK30121.1| tetratricopeptide repeat protein [Cellulophaga sp. E6(2014)]</Hit_def>
+  <Hit_accession>KGK30121</Hit_accession>
+  <Hit_len>1005</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.254452</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>YSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSI--ADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKV-AEANPVNFNVRFRLGVALDNLGRFDEAIDSF-KIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>YAGANQRFDQITDQKVLEEKLSYYQADLNFKLGKFEEAIALAKQQMQRADRQEKSELSKIIGESYFNLNQYENAVPYLLDYQGKSGKFSNTDYYFLGYSYYKQGDYTNAIQQFNKIIGGANSVSQNAYYHLAECYLKLDKKSEALNAFRNASQME</Hsp_hseq>
+      <Hsp_midline>Y+ A    +Q+ D    + +++ +      K G  +    L ++ +  AD  +  +++ ++G +Y  + +Y+ AVP L+    ++   +    + LG +    G +  AI  F KI  G        +  +A  Y ++    EAL  F+ A++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|655875469|ref|WP_028965715.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Sphingomonas phyllosphaerae]</Hit_def>
+  <Hit_accession>WP_028965715</Hit_accession>
+  <Hit_len>728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.264215</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>538</Hsp_hit-from>
+      <Hsp_hit-to>668</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAV---------VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG--LTYVQVQKYDLAVPL-------LVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIA</Hsp_qseq>
+      <Hsp_hseq>DAEIAHVRAGRAGSIWAKMNSLVDPIIIEKLYEASCAGVEIDL-----------IVRGICCLRPKVPGMSENIRVKSVVGRFLEHSRIAAFGNGAPLPNDGAVVYISSADWMPRNFDRRVEYLLPLENETVHDQVLDQVMVA</Hsp_hseq>
+      <Hsp_midline>D  I+H +AGR              +++E++Y+A    VE+ L           + RG   L   +    +NI+V +V+G  L + ++  +    PL        +  A+  P NF+ R    + L+N    D+ +D   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|810874564|ref|WP_046353819.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Janthinobacterium sp. B9-8] &gt;gi|984919227|gb|AMC36365.1| RNA degradosome polyphosphate kinase [Janthinobacterium sp. B9-8]</Hit_def>
+  <Hit_accession>WP_046353819</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.289349</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>508</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAV---------VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>WQAPFTLQPNI--LKYIDKEIAHAKAGRKSVIIAKMNALLEPTVIEKLYEAS--QAGVTIHL---------IVRGVCALRPGIPGLSDNIRVRSIVG</Hsp_hseq>
+      <Hsp_midline>+++ F++  +I  + Y DK I+HAKAGR S  +          ++E++Y+A      V +HL         + RG   L   I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|736661554|ref|WP_034668664.1|</Hit_id>
+  <Hit_def>hypothetical protein [Cellulophaga sp. E6(2014)] &gt;gi|694991269|gb|KGK29077.1| hypothetical protein EL45_17615 [Cellulophaga sp. E6(2014)]</Hit_def>
+  <Hit_accession>KGK29077</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.294401</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEG--KVHR</Hsp_qseq>
+      <Hsp_hseq>QGFQLLETGKFEEAETFFKSYLESNPDNKTAKLCYGRAVGLSGEPKLANTIFKGLLEEYPGDFEIQINYNESFLWDREFVAAKPLYKKLVAENPDNFGAVLGYANTLSNLKEYPQALEMVNRAIAIQPENGSAKVSR</Hsp_hseq>
+      <Hsp_midline>+G    + G++ EA    +   +++  +    L  G A   +G       + +  + + P + ++      +++  +++  A PL  K+   NP NF         L NL  + +A++    A+ ++P  G  KV R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|917561782|ref|WP_052157172.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pseudomonas aeruginosa] &gt;gi|956723759|gb|KSL72989.1| hypothetical protein APA58_08425 [Pseudomonas aeruginosa] &gt;gi|956840879|gb|KSM87787.1| hypothetical protein APA73_07325 [Pseudomonas aeruginosa] &gt;gi|1178108847|gb|ORE39252.1| hypothetical protein BKN47_08865 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_052157172</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.323933</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>577</Hsp_hit-from>
+      <Hsp_hit-to>734</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>RQGRTQEATTQYREALRLNPYFVPARVNLVTLYSAAGNSVAAERVLRDGLALDGLPSGDHGNLAYMLALLLVEHGTPMEGLEWMEIAAQQLPGNSRVRYNQGLLLAQLQRRDEALQVLRKGLEESPEDPDLLYALIYLHTAAGQLEQARGYVQRLREV</Hsp_hseq>
+      <Hsp_midline>+ GR  EA     +    + + V   ++L   Y   G       +L   +A     + D+  +A +L L  V+       +  +   A+  P N  VR+  G+ L  L R DEA+   +  L   P +  +  A+ Y +   G  E+A  + ++  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|909641912|ref|WP_049885373.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pseudomonas aeruginosa] &gt;gi|574043435|gb|ETV20099.1| hypothetical protein Q048_05845 [Pseudomonas aeruginosa BWHPSA043]</Hit_def>
+  <Hit_accession>WP_049885373</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.326867</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>577</Hsp_hit-from>
+      <Hsp_hit-to>734</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>RQGRTQEATTQYREALRLNPYFVPARVNLVTLYSAAGNSVAAERVLRDGLALDGLPSGDHGNLAYMLALLLVEHGTPMEGLEWMEIAAQQLPGNSRVRYNQGLLLAQLQRRDEALQVLRKGLEESPEDPDLLYALIYLHTAAGQLEQARGYVQRLREV</Hsp_hseq>
+      <Hsp_midline>+ GR  EA     +    + + V   ++L   Y   G       +L   +A     + D+  +A +L L  V+       +  +   A+  P N  VR+  G+ L  L R DEA+   +  L   P +  +  A+ Y +   G  E+A  + ++  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|725656923|gb|KHE34320.1|</Hit_id>
+  <Hit_def>hypothetical protein LH31_14680 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>KHE34320</Hit_accession>
+  <Hit_len>766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.330688</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>590</Hsp_hit-from>
+      <Hsp_hit-to>747</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>RQGRTQEATTQYREALRLNPYFVPARVNLVTLYSAAGNSVAAERVLRDGLALDGLPSGDHGNLAYMLALLLVEHGTPMEGLEWMEIAAQQLPGNSRVRYNQGLLLAQLQRRDEALQVLRKGLEESPEDPDLLYALIYLHTAAGQLEQARGYVQRLREV</Hsp_hseq>
+      <Hsp_midline>+ GR  EA     +    + + V   ++L   Y   G       +L   +A     + D+  +A +L L  V+       +  +   A+  P N  VR+  G+ L  L R DEA+   +  L   P +  +  A+ Y +   G  E+A  + ++  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|759420491|ref|WP_043144289.1|</Hit_id>
+  <Hit_def>MULTISPECIES: RNA degradosome polyphosphate kinase [Rhodobacteraceae] &gt;gi|737077279|gb|KHQ51730.1| Polyphosphate kinase [Mameliella alba] &gt;gi|1061357574|gb|ODM47480.1| RNA degradosome polyphosphate kinase [Ruegeria sp. PBVC088] &gt;gi|1086936459|emb|SDC81467.1| polyphosphate kinase [Mameliella alba]</Hit_def>
+  <Hit_accession>WP_043144289</Hit_accession>
+  <Hit_len>724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.399719</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>534</Hsp_hit-from>
+      <Hsp_hit-to>602</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DQEIEHAKAGRPAQIWIKMNSLIEPDMIDALYRASQG--GVKVDCVIRGICGLRPGIKGLSDNIRVKSIVG</Hsp_hseq>
+      <Hsp_midline>D+ I HAKAGR ++  + +  + + D  D       G   VK   V RG   L   I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|763171235|ref|WP_044050887.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Planktomarina temperata] &gt;gi|671755446|gb|AII88321.1| polyphosphate kinase Ppk [Planktomarina temperata RCA23]</Hit_def>
+  <Hit_accession>WP_044050887</Hit_accession>
+  <Hit_len>722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.417961</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>536</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>HAKAGKPAAIWVKLNSLIDAEVIDALYAA--GQAGVKISLVIRGICGLRPGVAGLSENIRVKSVIG</Hsp_hseq>
+      <Hsp_midline>HAKAG+ +   V L  + DA+  D   A   G A VK   V RG   L   +A   +NI+V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1079335036|ref|WP_070136539.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pseudomonas aeruginosa] &gt;gi|1078490086|gb|OFC13852.1| hypothetical protein AN467_24650 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>WP_070136539</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.603151</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>577</Hsp_hit-from>
+      <Hsp_hit-to>734</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>RQGRTQEATTQYREALRLNPYFVPARVNLVTLYSAAGNSVAAERVLRDGLALDGLPSGDHGNLAYMLALLLVEHGTPMEGLEWMEIAAQQLPGNSRVRYNQGLLLAQLQRRDEALQVLRKGLEESPEDPDLLYALIYLHTAAGQLEQARGYVHRLREV</Hsp_hseq>
+      <Hsp_midline>+ GR  EA     +    + + V   ++L   Y   G       +L   +A     + D+  +A +L L  V+       +  +   A+  P N  VR+  G+ L  L R DEA+   +  L   P +  +  A+ Y +   G  E+A  +  +  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|522047912|ref|WP_020559121.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Thiothrix flexilis]</Hit_def>
+  <Hit_accession>WP_020559121</Hit_accession>
+  <Hit_len>707</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.613624</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>498</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>GLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>GLGRMKGLKCLLDSPFRLHNSILTKI------DREIIHARAGK--KALIMARMNALIEPQVIEALYHASNAGVKIELIVRGICCLRPGIIGVSDNIRVRSVMG</Hsp_hseq>
+      <Hsp_midline>GL   K L   +   FR   S+   I      D+ I HA+AG+  +A++M       +   +E   H   A VK   + RG   L   I    DNI+V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|504943699|ref|WP_015130801.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Calothrix sp. PCC 7507] &gt;gi|427352280|gb|AFY35004.1| Polyphosphate kinase [Calothrix sp. PCC 7507]</Hit_def>
+  <Hit_accession>WP_015130801</Hit_accession>
+  <Hit_len>717</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.620564</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>496</Hsp_hit-from>
+      <Hsp_hit-to>616</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LYTHYGL-SVAKKLGANMVDAFR--SAFSVNDDIRQ-----VYYRDK-------GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>LYTDVGLLSCREDLGADLTDLFNYLTGYSYQESYRKLLVSPINMRDRIIALIQREIEHSKNGKKGQIIAKMNSLVDPQIIATLYAA--SQAGVQIDLIVRGVCCLRPGVAEVSENIRIISIIG</Hsp_hseq>
+      <Hsp_midline>LYT  GL S  + LGA++ D F   + +S  +  R+     +  RD+        I H+K G+  + +  +  + D        A     A V+   + RG   L   +A+  +NI++ +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|489718485|ref|WP_003622601.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Lactobacillus delbrueckii] &gt;gi|354690348|gb|EHE90296.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus CNCM I-1519] &gt;gi|659652841|emb|CDR72477.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus] &gt;gi|966625109|gb|ALT46906.1| polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus] &gt;gi|1132403697|gb|APV46934.1| RNA degradosome polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus]</Hit_def>
+  <Hit_accession>WP_003622601</Hit_accession>
+  <Hit_len>721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.632393</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR--DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IRQFIYEKINNEIAIAKAGRHAEIHMKMNSLSDPDV--IAKLYEASVAGVKIHLIVRGICCLKTEIPGVSDNIEVHSIVG</Hsp_hseq>
+      <Hsp_midline>IRQ  Y   +  I+ AKAGR++E  + +  + D D   +       +A VK   + RG   L+  I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|504377566|ref|WP_014564668.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Lactobacillus delbrueckii] &gt;gi|325125288|gb|ADY84618.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus 2038] &gt;gi|1029170588|gb|OAL41666.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus]</Hit_def>
+  <Hit_accession>WP_014564668</Hit_accession>
+  <Hit_len>721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.632393</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR--DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IRQFIYEKINNEIAIAKAGRHAEIHMKMNSLSDPDV--IAKLYEASVAGVKIHLIVRGICCLKTEIPGVSDNIEVHSIVG</Hsp_hseq>
+      <Hsp_midline>IRQ  Y   +  I+ AKAGR++E  + +  + D D   +       +A VK   + RG   L+  I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|489714641|ref|WP_003618771.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Lactobacillus delbrueckii] &gt;gi|354690711|gb|EHE90653.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus CNCM I-1632] &gt;gi|659651089|emb|CDR74666.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus] &gt;gi|971078122|emb|CUS16165.1| polyphosphate kinase 1 [Lactobacillus delbrueckii subsp. bulgaricus]</Hit_def>
+  <Hit_accession>WP_003618771</Hit_accession>
+  <Hit_len>721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.638112</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR--DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IRQFIYEKINNEIAIAKAGRHAEIHMKMNSLSDPDV--IAKLYEASVAGVKIHLIVRGICCLKTEIPGVSDNIEVHSIVG</Hsp_hseq>
+      <Hsp_midline>IRQ  Y   +  I+ AKAGR++E  + +  + D D   +       +A VK   + RG   L+  I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|499862954|ref|WP_011543688.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Lactobacillus delbrueckii] &gt;gi|103422727|emb|CAI97354.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus ATCC 11842 = JCM 1002] &gt;gi|948925132|gb|KRN39208.1| polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus ATCC 11842 = JCM 1002]</Hit_def>
+  <Hit_accession>WP_011543688</Hit_accession>
+  <Hit_len>721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.667487</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR--DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IRQFIYEKINNEIAIAKAGRHAEIHMKMNSLSDPDV--IAKLYEASVAGVKIHLIVRGICCLKTEIPGVSDNIEVHSIVG</Hsp_hseq>
+      <Hsp_midline>IRQ  Y   +  I+ AKAGR++E  + +  + D D   +       +A VK   + RG   L+  I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|499997335|ref|WP_011678053.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Lactobacillus delbrueckii] &gt;gi|116092953|gb|ABJ58106.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365]</Hit_def>
+  <Hit_accession>WP_011678053</Hit_accession>
+  <Hit_len>721</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.679611</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>591</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR--DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IRQFIYEKINNEIAIAKAGRHAEIHMKMNSLSDPDV--IAKLYEASVAGVKIHLIVRGICCLKTEIPGVSDNIEVHSIVG</Hsp_hseq>
+      <Hsp_midline>IRQ  Y   +  I+ AKAGR++E  + +  + D D   +       +A VK   + RG   L+  I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|788040550|ref|WP_045778316.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Methylococcaceae bacterium Sn10-6] &gt;gi|785927931|gb|KJV07484.1| polyphosphate kinase [Methylococcaceae bacterium Sn10-6]</Hit_def>
+  <Hit_accession>WP_045778316</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.759672</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>479</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>LYTHYGL-SVAKKLGANMVDAF----------------RSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>LYTDYGLFSCDKELGEDVRRVFAQLTSLGKVTRLNKLLQSPFSLHKGLLEKIERE--IEHAKNGKPAKIIMQVNAIVEEQL--IQAFYRASQAGVQIHLIVRGVCCLRPGIAGISDNIEVRAVIG</Hsp_hseq>
+      <Hsp_midline>LYT YGL S  K+LG ++   F                +S FS++  + +   R+  I HAK G+ ++ ++ +  + +     ++       A V+   + RG   L   IA   DNI+V  V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|516264564|ref|WP_017668527.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Sandarakinorhabdus sp. AAP62]</Hit_def>
+  <Hit_accession>WP_017668527</Hit_accession>
+  <Hit_len>728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.860003</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>524</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DEEIAHARAGRPAAIWVKLNSLVDAGI--IEKLYEASAAGVEIDLIVRGICCLKPGVPGLSDNIRVKSVIG</Hsp_hseq>
+      <Hsp_midline>D+ I+HA+AGR +   V L  + DA    +E       A V+   + RG   L+  +    DNI+V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|816201011|gb|KKJ78080.1|</Hit_id>
+  <Hit_def>polyphosphate kinase [Kiloniella litopenaei]</Hit_def>
+  <Hit_accession>KKJ78080</Hit_accession>
+  <Hit_len>708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.17295</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>524</Hsp_hit-from>
+      <Hsp_hit-to>637</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>ISHAKAGRYSEAVVMLEQVYDADAFDVEVALH-LGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG--LTYVQV----QKYDLAVP---LLVKVAEANPVNFNVRFRLGVALDN</Hsp_qseq>
+      <Hsp_hseq>IKHANAGKPAAIWIKVNSLVDADIID---ALYEASNAGVQIEIVARGICCLKAGIAGLSENIQVRSVVGRFLEHSRIFCFGNGHDLPSPDAKVYISSADLMPRNLDRRVEVMVPIEN</Hsp_hseq>
+      <Hsp_midline>I HA AG+ +   + +  + DAD  D   AL+    A V+   V RG   L+  IA   +NI+V +V+G  L + ++      +DL  P   + +  A+  P N + R  + V ++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|736661835|ref|WP_034668938.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Cellulophaga sp. E6(2014)] &gt;gi|694990927|gb|KGK28742.1| tetratricopeptide repeat protein [Cellulophaga sp. E6(2014)]</Hit_def>
+  <Hit_accession>KGK28742</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.31439</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>212</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>AKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVK---VAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>SKKMYKEALSAFDFAIISDDRFIGAYF-EKGKVLEKLGLYNEAIDNYETTITIEDPTSHAYLRIGKCHEKLGNEEMAKYYFYHTVHEDPLLDKGWLAITDFYYRLKNYDRAAYYISKAINIDSENPVYWKKSGKINAALQ---RYDEADFAFKQAVDFGNYELDTWLLWAFVNEKNENYESAIAILTQGKEFHPEEA</Hsp_hseq>
+      <Hsp_midline>+KK+    + AF  A   +D     Y+ +KG    K G Y+EA+   E     +       L +G  + K G  +        ++ + P   K    +   Y +++ YD A   + K   +   NPV +    ++  AL    R+DEA  +FK A+     E       A+  E+  ++E A+    +  E     A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.8752</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NKLEEAENMLDDLQQLDHRNEEIYIQRANIFSKKDDHLGAINLLQKALDLTDDGFDIYSLLGMEYLFMDDFEMAKESFMKCVEFDDEDYSSLYNVIYCFEFLEDFDGAIVYLNDYLEENPYSEVAWHQLGKQYFSKKMYKEALSAFDFAIISDDR</Hsp_hseq>
+      <Hsp_midline> +  EA  ML+ +   D  + E+ +     + K         LL++++    D   + ++LG+ Y+ +  +++A    +K  E +  +++  + +    + L  FD AI      L   P        +   Y     ++EAL  F  A   D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|494575995|ref|WP_007341556.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Neisseria bacilliformis] &gt;gi|327465456|gb|EGF11735.1| polyphosphate kinase [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>WP_007341556</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.33488</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>504</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>YQSPFTLHKMLLESIRRETG--HAKAGRPARIIAKLNSLIEPHI--IEALYEASAAGVQTDLIVRGMCALRPQVEGLSDNIRVRSIIG</Hsp_hseq>
+      <Hsp_midline>++S F+++  + +   R+ G  HAKAGR +  +  L  + +     +E       A V+T  + RG   L   +    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|550930651|ref|WP_022679101.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Sandarakinorhabdus limnophila]</Hit_def>
+  <Hit_accession>WP_022679101</Hit_accession>
+  <Hit_len>728</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.55618</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>524</Hsp_hit-from>
+      <Hsp_hit-to>592</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DEEIAHAKQGRPAAIWVKLNSLVDAGI--IEKLYEASAAGVEIDLIVRGICCLKPGVPGLSDNIRVKSVIG</Hsp_hseq>
+      <Hsp_midline>D+ I+HAK GR +   V L  + DA    +E       A V+   + RG   L+  +    DNI+V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1093999231|ref|WP_070996771.1|</Hit_id>
+  <Hit_def>hypothetical protein [Pseudomonas sp. 06C 126] &gt;gi|1092910666|gb|OHW36950.1| hypothetical protein BHC62_10235 [Pseudomonas sp. 06C 126]</Hit_def>
+  <Hit_accession>OHW36950</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.63441</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>470</Hsp_hit-from>
+      <Hsp_hit-to>532</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>RTTRYAEAKVLIEQAHQLNPEDPAVLDSLGWVNYRLGNLDEAERLLRQALERFPDQ-EVAAHLG</Hsp_hseq>
+      <Hsp_midline>+  RY+EA V++EQ +  +  D  V   LG    + G +D    LL +++   PD  +VA  LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|942110222|ref|WP_055305698.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Turicibacter sanguinis] &gt;gi|932931111|emb|CUO02786.1| Polyphosphate kinase [Turicibacter sanguinis]</Hit_def>
+  <Hit_accession>CUO02786</Hit_accession>
+  <Hit_len>694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.64502</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>515</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DREIKHAKAGKKAHIIAKMNGLYDKQM--IMKLYEASMAGVKIELIVRGVCCLRPQMKDISENITVRSIVG</Hsp_hseq>
+      <Hsp_midline>D+ I HAKAG+ +  +  +  +YD     +       +A VK   + RG   L   + D  +NI V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|942043323|ref|WP_055275111.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Turicibacter sanguinis] &gt;gi|932921158|emb|CUN54740.1| Polyphosphate kinase [Turicibacter sanguinis]</Hit_def>
+  <Hit_accession>CUN54740</Hit_accession>
+  <Hit_len>694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.68994</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>515</Hsp_hit-from>
+      <Hsp_hit-to>583</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DREIKHAKAGKKAHIIAKMNGLYDKQM--IMKLYEASMAGVKIELIVRGVCCLRPQMKDISENITVRSIVG</Hsp_hseq>
+      <Hsp_midline>D+ I HAKAG+ +  +  +  +YD     +       +A VK   + RG   L   + D  +NI V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|917327956|ref|WP_051934668.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Sphingomonas wittichii]</Hit_def>
+  <Hit_accession>WP_051934668</Hit_accession>
+  <Hit_len>723</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.92826</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>532</Hsp_hit-from>
+      <Hsp_hit-to>662</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG--LTYVQVQKY--DLAVP-----LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIA</Hsp_qseq>
+      <Hsp_hseq>DAEIDHARAGR--EAAIWAKMNSLVDPAIIEKLYRASAAGVQIDLIVRGICCLRPGVPGLSDNIRVKSVVGRFLEHSRIVCFGNGAALPNRDAKVLISSADWMPRNFDRRVEYLLPIENATVHAQVLDQVMVA</Hsp_hseq>
+      <Hsp_midline>D  I HA+AGR  EA +  +     D   +E       A V+   + RG   L   +    DNI+V +V+G  L + ++  +    A+P     +L+  A+  P NF+ R    + ++N     + +D   +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|896272567|ref|WP_049261289.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Neisseria bacilliformis]</Hit_def>
+  <Hit_accession>WP_049261289</Hit_accession>
+  <Hit_len>684</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.98177</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>504</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>YQSPFTLHKMLLEGIRRETG--HAKAGRPARIIAKLNSLIEPHI--IEALYEASAAGVQTDLIVRGMCALRPQVEGLSDNIRVRSIIG</Hsp_hseq>
+      <Hsp_midline>++S F+++  + +   R+ G  HAKAGR +  +  L  + +     +E       A V+T  + RG   L   +    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|497999650|ref|WP_010313806.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Synechococcus sp. CB0205]</Hit_def>
+  <Hit_accession>WP_010313806</Hit_accession>
+  <Hit_len>714</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.01296</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>490</Hsp_hit-from>
+      <Hsp_hit-to>610</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LYTHYGLSVAK-KLGANMVDAFR--SAFSVNDDIRQVYYRD------------KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>LYTDLGLLSARPELGQDLAELFNYLTGFSKQQDFRRLLVAPVSLRRRMQELIRREIEHAKAGQPAAIKAKMNALVDPRI--IALLYEASQAGVQVDLVVRGMCSLRPGLAGVSDNIRVSSVIG</Hsp_hseq>
+      <Hsp_midline>LYT  GL  A+ +LG ++ + F   + FS   D R++                + I HAKAG+ +     +  + D     + +      A V+   V RG   L   +A   DNI+V++V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1175528403|ref|WP_082071044.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Komagataeibacter xylinus] &gt;gi|775249162|dbj|GAN98440.1| polyphosphate kinase [Komagataeibacter xylinus NBRC 13693]</Hit_def>
+  <Hit_accession>GAN98440</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.12292</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>563</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>ISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IAHVQAGRPGQIWLKMNSLVDPDLIDRLYAA--SCAGVKITAVVRGICCLRPGVPGLSDNIKVKSIVG</Hsp_hseq>
+      <Hsp_midline>I+H +AGR  +  + +  + D D  D   A     A VK  AV RG   L   +    DNIKV +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|748158903|ref|WP_039732822.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Komagataeibacter intermedius] &gt;gi|775286837|dbj|GAN85801.1| polyphosphate kinase [Komagataeibacter intermedius TF2] &gt;gi|930249686|gb|KPH87710.1| polyphosphate kinase [Komagataeibacter intermedius AF2]</Hit_def>
+  <Hit_accession>WP_039732822</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.14204</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>563</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>ISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IAHVQAGRPGQIWLKMNSLVDPDLIDRLYAA--SCAGVKITAVVRGICCLRPGVPGLSDNIKVKSIVG</Hsp_hseq>
+      <Hsp_midline>I+H +AGR  +  + +  + D D  D   A     A VK  AV RG   L   +    DNIKV +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|737666827|ref|WP_035636421.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Lachnospiraceae bacterium ND2006]</Hit_def>
+  <Hit_accession>WP_035636421</Hit_accession>
+  <Hit_len>716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.34555</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>500</Hsp_hit-from>
+      <Hsp_hit-to>598</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>NMVDAFRSAFSVNDDI--------RQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>NMLSGYSEPISWNKLILAPHWLKDQFIYLIDREAEHAKNGREAHIIAKMNSICDLDI--IEALYRASAAGVKIDLIVRGICCLKVGVPGVSENITVRSIVG</Hsp_hseq>
+      <Hsp_midline>NM+  +    S N  I        + +Y  D+   HAK GR +  +  +  + D D   +E       A VK   + RG   L+  +    +NI V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1055950621|ref|WP_067492573.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Ferrovum sp. PN-J185] &gt;gi|1003314047|gb|KXW56172.1| polyphosphate kinase [Ferrovum sp. PN-J185]</Hit_def>
+  <Hit_accession>KXW56172</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.35496</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>510</Hsp_hit-from>
+      <Hsp_hit-to>650</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG--LTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP</Hsp_qseq>
+      <Hsp_hseq>FQSPFTLHPEL--IHAIQKEISIAQAGRQAHIIAKMNSLTEPSI--IQELYQASQAGVKVDLIVRGVCLLRPGVKNLSENIRVFSIIGRFLEHHRIFYFQHDVDETVYISSADWMERNFFRRIEVCVPIL---DNTIKKRVLNEGLKP</Hsp_hseq>
+      <Hsp_midline>F+S F+++ ++  ++   K IS A+AGR +  +  +  + +     ++       A VK   + RG  LL   + +  +NI+V +++G  L + ++  +   V   V ++ A+ +  N   R+ V +  L   D  I    +  GL+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|944184624|ref|WP_055673236.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Labrenzia alexandrii]</Hit_def>
+  <Hit_accession>WP_055673236</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.41052</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>530</Hsp_hit-from>
+      <Hsp_hit-to>677</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG--LTYVQV----QKYDLAVP---LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>HARAGRPAQIWMKMNSLVDPEIID--TLYKASQAGVQVDLVIRGICCLRPGIAGLSDNIRVKSIVGRFLEHSRIFCFGNGHGLPSPEAHVYIGSADLMPRNIDRRVEVLVPLTTPTVHEQVLDQIMVA-NLKDNQQ------SWRILSNGSHERIEP</Hsp_hseq>
+      <Hsp_midline>HA+AGR ++  + +  + D +  D         A V+   V RG   L   IA   DNI+V +++G  L + ++      + L  P   + +  A+  P N + R  + V L      ++ +D   +A  L+ N+       ++     GSHE   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|933282607|emb|CTQ74564.1|</Hit_id>
+  <Hit_def>Polyphosphate kinase [Labrenzia alexandrii]</Hit_def>
+  <Hit_accession>CTQ74564</Hit_accession>
+  <Hit_len>740</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.57797</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>552</Hsp_hit-from>
+      <Hsp_hit-to>699</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG--LTYVQV----QKYDLAVP---LLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>HARAGRPAQIWMKMNSLVDPEIID--TLYKASQAGVQVDLVIRGICCLRPGIAGLSDNIRVKSIVGRFLEHSRIFCFGNGHGLPSPEAHVYIGSADLMPRNIDRRVEVLVPLTTPTVHEQVLDQIMVA-NLKDNQQ------SWRILSNGSHERIEP</Hsp_hseq>
+      <Hsp_midline>HA+AGR ++  + +  + D +  D         A V+   V RG   L   IA   DNI+V +++G  L + ++      + L  P   + +  A+  P N + R  + V L      ++ +D   +A  L+ N+       ++     GSHE   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|489712999|ref|WP_003617136.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase, partial [Lactobacillus delbrueckii] &gt;gi|325684563|gb|EGD26724.1| polyphosphate kinase 1 [Lactobacillus delbrueckii subsp. lactis DSM 20072]</Hit_def>
+  <Hit_accession>WP_003617136</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>2.58978</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>511</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR--DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IRQFIYEKINNEIAIAKAGRHAEIHMKMNSLSDPDV--IAKLYEASAAGVKIHLIVRGICCLKTEIPGVSDNIEVHSIVG</Hsp_hseq>
+      <Hsp_midline>IRQ  Y   +  I+ AKAGR++E  + +  + D D   +        A VK   + RG   L+  I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|656120691|emb|CDR83996.1|</Hit_id>
+  <Hit_def>Polyphosphate kinase [Lactobacillus delbrueckii subsp. lactis]</Hit_def>
+  <Hit_accession>CDR83996</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.68615</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>473</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR--DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IRQFIYEKINNEIAIAKAGRHAEIHMKMNSLSDPDV--IAKLYEASAAGVKIHLIVRGICCLKTEIPGVSDNIEVHSIVG</Hsp_hseq>
+      <Hsp_midline>IRQ  Y   +  I+ AKAGR++E  + +  + D D   +        A VK   + RG   L+  I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|511182888|gb|EPB99881.1|</Hit_id>
+  <Hit_def>polyphosphate kinase family protein [Lactobacillus delbrueckii subsp. lactis CRL581] &gt;gi|656121444|emb|CDR81349.1| Polyphosphate kinase [Lactobacillus delbrueckii subsp. lactis] &gt;gi|948635230|gb|KRK66433.1| polyphosphate kinase [Lactobacillus delbrueckii subsp. lactis DSM 20072]</Hit_def>
+  <Hit_accession>EPB99881</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.75939</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>473</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>IRQVYYR--DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>IRQFIYEKINNEIAIAKAGRHAEIHMKMNSLSDPDV--IAKLYEASAAGVKIHLIVRGICCLKTEIPGVSDNIEVHSIVG</Hsp_hseq>
+      <Hsp_midline>IRQ  Y   +  I+ AKAGR++E  + +  + D D   +        A VK   + RG   L+  I    DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1057407133|ref|WP_068759094.1|</Hit_id>
+  <Hit_def>hypothetical protein [Turicibacter sp. H121] &gt;gi|984738534|gb|AMC08169.1| hypothetical protein AT726_03840 [Turicibacter sp. H121]</Hit_def>
+  <Hit_accession>AMC08169</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.0824</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>DREIKHAKAGKKAHIIAKMNGLYDKQM--IMKLYEASMAGVKIELIVRGVYCLRPQMKEISENITVRSIVG</Hsp_hseq>
+      <Hsp_midline>D+ I HAKAG+ +  +  +  +YD     +       +A VK   + RG   L   + +  +NI V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>752538</Statistics_db-num>
+      <Statistics_db-len>308487836</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

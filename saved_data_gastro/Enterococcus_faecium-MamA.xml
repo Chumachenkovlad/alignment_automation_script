@@ -1,0 +1,1518 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|490440407|ref|WP_004311405.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacteroides ovatus] &gt;gi|292632261|gb|EFF50858.1| tetratricopeptide repeat protein [Bacteroides ovatus SD CMC 3f]</Hit_def>
+  <Hit_accession>EFF50858</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>7.14211e-08</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>514</Hsp_hit-from>
+      <Hsp_hit-to>666</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>RYSEAVVMLEQVYDADAFDVEVALH---LGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>RWDEAIEIYEELETIGGFEGESAEYYQKFGYALQKRKKYAEAIQAYLKADTLKPDNIWNNRHLAICYRLNRNYQVAITYYKKVEEAAPEDTNVTFHIGSCLAELGQYEEALNYFFKLDFIENNCIKAWRGIGWCSFISQKHEQAMKYYEKIIE</Hsp_hseq>
+      <Hsp_midline>R+ EA+ + E++     F+ E A +    G A  K        +   ++    PDNI     L + Y   + Y +A+    KV EA P + NV F +G  L  LG+++EA++ F     +  N  K  R I +       HE+A+ +++K  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|490443271|ref|WP_004314225.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|262352856|gb|EEZ01953.1| tetratricopeptide repeat protein [Bacteroides sp. 2_1_22] &gt;gi|292639754|gb|EFF58036.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294445321|gb|EFG13986.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|345454804|gb|EEO51928.2| tetratricopeptide repeat protein [Bacteroides sp. D1]</Hit_def>
+  <Hit_accession>EFF58036</Hit_accession>
+  <Hit_len>735</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.93335e-06</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>463</Hsp_hit-from>
+      <Hsp_hit-to>666</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>LYTHYGLSVAKKLGANMVDAFRSAFSVNDDIRQV-------YYRDKGISHAK----AGRYSEAVVMLEQVYDADAFDVEVALH---LGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LYRFFKLSVRKS-------EFRDIFKEKLDLHHVPALDNILYWEDVLFPIADFYLAKERWDEAIEIYEELESIGGFEGESAEYYQKFGYALQKRKKYAEAIQAYLKADTLKPDNIWNNRHLAICYRLNRNYQAALTYYKKVEEAAPEDTNVTFYIGSCLAELGQYEEALNYFFKLDFIENNCIKAWRGIGWCSFISQKYEQAMKYYEKIIE</Hsp_hseq>
+      <Hsp_midline>LY  + LSV K         FR  F    D+  V       Y+ D     A       R+ EA+ + E++     F+ E A +    G A  K        +   ++    PDNI     L + Y   + Y  A+    KV EA P + NV F +G  L  LG+++EA++ F     +  N  K  R I +       +E+A+ +++K  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|492436135|ref|WP_005843437.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacteroides vulgatus] &gt;gi|294449053|gb|EFG17596.1| tetratricopeptide repeat protein [Bacteroides vulgatus PC510] &gt;gi|649522460|gb|KDS30124.1| tetratricopeptide repeat family protein [Bacteroides vulgatus str. 3775 SR(B) 19] &gt;gi|649524806|gb|KDS32404.1| tetratricopeptide repeat family protein [Bacteroides vulgatus str. 3775 SL(B) 10 (iv)] &gt;gi|649538010|gb|KDS45075.1| tetratricopeptide repeat family protein [Bacteroides vulgatus str. 3975 RP4] &gt;gi|933251922|emb|CUP67975.1| Tetratricopeptide repeat [Bacteroides vulgatus] &gt;gi|933278529|emb|CUP61184.1| Tetratricopeptide repeat [Bacteroides vulgatus] &gt;gi|1094815411|emb|SEK19544.1| Tetratricopeptide repeat-containing protein [Bacteroides vulgatus]</Hit_def>
+  <Hit_accession>EFG17596</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.60441e-06</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>421</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>YYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>YFYERAEIKAQTGKYREAVIDYDTFYDAIGGRVTAAFY-----------------LQREQAE---------------IQCKMYQQAINDINKAVEMTPEDVAMWVEKGSVHLRVGQHNEAIEALEKAISLDPKAAAAYRMLGYCQIQLKKNKEACANFAKAKEL</Hsp_hseq>
+      <Hsp_midline>Y+ ++    A+ G+Y EAV+  +  YDA    V  A +                 L+R  A+               +Q + Y  A+  + K  E  P +  +    G     +G+ +EAI++ + A+ L P     +R + Y   Q+  ++EA  +F KA EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|292632145|gb|EFF50749.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Bacteroides ovatus SD CMC 3f]</Hit_def>
+  <Hit_accession>EFF50749</Hit_accession>
+  <Hit_len>571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000364412</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>562</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>LKARQFQRALDDIAKAIEMNPTDLTYQAEHAVVNLRVGRYEEAIQILNNILRTDPKYGEAYRLLGLCQIQLKKTDEACGNFKKAKELGDPNA</Hsp_hseq>
+      <Hsp_midline>++ +++  A+  + K  E NP +   +    V    +GR++EAI      L   P  G+ +R +     Q+   +EA  +FKKA EL + +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|492444593|ref|WP_005846102.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacteroides vulgatus] &gt;gi|294447643|gb|EFG16220.1| tetratricopeptide repeat protein [Bacteroides vulgatus PC510] &gt;gi|924424864|gb|ALB76126.1| tetratricopeptide repeat family protein [uncultured bacterium 33g04] &gt;gi|933279646|emb|CUP21862.1| Predicted O-linked N-acetylglucosamine transferase%2C SPINDLY family [Bacteroides vulgatus] &gt;gi|941510801|gb|ALK84336.1| TPR domain protein [Bacteroides vulgatus]</Hit_def>
+  <Hit_accession>EFG16220</Hit_accession>
+  <Hit_len>725</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000590035</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>531</Hsp_hit-from>
+      <Hsp_hit-to>649</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>GIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>GFIYQKIGSYKKAIDYYLQSDLLIPDNTWNNRHLAQCYRKEGNYPKALEYYNKVEQAQPDSLNLALQIGQCLMALERYDEALAYFFKVEYLDKKPQNARRAIGWCSFITGNHQQAKKYY</Hsp_hseq>
+      <Hsp_midline>G  Y K G+  +  +   +S    PDN      L   Y +   Y  A+    KV +A P + N+  ++G  L  L R+DEA+  F     L        RAI +     G+H++A  ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.05732</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>563</Hsp_hit-from>
+      <Hsp_hit-to>689</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>HLAQCYRKEGNYPKALEYYNKVEQAQPDSLNLALQIGQCLMALERYDEALAYFFKVEYLDKKPQNARRAIGWCSFITGNHQQAKKYYDLLISEPKPIMEDWMNAGHVYYILNETEKSIEYYRKAQEL</Hsp_hseq>
+      <Hsp_midline>HL   Y K G   +  E   +     PD++ +A  +G   + +++YD A+    KV   +    N R  +G      G   +A   + + +       +      + Y  +   E+++ +++KA EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|262353077|gb|EEZ02172.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Bacteroides sp. 2_1_22] &gt;gi|294442052|gb|EFG10871.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|584446864|emb|CDM04838.1| Tetratricopeptide repeat family protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|584447419|emb|CDM04506.1| Tetratricopeptide repeat family protein [Bacteroides xylanisolvens SD CC 1b]</Hit_def>
+  <Hit_accession>EFG10871</Hit_accession>
+  <Hit_len>571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00160266</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>LKARQFQRALDDIVKAIEMNPTDLTYQAEHAVVNLRVGRYEEAIQILDNILKADPKYAEAYRLLGLCQIQLKKTDEACGNFKKAKEL</Hsp_hseq>
+      <Hsp_midline>++ +++  A+  +VK  E NP +   +    V    +GR++EAI      L   P   + +R +     Q+   +EA  +FKKA EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|292638749|gb|EFF57094.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584442161|emb|CDL98633.1| Tetratricopeptide repeat family protein [Bacteroides xylanisolvens SD CC 2a]</Hit_def>
+  <Hit_accession>EFF57094</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00209848</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>LKARQFQRALDDIVKAIEMNPTDLTYQAEHAVVNLRVGRYEEAIQILDNILKADPKYAEAYRLLGLCQIQLKKTDEACGNFKKAKEL</Hsp_hseq>
+      <Hsp_midline>++ +++  A+  +VK  E NP +   +    V    +GR++EAI      L   P   + +R +     Q+   +EA  +FKKA EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|493836431|ref|WP_006783640.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Turicibacter] &gt;gi|292646826|gb|EFF64816.1| tetratricopeptide repeat protein [Turicibacter sanguinis PC909] &gt;gi|325489303|gb|EGC91679.1| tetratricopeptide repeat protein [Turicibacter sp. HGF1] &gt;gi|932977838|emb|CUM87605.1| putative PEP-CTERM system TPR-repeat lipoprotein [Turicibacter sanguinis]</Hit_def>
+  <Hit_accession>EFF64816</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00593952</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>VQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRA---IAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>VKHFQIAIDRAIK-EDINPYHLYQQF--GIMLRKLGRYVESISKLSIAIGYAKTEEQIKEIDVLLILTYYQMGQHQLAL</Hsp_hseq>
+      <Hsp_midline>V+ + +A+   +K  + NP +   +F  G+ L  LGR+ E+I    IA+G    E ++      +  +Y QMG H+ AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|490445559|ref|WP_004316480.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|229446423|gb|EEO52214.1| WD40-like protein [Bacteroides sp. D1] &gt;gi|262354036|gb|EEZ03128.1| WD40-like protein [Bacteroides sp. 2_1_22] &gt;gi|292637295|gb|EFF55720.1| WD40-like protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294443768|gb|EFG12513.1| WD40-like protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|392694411|gb|EIY87638.1| hypothetical protein HMPREF1074_00614 [Bacteroides xylanisolvens CL03T12C04] &gt;gi|584439252|emb|CDM01781.1| FIG00898772: hypothetical protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584446633|emb|CDM05340.1| FIG00898772: hypothetical protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|893721651|gb|KMW75823.1| hypothetical protein HMPREF9009_04307 [Bacteroides sp. 3_1_13]</Hit_def>
+  <Hit_accession>EFF55720</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0082265</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>YDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYS</Hsp_qseq>
+      <Hsp_hseq>YEKAKPVFKKYAKSQPSNGNYNYWYGVCCLKTGEAEEAVKPLEIAVKKRVTSGQLYLGQAYN</Hsp_hseq>
+      <Hsp_midline>Y+ A P+  K A++ P N N  +  GV     G  +EA+   +IA+  R   G+++   AY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|490433046|ref|WP_004304888.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacteroides ovatus] &gt;gi|292634133|gb|EFF52676.1| WD40-like protein [Bacteroides ovatus SD CMC 3f] &gt;gi|295087121|emb|CBK68644.1| WD40-like Beta Propeller Repeat [Bacteroides xylanisolvens XB1A] &gt;gi|335941987|gb|EGN03838.1| hypothetical protein HMPREF1017_02577 [Bacteroides ovatus 3_8_47FAA] &gt;gi|392670417|gb|EIY63898.1| hypothetical protein HMPREF1069_02229 [Bacteroides ovatus CL02T12C04] &gt;gi|524411602|emb|CDB57185.1| uncharacterized protein BN541_02070 [Bacteroides ovatus CAG:22] &gt;gi|982530898|gb|KWR63358.1| anaphase-promoting complex, cyclosome, subunit 3 [Bacteroides ovatus]</Hit_def>
+  <Hit_accession>EFF52676</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0358218</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYS</Hsp_qseq>
+      <Hsp_hseq>EYEQAKPVFKKYTKSQPSNGNYNYWYGVCCLKTGEAEEAVKPLEIAVKKRITGGQLYLGQAYN</Hsp_hseq>
+      <Hsp_midline>+Y+ A P+  K  ++ P N N  +  GV     G  +EA+   +IA+  R   G+++   AY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|490445240|ref|WP_004316163.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|229444266|gb|EEO50057.1| tetratricopeptide repeat protein [Bacteroides sp. D1] &gt;gi|262353430|gb|EEZ02524.1| tetratricopeptide repeat protein [Bacteroides sp. 2_1_22] &gt;gi|292637611|gb|EFF56016.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294442919|gb|EFG11710.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|295086817|emb|CBK68340.1| hypothetical protein BXY_33380 [Bacteroides xylanisolvens XB1A] &gt;gi|298272265|gb|EFI13834.1| conserved hypothetical protein [Bacteroides sp. D22] &gt;gi|335948466|gb|EGN10173.1| hypothetical protein HMPREF0127_04869 [Bacteroides sp. 1_1_30] &gt;gi|392694737|gb|EIY87963.1| hypothetical protein HMPREF1074_00352 [Bacteroides xylanisolvens CL03T12C04] &gt;gi|584443434|emb|CDL97623.1| FIG170660: TPR domain protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584447269|emb|CDM04693.1| FIG170660: TPR domain protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|893723756|gb|KMW77915.1| hypothetical protein HMPREF9009_01870 [Bacteroides sp. 3_1_13] &gt;gi|933387979|emb|CUO63475.1| Tetratricopeptide repeat-containing protein [Bacteroides xylanisolvens] &gt;gi|1089281777|emb|SEB14821.1| Tetratricopeptide repeat-containing protein [Bacteroides xylanisolvens] &gt;gi|1099535736|emb|SFN08123.1| Tetratricopeptide repeat-containing protein [Bacteroides xylanisolvens]</Hit_def>
+  <Hit_accession>EFF56016</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0470547</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALH-LGIAYVKTGAVDRGTELLERSIADAPDNIKVATVL----GLTYVQVQKYDLAVPLLVKV</Hsp_qseq>
+      <Hsp_hseq>GICYAQLGKYEEAVKMLDSFNGKDQMVAPAILGAAGNCYAQLGQLDKAASTL-LSAADKADNNTLSPIFLIQAGEILVKQGKYDDAVNAYTKI</Hsp_hseq>
+      <Hsp_midline>GI +A+ G+Y EAV ML+     D       L   G  Y + G +D+    L  S AD  DN  ++ +     G   V+  KYD AV    K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|490429632|ref|WP_004301767.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|156107482|gb|EDO09227.1| tetratricopeptide repeat protein [Bacteroides ovatus ATCC 8483] &gt;gi|229449139|gb|EEO54930.1| tetratricopeptide repeat protein [Bacteroides sp. 2_2_4] &gt;gi|292635590|gb|EFF54097.1| tetratricopeptide repeat protein [Bacteroides ovatus SD CMC 3f] &gt;gi|298513330|gb|EFI37217.1| putative tetratricopeptide repeat protein [Bacteroides sp. 3_1_23] &gt;gi|313693805|gb|EFS30640.1| hypothetical protein BSGG_1340 [Bacteroides sp. D2] &gt;gi|335942216|gb|EGN04064.1| hypothetical protein HMPREF1017_02298 [Bacteroides ovatus 3_8_47FAA] &gt;gi|392674031|gb|EIY67481.1| hypothetical protein HMPREF1070_01800 [Bacteroides ovatus CL03T12C18] &gt;gi|524410280|emb|CDB58366.1| uncharacterized protein BN541_02980 [Bacteroides ovatus CAG:22] &gt;gi|933340592|emb|CUP76583.1| Tetratricopeptide repeat-containing protein [Bacteroides ovatus] &gt;gi|938484881|gb|ALJ49112.1| Tetratricopeptide repeat protein [Bacteroides ovatus] &gt;gi|1002422922|gb|KXT47019.1| tetratricopeptide repeat protein [Bacteroides ovatus] &gt;gi|1074127960|emb|SCV08528.1| hypothetical membrane protein [Bacteroides ovatus V975] &gt;gi|1089302513|emb|SDY49480.1| Tetratricopeptide repeat-containing protein [Bacteroides ovatus]</Hit_def>
+  <Hit_accession>EFF54097</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0492748</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>140</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALH-LGIAYVKTGAVDRGTELLERSIADAPDNIKVATVL----GLTYVQVQKYDLAVPLLVKV</Hsp_qseq>
+      <Hsp_hseq>GICYAQLGKYEEAVKMLDSFNGKDQMVAPAILGAAGNCYAQLGQLDKAASTL-LSAADKADNNTLSPIFLIQAGEILVKQGKYDDAVNAYTKI</Hsp_hseq>
+      <Hsp_midline>GI +A+ G+Y EAV ML+     D       L   G  Y + G +D+    L  S AD  DN  ++ +     G   V+  KYD AV    K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|490446710|ref|WP_004317616.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|229447151|gb|EEO52942.1| tetratricopeptide repeat protein [Bacteroides sp. D1] &gt;gi|262353031|gb|EEZ02126.1| tetratricopeptide repeat protein [Bacteroides sp. 2_1_22] &gt;gi|292636461|gb|EFF54939.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294442097|gb|EFG10916.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|295087669|emb|CBK69192.1| Tetratricopeptide repeat [Bacteroides xylanisolvens XB1A] &gt;gi|298269765|gb|EFI11358.1| TPR-domain containing protein [Bacteroides sp. D22] &gt;gi|584440296|emb|CDM00738.1| TPR-domain containing protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584447467|emb|CDM04554.1| TPR-domain containing protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|893723028|gb|KMW77192.1| hypothetical protein HMPREF9009_02857 [Bacteroides sp. 3_1_13] &gt;gi|933386925|emb|CUO93128.1| Tetratricopeptide repeat [Bacteroides xylanisolvens]</Hit_def>
+  <Hit_accession>EFF54939</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.153112</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNL--GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>GKLEEAQWLLSTIADAD--ELETIIDVVFLYLDMGYPDAAKEWLDRGKSRYAEDEEYMALTADYLASTHQVESAIIYYNKLIDKSP--FNPSYWMGLVKCYFVQEQIDKAIEACDFALAADDQCGEAYAYKAHCFFYLNNSDDAIENYQKAIEL</Hsp_hseq>
+      <Hsp_midline>G+  EA  +L  + DAD  ++E  + +   Y+  G  D   E L+R  +   ++ +   +         + + A+    K+ + +P  FN  + +G+        + D+AI++   AL      G+ +   A+ +  + + ++A+ +++KA EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|493838542|ref|WP_006785705.1|</Hit_id>
+  <Hit_def>hypothetical protein [Turicibacter sanguinis] &gt;gi|292644679|gb|EFF62766.1| tetratricopeptide repeat protein [Turicibacter sanguinis PC909]</Hit_def>
+  <Hit_accession>EFF62766</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.252717</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>AFSVNDD----IRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSF--KIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFK</Hsp_qseq>
+      <Hsp_hseq>AFHANDDEIFLVAQIF--------AALGRVSAAIELVEPLISKYPHETNLRTFLADLYLDLAEDEKALDLL--SGSDDESDVSVLLLEADMYIAQGLFEVAEDKLKKAMTLEPKNDLIKLAYAEFYHHIGEFEQALNLYLDLIECGLSA-EINVYDRLATCYSHIGEFEKALEQFE</Hsp_hseq>
+      <Hsp_midline>AF  NDD    + Q++        A  GR S A+ ++E +      +  +   L   Y+     ++  +LL  S +D   ++ V  +    Y+    +++A   L K     P N  ++        ++G F++A++ +   I  GL   E  V+  +A  Y  +G  E+AL  F+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.266787</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>EKGQITEEVVEQMQHFAFHANDDEIFLVAQI-FAALGRVSAAIELVEPLISKYPHETNLRTFLADLYLDLAEDEKALDLLSGSDDESDVSVLLLEADMYIAQ---GLFEVAEDKLKKAMTLEPKNDLIKLAYAEFYHHIGEFEQAL</Hsp_hseq>
+      <Hsp_midline>+ G+ +E VV   Q +   A D E+ L   I +   G V    EL+E  I+  P    + T L   Y+ + + + A+ LL    + + V+   +   + +A    G F+ A D  K A+ L P    +  A A  Y  +G  E+AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|490439255|ref|WP_004310265.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bacteroides ovatus] &gt;gi|292633611|gb|EFF52169.1| tetratricopeptide repeat protein [Bacteroides ovatus SD CMC 3f]</Hit_def>
+  <Hit_accession>EFF52169</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.29045</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNL--GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>GKLEEAQWLLSTLADAD--ELETIIDVVFLYLDMGYPDAAKEWLDRGKSRYTEDEEYMALTADYLASTHQVESAIIYYNKLIDKSP--FNPSYWMGLVKCYFVQEQIDKAIEACDFALAADDQYGEAYAYKAHCFFYLNNSDDAIENYQKAIEL</Hsp_hseq>
+      <Hsp_midline>G+  EA  +L  + DAD  ++E  + +   Y+  G  D   E L+R  +   ++ +   +         + + A+    K+ + +P  FN  + +G+        + D+AI++   AL      G+ +   A+ +  + + ++A+ +++KA EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|493836228|ref|WP_006783443.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Turicibacter sanguinis] &gt;gi|292647019|gb|EFF65002.1| tetratricopeptide repeat protein [Turicibacter sanguinis PC909]</Hit_def>
+  <Hit_accession>EFF65002</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.30695</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>LGIAYVKTGAVDRGTELLERSIAD-APD----NIKVATVLGLTYVQVQKYDLA---VPLLVKVAEA-NPVNFNVRFRL-GVALDNLGRFDEAID---SFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>IGLNMEKMGMYEESISYLKMSLHSLSPDMTEYRYKILYNLAKGYFQVDQLDLALNHIDLALREGETPQPLTRAAHIILKGIVLRKCGRIQEAIDVQVAFIENPCYPPFVTEVYQNLSYLYKSQGRFEEAL</Hsp_hseq>
+      <Hsp_midline>+G+   K G  +     L+ S+   +PD      K+   L   Y QV + DLA   + L ++  E   P+       L G+ L   GR  EAID   +F       P   +V++ ++Y Y+  G  EEAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|292637261|gb|EFF55689.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294444864|gb|EFG13551.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|584442563|emb|CDL98624.1| Tetratricopeptide repeat family protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584445252|emb|CDM06681.1| Tetratricopeptide repeat family protein [Bacteroides xylanisolvens SD CC 1b]</Hit_def>
+  <Hit_accession>EFF55689</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.401677</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>GHLLESLKKYDDAVIQYEKAVKMDPTKTDLYKNISSAYEQKNDYKKAISAYQK</Hsp_hseq>
+      <Hsp_midline>G  L++L ++D+A+  ++ A+ + P +  +++ I+ +YEQ   +++A+  ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|292631533|gb|EFF50156.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Bacteroides ovatus SD CMC 3f] &gt;gi|649502464|gb|KDS10805.1| tetratricopeptide repeat family protein [Bacteroides ovatus str. 3725 D1 iv] &gt;gi|649507244|gb|KDS15438.1| tetratricopeptide repeat family protein [Bacteroides fragilis str. 3725 D9 ii]</Hit_def>
+  <Hit_accession>EFF50156</Hit_accession>
+  <Hit_len>483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.01406</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>GHLLESLKKYDDAVVQYEKAVKMDPTKTDLFKNISSAYEQKNDYKKAISAYQK</Hsp_hseq>
+      <Hsp_midline>G  L++L ++D+A+  ++ A+ + P +  + + I+ +YEQ   +++A+  ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|487747576|ref|WP_001829703.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 30S ribosomal protein S13 [Staphylococcus] &gt;gi|27468717|ref|NP_765354.1| 30S ribosomal protein S13 [Staphylococcus epidermidis ATCC 12228] &gt;gi|32363310|sp|Q8CRI3.1|RS13_STAES RecName: Full=30S ribosomal protein S13 &gt;gi|81673639|sp|Q5HM23.1|RS13_STAEQ RecName: Full=30S ribosomal protein S13 &gt;gi|27316265|gb|AAO05440.1|AE016750_45 30S ribosomal protein S13 [Staphylococcus epidermidis ATCC 12228] &gt;gi|57638335|gb|AAW55123.1| ribosomal protein S13/S18 [Staphylococcus epidermidis RP62A] &gt;gi|242232604|gb|EES34916.1| 30S ribosomal protein S13 [Staphylococcus epidermidis W23144] &gt;gi|251804405|gb|EES57062.1| 30S ribosomal protein S13 [Staphylococcus epidermidis BCM-HMP0060] &gt;gi|281296131|gb|EFA88652.1| 30S ribosomal protein S13 [Staphylococcus epidermidis SK135] &gt;gi|291317415|gb|EFE57837.1| 30S ribosomal protein S13 [Staphylococcus epidermidis M23864:W2(grey)] &gt;gi|319400601|gb|EFV88826.1| 30S ribosomal protein S13 [Staphylococcus epidermidis FRI909] &gt;gi|329731229|gb|EGG67599.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU144] &gt;gi|329736494|gb|EGG72762.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU028] &gt;gi|329737063|gb|EGG73318.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU045] &gt;gi|341650987|gb|EGS74796.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU105] &gt;gi|341656230|gb|EGS79950.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU037] &gt;gi|341656404|gb|EGS80123.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU109] &gt;gi|365226187|gb|EHM67409.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU071] &gt;gi|365233057|gb|EHM74024.1| 30S ribosomal protein S13 [Staphylococcus epidermidis 14.1.R1.SE] &gt;gi|374401978|gb|EHQ73024.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU041] &gt;gi|374403126|gb|EHQ74135.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU057] &gt;gi|374403572|gb|EHQ74572.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU065] &gt;gi|374410622|gb|EHQ81365.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU081] &gt;gi|374817645|gb|EHR81824.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU117] &gt;gi|374817650|gb|EHR81828.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU120] &gt;gi|374818757|gb|EHR82904.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU118] &gt;gi|374828395|gb|EHR92230.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU123] &gt;gi|374829531|gb|EHR93331.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU125] &gt;gi|374830044|gb|EHR93833.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU126] &gt;gi|374835941|gb|EHR99537.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU128] &gt;gi|374837022|gb|EHS00595.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU129] &gt;gi|374838311|gb|EHS01858.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU127] &gt;gi|383360199|gb|EID37602.1| 30S ribosomal protein S13 [Staphylococcus epidermidis IS-250] &gt;gi|383361208|gb|EID38586.1| 30S ribosomal protein S13 [Staphylococcus epidermidis IS-K] &gt;gi|394231932|gb|EJD77553.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM095] &gt;gi|394232016|gb|EJD77636.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM087] &gt;gi|394233651|gb|EJD79248.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM088] &gt;gi|394239762|gb|EJD85195.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM070] &gt;gi|394239906|gb|EJD85338.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM067] &gt;gi|394242484|gb|EJD87875.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM061] &gt;gi|394246920|gb|EJD92171.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM053] &gt;gi|394248694|gb|EJD93925.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM049] &gt;gi|394252461|gb|EJD97495.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM057] &gt;gi|394253223|gb|EJD98236.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM040] &gt;gi|394255144|gb|EJE00103.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM039] &gt;gi|394257984|gb|EJE02883.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM037] &gt;gi|394263483|gb|EJE08214.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM021] &gt;gi|394264866|gb|EJE09535.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM020] &gt;gi|394266517|gb|EJE11149.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM023] &gt;gi|394268767|gb|EJE13321.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM018] &gt;gi|394271144|gb|EJE15642.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM015] &gt;gi|394272347|gb|EJE16809.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM031] &gt;gi|394275596|gb|EJE19969.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM008] &gt;gi|394277380|gb|EJE21704.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM003] &gt;gi|394279087|gb|EJE23397.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIHLM001] &gt;gi|394283089|gb|EJE27266.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH05005] &gt;gi|394285287|gb|EJE29370.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH04008] &gt;gi|394287477|gb|EJE31437.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH08001] &gt;gi|394290787|gb|EJE34633.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH05001] &gt;gi|394294963|gb|EJE38623.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH05003] &gt;gi|394296956|gb|EJE40570.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH06004] &gt;gi|394298434|gb|EJE42004.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH04003] &gt;gi|394301275|gb|EJE44737.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH051668] &gt;gi|394303594|gb|EJE47012.1| 30S ribosomal protein S13 [Staphylococcus epidermidis NIH051475] &gt;gi|406656361|gb|EKC82768.1| 30S ribosomal protein S13 [Staphylococcus epidermidis AU12-03] &gt;gi|410879284|gb|EKS27134.1| 30S ribosomal protein S13 [Staphylococcus epidermidis BVS058A4] &gt;gi|477934137|gb|ENL47657.1| 30S ribosomal protein S13 [Staphylococcus epidermidis M0881] &gt;gi|498669768|gb|EON82311.1| 30S ribosomal protein S13 [Staphylococcus epidermidis 41tr] &gt;gi|498670537|gb|EON83091.1| 30S ribosomal protein S13 [Staphylococcus epidermidis 528m] &gt;gi|498676115|gb|EON87046.1| 30S ribosomal protein S13 [Staphylococcus epidermidis 36-1] &gt;gi|519838358|gb|EPP68255.1| 30S ribosomal protein S13 [Staphylococcus epidermidis Scl22] &gt;gi|529040814|gb|EPZ41978.1| 30S ribosomal protein S13 [Staphylococcus epidermidis E13A] &gt;gi|557384646|gb|ESR05925.1| 30S ribosomal protein S13 [Staphylococcus epidermidis CIM28] &gt;gi|557401951|gb|ESR22178.1| 30S ribosomal protein S13 [Staphylococcus epidermidis APO35] &gt;gi|558746321|gb|EST93311.1| 30S ribosomal protein S13 [Staphylococcus epidermidis Scl31] &gt;gi|558750812|gb|EST99540.1| 30S ribosomal protein S13 [Staphylococcus epidermidis Scl25] &gt;gi|558752422|gb|ESU03351.1| 30S ribosomal protein S13 [Staphylococcus epidermidis CIM37] &gt;gi|559799618|gb|ESV09205.1| 30S ribosomal protein S13 [Staphylococcus epidermidis MC28] &gt;gi|559802821|gb|ESV14389.1| 30S ribosomal protein S13 [Staphylococcus epidermidis WI05] &gt;gi|559806480|gb|ESV20522.1| 30S ribosomal protein S13 [Staphylococcus epidermidis WI09] &gt;gi|559808050|gb|ESV23978.1| 30S ribosomal protein S13 [Staphylococcus epidermidis CIM40] &gt;gi|559811333|gb|ESV29486.1| 30S ribosomal protein S13 [Staphylococcus epidermidis APO27] &gt;gi|560196190|gb|ESV38397.1| 30S ribosomal protein S13 [Staphylococcus epidermidis MC16] &gt;gi|560197672|gb|ESV42099.1| 30S ribosomal protein S13 [Staphylococcus epidermidis MC19] &gt;gi|560201172|gb|ESV47656.1| 30S ribosomal protein S13 [Staphylococcus epidermidis Scl19] &gt;gi|579149853|gb|EUR97930.1| 30S ribosomal protein S13 [Staphylococcus epidermidis M0026] &gt;gi|610808093|gb|EZI05731.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU014] &gt;gi|610813066|gb|EZI10524.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU050] &gt;gi|645295890|gb|KDP60796.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU013] &gt;gi|645300470|gb|KDP65075.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU036] &gt;gi|645302964|gb|KDP67380.1| 30S ribosomal protein S13 [Staphylococcus epidermidis VCU111] &gt;gi|653229432|gb|KEA32820.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|653232431|gb|KEA35712.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|653235488|gb|KEA38712.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|658173327|gb|KEI47984.1| 30S ribosomal protein S13 [Staphylococcus epidermidis UC7032] &gt;gi|672712080|emb|CDM14348.1| SSU ribosomal protein S13p (S18e) [Staphylococcus epidermidis PM221] &gt;gi|691219985|gb|AIR83272.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|694237007|gb|KGJ27998.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|721493485|gb|KGY37043.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|760490612|gb|AJP25279.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|930199666|gb|KPH61111.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|941771572|gb|KQC20303.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|959316404|gb|KSU47088.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|961482206|gb|KSZ61436.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|961485745|gb|KSZ64860.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|961486018|gb|KSZ65127.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|961488248|gb|KSZ67289.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|966449324|gb|KTF25517.1| 30S ribosomal protein S13 [Staphylococcus epidermidis FS1] &gt;gi|967377396|gb|KTK48912.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|968474487|gb|KTT61325.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|968494661|gb|KTT80448.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|968518661|gb|KTW03182.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|968521629|gb|KTW05741.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|987897054|emb|CUY01605.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|991177554|emb|CVY78086.1| SSU ribosomal protein S13p (S18e) [Streptococcus pneumoniae] &gt;gi|996404300|gb|KXH20334.1| 30S ribosomal protein S13 [Enterococcus faecium] &gt;gi|1018449013|gb|KZG47084.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018450392|gb|KZG48425.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018455346|gb|KZG53123.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018456269|gb|KZG54020.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018460210|gb|KZG57859.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018463704|gb|KZG61199.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018464267|gb|KZG61749.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018467519|gb|KZG64921.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018468608|gb|KZG65990.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018470579|gb|KZG67882.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018472630|gb|KZG69878.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018478090|gb|KZG75173.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018481174|gb|KZG78172.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018481256|gb|KZG78253.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018484713|gb|KZG81595.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018486236|gb|KZG83077.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018490760|gb|KZG87458.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018494127|gb|KZG90733.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018496781|gb|KZG93317.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1018497766|gb|KZG94273.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1020070779|gb|KZK55848.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1020072335|gb|KZK57334.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1020074697|gb|KZK59538.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1020078966|gb|KZK63490.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034750977|gb|OAW04005.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034751542|gb|OAW04563.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034754512|gb|OAW07434.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034756837|gb|OAW09676.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034757854|gb|OAW10671.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034760630|gb|OAW13385.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034762656|gb|OAW15349.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034763317|gb|OAW15989.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1034766719|gb|OAW19292.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035160621|gb|OAW23091.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035161620|gb|OAW24069.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035163145|gb|OAW25553.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035166007|gb|OAW28272.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035171490|gb|OAW33574.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035174415|gb|OAW36365.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035174723|gb|OAW36663.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035176658|gb|OAW38546.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035179727|gb|OAW41527.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035185085|gb|OAW46714.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035185465|gb|OAW47080.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035187632|gb|OAW49193.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035192323|gb|OAW53706.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035192983|gb|OAW54345.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035193066|gb|OAW54427.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035199737|gb|OAW60828.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035203568|gb|OAW64538.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035205162|gb|OAW66087.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035208759|gb|OAW69571.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035210745|gb|OAW71468.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035211819|gb|OAW72514.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035216600|gb|OAW77138.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035219817|gb|OAW80252.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035220362|gb|OAW80782.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035222255|gb|OAW82630.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035224107|gb|OAW84431.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035227299|gb|OAW87498.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035231248|gb|OAW91360.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035288423|gb|OAW91739.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035292140|gb|OAW95232.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035294957|gb|OAW97893.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035296332|gb|OAW99226.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035298627|gb|OAX01385.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035298817|gb|OAX01548.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035307743|gb|OAX10016.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035309387|gb|OAX11539.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035309923|gb|OAX12057.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035315504|gb|OAX17394.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035319657|gb|OAX21372.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035324426|gb|OAX25958.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1035326644|gb|OAX28063.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1036129944|gb|OAY92049.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1036132600|gb|OAY94630.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1036132690|gb|OAY94718.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1036137590|gb|OAY99434.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1036137897|gb|OAY99732.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1036311716|gb|OAZ55180.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1036312315|gb|OAZ55763.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1036312742|gb|OAZ56180.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1043262301|gb|OBZ51230.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1080158339|gb|OFJ56467.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC073C02] &gt;gi|1080173635|gb|OFJ71023.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC066G04] &gt;gi|1080253825|gb|OFK47465.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC062D04] &gt;gi|1080281665|gb|OFK73651.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC034D07] &gt;gi|1080376843|gb|OFL64693.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC072H01] &gt;gi|1080397437|gb|OFL84184.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC075A04] &gt;gi|1080529854|gb|OFN10566.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC064E11] &gt;gi|1080640440|gb|OFO15012.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC068G11] &gt;gi|1080771777|gb|OFP39630.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC062B11] &gt;gi|1080865435|gb|OFQ28554.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC076H12] &gt;gi|1080912845|gb|OFQ73724.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC073E10] &gt;gi|1080958184|gb|OFR16929.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC068G12] &gt;gi|1080964125|gb|OFR22594.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC065D11] &gt;gi|1080967855|gb|OFR26168.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC065D05] &gt;gi|1081045674|gb|OFS00027.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC067B04] &gt;gi|1081079855|gb|OFS31143.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC055B03] &gt;gi|1081079938|gb|OFS31224.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC055A10] &gt;gi|1081106744|gb|OFS56340.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC034G11] &gt;gi|1090879306|gb|OHO24918.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC034A07] &gt;gi|1090917371|gb|OHO58811.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC036A09] &gt;gi|1090970736|gb|OHP09288.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC058E12] &gt;gi|1091059286|gb|OHP93969.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC063F03] &gt;gi|1091060388|gb|OHP95011.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC063F05] &gt;gi|1091111098|gb|OHQ43306.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC070A07] &gt;gi|1091152069|gb|OHQ82217.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC074D07] &gt;gi|1091156367|gb|OHQ86321.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC074F11] &gt;gi|1091162292|gb|OHQ91890.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC077D08] &gt;gi|1091162585|gb|OHQ92174.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC077C03] &gt;gi|1091169649|gb|OHQ98772.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC077G12] &gt;gi|1091170855|gb|OHQ99869.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC077D09] &gt;gi|1091180511|gb|OHR08718.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC077H01] &gt;gi|1091266494|gb|OHR89759.1| 30S ribosomal protein S13 [Staphylococcus sp. HMSC34G04] &gt;gi|1097069019|emb|SFG71181.1| SSU ribosomal protein S13P [Staphylococcus epidermidis] &gt;gi|1127872025|gb|APT15743.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1145691311|gb|OOD01601.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1176884738|gb|ARG66041.1| 30S ribosomal protein S13 [Staphylococcus epidermidis] &gt;gi|1178141021|gb|ORE70505.1| 30S ribosomal protein S13 [Staphylococcus epidermidis]</Hit_def>
+  <Hit_accession>KXH20334</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.17906</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEG-KVHRAIAYSYEQMGSHEEALP</Hsp_qseq>
+      <Hsp_hseq>VISLTYV----YGIGTSTANKIVEEANVSADTRVK-DLTDDELGRIREVVDGYKVEGDLRREQNLNIKRLMEISSYRGIRHRRGLP</Hsp_hseq>
+      <Hsp_midline>V+ LTYV    Y +      K+ E   V+ + R +  +  D LGR  E +D +K+   LR  +   + R +  S  +   H   LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|490443066|ref|WP_004314022.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|229446264|gb|EEO52055.1| tetratricopeptide repeat protein [Bacteroides sp. D1] &gt;gi|262352728|gb|EEZ01825.1| tetratricopeptide repeat protein [Bacteroides sp. 2_1_22] &gt;gi|292639976|gb|EFF58245.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294446808|gb|EFG15408.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|584443399|emb|CDL97779.1| TPR-repeat-containing protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584448527|emb|CDM03306.1| TPR-repeat-containing protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|1089285018|emb|SEA26239.1| TPR repeat-containing protein [Bacteroides xylanisolvens] &gt;gi|1099536150|emb|SFM89209.1| Tetratricopeptide repeat-containing protein [Bacteroides xylanisolvens]</Hit_def>
+  <Hit_accession>EFF58245</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.94422</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>LLFSNLGLVQRRLGEFDKALESYSFALNFAPLAVPILLDRAAIYMEMGKTDRAYTDYCQVLDEDKQNKEALLMRAYIYVLRRDYPAARIDYNRLLELDPQSYSGRLGLATLEQKEGKFREALEILNKMLAATPEDATLYIARADVEREMKHEDLALVDLEEAIRLDAASA</Hsp_hseq>
+      <Hsp_midline>+ + + G+   + G + +A+       +     V + L     Y++ G  DR      + + +   N +   +    YV  + Y  A     ++ E +P +++ R  L       G+F EA++     L   P +  ++ A A    +M   + AL   ++A  LD  SA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.05756</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>LKLEPKNAKNALLFSNLGLVQRRLGEFDKALESYSFALNFAPLAVPILLDRAAIYMEMGKTDRA</Hsp_hseq>
+      <Hsp_midline>+K+   N  N  +   LG+    LG FD+A++S+  AL   P    +    A  Y +MG  + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|985629616|ref|WP_060855677.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium] &gt;gi|985184772|gb|KWY74690.1| DNA-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060855677</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.06323</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKIXSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1169085285|ref|WP_080440589.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_080440589</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.1053</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|488260695|ref|WP_002331903.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Enterococcus faecium] &gt;gi|430541758|gb|ELA81903.1| transcriptional regulator [Enterococcus faecium EnGen0004] &gt;gi|514548378|gb|EPI12618.1| DNA-binding helix-turn-helix protein [Enterococcus faecium SD3B-2] &gt;gi|985479894|emb|CUX99187.1| Transcriptional regulator2C Cro/CI family&apos; [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002331903</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.12011</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>SVNDDIRQVYYRDKGISHAKAGRYSEAVV----MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>SNSDLLNQILFYQGLLDHLYAKKTDAALFYFNQVLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>S +D + Q+ +    + H  A +   A+     +LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|490440792|ref|WP_004311786.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|292631875|gb|EFF50491.1| tetratricopeptide repeat protein [Bacteroides ovatus SD CMC 3f] &gt;gi|295085103|emb|CBK66626.1| Tetratricopeptide repeat [Bacteroides xylanisolvens XB1A] &gt;gi|335935400|gb|EGM97352.1| hypothetical protein HMPREF0127_04125 [Bacteroides sp. 1_1_30] &gt;gi|392690970|gb|EIY84221.1| hypothetical protein HMPREF1074_04176 [Bacteroides xylanisolvens CL03T12C04] &gt;gi|524410497|emb|CDB58200.1| uncharacterized protein BN541_02817 [Bacteroides ovatus CAG:22] &gt;gi|595918207|gb|EXY31495.1| tetratricopeptide repeat family protein [Bacteroides fragilis str. 3397 T10] &gt;gi|893721264|gb|KMW75439.1| hypothetical protein HMPREF9009_04544 [Bacteroides sp. 3_1_13] &gt;gi|933388854|emb|CUO37703.1| Tetratricopeptide repeat [Bacteroides xylanisolvens] &gt;gi|1002416906|gb|KXT41308.1| tetratricopeptide repeat protein [Bacteroides ovatus]</Hit_def>
+  <Hit_accession>EFF50491</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.16776</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>LLFSNLGLVQRRLGEFDKALESYSFALNFAPLAVPILLDRAAIYMEMGKTDRAYTDYCQVLDEDKQNKEALLMRAYIYVLRRDYPAARIDYNRLLELDPQSYSGRLGLATLEQKEGKFREALEILNKMLAATPEDATLYIARADVEREMKHEDLALVDLEEAIRLDAASA</Hsp_hseq>
+      <Hsp_midline>+ + + G+   + G + +A+       +     V + L     Y++ G  DR      + + +   N +   +    YV  + Y  A     ++ E +P +++ R  L       G+F EA++     L   P +  ++ A A    +M   + AL   ++A  LD  SA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.84194</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>LKLEPKNAKNALLFSNLGLVQRRLGEFDKALESYSFALNFAPLAVPILLDRAAIYMEMGKTDRA</Hsp_hseq>
+      <Hsp_midline>+K+   N  N  +   LG+    LG FD+A++S+  AL   P    +    A  Y +MG  + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|985167326|gb|KWY58578.1|</Hit_id>
+  <Hit_def>DNA-binding protein, partial [Enterococcus faecium]</Hit_def>
+  <Hit_accession>KWY58578</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.1853</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|985524831|ref|WP_060812881.1|</Hit_id>
+  <Hit_def>DNA-binding protein, partial [Enterococcus faecium] &gt;gi|985138137|gb|KWY31498.1| DNA-binding protein, partial [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060812881</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.24631</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|985510289|ref|WP_060804886.1|</Hit_id>
+  <Hit_def>DNA-binding protein, partial [Enterococcus faecium] &gt;gi|985178127|gb|KWY68626.1| DNA-binding protein, partial [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060804886</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.35326</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|289160889|gb|EFD08812.1|</Hit_id>
+  <Hit_def>hypothetical protein EDAG_02282 [Enterococcus faecium D344SRF]</Hit_def>
+  <Hit_accession>EFD08812</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.42302</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|488232512|ref|WP_002303720.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium] &gt;gi|257812155|gb|EEV40913.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,230,933]</Hit_def>
+  <Hit_accession>WP_002303720</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.45856</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|985503565|ref|WP_060799495.1|</Hit_id>
+  <Hit_def>transcriptional regulator, partial [Enterococcus faecium] &gt;gi|985161469|gb|KWY53168.1| DNA-binding protein, partial [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060799495</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.4668</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|985176310|gb|KWY66979.1|</Hit_id>
+  <Hit_def>DNA-binding protein, partial [Enterococcus faecium]</Hit_def>
+  <Hit_accession>KWY66979</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.52859</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|985516547|ref|WP_060808756.1|</Hit_id>
+  <Hit_def>transcriptional regulator, partial [Enterococcus faecium] &gt;gi|985184248|gb|KWY74215.1| DNA-binding protein, partial [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060808756</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.58566</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|985509546|ref|WP_060804485.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium] &gt;gi|985134871|gb|KWY28542.1| DNA-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060804485</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.68347</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1187669559|gb|OSP80210.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Enterococcus faecium]</Hit_def>
+  <Hit_accession>OSP80210</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.69939</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|985500933|ref|WP_060797582.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium] &gt;gi|985145539|gb|KWY38373.1| DNA-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060797582</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.70789</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|742290368|ref|WP_038809359.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium] &gt;gi|676253596|gb|KFO17468.1| DNA-binding protein [Enterococcus faecium UC7267] &gt;gi|695580270|gb|KGK73034.1| DNA-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_038809359</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.75741</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|488217613|ref|WP_002288821.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Enterococcus] &gt;gi|389868203|ref|YP_006375626.1| transcriptional regulator [Enterococcus faecium DO] &gt;gi|68194808|gb|EAN09284.1| Helix-turn-helix motif:TPR repeat [Enterococcus faecium DO] &gt;gi|257816943|gb|EEV44271.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,231,502] &gt;gi|257820833|gb|EEV47981.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,231,501] &gt;gi|257826250|gb|EEV52876.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,231,410] &gt;gi|257828554|gb|EEV55161.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,231,408] &gt;gi|260074721|gb|EEW63037.1| transcriptional regulator [Enterococcus faecium C68] &gt;gi|260077874|gb|EEW65580.1| hypothetical protein EFZG_00010 [Enterococcus faecium TC 6] &gt;gi|291588058|gb|EFF19906.1| transcriptional regulator Cro/CI family protein [Enterococcus faecium E1071] &gt;gi|291590618|gb|EFF22348.1| Transcriptional regulator, xre family [Enterococcus faecium E1636] &gt;gi|291596388|gb|EFF27643.1| hypothetical protein EfmE1679_0230 [Enterococcus faecium E1679] &gt;gi|291597155|gb|EFF28351.1| TPR domain transcriptional regulator [Enterococcus faecium U0317] &gt;gi|291605465|gb|EFF34910.1| Transcriptional regulator, xre family [Enterococcus faecium E1162] &gt;gi|313589906|gb|EFR68751.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133a01] &gt;gi|313592820|gb|EFR71665.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133B] &gt;gi|313596107|gb|EFR74952.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133A] &gt;gi|313600228|gb|EFR79071.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133C] &gt;gi|313641505|gb|EFS06085.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133a04] &gt;gi|313643326|gb|EFS07906.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0082] &gt;gi|364089509|gb|EHM32194.1| Transcriptional regulator, xre family [Enterococcus faecium E4453] &gt;gi|378938288|gb|AFC63360.1| helix-turn-helix protein [Enterococcus faecium Aus0004] &gt;gi|388533452|gb|AFK58644.1| transcriptional regulator [Enterococcus faecium DO] &gt;gi|402916844|gb|EJX37677.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R501] &gt;gi|402918048|gb|EJX38775.1| DNA-binding helix-turn-helix protein [Enterococcus faecium V689] &gt;gi|402921599|gb|EJX42035.1| DNA-binding helix-turn-helix protein [Enterococcus faecium S447] &gt;gi|402930021|gb|EJX49726.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R499] &gt;gi|402934429|gb|EJX53779.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R494] &gt;gi|402936271|gb|EJX55459.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R496] &gt;gi|402936612|gb|EJX55778.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R497] &gt;gi|402943024|gb|EJX61556.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R446] &gt;gi|402946166|gb|EJX64463.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1190] &gt;gi|402951438|gb|EJX69367.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1986] &gt;gi|402953460|gb|EJX71177.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1140] &gt;gi|402956840|gb|EJX74267.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1137] &gt;gi|402958102|gb|EJX75444.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1123] &gt;gi|402960581|gb|EJX77708.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1139] &gt;gi|402964461|gb|EJX81237.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV99] &gt;gi|402966811|gb|EJX83417.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV69] &gt;gi|402970714|gb|EJX87031.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV26] &gt;gi|402975110|gb|EJX91091.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV38] &gt;gi|402982003|gb|EJX97502.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV168] &gt;gi|402982820|gb|EJX98258.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV165] &gt;gi|402988146|gb|EJY03166.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV161] &gt;gi|402991212|gb|EJY06023.1| DNA-binding helix-turn-helix protein [Enterococcus faecium E422] &gt;gi|402992453|gb|EJY07159.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV1] &gt;gi|402992878|gb|EJY07539.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV102] &gt;gi|402994787|gb|EJY09292.1| DNA-binding helix-turn-helix protein [Enterococcus faecium E417] &gt;gi|403006245|gb|EJY19906.1| DNA-binding helix-turn-helix protein [Enterococcus faecium C621] &gt;gi|403006318|gb|EJY19970.1| DNA-binding helix-turn-helix protein [Enterococcus faecium C497] &gt;gi|403008361|gb|EJY21873.1| DNA-binding helix-turn-helix protein [Enterococcus faecium C1904] &gt;gi|403012123|gb|EJY25385.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 514] &gt;gi|403015542|gb|EJY28427.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 513] &gt;gi|403015866|gb|EJY28727.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 515] &gt;gi|403023279|gb|EJY35553.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 510] &gt;gi|403025367|gb|EJY37452.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 511] &gt;gi|403030710|gb|EJY42376.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 506] &gt;gi|403032589|gb|EJY44141.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 509] &gt;gi|403040277|gb|EJY51366.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 504] &gt;gi|403041263|gb|EJY52289.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 503] &gt;gi|404452987|gb|EKA00120.1| helix-turn-helix domain-containing protein [Enterococcus sp. GMD4E] &gt;gi|404456605|gb|EKA03284.1| helix-turn-helix domain-containing protein [Enterococcus sp. GMD3E] &gt;gi|404462074|gb|EKA07907.1| helix-turn-helix domain-containing protein [Enterococcus sp. GMD2E] &gt;gi|404470361|gb|EKA15001.1| helix-turn-helix domain-containing protein [Enterococcus sp. GMD1E] &gt;gi|425724411|gb|EKU87295.1| hypothetical protein HMPREF9307_00373 [Enterococcus faecium FB129-CNAB4] &gt;gi|430439508|gb|ELA49851.1| transcriptional regulator [Enterococcus faecium EnGen0005] &gt;gi|430443693|gb|ELA53655.1| transcriptional regulator [Enterococcus faecium EnGen0012] &gt;gi|430446601|gb|ELA56264.1| transcriptional regulator [Enterococcus faecium EnGen0010] &gt;gi|430482799|gb|ELA59898.1| transcriptional regulator [Enterococcus faecium EnGen0013] &gt;gi|430486328|gb|ELA63187.1| transcriptional regulator [Enterococcus faecium EnGen0014] &gt;gi|430488648|gb|ELA65310.1| transcriptional regulator [Enterococcus faecium EnGen0019] &gt;gi|430491361|gb|ELA67834.1| transcriptional regulator [Enterococcus faecium EnGen0008] &gt;gi|430497231|gb|ELA73290.1| transcriptional regulator [Enterococcus faecium EnGen0017] &gt;gi|430535979|gb|ELA76364.1| transcriptional regulator [Enterococcus faecium EnGen0011] &gt;gi|430538883|gb|ELA79157.1| transcriptional regulator [Enterococcus faecium EnGen0002] &gt;gi|430545262|gb|ELA85248.1| transcriptional regulator [Enterococcus faecium EnGen0021] &gt;gi|430548464|gb|ELA88364.1| transcriptional regulator [Enterococcus faecium EnGen0016] &gt;gi|430549554|gb|ELA89377.1| transcriptional regulator [Enterococcus faecium EnGen0009] &gt;gi|430553892|gb|ELA93566.1| transcriptional regulator [Enterococcus faecium EnGen0020] &gt;gi|430556835|gb|ELA96327.1| transcriptional regulator [Enterococcus faecium EnGen0018] &gt;gi|430559097|gb|ELA98474.1| transcriptional regulator [Enterococcus faecium EnGen0001] &gt;gi|430560672|gb|ELA99968.1| transcriptional regulator [Enterococcus faecium EnGen0007] &gt;gi|430574550|gb|ELB13313.1| transcriptional regulator [Enterococcus faecium EnGen0032] &gt;gi|430577374|gb|ELB15979.1| transcriptional regulator [Enterococcus faecium EnGen0031] &gt;gi|430580878|gb|ELB19337.1| transcriptional regulator [Enterococcus faecium EnGen0025] &gt;gi|430587741|gb|ELB25962.1| transcriptional regulator [Enterococcus faecium EnGen0040] &gt;gi|430594800|gb|ELB32763.1| transcriptional regulator [Enterococcus faecium EnGen0036] &gt;gi|430602695|gb|ELB40251.1| transcriptional regulator [Enterococcus faecium EnGen0024] &gt;gi|430606808|gb|ELB44145.1| transcriptional regulator [Enterococcus faecium EnGen0044] &gt;gi|430608878|gb|ELB46093.1| transcriptional regulator [Enterococcus faecium EnGen0034] &gt;gi|430619707|gb|ELB56526.1| transcriptional regulator [Enterococcus faecium EnGen0030] &gt;gi|430627112|gb|ELB63640.1| transcriptional regulator [Enterococcus faecium EnGen0048] &gt;gi|430632076|gb|ELB68357.1| transcriptional regulator [Enterococcus faecium EnGen0054] &gt;gi|430635668|gb|ELB71760.1| transcriptional regulator [Enterococcus faecium EnGen0051] &gt;gi|430637492|gb|ELB73500.1| transcriptional regulator [Enterococcus faecium EnGen0050] &gt;gi|430641306|gb|ELB77118.1| transcriptional regulator [Enterococcus faecium EnGen0046] &gt;gi|430644113|gb|ELB79811.1| transcriptional regulator [Enterococcus faecium EnGen0057] &gt;gi|430647656|gb|ELB83100.1| transcriptional regulator [Enterococcus faecium EnGen0045] &gt;gi|430647833|gb|ELB83269.1| transcriptional regulator [Enterococcus faecium EnGen0049] &gt;gi|445188473|gb|AGE30115.1| Transcriptional regulator, Cro, CI family [Enterococcus faecium NRRL B-2354] &gt;gi|486438834|gb|EOD83712.1| transcriptional regulator [Enterococcus faecium EnGen0041] &gt;gi|486614552|gb|EOF55742.1| transcriptional regulator [Enterococcus faecium EnGen0131] &gt;gi|486616913|gb|EOF57993.1| transcriptional regulator [Enterococcus faecium EnGen0124] &gt;gi|486620964|gb|EOF61969.1| transcriptional regulator [Enterococcus faecium EnGen0133] &gt;gi|486624931|gb|EOF65765.1| transcriptional regulator [Enterococcus faecium EnGen0126] &gt;gi|486627098|gb|EOF67885.1| transcriptional regulator [Enterococcus faecium EnGen0135] &gt;gi|486628208|gb|EOF68977.1| transcriptional regulator [Enterococcus faecium EnGen0130] &gt;gi|486630511|gb|EOF71169.1| transcriptional regulator [Enterococcus faecium EnGen0132] &gt;gi|486633743|gb|EOF74352.1| transcriptional regulator [Enterococcus faecium EnGen0128] &gt;gi|486638052|gb|EOF78551.1| transcriptional regulator [Enterococcus faecium EnGen0136] &gt;gi|486639536|gb|EOF80009.1| transcriptional regulator [Enterococcus faecium EnGen0138] &gt;gi|486640588|gb|EOF80984.1| transcriptional regulator [Enterococcus faecium EnGen0137] &gt;gi|486643659|gb|EOF83960.1| transcriptional regulator [Enterococcus faecium EnGen0140] &gt;gi|486649643|gb|EOF89747.1| transcriptional regulator [Enterococcus faecium EnGen0161] &gt;gi|486650442|gb|EOF90465.1| transcriptional regulator [Enterococcus faecium EnGen0162] &gt;gi|486656604|gb|EOF96279.1| transcriptional regulator [Enterococcus faecium EnGen0168] &gt;gi|486658652|gb|EOF98265.1| transcriptional regulator [Enterococcus faecium EnGen0169] &gt;gi|486663961|gb|EOG03440.1| transcriptional regulator [Enterococcus faecium EnGen0171] &gt;gi|486666388|gb|EOG05687.1| transcriptional regulator [Enterococcus faecium EnGen0170] &gt;gi|486666425|gb|EOG05721.1| transcriptional regulator [Enterococcus faecium EnGen0175] &gt;gi|486670246|gb|EOG09369.1| transcriptional regulator [Enterococcus faecium EnGen0176] &gt;gi|486675561|gb|EOG14506.1| transcriptional regulator [Enterococcus faecium EnGen0177] &gt;gi|486678123|gb|EOG16955.1| transcriptional regulator [Enterococcus faecium EnGen0178] &gt;gi|486680958|gb|EOG19715.1| transcriptional regulator [Enterococcus faecium EnGen0179] &gt;gi|486686759|gb|EOG25158.1| transcriptional regulator [Enterococcus faecium EnGen0180] &gt;gi|486688924|gb|EOG27204.1| transcriptional regulator [Enterococcus faecium EnGen0181] &gt;gi|486690395|gb|EOG28628.1| transcriptional regulator [Enterococcus faecium EnGen0182] &gt;gi|486697792|gb|EOG35772.1| transcriptional regulator [Enterococcus faecium EnGen0183] &gt;gi|486698503|gb|EOG36383.1| transcriptional regulator [Enterococcus faecium EnGen0184] &gt;gi|486800189|gb|EOH35330.1| transcriptional regulator [Enterococcus faecium EnGen0185] &gt;gi|486807465|gb|EOH42464.1| transcriptional regulator [Enterococcus faecium EnGen0189] &gt;gi|486807769|gb|EOH42761.1| transcriptional regulator [Enterococcus faecium EnGen0190] &gt;gi|486810475|gb|EOH45397.1| transcriptional regulator [Enterococcus faecium EnGen0191] &gt;gi|486816431|gb|EOH51057.1| transcriptional regulator [Enterococcus faecium EnGen0264] &gt;gi|486817178|gb|EOH51802.1| transcriptional regulator [Enterococcus faecium EnGen0257] &gt;gi|486829436|gb|EOH63562.1| transcriptional regulator [Enterococcus faecium EnGen0265] &gt;gi|486834783|gb|EOH68589.1| transcriptional regulator [Enterococcus faecium ATCC 8459] &gt;gi|486906472|gb|EOI38074.1| transcriptional regulator [Enterococcus faecium EnGen0267] &gt;gi|486913298|gb|EOI44724.1| transcriptional regulator [Enterococcus faecium EnGen0315] &gt;gi|486919707|gb|EOI50968.1| transcriptional regulator [Enterococcus faecium EnGen0317] &gt;gi|486924070|gb|EOI55187.1| transcriptional regulator [Enterococcus faecium EnGen0322] &gt;gi|486929177|gb|EOI60109.1| transcriptional regulator [Enterococcus faecium EnGen0314] &gt;gi|486930620|gb|EOI61481.1| transcriptional regulator [Enterococcus faecium EnGen0316] &gt;gi|486931220|gb|EOI62063.1| transcriptional regulator [Enterococcus faecium EnGen0318] &gt;gi|486937990|gb|EOI68487.1| transcriptional regulator [Enterococcus faecium EnGen0319] &gt;gi|486940789|gb|EOI71184.1| transcriptional regulator [Enterococcus faecium EnGen0321] &gt;gi|486942742|gb|EOI73090.1| transcriptional regulator [Enterococcus faecium EnGen0323] &gt;gi|486950670|gb|EOI80670.1| transcriptional regulator [Enterococcus faecium EnGen0312] &gt;gi|487090176|gb|EOK16121.1| transcriptional regulator [Enterococcus faecium EnGen0371] &gt;gi|487147669|gb|EOK67280.1| transcriptional regulator [Enterococcus faecium EnGen0125] &gt;gi|487148970|gb|EOK68568.1| transcriptional regulator [Enterococcus faecium EnGen0129] &gt;gi|487151216|gb|EOK70899.1| transcriptional regulator [Enterococcus faecium EnGen0134] &gt;gi|487154835|gb|EOK74360.1| transcriptional regulator [Enterococcus faecium EnGen0145] &gt;gi|487154969|gb|EOK74493.1| transcriptional regulator [Enterococcus faecium EnGen0142] &gt;gi|487160504|gb|EOK79892.1| transcriptional regulator [Enterococcus faecium EnGen0146] &gt;gi|487162571|gb|EOK81885.1| transcriptional regulator [Enterococcus faecium EnGen0147] &gt;gi|487163871|gb|EOK83176.1| transcriptional regulator [Enterococcus faecium EnGen0148] &gt;gi|487168364|gb|EOK87540.1| transcriptional regulator [Enterococcus faecium EnGen0149] &gt;gi|487171487|gb|EOK90625.1| transcriptional regulator [Enterococcus faecium EnGen0151] &gt;gi|487171871|gb|EOK91008.1| transcriptional regulator [Enterococcus faecium EnGen0150] &gt;gi|487178547|gb|EOK97468.1| transcriptional regulator [Enterococcus faecium EnGen0155] &gt;gi|487178926|gb|EOK97788.1| transcriptional regulator [Enterococcus faecium EnGen0152] &gt;gi|487180834|gb|EOK99660.1| transcriptional regulator [Enterococcus faecium EnGen0153] &gt;gi|487183960|gb|EOL02685.1| transcriptional regulator [Enterococcus faecium EnGen0156] &gt;gi|487188254|gb|EOL06853.1| transcriptional regulator [Enterococcus faecium EnGen0159] &gt;gi|487189230|gb|EOL07818.1| transcriptional regulator [Enterococcus faecium EnGen0158] &gt;gi|487189670|gb|EOL08255.1| transcriptional regulator [Enterococcus faecium EnGen0160] &gt;gi|487251899|gb|EOL69028.1| transcriptional regulator [Enterococcus faecium EnGen0308] &gt;gi|487252654|gb|EOL69780.1| transcriptional regulator [Enterococcus faecium EnGen0305] &gt;gi|487255790|gb|EOL72767.1| transcriptional regulator [Enterococcus faecium EnGen0320] &gt;gi|487286958|gb|EOM03304.1| transcriptional regulator [Enterococcus faecium EnGen0258] &gt;gi|487287918|gb|EOM04242.1| transcriptional regulator [Enterococcus faecium EnGen0259] &gt;gi|487298682|gb|EOM14666.1| transcriptional regulator [Enterococcus faecium EnGen0262] &gt;gi|487304075|gb|EOM19815.1| transcriptional regulator [Enterococcus faecium EnGen0193] &gt;gi|487307220|gb|EOM22869.1| transcriptional regulator [Enterococcus faecium EnGen0192] &gt;gi|487317959|gb|EOM33246.1| transcriptional regulator [Enterococcus faecium EnGen0254] &gt;gi|487319495|gb|EOM34749.1| transcriptional regulator [Enterococcus faecium EnGen0255] &gt;gi|487323859|gb|EOM38909.1| transcriptional regulator [Enterococcus faecium EnGen0172] &gt;gi|487324950|gb|EOM39991.1| transcriptional regulator [Enterococcus faecium EnGen0173] &gt;gi|487328529|gb|EOM43505.1| transcriptional regulator [Enterococcus faecium EnGen0256] &gt;gi|487331997|gb|EOM46868.1| transcriptional regulator [Enterococcus faecium EnGen0174] &gt;gi|487343539|gb|EOM58124.1| transcriptional regulator [Enterococcus faecium EnGen0186] &gt;gi|487344835|gb|EOM59368.1| transcriptional regulator [Enterococcus faecium EnGen0187] &gt;gi|487348467|gb|EOM62940.1| transcriptional regulator [Enterococcus faecium EnGen0188] &gt;gi|487353422|gb|EOM67104.1| transcriptional regulator [Enterococcus faecium EnGen0163] &gt;gi|487354232|gb|EOM67896.1| transcriptional regulator [Enterococcus faecium EnGen0164] &gt;gi|487354575|gb|EOM68230.1| transcriptional regulator [Enterococcus faecium EnGen0165] &gt;gi|508160832|gb|EOT37462.1| transcriptional regulator [Enterococcus faecium EnGen0376] &gt;gi|508177099|gb|EOT53548.1| transcriptional regulator [Enterococcus faecium EnGen0375] &gt;gi|508215076|gb|EOT89260.1| transcriptional regulator [Enterococcus faecium EnGen0375] &gt;gi|508221278|gb|EOT95427.1| transcriptional regulator [Enterococcus faecium EnGen0376] &gt;gi|508222993|gb|EOT97122.1| transcriptional regulator [Enterococcus faecium EnGen0377] &gt;gi|508228312|gb|EOU02332.1| transcriptional regulator [Enterococcus faecium EnGen0377] &gt;gi|508230047|gb|EOU03521.1| transcriptional regulator [Enterococcus faecium ATCC 8459] &gt;gi|514553230|gb|EPI17186.1| DNA-binding helix-turn-helix protein [Enterococcus faecium OC2A-1] &gt;gi|514560653|gb|EPI24290.1| DNA-binding helix-turn-helix protein [Enterococcus faecium LA4B-2] &gt;gi|529203274|gb|AGS75017.1| helix-turn-helix protein [Enterococcus faecium Aus0085] &gt;gi|531629210|gb|EQJ07974.1| helix-turn-helix family protein [Clostridioides difficile Y384] &gt;gi|544220294|gb|ERK34011.1| DNA-binding protein [Enterococcus faecium CRL1879] &gt;gi|551100852|gb|ERT32162.1| transcriptional regulator [Enterococcus faecium BM4538] &gt;gi|551101611|gb|ERT32896.1| hypothetical protein O992_01966 [Enterococcus faecium NEF1] &gt;gi|551187650|gb|ERT51331.1| transcriptional regulator [Enterococcus faecium 10/96A] &gt;gi|612136235|gb|EZP89337.1| DNA-binding protein [Enterococcus faecium VRE1044] &gt;gi|612138983|gb|EZP91946.1| DNA-binding protein [Enterococcus faecium VSE1036] &gt;gi|612142750|gb|EZP95441.1| DNA-binding protein [Enterococcus faecium VRE1261] &gt;gi|612146194|gb|EZP98708.1| DNA-binding protein [Enterococcus faecium VRE0576] &gt;gi|658175171|gb|KEI49828.1| DNA-binding protein [Enterococcus faecium UC8733] &gt;gi|658184137|gb|KEI58794.1| DNA-binding protein [Enterococcus faecium UC10237] &gt;gi|658185713|gb|KEI60370.1| DNA-binding protein [Enterococcus faecium UC7251] &gt;gi|695580720|gb|KGK73247.1| DNA-binding protein [Enterococcus faecium] &gt;gi|703906864|gb|KGQ76479.1| DNA-binding protein [Enterococcus faecium] &gt;gi|703907228|gb|KGQ76833.1| DNA-binding protein [Enterococcus faecium] &gt;gi|816119196|gb|KKJ66207.1| DNA-binding protein [Enterococcus faecium MRSN 3418] &gt;gi|816124453|gb|KKJ70980.1| DNA-binding protein [Enterococcus faecium MRSN 11639] &gt;gi|906415378|gb|KNB90876.1| DNA-binding protein [Enterococcus faecium] &gt;gi|906417788|gb|KNB93286.1| DNA-binding protein [Enterococcus faecium] &gt;gi|906421935|gb|KNB97433.1| DNA-binding protein [Enterococcus faecium] &gt;gi|906422359|gb|KNB97857.1| DNA-binding protein [Enterococcus faecium] &gt;gi|906424797|gb|KNC00296.1| DNA-binding protein [Enterococcus faecium] &gt;gi|924359090|gb|KOR92465.1| DNA-binding protein [Enterococcus faecium] &gt;gi|958601347|gb|KST44989.1| DNA-binding protein [Enterococcus faecium] &gt;gi|958608725|gb|KST52066.1| DNA-binding protein [Enterococcus faecium] &gt;gi|967388655|gb|KTK60078.1| DNA-binding protein [Enterococcus faecium] &gt;gi|969730641|gb|KUE82642.1| DNA-binding protein [Enterococcus faecium] &gt;gi|975001306|gb|ALZ52295.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984391944|gb|KWW10829.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984818853|gb|KWW59823.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984819444|gb|KWW60328.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984819475|gb|KWW60354.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984824475|gb|KWW64993.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984826456|gb|KWW66868.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984828494|gb|KWW68754.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984829329|gb|KWW69512.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984838094|gb|KWW77622.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984839121|gb|KWW78533.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984839195|gb|KWW78594.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984840893|gb|KWW80133.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984843979|gb|KWW82989.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984845397|gb|KWW84296.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984849466|gb|KWW88103.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984852928|gb|KWW91313.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984920836|gb|KWX16708.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985094844|gb|KWX91423.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985095123|gb|KWX91686.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985100877|gb|KWX97091.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985108134|gb|KWY03882.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985111767|gb|KWY07250.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985117107|gb|KWY12272.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985117967|gb|KWY13096.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985125160|gb|KWY19720.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985137401|gb|KWY30816.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985149976|gb|KWY42418.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985151042|gb|KWY43390.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985153706|gb|KWY45899.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985156250|gb|KWY48323.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985175908|gb|KWY66604.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985187964|gb|KWY77691.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985194464|gb|KWY83877.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985197721|gb|KWY86953.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985198607|gb|KWY87801.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985202055|gb|KWY91089.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985203905|gb|KWY92841.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985213292|gb|KWZ01769.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985217576|gb|KWZ05720.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985218623|gb|KWZ06706.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985221800|gb|KWZ09758.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985227282|gb|KWZ14942.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985228193|gb|KWZ15814.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985230128|gb|KWZ17656.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985236437|gb|KWZ23538.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985239068|gb|KWZ26026.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985242761|gb|KWZ29511.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985243839|gb|KWZ30552.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996367835|gb|KXG99989.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996384552|gb|KXH05188.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996389820|gb|KXH09891.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996391996|gb|KXH11875.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996394813|gb|KXH14147.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996396678|gb|KXH15076.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996400084|gb|KXH16705.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996404004|gb|KXH20075.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996410866|gb|KXH23226.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996628891|gb|KXH56774.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1003373557|gb|KXW80554.1| DNA-binding protein [Enterococcus faecium C68] &gt;gi|1003375707|gb|KXW82693.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1004805626|gb|AMP61509.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1008421785|gb|AMQ96886.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1019994548|gb|KZK25289.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1024764905|gb|ANB93491.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1036486493|emb|SAZ31564.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036489518|emb|SAZ09514.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036492709|emb|SAZ20109.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036495508|emb|SAZ34964.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036498553|emb|SAZ41610.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036501718|emb|SAZ23320.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036504756|emb|SAZ23956.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036507971|emb|SAZ21759.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036511131|emb|SAZ35317.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036513951|emb|SAZ30461.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036517985|emb|SAZ27351.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036535774|emb|SBA40556.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1039153113|gb|OBP99025.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1040771807|gb|OBU81665.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1049466278|emb|CVH53007.1| Transcriptional regulator2C Cro/CI family [Enterococcus faecium] &gt;gi|1062435631|gb|AOM15508.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062439680|gb|AOM18882.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062444655|gb|AOM23214.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062446742|gb|AOM24817.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062451015|gb|AOM28803.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062453895|gb|AOM31078.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062458938|gb|AOM35446.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062461454|gb|AOM37294.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062770861|gb|AON61261.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1072836030|gb|AOT79417.1| Helix-turn-helix domain protein [Enterococcus faecium] &gt;gi|1080230518|gb|OFK25358.1| DNA-binding protein [Enterococcus sp. HMSC077E07] &gt;gi|1080257652|gb|OFK50999.1| DNA-binding protein [Enterococcus sp. HMSC073E08] &gt;gi|1080264858|gb|OFK57856.1| DNA-binding protein [Enterococcus sp. HMSC055G03] &gt;gi|1080305190|gb|OFK95958.1| DNA-binding protein [Enterococcus sp. HMSC063H10] &gt;gi|1080368236|gb|OFL56401.1| DNA-binding protein [Enterococcus sp. HMSC058D07] &gt;gi|1080381564|gb|OFL69226.1| DNA-binding protein [Enterococcus sp. HMSC073E07] &gt;gi|1080503264|gb|OFM85225.1| DNA-binding protein [Enterococcus sp. HMSC069A01] &gt;gi|1080543892|gb|OFN23971.1| DNA-binding protein [Enterococcus sp. HMSC077E04] &gt;gi|1080570206|gb|OFN48286.1| DNA-binding protein [Enterococcus sp. HMSC056C08] &gt;gi|1080574536|gb|OFN52310.1| DNA-binding protein [Enterococcus sp. HMSC072G01] &gt;gi|1080722621|gb|OFO93022.1| DNA-binding protein [Enterococcus sp. HMSC076D08] &gt;gi|1080735246|gb|OFP04997.1| DNA-binding protein [Enterococcus sp. HMSC065H03] &gt;gi|1080814186|gb|OFP79972.1| DNA-binding protein [Enterococcus sp. HMSC060E05] &gt;gi|1080826863|gb|OFP91984.1| DNA-binding protein [Enterococcus sp. HMSC063C12] &gt;gi|1080912790|gb|OFQ73670.1| DNA-binding protein [Enterococcus sp. HMSC065H12] &gt;gi|1081023418|gb|OFR78844.1| DNA-binding protein [Enterococcus sp. HMSC072F07] &gt;gi|1090896720|gb|OHO39991.1| DNA-binding protein [Enterococcus sp. HMSC034B11] &gt;gi|1090907901|gb|OHO49782.1| DNA-binding protein [Enterococcus sp. HMSC035B04] &gt;gi|1090909397|gb|OHO51179.1| DNA-binding protein [Enterococcus sp. HMSC035C10] &gt;gi|1090992085|gb|OHP29510.1| DNA-binding protein [Enterococcus sp. HMSC060D07] &gt;gi|1090996786|gb|OHP33975.1| DNA-binding protein [Enterococcus sp. HMSC060D09] &gt;gi|1091128146|gb|OHQ59593.1| DNA-binding protein [Enterococcus sp. HMSC070F12] &gt;gi|1091145365|gb|OHQ75873.1| DNA-binding protein [Enterococcus sp. HMSC072D11] &gt;gi|1091165451|gb|OHQ94851.1| DNA-binding protein [Enterococcus sp. HMSC074F07] &gt;gi|1091251326|gb|OHR75675.1| DNA-binding protein [Enterococcus sp. HMSC34G12] &gt;gi|1095523177|gb|OHY84859.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1095524281|gb|OHY85886.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1095524382|gb|OHY85973.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1108548905|gb|APE40553.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1112964613|gb|APJ06678.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1113047483|gb|OJT41146.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132412179|gb|APV53937.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132441142|gb|APV56730.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132514383|gb|OLY99844.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132515763|gb|OLZ01120.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132519361|gb|OLZ04573.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132525795|gb|OLZ10622.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132530206|gb|OLZ14931.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132607514|gb|OLZ35571.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1143510291|gb|ONN33568.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1143511872|gb|ONN35048.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1143516356|gb|ONN39359.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1143522824|gb|ONN45562.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1145977478|gb|OOE27616.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149354472|gb|OOL47727.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149354951|gb|OOL48125.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149356173|gb|OOL49106.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149362843|gb|OOL54775.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149364934|gb|OOL56584.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149368521|gb|OOL59391.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149370212|gb|OOL60853.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149372715|gb|OOL63238.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149375554|gb|OOL65909.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149381421|gb|OOL71454.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149384419|gb|OOL74316.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149393018|gb|OOL82074.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1150408040|gb|AQT56721.1| Helix-turn-helix domain protein [Enterococcus faecium] &gt;gi|1151037171|gb|OOP58399.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1158643596|gb|AQY28894.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1158647675|gb|AQY32969.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1159231966|gb|OPH28013.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1159234797|gb|OPH30360.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1172704666|gb|OQO61997.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1186535707|emb|SMM96523.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186539419|emb|SMM07851.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186543380|emb|SMM33282.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186546496|emb|SMM85843.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186549526|emb|SMM27978.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186553120|emb|SMM16419.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186556126|emb|SMI93959.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186559706|emb|SMM15080.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186563538|emb|SMJ04216.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186566841|emb|SMM16077.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186570177|emb|SMM17464.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186574585|emb|SMM09739.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186578536|emb|SMK51338.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186581847|emb|SMK37847.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186584846|emb|SMM22739.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186588384|emb|SMM22026.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186591481|emb|SMK42336.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186595127|emb|SMK49739.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186598720|emb|SMM76552.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186601870|emb|SMM28400.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186605357|emb|SMM94118.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186608575|emb|SMM07203.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186611603|emb|SMM06523.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186614738|emb|SMM89026.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186618381|emb|SMM95810.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186621552|emb|SMM87854.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186624788|emb|SMM89321.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186628583|emb|SMK54899.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186631571|emb|SMI98317.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186634749|emb|SMJ01670.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186638596|emb|SMI47468.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186641029|emb|SMM42471.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186644020|emb|SMI93414.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186647802|emb|SMI91668.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186650759|emb|SMI90036.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186653938|emb|SMJ01463.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186657189|emb|SMJ88141.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186660378|emb|SMI96475.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186663812|emb|SMM13929.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186666827|emb|SMJ00525.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186671195|emb|SMM90354.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186674213|emb|SMI80044.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186677036|emb|SMI97911.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186680281|emb|SMK50088.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186683346|emb|SMJ00625.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186686485|emb|SMI95983.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186689556|emb|SMI95824.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186692620|emb|SMI98362.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186695817|emb|SMJ02849.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186699027|emb|SMI86992.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186701788|emb|SMJ02904.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186706334|emb|SMJ04667.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186709396|emb|SMJ11834.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186712458|emb|SMI98105.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186716342|emb|SML79243.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186718652|emb|SMI94642.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186722284|emb|SMK33454.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186729388|emb|SMJ23523.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186732157|emb|SMJ62197.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186735498|emb|SMI88431.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186738563|emb|SMI82337.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186742325|emb|SML84564.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186752417|emb|SMM91742.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186755421|emb|SMM56033.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186760191|emb|SMM49122.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186763102|emb|SMJ82434.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186766319|emb|SMJ81349.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186769535|emb|SMK01518.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186772322|emb|SMK20913.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186775627|emb|SMJ42260.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186778580|emb|SMI83847.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186781868|emb|SMK34441.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186785345|emb|SMM63648.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186788403|emb|SMM62752.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186791688|emb|SMK30186.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186795189|emb|SMN06347.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186798798|emb|SMM36742.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186801618|emb|SMK35136.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186804867|emb|SMK15308.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186815052|emb|SMI91403.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186818207|emb|SMI84967.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186824931|emb|SMI86162.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186831318|emb|SMM82210.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186834604|emb|SMK28795.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186838473|emb|SMI99917.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186841574|emb|SMI91658.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186844902|emb|SMI93609.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186851445|emb|SMK42452.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186855465|emb|SMK46109.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186858599|emb|SMK32872.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186861894|emb|SMK41323.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186865042|emb|SMK09644.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186869092|emb|SMK21307.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186872160|emb|SML14189.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186876496|emb|SMK41417.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186879799|emb|SMK77393.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186883013|emb|SMK73650.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186886318|emb|SMK81910.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186889492|emb|SML28182.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186892744|emb|SML10770.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186895925|emb|SMK35870.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186899076|emb|SMK40726.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186902222|emb|SMK36276.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186905323|emb|SMK80189.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186908494|emb|SML12149.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186911244|emb|SMM11002.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186914403|emb|SMM17047.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186918039|emb|SML02526.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186921218|emb|SML96336.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186924482|emb|SMK26926.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186927657|emb|SMM06601.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186930848|emb|SMK23205.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186934453|emb|SMI46771.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186937314|emb|SML06510.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186940320|emb|SMI92419.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186943780|emb|SMK31346.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186946794|emb|SMI88836.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186950007|emb|SML93941.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186953404|emb|SMJ00823.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186956532|emb|SMI96947.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186959701|emb|SMI85575.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186962936|emb|SMK44013.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186966234|emb|SMI87431.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186969550|emb|SMK35855.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186972855|emb|SMK33862.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186976070|emb|SMK45726.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186979132|emb|SMM94262.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186982470|emb|SMI92007.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186985741|emb|SMK31880.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186988925|emb|SML99112.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186992126|emb|SMM02800.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186995325|emb|SMM65996.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186998595|emb|SMM07337.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187003798|emb|SML09892.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187005190|emb|SMI84059.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187008234|emb|SMI92411.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187011757|emb|SMM01762.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187015003|emb|SMK38156.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187018136|emb|SMI74055.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187021311|emb|SMM09484.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187024895|emb|SML98228.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187027983|emb|SMK35422.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187031081|emb|SMJ01684.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187034520|emb|SMK27298.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187037792|emb|SMK39007.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187040925|emb|SMM38703.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187044268|emb|SMN08903.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187047562|emb|SMK35577.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187050777|emb|SML38880.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187055920|emb|SMH88866.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187057326|emb|SMK46928.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187060661|emb|SML95760.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187063817|emb|SMK69458.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187067066|emb|SML33780.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187070370|emb|SMK52142.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187073688|emb|SML06630.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187076931|emb|SML98065.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187080150|emb|SML98766.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187083311|emb|SMI88437.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187086761|emb|SML27119.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187089973|emb|SML99444.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187093244|emb|SMM00564.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187096396|emb|SMI89057.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187099681|emb|SMK95936.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187103046|emb|SML96736.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187106332|emb|SML96684.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187109573|emb|SML24815.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187112849|emb|SMM04982.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187116142|emb|SMM05473.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187119389|emb|SML95570.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187122728|emb|SMK35545.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187125930|emb|SMM09667.1| helix-turn-helix domain-containing protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002288821</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.75741</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|515489064|ref|WP_016922332.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_016922332</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.75741</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|498530304|ref|WP_010829708.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Enterococcus faecium] &gt;gi|487085621|gb|EOK11743.1| transcriptional regulator [Enterococcus faecium EnGen0372] &gt;gi|1172707444|gb|OQO64403.1| DNA-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_010829708</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.78251</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|896114623|ref|WP_049142345.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_049142345</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.80783</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|985215805|gb|KWZ04093.1|</Hit_id>
+  <Hit_def>DNA-binding protein, partial [Enterococcus faecium]</Hit_def>
+  <Hit_accession>KWZ04093</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.82698</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|488247756|ref|WP_002318964.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium] &gt;gi|291601987|gb|EFF32227.1| putative transcriptional regulator [Enterococcus faecium E1039]</Hit_def>
+  <Hit_accession>WP_002318964</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.85917</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1120945982|ref|WP_073460834.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_073460834</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.91144</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|498472175|ref|WP_010776869.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Enterococcus faecium] &gt;gi|486908019|gb|EOI39612.1| transcriptional regulator [Enterococcus faecium EnGen0313]</Hit_def>
+  <Hit_accession>WP_010776869</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.93794</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|490445934|ref|WP_004316852.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|229442608|gb|EEO48399.1| tetratricopeptide repeat protein [Bacteroides sp. D1] &gt;gi|262356275|gb|EEZ05365.1| tetratricopeptide repeat protein [Bacteroides sp. 2_1_22] &gt;gi|292637020|gb|EFF55470.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294443706|gb|EFG12455.1| tetratricopeptide repeat protein [Bacteroides xylanisolvens SD CC 1b] &gt;gi|335942318|gb|EGN04165.1| hypothetical protein HMPREF0127_02529 [Bacteroides sp. 1_1_30] &gt;gi|584447921|emb|CDM04122.1| FIG00898077: hypothetical protein [Bacteroides xylanisolvens SD CC 1b]</Hit_def>
+  <Hit_accession>EFF55470</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.17305</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>EAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAE</Hsp_qseq>
+      <Hsp_hseq>EAVPVLEQVVDLDPTNKAARLMLVSAAVKKEDYKQIIKVCEPGIEATPDALELYYYLAIAYHQAEQTDSVLSVCSRALE</Hsp_hseq>
+      <Hsp_midline>EAV +LEQV D D  +    L L  A VK     +  ++ E  I   PD +++   L + Y Q ++ D  + +  +  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|493836002|ref|WP_006783224.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Turicibacter] &gt;gi|292647233|gb|EFF65209.1| tetratricopeptide repeat protein [Turicibacter sanguinis PC909] &gt;gi|325490975|gb|EGC93273.1| tetratricopeptide repeat protein [Turicibacter sp. HGF1] &gt;gi|932977304|emb|CUM98382.1| TPR repeat-containing protein yrrB [Turicibacter sanguinis]</Hit_def>
+  <Hit_accession>EFF65209</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.45948</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>DVEVALHLGIAYVKTGAVDRGTELLERSI---ADAPDNIK-VATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>DLDLMLDLAFLYDEIDDRKKALELFYEMIKIDSEFPTSYYGIATI----YDDDEEYEKAIYYYQKTIELDPEYEAAHFFLANIYDETDEIEKAIYHYEKTLELDPNYFYAYINLGCIYEAQNQNLKAYHYFYKAYSLD</Hsp_hseq>
+      <Hsp_midline>D+++ L L   Y +     +  EL    I   ++ P +   +AT+    Y   ++Y+ A+    K  E +P      F L    D     ++AI  ++  L L PN    +  +   YE    + +A  +F KA  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|488301685|ref|WP_002372893.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium] &gt;gi|403035321|gb|EJY46715.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 505] &gt;gi|670924156|gb|AII39168.1| DNA-binding protein [Enterococcus faecium T110]</Hit_def>
+  <Hit_accession>WP_002372893</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.85505</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>SVNDDIRQVYYRDKGISHAKAGRYSEAVV----MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>SNSDLLNQILFYQGLLDHLYAKKEDAALFYFNQVLEQTTETDIHHLQAAANVAMIYLAKGELDFAKVYVERTLKILNDTGFDNLMVCAVYYNIATYYSKIENYEKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>S +D + Q+ +    + H  A +   A+     +LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ Y+ A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|488252086|ref|WP_002323294.1|</Hit_id>
+  <Hit_def>DNA-binding protein [Enterococcus faecium] &gt;gi|364093598|gb|EHM35855.1| Transcriptional regulator, xre family [Enterococcus faecium E4452] &gt;gi|430483712|gb|ELA60775.1| transcriptional regulator [Enterococcus faecium EnGen0022] &gt;gi|430610038|gb|ELB47203.1| transcriptional regulator [Enterococcus faecium EnGen0043] &gt;gi|486440199|gb|EOD85052.1| transcriptional regulator [Enterococcus faecium EnGen0006] &gt;gi|486652249|gb|EOF92146.1| transcriptional regulator [Enterococcus faecium EnGen0166] &gt;gi|487289018|gb|EOM05323.1| transcriptional regulator [Enterococcus faecium EnGen0260] &gt;gi|487295911|gb|EOM11981.1| transcriptional regulator [Enterococcus faecium EnGen0261]</Hit_def>
+  <Hit_accession>WP_002323294</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.85505</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMICIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ +  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|488221186|ref|WP_002292394.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DNA-binding protein [Enterococcus] &gt;gi|257836843|gb|EEV61917.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium Com15] &gt;gi|291607832|gb|EFF37144.1| TPR domain transcriptional regulator, Cro/CI family, putative [Enterococcus faecium E980] &gt;gi|430597909|gb|ELB35687.1| transcriptional regulator [Enterococcus faecium EnGen0033] &gt;gi|658174352|gb|KEI49009.1| DNA-binding protein [Enterococcus faecium UC7256] &gt;gi|958607272|gb|KST50668.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1080832519|gb|OFP97314.1| DNA-binding protein [Enterococcus sp. HMSC076E04] &gt;gi|1172708668|gb|OQO65549.1| DNA-binding protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002292394</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.29739</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>SVNDDIRQVYYRDKGISHAKAGRYSEAVV----MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA---DAP-DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>SNSDLLNQILFYQGLLDHLYAKKEDAALFYFNQVLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILNDTDFDNLMVCAVYYNIATYYSKIENYEKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>S +D + Q+ +    + H  A +   A+     +LEQ  + D   ++ A ++ + Y+  G +D     +ER++    D   DN+ V  V   +   Y +++ Y+ A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|488271514|ref|WP_002342722.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Enterococcus faecium] &gt;gi|430603216|gb|ELB40751.1| transcriptional regulator [Enterococcus faecium EnGen0026]</Hit_def>
+  <Hit_accession>WP_002342722</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.44463</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>SVNDDIRQVYYRDKGISHAKAGRYSEAVV----MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA---DAP-DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>SNSDLLNQILFYQGLLDHLYAKKEDAALFYFNQVLEQTTETDIHHLQAAANVAMIYLAKGELDFAKVYVERTLKILNDTDFDNLMVCAVYYNIATYYSKIENYEKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>S +D + Q+ +    + H  A +   A+     +LEQ  + D   ++ A ++ + Y+  G +D     +ER++    D   DN+ V  V   +   Y +++ Y+ A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>185567</Statistics_db-num>
+      <Statistics_db-len>56928210</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1053 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1052728995|emb|SCJ13065.1|</Hit_id>
+  <Hit_def>TPR repeat-containing protein yrrB [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCJ13065</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>3.23928e-13</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDK-GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELL---ERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>FQKAVELEPDNPE--YRNSLGVTLHEMKRYDDALTETQKAVELEPNNAEYHNSLGIT---LHALKRYDEVLIEMQKAVELEPDNPEYRNSLGVTLHNMKRYDEALIEFQKAVELEPDNAEYHNSLGVTLGCIERYDEALDEYHKAIELEPDNAKYHDSLGIILSYMKYYDEALIEFQKA</Hsp_hseq>
+      <Hsp_midline>F+ A  +  D  +  YR+  G++  +  RY +A+   ++  + +  + E    LGI      A+ R  E+L   ++++   PDN +    LG+T   +++YD A+    K  E  P N      LGV L  + R+DEA+D +  A+ L P+  K H ++      M  ++EAL  F+KA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>5.01104e-13</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>RYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>RYDDALIEFQKAVELEPDNPEYRNSLGVTLHEMKRYDDALTETQKAVELEPNNAEYHNSLGITLHALKRYDEVLIEMQKAVELEPDNPEYRNSLGVTLHNMKRYDEALIEFQKAVELEPDNAEYHNSLGVTLGCIERYDEALDEYHKAIELEPDNA</Hsp_hseq>
+      <Hsp_midline>RY +A++  ++  + +  + E    LG+   +    D      ++++   P+N +    LG+T   +++YD  +  + K  E  P N   R  LGV L N+ R+DEA+  F+ A+ L P+  + H ++  +   +  ++EAL  + KA EL+  +A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.18266e-07</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>YYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHR</Hsp_qseq>
+      <Hsp_hseq>YHNSLGITLHALKRYDEVLIEMQKAVELEPDNPEYRNSLGVTLHNMKRYDEALIEFQKAVELEPDNAEYHNSLGVTLGCIERYDEALDEYHKAIELEPDNAKYHDSLGIILSYMKYYDEALIEFQKAIALEPD-NKICR</Hsp_hseq>
+      <Hsp_midline>Y+   GI+     RY E ++ +++  + +  + E    LG+        D      ++++   PDN +    LG+T   +++YD A+    K  E  P N      LG+ L  +  +DEA+  F+ A+ L P+  K+ R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>8.45986e-06</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>MKRYDDALIEFQKAVELEPDNPEYRNSLGVTLHEMKRYDDALTETQKAVELEPNNAEYHNSLGITLHALKRYDEVLIEMQKAVELE</Hsp_hseq>
+      <Hsp_midline>+++YD A+    K  E  P N   R  LGV L  + R+D+A+   + A+ L PN  + H ++  +   +  ++E L   +KA EL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1052712082|emb|SCJ60438.1|</Hit_id>
+  <Hit_def>TPR repeat-containing protein yrrB [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCJ60438</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000141821</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>DDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSF</Hsp_qseq>
+      <Hsp_hseq>DKFNKEFYVQKSIILANLDKYNEAIAELKNALKIDKTFGEAYFHMGNMYLLKGEQSHGIESYNKAIANGFDDAQMFFNLGLMYEEDGNDELAVRNYSKAIMKDPLRVDARVRKAKIYISNGKQQEALEEL</Hsp_hseq>
+      <Hsp_midline>D   + +Y  K I  A   +Y+EA+  L+     D    E   H+G  Y+  G    G E   ++IA+  D+ ++   LGL Y +    +LAV    K    +P+  + R R      + G+  EA++  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.26529</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>TYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>SFVAMEQYDDALEYIDKAIQTDKFNKEFYVQKSIILANLDKYNEAIAELKNALKIDKTFGEAYFHMGNMYLLKGEQSHGIESYNKA</Hsp_hseq>
+      <Hsp_midline>++V +++YD A+  + K  + +  N     +  + L NL +++EAI   K AL +    G+ +  +   Y   G     +  + KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|739441620|ref|WP_037301637.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus flavefaciens] &gt;gi|585217712|gb|EWM52147.1| hypothetical protein RF007C_01875 [Ruminococcus flavefaciens 007c]</Hit_def>
+  <Hit_accession>WP_037301637</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00657439</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>VKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>IQLASKDPDAYQC---AGNACMSLGDYENAIDYYKKAVKLEPNNGNRYFNIGYAYASAEKAGEAVKNLAKAEEL</Hsp_hseq>
+      <Hsp_midline>+++A  +P  +      G A  +LG ++ AID +K A+ L PN G  +  I Y+Y       EA+ +  KA EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1052733611|emb|SCH37940.1|</Hit_id>
+  <Hit_def>Predicted O-linked N-acetylglucosamine transferase%2C SPINDLY family [uncultured Ruminococcus sp.] &gt;gi|1052735780|emb|SCH39750.1| Predicted O-linked N-acetylglucosamine transferase%2C SPINDLY family [uncultured Clostridium sp.]</Hit_def>
+  <Hit_accession>SCH37940</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00870704</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>DADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL--GLR-PNE</Hsp_qseq>
+      <Hsp_hseq>EAPSYDMAWS-NLATIYFDSGQPGEAVKCCENAIFYNPRNAFAYNKLGGYYFKTSDYEKSVPLFERALKELPQHPVLRMNYAHALSMAGRRQEALKNYQAALNAGYRDPNQ</Hsp_hseq>
+      <Hsp_midline>+A ++D+  + +L   Y  +G      +  E +I   P N      LG  Y +   Y+ +VPL  +  +  P +  +R     AL   GR  EA+ +++ AL  G R PN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|655072962|ref|WP_028521165.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus flavefaciens]</Hit_def>
+  <Hit_accession>WP_028521165</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0299716</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>GNACMSLEDYDNAIDYYKKALKLEPNNGNRYFNLGYAYASAEKAGESVKNLAKAEEL</Hsp_hseq>
+      <Hsp_midline>G A  +L  +D AID +K AL L PN G  +  + Y+Y       E++ +  KA EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1100892130|ref|WP_071434167.1|</Hit_id>
+  <Hit_def>hypothetical protein [Angelakisella massiliensis]</Hit_def>
+  <Hit_accession>WP_071434167</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.120891</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>LVVGLTACAAQEAASTWEDQYELGIRYLSEGNYEEAIIAFTAAIEIDPMQVEAYVARGDAYFQSGQPEKAESDYRKALEL</Hsp_hseq>
+      <Hsp_midline>L V L    A+     +  ++ LG+   + G ++EAI +F  A+ + P + + + A   +Y Q G  E+A   ++KA EL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.518583</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN</Hsp_qseq>
+      <Hsp_hseq>GIRYLSEGNYEEAIIAFTAAIEIDPMQVEAYVARGDAYFQSGQPEKAESDYRKALELDDDDDDTASKLVDALIQQGKLEEAAEILEDLIEKNPSN</Hsp_hseq>
+      <Hsp_midline>GI +   G Y EA++      + D   VE  +  G AY ++G  ++      +++    D+   A+ L    +Q  K + A  +L  + E NP N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|517990653|ref|WP_019160861.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus sp. JC304]</Hit_def>
+  <Hit_accession>WP_019160861</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.227547</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>DIRQVYYRDKGISHAKAGRYSEAVVM--LEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA-DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRF------------RLGVALDNLGRFDEAIDSFKIALGLRPNEGKV</Hsp_qseq>
+      <Hsp_hseq>DSRQEFYYGKELFYHKLYRESAAVFLHFLENPEAWQENQLDACLQLCYCYRALGENDKAMNILFKSFQFDVP-RAEICYELGNLFLEKSAFISAVYWYQQALNAPYCEQNGGFFIPDCHDFLPLVQLCVCYDKLGQYKTSFDCLQTAAKIHPDEPCI</Hsp_hseq>
+      <Hsp_midline>D RQ +Y  K + + K  R S AV +  LE         ++  L L   Y   G  D+   +L +S   D P   ++   LG  +++   +  AV    +   A     N  F            +L V  D LG++  + D  + A  + P+E  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|524499463|emb|CDC40705.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Clostridium sp. CAG:352] &gt;gi|1052715371|emb|SCJ13444.1| Predicted O-linked N-acetylglucosamine transferase%2C SPINDLY family [uncultured Ruminococcus sp.] &gt;gi|1052718002|emb|SCI98749.1| Predicted O-linked N-acetylglucosamine transferase%2C SPINDLY family [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCJ13444</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.495066</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>PVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEG-----KVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>PYELNVL--LSGAYFSLDRYDEAIELLE---SIEPDDNEEEIAKYYFYLGMSYYHSGNYDEAIPCFEKTHEIDPK</Hsp_hseq>
+      <Hsp_midline>P   NV   L  A  +L R+DEAI+  +    + P++      K +  +  SY   G+++EA+P F+K +E+D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.26201</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>94</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTG</Hsp_qseq>
+      <Hsp_hseq>YYFYLGMSYYHSGNYDEAIPCFEKTHEIDPKDIDTLLFLCFATSEYG</Hsp_hseq>
+      <Hsp_midline>YY   G+S+  +G Y EA+   E+ ++ D  D++  L L  A  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1124682603|ref|WP_074961277.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus albus] &gt;gi|1097841606|emb|SFC51132.1| hypothetical protein SAMN02910406_01844 [Ruminococcus albus]</Hit_def>
+  <Hit_accession>WP_074961277</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.56838</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVAL</Hsp_qseq>
+      <Hsp_hseq>KALADNPDNMELNNSIAMCYLKLKLYDKALPAFESAMEDNFDNSETFFYAAICL</Hsp_hseq>
+      <Hsp_midline>+++AD PDN+++   + + Y++++ YD A+P      E N  N    F   + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1052857346|emb|SCJ71215.1|</Hit_id>
+  <Hit_def>cellulose synthase subunit BcsC [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCJ71215</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.754794</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>RQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSI-------------------------ADAPDNIKVATVL-------------GLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK-ANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>QDTYYIDQGMEQINSGNYEEALTSFSSAEQEGKHLVESYRGSGMAYMALGEYDKAVEAFDRAVDLTKEKQKDVRKDILMYKATALYQSGDYEGAAKVCDTIQTFGDSADAYYLQGLCYMELDEKDKAGVDFTTAVKLSPQDYDLLLNIYECYDDKNLSAEGDAYLQQALAINSDDSEDIYQKARIYYFLGDYDDAKTELNKMADSMDERSTM</Hsp_hseq>
+      <Hsp_midline>+  YY D+G+    +G Y EA+             VE     G+AY+  G  D+  E  +R++                          D     KV   +             GL Y+++ + D A        + +P ++++   +    D+     E     + AL +  ++ +     A  Y  +G +++A     K A+ +DERS +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1052876834|emb|SCH49655.1|</Hit_id>
+  <Hit_def>cellulose synthase subunit BcsC [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCH49655</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.981035</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>RQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSI</Hsp_qseq>
+      <Hsp_hseq>QDTYYIDQGMEQINSGNYEEALTSFSSAEQEGKHLVESYRGSGMAYMALGEYDKAVEAFDRAV</Hsp_hseq>
+      <Hsp_midline>+  YY D+G+    +G Y EA+             VE     G+AY+  G  D+  E  +R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|640290599|ref|WP_024853387.1|</Hit_id>
+  <Hit_def>hypothetical protein [[Ruminococcus] gnavus]</Hit_def>
+  <Hit_accession>WP_024853387</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.41838</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>151</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>DADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMG</Hsp_qseq>
+      <Hsp_hseq>DANSTDIEILHDLIYAYCMIEKYDQMLKYYYMYIKEERDEYRKYCVEGYVEYHLEKYNNALVAYQKAESKNREDWIVKNNIGYCWLKVQMYPEAKDIFRKSYRKQKNYFSI---IGYLLSEMG</Hsp_hseq>
+      <Hsp_midline>DA++ D+E+   L  AY      D+  +     I +  D  +   V G     ++KY+ A+    K    N  ++ V+  +G     +  + EA D F+ +   + N   +   I Y   +MG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|739484006|ref|WP_037343760.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus sp. FC2018]</Hit_def>
+  <Hit_accession>WP_037343760</Hit_accession>
+  <Hit_len>981</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>1.42833</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>626</Hsp_hit-from>
+      <Hsp_hit-to>772</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYD---ADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATV----------LGLTYVQVQKYDLAVPLL----------VKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGK</Hsp_qseq>
+      <Hsp_hseq>GKYDEAVEAFEKMKDYKYSEEMIIEAKFRKAVAFSENGNYDEAIEAFEELDGYKDSTIQIAKCKTAINDGKYNTALNLYNSGKYDEAITAFNALNGYKDSTIQIAKCKTAINDGKYNTALNLYNSGKYDEAITAYTVLDGYKDSAEK</Hsp_hseq>
+      <Hsp_midline>G+Y EAV   E++ D   ++   +E      +A+ + G  D   E  E         I++A              L      KYD A+             +++A+      + ++   + L N G++DEAI ++ +  G + +  K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>6.73425</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>627</Hsp_hit-from>
+      <Hsp_hit-to>720</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>KYDLAVPLLVKVAE---ANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP------------NEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>KYDEAVEAFEKMKDYKYSEEMIIEAKFRKAVAFSENGNYDEAIEAFEELDGYKDSTIQIAKCKTAINDGKYNTAL--NLYNSGKYDEAITAFNALN</Hsp_hseq>
+      <Hsp_midline>KYD AV    K+ +   +  +    +FR  VA    G +DEAI++F+   G +             N+GK + A+  +    G ++EA+  F   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1052724330|emb|SCH90090.1|</Hit_id>
+  <Hit_def>photosystem I assembly protein Ycf3 [uncultured Megasphaera sp.] &gt;gi|1053006554|emb|SCJ48903.1| photosystem I assembly protein Ycf3 [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCJ48903</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.51494</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>YDLALAYKIDGQYDKSISYFQKVLAADPNNTWSYYGIATIYGDKGDAKNAVVYLKKAAALDKEN</Hsp_hseq>
+      <Hsp_midline>+ L +A    G++D++I  F+  L   PN    +  IA  Y   G  + A+ + KKA  LD+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|524579696|emb|CDD03907.1|</Hit_id>
+  <Hit_def>flavoprotein family protein [Ruminococcus sp. CAG:382]</Hit_def>
+  <Hit_accession>CDD03907</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.64373</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>106</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>PSNMLDEVTLYTHYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVM----------LEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERS</Hsp_qseq>
+      <Hsp_hseq>PADITD---FFESNGLPLKTERGRRVFPQSDSAFDVNDTLRRVMA-EKGV-HIVQGKATELIIENGVCKGVVTDRKKTYLADSTIVATG---GASYPKTGSDGSGYRLCEKA</Hsp_hseq>
+      <Hsp_midline>P+++ D    +   GL +  + G  +     SAF VND +R+V   +KG+ H   G+ +E ++            ++ Y AD+  V      G +Y KTG+   G  L E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1011392047|ref|WP_062304460.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus sp. DSM 100440] &gt;gi|1005913003|gb|KYG87625.1| hypothetical protein AXF09_05950 [Ruminococcus sp. DSM 100440]</Hit_def>
+  <Hit_accession>WP_062304460</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.65506</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>LGVALDNLGRFDEAIDSFKIAL--GLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>LGISYFELGQYDKAASAFETALEKGVKKTP-ELYNLLGISYMKIGQYDKAAVSFENGSQMD</Hsp_hseq>
+      <Hsp_midline>LG++   LG++D+A  +F+ AL  G++    +++  +  SY ++G +++A   F+  +++D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.40745</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTE----LLERSIADAPDNIKVATVLGLTYVQVQKYDLAV</Hsp_qseq>
+      <Hsp_hseq>EKGTSLLKEEKYEEAAEVFEKASGKSSMEREAYRGLGISYFELGQYDKAASAFETALEKGVKKTPE---LYNLLGISYMKIGQYDKAA</Hsp_hseq>
+      <Hsp_midline>+KG S  K  +Y EA  + E+     + + E    LGI+Y + G  D+        LE+ +   P+   +  +LG++Y+++ +YD A </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.93018</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LGLTYVQVQKYDLAVPL----LVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYS</Hsp_qseq>
+      <Hsp_hseq>LGISYFELGQYDKAASAFETALEKGVKKTPELYNL---LGISYMKIGQYDKAAVSFENGSQMDGAGDQLKREMAYN</Hsp_hseq>
+      <Hsp_midline>LG++Y ++ +YD A       L K  +  P  +N+   LG++   +G++D+A  SF+    +     ++ R +AY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|490979706|ref|WP_004841469.1|</Hit_id>
+  <Hit_def>hypothetical protein [[Ruminococcus] gnavus] &gt;gi|153796149|gb|EDN78569.1| tetratricopeptide repeat protein [Ruminococcus gnavus ATCC 29149] &gt;gi|336017702|gb|EGN47460.1| hypothetical protein HMPREF0991_01981 [Lachnospiraceae bacterium 2_1_58FAA] &gt;gi|564717219|gb|ETD17292.1| hypothetical protein HMPREF1201_02295 [Ruminococcus gnavus CC55_001C] &gt;gi|933002716|emb|CUN93594.1| TPR repeat-containing protein yrrB [[Ruminococcus] gnavus] &gt;gi|1053007914|emb|SCJ05250.1| TPR repeat-containing protein yrrB [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>WP_004841469</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.75516</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPD-NIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVAL-DNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>GTGYLEDGNYKEAVTAFQKAVDEGKKTAEAYRGLGMAYYEQEDYASAKDAFEKALAAGGEKNQVIYNLLGICGMKLNDYNYALE---------------QFNQGISLSQNSGTSMENAESFSEVL----QEMRFNQIVC--YEKLGDWENA</Hsp_hseq>
+      <Hsp_midline>G  + + G Y EAV   ++  D      E    LG+AY +        +  E+++A   + N  +  +LG+  +++  Y+ A+                +F  G++L  N G   E  +SF   L     E + ++ +   YE++G  E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1052786610|emb|SCJ78417.1|</Hit_id>
+  <Hit_def>Putative beta-lactamase hcpC precursor [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCJ78417</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.87465</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>EAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDL--AVPLLVKVAEAN</Hsp_qseq>
+      <Hsp_hseq>KGLAMLTEC--ADSGDTCACYKLGKIYFKGEIVLQDLDKAEKYLLLAEDNEFTQYAFGKLYLQKEKYDILKAVDCFEKSADKN</Hsp_hseq>
+      <Hsp_midline>+ + ML +   AD+ D      LG  Y K   V +  +  E+ +  A DN       G  Y+Q +KYD+  AV    K A+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|225037158|gb|EEG47404.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Blautia hydrogenotrophica DSM 10507]</Hit_def>
+  <Hit_accession>EEG47404</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.96327</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>VPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>IEMMERVFNRNKSNLYTFCKAGKKLINKGKYEECRLLAADAMKNYPDAPEPHNIFGIVLEKQGNHASAMRHFRAAYALD</Hsp_hseq>
+      <Hsp_midline>+ ++ +V   N  N     + G  L N G+++E       A+   P+  + H       E+ G+H  A+ HF+ A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|547306398|ref|WP_022038514.1|</Hit_id>
+  <Hit_def>hypothetical protein [[Ruminococcus] gnavus] &gt;gi|524199389|emb|CCZ67252.1| putative uncharacterized protein [Ruminococcus gnavus CAG:126]</Hit_def>
+  <Hit_accession>WP_022038514</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.63709</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSI-ADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVAL-DNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>GTGYLEDGNYKEAVTAFQKAVDEGKKTAEAYRGLGMAYYELEDYESAKDAFEKAISAGGGKNQAIYNFLGICGMKLNDYNYALE---------------QFNQGISLSQNSGTSMEDAESFSEVL----QEMLFNQIVC--YEKLGDWENA</Hsp_hseq>
+      <Hsp_midline>G  + + G Y EAV   ++  D      E    LG+AY +    +   +  E++I A    N  +   LG+  +++  Y+ A+                +F  G++L  N G   E  +SF   L     E   ++ +   YE++G  E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1011392448|ref|WP_062304861.1|</Hit_id>
+  <Hit_def>ATP-binding protein [Ruminococcus sp. DSM 100440] &gt;gi|1005911660|gb|KYG86367.1| hypothetical protein AXF09_13050 [Ruminococcus sp. DSM 100440]</Hit_def>
+  <Hit_accession>WP_062304861</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.02681</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE</Hsp_qseq>
+      <Hsp_hseq>MKYVQTKSYDKAKEIAETIDWKRVKNASMLCTVSEIYEYTGEYQKSREILFIAYDRSPGSRKIVYRLGTLALRLGETEEALDCYEEFVSMAPKD</Hsp_hseq>
+      <Hsp_midline>+ YV+T + D+  E+ E        N  +   +   Y    +Y  +  +L    + +P +  + +RLG     LG  +EA+D ++  + + P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|524122818|emb|CCY97283.1|</Hit_id>
+  <Hit_def>kinase domain protein [Ruminococcus sp. CAG:17] &gt;gi|1052883206|emb|SCH33453.1| Serine/threonine-protein kinase PrkC [uncultured Blautia sp.]</Hit_def>
+  <Hit_accession>CCY97283</Hit_accession>
+  <Hit_len>676</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.25563</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>ERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNF-------NVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>EKATDLIPDRLDAYYQKALALNKQQQYGDSIDFINKVILSNDAILKSGSSLNDIYYLLGNSYERMENYENAAECYKKAIDIKPDNSAYYRDYAIAMAYTGNMEEAEKALETARE</Hsp_hseq>
+      <Hsp_midline>E++    PD +       L   + Q+Y  ++  + KV  +N           ++ + LG + + +  ++ A + +K A+ ++P+    +R  A +    G+ EEA    + A E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1052780711|emb|SCH91308.1|</Hit_id>
+  <Hit_def>Putative beta-lactamase hcpC precursor [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCH91308</Hit_accession>
+  <Hit_len>943</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.87093</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>762</Hsp_hit-from>
+      <Hsp_hit-to>833</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>ADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDL--AVPLLVKVAEAN</Hsp_qseq>
+      <Hsp_hseq>ADKGDSFACFQLGQFYLKGEIVTQDLERAEKYLLLAEDNEFTQYAFGKLYLQEEKYDIQKAVDYFEKSADKN</Hsp_hseq>
+      <Hsp_midline>AD  D      LG  Y+K   V +  E  E+ +  A DN       G  Y+Q +KYD+  AV    K A+ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1119443317|ref|WP_072418340.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus sp. YE71] &gt;gi|1086598721|emb|SDA23150.1| Tetratricopeptide repeat-containing protein [Ruminococcus sp. YE78] &gt;gi|1102066190|emb|SFW39352.1| Tetratricopeptide repeat-containing protein [Ruminococcus sp. YE71]</Hit_def>
+  <Hit_accession>WP_072418340</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.9353</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>QKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>ENYENAVLWYDKALAEAPTDEYALSKAGAALVASGRFEEAFGYFERAVAADPDNGDNYFNLANAYFFSGDIGKAMEYYTEAD</Hsp_hseq>
+      <Hsp_midline>+ Y+ AV    K     P +     + G AL   GRF+EA   F+ A+   P+ G  +  +A +Y   G   +A+ ++ +A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1039419301|ref|WP_064785611.1|</Hit_id>
+  <Hit_def>hypothetical protein [[Ruminococcus] gnavus]</Hit_def>
+  <Hit_accession>WP_064785611</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.69525</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSI-ADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVAL-DNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>GTGYLEDGNYKEAVTAFQKAVDEGKKTAQAYRGLGMAYYEQEDYESAKDAFEKAISAGGEKNQVIYNLLGICGMKLNDYNYALE---------------QFNQGISLSQNSGTSMEDAESFSEVL----QEMLFNQIVC--YEKLGDWENA</Hsp_hseq>
+      <Hsp_midline>G  + + G Y EAV   ++  D      +    LG+AY +    +   +  E++I A    N  +  +LG+  +++  Y+ A+                +F  G++L  N G   E  +SF   L     E   ++ +   YE++G  E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1124428596|ref|WP_074715698.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus flavefaciens] &gt;gi|1093241189|emb|SEH54707.1| hypothetical protein SAMN02910265_01338 [Ruminococcus flavefaciens]</Hit_def>
+  <Hit_accession>WP_074715698</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.16232</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRA---IAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>AIPVLEKAIEYNPLDCNPRFELAEVYKLLKNKRMLIETTKETLEVAASPVAIARCYANVGYALTDMGEYDDA</Hsp_hseq>
+      <Hsp_midline>A+P+L K  E NP++ N RF L      L      I++ K  L +  +   + R    + Y+   MG +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1100892772|ref|WP_071434809.1|</Hit_id>
+  <Hit_def>hypothetical protein [Angelakisella massiliensis]</Hit_def>
+  <Hit_accession>WP_071434809</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.17189</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>AVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVH----RAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>ASAITAESTSASTLTWQDQYDLGIRYLSEGNYAEAIIAFTAAIEIDPKNPTAYLGRAQATVFSGETDENLSAALTDYEKAKELGDNSS</Hsp_hseq>
+      <Hsp_midline>A  +  +   A+ + +  ++ LG+   + G + EAI +F  A+ + P     +    +A  +S E   +   AL  ++KA EL + S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1052768198|emb|SCI54933.1|</Hit_id>
+  <Hit_def>Daunorubicin/doxorubicin resistance ATP-binding protein DrrA [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCI54933</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.34283</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDE</Hsp_qseq>
+      <Hsp_hseq>SPVNYGVKKRIGVIMQNVAVFDE</Hsp_hseq>
+      <Hsp_midline>+PVN+ V+ R+GV + N+  FDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|524530869|emb|CDC67872.1|</Hit_id>
+  <Hit_def>aBC transporter related protein [Ruminococcus sp. CAG:57]</Hit_def>
+  <Hit_accession>CDC67872</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.41835</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDE</Hsp_qseq>
+      <Hsp_hseq>SPVNYGVKKRIGVIMQNVAVFDE</Hsp_hseq>
+      <Hsp_midline>+PVN+ V+ R+GV + N+  FDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|740886070|ref|WP_038671318.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Ruminococcus bicirculans] &gt;gi|571258228|emb|CCO04585.1| ABC transporter ATP-binding protein [Ruminococcus bicirculans] &gt;gi|1052780788|emb|SCH87835.1| Daunorubicin/doxorubicin resistance ATP-binding protein DrrA [uncultured Ruminococcus sp.] &gt;gi|1052787313|emb|SCJ61774.1| Daunorubicin/doxorubicin resistance ATP-binding protein DrrA [uncultured Ruminococcus sp.] &gt;gi|1053023193|emb|SCI96505.1| Daunorubicin/doxorubicin resistance ATP-binding protein DrrA [uncultured Ruminococcus sp.] &gt;gi|1125085809|gb|OLA48491.1| ABC transporter ATP-binding protein [Ruminococcus bicirculans]</Hit_def>
+  <Hit_accession>WP_038671318</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.49454</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDE</Hsp_qseq>
+      <Hsp_hseq>SPVNYGVKKRIGVIMQNVAVFDE</Hsp_hseq>
+      <Hsp_midline>+PVN+ V+ R+GV + N+  FDE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>263598</Statistics_db-num>
+      <Statistics_db-len>85202602</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

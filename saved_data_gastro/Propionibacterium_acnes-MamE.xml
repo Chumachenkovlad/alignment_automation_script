@@ -1,0 +1,2487 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|488407544|ref|WP_002476929.1|</Hit_id>
+  <Hit_def>serine protease [Staphylococcus epidermidis] &gt;gi|394257332|gb|EJE02254.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM040] &gt;gi|410890136|gb|EKS37936.1| hypothetical protein HMPREF9281_00991 [Staphylococcus epidermidis BVS058A4] &gt;gi|966452177|gb|KTF28238.1| serine protease [Staphylococcus epidermidis FS1] &gt;gi|987897468|emb|CUY01251.1| heat-shock protein htrA [Staphylococcus epidermidis] &gt;gi|1032206373|gb|OAO23643.1| serine protease [Staphylococcus epidermidis] &gt;gi|1097070573|emb|SFG20647.1| serine protease, S1-C subfamily, contains C-terminal PDZ domain [Staphylococcus epidermidis]</Hit_def>
+  <Hit_accession>KTF28238</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>2.78797e-25</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRFANPTTRSVE-NIGTGVIVR-NDG--FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTM---VIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARL</Hsp_qseq>
+      <Hsp_hseq>NLDDL--FNGKASKSKEAGIGSGVIYQISDGSAYIVTNNHVVDGASEIKVQLHN---SKQVDAKLIGKDALTDIAVLKIKDTKGIKAIQFANSSKVQTGDSVFAMGNPLGLEFANSVTSGIISASERTIDANTSAGNTKVNVLQTDAAINPGNSGGALVDINGNLVGIN-SMKIAAAQVEGIGFAIPSNEVRV</Hsp_hseq>
+      <Hsp_midline>N D L  F    ++S E  IG+GVI + +DG  +IVTN HVV GA+ + V + +   S +   +++  D   D+A+LKI     + A    +S  V   D V A+G P GL+   +V+ GIISA  +T+      G T  N+LQTDAAIN GNSGG LV  NG +VGIN ++        GIGFA+PSN+ R+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.02572</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN-GRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LINLSDIPENYRKELHTH--KDKGVYVAKVD-----SENAIKKGDIITGIDGKQIKDDTDLRTYLYESKKPGETVTLKVIRDGKTQDINV</Hsp_hseq>
+      <Hsp_midline>L+  +  P   R  L  +    +GV+V  V      +   ++ GD+I  +DG+ +    ++   + E    G +V + V+R G   ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|487748785|ref|WP_001830793.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Staphylococcus] &gt;gi|27468323|ref|NP_764960.1| heat-shock protein htrA [Staphylococcus epidermidis ATCC 12228] &gt;gi|27315869|gb|AAO05004.1|AE016748_238 serine proteinase Do [Staphylococcus epidermidis ATCC 12228] &gt;gi|251805337|gb|EES57994.1| trypsin [Staphylococcus epidermidis BCM-HMP0060] &gt;gi|281294876|gb|EFA87403.1| trypsin [Staphylococcus epidermidis SK135] &gt;gi|329737157|gb|EGG73411.1| putative peptidase Do [Staphylococcus epidermidis VCU028] &gt;gi|341652960|gb|EGS76734.1| trypsin [Staphylococcus epidermidis VCU109] &gt;gi|341653668|gb|EGS77435.1| trypsin [Staphylococcus epidermidis VCU105] &gt;gi|374405519|gb|EHQ76451.1| trypsin [Staphylococcus epidermidis VCU065] &gt;gi|374407047|gb|EHQ77916.1| trypsin [Staphylococcus epidermidis VCU041] &gt;gi|374409229|gb|EHQ80028.1| trypsin [Staphylococcus epidermidis VCU057] &gt;gi|374410917|gb|EHQ81646.1| trypsin [Staphylococcus epidermidis VCU081] &gt;gi|374825106|gb|EHR89054.1| trypsin [Staphylococcus epidermidis VCU123] &gt;gi|374825689|gb|EHR89613.1| trypsin [Staphylococcus epidermidis VCU125] &gt;gi|383358326|gb|EID35785.1| trypsin [Staphylococcus epidermidis IS-250] &gt;gi|383361585|gb|EID38955.1| trypsin [Staphylococcus epidermidis IS-K] &gt;gi|394233001|gb|EJD78612.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM095] &gt;gi|394233261|gb|EJD78869.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM087] &gt;gi|394256826|gb|EJE01752.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM039] &gt;gi|394271605|gb|EJE16096.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM018] &gt;gi|394301553|gb|EJE45009.1| trypsin [Staphylococcus epidermidis NIH051668] &gt;gi|406657568|gb|EKC83953.1| heat-shock protein htrA [Staphylococcus epidermidis AU12-03] &gt;gi|498667630|gb|EON80371.1| heat-shock protein htrA [Staphylococcus epidermidis 528m] &gt;gi|498669967|gb|EON82548.1| heat-shock protein htrA [Staphylococcus epidermidis 41tr] &gt;gi|498675284|gb|EON86373.1| heat-shock protein htrA [Staphylococcus epidermidis 36-1] &gt;gi|653232303|gb|KEA35586.1| serine protease [Staphylococcus epidermidis] &gt;gi|691219209|gb|AIR82496.1| PDZ domain protein [Staphylococcus epidermidis] &gt;gi|694236564|gb|KGJ27563.1| serine protease [Staphylococcus epidermidis] &gt;gi|966446661|gb|KTF22964.1| serine protease [Staphylococcus epidermidis] &gt;gi|966451374|gb|KTF27485.1| serine protease [Staphylococcus epidermidis] &gt;gi|967377720|gb|KTK49236.1| serine protease [Staphylococcus epidermidis] &gt;gi|991178942|emb|CVY08881.1| serine protease HtrA [Streptococcus pneumoniae] &gt;gi|1018449335|gb|KZG47391.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018451010|gb|KZG49028.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018455280|gb|KZG53058.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018456491|gb|KZG54233.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018458192|gb|KZG55897.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018460449|gb|KZG58081.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018462655|gb|KZG60180.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018465541|gb|KZG63094.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018466174|gb|KZG63618.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018472068|gb|KZG69329.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018473334|gb|KZG70567.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018478667|gb|KZG75742.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018480349|gb|KZG77363.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018483628|gb|KZG80559.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018484051|gb|KZG80963.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018489025|gb|KZG85775.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018492806|gb|KZG89451.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018494078|gb|KZG90685.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018496106|gb|KZG92653.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018498696|gb|KZG95193.1| serine protease [Staphylococcus epidermidis] &gt;gi|1020073140|gb|KZK58069.1| serine protease [Staphylococcus epidermidis] &gt;gi|1020075166|gb|KZK59978.1| serine protease [Staphylococcus epidermidis] &gt;gi|1020078592|gb|KZK63137.1| serine protease [Staphylococcus epidermidis] &gt;gi|1020080317|gb|KZK64746.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034758373|gb|OAW11175.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034763904|gb|OAW16558.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034766668|gb|OAW19244.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035158844|gb|OAW21369.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035161850|gb|OAW24296.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035163978|gb|OAW26356.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035166603|gb|OAW28850.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035169939|gb|OAW32068.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035175610|gb|OAW37522.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035175705|gb|OAW37616.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035180928|gb|OAW42689.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035184077|gb|OAW45741.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035186761|gb|OAW48347.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035188224|gb|OAW49777.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035201505|gb|OAW62555.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035207734|gb|OAW68585.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035208621|gb|OAW69435.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035210631|gb|OAW71359.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035213017|gb|OAW73687.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035221368|gb|OAW81762.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035221495|gb|OAW81887.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035225069|gb|OAW85355.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035227411|gb|OAW87607.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035229855|gb|OAW89994.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035291558|gb|OAW94674.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035293264|gb|OAW96297.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035301778|gb|OAX04369.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035318144|gb|OAX19915.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035324308|gb|OAX25845.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035328377|gb|OAX29710.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036130473|gb|OAY92563.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036131663|gb|OAY93715.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036135010|gb|OAY96987.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036138590|gb|OAZ00408.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036140150|gb|OAZ01931.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036309763|gb|OAZ53283.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036312680|gb|OAZ56119.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036314110|gb|OAZ57522.1| serine protease [Staphylococcus epidermidis] &gt;gi|1080174540|gb|OFJ71885.1| serine protease [Staphylococcus sp. HMSC066G04] &gt;gi|1080280458|gb|OFK72487.1| serine protease [Staphylococcus sp. HMSC034D07] &gt;gi|1080398705|gb|OFL85382.1| serine protease [Staphylococcus sp. HMSC075A04] &gt;gi|1080528361|gb|OFN09127.1| serine protease [Staphylococcus sp. HMSC064E11] &gt;gi|1080957653|gb|OFR16429.1| serine protease [Staphylococcus sp. HMSC068G12] &gt;gi|1081083288|gb|OFS34355.1| serine protease [Staphylococcus sp. HMSC055A10] &gt;gi|1090878715|gb|OHO24362.1| serine protease [Staphylococcus sp. HMSC034A07] &gt;gi|1090973486|gb|OHP11965.1| serine protease [Staphylococcus sp. HMSC058E12] &gt;gi|1091059460|gb|OHP94130.1| serine protease [Staphylococcus sp. HMSC063F05] &gt;gi|1091061955|gb|OHP96523.1| serine protease [Staphylococcus sp. HMSC063F03] &gt;gi|1091165325|gb|OHQ94733.1| serine protease [Staphylococcus sp. HMSC077C03] &gt;gi|1145691833|gb|OOD02107.1| serine protease [Staphylococcus epidermidis] &gt;gi|1176885068|gb|ARG66371.1| serine protease [Staphylococcus epidermidis]</Hit_def>
+  <Hit_accession>KTF22964</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>4.715e-25</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRFANPTTRSVE-NIGTGVIVR-NDG--FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTM---VIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARL</Hsp_qseq>
+      <Hsp_hseq>NLDDL--FNGKASKSKEAGIGSGVIYQISDGSAYIVTNNHVVDGASEIKVQLHN---SKQVDAKLIGKDALTDIAVLKIKDTKGIKAIQFANSSKVQTGDSVFAMGNPLGLEFANSVTSGIISASERTIDANTSAGNTKVNVLQTDAAINPGNSGGALVDINGNLVGIN-SMKIAAAQVEGIGFAIPSNEVRV</Hsp_hseq>
+      <Hsp_midline>N D L  F    ++S E  IG+GVI + +DG  +IVTN HVV GA+ + V + +   S +   +++  D   D+A+LKI     + A    +S  V   D V A+G P GL+   +V+ GIISA  +T+      G T  N+LQTDAAIN GNSGG LV  NG +VGIN ++        GIGFA+PSN+ R+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.2116</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN-GRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LINLSDIPENYRKELHTH--KDKGVYVAKVD-----SENAIKKGDIITGIDGKQIKDDTDLRTYLYESKKPGETVTLKVIRDGKTQDINV</Hsp_hseq>
+      <Hsp_midline>L+  +  P   R  L  +    +GV+V  V      +   ++ GD+I  +DG+ +    ++   + E    G +V + V+R G   ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488387072|ref|WP_002456457.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Staphylococcus] &gt;gi|57637912|gb|AAW54700.1| serine protease HtrA, putative [Staphylococcus epidermidis RP62A] &gt;gi|291319564|gb|EFE59930.1| trypsin [Staphylococcus epidermidis M23864:W2(grey)] &gt;gi|329737502|gb|EGG73755.1| putative peptidase Do [Staphylococcus epidermidis VCU045] &gt;gi|341656123|gb|EGS79846.1| trypsin [Staphylococcus epidermidis VCU037] &gt;gi|374816544|gb|EHR80748.1| trypsin [Staphylococcus epidermidis VCU120] &gt;gi|374818847|gb|EHR82990.1| trypsin [Staphylococcus epidermidis VCU117] &gt;gi|374829931|gb|EHR93723.1| trypsin [Staphylococcus epidermidis VCU126] &gt;gi|374834370|gb|EHR98016.1| trypsin [Staphylococcus epidermidis VCU127] &gt;gi|394233487|gb|EJD79091.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM088] &gt;gi|394240422|gb|EJD85846.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM067] &gt;gi|394240755|gb|EJD86178.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM070] &gt;gi|394263333|gb|EJE08069.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM021] &gt;gi|394279447|gb|EJE23755.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIHLM003] &gt;gi|394282572|gb|EJE26762.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIH05005] &gt;gi|394290593|gb|EJE34447.1| trypsin [Staphylococcus epidermidis NIH08001] &gt;gi|394291300|gb|EJE35118.1| serine protease do-like HtrA family protein [Staphylococcus epidermidis NIH05001] &gt;gi|394293344|gb|EJE37067.1| trypsin [Staphylococcus epidermidis NIH06004] &gt;gi|394297130|gb|EJE40742.1| trypsin [Staphylococcus epidermidis NIH05003] &gt;gi|394298623|gb|EJE42188.1| trypsin [Staphylococcus epidermidis NIH04003] &gt;gi|394304119|gb|EJE47529.1| trypsin [Staphylococcus epidermidis NIH051475] &gt;gi|477936297|gb|ENL49801.1| serine protease HtrA [Staphylococcus epidermidis M0881] &gt;gi|529043339|gb|EPZ44355.1| PDZ domain protein [Staphylococcus epidermidis E13A] &gt;gi|558747769|gb|EST94534.1| serine protease [Staphylococcus epidermidis Scl31] &gt;gi|558749752|gb|EST98594.1| serine protease [Staphylococcus epidermidis Scl25] &gt;gi|579150440|gb|EUR98500.1| serine protease HtrA [Staphylococcus epidermidis M0026] &gt;gi|610808466|gb|EZI06090.1| trypsin-like peptidase domain protein [Staphylococcus epidermidis VCU014] &gt;gi|645298900|gb|KDP63609.1| trypsin-like peptidase domain protein [Staphylococcus epidermidis VCU013] &gt;gi|645304317|gb|KDP68621.1| trypsin-like peptidase domain protein [Staphylococcus epidermidis VCU111] &gt;gi|653234804|gb|KEA38033.1| serine protease [Staphylococcus epidermidis] &gt;gi|672711704|emb|CDM13977.1| Serine protease, DegP/HtrA, do-like [Staphylococcus epidermidis PM221] &gt;gi|760490290|gb|AJP24957.1| serine protease [Staphylococcus epidermidis] &gt;gi|941770838|gb|KQC19617.1| serine protease [Staphylococcus epidermidis] &gt;gi|959321212|gb|KSU51806.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034749459|gb|OAW02526.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034751249|gb|OAW04273.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034753092|gb|OAW06064.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034755652|gb|OAW08533.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034759842|gb|OAW12622.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034763618|gb|OAW16278.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035191780|gb|OAW53173.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035191980|gb|OAW53371.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035195658|gb|OAW56952.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035201154|gb|OAW62208.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035201989|gb|OAW63022.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035292795|gb|OAW95860.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035294589|gb|OAW97542.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035299895|gb|OAX02562.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035308213|gb|OAX10462.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035308949|gb|OAX11144.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035311245|gb|OAX13320.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035313085|gb|OAX15112.1| serine protease [Staphylococcus epidermidis] &gt;gi|1043262131|gb|OBZ51070.1| serine protease [Staphylococcus epidermidis] &gt;gi|1080253122|gb|OFK46804.1| serine protease [Staphylococcus sp. HMSC062D04] &gt;gi|1080376701|gb|OFL64557.1| serine protease [Staphylococcus sp. HMSC072H01] &gt;gi|1080868820|gb|OFQ31826.1| serine protease [Staphylococcus sp. HMSC076H12] &gt;gi|1080909098|gb|OFQ70353.1| serine protease [Staphylococcus sp. HMSC073E10] &gt;gi|1080962938|gb|OFR21434.1| serine protease [Staphylococcus sp. HMSC065D11] &gt;gi|1081045238|gb|OFR99633.1| serine protease [Staphylococcus sp. HMSC067B04] &gt;gi|1081079354|gb|OFS30665.1| serine protease [Staphylococcus sp. HMSC055B03] &gt;gi|1081106673|gb|OFS56274.1| serine protease [Staphylococcus sp. HMSC034G11] &gt;gi|1091111213|gb|OHQ43418.1| serine protease [Staphylococcus sp. HMSC070A07] &gt;gi|1178142600|gb|ORE72052.1| serine protease [Staphylococcus epidermidis]</Hit_def>
+  <Hit_accession>KSU51806</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>1.80883e-24</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>335</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRFANPTTRSVE-NIGTGVIVR-NDG--FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTM---VIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARL</Hsp_qseq>
+      <Hsp_hseq>NLDDL--FNGKASKSKEAGIGSGVIYQISEGSAYIVTNNHVVDGASEIKVQLHN---SKQVDAKLIGKDALTDIAVLKIKDTKGIKAIQFANSSKVQTGDSVFAMGNPLGLEFANSVTSGIISASERTIDANTSAGNTKVNVLQTDAAINPGNSGGALVDINGNLVGIN-SMKIAAAQVEGIGFAIPSNEVRV</Hsp_hseq>
+      <Hsp_midline>N D L  F    ++S E  IG+GVI + ++G  +IVTN HVV GA+ + V + +   S +   +++  D   D+A+LKI     + A    +S  V   D V A+G P GL+   +V+ GIISA  +T+      G T  N+LQTDAAIN GNSGG LV  NG +VGIN ++        GIGFA+PSN+ R+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.74765</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>392</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN-GRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LINLSDIPENYRKELHTH--KDKGVYVAKVD-----SENAIKKGDIITGIDGKQIKDDTDLRTYLYESKKPGETVTLKVIRDGKTQDINV</Hsp_hseq>
+      <Hsp_midline>L+  +  P   R  L  +    +GV+V  V      +   ++ GD+I  +DG+ +    ++   + E    G +V + V+R G   ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|314970845|gb|EFT14943.1|</Hit_id>
+  <Hit_def>trypsin [[Propionibacterium] humerusii HL037PA3]</Hit_def>
+  <Hit_accession>EFT14943</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>7.87585e-23</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI----------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGLVAMQRPMG-VGVGAAGPVIAAGTPSPHVD</Hsp_qseq>
+      <Hsp_hseq>GSGVVVDSNGNIVTNNHVVSDATSGGRLTVS--MGNKTYDAKVVGTDPSTDLAVIRVTNPPESMKPIEFADSSKLAVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMNRDDSDGLLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSAGRSQSGNIGIGFAIPSNLAKSIA-DQI--IQTGKATHAFLGISVRDAATGKAGVNIQGAGIAAVTPSSAAD</Hsp_hseq>
+      <Hsp_midline>G+GV+V ++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      DS  + V   V+A+G P GL  +V+ GIISA  + +                   G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A D++  + T  A    +G+       G  GV   G  IAA TPS   D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0263622</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>QGAGIAAVTPSSAADRAGLRRGDVITKIDDTEVPSGESLVGLIRSFKAGQKATISYIR</Hsp_hseq>
+      <Hsp_midline>+G  +  VTP++ A  AGLR GDVI K+D   V   E +  ++     G+   I  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488490544|ref|WP_002533988.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Propionibacteriaceae] &gt;gi|313835232|gb|EFS72946.1| trypsin [[Propionibacterium] humerusii HL037PA2] &gt;gi|314929200|gb|EFS93031.1| trypsin [[Propionibacterium] humerusii HL044PA1] &gt;gi|1061028485|gb|AOH45665.1| trypsin [Propionibacterium sp. oral taxon 193]</Hit_def>
+  <Hit_accession>EFS72946</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>8.11721e-23</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI----------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFALDEVGWLPTSTAEGPAMGLVAMQRPMG-VGVGAAGPVIAAGTPSPHVD</Hsp_qseq>
+      <Hsp_hseq>GSGVVVDSNGNIVTNNHVVSDATSGGRLTVS--MGNKTYDAKVVGTDPSTDLAVIRVTNPPESMKPIEFADSSKLAVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMNRDDSDGLLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSAGRSQSGNIGIGFAIPSNLAKSIA-DQI--IQTGKATHAFLGISVRDAATGKAGVNIQGAGIAAVTPSSAAD</Hsp_hseq>
+      <Hsp_midline>G+GV+V ++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      DS  + V   V+A+G P GL  +V+ GIISA  + +                   G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A D++  + T  A    +G+       G  GV   G  IAA TPS   D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0254019</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>QGAGIAAVTPSSAADRAGLRRGDVITKIDDTEVPSGESLVGLIRSFKAGQKATISYIR</Hsp_hseq>
+      <Hsp_midline>+G  +  VTP++ A  AGLR GDVI K+D   V   E +  ++     G+   I  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|379978571|gb|EIA11895.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes PRP-38]</Hit_def>
+  <Hit_accession>EIA11895</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>7.40967e-18</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI----------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-PNGAFA-----GIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGNIVTNNHVVSDATSGGQLTVS--IGNKTYDAKVVGTDPSTDLAVIRVTNPPESMKPIRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMNRDDSDDLLGSQDSSSGVVVTNAIQTSAAINPGNSGGALVNADGELVGINSSIASLPSAGRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  + +                   G+  +N +QT AAIN GNSGG LV A+G +VGIN++I + P+   +     GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00371284</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>QGAGVATVTPGSAAAKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYLR</Hsp_hseq>
+      <Hsp_midline>+G  V  VTP + AA AGLR GDVI ++D   +   E +  ++     G+  +I  LR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.859435</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>QGAGVATVTPGSAAAKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYLRGAQE</Hsp_hseq>
+      <Hsp_midline>+GA VA V  GS AA AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|291377198|gb|ADE01053.1|</Hit_id>
+  <Hit_def>trypsin [Propionibacterium acnes SK137]</Hit_def>
+  <Hit_accession>ADE01053</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>7.43915e-18</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0333118</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.88161</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|456738354|gb|EMF62976.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease, partial [Propionibacterium acnes FZ1/2/0]</Hit_def>
+  <Hit_accession>EMF62976</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>9.29576e-18</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0689587</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKTGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A   GLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|340774119|gb|EGR96608.1|</Hit_id>
+  <Hit_def>trypsin [[Propionibacterium] namnetense SK182B-JCVI]</Hit_def>
+  <Hit_accession>EGR96608</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>9.99016e-18</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI----------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT-PNGAFA-----GIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGNIVTNNHVVSDATSGGQLTVS--IGNKTYDAKVVGTDPSTDLAVIRVTNPPESMKPIRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMNRDDSDDLLGSQDSSSGVVVTNAIQTSAAINPGNSGGALVNADGELVGINSSIASLPSAGRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  + +                   G+  +N +QT AAIN GNSGG LV A+G +VGIN++I + P+   +     GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00226395</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>485</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>QGAGVATVTPGSAAAKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGKKAKISYLR</Hsp_hseq>
+      <Hsp_midline>+G  V  VTP + AA AGLR GDVI ++D   +   E +  ++     G+  +I  LR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.72971</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>QGAGVATVTPGSAAAKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGKKAKISYLRGAQE</Hsp_hseq>
+      <Hsp_midline>+GA VA V  GS AA AGL+  D+I  +++  + S   L   I++   AG++  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|574133302|dbj|GAE80848.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes JCM 18920]</Hit_def>
+  <Hit_accession>GAE80848</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>1.01324e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDLSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0327445</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.6315</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>437</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|282582442|gb|EFB87822.1|</Hit_id>
+  <Hit_def>trypsin [Propionibacterium acnes J139] &gt;gi|353454859|gb|AER05378.1| trypsin-like serine protease [Propionibacterium acnes subsp. defendens ATCC 11828] &gt;gi|550731366|gb|ERS31090.1| hypothetical protein HMPREF1277_02295 [Propionibacterium sp. KPL1847] &gt;gi|550767479|gb|ERS65663.1| hypothetical protein HMPREF1278_02290 [Propionibacterium sp. KPL1849] &gt;gi|668732610|gb|KFC14570.1| trypsin-like serine protease [Propionibacterium acnes HL202PA1]</Hit_def>
+  <Hit_accession>EFB87822</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.01364e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0323277</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.64657</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|550729268|gb|ERS29106.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF1299_02312 [Propionibacterium sp. KPL2003] &gt;gi|666097294|gb|KEY36080.1| trypsin-like serine protease [Cutibacterium acnes] &gt;gi|666097974|gb|KEY36678.1| trypsin-like serine protease [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>KEY36080</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.03183e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDESDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.032889</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.16228</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|335278712|gb|AEH30617.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes 6609] &gt;gi|353558017|gb|EHC27383.1| hypothetical protein HMPREF1003_00419 [Propionibacterium sp. 5_U_42AFAA]</Hit_def>
+  <Hit_accession>AEH30617</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.04105e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0315037</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.62791</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|554754976|gb|ESK59402.1|</Hit_id>
+  <Hit_def>serine protease [Propionibacterium acnes HL042PA3]</Hit_def>
+  <Hit_accession>ESK59402</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.05547e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>195</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0304032</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.89602</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>407</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|289159418|gb|EFD07609.1|</Hit_id>
+  <Hit_def>trypsin [Propionibacterium acnes J165] &gt;gi|332676699|gb|AEE73515.1| protease do [Propionibacterium acnes 266] &gt;gi|657120505|gb|AID37254.1| serine protease [Propionibacterium acnes hdn-1]</Hit_def>
+  <Hit_accession>EFD07609</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.08781e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDESDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0298602</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.81534</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|365740611|gb|AEW84813.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes TypeIA2 P.acn31]</Hit_def>
+  <Hit_accession>AEW84813</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.11718e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0298602</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQEAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.17447</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQEAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|50841346|gb|AAT84013.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes KPA171202] &gt;gi|333768224|gb|EGL45424.1| trypsin [Propionibacterium sp. 409-HC1] &gt;gi|340768038|gb|EGR90563.1| trypsin [Propionibacterium sp. CC003-HC2] &gt;gi|340770030|gb|EGR92547.1| trypsin [Propionibacterium acnes SK182] &gt;gi|365742875|gb|AEW82569.1| trypsin-like serine protease [Propionibacterium acnes TypeIA2 P.acn17] &gt;gi|365745109|gb|AEW80306.1| trypsin-like serine protease [Propionibacterium acnes TypeIA2 P.acn33] &gt;gi|407905258|gb|AFU42088.1| trypsin-like serine protease [Propionibacterium acnes C1] &gt;gi|481321695|gb|AGJ81006.1| trypsin-like serine protease [Propionibacterium acnes HL096PA1] &gt;gi|550719453|gb|ERS19394.1| hypothetical protein HMPREF1303_02312 [Propionibacterium sp. KPL2009] &gt;gi|550722927|gb|ERS22805.1| hypothetical protein HMPREF1302_02376 [Propionibacterium sp. KPL2008] &gt;gi|550732064|gb|ERS31787.1| hypothetical protein HMPREF1280_02320 [Propionibacterium sp. KPL1854] &gt;gi|557903381|gb|ESS79320.1| trypsin-like serine protease [Propionibacterium acnes PA2] &gt;gi|557913040|gb|ESS87844.1| trypsin-like serine protease [Propionibacterium acnes P6] &gt;gi|1086155532|emb|SDL05555.1| putative serine protease PepD [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>AAT84013</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.12715e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0296045</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.66534</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488491925|ref|WP_002535369.1|</Hit_id>
+  <Hit_def>trypsin [Cutibacterium acnes] &gt;gi|313839566|gb|EFS77280.1| trypsin [Propionibacterium acnes HL086PA1]</Hit_def>
+  <Hit_accession>WP_002535369</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.34679e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0163983</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.16505</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIR-SFKAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I+ +  AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|695303404|ref|WP_032505636.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Cutibacterium]</Hit_def>
+  <Hit_accession>WP_032505636</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.39732e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVI----------------EGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGNIVTNNHVVSDATSGGQLTVS--IGNKTYDAKVVGTDPSTDLAVIRVTNPPESMKPIRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMNRDDSDDLLGSQDSSSGVVVTNAIQTSAAINPGNSGGALVNADGELVGINSSIASLPSAGRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  + +                   G+  +N +QT AAIN GNSGG LV A+G +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00198403</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>QGAGVATVTPGSAAAKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYLR</Hsp_hseq>
+      <Hsp_midline>+G  V  VTP + AA AGLR GDVI ++D   +   E +  ++     G+  +I  LR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.92032</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>QGAGVATVTPGSAAAKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYLRGAQE</Hsp_hseq>
+      <Hsp_midline>+GA VA V  GS AA AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|983475689|ref|WP_060633543.1|</Hit_id>
+  <Hit_def>trypsin [Cutibacterium acnes] &gt;gi|966542495|gb|ALT41192.1| trypsin [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>WP_060633543</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.41025e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDESDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0171288</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488486612|ref|WP_002530213.1|</Hit_id>
+  <Hit_def>trypsin [Cutibacterium acnes] &gt;gi|315109741|gb|EFT81717.1| trypsin [Propionibacterium acnes HL030PA2]</Hit_def>
+  <Hit_accession>WP_002530213</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.49036e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSESGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0169801</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.16505</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIR-SFKAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I+ +  AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488474855|ref|WP_002518525.1|</Hit_id>
+  <Hit_def>trypsin [Cutibacterium acnes] &gt;gi|327334068|gb|EGE75783.1| trypsin [Propionibacterium acnes HL096PA3]</Hit_def>
+  <Hit_accession>WP_002518525</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.50415e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDKSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0168328</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.48828</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIR-SFKAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I+ +  AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|488500242|ref|WP_002543681.1|</Hit_id>
+  <Hit_def>trypsin [Cutibacterium acnes] &gt;gi|315081553|gb|EFT53529.1| trypsin [Propionibacterium acnes HL078PA1]</Hit_def>
+  <Hit_accession>WP_002543681</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.56058e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0504494</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKTGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A   GLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|488481586|ref|WP_002525256.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Propionibacteriaceae] &gt;gi|313806796|gb|EFS45294.1| trypsin [Propionibacterium acnes HL087PA2] &gt;gi|313817586|gb|EFS55300.1| trypsin [Propionibacterium acnes HL046PA2] &gt;gi|313821588|gb|EFS59302.1| trypsin [Propionibacterium acnes HL036PA1] &gt;gi|313824468|gb|EFS62182.1| trypsin [Propionibacterium acnes HL036PA2] &gt;gi|313826814|gb|EFS64528.1| trypsin [Propionibacterium acnes HL063PA1] &gt;gi|314926202|gb|EFS90033.1| trypsin [Propionibacterium acnes HL036PA3] &gt;gi|314961604|gb|EFT05705.1| trypsin [Propionibacterium acnes HL002PA2] &gt;gi|314979979|gb|EFT24073.1| trypsin [Propionibacterium acnes HL072PA2] &gt;gi|314987170|gb|EFT31262.1| trypsin [Propionibacterium acnes HL005PA2] &gt;gi|314990629|gb|EFT34720.1| trypsin [Propionibacterium acnes HL005PA3] &gt;gi|315083021|gb|EFT54997.1| trypsin [Propionibacterium acnes HL027PA2] &gt;gi|315086555|gb|EFT58531.1| trypsin [Propionibacterium acnes HL002PA3] &gt;gi|315087959|gb|EFT59935.1| trypsin [Propionibacterium acnes HL072PA1] &gt;gi|327444528|gb|EGE91182.1| trypsin [Propionibacterium acnes HL013PA2] &gt;gi|328758032|gb|EGF71648.1| trypsin [Propionibacterium acnes HL020PA1] &gt;gi|574129898|dbj|GAE72912.1| trypsin-like serine protease [Propionibacterium acnes JCM 18916] &gt;gi|966544759|gb|ALT43455.1| trypsin [Cutibacterium acnes] &gt;gi|1035500101|gb|OAX69253.1| trypsin [Cutibacterium acnes] &gt;gi|1035749854|gb|OAX90915.1| trypsin [Cutibacterium acnes] &gt;gi|1035751154|gb|OAX92186.1| trypsin [Cutibacterium acnes] &gt;gi|1035753461|gb|OAX94383.1| trypsin [Cutibacterium acnes] &gt;gi|1035757389|gb|OAX98053.1| trypsin [Cutibacterium acnes] &gt;gi|1035757572|gb|OAX98214.1| trypsin [Cutibacterium acnes] &gt;gi|1035762551|gb|OAY02808.1| trypsin [Cutibacterium acnes] &gt;gi|1035767014|gb|OAY07060.1| trypsin [Cutibacterium acnes] &gt;gi|1035768578|gb|OAY08587.1| trypsin [Cutibacterium acnes] &gt;gi|1035771467|gb|OAY11222.1| trypsin [Cutibacterium acnes] &gt;gi|1072750936|gb|OEU27236.1| trypsin [Cutibacterium acnes] &gt;gi|1072755609|gb|OEU31880.1| trypsin [Cutibacterium acnes] &gt;gi|1072758347|gb|OEU34580.1| trypsin [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>WP_002525256</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.56058e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDESDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0172787</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.73815</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIR-SFKAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I+ +  AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|752806253|ref|WP_041445679.1|</Hit_id>
+  <Hit_def>trypsin [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>WP_041445679</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.57501e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0171288</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQEAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.90965</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIR-SFKAGQEAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I+ +  AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|313829131|gb|EFS66845.1|</Hit_id>
+  <Hit_def>trypsin [Propionibacterium acnes HL063PA2]</Hit_def>
+  <Hit_accession>EFS66845</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.59458e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0179242</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.49596</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIR-SFKAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I+ +  AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|488476094|ref|WP_002519764.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Propionibacteriaceae] &gt;gi|313765082|gb|EFS36446.1| trypsin [Propionibacterium acnes HL013PA1] &gt;gi|313771121|gb|EFS37087.1| trypsin [Propionibacterium acnes HL074PA1] &gt;gi|313792626|gb|EFS40712.1| trypsin [Propionibacterium acnes HL110PA1] &gt;gi|313803161|gb|EFS44357.1| trypsin [Propionibacterium acnes HL110PA2] &gt;gi|313811713|gb|EFS49427.1| trypsin [Propionibacterium acnes HL083PA1] &gt;gi|313814275|gb|EFS51989.1| trypsin [Propionibacterium acnes HL025PA1] &gt;gi|313815669|gb|EFS53383.1| trypsin [Propionibacterium acnes HL059PA1] &gt;gi|313832480|gb|EFS70194.1| trypsin [Propionibacterium acnes HL007PA1] &gt;gi|313832706|gb|EFS70420.1| trypsin [Propionibacterium acnes HL056PA1] &gt;gi|314916159|gb|EFS79990.1| trypsin [Propionibacterium acnes HL005PA4] &gt;gi|314917421|gb|EFS81252.1| trypsin [Propionibacterium acnes HL050PA1] &gt;gi|314921761|gb|EFS85592.1| trypsin [Propionibacterium acnes HL050PA3] &gt;gi|314922782|gb|EFS86613.1| trypsin [Propionibacterium acnes HL001PA1] &gt;gi|314930971|gb|EFS94802.1| trypsin [Propionibacterium acnes HL067PA1] &gt;gi|314955358|gb|EFS99763.1| trypsin [Propionibacterium acnes HL027PA1] &gt;gi|314959440|gb|EFT03542.1| trypsin [Propionibacterium acnes HL002PA1] &gt;gi|314963932|gb|EFT08032.1| trypsin [Propionibacterium acnes HL082PA1] &gt;gi|314965699|gb|EFT09798.1| trypsin [Propionibacterium acnes HL082PA2] &gt;gi|314969138|gb|EFT13236.1| trypsin [Propionibacterium acnes HL037PA1] &gt;gi|314975144|gb|EFT19239.1| trypsin [Propionibacterium acnes HL053PA1] &gt;gi|314977554|gb|EFT21649.1| trypsin [Propionibacterium acnes HL045PA1] &gt;gi|314982988|gb|EFT27080.1| trypsin [Propionibacterium acnes HL110PA3] &gt;gi|314985099|gb|EFT29191.1| trypsin [Propionibacterium acnes HL005PA1] &gt;gi|315079103|gb|EFT51110.1| trypsin [Propionibacterium acnes HL053PA2] &gt;gi|315091494|gb|EFT63470.1| trypsin [Propionibacterium acnes HL110PA4] &gt;gi|315094594|gb|EFT66570.1| trypsin [Propionibacterium acnes HL060PA1] &gt;gi|315096960|gb|EFT68936.1| trypsin [Propionibacterium acnes HL038PA1] &gt;gi|315099397|gb|EFT71373.1| trypsin [Propionibacterium acnes HL059PA2] &gt;gi|315102391|gb|EFT74367.1| trypsin [Propionibacterium acnes HL046PA1] &gt;gi|315105249|gb|EFT77225.1| trypsin [Propionibacterium acnes HL050PA2] &gt;gi|315107377|gb|EFT79353.1| trypsin [Propionibacterium acnes HL030PA1] &gt;gi|327328880|gb|EGE70640.1| trypsin [Propionibacterium acnes HL103PA1] &gt;gi|327332446|gb|EGE74181.1| trypsin [Propionibacterium acnes HL096PA2] &gt;gi|327446779|gb|EGE93433.1| trypsin [Propionibacterium acnes HL043PA2] &gt;gi|327448780|gb|EGE95434.1| trypsin [Propionibacterium acnes HL043PA1] &gt;gi|327454199|gb|EGF00854.1| trypsin [Propionibacterium acnes HL087PA3] &gt;gi|327456257|gb|EGF02912.1| trypsin [Propionibacterium acnes HL083PA2] &gt;gi|327457469|gb|EGF04124.1| trypsin [Propionibacterium acnes HL092PA1] &gt;gi|328755956|gb|EGF69572.1| trypsin [Propionibacterium acnes HL087PA1] &gt;gi|328758988|gb|EGF72604.1| trypsin [Propionibacterium acnes HL025PA2] &gt;gi|328759842|gb|EGF73432.1| putative heat shock protein HtrA [Propionibacterium acnes HL099PA1] &gt;gi|574126468|dbj|GAE76434.1| trypsin-like serine protease [Propionibacterium acnes JCM 18918] &gt;gi|927039036|gb|ALD70608.1| trypsin [Cutibacterium acnes] &gt;gi|966535668|gb|ALT34368.1| trypsin [Cutibacterium acnes] &gt;gi|966537947|gb|ALT36646.1| trypsin [Cutibacterium acnes] &gt;gi|966540253|gb|ALT38951.1| trypsin [Cutibacterium acnes] &gt;gi|966547027|gb|ALT45722.1| trypsin [Cutibacterium acnes] &gt;gi|969868814|gb|ALU24675.1| trypsin [Cutibacterium acnes] &gt;gi|1035756168|gb|OAX96970.1| trypsin [Cutibacterium acnes] &gt;gi|1072753673|gb|OEU29959.1| trypsin [Cutibacterium acnes] &gt;gi|1072759577|gb|OEU35795.1| trypsin [Cutibacterium acnes] &gt;gi|1080186550|gb|OFJ83311.1| trypsin [Propionibacterium sp. HMSC065F07] &gt;gi|1080341485|gb|OFL30814.1| trypsin [Propionibacterium sp. HMSC078F01] &gt;gi|1080356644|gb|OFL45408.1| trypsin [Propionibacterium sp. HMSC068C01] &gt;gi|1080717204|gb|OFO87828.1| trypsin [Propionibacterium sp. HMSC062D05] &gt;gi|1080756037|gb|OFP24815.1| trypsin [Propionibacterium sp. HMSC062D02] &gt;gi|1080784471|gb|OFP51763.1| trypsin [Propionibacterium sp. HMSC067A01] &gt;gi|1080904151|gb|OFQ65647.1| trypsin [Propionibacterium sp. HMSC075A12] &gt;gi|1080997623|gb|OFR54523.1| trypsin [Propionibacterium sp. HMSC078F10] &gt;gi|1101099412|gb|OIO58409.1| trypsin [Propionibacterium sp. CG1_02_60_36] &gt;gi|1176201384|gb|OQY13225.1| trypsin [Propionibacterium sp. 4572_24]</Hit_def>
+  <Hit_accession>WP_002519764</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.6341e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0166867</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.32526</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKAGLRRGDVITRIDDTDIASGESLVGLIR-SFKAGQKAKISYIRGSQE</Hsp_hseq>
+      <Hsp_midline>+GA +A V+  S A  AGL+  D+I  +++  + S   L   I+ +  AGQ+  +   R  QE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|289154905|gb|EFD03587.1|</Hit_id>
+  <Hit_def>trypsin [Propionibacterium acnes SK187]</Hit_def>
+  <Hit_accession>EFD03587</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.71119e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDAASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPMRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDVLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0544893</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAAGKTGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A   GLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|327334509|gb|EGE76220.1|</Hit_id>
+  <Hit_def>trypsin [Propionibacterium acnes HL097PA1]</Hit_def>
+  <Hit_accession>EGE76220</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>1.92054e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRGANSV-YVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGNIVTNNHVVSDATSGGQLTVS--IGNKTYDAKVVGTDPSTDLAVIRVTNPPESMKPIRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMNRDDSDDLLGSQDSSSGVVVTNAIQTSAAINPGNSGGALVNADGELVGINSSIASLPSAGRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV  A S   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV A+G +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00219608</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>QGAGVATVTPGSAAAKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYLR</Hsp_hseq>
+      <Hsp_midline>+G  V  VTP + AA AGLR GDVI ++D   +   E +  ++     G+  +I  LR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.833864</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>QGAGVATVTPGSAAAKAGLRRGDVITRIDDTDIASGESLVGLIRSF-KAGQKAKISYLRGAQEATV</Hsp_hseq>
+      <Hsp_midline>+GA VA V  GS AA AGL+  D+I  +++  + S   L   I++   AGQ+  +   R  QE  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|668735139|gb|KFC17044.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes HL201PA1]</Hit_def>
+  <Hit_accession>KFC17044</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.31733e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRG-ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDVASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPIRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDLLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV   A+   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0400876</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>398</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAADKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|574137830|dbj|GAE68528.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes JCM 18909]</Hit_def>
+  <Hit_accession>GAE68528</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>2.96571e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRG-ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDVASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPIRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDLLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV   A+   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.3323</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>623</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVL</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAADKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKKSVI</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|929867885|gb|KPG64890.1|</Hit_id>
+  <Hit_def>trypsin [Cutibacterium acnes] &gt;gi|929869810|gb|KPG66781.1| trypsin [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>KPG64890</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>4.62189e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>NDGFIVTNYHVVRG-ANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRK---TMVIE-------------GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYT------PNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>SNGDIVTNNHVVSDVASGGQLTVS--MGNKTYDAKVVGSDPSTDLAVIRVTNPPESMKPIRFANSSKLTVGAPVMAVGNPLGLSGSVTTGIISALNRPVTTMSRDDSDDLLGSYDSSSGVVVTNAIQTSAAINPGNSGGALVNANGELVGINSSIASLPSADRSQSGNIGIGFAIPSNLAKSVA</Hsp_hseq>
+      <Hsp_midline>++G IVTN HVV   A+   +TV   +G+  Y  ++V  D + DLA++++T P   +      +S  + V   V+A+G P GL  +V+ GIISA  +   TM  +             G+  +N +QT AAIN GNSGG LV ANG +VGIN++I +            GIGFA+PSN A+  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0224419</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>RGAGIATVIPSSAADKAGLRRGDVITRIDDTDIASGESLVGLIRSFKAGQKAKISYIR</Hsp_hseq>
+      <Hsp_midline>RG  +  V P++ A  AGLR GDVI ++D   +   E +  ++     G+  +I  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|487747194|ref|WP_001829335.1|</Hit_id>
+  <Hit_def>MULTISPECIES: HtrA-like serine protease [Staphylococcus] &gt;gi|81675050|sp|Q5HQE2.1|HTRAL_STAEQ RecName: Full=Serine protease HtrA-like &gt;gi|116248103|sp|Q8CT52.2|HTRAL_STAES RecName: Full=Serine protease HtrA-like &gt;gi|57637256|gb|AAW54044.1| serine protease, putative [Staphylococcus epidermidis RP62A] &gt;gi|251805999|gb|EES58656.1| trypsin [Staphylococcus epidermidis BCM-HMP0060] &gt;gi|281295503|gb|EFA88026.1| trypsin [Staphylococcus epidermidis SK135] &gt;gi|291318961|gb|EFE59332.1| trypsin [Staphylococcus epidermidis M23864:W2(grey)] &gt;gi|329726288|gb|EGG62757.1| trypsin [Staphylococcus epidermidis VCU144] &gt;gi|329733386|gb|EGG69719.1| trypsin [Staphylococcus epidermidis VCU028] &gt;gi|329738115|gb|EGG74333.1| trypsin [Staphylococcus epidermidis VCU045] &gt;gi|341650806|gb|EGS74617.1| trypsin [Staphylococcus epidermidis VCU109] &gt;gi|341651613|gb|EGS75411.1| trypsin [Staphylococcus epidermidis VCU037] &gt;gi|341653943|gb|EGS77702.1| trypsin [Staphylococcus epidermidis VCU105] &gt;gi|374402812|gb|EHQ73829.1| trypsin [Staphylococcus epidermidis VCU057] &gt;gi|374403556|gb|EHQ74557.1| trypsin [Staphylococcus epidermidis VCU041] &gt;gi|374404563|gb|EHQ75535.1| trypsin [Staphylococcus epidermidis VCU065] &gt;gi|374409587|gb|EHQ80370.1| trypsin [Staphylococcus epidermidis VCU081] &gt;gi|374820602|gb|EHR84678.1| trypsin [Staphylococcus epidermidis VCU120] &gt;gi|374823313|gb|EHR87314.1| trypsin [Staphylococcus epidermidis VCU117] &gt;gi|374825635|gb|EHR89562.1| trypsin [Staphylococcus epidermidis VCU123] &gt;gi|374826119|gb|EHR90030.1| trypsin [Staphylococcus epidermidis VCU125] &gt;gi|374829574|gb|EHR93373.1| trypsin [Staphylococcus epidermidis VCU126] &gt;gi|383361545|gb|EID38916.1| trypsin [Staphylococcus epidermidis IS-250] &gt;gi|383361774|gb|EID39139.1| trypsin [Staphylococcus epidermidis IS-K] &gt;gi|394236527|gb|EJD82042.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM088] &gt;gi|394241973|gb|EJD87379.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM067] &gt;gi|394242745|gb|EJD88129.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM070] &gt;gi|394249878|gb|EJD95085.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM049] &gt;gi|394255745|gb|EJE00688.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM039] &gt;gi|394266334|gb|EJE10975.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM021] &gt;gi|394268262|gb|EJE12826.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM020] &gt;gi|394273264|gb|EJE17696.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM018] &gt;gi|394277289|gb|EJE21614.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM008] &gt;gi|394281845|gb|EJE26064.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM003] &gt;gi|394282014|gb|EJE26228.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM001] &gt;gi|394285361|gb|EJE29442.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIH05005] &gt;gi|394286618|gb|EJE30613.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIH04008] &gt;gi|394286967|gb|EJE30942.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIH05001] &gt;gi|394289617|gb|EJE33495.1| trypsin [Staphylococcus epidermidis NIH08001] &gt;gi|394294040|gb|EJE37733.1| trypsin [Staphylococcus epidermidis NIH06004] &gt;gi|394297963|gb|EJE41550.1| trypsin [Staphylococcus epidermidis NIH05003] &gt;gi|394299431|gb|EJE42979.1| trypsin [Staphylococcus epidermidis NIH04003] &gt;gi|394302492|gb|EJE45936.1| trypsin [Staphylococcus epidermidis NIH051668] &gt;gi|406656869|gb|EKC83264.1| serine protease [Staphylococcus epidermidis AU12-03] &gt;gi|477938278|gb|ENL51773.1| serine protease htrA-like protein [Staphylococcus epidermidis M0881] &gt;gi|498669868|gb|EON82453.1| serine protease [Staphylococcus epidermidis 41tr] &gt;gi|498671749|gb|EON84258.1| serine protease [Staphylococcus epidermidis 528m] &gt;gi|498675141|gb|EON86257.1| serine protease [Staphylococcus epidermidis 36-1] &gt;gi|529040327|gb|EPZ41510.1| trypsin-like peptidase domain protein [Staphylococcus epidermidis E13A] &gt;gi|579150251|gb|EUR98314.1| serine protease htrA-like [Staphylococcus epidermidis M0026] &gt;gi|610810158|gb|EZI07717.1| trypsin-like peptidase domain protein [Staphylococcus epidermidis VCU014] &gt;gi|610812497|gb|EZI09981.1| trypsin-like peptidase domain protein [Staphylococcus epidermidis VCU050] &gt;gi|645297967|gb|KDP62738.1| trypsin-like peptidase domain protein [Staphylococcus epidermidis VCU013] &gt;gi|645305395|gb|KDP69571.1| trypsin-like peptidase domain protein [Staphylococcus epidermidis VCU111] &gt;gi|653233546|gb|KEA36798.1| serine protease [Staphylococcus epidermidis] &gt;gi|653234593|gb|KEA37827.1| serine protease [Staphylococcus epidermidis] &gt;gi|672710983|emb|CDM13261.1| Serine protease, DegP/HtrA, do-like [Staphylococcus epidermidis PM221] &gt;gi|694233265|gb|KGJ24377.1| serine protease [Staphylococcus epidermidis] &gt;gi|721492477|gb|KGY36035.1| serine protease [Staphylococcus epidermidis] &gt;gi|760489658|gb|AJP24325.1| serine protease [Staphylococcus epidermidis] &gt;gi|941770672|gb|KQC19469.1| serine protease [Staphylococcus epidermidis] &gt;gi|959316164|gb|KSU46853.1| serine protease [Staphylococcus epidermidis] &gt;gi|966446014|gb|KTF22317.1| serine protease [Staphylococcus epidermidis] &gt;gi|966449532|gb|KTF25713.1| serine protease [Staphylococcus epidermidis] &gt;gi|967378415|gb|KTK49931.1| serine protease [Staphylococcus epidermidis] &gt;gi|991178417|emb|CVY36721.1| serine protease HtrA [Streptococcus pneumoniae] &gt;gi|1018449959|gb|KZG48001.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018452431|gb|KZG50354.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018456198|gb|KZG53950.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018456435|gb|KZG54179.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018456995|gb|KZG54728.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018463089|gb|KZG60601.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018463305|gb|KZG60813.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018466937|gb|KZG64358.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018469486|gb|KZG66835.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018470745|gb|KZG68041.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018475094|gb|KZG72286.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018476315|gb|KZG73479.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018481323|gb|KZG78318.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018481610|gb|KZG78595.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018483458|gb|KZG80394.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018489731|gb|KZG86463.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018489926|gb|KZG86656.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018491173|gb|KZG87862.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018495384|gb|KZG91952.1| serine protease [Staphylococcus epidermidis] &gt;gi|1018497402|gb|KZG93917.1| serine protease [Staphylococcus epidermidis] &gt;gi|1020072875|gb|KZK57837.1| serine protease [Staphylococcus epidermidis] &gt;gi|1020075302|gb|KZK60103.1| serine protease [Staphylococcus epidermidis] &gt;gi|1020079412|gb|KZK63909.1| serine protease [Staphylococcus epidermidis] &gt;gi|1020079713|gb|KZK64202.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034747588|gb|OAW00750.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034751353|gb|OAW04376.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034752445|gb|OAW05439.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034756056|gb|OAW08925.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034757182|gb|OAW10012.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034757263|gb|OAW10092.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034761351|gb|OAW14087.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034765359|gb|OAW17969.1| serine protease [Staphylococcus epidermidis] &gt;gi|1034767203|gb|OAW19727.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035161289|gb|OAW23744.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035162182|gb|OAW24617.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035163816|gb|OAW26202.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035168133|gb|OAW30317.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035168876|gb|OAW31047.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035173333|gb|OAW35323.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035176085|gb|OAW37985.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035179526|gb|OAW41332.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035181386|gb|OAW43131.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035182022|gb|OAW43741.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035182639|gb|OAW44346.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035189051|gb|OAW50585.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035190621|gb|OAW52056.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035192508|gb|OAW53885.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035194846|gb|OAW56166.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035198867|gb|OAW59990.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035204861|gb|OAW65791.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035206231|gb|OAW67125.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035208184|gb|OAW69016.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035209292|gb|OAW70083.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035211131|gb|OAW71844.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035216239|gb|OAW76790.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035217364|gb|OAW77878.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035217775|gb|OAW78276.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035220126|gb|OAW80551.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035225686|gb|OAW85938.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035226186|gb|OAW86419.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035226870|gb|OAW87084.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035289290|gb|OAW92511.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035290987|gb|OAW94119.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035296069|gb|OAW98973.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035297143|gb|OAX00101.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035299310|gb|OAX02011.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035300894|gb|OAX03515.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035307180|gb|OAX09469.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035310926|gb|OAX13012.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035312671|gb|OAX14718.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035316818|gb|OAX18663.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035318037|gb|OAX19813.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035323833|gb|OAX25384.1| serine protease [Staphylococcus epidermidis] &gt;gi|1035327057|gb|OAX28463.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036129542|gb|OAY91663.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036131442|gb|OAY93499.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036133387|gb|OAY95394.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036135681|gb|OAY97623.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036138039|gb|OAY99870.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036311539|gb|OAZ55008.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036311895|gb|OAZ55352.1| serine protease [Staphylococcus epidermidis] &gt;gi|1036312245|gb|OAZ55694.1| serine protease [Staphylococcus epidermidis] &gt;gi|1043263092|gb|OBZ51998.1| serine protease [Staphylococcus epidermidis] &gt;gi|1080161737|gb|OFJ59701.1| serine protease [Staphylococcus sp. HMSC073C02] &gt;gi|1080176213|gb|OFJ73503.1| serine protease [Staphylococcus sp. HMSC066G04] &gt;gi|1080282092|gb|OFK74064.1| serine protease [Staphylococcus sp. HMSC034D07] &gt;gi|1080379404|gb|OFL67138.1| serine protease [Staphylococcus sp. HMSC072H01] &gt;gi|1080396911|gb|OFL83694.1| serine protease [Staphylococcus sp. HMSC075A04] &gt;gi|1080531736|gb|OFN12358.1| serine protease [Staphylococcus sp. HMSC064E11] &gt;gi|1080866710|gb|OFQ29784.1| serine protease [Staphylococcus sp. HMSC076H12] &gt;gi|1080912381|gb|OFQ73300.1| serine protease [Staphylococcus sp. HMSC073E10] &gt;gi|1080956740|gb|OFR15581.1| serine protease [Staphylococcus sp. HMSC068G12] &gt;gi|1080965700|gb|OFR24113.1| serine protease [Staphylococcus sp. HMSC065D11] &gt;gi|1081081465|gb|OFS32663.1| serine protease [Staphylococcus sp. HMSC055B03] &gt;gi|1081082612|gb|OFS33730.1| serine protease [Staphylococcus sp. HMSC055A10] &gt;gi|1081111400|gb|OFS60766.1| serine protease [Staphylococcus sp. HMSC034G11] &gt;gi|1090878977|gb|OHO24603.1| serine protease [Staphylococcus sp. HMSC034A07] &gt;gi|1090918952|gb|OHO60331.1| serine protease [Staphylococcus sp. HMSC036A09] &gt;gi|1090971750|gb|OHP10280.1| serine protease [Staphylococcus sp. HMSC058E12] &gt;gi|1091060479|gb|OHP95100.1| serine protease [Staphylococcus sp. HMSC063F03] &gt;gi|1091060755|gb|OHP95366.1| serine protease [Staphylococcus sp. HMSC063F05] &gt;gi|1091115684|gb|OHQ47722.1| serine protease [Staphylococcus sp. HMSC070A07] &gt;gi|1091150150|gb|OHQ80418.1| serine protease [Staphylococcus sp. HMSC074D07] &gt;gi|1091162117|gb|OHQ91723.1| serine protease [Staphylococcus sp. HMSC077C03] &gt;gi|1091175242|gb|OHR03908.1| serine protease [Staphylococcus sp. HMSC077H01] &gt;gi|1145690512|gb|OOD00835.1| HtrA-like serine protease [Staphylococcus epidermidis] &gt;gi|1176885765|gb|ARG67068.1| HtrA-like serine protease [Staphylococcus epidermidis] &gt;gi|1178142211|gb|ORE71677.1| HtrA-like serine protease [Staphylococcus epidermidis]</Hit_def>
+  <Hit_accession>KSU46853</Hit_accession>
+  <Hit_len>585</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.66595e-11</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>283</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>FANPTT------RSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKIT-PKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNL------LQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>LSNDTTVSDNKNESDNEIGSGVVYKKVGDSIYIFTNAHVVGDQEKQKVTYGNDKS---VTGKVIGKDKWSDLAVVKAKVADENIKPMTMGDSNNIKLAEPILVIGNPLGTDFKGSVSQGIVSGLNRHVPVDIDKNDNYDALMKAFQIDAPVNPGNSGGAVVDRDGRLIGI-VSLKIDMHNVEGMAFAIPINDVRKIA</Hsp_hseq>
+      <Hsp_midline> +N TT       S   IG+GV+ +  G   +I TN HVV       VT  +D      +G+++  D+  DLA++K       +    +GDS+ + +A+ ++ IG P G D   +VS+GI+S   + + ++   + N        Q DA +N GNSGG +V  +G ++GI  ++        G+ FA+P N  R  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.145535</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>508</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>NLPA--GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQP-EEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NLPAKVNHGVLIGEVKENGLGDKAGLKKGDVIVELDGKKIEDNLRYRQVIYSHYDDQKTITAKIYRNGAEKNIKI</Hsp_hseq>
+      <Hsp_midline>NLPA    GV +  V  N     AGL+ GDVI+++DG+ +         I +   + +++   + R G   N+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.27604</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GVLIGEVKENGLGDKAGLKKGDVIVELDGKKIEDNLRYRQVIYSHYDDQKTITAKIYRNGAEKNIKI</Hsp_hseq>
+      <Hsp_midline>G  + EV        AGL+  D+I+E++ + +    R    I +     + I  K++RNG E  I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|488429237|ref|WP_002498622.1|</Hit_id>
+  <Hit_def>serine protease [Staphylococcus epidermidis] &gt;gi|394252872|gb|EJD97891.1| putative serine protease HtrA-like protein [Staphylococcus epidermidis NIHLM040] &gt;gi|966450905|gb|KTF27035.1| serine protease [Staphylococcus epidermidis FS1] &gt;gi|1097069147|emb|SFG67231.1| serine protease, S1-C subfamily, contains C-terminal PDZ domain [Staphylococcus epidermidis]</Hit_def>
+  <Hit_accession>KTF27035</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>7.46009e-11</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>FANPTT------RSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKV---QLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNL------LQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFA</Hsp_qseq>
+      <Hsp_hseq>LSNDTTVSDNKNESDNEIGSGVVYKKVGDSIYIFTNAHVVGDQEKQKVTYGNDKS---VTGKVIGKDKWSDLAVVK--AKVVDENIKPMTMGDSNNIKLAEPILVIGNPLGTDFKGSVSQGIVSGLNRHVPVDIDKNDNYDALMKAFQIDAPVNPGNSGGAVVDRDGRLVGI-VSLKIDMHNVEGMAFAIPINDVRKIA</Hsp_hseq>
+      <Hsp_midline> +N TT       S   IG+GV+ +  G   +I TN HVV       VT  +D      +G+++  D+  DLA++K   KV    +    +GDS+ + +A+ ++ IG P G D   +VS+GI+S   + + ++   + N        Q DA +N GNSGG +V  +G +VGI  ++        G+ FA+P N  R  A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0774702</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>533</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>NLPA--GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQP-EEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NLPAKVNHGVLIGEVKENGLGDKAGLKKGDVIVELDGKKIEDNLRYRQVILSHYDDQKTITAKIYRNGAEKNIKI</Hsp_hseq>
+      <Hsp_midline>NLPA    GV +  V  N     AGL+ GDVI+++DG+ +         I++   + +++   + R G   N+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|315104686|gb|EFT76662.1|</Hit_id>
+  <Hit_def>trypsin, partial [Propionibacterium acnes HL050PA2]</Hit_def>
+  <Hit_accession>EFT76662</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.50197e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR-LFALDEVGWLPTST</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETRQLIRSGTYGSTPAST</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R L      G  P ST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|574134466|dbj|GAE79542.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes JCM 18920]</Hit_def>
+  <Hit_accession>GAE79542</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.5062e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQTGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1036091970|ref|WP_064661970.1|</Hit_id>
+  <Hit_def>serine protease, partial [Cutibacterium acnes] &gt;gi|1035764556|gb|OAY04680.1| serine protease, partial [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>WP_064661970</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>3.3021e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR-LFALDEVGWLPTST</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETRQLIRSGTYGSTPAST</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R L      G  P ST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|574136038|dbj|GAE70261.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes JCM 18909]</Hit_def>
+  <Hit_accession>GAE70261</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.59758e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQTGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|313827155|gb|EFS64869.1|</Hit_id>
+  <Hit_def>trypsin [Propionibacterium acnes HL063PA1]</Hit_def>
+  <Hit_accession>EFS64869</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>5.53738e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|315083815|gb|EFT55791.1|</Hit_id>
+  <Hit_def>CvpA family protein [Propionibacterium acnes HL027PA2]</Hit_def>
+  <Hit_accession>EFT55791</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>7.48115e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|574128720|dbj|GAE74119.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Propionibacterium acnes JCM 18916]</Hit_def>
+  <Hit_accession>GAE74119</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>7.94281e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR-LFALDEVGWLPTST</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETRQLIRSGTYGSTPAST</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R L      G  P ST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|488470874|ref|WP_002514544.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Propionibacteriaceae] &gt;gi|282582027|gb|EFB87410.1| CvpA family protein [Propionibacterium acnes J139] &gt;gi|314981607|gb|EFT25700.1| CvpA family protein [Propionibacterium acnes HL110PA3] &gt;gi|315092247|gb|EFT64223.1| CvpA family protein [Propionibacterium acnes HL110PA4] &gt;gi|353454655|gb|AER05174.1| CvpA family protein [Propionibacterium acnes subsp. defendens ATCC 11828] &gt;gi|554754015|gb|ESK58443.1| CvpA family protein [Propionibacterium acnes HL042PA3] &gt;gi|668732073|gb|KFC14035.1| CvpA family protein [Propionibacterium acnes HL202PA1] &gt;gi|927038889|gb|ALD70461.1| serine protease [Cutibacterium acnes] &gt;gi|969868320|gb|ALU24181.1| serine protease [Cutibacterium acnes] &gt;gi|1080186990|gb|OFJ83736.1| serine protease [Propionibacterium sp. HMSC065F07] &gt;gi|1080258701|gb|OFK51958.1| serine protease [Propionibacterium sp. HMSC069G10]</Hit_def>
+  <Hit_accession>WP_002514544</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>9.09287e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQTGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|504411580|ref|WP_014598682.1|</Hit_id>
+  <Hit_def>serine protease [Cutibacterium acnes] &gt;gi|332676496|gb|AEE73312.1| trypsin-like serine protease [Propionibacterium acnes 266]</Hit_def>
+  <Hit_accession>WP_014598682</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>9.41713e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARAENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|666098308|gb|KEY36976.1|</Hit_id>
+  <Hit_def>trypsin-like serine protease [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>KEY36976</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>9.79599e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|668734785|gb|KFC16693.1|</Hit_id>
+  <Hit_def>CvpA family protein [Propionibacterium acnes HL201PA1] &gt;gi|929867451|gb|KPG64456.1| serine protease [Cutibacterium acnes] &gt;gi|929870172|gb|KPG67135.1| serine protease [Cutibacterium acnes] &gt;gi|1101094527|gb|OIO53729.1| serine protease [Propionibacterium sp. CG1_02_60_36]</Hit_def>
+  <Hit_accession>KFC16693</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>9.83874e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQTGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|503933104|ref|WP_014167098.1|</Hit_id>
+  <Hit_def>serine protease [Cutibacterium acnes] &gt;gi|365740413|gb|AEW84615.1| CvpA family protein [Propionibacterium acnes TypeIA2 P.acn31]</Hit_def>
+  <Hit_accession>WP_014167098</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>9.9253e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLAGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|488501347|ref|WP_002544786.1|</Hit_id>
+  <Hit_def>serine protease [Cutibacterium acnes] &gt;gi|314921065|gb|EFS84896.1| CvpA family protein [Propionibacterium acnes HL050PA3]</Hit_def>
+  <Hit_accession>WP_002544786</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>9.9253e-08</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|488493002|ref|WP_002536446.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Propionibacteriaceae] &gt;gi|313813770|gb|EFS51484.1| CvpA family protein [Propionibacterium acnes HL025PA1] &gt;gi|966535157|gb|ALT33857.1| serine protease [Cutibacterium acnes] &gt;gi|1072752669|gb|OEU28958.1| serine protease [Cutibacterium acnes] &gt;gi|1080753470|gb|OFP22285.1| serine protease [Propionibacterium sp. HMSC062D02]</Hit_def>
+  <Hit_accession>WP_002536446</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.06457e-07</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQTGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|488502041|ref|WP_002545480.1|</Hit_id>
+  <Hit_def>serine protease [Cutibacterium acnes] &gt;gi|328757579|gb|EGF71195.1| CvpA family protein [Propionibacterium acnes HL025PA2]</Hit_def>
+  <Hit_accession>WP_002545480</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.13188e-07</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1036090637|ref|WP_064661300.1|</Hit_id>
+  <Hit_def>serine protease [Cutibacterium acnes] &gt;gi|1035751652|gb|OAX92663.1| serine protease [Cutibacterium acnes] &gt;gi|1035769550|gb|OAY09501.1| serine protease [Cutibacterium acnes]</Hit_def>
+  <Hit_accession>WP_064661300</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.15188e-07</Hsp_evalue>
+      <Hsp_query-from>182</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>228</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVS----RGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>VVTNAHVVAGSDTVTVQVGGQGARLR--ARVVAYDPDLDLAVLAV-PK--LKAPALTMTSSVDAGDSTVIAGFPLDGPYTVNAARVRGAITARGENIYGDDDVVREILSLRGTVQPGNSGGPLLTTDGKVAG---TIFARSTSQPQAGYALTNRETR</Hsp_hseq>
+      <Hsp_midline>+VTN HVV G+++V V V      +R    +V  D  LDLA+L + PK  L A  L  + +V+  D  +  G P     TV+    RG I+A+ + +  +      +L     +  GNSGGPL+  +G V G    I+  + +    G+A+ + + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>69875</Statistics_db-num>
+      <Statistics_db-len>21148465</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

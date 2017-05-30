@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1129450411|ref|WP_075411109.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128415079|gb|OLO47724.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO47724</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>6.78457e-07</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL--------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATDKGNALGSGVIFDKEGHIITNNHVVAGASEIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDQLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQSEDGSGGSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +         + SG I    G++IT  H VA   +I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+        + G+   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1092185442|dbj|BAV84734.1|</Hit_id>
+  <Hit_def>HtrA protease/chaperone protein [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>BAV84734</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.4412e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ--------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAVATDKGNALGSGVIFDKEGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALNRPVVNSQNEDGSGDSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +         + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + + P+     +         T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1129444115|ref|WP_075405001.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128444224|gb|OLO75847.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO75847</Hit_accession>
+  <Hit_len>566</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.59183e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL--------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAVATDKGEALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQSEDGSSGSAVYTNAIQIDAAINPGNSGGPLFDERGQVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +         + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+        + G+   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|489879048|ref|WP_003782524.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|399902059|gb|EJN84906.1| trypsin [Actinomyces naeslundii str. Howell 279] &gt;gi|1133368050|gb|OMG38173.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_003782524</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.4453e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL------------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGTGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+            +  +   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1129411041|ref|WP_075372878.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128428678|gb|OLO60732.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO60732</Hit_accession>
+  <Hit_len>570</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.63552e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ-----------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIGVVTDKGTALGSGVIFDKEGHIITNNHVVAGASEIQVTLADG---RVYDAEATGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQNEDGSGGSASSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +G        + SG I    G++IT  H VA   +I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +            T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1129442002|ref|WP_075402963.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128435861|gb|OLO67691.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO67691</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.82186e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ-----------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIGVVTDKGTALGSGVIFDKEGHIITNNHVVAGASEIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQNEDGSGGSASSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +G        + SG I    G++IT  H VA   +I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +            T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1128078866|ref|WP_075248444.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1127312034|gb|OLL15585.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLL15585</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.99746e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ-----------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATDKGNALGSGVIFDKEGHIITNNHVVAGASEIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQNEDGSGGSASSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +         + SG I    G++IT  H VA   +I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +            T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1129431640|ref|WP_075392953.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128430405|gb|OLO62421.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO62421</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>3.05222e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ-----------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIGVVTDKGTALGSGVIFDKEGHIITNNHVVAGASEIQVTLADG---RVYDAEATGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQNEDGSGGSASSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +G        + SG I    G++IT  H VA   +I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +            T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1128443457|gb|OLO75100.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO75100</Hit_accession>
+  <Hit_len>588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>3.07284e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL--------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIGVVTDRGEALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQNEDGSGGSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +G        + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+        + G+   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1128442812|gb|OLO74467.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO74467</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.29006e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL--------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAVATDRGEALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGSPLGLSSTVTTGIISALDRPVVNSQNEDGSGGSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +         + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+        + G+   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1129416912|ref|WP_075378514.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128439506|gb|OLO71263.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO71263</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.31189e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL--------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAVATDRGEALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQNEDGSGGSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +         + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+        + G+   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1128421556|gb|OLO53924.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO53924</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.47073e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ-----------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATDKGNALGSGVIFDKEGHIITNNHVVAGASEIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDQLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQNEDGSGGSASSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +         + SG I    G++IT  H VA   +I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +            T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1133846321|ref|WP_076222208.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133358416|gb|OMG28706.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076222208</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.57243e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1133685693|ref|WP_076071515.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133357165|gb|OMG27476.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076071515</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.72967e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1133680967|ref|WP_076066994.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133356822|gb|OMG27139.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076066994</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.76193e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1133692108|ref|WP_076077856.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133370129|gb|OMG40213.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076077856</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.86042e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1129446931|ref|WP_075407771.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1128450010|gb|OLO81512.1| trypsin [Actinomyces naeslundii] &gt;gi|1128453009|gb|OLO84456.1| trypsin [Actinomyces naeslundii] &gt;gi|1128460733|gb|OLO92062.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_075407771</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.92751e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1133748218|ref|WP_076130894.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133343498|gb|OMG14264.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076130894</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>3.99576e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1133758290|ref|WP_076140278.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133347500|gb|OMG18065.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076140278</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>4.35521e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1133881923|ref|WP_076256308.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133352381|gb|OMG22811.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076256308</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>5.3976e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAEATGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1133694464|ref|WP_076080130.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133364358|gb|OMG34538.1| trypsin [Actinomyces naeslundii] &gt;gi|1133371595|gb|OMG41665.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076080130</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>6.19513e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAEATGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1133755958|ref|WP_076138217.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133344153|gb|OMG14897.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076138217</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>6.87479e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1133876915|ref|WP_076251455.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1133339292|gb|OMG10110.1| trypsin [Actinomyces naeslundii] &gt;gi|1133354471|gb|OMG24851.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076251455</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>7.11573e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATNNGNALGSGVIFDKDGHIITNNHVVAGASQIQVTLADG---RVYDAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLTTGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQGEDGSGGRSSSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I   +G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+     +             T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1129452919|ref|WP_075413529.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1128451773|gb|OLO83238.1| trypsin [Actinomyces naeslundii] &gt;gi|1133342718|gb|OMG13492.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_075413529</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.0677e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL------------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATGNGKALGSGVIFDKEGHIITNNHVVAGASQIQVTLADG---RVYEAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVINSQSEDGSGGGSPSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+            +  +   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1092735971|ref|WP_070663136.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Actinomyces] &gt;gi|1081001730|gb|OFR58345.1| trypsin [Actinomyces sp. HMSC075C01] &gt;gi|1128420048|gb|OLO52477.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO52477</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.41467e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ-----------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIGVVTDKGAALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAEATGTDPATDLAVIQLKDAPDNLTVAQLGDSDQLATGQDVMAIGNPLGLSSTVTTGIISALNRPVVNSQSEDGSGGSASSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +G        + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + + P+    ++            T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1129441117|ref|WP_075402182.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128419435|gb|OLO51906.1| trypsin [Actinomyces oris] &gt;gi|1128424733|gb|OLO57011.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO51906</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.52875e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ-----------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIGVVTDKGAALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAEATGTDPATDLAVIQLKDAPDNLTVAQLGDSDQLATGQDVMAIGNPLGLSSTVTTGIISALNRPVVNSQSEDGSGGSASSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +G        + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + + P+    ++            T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1129455407|ref|WP_075415923.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces naeslundii] &gt;gi|1128461424|gb|OLO92746.1| trypsin [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_075415923</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>2.61106e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL------------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAIATGNGKALGSGVIFDKEGHIITNNHVVAGASQIQVTLADG---RVYEAETTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVINSQSEDGSGGGSPSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+            +  +   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1129429845|ref|WP_075391247.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128434602|gb|OLO66465.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO66465</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.89224e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ-----------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIGVVTDKGTALGSGVIFDKEGHIITNNHVVAGASKIQVTLADG---RVYDAEATGTDPATDLAVIQLKDAPDNLTVAQLGDSDQLATGQDVMAIGNPLGLSSTVTTGIISALNRPVVNSQSEDGSGGSASSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +G        + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + + P+    ++            T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1129415654|ref|WP_075377302.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128410766|gb|OLO43593.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO43593</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.54923e-05</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL------------AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAITTGNGKALGSGVIFDKEGHIITNNHVVAGASQILVTLADG---RVYEAEPTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVINSQSEDGSGGGSPSSAVYTNAIQIDAAINPGNSGGPLFDEKGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+            +  +   T+ ++ DA  +   +GGPL + +G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1129457797|ref|WP_075418268.1|</Hit_id>
+  <Hit_def>trypsin [Actinomyces oris] &gt;gi|1128416618|gb|OLO49220.1| trypsin [Actinomyces oris]</Hit_def>
+  <Hit_accession>OLO49220</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000100898</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>PDVQRLYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHF-RMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQ------------ITHLLRSDAVYSWEQTGGPLVNAQGDLVGI</Hsp_qseq>
+      <Hsp_hseq>PDWEAVSAAVSNAVVSIAITTGNGKALGSGVIFDKEGHIITNNHVVAGASQILVTLADG---RVYEAEPTGTDPATDLAVIQLKDAPDNLTVAQLGDSDKLATGQDVMAIGNPLGLSSTVTTGIISALDRPVVNSQSEDGSGGGSPSSAVYTNAIQIDAAINPGNSGGPLFDENGRVIGI</Hsp_hseq>
+      <Hsp_midline>PD + +   V  AVV +     N   + SG I    G++IT  H VA    I V +A     R + A+   T P  +LA+++L+     L   ++ +   +  GQ V A G  +  +  V  G++ + D P+    ++             T+ ++ DA  +   +GGPL +  G ++GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1133877004|ref|WP_076251544.1|</Hit_id>
+  <Hit_def>Na+/H+ antiporter [Actinomyces naeslundii] &gt;gi|1133339361|gb|OMG10179.1| Na+/H+ antiporter [Actinomyces naeslundii] &gt;gi|1133348861|gb|OMG19377.1| Na+/H+ antiporter [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_076251544</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.12689</Hsp_evalue>
+      <Hsp_query-from>396</Hsp_query-from>
+      <Hsp_query-to>493</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>NVVVYGAAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIG-----DSVVGVLLGLFALIMAGKAVLEIL---------------QPNAGEDTAEAIAAAEA-------GDEMDELMALAE</Hsp_qseq>
+      <Hsp_hseq>HLIIYSIRALDRRPEQRLRRTNIRGRIVSTVAGFRGAISLAMALSIPAAFDGTVYAERNLIILIVAGVTLLSLLIQGVALPYVVRWPNAKPSAGAQTAEAIESQETEALADILGDTVDQLDAIAE</Hsp_hseq>
+      <Hsp_midline>++++Y   AL     Q ++   ++  I   VAG      +  A+      D  V     L  LI+AG  +L +L               +P+AG  TAEAI + E        GD +D+L A+AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1129452663|ref|WP_075413273.1|</Hit_id>
+  <Hit_def>fimbrial protein [Actinomyces naeslundii] &gt;gi|1128454673|gb|OLO86094.1| fimbrial protein [Actinomyces naeslundii] &gt;gi|1133343824|gb|OMG14583.1| fimbrial protein [Actinomyces naeslundii]</Hit_def>
+  <Hit_accession>WP_075413273</Hit_accession>
+  <Hit_len>953</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.44226</Hsp_evalue>
+      <Hsp_query-from>237</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>543</Hsp_hit-from>
+      <Hsp_hit-to>621</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>VGINIAATGPT--GKVEGFTVPAQVIVSHLQDVVRFKTGGAAGVAPPAAQTVAMGSSSWWSKAKAVVGGPTAVPGMGMNVVQGTVTTGIPSGMP</Hsp_qseq>
+      <Hsp_hseq>AGVNLKPTGSTMGGEVEDYRIAVRVPTIQLVKNVQ---------APYAGQVKALGADQWTLKAQQGNGGAASL------QVTGTVDTGIKVARP</Hsp_hseq>
+      <Hsp_midline> G+N+  TG T  G+VE + +  +V    L   V+         AP A Q  A+G+  W  KA+   GG  ++       V GTV TGI    P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>68161</Statistics_db-num>
+      <Statistics_db-len>24981799</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99596.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>431</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99596.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>431</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|325474287|gb|EGC77475.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9353_01825 [Treponema denticola F0402]</Hit_def>
+  <Hit_accession>EGC77475</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.74101</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LGYLSDRIG-RVRIIVAGFLVAAVGAVIAPLSPWVGGASIG---------ALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARL</Hsp_qseq>
+      <Hsp_hseq>FGTLSDRIGSRRRFVSIGYIVWGLTTILFGLTEFVGRGHVGTGAKVSVWAAVLVILADDFMSFFGSMGNDSGYNAWSNDMTTDKNRGQV</Hsp_hseq>
+      <Hsp_midline> G LSDRIG R R +  G++V  +  ++  L+ +VG   +G         A++V      +   GS       +A + D + D NR ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|448956975|gb|EMB37728.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9735_01322 [Treponema denticola ATCC 33521] &gt;gi|448959699|gb|EMB40418.1| hypothetical protein HMPREF9721_00512 [Treponema denticola ATCC 35404]</Hit_def>
+  <Hit_accession>EMB37728</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.13689</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LGYLSDRIG-RVRIIVAGFLVAAVGAVIAPLSPWVGGASIGA</Hsp_qseq>
+      <Hsp_hseq>FGTLSDRIGSRRRFVSIGYIVWGLTTILFGLTEFVGRGQVGT</Hsp_hseq>
+      <Hsp_midline> G LSDRIG R R +  G++V  +  ++  L+ +VG   +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488749762|ref|WP_002673064.1|</Hit_id>
+  <Hit_def>MFS transporter [Treponema denticola] &gt;gi|448952468|gb|EMB33272.1| hypothetical protein HMPREF9726_01633 [Treponema denticola H-22] &gt;gi|448964239|gb|EMB44911.1| hypothetical protein HMPREF9730_01426 [Treponema denticola AL-2] &gt;gi|448965958|gb|EMB46618.1| hypothetical protein HMPREF9729_01122 [Treponema denticola ASLM] &gt;gi|451703281|gb|EMD57656.1| hypothetical protein HMPREF9728_00303 [Treponema denticola US-Trep]</Hit_def>
+  <Hit_accession>WP_002673064</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.88148</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GHQRNALYLLSALCMVFMTLVVAIQPLFLRNVLNIPFETAGAVNANVQVVTEVLDLFIFAYLGYLSDR</Hsp_qseq>
+      <Hsp_hseq>NKKYSVLLIVGIICYFYQNQMNVYAPLAIQNILNKSATVSGALQLPRTIITMILPIIFGTWLGKRKDK</Hsp_hseq>
+      <Hsp_midline>  + + L ++  +C  +   +    PL ++N+LN     +GA+     ++T +L +    +LG   D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>27415</Statistics_db-num>
+      <Statistics_db-len>9557391</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

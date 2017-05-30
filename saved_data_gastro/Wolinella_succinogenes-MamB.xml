@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09999.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamB [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>297</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09999.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamB [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>297</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499452011|ref|WP_011139475.1|</Hit_id>
+  <Hit_def>cation transporter [Wolinella succinogenes] &gt;gi|34483694|emb|CAE10691.1| TRANSMEMBRANE TRANSPORT PROTEIN-Predicted Co/Zn/Cd cation transport [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139475</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>6.45395e-21</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>CMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISG---TYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVM--VGVIASVIGFPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQ</Hsp_qseq>
+      <Hsp_hseq>TLAIIKFVVGLASGSVAVLASAIDSILDLTISLFNYVALHNSEKPADETFNYGRGKIEALASVIEGTIITLSGLFILYESIQKLYYGEEVSHLTPSIIV---MGISFVVTLALVLFLLYVAKKSQNMVIKADALHYQTDLLSNGVILFSLGFIAWT-EYHFIDGVLGILIAFYIIYSAYGLIKEGVWMLLDKAMDEEMTEKIRSIIAACPEVSSFHHLKTREAGSDRFVDVHLVFGREFMLVEAHAVSDRIEAAIE</Hsp_hseq>
+      <Hsp_midline> + + K ++GL SGSVA++A ++ S  D+  S    ++L  S KPADE + +G G I+ ++S I G+++ +   F++Y S+ KL  G   ++  PSI       ++ +V   +  + + V  ++ +  I A+A   ++D +S+  ++  +G IA    +   D +  I ++  +      LI + V  L+D ++D E+ +    I    P V S + L+ R  G D   D+ L       + ++  V++ +   I+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>2.37262</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>AFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSL</Hsp_qseq>
+      <Hsp_hseq>SFVVTLALVLFLLYVAKKSQNMVIKADALHYQTDLLSNGVILFSL</Hsp_hseq>
+      <Hsp_midline>+F   + + LF   +   S ++ + AD+LH   D++++GV   SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499452267|ref|WP_011139731.1|</Hit_id>
+  <Hit_def>ATP-binding protein [Wolinella succinogenes] &gt;gi|34483952|emb|CAE10948.1| PUTATIVE ATP/GTP-BINDING PROTEIN (MRP HOMOLOG) [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139731</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>0.959858</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MKFENCRDCREEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYI</Hsp_qseq>
+      <Hsp_hseq>MKNEAILDLLKEVTYPGFEKDIV------TFGFVQKAL-LENDTLHV-AIKIPSGVPEVEQKLRAEITQKLAPLGAKNIDLV</Hsp_hseq>
+      <Hsp_midline>MK E   D  +EV +  F  DI         G +  ++ L  D+LH  A  + SGV ++  K+  +   +  P G  NI  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|499452224|ref|WP_011139688.1|</Hit_id>
+  <Hit_def>IMP dehydrogenase [Wolinella succinogenes] &gt;gi|34483909|emb|CAE10905.1| INOSINE-5&apos;-MONOPHOSPHATE DEHYDROGENASE [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139688</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>1.64783</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>GNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAP</Hsp_qseq>
+      <Hsp_hseq>GGIKY--SGDVAKALAVGASSVMIGS---LLAGTEESP</Hsp_hseq>
+      <Hsp_midline>G I+Y  S  V   L +GAS +M GS   L++GT E+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499450908|ref|WP_011138372.1|</Hit_id>
+  <Hit_def>DNA polymerase I [Wolinella succinogenes] &gt;gi|34482572|emb|CAE09572.1| DNA POLYMERASE I [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011138372</Hit_accession>
+  <Hit_len>898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>4.89364</Hsp_evalue>
+      <Hsp_query-from>227</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>507</Hsp_hit-from>
+      <Hsp_hit-to>542</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>PLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSS</Hsp_qseq>
+      <Hsp_hseq>PFIHTLIEMEERGIRVDTEFFARLNAEVEVRIRELS</Hsp_hseq>
+      <Hsp_midline>P +H++  +  R +  D +F  RL  +  +RI++ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1174233157|ref|WP_081454331.1|</Hit_id>
+  <Hit_def>hypothetical protein [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_081454331</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>7.48551</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>GVTQLSLKISNKPADERYPFGYGNIQY--ISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNR</Hsp_qseq>
+      <Hsp_hseq>GGTQLAPGVNRRAETEEWPKRLWRIQFHTINNAAEGN---IGETYSVY-SNSPTASGAYNNNPM------GYSSIARDPISQKCLSYYNKNNLPSKCEDERDNR</Hsp_hseq>
+      <Hsp_midline>G TQL+  ++ +   E +P     IQ+  I++A  G+   IG ++ +Y S     SG Y    +        + I  + + +  +   N+NN P+   +  DNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|493611999|ref|WP_006564352.1|</Hit_id>
+  <Hit_def>heavy metal translocating P-type ATPase [Helicobacter suis] &gt;gi|321147320|gb|EFX41999.1| cation transporting P-type ATPase [Helicobacter suis HS5] &gt;gi|321148666|gb|EFX43150.1| putative cation transporting P-type ATPase [Helicobacter suis HS1]</Hit_def>
+  <Hit_accession>EFX41999</Hit_accession>
+  <Hit_len>826</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>7.6287</Hsp_evalue>
+      <Hsp_query-from>207</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>MDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQF</Hsp_qseq>
+      <Hsp_hseq>MDASMAFKLNVASWALASLTLAITGWQFLRGAFYGLKYKF</Hsp_hseq>
+      <Hsp_midline>MD+S+  +L   +W +A+ T  +    FLRG   G   +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2930</Statistics_db-num>
+      <Statistics_db-len>930765</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

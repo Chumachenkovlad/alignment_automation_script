@@ -1,0 +1,2012 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|746721817|ref|WP_039679438.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Peptostreptococcaceae] &gt;gi|741038319|gb|KHS57436.1| hypothetical protein QX51_08255 [Terrisporobacter othiniensis]</Hit_def>
+  <Hit_accession>WP_039679438</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.56515e-08</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>IKDFDKTIQIDNNYKEAY-RGKGVCLSRQGYYYEAIQNYKKAIDIDEKYEVVYYNMGICYSRLKKYTKAIESYTKALDLDENDISAYYNRGRNYSRITRYEEAIEDFTKAIELEKFDDRLYYNRGIAYSLLEKHEEALEDYKKAIDINQDFEDVYYYAGFSYYLLEEYYEAMEYF</Hsp_hseq>
+      <Hsp_midline>+  F     ++++ ++ Y R KG+  ++ G Y EA+   ++  D D     V  ++GI Y +     +  E   +++    ++I      G  Y ++ +Y+ A+    K  E    +  + +  G+A   L + +EA++ +K A+ +  +   V+    +SY  +  + EA+ +F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.01727e-05</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATV-LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKKANELDE</Hsp_qseq>
+      <Hsp_hseq>RGNLYVKFEKYEEAIKDFDKTIQIDNNYKEAYRGKGVCLSRQGYYYEAIQNYKKAI-DIDEKYEVVYYNMGICYSRLKKYTKAIESYTKALDLDENDISAYYNRGRNYSRITRYEEAIEDFTKAIELEKFDDRLYYNRGIAYS--LLEKHEEALEDYKKAIDINQ</Hsp_hseq>
+      <Hsp_midline>+G  + K  +Y EA+   ++    D    E     G+   + G      +  +++I D  +  +V    +G+ Y +++KY  A+    K  + +  + +  +  G     + R++EAI+ F  A+ L   + +++  R IAYS   +  HEEAL  +KKA ++++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>4.25662e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LYTHYGLSVAK-KLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNL--GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>VYYNMGICYSRLKKYTKAIESYTKALDLDENDISAYY-NRGRNYSRITRYEEAIEDFTKAIELEKFDDRLYYNRGIAYSLLEKHEEALEDYKKAIDINQDFEDVYYYAGFSYYLLEEYYEAMEYFTISLEINSEYEQAYY--GRALANLKVDNYEEAIKDLNEVIYLNDQNAKAYYKRGLALDNLQKYEEAIKDFTKAIELD</Hsp_hseq>
+      <Hsp_midline>+Y + G+  ++ K     ++++  A  ++++    YY ++G ++++  RY EA+    +  + + FD  +  + GIAY      +   E  +++I    D   V    G +Y  +++Y  A+       E N       +  G AL NL    ++EAI      + L     K +     + + +  +EEA+  F KA ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0480707</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>436</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP</Hsp_qseq>
+      <Hsp_hseq>GLAYYELKQYDNAISDFTKSIEIDPDDLRAYQNRGDAYCNIGNYDEAIKDFAMVSQLEK</Hsp_hseq>
+      <Hsp_midline>GL Y ++++YD A+    K  E +P +       G A  N+G +DEAI  F +   L  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.109502</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>INKIIEKYEDEPIGYYFRGNLYVKFE---KYEEAIKDFDKTIQIDNNYKEAYRGKGVCLSRQGYYYEAIQNYKKAIDIDEKYEV</Hsp_hseq>
+      <Hsp_midline>+  +++  E  P+ +  R  L V  +   +++EAI  F   + +  N  + +R       + G + EA+ ++KKA ++DE+  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1122462351|ref|WP_074079437.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074079437</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>3.6324e-08</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>IKDFDKTIQIDNNYKEAY-RGKGVCLSRQGYYYEAIQNYKKAIDIDEKYEVVYYNMGICYSRLKKYTKAIESYTKALDLDKNDISAYYNRGRNYSRITRYEEAIEDFTKAIELEKFDDRLYYNRGIAYSLLEKHEEALEDYKKAIDINQDFEDVYYYAGFSYYLLEEYYEAMEYF</Hsp_hseq>
+      <Hsp_midline>+  F     ++++ ++ Y R KG+  ++ G Y EA+   ++  D D     V  ++GI Y +     +  E   +++    ++I      G  Y ++ +Y+ A+    K  E    +  + +  G+A   L + +EA++ +K A+ +  +   V+    +SY  +  + EA+ +F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.01727e-05</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATV-LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKKANELDE</Hsp_qseq>
+      <Hsp_hseq>RGNLYVKFEKYEEAIKDFDKTIQIDNNYKEAYRGKGVCLSRQGYYYEAIQNYKKAI-DIDEKYEVVYYNMGICYSRLKKYTKAIESYTKALDLDKNDISAYYNRGRNYSRITRYEEAIEDFTKAIELEKFDDRLYYNRGIAYS--LLEKHEEALEDYKKAIDINQ</Hsp_hseq>
+      <Hsp_midline>+G  + K  +Y EA+   ++    D    E     G+   + G      +  +++I D  +  +V    +G+ Y +++KY  A+    K  + +  + +  +  G     + R++EAI+ F  A+ L   + +++  R IAYS   +  HEEAL  +KKA ++++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>9.84247e-05</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>LYTHYGLSVAK-KLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNL--GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>VYYNMGICYSRLKKYTKAIESYTKALDLDKNDISAYY-NRGRNYSRITRYEEAIEDFTKAIELEKFDDRLYYNRGIAYSLLEKHEEALEDYKKAIDINQDFEDVYYYAGFSYYLLEEYYEAMEYFTISLEINSEYEQAYY--GRALANLKVDNYEEAIKDLNEVIYLNDQNAKAYYKRGLALDNLQKYEEAIKDFTKAIELD</Hsp_hseq>
+      <Hsp_midline>+Y + G+  ++ K     ++++  A  ++ +    YY ++G ++++  RY EA+    +  + + FD  +  + GIAY      +   E  +++I    D   V    G +Y  +++Y  A+       E N       +  G AL NL    ++EAI      + L     K +     + + +  +EEA+  F KA ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0498441</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>436</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>GLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP</Hsp_qseq>
+      <Hsp_hseq>GLAYYELKQYDNAISDFTKSIEIDPDDLRAYQNRGDAYCNIGNYDEAIKDFAMVSQLEK</Hsp_hseq>
+      <Hsp_midline>GL Y ++++YD A+    K  E +P +       G A  N+G +DEAI  F +   L  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.107541</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>INKIIEKYEDEPIGYYFRGNLYVKFE---KYEEAIKDFDKTIQIDNNYKEAYRGKGVCLSRQGYYYEAIQNYKKAIDIDEKYEV</Hsp_hseq>
+      <Hsp_midline>+  +++  E  P+ +  R  L V  +   +++EAI  F   + +  N  + +R       + G + EA+ ++KKA ++DE+  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1160928867|ref|WP_079770276.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_079770276</Hit_accession>
+  <Hit_len>762</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.86735e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YFSRGVLYAKEKIYDKAIIDFSKVIELDNKYIDAYFYRGNVYVLKEDYDESIVDLSKVIELDDKYIKAYLNRGLSYSKGNKHSEAINDFSKAIELDDKYIKAYFNRGLSYSEEKKYDEAINDFSKVIKLDDKYIKAYFNRGFLYSEANKYDEAINDFSKVIELDDK</Hsp_hseq>
+      <Hsp_midline>Y  +G+ +AK   Y +A++   +V + D   ++   + G  YV     D     L + I      IK     GL+Y +  K+  A+    K  E +       F  G++     ++DEAI+ F   + L     K +    + Y +   ++EA+  F K  ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.48226e-05</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>423</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>KKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN--EGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>EKMTNNAINDFNKVIKLDDKYVNAYF-NRGALYYNIEKYNKAIEDFSKVIELDYKHIDAYFNRGISYVKEEMYDEAIIDFNKTIELDNKHIDAYFSRGVSYAKEEKHNKAIADFNKTIKLDDKHIN-------AYVNEKMYDKAIKDFSKVIELDDNYVEAYFNRGISYVKEK--KYNEAITDFSKTIELDDK</Hsp_hseq>
+      <Hsp_midline>+K+  N ++ F     ++D     Y+ ++G  +    +Y++A+    +V + D   ++   + GI+YVK    D       ++I     +I      G++Y + +K++ A+    K  + +  + N       A  N   +D+AI  F   + L  N  E   +R I+Y  E+   + EA+  F K  ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.59928e-05</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>YSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFK--IALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YDESIVDLSKVIELDDKYIKAYLNRGLSYSKGNKHSEAINDFSKAIELDDKYIKAYFNRGLSYSEEKKYDEAINDFSKVIKLDDKYIKAYFNRGFLYSEANKYDEAINDFSKVIELDDKHVEAYYNRGILYLNKE--EYYKAISDFDKVIELDDK</Hsp_hseq>
+      <Hsp_midline>Y E++V L +V + D   ++  L+ G++Y K            ++I      IK     GL+Y + +KYD A+    KV + +       F  G       ++DEAI+ F   I L  +  E   +R I Y  ++   + +A+  F K  ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000296487</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFK--IALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YLNRGLSYSKGNKHSEAINDFSKAIELDDKYIKAYFNRGLSYSEEKKYDEAINDFSKVIKLDDKYIKAYFNRGFLYSEANKYDEAINDFSKVIELDDKHVEAYYNRGILYLNKEEYYKAISDFDKVIELDDKHVEACYNRGLLYLNKE--EYYKAISDFDKVIELDNK</Hsp_hseq>
+      <Hsp_midline>Y ++G+S++K  ++SEA+    +  + D   ++   + G++Y +    D       + I      IK     G  Y +  KYD A+    KV E +  +    +  G+   N   + +AI  F   I L  +  E   +R + Y  ++   + +A+  F K  ELD +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00251203</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>515</Hsp_hit-from>
+      <Hsp_hit-to>671</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE--GKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>YFSRGVSYAKEEKHNKAIADFNKTIKLDD------KHIN-AYVNEKMYDKAIKDFSKVIELDDNYVEAYFNRGISYVKEKKYNEAITDFSKTIELDDKYILAYFNRGSLYGNRKKYNEAIKDFSKTIELDDKHILAYFNRGVLYKKEK--KYNEAIADFNKVIELD</Hsp_hseq>
+      <Hsp_midline>Y  +G+S+AK  ++++A+    +    D        H+  AYV     D+  +   + I    + ++     G++YV+ +KY+ A+    K  E +       F  G    N  +++EAI  F   + L         +R + Y  E+   + EA+  F K  ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0092985</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>545</Hsp_hit-from>
+      <Hsp_hit-to>719</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>HYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKV----HRAIAY</Hsp_qseq>
+      <Hsp_hseq>HINAYVNEKMYDKAIKDFSKVIELDDNYVEAYF-NRGISYVKEKKYNEAITDFSKTIELDDKYILAYFNRGSLYGNRKKYNEAIKDFSKTIELDDKHILAYFNRGVLYKKEKKYNEAIADFNKVIELDYKFIDAYFCRGASYANEEKYNEAISDFSKVIEL--NNGYIMPYLYRAASY</Hsp_hseq>
+      <Hsp_midline>H    V +K+    +  F     ++D+  + Y+ ++GIS+ K  +Y+EA+    +  + D   +    + G  Y      +   +   ++I     +I      G+ Y + +KY+ A+    KV E +    +  F  G +  N  +++EAI  F   + L  N G +    +RA +Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>7</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0206404</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>544</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKT-------GAVDRGTEL----------------LERSIADAPDNIKVATVL-----------GLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>INDFSKVIELDDKHVEAYY-NRGILYLNKEEYYKAISDFDKVIELDDKHVEACYNRGLLYLNKEEYYKAISDFDKVIELDNKYVNAYFNRGKIYELEKMTNNAINDFNKVIKLDDKYVNAYFNRGALYYNIEKYNKAIEDFSKVIELDYKHIDAYFNRGISYVKEEMYDEAIIDFNKTIELDNKHIDAYFSRGVSYAKEEKHNKAIADFNKTIKLDDK</Hsp_hseq>
+      <Hsp_midline>++ F     ++D   + YY ++GI +     Y +A+   ++V + D   VE   + G+ Y+            D+  EL                LE+   +A ++      L           G  Y  ++KY+ A+    KV E +  + +  F  G++      +DEAI  F   + L       + +   SY +   H +A+  F K  +LD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1025787431|emb|CZS09342.1|</Hit_id>
+  <Hit_def>TPR repeat-containing protein YrrB [Clostridioides difficile] &gt;gi|1025811531|emb|CZR95890.1| TPR repeat-containing protein YrrB [Clostridioides difficile]</Hit_def>
+  <Hit_accession>CZS09342</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>2.00786e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YFSRGVLYAKEKIYDKAIIDFSKVIELDNKYIDAYFYRGNVYVLKEDYDESIVDLSKVIELDDKYIKAYLNRGLSYSKGNKHSEAINDFSKAIELDDKYIKAYFNRGLSYSEEKKYDEAINDFSKVIKLDDKYIKAYFNRGFLYSEANKYDEAINDFSKVIELDDK</Hsp_hseq>
+      <Hsp_midline>Y  +G+ +AK   Y +A++   +V + D   ++   + G  YV     D     L + I      IK     GL+Y +  K+  A+    K  E +       F  G++     ++DEAI+ F   + L     K +    + Y +   ++EA+  F K  ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.47853e-05</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>417</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>KKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN--EGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>EKMTNNAINDFNKVIKLDDKYVNAYF-NRGALYYNIEKYNKAIEDFSKVIELDYKHIDAYFNRGISYVKEEMYDEAIIDFNKTIELDNKHIDAYFSRGVSYAKEEKHNKAIADFNKTIKLDDKHIN-------AYVNEKMYDKAIKDFSKVIELDDNYVEAYFNRGISYVKEK--KYNEAITDFSKTIELDDK</Hsp_hseq>
+      <Hsp_midline>+K+  N ++ F     ++D     Y+ ++G  +    +Y++A+    +V + D   ++   + GI+YVK    D       ++I     +I      G++Y + +K++ A+    K  + +  + N       A  N   +D+AI  F   + L  N  E   +R I+Y  E+   + EA+  F K  ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.79387e-05</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>YSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFK--IALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YDESIVDLSKVIELDDKYIKAYLNRGLSYSKGNKHSEAINDFSKAIELDDKYIKAYFNRGLSYSEEKKYDEAINDFSKVIKLDDKYIKAYFNRGFLYSEANKYDEAINDFSKVIELDDKHVEAYYNRGILYLNKE--EYYKAISDFDKVIELDDK</Hsp_hseq>
+      <Hsp_midline>Y E++V L +V + D   ++  L+ G++Y K            ++I      IK     GL+Y + +KYD A+    KV + +       F  G       ++DEAI+ F   I L  +  E   +R I Y  ++   + +A+  F K  ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000318567</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFK--IALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YLNRGLSYSKGNKHSEAINDFSKAIELDDKYIKAYFNRGLSYSEEKKYDEAINDFSKVIKLDDKYIKAYFNRGFLYSEANKYDEAINDFSKVIELDDKHVEAYYNRGILYLNKEEYYKAISDFDKVIELDDKHVEACYNRGLLYLNKE--EYYKAISDFDKVIELDNK</Hsp_hseq>
+      <Hsp_midline>Y ++G+S++K  ++SEA+    +  + D   ++   + G++Y +    D       + I      IK     G  Y +  KYD A+    KV E +  +    +  G+   N   + +AI  F   I L  +  E   +R + Y  ++   + +A+  F K  ELD +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00272286</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>509</Hsp_hit-from>
+      <Hsp_hit-to>665</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE--GKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>YFSRGVSYAKEEKHNKAIADFNKTIKLDD------KHIN-AYVNEKMYDKAIKDFSKVIELDDNYVEAYFNRGISYVKEKKYNEAITDFSKTIELDDKYILAYFNRGSLYGNRKKYNEAIKDFSKTIELDDKHILAYFNRGVLYKKEK--KYNEAIADFNKVIELD</Hsp_hseq>
+      <Hsp_midline>Y  +G+S+AK  ++++A+    +    D        H+  AYV     D+  +   + I    + ++     G++YV+ +KY+ A+    K  E +       F  G    N  +++EAI  F   + L         +R + Y  E+   + EA+  F K  ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00945647</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>539</Hsp_hit-from>
+      <Hsp_hit-to>713</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>HYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKV----HRAIAY</Hsp_qseq>
+      <Hsp_hseq>HINAYVNEKMYDKAIKDFSKVIELDDNYVEAYF-NRGISYVKEKKYNEAITDFSKTIELDDKYILAYFNRGSLYGNRKKYNEAIKDFSKTIELDDKHILAYFNRGVLYKKEKKYNEAIADFNKVIELDYKFIDAYFCRGASYANEEKYNEAISDFSKVIEL--NNGYIMPYLYRAASY</Hsp_hseq>
+      <Hsp_midline>H    V +K+    +  F     ++D+  + Y+ ++GIS+ K  +Y+EA+    +  + D   +    + G  Y      +   +   ++I     +I      G+ Y + +KY+ A+    KV E +    +  F  G +  N  +++EAI  F   + L  N G +    +RA +Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>7</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.022567</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>538</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKT-------GAVDRGTEL----------------LERSIADAPDNIKVATVL-----------GLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFK--IALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>INDFSKVIELDDKHVEAYY-NRGILYLNKEEYYKAISDFDKVIELDDKHVEACYNRGLLYLNKEEYYKAISDFDKVIELDNKYVNAYFNRGKIYELEKMTNNAINDFNKVIKLDDKYVNAYFNRGALYYNIEKYNKAIEDFSKVIELDYKHIDAYFNRGISYVKEEMYDEAIIDFNKTIELDNKHIDAYFSRGVSYAKEE--KHNKAIADFNKTIKLDDK</Hsp_hseq>
+      <Hsp_midline>++ F     ++D   + YY ++GI +     Y +A+   ++V + D   VE   + G+ Y+            D+  EL                LE+   +A ++      L           G  Y  ++KY+ A+    KV E +  + +  F  G++      +DEAI  F   I L  +  +    R ++Y+ E+   H +A+  F K  +LD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1149162564|ref|WP_077725868.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1146917816|emb|SJT64746.1| TPR repeat-containing protein yrrB [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_077725868</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00229976</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>VTLYTHYGLSVAKK--LGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP</Hsp_qseq>
+      <Hsp_hseq>VEAYFHRSLLYAQKEKFNESMID-LNNTISLDSEYSEAYYK-RGLLYAMNDKVNEAMNDFTKVIELDEGHIDAYYGRGALYEIKKEYDKAISDFSKVIELNSKYVKAYFHRGLLYAQKEEIDKAISDFTKAIELNPKYTDVYFNRGLLYKKNCENDKAMNDFSKVIELDP</Hsp_hseq>
+      <Hsp_midline>V  Y H  L  A+K     +M+D   +  S++ +  + YY+ +G+ +A   + +EA+    +V + D   ++     G  Y      D+      + I      +K     GL Y Q ++ D A+    K  E NP   +V F  G+        D+A++ F   + L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|544984941|ref|WP_021383109.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|531226629|gb|EQF27354.1| helix-turn-helix family protein [Clostridioides difficile CD160]</Hit_def>
+  <Hit_accession>WP_021383109</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00562606</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>DVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>DIDLYYYLGFSYFALEKYEKAIEWYEKTIEIDNQEIRAYIGLGNVFLCTHKYTKAIEYYLKALKIDKECIEAYLQLGDAFCNINKYKKALKCYTKAIEL</Hsp_hseq>
+      <Hsp_midline>D+++  +LG +Y      ++  E  E++I      I+    LG  ++   KY  A+   +K  + +        +LG A  N+ ++ +A+  +  A+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|545045081|ref|WP_021419633.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|531686705|gb|EQJ64071.1| TPR repeat family protein [Clostridioides difficile P28]</Hit_def>
+  <Hit_accession>WP_021419633</Hit_accession>
+  <Hit_len>501</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00762666</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>IEENRLDDARILLEKHKLYASEEPFYYGNMGWILNHMERYQEAEVFLRKGLVYFPEDGWIYSQLGFSLDRQGNIRDGLDALLKALELGFDEPWLHGEIGWCYKELGNLKDAITYFENGLLDDERN</Hsp_hseq>
+      <Hsp_midline>++   +D    LLE+    A +       +G     +++Y  A   L K     P +  +  +LG +LD  G   + +D+   AL L  +E  +H  I + Y+++G+ ++A+ +F+     DER+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0124638</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>383</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>TVLGLTYVQVQKYDLAVPLLVKVAE---ANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>SELGWNYTQLEDYKEAIRCFKKAYDLEPKNPLNCSM---LGWCNLRLNQLDAALSFLLEARQLGRDDGWLHSAFGELYTEKQKYAQALEHYQKALE</Hsp_hseq>
+      <Hsp_midline>+ LG  Y Q++ Y  A+    K  +    NP+N ++   LG     L + D A+     A  L  ++G +H A    Y +   + +AL H++KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1123356329|ref|WP_074174575.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1025770242|emb|CZR93051.1| lipoprotein NlpI [Clostridioides difficile] &gt;gi|1025797192|emb|CZR92302.1| lipoprotein NlpI [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074174575</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0110681</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>MTILKKICDALNINYNDI--MSEDLDN-SKFLEGISLGKDLLSKNPNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKS</Hsp_hseq>
+      <Hsp_midline>+ +L K+ +A  +N+N    +   LDN  +F E I   K  L   PN+  +H  +  +Y  +  +++++ H+ K+ ELD +S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.46725</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>GKDLLSKN----PNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKSIETYVALGDVFIEMNEYDKAVACYNKAIEL</Hsp_hseq>
+      <Hsp_midline>G +LL ++    P++  +   LGLTY  +++YD ++   +K  E +  +      LG     +  +D+A+  +  A+ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.71589</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>KVATVLGLTYVQVQKYDL-------AVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>KICDALNINYNDIMSEDLDNSKFLEGISLGKDLLSKNPNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKSIETYVALGDVFIEMNEYDKAVACYNKAIELDDKC</Hsp_hseq>
+      <Hsp_midline>K+   L + Y  +   DL        + L   +   NP + ++   LG+    L  +D++I+ +  ++ L     + + A+   + +M  +++A+  + KA ELD++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1122671510|ref|WP_074134496.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074134496</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0120263</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>MTILKKICDALNINYNDI--MSEDLDN-SKFLEGISLGKDLLSKNPNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKS</Hsp_hseq>
+      <Hsp_midline>+ +L K+ +A  +N+N    +   LDN  +F E I   K  L   PN+  +H  +  +Y  +  +++++ H+ K+ ELD +S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.65364</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>GKDLLSKN----PNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKSIETYVALGDVFIEMNEYDKAVACYNKAIEL</Hsp_hseq>
+      <Hsp_midline>G +LL ++    P++  +   LGLTY  +++YD ++   +K  E +  +      LG     +  +D+A+  +  A+ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.10687</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>KVATVLGLTYVQVQKYDL-------AVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>KICDALNINYNDIMSEDLDNSKFLEGISLGKDLLSKNPNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKSIETYVALGDVFIEMNEYDKAVACYNKAIELDDKC</Hsp_hseq>
+      <Hsp_midline>K+   L + Y  +   DL        + L   +   NP + ++   LG+    L  +D++I+ +  ++ L     + + A+   + +M  +++A+  + KA ELD++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1123359518|ref|WP_074176999.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1025791191|emb|CZT61016.1| lipoprotein NlpI [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074176999</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0123638</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>MTILKKICDALNINYNDI--MSEDLDN-SKFLEGISLGKDLLSKNPNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKS</Hsp_hseq>
+      <Hsp_midline>+ +L K+ +A  +N+N    +   LDN  +F E I   K  L   PN+  +H  +  +Y  +  +++++ H+ K+ ELD +S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.29391</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>GTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>GKDLLSKN----PNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKSIETYVALGDVFIEMNEYDKAVACYNKAIEL</Hsp_hseq>
+      <Hsp_midline>G +LL ++    P++  +   LGLTY  +++YD ++   +K  E +  +      LG     +  +D+A+  +  A+ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.7841</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>KVATVLGLTYVQVQKYDL-------AVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>KICDALNINYNDIMSEDLDNSKFLEGISLGKDLLSKNPNDASIHNFLGLTYSLLKEYDKSIEHYLKSIELDYKSIETYVALGDVFIEMNEYDKAVACYNKAIELDDKC</Hsp_hseq>
+      <Hsp_midline>K+   L + Y  +   DL        + L   +   NP + ++   LG+    L  +D++I+ +  ++ L     + + A+   + +M  +++A+  + KA ELD++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|938471475|ref|WP_054631070.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Paeniclostridium sordellii] &gt;gi|724425380|emb|CEJ75301.1| Transcriptional regulator, TPR family [[Clostridium] sordellii] &gt;gi|770681560|emb|CEQ02152.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808450023|emb|CEO15016.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808457155|emb|CEN80511.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808460708|emb|CEN71008.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808494823|emb|CEN74361.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808512728|emb|CEP65941.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808516056|emb|CEP89987.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808526572|emb|CEQ05435.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808530060|emb|CEQ25369.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|808547214|emb|CEP98393.1| transcriptional regulator [[Clostridium] sordellii] &gt;gi|829468722|gb|KLR50548.1| transcriptional regulator [[Clostridium] sordellii 8483]</Hit_def>
+  <Hit_accession>KLR50548</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0174579</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGV------ALDNLGRFDEAIDSFKIALGLRPNE------GKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>ISFCYTQLNKDDDALEYIEKIKNLD-ITINCKEEAGLMVSKANKLMSVGKYEEAKQQFKTALDLLEKEDNKTGLANVYIRICEVYESIGESEKSLEYSKKAYEI</Hsp_hseq>
+      <Hsp_midline>+   Y Q+ K D A+  + K+   + +  N +   G+       L ++G+++EA   FK AL L   E        V+  I   YE +G  E++L + KKA E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1122462416|ref|WP_074079460.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074079460</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0208449</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGT---------ELLERSIADAPDNI-----KVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE</Hsp_qseq>
+      <Hsp_hseq>YQKDGDAKAMNTFLIEAGEKLEKIINMDENFALAYYHLGYHYYNQSQYIKAKVIWEEAMRLELDEDTIAEIQENLGKMDYKVQYEEGYSLVFQGKFEEGIEKLLPLEEEYSDWWNLLFIIGIAYKNMGEMDKAMLYFEKVLIIRPKQ</Hsp_hseq>
+      <Hsp_midline>Y+  G + A      EA   LE++ + D        HLG  Y       +           EL E +IA+  +N+     KV    G + V   K++  +  L+ + E     +N+ F +G+A  N+G  D+A+  F+  L +RP +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0692204</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAV---VMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE</Hsp_qseq>
+      <Hsp_hseq>EEGYSLVFQGKFEEGIEKLLPLEEEY-SDWWNL--LFIIGIAYKNMGEMDKAMLYFEKVLIIRPKQVDTLVELALCEASSFNMDRAIELLEQAAKIKE-DPEILCNLGMAYLNAGDIDDAIYYIERAYELNPED</Hsp_hseq>
+      <Hsp_midline>++G S    G++ E +   + LE+ Y +D +++     +GIAY   G +D+     E+ +   P  +     L L        D A+ LL + A+    +  +   LG+A  N G  D+AI   + A  L P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1123917699|ref|WP_074429467.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074429467</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0977212</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>273</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>GIAYKNMGEMDKAMLYFEKVLIIRPKQVDTLVELALCEASSFNMDRAIELLEQA-AKIKEDPEILCNLGMAYLNAGDIDDAIYYIERAYELNP</Hsp_hseq>
+      <Hsp_midline>GI++   G   +A++  E+V       V+  + L +    +  +DR  ELLE++ A   ++ ++   LG+ Y+     D A+  + +  E NP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.401218</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>LGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE</Hsp_qseq>
+      <Hsp_hseq>IGIAYKNMGEMDKAMLYFEKVLIIRPKQVDTLVELALCEASSFNMDRAIELLEQAAKIKE-DPEILCNLGMAYLNAGDIDDAIYYIERAYELNPED</Hsp_hseq>
+      <Hsp_midline>+GIAY   G +D+     E+ +   P  +     L L        D A+ LL + A+    +  +   LG+A  N G  D+AI   + A  L P +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.33624</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE</Hsp_qseq>
+      <Hsp_hseq>WNLLFIIGIAYKNMGEMDKAMLYFEKVLIIRPKQ</Hsp_hseq>
+      <Hsp_midline>+N+ F +G+A  N+G  D+A+  F+  L +RP +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1124066179|ref|WP_074438387.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074438387</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.363056</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>MTILKKICDALNIDYNAI--MSEDLDN-SKFLEGISLAKDLLSENPNDAFTHRFLGLTYSLLKEYNKSIEHYLKSIELYDKS</Hsp_hseq>
+      <Hsp_midline>+ +L K+ +A  +++N    +   LDN  +F E I   K  L   PN+   HR +  +Y  +  + +++ H+ K+ EL ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|531197197|gb|EQE99418.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat family protein [Clostridioides difficile CD70]</Hit_def>
+  <Hit_accession>EQE99418</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.658012</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|531320454|gb|EQG14782.1|</Hit_id>
+  <Hit_def>sigma-54 factor, Activator interacting domain family protein, partial [Clostridioides difficile 6057]</Hit_def>
+  <Hit_accession>EQG14782</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.984542</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1113100365|gb|OJT84714.1|</Hit_id>
+  <Hit_def>hypothetical protein BM533_19335 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>OJT84714</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.23348</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>VAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALH-LGIAYVKTGAVDRGTELL</Hsp_qseq>
+      <Hsp_hseq>IRKKTGKNITFEFSSGVSFTEDINKYAL----VVHCGACMMNRA-GMLSRIEKAKSFNVPIVNYGVLIAYVK-GILERSLELF</Hsp_hseq>
+      <Hsp_midline>+ KK G N+   F S  S  +DI +       + H  A   + A  ML ++  A +F+V +  + + IAYVK G ++R  EL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1122461067|ref|WP_074078764.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074078764</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.24609</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>MNDYDAAINNIKEAMVEDLSSGKIHNLLGIYYEKHGDFNRARKHYRVACDLE</Hsp_hseq>
+      <Hsp_midline>+  +D AI++ K A+    + GK+H  +   YE+ G    A  H++ A +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|746720201|ref|WP_039677956.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Peptostreptococcaceae] &gt;gi|741039775|gb|KHS58822.1| hypothetical protein QX51_00585 [Terrisporobacter othiniensis]</Hit_def>
+  <Hit_accession>WP_039677956</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.41337</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>MNDYDAAINNIKEAMVEDLSSGKIHNLLGIYYEKHGDFNRARKHYRVACDLE</Hsp_hseq>
+      <Hsp_midline>+  +D AI++ K A+    + GK+H  +   YE+ G    A  H++ A +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|531208658|gb|EQF10140.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat family protein, partial [Clostridioides difficile CD132]</Hit_def>
+  <Hit_accession>EQF10140</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.44009</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1149192628|ref|WP_077745627.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1146402398|emb|SJO34353.1| photosystem I assembly protein Ycf3 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_077745627</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.53639</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLNKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A     ++A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1113111514|gb|OJT92537.1|</Hit_id>
+  <Hit_def>hypothetical protein BM535_09645, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>OJT92537</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.57242</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|531806844|gb|EQK81899.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat family protein, partial [Clostridioides difficile CD111]</Hit_def>
+  <Hit_accession>EQK81899</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.60513</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|531219473|gb|EQF20532.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat family protein [Clostridioides difficile CD149]</Hit_def>
+  <Hit_accession>EQF20532</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.64066</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|531563764|gb|EQI45762.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat family protein, partial [Clostridioides difficile Y202]</Hit_def>
+  <Hit_accession>EQI45762</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.64297</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1122408642|ref|WP_074065872.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074065872</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.7107</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>184</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1125692821|ref|WP_075043307.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_075043307</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.78232</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1122648645|ref|WP_074124826.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074124826</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.83614</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1122483801|ref|WP_074081918.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074081918</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.94171</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1125703582|ref|WP_075047091.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_075047091</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.97064</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1122759608|ref|WP_074143323.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074143323</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.99501</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1122712600|ref|WP_074139125.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074139125</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.99537</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|930705092|ref|WP_054276050.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|930500734|gb|KPI54863.1| tetratricopeptide repeat protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054276050</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.20246</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1149140570|ref|WP_077711153.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1146919101|emb|SJT18275.1| photosystem I assembly protein Ycf3 [Clostridioides difficile] &gt;gi|1147100140|emb|SJP22645.1| photosystem I assembly protein Ycf3 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_077711153</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.32464</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|545023463|ref|WP_021406236.1|</Hit_id>
+  <Hit_def>glycosyl transferase 2 family protein, partial [Clostridioides difficile] &gt;gi|531511638|gb|EQH96746.1| glycosyl transferase 2 family protein, partial [Clostridioides difficile DA00310]</Hit_def>
+  <Hit_accession>WP_021406236</Hit_accession>
+  <Hit_len>547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.33768</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>HLGIAYVKTGAVDRGTELLERS------IADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>QLGKNFIILGKYQEALYYLEKSYELYSKLESAPGYL--ITSLVKTYLYLGKHKKCEKLCLKYIKKDMNNIDIYYYIAQAQVDLGKYENSIDSYKRYIYLLDN</Hsp_hseq>
+      <Hsp_midline> LG  ++  G        LE+S      +  AP  +   T L  TY+ + K+     L +K  + +  N ++ + +  A  +LG+++ +IDS+K  + L  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1123362872|ref|WP_074179175.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1025788293|emb|CZS06888.1| photosystem I assembly protein Ycf3 [Clostridioides difficile] &gt;gi|1025811456|emb|CZR96083.1| photosystem I assembly protein Ycf3 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074179175</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.43161</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|930698102|ref|WP_054269246.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|930499160|gb|KPI53315.1| tetratricopeptide repeat protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054269246</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.49814</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP-DNIKVATV</Hsp_qseq>
+      <Hsp_hseq>GLCEAYKNNLDKAIEYFEQAAKIKE-DPEILCNLGMAYLNNGDIDDATYYIERAYELNPQDEITIACL</Hsp_hseq>
+      <Hsp_midline>G+  A      +A+   EQ       D E+  +LG+AY+  G +D  T  +ER+    P D I +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|930703002|ref|WP_054274077.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|930498532|gb|KPI52694.1| hypothetical protein IM33_11480 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054274077</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.93735</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>DADAFDVEVAL-HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR--FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>DAIAVGCKSSLENLGDLYYQNQDIEKAISYYSR----IPNNVSCQIKLGNIYEDLNNIEEAISWYKKASE----NGDTRSSYRLGCIYENLGNTKNARKYFEMASSKSHMNARIHLGRIYFRE--GKLEESKMMF</Hsp_hseq>
+      <Hsp_midline>DA A   + +L +LG  Y +   +++      R     P+N+     LG  Y  +   + A+    K +E    N + R  +RLG   +NLG    A   F++A        ++H    Y  E  G  EE+   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1122321498|ref|WP_074014398.1|</Hit_id>
+  <Hit_def>glycosyl transferase, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074014398</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.3993</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>HLGIAYVKTGAVDRGTELLERS------IADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>QLGKNFIILGKYHEALYYLEKSYELYSKLESAPGYL--ITSLVKTYLYLGKHKKCEKLCLKYIKKDMNNIDIYYYIAQAQVDLGKYENSIDSYKRYIYLLDN</Hsp_hseq>
+      <Hsp_midline> LG  ++  G        LE+S      +  AP  +   T L  TY+ + K+     L +K  + +  N ++ + +  A  +LG+++ +IDS+K  + L  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|488217613|ref|WP_002288821.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transcriptional regulator [Enterococcus] &gt;gi|389868203|ref|YP_006375626.1| transcriptional regulator [Enterococcus faecium DO] &gt;gi|68194808|gb|EAN09284.1| Helix-turn-helix motif:TPR repeat [Enterococcus faecium DO] &gt;gi|257816943|gb|EEV44271.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,231,502] &gt;gi|257820833|gb|EEV47981.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,231,501] &gt;gi|257826250|gb|EEV52876.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,231,410] &gt;gi|257828554|gb|EEV55161.1| TPR repeat/helix-turn-helix domain-containing protein [Enterococcus faecium 1,231,408] &gt;gi|260074721|gb|EEW63037.1| transcriptional regulator [Enterococcus faecium C68] &gt;gi|260077874|gb|EEW65580.1| hypothetical protein EFZG_00010 [Enterococcus faecium TC 6] &gt;gi|291588058|gb|EFF19906.1| transcriptional regulator Cro/CI family protein [Enterococcus faecium E1071] &gt;gi|291590618|gb|EFF22348.1| Transcriptional regulator, xre family [Enterococcus faecium E1636] &gt;gi|291596388|gb|EFF27643.1| hypothetical protein EfmE1679_0230 [Enterococcus faecium E1679] &gt;gi|291597155|gb|EFF28351.1| TPR domain transcriptional regulator [Enterococcus faecium U0317] &gt;gi|291605465|gb|EFF34910.1| Transcriptional regulator, xre family [Enterococcus faecium E1162] &gt;gi|313589906|gb|EFR68751.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133a01] &gt;gi|313592820|gb|EFR71665.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133B] &gt;gi|313596107|gb|EFR74952.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133A] &gt;gi|313600228|gb|EFR79071.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133C] &gt;gi|313641505|gb|EFS06085.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0133a04] &gt;gi|313643326|gb|EFS07906.1| DNA-binding helix-turn-helix protein [Enterococcus faecium TX0082] &gt;gi|364089509|gb|EHM32194.1| Transcriptional regulator, xre family [Enterococcus faecium E4453] &gt;gi|378938288|gb|AFC63360.1| helix-turn-helix protein [Enterococcus faecium Aus0004] &gt;gi|388533452|gb|AFK58644.1| transcriptional regulator [Enterococcus faecium DO] &gt;gi|402916844|gb|EJX37677.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R501] &gt;gi|402918048|gb|EJX38775.1| DNA-binding helix-turn-helix protein [Enterococcus faecium V689] &gt;gi|402921599|gb|EJX42035.1| DNA-binding helix-turn-helix protein [Enterococcus faecium S447] &gt;gi|402930021|gb|EJX49726.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R499] &gt;gi|402934429|gb|EJX53779.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R494] &gt;gi|402936271|gb|EJX55459.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R496] &gt;gi|402936612|gb|EJX55778.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R497] &gt;gi|402943024|gb|EJX61556.1| DNA-binding helix-turn-helix protein [Enterococcus faecium R446] &gt;gi|402946166|gb|EJX64463.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1190] &gt;gi|402951438|gb|EJX69367.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1986] &gt;gi|402953460|gb|EJX71177.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1140] &gt;gi|402956840|gb|EJX74267.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1137] &gt;gi|402958102|gb|EJX75444.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1123] &gt;gi|402960581|gb|EJX77708.1| DNA-binding helix-turn-helix protein [Enterococcus faecium P1139] &gt;gi|402964461|gb|EJX81237.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV99] &gt;gi|402966811|gb|EJX83417.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV69] &gt;gi|402970714|gb|EJX87031.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV26] &gt;gi|402975110|gb|EJX91091.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV38] &gt;gi|402982003|gb|EJX97502.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV168] &gt;gi|402982820|gb|EJX98258.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV165] &gt;gi|402988146|gb|EJY03166.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV161] &gt;gi|402991212|gb|EJY06023.1| DNA-binding helix-turn-helix protein [Enterococcus faecium E422] &gt;gi|402992453|gb|EJY07159.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV1] &gt;gi|402992878|gb|EJY07539.1| DNA-binding helix-turn-helix protein [Enterococcus faecium ERV102] &gt;gi|402994787|gb|EJY09292.1| DNA-binding helix-turn-helix protein [Enterococcus faecium E417] &gt;gi|403006245|gb|EJY19906.1| DNA-binding helix-turn-helix protein [Enterococcus faecium C621] &gt;gi|403006318|gb|EJY19970.1| DNA-binding helix-turn-helix protein [Enterococcus faecium C497] &gt;gi|403008361|gb|EJY21873.1| DNA-binding helix-turn-helix protein [Enterococcus faecium C1904] &gt;gi|403012123|gb|EJY25385.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 514] &gt;gi|403015542|gb|EJY28427.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 513] &gt;gi|403015866|gb|EJY28727.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 515] &gt;gi|403023279|gb|EJY35553.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 510] &gt;gi|403025367|gb|EJY37452.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 511] &gt;gi|403030710|gb|EJY42376.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 506] &gt;gi|403032589|gb|EJY44141.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 509] &gt;gi|403040277|gb|EJY51366.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 504] &gt;gi|403041263|gb|EJY52289.1| DNA-binding helix-turn-helix protein [Enterococcus faecium 503] &gt;gi|404452987|gb|EKA00120.1| helix-turn-helix domain-containing protein [Enterococcus sp. GMD4E] &gt;gi|404456605|gb|EKA03284.1| helix-turn-helix domain-containing protein [Enterococcus sp. GMD3E] &gt;gi|404462074|gb|EKA07907.1| helix-turn-helix domain-containing protein [Enterococcus sp. GMD2E] &gt;gi|404470361|gb|EKA15001.1| helix-turn-helix domain-containing protein [Enterococcus sp. GMD1E] &gt;gi|425724411|gb|EKU87295.1| hypothetical protein HMPREF9307_00373 [Enterococcus faecium FB129-CNAB4] &gt;gi|430439508|gb|ELA49851.1| transcriptional regulator [Enterococcus faecium EnGen0005] &gt;gi|430443693|gb|ELA53655.1| transcriptional regulator [Enterococcus faecium EnGen0012] &gt;gi|430446601|gb|ELA56264.1| transcriptional regulator [Enterococcus faecium EnGen0010] &gt;gi|430482799|gb|ELA59898.1| transcriptional regulator [Enterococcus faecium EnGen0013] &gt;gi|430486328|gb|ELA63187.1| transcriptional regulator [Enterococcus faecium EnGen0014] &gt;gi|430488648|gb|ELA65310.1| transcriptional regulator [Enterococcus faecium EnGen0019] &gt;gi|430491361|gb|ELA67834.1| transcriptional regulator [Enterococcus faecium EnGen0008] &gt;gi|430497231|gb|ELA73290.1| transcriptional regulator [Enterococcus faecium EnGen0017] &gt;gi|430535979|gb|ELA76364.1| transcriptional regulator [Enterococcus faecium EnGen0011] &gt;gi|430538883|gb|ELA79157.1| transcriptional regulator [Enterococcus faecium EnGen0002] &gt;gi|430545262|gb|ELA85248.1| transcriptional regulator [Enterococcus faecium EnGen0021] &gt;gi|430548464|gb|ELA88364.1| transcriptional regulator [Enterococcus faecium EnGen0016] &gt;gi|430549554|gb|ELA89377.1| transcriptional regulator [Enterococcus faecium EnGen0009] &gt;gi|430553892|gb|ELA93566.1| transcriptional regulator [Enterococcus faecium EnGen0020] &gt;gi|430556835|gb|ELA96327.1| transcriptional regulator [Enterococcus faecium EnGen0018] &gt;gi|430559097|gb|ELA98474.1| transcriptional regulator [Enterococcus faecium EnGen0001] &gt;gi|430560672|gb|ELA99968.1| transcriptional regulator [Enterococcus faecium EnGen0007] &gt;gi|430574550|gb|ELB13313.1| transcriptional regulator [Enterococcus faecium EnGen0032] &gt;gi|430577374|gb|ELB15979.1| transcriptional regulator [Enterococcus faecium EnGen0031] &gt;gi|430580878|gb|ELB19337.1| transcriptional regulator [Enterococcus faecium EnGen0025] &gt;gi|430587741|gb|ELB25962.1| transcriptional regulator [Enterococcus faecium EnGen0040] &gt;gi|430594800|gb|ELB32763.1| transcriptional regulator [Enterococcus faecium EnGen0036] &gt;gi|430602695|gb|ELB40251.1| transcriptional regulator [Enterococcus faecium EnGen0024] &gt;gi|430606808|gb|ELB44145.1| transcriptional regulator [Enterococcus faecium EnGen0044] &gt;gi|430608878|gb|ELB46093.1| transcriptional regulator [Enterococcus faecium EnGen0034] &gt;gi|430619707|gb|ELB56526.1| transcriptional regulator [Enterococcus faecium EnGen0030] &gt;gi|430627112|gb|ELB63640.1| transcriptional regulator [Enterococcus faecium EnGen0048] &gt;gi|430632076|gb|ELB68357.1| transcriptional regulator [Enterococcus faecium EnGen0054] &gt;gi|430635668|gb|ELB71760.1| transcriptional regulator [Enterococcus faecium EnGen0051] &gt;gi|430637492|gb|ELB73500.1| transcriptional regulator [Enterococcus faecium EnGen0050] &gt;gi|430641306|gb|ELB77118.1| transcriptional regulator [Enterococcus faecium EnGen0046] &gt;gi|430644113|gb|ELB79811.1| transcriptional regulator [Enterococcus faecium EnGen0057] &gt;gi|430647656|gb|ELB83100.1| transcriptional regulator [Enterococcus faecium EnGen0045] &gt;gi|430647833|gb|ELB83269.1| transcriptional regulator [Enterococcus faecium EnGen0049] &gt;gi|445188473|gb|AGE30115.1| Transcriptional regulator, Cro, CI family [Enterococcus faecium NRRL B-2354] &gt;gi|486438834|gb|EOD83712.1| transcriptional regulator [Enterococcus faecium EnGen0041] &gt;gi|486614552|gb|EOF55742.1| transcriptional regulator [Enterococcus faecium EnGen0131] &gt;gi|486616913|gb|EOF57993.1| transcriptional regulator [Enterococcus faecium EnGen0124] &gt;gi|486620964|gb|EOF61969.1| transcriptional regulator [Enterococcus faecium EnGen0133] &gt;gi|486624931|gb|EOF65765.1| transcriptional regulator [Enterococcus faecium EnGen0126] &gt;gi|486627098|gb|EOF67885.1| transcriptional regulator [Enterococcus faecium EnGen0135] &gt;gi|486628208|gb|EOF68977.1| transcriptional regulator [Enterococcus faecium EnGen0130] &gt;gi|486630511|gb|EOF71169.1| transcriptional regulator [Enterococcus faecium EnGen0132] &gt;gi|486633743|gb|EOF74352.1| transcriptional regulator [Enterococcus faecium EnGen0128] &gt;gi|486638052|gb|EOF78551.1| transcriptional regulator [Enterococcus faecium EnGen0136] &gt;gi|486639536|gb|EOF80009.1| transcriptional regulator [Enterococcus faecium EnGen0138] &gt;gi|486640588|gb|EOF80984.1| transcriptional regulator [Enterococcus faecium EnGen0137] &gt;gi|486643659|gb|EOF83960.1| transcriptional regulator [Enterococcus faecium EnGen0140] &gt;gi|486649643|gb|EOF89747.1| transcriptional regulator [Enterococcus faecium EnGen0161] &gt;gi|486650442|gb|EOF90465.1| transcriptional regulator [Enterococcus faecium EnGen0162] &gt;gi|486656604|gb|EOF96279.1| transcriptional regulator [Enterococcus faecium EnGen0168] &gt;gi|486658652|gb|EOF98265.1| transcriptional regulator [Enterococcus faecium EnGen0169] &gt;gi|486663961|gb|EOG03440.1| transcriptional regulator [Enterococcus faecium EnGen0171] &gt;gi|486666388|gb|EOG05687.1| transcriptional regulator [Enterococcus faecium EnGen0170] &gt;gi|486666425|gb|EOG05721.1| transcriptional regulator [Enterococcus faecium EnGen0175] &gt;gi|486670246|gb|EOG09369.1| transcriptional regulator [Enterococcus faecium EnGen0176] &gt;gi|486675561|gb|EOG14506.1| transcriptional regulator [Enterococcus faecium EnGen0177] &gt;gi|486678123|gb|EOG16955.1| transcriptional regulator [Enterococcus faecium EnGen0178] &gt;gi|486680958|gb|EOG19715.1| transcriptional regulator [Enterococcus faecium EnGen0179] &gt;gi|486686759|gb|EOG25158.1| transcriptional regulator [Enterococcus faecium EnGen0180] &gt;gi|486688924|gb|EOG27204.1| transcriptional regulator [Enterococcus faecium EnGen0181] &gt;gi|486690395|gb|EOG28628.1| transcriptional regulator [Enterococcus faecium EnGen0182] &gt;gi|486697792|gb|EOG35772.1| transcriptional regulator [Enterococcus faecium EnGen0183] &gt;gi|486698503|gb|EOG36383.1| transcriptional regulator [Enterococcus faecium EnGen0184] &gt;gi|486800189|gb|EOH35330.1| transcriptional regulator [Enterococcus faecium EnGen0185] &gt;gi|486807465|gb|EOH42464.1| transcriptional regulator [Enterococcus faecium EnGen0189] &gt;gi|486807769|gb|EOH42761.1| transcriptional regulator [Enterococcus faecium EnGen0190] &gt;gi|486810475|gb|EOH45397.1| transcriptional regulator [Enterococcus faecium EnGen0191] &gt;gi|486816431|gb|EOH51057.1| transcriptional regulator [Enterococcus faecium EnGen0264] &gt;gi|486817178|gb|EOH51802.1| transcriptional regulator [Enterococcus faecium EnGen0257] &gt;gi|486829436|gb|EOH63562.1| transcriptional regulator [Enterococcus faecium EnGen0265] &gt;gi|486834783|gb|EOH68589.1| transcriptional regulator [Enterococcus faecium ATCC 8459] &gt;gi|486906472|gb|EOI38074.1| transcriptional regulator [Enterococcus faecium EnGen0267] &gt;gi|486913298|gb|EOI44724.1| transcriptional regulator [Enterococcus faecium EnGen0315] &gt;gi|486919707|gb|EOI50968.1| transcriptional regulator [Enterococcus faecium EnGen0317] &gt;gi|486924070|gb|EOI55187.1| transcriptional regulator [Enterococcus faecium EnGen0322] &gt;gi|486929177|gb|EOI60109.1| transcriptional regulator [Enterococcus faecium EnGen0314] &gt;gi|486930620|gb|EOI61481.1| transcriptional regulator [Enterococcus faecium EnGen0316] &gt;gi|486931220|gb|EOI62063.1| transcriptional regulator [Enterococcus faecium EnGen0318] &gt;gi|486937990|gb|EOI68487.1| transcriptional regulator [Enterococcus faecium EnGen0319] &gt;gi|486940789|gb|EOI71184.1| transcriptional regulator [Enterococcus faecium EnGen0321] &gt;gi|486942742|gb|EOI73090.1| transcriptional regulator [Enterococcus faecium EnGen0323] &gt;gi|486950670|gb|EOI80670.1| transcriptional regulator [Enterococcus faecium EnGen0312] &gt;gi|487090176|gb|EOK16121.1| transcriptional regulator [Enterococcus faecium EnGen0371] &gt;gi|487147669|gb|EOK67280.1| transcriptional regulator [Enterococcus faecium EnGen0125] &gt;gi|487148970|gb|EOK68568.1| transcriptional regulator [Enterococcus faecium EnGen0129] &gt;gi|487151216|gb|EOK70899.1| transcriptional regulator [Enterococcus faecium EnGen0134] &gt;gi|487154835|gb|EOK74360.1| transcriptional regulator [Enterococcus faecium EnGen0145] &gt;gi|487154969|gb|EOK74493.1| transcriptional regulator [Enterococcus faecium EnGen0142] &gt;gi|487160504|gb|EOK79892.1| transcriptional regulator [Enterococcus faecium EnGen0146] &gt;gi|487162571|gb|EOK81885.1| transcriptional regulator [Enterococcus faecium EnGen0147] &gt;gi|487163871|gb|EOK83176.1| transcriptional regulator [Enterococcus faecium EnGen0148] &gt;gi|487168364|gb|EOK87540.1| transcriptional regulator [Enterococcus faecium EnGen0149] &gt;gi|487171487|gb|EOK90625.1| transcriptional regulator [Enterococcus faecium EnGen0151] &gt;gi|487171871|gb|EOK91008.1| transcriptional regulator [Enterococcus faecium EnGen0150] &gt;gi|487178547|gb|EOK97468.1| transcriptional regulator [Enterococcus faecium EnGen0155] &gt;gi|487178926|gb|EOK97788.1| transcriptional regulator [Enterococcus faecium EnGen0152] &gt;gi|487180834|gb|EOK99660.1| transcriptional regulator [Enterococcus faecium EnGen0153] &gt;gi|487183960|gb|EOL02685.1| transcriptional regulator [Enterococcus faecium EnGen0156] &gt;gi|487188254|gb|EOL06853.1| transcriptional regulator [Enterococcus faecium EnGen0159] &gt;gi|487189230|gb|EOL07818.1| transcriptional regulator [Enterococcus faecium EnGen0158] &gt;gi|487189670|gb|EOL08255.1| transcriptional regulator [Enterococcus faecium EnGen0160] &gt;gi|487251899|gb|EOL69028.1| transcriptional regulator [Enterococcus faecium EnGen0308] &gt;gi|487252654|gb|EOL69780.1| transcriptional regulator [Enterococcus faecium EnGen0305] &gt;gi|487255790|gb|EOL72767.1| transcriptional regulator [Enterococcus faecium EnGen0320] &gt;gi|487286958|gb|EOM03304.1| transcriptional regulator [Enterococcus faecium EnGen0258] &gt;gi|487287918|gb|EOM04242.1| transcriptional regulator [Enterococcus faecium EnGen0259] &gt;gi|487298682|gb|EOM14666.1| transcriptional regulator [Enterococcus faecium EnGen0262] &gt;gi|487304075|gb|EOM19815.1| transcriptional regulator [Enterococcus faecium EnGen0193] &gt;gi|487307220|gb|EOM22869.1| transcriptional regulator [Enterococcus faecium EnGen0192] &gt;gi|487317959|gb|EOM33246.1| transcriptional regulator [Enterococcus faecium EnGen0254] &gt;gi|487319495|gb|EOM34749.1| transcriptional regulator [Enterococcus faecium EnGen0255] &gt;gi|487323859|gb|EOM38909.1| transcriptional regulator [Enterococcus faecium EnGen0172] &gt;gi|487324950|gb|EOM39991.1| transcriptional regulator [Enterococcus faecium EnGen0173] &gt;gi|487328529|gb|EOM43505.1| transcriptional regulator [Enterococcus faecium EnGen0256] &gt;gi|487331997|gb|EOM46868.1| transcriptional regulator [Enterococcus faecium EnGen0174] &gt;gi|487343539|gb|EOM58124.1| transcriptional regulator [Enterococcus faecium EnGen0186] &gt;gi|487344835|gb|EOM59368.1| transcriptional regulator [Enterococcus faecium EnGen0187] &gt;gi|487348467|gb|EOM62940.1| transcriptional regulator [Enterococcus faecium EnGen0188] &gt;gi|487353422|gb|EOM67104.1| transcriptional regulator [Enterococcus faecium EnGen0163] &gt;gi|487354232|gb|EOM67896.1| transcriptional regulator [Enterococcus faecium EnGen0164] &gt;gi|487354575|gb|EOM68230.1| transcriptional regulator [Enterococcus faecium EnGen0165] &gt;gi|508160832|gb|EOT37462.1| transcriptional regulator [Enterococcus faecium EnGen0376] &gt;gi|508177099|gb|EOT53548.1| transcriptional regulator [Enterococcus faecium EnGen0375] &gt;gi|508215076|gb|EOT89260.1| transcriptional regulator [Enterococcus faecium EnGen0375] &gt;gi|508221278|gb|EOT95427.1| transcriptional regulator [Enterococcus faecium EnGen0376] &gt;gi|508222993|gb|EOT97122.1| transcriptional regulator [Enterococcus faecium EnGen0377] &gt;gi|508228312|gb|EOU02332.1| transcriptional regulator [Enterococcus faecium EnGen0377] &gt;gi|508230047|gb|EOU03521.1| transcriptional regulator [Enterococcus faecium ATCC 8459] &gt;gi|514553230|gb|EPI17186.1| DNA-binding helix-turn-helix protein [Enterococcus faecium OC2A-1] &gt;gi|514560653|gb|EPI24290.1| DNA-binding helix-turn-helix protein [Enterococcus faecium LA4B-2] &gt;gi|529203274|gb|AGS75017.1| helix-turn-helix protein [Enterococcus faecium Aus0085] &gt;gi|531629210|gb|EQJ07974.1| helix-turn-helix family protein [Clostridioides difficile Y384] &gt;gi|544220294|gb|ERK34011.1| DNA-binding protein [Enterococcus faecium CRL1879] &gt;gi|551100852|gb|ERT32162.1| transcriptional regulator [Enterococcus faecium BM4538] &gt;gi|551101611|gb|ERT32896.1| hypothetical protein O992_01966 [Enterococcus faecium NEF1] &gt;gi|551187650|gb|ERT51331.1| transcriptional regulator [Enterococcus faecium 10/96A] &gt;gi|612136235|gb|EZP89337.1| DNA-binding protein [Enterococcus faecium VRE1044] &gt;gi|612138983|gb|EZP91946.1| DNA-binding protein [Enterococcus faecium VSE1036] &gt;gi|612142750|gb|EZP95441.1| DNA-binding protein [Enterococcus faecium VRE1261] &gt;gi|612146194|gb|EZP98708.1| DNA-binding protein [Enterococcus faecium VRE0576] &gt;gi|658175171|gb|KEI49828.1| DNA-binding protein [Enterococcus faecium UC8733] &gt;gi|658184137|gb|KEI58794.1| DNA-binding protein [Enterococcus faecium UC10237] &gt;gi|658185713|gb|KEI60370.1| DNA-binding protein [Enterococcus faecium UC7251] &gt;gi|695580720|gb|KGK73247.1| DNA-binding protein [Enterococcus faecium] &gt;gi|703906864|gb|KGQ76479.1| DNA-binding protein [Enterococcus faecium] &gt;gi|703907228|gb|KGQ76833.1| DNA-binding protein [Enterococcus faecium] &gt;gi|816119196|gb|KKJ66207.1| DNA-binding protein [Enterococcus faecium MRSN 3418] &gt;gi|816124453|gb|KKJ70980.1| DNA-binding protein [Enterococcus faecium MRSN 11639] &gt;gi|906415378|gb|KNB90876.1| DNA-binding protein [Enterococcus faecium] &gt;gi|906417788|gb|KNB93286.1| DNA-binding protein [Enterococcus faecium] &gt;gi|906421935|gb|KNB97433.1| DNA-binding protein [Enterococcus faecium] &gt;gi|906422359|gb|KNB97857.1| DNA-binding protein [Enterococcus faecium] &gt;gi|906424797|gb|KNC00296.1| DNA-binding protein [Enterococcus faecium] &gt;gi|924359090|gb|KOR92465.1| DNA-binding protein [Enterococcus faecium] &gt;gi|958601347|gb|KST44989.1| DNA-binding protein [Enterococcus faecium] &gt;gi|958608725|gb|KST52066.1| DNA-binding protein [Enterococcus faecium] &gt;gi|967388655|gb|KTK60078.1| DNA-binding protein [Enterococcus faecium] &gt;gi|969730641|gb|KUE82642.1| DNA-binding protein [Enterococcus faecium] &gt;gi|975001306|gb|ALZ52295.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984391944|gb|KWW10829.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984818853|gb|KWW59823.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984819444|gb|KWW60328.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984819475|gb|KWW60354.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984824475|gb|KWW64993.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984826456|gb|KWW66868.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984828494|gb|KWW68754.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984829329|gb|KWW69512.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984838094|gb|KWW77622.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984839121|gb|KWW78533.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984839195|gb|KWW78594.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984840893|gb|KWW80133.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984843979|gb|KWW82989.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984845397|gb|KWW84296.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984849466|gb|KWW88103.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984852928|gb|KWW91313.1| DNA-binding protein [Enterococcus faecium] &gt;gi|984920836|gb|KWX16708.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985094844|gb|KWX91423.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985095123|gb|KWX91686.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985100877|gb|KWX97091.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985108134|gb|KWY03882.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985111767|gb|KWY07250.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985117107|gb|KWY12272.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985117967|gb|KWY13096.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985125160|gb|KWY19720.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985137401|gb|KWY30816.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985149976|gb|KWY42418.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985151042|gb|KWY43390.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985153706|gb|KWY45899.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985156250|gb|KWY48323.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985175908|gb|KWY66604.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985187964|gb|KWY77691.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985194464|gb|KWY83877.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985197721|gb|KWY86953.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985198607|gb|KWY87801.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985202055|gb|KWY91089.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985203905|gb|KWY92841.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985213292|gb|KWZ01769.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985217576|gb|KWZ05720.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985218623|gb|KWZ06706.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985221800|gb|KWZ09758.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985227282|gb|KWZ14942.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985228193|gb|KWZ15814.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985230128|gb|KWZ17656.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985236437|gb|KWZ23538.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985239068|gb|KWZ26026.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985242761|gb|KWZ29511.1| DNA-binding protein [Enterococcus faecium] &gt;gi|985243839|gb|KWZ30552.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996367835|gb|KXG99989.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996384552|gb|KXH05188.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996389820|gb|KXH09891.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996391996|gb|KXH11875.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996394813|gb|KXH14147.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996396678|gb|KXH15076.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996400084|gb|KXH16705.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996404004|gb|KXH20075.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996410866|gb|KXH23226.1| DNA-binding protein [Enterococcus faecium] &gt;gi|996628891|gb|KXH56774.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1003373557|gb|KXW80554.1| DNA-binding protein [Enterococcus faecium C68] &gt;gi|1003375707|gb|KXW82693.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1004805626|gb|AMP61509.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1008421785|gb|AMQ96886.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1019994548|gb|KZK25289.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1024764905|gb|ANB93491.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1036486493|emb|SAZ31564.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036489518|emb|SAZ09514.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036492709|emb|SAZ20109.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036495508|emb|SAZ34964.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036498553|emb|SAZ41610.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036501718|emb|SAZ23320.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036504756|emb|SAZ23956.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036507971|emb|SAZ21759.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036511131|emb|SAZ35317.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036513951|emb|SAZ30461.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036517985|emb|SAZ27351.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1036535774|emb|SBA40556.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1039153113|gb|OBP99025.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1040771807|gb|OBU81665.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1049466278|emb|CVH53007.1| Transcriptional regulator2C Cro/CI family [Enterococcus faecium] &gt;gi|1062435631|gb|AOM15508.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062439680|gb|AOM18882.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062444655|gb|AOM23214.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062446742|gb|AOM24817.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062451015|gb|AOM28803.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062453895|gb|AOM31078.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062458938|gb|AOM35446.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062461454|gb|AOM37294.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1062770861|gb|AON61261.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1072836030|gb|AOT79417.1| Helix-turn-helix domain protein [Enterococcus faecium] &gt;gi|1080230518|gb|OFK25358.1| DNA-binding protein [Enterococcus sp. HMSC077E07] &gt;gi|1080257652|gb|OFK50999.1| DNA-binding protein [Enterococcus sp. HMSC073E08] &gt;gi|1080264858|gb|OFK57856.1| DNA-binding protein [Enterococcus sp. HMSC055G03] &gt;gi|1080305190|gb|OFK95958.1| DNA-binding protein [Enterococcus sp. HMSC063H10] &gt;gi|1080368236|gb|OFL56401.1| DNA-binding protein [Enterococcus sp. HMSC058D07] &gt;gi|1080381564|gb|OFL69226.1| DNA-binding protein [Enterococcus sp. HMSC073E07] &gt;gi|1080503264|gb|OFM85225.1| DNA-binding protein [Enterococcus sp. HMSC069A01] &gt;gi|1080543892|gb|OFN23971.1| DNA-binding protein [Enterococcus sp. HMSC077E04] &gt;gi|1080570206|gb|OFN48286.1| DNA-binding protein [Enterococcus sp. HMSC056C08] &gt;gi|1080574536|gb|OFN52310.1| DNA-binding protein [Enterococcus sp. HMSC072G01] &gt;gi|1080722621|gb|OFO93022.1| DNA-binding protein [Enterococcus sp. HMSC076D08] &gt;gi|1080735246|gb|OFP04997.1| DNA-binding protein [Enterococcus sp. HMSC065H03] &gt;gi|1080814186|gb|OFP79972.1| DNA-binding protein [Enterococcus sp. HMSC060E05] &gt;gi|1080826863|gb|OFP91984.1| DNA-binding protein [Enterococcus sp. HMSC063C12] &gt;gi|1080912790|gb|OFQ73670.1| DNA-binding protein [Enterococcus sp. HMSC065H12] &gt;gi|1081023418|gb|OFR78844.1| DNA-binding protein [Enterococcus sp. HMSC072F07] &gt;gi|1090896720|gb|OHO39991.1| DNA-binding protein [Enterococcus sp. HMSC034B11] &gt;gi|1090907901|gb|OHO49782.1| DNA-binding protein [Enterococcus sp. HMSC035B04] &gt;gi|1090909397|gb|OHO51179.1| DNA-binding protein [Enterococcus sp. HMSC035C10] &gt;gi|1090992085|gb|OHP29510.1| DNA-binding protein [Enterococcus sp. HMSC060D07] &gt;gi|1090996786|gb|OHP33975.1| DNA-binding protein [Enterococcus sp. HMSC060D09] &gt;gi|1091128146|gb|OHQ59593.1| DNA-binding protein [Enterococcus sp. HMSC070F12] &gt;gi|1091145365|gb|OHQ75873.1| DNA-binding protein [Enterococcus sp. HMSC072D11] &gt;gi|1091165451|gb|OHQ94851.1| DNA-binding protein [Enterococcus sp. HMSC074F07] &gt;gi|1091251326|gb|OHR75675.1| DNA-binding protein [Enterococcus sp. HMSC34G12] &gt;gi|1095523177|gb|OHY84859.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1095524281|gb|OHY85886.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1095524382|gb|OHY85973.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1108548905|gb|APE40553.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1112964613|gb|APJ06678.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1113047483|gb|OJT41146.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132412179|gb|APV53937.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132441142|gb|APV56730.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132514383|gb|OLY99844.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132515763|gb|OLZ01120.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132519361|gb|OLZ04573.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132525795|gb|OLZ10622.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132530206|gb|OLZ14931.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1132607514|gb|OLZ35571.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1143510291|gb|ONN33568.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1143511872|gb|ONN35048.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1143516356|gb|ONN39359.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1143522824|gb|ONN45562.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1145977478|gb|OOE27616.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149354472|gb|OOL47727.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149354951|gb|OOL48125.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149356173|gb|OOL49106.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149362843|gb|OOL54775.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149364934|gb|OOL56584.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149368521|gb|OOL59391.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149370212|gb|OOL60853.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149372715|gb|OOL63238.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149375554|gb|OOL65909.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149381421|gb|OOL71454.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149384419|gb|OOL74316.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1149393018|gb|OOL82074.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1150408040|gb|AQT56721.1| Helix-turn-helix domain protein [Enterococcus faecium] &gt;gi|1151037171|gb|OOP58399.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1158643596|gb|AQY28894.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1158647675|gb|AQY32969.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1159231966|gb|OPH28013.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1159234797|gb|OPH30360.1| transcriptional regulator [Enterococcus faecium] &gt;gi|1172704666|gb|OQO61997.1| DNA-binding protein [Enterococcus faecium] &gt;gi|1186535707|emb|SMM96523.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186539419|emb|SMM07851.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186543380|emb|SMM33282.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186546496|emb|SMM85843.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186549526|emb|SMM27978.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186553120|emb|SMM16419.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186556126|emb|SMI93959.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186559706|emb|SMM15080.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186563538|emb|SMJ04216.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186566841|emb|SMM16077.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186570177|emb|SMM17464.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186574585|emb|SMM09739.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186578536|emb|SMK51338.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186581847|emb|SMK37847.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186584846|emb|SMM22739.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186588384|emb|SMM22026.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186591481|emb|SMK42336.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186595127|emb|SMK49739.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186598720|emb|SMM76552.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186601870|emb|SMM28400.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186605357|emb|SMM94118.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186608575|emb|SMM07203.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186611603|emb|SMM06523.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186614738|emb|SMM89026.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186618381|emb|SMM95810.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186621552|emb|SMM87854.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186624788|emb|SMM89321.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186628583|emb|SMK54899.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186631571|emb|SMI98317.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186634749|emb|SMJ01670.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186638596|emb|SMI47468.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186641029|emb|SMM42471.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186644020|emb|SMI93414.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186647802|emb|SMI91668.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186650759|emb|SMI90036.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186653938|emb|SMJ01463.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186657189|emb|SMJ88141.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186660378|emb|SMI96475.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186663812|emb|SMM13929.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186666827|emb|SMJ00525.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186671195|emb|SMM90354.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186674213|emb|SMI80044.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186677036|emb|SMI97911.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186680281|emb|SMK50088.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186683346|emb|SMJ00625.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186686485|emb|SMI95983.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186689556|emb|SMI95824.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186692620|emb|SMI98362.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186695817|emb|SMJ02849.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186699027|emb|SMI86992.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186701788|emb|SMJ02904.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186706334|emb|SMJ04667.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186709396|emb|SMJ11834.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186712458|emb|SMI98105.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186716342|emb|SML79243.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186718652|emb|SMI94642.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186722284|emb|SMK33454.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186729388|emb|SMJ23523.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186732157|emb|SMJ62197.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186735498|emb|SMI88431.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186738563|emb|SMI82337.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186742325|emb|SML84564.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186752417|emb|SMM91742.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186755421|emb|SMM56033.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186760191|emb|SMM49122.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186763102|emb|SMJ82434.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186766319|emb|SMJ81349.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186769535|emb|SMK01518.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186772322|emb|SMK20913.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186775627|emb|SMJ42260.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186778580|emb|SMI83847.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186781868|emb|SMK34441.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186785345|emb|SMM63648.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186788403|emb|SMM62752.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186791688|emb|SMK30186.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186795189|emb|SMN06347.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186798798|emb|SMM36742.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186801618|emb|SMK35136.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186804867|emb|SMK15308.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186815052|emb|SMI91403.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186818207|emb|SMI84967.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186824931|emb|SMI86162.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186831318|emb|SMM82210.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186834604|emb|SMK28795.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186838473|emb|SMI99917.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186841574|emb|SMI91658.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186844902|emb|SMI93609.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186851445|emb|SMK42452.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186855465|emb|SMK46109.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186858599|emb|SMK32872.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186861894|emb|SMK41323.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186865042|emb|SMK09644.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186869092|emb|SMK21307.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186872160|emb|SML14189.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186876496|emb|SMK41417.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186879799|emb|SMK77393.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186883013|emb|SMK73650.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186886318|emb|SMK81910.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186889492|emb|SML28182.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186892744|emb|SML10770.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186895925|emb|SMK35870.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186899076|emb|SMK40726.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186902222|emb|SMK36276.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186905323|emb|SMK80189.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186908494|emb|SML12149.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186911244|emb|SMM11002.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186914403|emb|SMM17047.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186918039|emb|SML02526.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186921218|emb|SML96336.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186924482|emb|SMK26926.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186927657|emb|SMM06601.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186930848|emb|SMK23205.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186934453|emb|SMI46771.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186937314|emb|SML06510.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186940320|emb|SMI92419.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186943780|emb|SMK31346.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186946794|emb|SMI88836.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186950007|emb|SML93941.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186953404|emb|SMJ00823.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186956532|emb|SMI96947.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186959701|emb|SMI85575.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186962936|emb|SMK44013.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186966234|emb|SMI87431.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186969550|emb|SMK35855.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186972855|emb|SMK33862.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186976070|emb|SMK45726.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186979132|emb|SMM94262.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186982470|emb|SMI92007.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186985741|emb|SMK31880.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186988925|emb|SML99112.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186992126|emb|SMM02800.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186995325|emb|SMM65996.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1186998595|emb|SMM07337.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187003798|emb|SML09892.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187005190|emb|SMI84059.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187008234|emb|SMI92411.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187011757|emb|SMM01762.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187015003|emb|SMK38156.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187018136|emb|SMI74055.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187021311|emb|SMM09484.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187024895|emb|SML98228.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187027983|emb|SMK35422.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187031081|emb|SMJ01684.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187034520|emb|SMK27298.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187037792|emb|SMK39007.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187040925|emb|SMM38703.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187044268|emb|SMN08903.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187047562|emb|SMK35577.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187050777|emb|SML38880.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187055920|emb|SMH88866.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187057326|emb|SMK46928.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187060661|emb|SML95760.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187063817|emb|SMK69458.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187067066|emb|SML33780.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187070370|emb|SMK52142.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187073688|emb|SML06630.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187076931|emb|SML98065.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187080150|emb|SML98766.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187083311|emb|SMI88437.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187086761|emb|SML27119.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187089973|emb|SML99444.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187093244|emb|SMM00564.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187096396|emb|SMI89057.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187099681|emb|SMK95936.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187103046|emb|SML96736.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187106332|emb|SML96684.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187109573|emb|SML24815.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187112849|emb|SMM04982.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187116142|emb|SMM05473.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187119389|emb|SML95570.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187122728|emb|SMK35545.1| helix-turn-helix domain-containing protein [Enterococcus faecium] &gt;gi|1187125930|emb|SMM09667.1| helix-turn-helix domain-containing protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>EQJ07974</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.45878</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----DNIKVATV---LGLTYVQVQKYDLAVPLLVKVAEANP</Hsp_qseq>
+      <Hsp_hseq>VLEQTTETDIHHLQAAANVAMIYLSKGELDFAKVYVERTLKILSETDFDNLMVCIVYYDIATYYRKIEDYDKAIQLCEKGIEYNK</Hsp_hseq>
+      <Hsp_midline>+LEQ  + D   ++ A ++ + Y+  G +D     +ER++        DN+ V  V   +   Y +++ YD A+ L  K  E N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1123361789|ref|WP_074178092.1|</Hit_id>
+  <Hit_def>sulfatase [Clostridioides difficile] &gt;gi|1025790431|emb|CZS00027.1| Sulfatase [Clostridioides difficile] &gt;gi|1025811851|emb|CZR95465.1| Sulfatase [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074178092</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.59366</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGK------VHRAIAYSYEQM</Hsp_qseq>
+      <Hsp_hseq>ILNKIMNQESFDVKTSLD----YIKE---------YEQVL---PFDSEIHTARAVTYFFAEEYELAEEHIRKALKFRPNNYDNNFYLANILIAKGKYSDAIKAAMLSVTFLKHFAKISGYDYVNEKLVYANEQV</Hsp_hseq>
+      <Hsp_midline>+L ++ + ++FDV+ +L     Y+K           E+ +   P + ++ T   +TY   ++Y+LA   + K  +  P N++  F L   L   G++ +AI +  +++    +  K      V+  + Y+ EQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489519678|ref|WP_003424478.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|296260731|gb|EFH07570.1| Sel1 repeat protein [Clostridioides difficile NAP08] &gt;gi|296429552|gb|EFH15405.1| Sel1 repeat protein [Clostridioides difficile NAP07] &gt;gi|549280865|emb|CCK87430.1| Putative multiprotein-complex assembly TPR repeat-containing protein [Clostridioides difficile T5] &gt;gi|549284884|emb|CCK90883.1| Putative multiprotein-complex assembly TPR repeat-containing protein [Clostridioides difficile T20] &gt;gi|549288593|emb|CCK94571.1| Putative multiprotein-complex assembly TPR repeat-containing protein [Clostridioides difficile E1] &gt;gi|549292165|emb|CCK98515.1| Putative multiprotein-complex assembly TPR repeat-containing protein [Clostridioides difficile E10] &gt;gi|1135034424|gb|OMK40075.1| hypothetical protein BER34_001714 [Clostridioides difficile] &gt;gi|1135059727|gb|OMK65323.1| hypothetical protein BER35_002204 [Clostridioides difficile] &gt;gi|1146189397|emb|SJX03827.1| multiprotein-complex assembly protein [Clostridioides difficile] &gt;gi|1146193041|emb|SJW44043.1| multiprotein-complex assembly protein [Clostridioides difficile] &gt;gi|1146200959|emb|SJN84073.1| Beta-lactamase hcpA precursor [Clostridioides difficile] &gt;gi|1146218115|emb|SJW30451.1| multiprotein-complex assembly protein [Clostridioides difficile] &gt;gi|1146232491|emb|SJV93796.1| multiprotein-complex assembly protein [Clostridioides difficile] &gt;gi|1146273435|emb|SJO97125.1| Beta-lactamase hcpA precursor [Clostridioides difficile] &gt;gi|1146321565|emb|SJU98901.1| multiprotein-complex assembly protein [Clostridioides difficile] &gt;gi|1146450401|emb|SJV07873.1| multiprotein-complex assembly protein [Clostridioides difficile] &gt;gi|1146507902|emb|SJP30433.1| Beta-lactamase hcpA precursor [Clostridioides difficile] &gt;gi|1152170798|emb|SKA37891.1| multiprotein-complex assembly protein [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_003424478</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.23544</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>DADAFDVEVAL-HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR--FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>DAIAVGCKSSLENLGDLYYQNQDIEKAISYYSR----IPNNVSCQIKLGNIYEDLNNVEEAISWYKKASE----NGDTRSSYRLGCIYESLGNTKNARKYFEMASSKNHMNARIHLGRIYFRE--GKLEEAKMMF</Hsp_hseq>
+      <Hsp_midline>DA A   + +L +LG  Y +   +++      R     P+N+     LG  Y  +   + A+    K +E    N + R  +RLG   ++LG    A   F++A        ++H    Y  E  G  EEA   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|913459864|ref|WP_050439272.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Clostridiales] &gt;gi|612404191|gb|EZR30198.1| hypothetical protein BG47_14500 [Clostridioides difficile] &gt;gi|1081302170|gb|OFU42484.1| hypothetical protein HMPREF3071_13290 [Clostridium sp. HMSC19A11]</Hit_def>
+  <Hit_accession>WP_050439272</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.0523</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>437</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>DDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVAL-HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR--FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVH</Hsp_qseq>
+      <Hsp_hseq>DDITEAKHNLAGI-YFEEKDYENAIKYYE---DAIAVGCKSSLENLGDLYYQNQDIEKAISYYSR----IPNNVSCQIKLGNIYEDLNNIEEAISWYKKASE----NGDTRSSYRLGCIYESLGNTKNARKYFEMASSKNHMNARIH</Hsp_hseq>
+      <Hsp_midline>DDI +  +   GI + +   Y  A+   E   DA A   + +L +LG  Y +   +++      R     P+N+     LG  Y  +   + A+    K +E    N + R  +RLG   ++LG    A   F++A        ++H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1160927945|ref|WP_079769354.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1025765519|emb|CZR83029.1| photosystem I assembly protein Ycf3 [Clostridioides difficile] &gt;gi|1025765632|emb|CZR83174.1| photosystem I assembly protein Ycf3 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_079769354</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.28772</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>YLETGIICYNAGHRIVSIGFIEDALNINDKNSRSYLFKGKIFKDEGQIDKALDNFSISIKLDEKNQDAYFNIGEIYLRKRMYIKAIENSTKAIDLRREDVDVYMCRGIAYKNMGNYDEAI</Hsp_hseq>
+      <Hsp_midline>Y + GI    AG    ++  +E   + +  +    L  G  +   G +D+  +    SI     N      +G  Y++ + Y  A+    K  +    + +V    G+A  N+G +DEAI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|930496926|gb|KPI51111.1|</Hit_id>
+  <Hit_def>hypothetical protein KW94_11895 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>KPI51111</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.01254</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>DADAFDVEVAL-HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR--FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>DAIAVGCKSSLENLGDLYYQNQDIEKAISYYSR----IPNNASCQIKLGNIYEDLNNIEEAIIWYKKASE----NGDTRSSYRLGCIYENLGNTKNARKYFEMASSKSHMNARIHLGRIYFRE--GKLEEAKMMF</Hsp_hseq>
+      <Hsp_midline>DA A   + +L +LG  Y +   +++      R     P+N      LG  Y  +   + A+    K +E    N + R  +RLG   +NLG    A   F++A        ++H    Y  E  G  EEA   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|930495207|gb|KPI49409.1|</Hit_id>
+  <Hit_def>hypothetical protein KW95_11580 [Clostridioides difficile]</Hit_def>
+  <Hit_accession>KPI49409</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.01254</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>DADAFDVEVAL-HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR--FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>DAIAVGCKSSLENLGDLYYQNQDIEKAISYYSR----IPNNASCQIKLGNIYEDLNNIEEAIIWYKKASE----NGDTRSSYRLGCIYENLGNTKNARKYFEMASSKSHMNARIHLGRIYFRE--GKLEEAKMMF</Hsp_hseq>
+      <Hsp_midline>DA A   + +L +LG  Y +   +++      R     P+N      LG  Y  +   + A+    K +E    N + R  +RLG   +NLG    A   F++A        ++H    Y  E  G  EEA   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1122755889|ref|WP_074142986.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_074142986</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.08547</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>344</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>LGDLYYQNQDIEKAISYYSRI----PNNVSCQIKLGNIYEDLNNIEEAISWYKKA--SENGDTRSSYRLGCIYESLGNTKNARKYFEMA</Hsp_hseq>
+      <Hsp_midline>LG  Y Q Q  + A+    ++    P N + + +LG   ++L   +EAI  +K A      + +    +   YE +G+ + A  +F+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|531315982|gb|EQG10560.1|</Hit_id>
+  <Hit_def>TPR repeat family protein [Clostridioides difficile 6057] &gt;gi|531384745|gb|EQG76736.1| TPR repeat family protein [Clostridioides difficile DA00165]</Hit_def>
+  <Hit_accession>EQG10560</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.35829</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>LGDLYYQNQDIEKAISYYSRI----PNNVSCQIKLGNIYEDLNNIEEAISWYKKA--SENGDTRSSYRLGCIYESLGNTKNARKYFEMA</Hsp_hseq>
+      <Hsp_midline>LG  Y Q Q  + A+    ++    P N + + +LG   ++L   +EAI  +K A      + +    +   YE +G+ + A  +F+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|930699442|ref|WP_054270586.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridioides difficile] &gt;gi|1025787265|emb|CZS10045.1| Beta-lactamase HcpA precursor [Clostridioides difficile] &gt;gi|1025809875|emb|CZR97499.1| Beta-lactamase HcpA precursor [Clostridioides difficile]</Hit_def>
+  <Hit_accession>WP_054270586</Hit_accession>
+  <Hit_len>623</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>9.53779</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>DADAFDVEVAL-HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR--FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>DAIAVGCKSSLENLGDLYYQNQDIEKAISYYSR----IPNNASCQIKLGNIYEDLNNIEEAIIWYKKASE----NGDTRSSYRLGCIYENLGNTKNARKYFEMASSKSHMNARIHLGRIYFRE--GKLEEAKMMF</Hsp_hseq>
+      <Hsp_midline>DA A   + +L +LG  Y +   +++      R     P+N      LG  Y  +   + A+    K +E    N + R  +RLG   +NLG    A   F++A        ++H    Y  E  G  EEA   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1113105979|gb|OJT88250.1|</Hit_id>
+  <Hit_def>hypothetical protein BM533_08765, partial [Clostridioides difficile]</Hit_def>
+  <Hit_accession>OJT88250</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>9.63603</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>LGDLYYQNQDIEKAISYYSRI----PNNVSCQIKLGNIYEDLNNIEEAISWYKKA--SENGDTRSSYRLGCIYESLGNTKNARKYFEMA</Hsp_hseq>
+      <Hsp_midline>LG  Y Q Q  + A+    ++    P N + + +LG   ++L   +EAI  +K A      + +    +   YE +G+ + A  +F+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>221477</Statistics_db-num>
+      <Statistics_db-len>71408300</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499452532|ref|WP_011139996.1|</Hit_id>
+  <Hit_def>serine protease [Wolinella succinogenes] &gt;gi|34481793|emb|CAE11214.1| PROTEASE DO [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139996</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>6.50544e-34</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFAL</Hsp_qseq>
+      <Hsp_hseq>PKDRIERSLGSGVIISKDGYILTNNHVIDGADKVIVSLPDN--SKEYEAKVIGKDPRSDLAVIKIEGK-DFPFVIFGSSNDLRVGDVVFAIGNPFGVGETVTQGIVSALNKSGI--GINDYENFIQTDASINPGNSGGALVDSRGALVGINTAILSRTGGNHGVGFAIPSDMAKKIAI</Hsp_hseq>
+      <Hsp_midline>P  R   ++G+GVI+  DG+I+TN HV+ GA+ V V++ D+  S  Y  +++  D   DLA++KI  K      + G S+ + V D V AIG PFG+  TV++GI+SA  K+ +  G+  + N +QTDA+IN GNSGG LV + G +VGINTAI +  G   G+GFA+PS+ A+  A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>9.95586e-07</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVS--NMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>YMGVSIQDVTQDL---RDLYGDKEGAVIISTESSSPAAKAGLKVWDLITKIDEKPVKNAADLKNIIGSYSPNDKVKVTYIRDKKESTATLKLIEAPS-------NAKTSGAGVSNSAIDGLMLSAIDDRIRQRYR---LAIDT--------------------SGVLVIGVQAGSYAEEIGFSEGDIILQIENYPIKDIASFNEAMKQHKGKAKRLL--VSRGGTIFSVVV</Hsp_hseq>
+      <Hsp_midline> +G ++  +TQ L    +L   + G  +     ++PAA AGL+  D+I K+D +PV    ++  I+        V++  +R    S   + L+  PS        A T+   ++  A     +  +  ++   +    + I+T                     G  V  V AGS A   G    D+I+++ N P+   A  + A+K      +++L  V R G  F +V+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.00364304</Hsp_evalue>
+      <Hsp_query-from>536</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>376</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>AGSGGSRASLLGAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMP--NGRSVRIGVLRAGDV</Hsp_qseq>
+      <Hsp_hseq>SGAGVSNSAIDGLMLSAIDDRIRQRYRLAIDTSGVLVIGVQAGSYAEEIGFSEGDIILQIENYPI---KDIASFNEAMKQHKGKAKRLLVSRGGTI</Hsp_hseq>
+      <Hsp_midline>+G+G S +++ G  L+ +  R+  +  L     GV V GV   + A   G   GD+IL+++  P+   +++A+    M    G++ R+ V R G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499452530|ref|WP_011139994.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Wolinella succinogenes] &gt;gi|34481791|emb|CAE11212.1| PUTATIVE INTEGRAL MEMBRANE PROTEIN [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139994</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.00522814</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>INEPDPSLSAAKAGMRSGDEIIRIDGQKVRTWGEMSELISKSQG--EIEVEFLRGGQERSLMLL</Hsp_hseq>
+      <Hsp_midline>+N   P+  AA AG+R GD I+++DG+ V    E++ ++++      + +  LR G   ++ L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|499450968|ref|WP_011138432.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Wolinella succinogenes] &gt;gi|39930920|sp|Q7MA35.1|DNAK_WOLSU RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 &gt;gi|34482632|emb|CAE09632.1| HEAT SHOCK PROTEIN, DNAK [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011138432</Hit_accession>
+  <Hit_len>631</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.0446796</Hsp_evalue>
+      <Hsp_query-from>628</Hsp_query-from>
+      <Hsp_query-to>713</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVL</Hsp_qseq>
+      <Hsp_hseq>IQKIDFVIKDAGLA----KSDIAEVVMVGGSTRIPKVQQRVK------DFIGKELNKSVNPDEVVALGAA--IQGGVLKGDVKDVL</Hsp_hseq>
+      <Hsp_midline>+  +  V   +GLA    ++  A VVM GG+  +P VQ  +       +++G E+   + P  VV +  A  + GG     V +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499452027|ref|WP_011139491.1|</Hit_id>
+  <Hit_def>PDZ domain-containing protein [Wolinella succinogenes] &gt;gi|2644974|emb|CAA05824.1| orf341 [Wolinella succinogenes] &gt;gi|34483710|emb|CAE10707.1| conserved hypothetical protein [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139491</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.0763258</Hsp_evalue>
+      <Hsp_query-from>585</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGP</Hsp_qseq>
+      <Hsp_hseq>FRLGDRVLSLEGRAIGSRSELENQIYGLAPGREVRVSVMREGEVVSFETRVYP</Hsp_hseq>
+      <Hsp_midline> R GD +L ++GR +    E+   +  +  GR VR+ V+R G+V +      P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|499194390|ref|WP_010891930.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c nitrite reductase small subunit [Campylobacter] &gt;gi|218562967|ref|YP_002344746.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819] &gt;gi|57167204|gb|AAW35983.1| cytochrome c-type protein nrfH [Campylobacter jejuni RM1221] &gt;gi|112360673|emb|CAL35470.1| putative periplasmic cytochrome C [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819] &gt;gi|121504140|gb|EAQ72638.2| cytochrome c-type protein nrfH [Campylobacter jejuni subsp. jejuni 81-176] &gt;gi|284926579|gb|ADC28931.1| putative periplasmic cytochrome C [Campylobacter jejuni subsp. jejuni IA3902] &gt;gi|307748239|gb|ADN91509.1| Cytochrome c-type protein nrfH [Campylobacter jejuni subsp. jejuni M1] &gt;gi|401781742|emb|CCK67447.1| periplasmic cytochrome C [Campylobacter jejuni subsp. jejuni NCTC 11168-BN148] &gt;gi|930573991|gb|ALF92367.1| cytochrome c-type protein nrfH [Campylobacter jejuni subsp. jejuni] &gt;gi|930575631|gb|ALF94006.1| cytochrome c-type protein nrfH [Campylobacter jejuni subsp. jejuni] &gt;gi|944120892|gb|KQK47699.1| cytochrome C [Campylobacter jejuni] &gt;gi|944124958|gb|KQK51600.1| cytochrome C [Campylobacter jejuni] &gt;gi|948351209|gb|ALM60267.1| cytochrome C [Campylobacter jejuni] &gt;gi|998212850|gb|AMK28187.1| cytochrome C [Campylobacter jejuni] &gt;gi|1004801733|gb|AMP64058.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1004803385|gb|AMP65708.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1043915605|gb|ANS24415.1| cytochrome c-type protein nrfH [Campylobacter jejuni subsp. jejuni] &gt;gi|1073111069|gb|OEV41437.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073114250|gb|OEV44514.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073116651|gb|OEV46808.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073117413|gb|OEV47531.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073121851|gb|OEV51771.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073122207|gb|OEV52102.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073124232|gb|OEV54083.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073124279|gb|OEV54125.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073130649|gb|OEV60304.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073132648|gb|OEV62216.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073136084|gb|OEV65555.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073137850|gb|OEV67249.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073159479|gb|OEV88420.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073160130|gb|OEV89066.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073161063|gb|OEV89982.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073165428|gb|OEV94258.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073171785|gb|OEW00489.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073172889|gb|OEW01561.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073175915|gb|OEW04488.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6872] &gt;gi|1073179368|gb|OEW07794.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6873] &gt;gi|1073181581|gb|OEW09927.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6874] &gt;gi|1073188904|gb|OEW16961.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6878] &gt;gi|1073193587|gb|OEW21480.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073193997|gb|OEW21884.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073195999|gb|OEW23841.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6889] &gt;gi|1073200056|gb|OEW27753.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073200402|gb|OEW28089.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073201843|gb|OEW29476.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073202437|gb|OEW30040.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073204728|gb|OEW32255.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073209450|gb|OEW36813.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6461] &gt;gi|1073212080|gb|OEW39136.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6463] &gt;gi|1073212572|gb|OEW39487.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6462] &gt;gi|1073219571|gb|OEW45959.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6467] &gt;gi|1073219998|gb|OEW46361.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6466] &gt;gi|1073220110|gb|OEW46463.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6465] &gt;gi|1073222698|gb|OEW48929.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_6468] &gt;gi|1073224509|gb|OEW50712.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073224759|gb|OEW50952.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073227715|gb|OEW53800.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073229919|gb|OEW55930.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073234383|gb|OEW60220.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073235720|gb|OEW61429.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073235998|gb|OEW61790.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073242121|gb|OEW67663.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4321] &gt;gi|1073244309|gb|OEW69759.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4322] &gt;gi|1073244515|gb|OEW69961.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4323] &gt;gi|1073246316|gb|OEW71688.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4325] &gt;gi|1073247031|gb|OEW72358.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4326] &gt;gi|1073248220|gb|OEW73487.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4332] &gt;gi|1073251023|gb|OEW76161.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4333] &gt;gi|1073252130|gb|OEW77211.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4335] &gt;gi|1073253325|gb|OEW78359.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4337] &gt;gi|1073259308|gb|OEW84119.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4338] &gt;gi|1073260678|gb|OEW85438.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073263365|gb|OEW88018.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073266913|gb|OEW91460.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073269494|gb|OEW93890.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073270047|gb|OEW94412.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073277566|gb|OEX01600.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073277586|gb|OEX01619.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073278918|gb|OEX02861.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073282526|gb|OEX06298.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073282961|gb|OEX06722.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073283520|gb|OEX07262.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073288511|gb|OEX12094.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073289158|gb|OEX12713.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073289602|gb|OEX13145.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073291826|gb|OEX15257.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073292172|gb|OEX15589.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073294805|gb|OEX18093.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073299493|gb|OEX22629.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073310061|gb|OEX32920.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073310819|gb|OEX33648.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073312218|gb|OEX35003.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073320231|gb|OEX42792.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073334202|gb|OEX56413.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073336456|gb|OEX58602.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073336964|gb|OEX59099.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073341130|gb|OEX63185.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073341910|gb|OEX63947.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073341980|gb|OEX64015.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073346374|gb|OEX68302.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073347723|gb|OEX69629.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073349001|gb|OEX70876.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073350873|gb|OEX72716.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073353803|gb|OEX75588.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073353921|gb|OEX75700.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073354438|gb|OEX76198.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073360500|gb|OEX82089.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073360789|gb|OEX82369.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4319] &gt;gi|1073361420|gb|OEX82978.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073364943|gb|OEX86438.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073365693|gb|OEX87167.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073368642|gb|OEX90055.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073369635|gb|OEX91021.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073370650|gb|OEX91979.1| cytochrome c nitrite reductase small subunit [Campylobacter sp. BCW_4317] &gt;gi|1073375100|gb|OEX96262.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073377981|gb|OEX99053.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073378081|gb|OEX99135.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073379536|gb|OEY00523.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073381496|gb|OEY02404.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073384417|gb|OEY05252.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073386286|gb|OEY07037.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073388539|gb|OEY09218.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073389630|gb|OEY10286.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073392261|gb|OEY12664.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073393310|gb|OEY13593.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073395818|gb|OEY15950.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073399312|gb|OEY19291.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073401009|gb|OEY20924.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073402083|gb|OEY21928.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073405750|gb|OEY25438.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073406507|gb|OEY26173.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073408736|gb|OEY28281.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073410017|gb|OEY29433.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073410746|gb|OEY30118.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073413295|gb|OEY32497.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073417787|gb|OEY36833.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073418931|gb|OEY37903.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073422499|gb|OEY41302.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073423259|gb|OEY42023.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073426020|gb|OEY44634.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073430668|gb|OEY49119.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073433783|gb|OEY52141.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073437568|gb|OEY55723.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073438159|gb|OEY56294.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073441951|gb|OEY59939.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1073444735|gb|OEY62961.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074051347|gb|OEZ06764.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074052367|gb|OEZ07762.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074052582|gb|OEZ07968.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074059610|gb|OEZ14824.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074063806|gb|OEZ18838.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074064037|gb|OEZ19013.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074065534|gb|OEZ20450.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074067436|gb|OEZ22319.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074071182|gb|OEZ25974.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1074072082|gb|OEZ26844.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1082383329|gb|AOW97632.1| cytochrome c-type protein nrfH; putative periplasmic cytochrome C [Campylobacter jejuni subsp. jejuni str. RM3420] &gt;gi|1087794498|gb|AOY03492.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1098446207|gb|APA47766.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1098451405|gb|APA51171.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1100599423|gb|APB39994.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102359422|gb|OIT42956.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102360124|gb|OIT43639.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102361660|gb|OIT45073.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102362415|gb|OIT45783.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102365339|gb|OIT48623.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102367586|gb|OIT50802.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102367613|gb|OIT50828.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102370461|gb|OIT53583.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102373692|gb|OIT56771.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102374717|gb|OIT57782.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102374994|gb|OIT58055.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102377772|gb|OIT60716.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102378348|gb|OIT61276.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102380959|gb|OIT63832.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102381769|gb|OIT64609.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102383980|gb|OIT66746.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102384156|gb|OIT66915.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102384379|gb|OIT67131.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102389606|gb|OIT72249.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102391749|gb|OIT74323.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102393567|gb|OIT76115.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102396683|gb|OIT79179.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102398117|gb|OIT80602.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102399875|gb|OIT82331.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102400863|gb|OIT83307.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102402634|gb|OIT85066.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102405330|gb|OIT87708.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102407045|gb|OIT89403.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102407131|gb|OIT89487.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102409323|gb|OIT91535.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102409787|gb|OIT91986.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102411419|gb|OIT93584.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102413891|gb|OIT95959.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102416323|gb|OIT98345.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102417941|gb|OIT99933.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102418783|gb|OIU00769.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102420970|gb|OIU02888.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102423363|gb|OIU05211.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102423725|gb|OIU05568.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102427443|gb|OIU09145.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102428177|gb|OIU09849.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102428486|gb|OIU10142.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102431416|gb|OIU12956.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102432070|gb|OIU13551.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102435353|gb|OIU16696.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102435458|gb|OIU16797.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102435603|gb|OIU16938.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102441124|gb|OIU22351.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102442272|gb|OIU23452.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102443406|gb|OIU24562.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102446734|gb|OIU27789.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102447025|gb|OIU28076.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102448020|gb|OIU29061.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102450704|gb|OIU31673.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102451169|gb|OIU32129.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102455699|gb|OIU36574.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102457099|gb|OIU37965.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102458361|gb|OIU39206.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102460045|gb|OIU40840.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102463202|gb|OIU43952.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102466131|gb|OIU46826.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102466493|gb|OIU47180.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102470527|gb|OIU51149.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102470630|gb|OIU51251.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102471412|gb|OIU52029.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102473883|gb|OIU54471.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102475378|gb|OIU55933.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102476729|gb|OIU57274.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102479661|gb|OIU60140.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102479768|gb|OIU60245.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102480447|gb|OIU60916.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102484129|gb|OIU64534.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102487258|gb|OIU67535.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102487842|gb|OIU68104.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1102609012|gb|OIV45061.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123370389|gb|OKX96627.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123372672|gb|OKX98868.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123375211|gb|OKY01297.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123378002|gb|OKY03898.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123385258|gb|OKY10914.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123386391|gb|OKY11986.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123387077|gb|OKY12618.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123389534|gb|OKY15006.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123392357|gb|OKY17728.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1123393103|gb|OKY18453.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1147662157|gb|OOG22409.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1154284112|gb|AQX69715.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1159390005|gb|AQY75122.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1182972223|gb|ARJ53456.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1186237911|gb|OSM55122.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186237987|gb|OSM55197.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186238069|gb|OSM55278.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186242252|gb|OSM59426.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186243811|gb|OSM60974.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186245015|gb|OSM62171.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186246659|gb|OSM63792.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186247463|gb|OSM64585.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186250701|gb|OSM67781.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186251233|gb|OSM68304.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186254219|gb|OSM71239.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186258409|gb|OSM75349.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186259227|gb|OSM76165.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186260057|gb|OSM76971.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186260372|gb|OSM77285.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186260730|gb|OSM77637.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1186266303|gb|OSM83156.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1190068611|gb|OSY74330.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1190070026|gb|OSY75720.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni subsp. jejuni] &gt;gi|1190071120|gb|OSY76789.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni] &gt;gi|1190071764|gb|OSY77426.1| cytochrome c nitrite reductase small subunit [Campylobacter jejuni]</Hit_def>
+  <Hit_accession>CAL35470</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.0986918</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>CSNCHDIIPAGNGFQAPMMPVAAPVPPPPIPANAVSPHTD---GRQNMTCNTCH-------QFVGGAAAG-----PIAFGQPMMP--IAAPQQPAPAIRAN---------------AANPHTDGRQNMNCASCHQIIG</Hsp_qseq>
+      <Hsp_hseq>CNNCHIMNEVYNEYMA-------------------GPHSQKVKGEPRATCVDCHLPHNFVAKWIAKAQSGLGHAYAFTFKLDELPTNLSATEKSRKMVQENCIRCHADFAQTAINATTNPHAD--KSLNCASCHKDVG</Hsp_hseq>
+      <Hsp_midline>C+NCH +    N + A                    PH+    G    TC  CH       +++  A +G        F    +P  ++A ++    ++ N                 NPH D  +++NCASCH+ +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|499451075|ref|WP_011138539.1|</Hit_id>
+  <Hit_def>peptidase S41 [Wolinella succinogenes] &gt;gi|34482739|emb|CAE09739.1| PROTEASE [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011138539</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.218573</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>597</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGR</Hsp_qseq>
+      <Hsp_hseq>EDTPGDKAGLKSGDIILKIDDK</Hsp_hseq>
+      <Hsp_midline> +TP   AGL+ GD+ILK+D +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|499451863|ref|WP_011139327.1|</Hit_id>
+  <Hit_def>cytochrome c biogenesis protein CcsA [Wolinella succinogenes] &gt;gi|34483546|emb|CAE10543.1| PUTATIVE CYTOCHROME C551 PEROXIDASE [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_011139327</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>1.30649</Hsp_evalue>
+      <Hsp_query-from>432</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>RQNM-TCNTCHQF-VGGAAAGPIAFGQ</Hsp_qseq>
+      <Hsp_hseq>RSNLISCNTCHNLGLGGADAVPAAIGH</Hsp_hseq>
+      <Hsp_midline>R N+ +CNTCH   +GGA A P A G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|753816183|ref|WP_041571816.1|</Hit_id>
+  <Hit_def>polymer-forming cytoskeletal family protein [Wolinella succinogenes]</Hit_def>
+  <Hit_accession>WP_041571816</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>4.31217</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>237</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>FANPTTRSVENIGTGVI-----VRNDGFIVTNYH-------VVRGANSVYVTVKDDVGSIRYSGEIV---KMDEALDLALLKITPKVQLTAAVL</Hsp_qseq>
+      <Hsp_hseq>FANNDKQSNGNSGTTIIASGTKIKGEVVIDCNLHIDGEFEGVIRSKNSVTIGKSGGVGGEIYAEKLVVSGKFTGSCDCDVIEIMPQGRIDGQII</Hsp_hseq>
+      <Hsp_midline>FAN   +S  N GT +I     ++ +  I  N H       V+R  NSV +     VG   Y+ ++V   K   + D  +++I P+ ++   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|499301060|ref|WP_010992010.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cytochrome c nitrite reductase small subunit [Bacteroides] &gt;gi|60491382|emb|CAH06130.1| putative NapC/NirT cytochrome c-type protein [Bacteroides fragilis NCTC 9343] &gt;gi|596033038|gb|EXZ11622.1| cytochrome c nitrate reductase, small subunit [Bacteroides fragilis str. DS-71] &gt;gi|596140253|gb|EXZ96626.1| cytochrome c nitrate reductase, small subunit [Bacteroides fragilis str. Korea 419] &gt;gi|1002808349|gb|KXU42394.1| cytochrome c nitrate reductase, small subunit [Bacteroides cellulosilyticus] &gt;gi|1002808419|gb|KXU42462.1| hypothetical protein HMPREF2533_03664 [Bacteroides fragilis] &gt;gi|1042803020|gb|ANQ62667.1| cysteine hydrolase [Bacteroides fragilis] &gt;gi|1145718433|gb|OOD28102.1| cytochrome c nitrite reductase small subunit [Bacteroides fragilis]</Hit_def>
+  <Hit_accession>CAH06130</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>5.43291</Hsp_evalue>
+      <Hsp_query-from>391</Hsp_query-from>
+      <Hsp_query-to>421</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>CSNCHDIIPAGNGFQAPMMPVA-APVPPPPIP</Hsp_qseq>
+      <Hsp_hseq>CWDCHRDVPHGGSNSAASTPDALVPYPDSPTP</Hsp_hseq>
+      <Hsp_midline>C +CH  +P G    A   P A  P P  P P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2930</Statistics_db-num>
+      <Statistics_db-len>930765</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

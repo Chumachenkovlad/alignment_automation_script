@@ -1,0 +1,633 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|490399739|ref|WP_004275119.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter upsaliensis] &gt;gi|57017007|gb|EAL53789.1| serine protease (htrA) [Campylobacter upsaliensis RM3195]</Hit_def>
+  <Hit_accession>WP_004275119</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>2.38308e-30</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>DGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>DPFQRRGQNEKEVIASVGSGVIISKDGYIVTNNHVVENVDSISVTLPQ--SDMEYKAKLIGKDPKTDLAVIKIEAN-NLSAVSFSNSDELLEGDVVFALGNPFGVGFSVTSGIISALNKDNI--GLNQYENFIQTDASINPGNSGGALVDTRGALVGINSAILSRGGGNNGIGFAIPSNMVK</Hsp_hseq>
+      <Hsp_midline>D   R        + ++G+GVI+  DG+IVTN HVV   +S+ VT+      + Y  +++  D   DLA++KI     L+A    +SD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV   G +VGIN+AI +  G   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>6.25889e-05</Hsp_evalue>
+      <Hsp_query-from>665</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>QPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>KKLIEKGKIERGFLGVSITALKGD--------SKKVYKNSEGALITDVQKGSSADEAGLKRGDLVLKVNDKNIKSPNDLKNYI-GTLEPNQKISLLYERDGKE</Hsp_hseq>
+      <Hsp_midline>+ +I K   E  +LG+ I              +  V    +GA + +V  GS A  AGL+  DL+++VN++ + SP  L   I       Q+I L   R+G+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0015836</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>390</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>TNLKTRLGVPSEI---NGVLIDSVKPKSKAKDAGFKEGDIIIAVGQSEVKDLKDLQNTLKNQVKNAWIKIWVYRGG</Hsp_hseq>
+      <Hsp_midline>T L  RLG+ + +    GV ++ V P + A  AG + GD+I+ V    V   +++   +        ++I V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.0727506</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>EGALITDVQKGSSADEAGLKRGDLVLKVNDKNIKSPNDLKNYIGTLEPNQKISLLYERDGKENQINFI</Hsp_hseq>
+      <Hsp_midline> G  +  V   + A  AGL+ GD++LKV+ + +  P ++   +  +   + + +   R G  + ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|490402528|ref|WP_004277208.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter upsaliensis] &gt;gi|315481429|gb|EFU72056.1| serine protease HtrA [Campylobacter upsaliensis JV21]</Hit_def>
+  <Hit_accession>WP_004277208</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>2.38308e-30</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>DGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>DPFQRRGQNEKEVIASVGSGVIISKDGYIVTNNHVVENVDSISVTLPQ--SDMEYKAKLIGKDPKTDLAVIKIEAN-NLSAVSFSNSDELLEGDVVFALGNPFGVGFSVTSGIISALNKDNI--GLNQYENFIQTDASINPGNSGGALVDTRGALVGINSAILSRGGGNNGIGFAIPSNMVK</Hsp_hseq>
+      <Hsp_midline>D   R        + ++G+GVI+  DG+IVTN HVV   +S+ VT+      + Y  +++  D   DLA++KI     L+A    +SD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV   G +VGIN+AI +  G   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>6.70588e-05</Hsp_evalue>
+      <Hsp_query-from>665</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>QPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>KKLIEKGKIERGFLGVSITALKGD--------SKKVYKNSEGALITDVQKGSSADEAGLKRGDLVLKVNDKNIKSPNDLKNYI-GTLEPNQKISLLYERDGKE</Hsp_hseq>
+      <Hsp_midline>+ +I K   E  +LG+ I              +  V    +GA + +V  GS A  AGL+  DL+++VN++ + SP  L   I       Q+I L   R+G+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.00286797</Hsp_evalue>
+      <Hsp_query-from>540</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>374</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>GSRASLL-GAALTPLTQRLGLQANLPAG-RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>GVQDSLIEGLNLKNLDSNLKTRLGVPSEINGVLIDSVKPKSKAKDAGFKEGDIIIAVGQSEVKDLKDLQNTLKNQAKNAWIKIWVYRGG</Hsp_hseq>
+      <Hsp_midline>G + SL+ G  L  L   L  +  +P+   GV ++ V P + A  AG + GD+I+ V    V   +++   +        ++I V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0419719</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>765</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAP-QPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG</Hsp_qseq>
+      <Hsp_hseq>EGALITDVQKGSSADEAGLKRGDLVLKVNDKNIKSPNDLKNYIGTLEPNQKISLLYERDGKENQINFILKGDEIS------------------DVKGVQDSLIE--------GLNLKNLDSNLKTRLGVPSEIN------GVLIDSVKPKSKAKDAGFKEGDIIIAVGQSEVKDLKDLQNTLKNQ-AKNAWIKIWVYRGG</Hsp_hseq>
+      <Hsp_midline> G  +  V   + A  AGL+ GD++LKV+ + +  P ++   +  +   + + +   R G  + ++ +     ++                   V GVQ  + +        G+ ++   +  +  +G+P          G  +  V   S+A  AG +  D+II V    V     L   +K   A    I + V+R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|653052426|ref|WP_027303989.1|</Hit_id>
+  <Hit_def>serine protease [Campylobacter upsaliensis]</Hit_def>
+  <Hit_accession>WP_027303989</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>2.8642e-30</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>DGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>DPFQRRGQNEKEVIASVGSGVIISKDGYIVTNNHVVENVDSISVTLPQ--SDMEYKAKLIGKDPKTDLAVIKIEAN-NLSAVSFSNSDELLEGDVVFALGNPFGVGFSVTSGIISALNKDNI--GLNQYENFIQTDASINPGNSGGALVDTRGALVGINSAILSRGGGNNGIGFAIPSNMVK</Hsp_hseq>
+      <Hsp_midline>D   R        + ++G+GVI+  DG+IVTN HVV   +S+ VT+      + Y  +++  D   DLA++KI     L+A    +SD +   D V A+G PFG+  +V+ GIISA  K  +  G+  + N +QTDA+IN GNSGG LV   G +VGIN+AI +  G   GIGFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>6.88161e-05</Hsp_evalue>
+      <Hsp_query-from>665</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>QPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>KKLIEKGKIERGFLGVSITALKGD--------SKKVYKNSEGALITDVQKGSSADEAGLKRGDLVLKVNDKNIKSPNDLKNYI-GTLEPNQKISLLYERDGKE</Hsp_hseq>
+      <Hsp_midline>+ +I K   E  +LG+ I              +  V    +GA + +V  GS A  AGL+  DL+++VN++ + SP  L   I       Q+I L   R+G+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00326314</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>390</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SNLKTRLGVPSEI---NGVLIDSVKPKSKAKDAGFKEGDIIIAVGQSEVKDLKDLQNTLKNQAKNAWIKIWVYRGG</Hsp_hseq>
+      <Hsp_midline>+ L  RLG+ + +    GV ++ V P + A  AG + GD+I+ V    V   +++   +        ++I V R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.0727506</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>EGALITDVQKGSSADEAGLKRGDLVLKVNDKNIKSPNDLKNYIGTLEPNQKISLLYERDGKENQINFI</Hsp_hseq>
+      <Hsp_midline> G  +  V   + A  AGL+ GD++LKV+ + +  P ++   +  +   + + +   R G  + ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|490402152|ref|WP_004276909.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Campylobacter upsaliensis] &gt;gi|315481804|gb|EFU72425.1| membrane protein [Campylobacter upsaliensis JV21]</Hit_def>
+  <Hit_accession>WP_004276909</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.128281</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>IAPNSAAQEIGLLEGDIIKSINGVKIQSFDEIPALLT--PNALIIEI----QREEKNLNLLITPK</Hsp_hseq>
+      <Hsp_midline>+ PN+ A   GL  GD+I  ++G  +   +E+ A++   PN   + I      +  N++L+  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|490399465|ref|WP_004274957.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Campylobacter upsaliensis] &gt;gi|57017356|gb|EAL54137.1| membrane-associated zinc metalloprotease, putative [Campylobacter upsaliensis RM3195]</Hit_def>
+  <Hit_accession>WP_004274957</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.137475</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>IAPNSAAQEIGLLEGDIIKSINGIKIQSFDEIPALLT--PNALIIEI----QREEKNLNLLITPK</Hsp_hseq>
+      <Hsp_midline>+ PN+ A   GL  GD+I  ++G  +   +E+ A++   PN   + I      +  N++L+  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|653053205|ref|WP_027304755.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Campylobacter upsaliensis]</Hit_def>
+  <Hit_accession>WP_027304755</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.362175</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>IAPNSAAQEIGLLEGDTIKSINGVKIQSFDEIPALLT--PNALIIEI----QREEKNLNLLITPK</Hsp_hseq>
+      <Hsp_midline>+ PN+ A   GL  GD I  ++G  +   +E+ A++   PN   + I      +  N++L+  P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|493706101|ref|WP_006655798.1|</Hit_id>
+  <Hit_def>nitrate reductase [Helicobacter canadensis] &gt;gi|253511146|gb|EES89805.1| NapB periplasmic nitrate reductase [Helicobacter canadensis MIT 98-5491] &gt;gi|313130985|gb|EFR48602.1| periplasmic nitrate reductase, diheme cytochrome c subunit [Helicobacter canadensis MIT 98-5491]</Hit_def>
+  <Hit_accession>EES89805</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.87004</Hsp_evalue>
+      <Hsp_query-from>417</Hsp_query-from>
+      <Hsp_query-to>503</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>PPPIPANAVSPHTDGRQNMTCNTCHQFVGGAAAGPIAFGQPMMPIAAPQQPAPAIRANAANPHTDGRQN-MNCASCHQIIGSVGAAPI</Hsp_qseq>
+      <Hsp_hseq>PPMIPHNLDGMLPITRDNNSCTGCHLPGIAEAVGATAM---------PKSHFYDLR-NNKDLHEEMDENRFNCVICHTT--QVNAAPL</Hsp_hseq>
+      <Hsp_midline>PP IP N        R N +C  CH      A G  A          P+     +R N  + H +  +N  NC  CH     V AAP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|490401211|ref|WP_004276176.1|</Hit_id>
+  <Hit_def>peptidase S41 [Campylobacter upsaliensis] &gt;gi|57015885|gb|EAL52674.1| protease [Campylobacter upsaliensis RM3195]</Hit_def>
+  <Hit_accession>WP_004276176</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.88926</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>597</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGR</Hsp_qseq>
+      <Hsp_hseq>TPADKAGIKSGDIILKINNE</Hsp_hseq>
+      <Hsp_midline>TPA  AG++ GD+ILK++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|653052296|ref|WP_027303860.1|</Hit_id>
+  <Hit_def>peptidase S41 [Campylobacter upsaliensis]</Hit_def>
+  <Hit_accession>WP_027303860</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.94105</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>597</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGR</Hsp_qseq>
+      <Hsp_hseq>TPADKAGIKSGDIILKINNE</Hsp_hseq>
+      <Hsp_midline>TPA  AG++ GD+ILK++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|490402021|ref|WP_004276804.1|</Hit_id>
+  <Hit_def>peptidase S41 [Campylobacter upsaliensis] &gt;gi|315481858|gb|EFU72477.1| carboxy-terminal processing protease CtpA [Campylobacter upsaliensis JV21]</Hit_def>
+  <Hit_accession>WP_004276804</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>3.01614</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>597</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGR</Hsp_qseq>
+      <Hsp_hseq>TPADKAGIKSGDIILKINNE</Hsp_hseq>
+      <Hsp_midline>TPA  AG++ GD+ILK++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|490400109|ref|WP_004275401.1|</Hit_id>
+  <Hit_def>nitrate reductase [Campylobacter upsaliensis] &gt;gi|57016544|gb|EAL53328.1| NapB periplasmic nitrate reductase [Campylobacter upsaliensis RM3195]</Hit_def>
+  <Hit_accession>WP_004275401</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>7.58004</Hsp_evalue>
+      <Hsp_query-from>417</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>PPPIPANAVSPHTDGRQNMTCNTCHQFVGGAAAGPIAFGQPMMPIAAPQQPAPAIRANAANPHTDGRQNMNCASCH</Hsp_qseq>
+      <Hsp_hseq>PPLIPHNLDGMLPITKESNSCLTCHD---------KAIAQDVGAIAAPASHYYDFWKNKPTGDVISEIRYNCTQCH</Hsp_hseq>
+      <Hsp_midline>PP IP N        +++ +C TCH           A  Q +  IAAP         N            NC  CH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|653053009|ref|WP_027304565.1|</Hit_id>
+  <Hit_def>cytochrome c nitrite reductase small subunit [Campylobacter upsaliensis]</Hit_def>
+  <Hit_accession>WP_027304565</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.69836</Hsp_evalue>
+      <Hsp_query-from>470</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>AIRANAANPHTDGRQNMNCASCHQIIG</Hsp_qseq>
+      <Hsp_hseq>AINATS-NPHKD--NSLSCVSCHSGVG</Hsp_hseq>
+      <Hsp_midline>AI A + NPH D   +++C SCH  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|490401466|ref|WP_004276383.1|</Hit_id>
+  <Hit_def>cytochrome c nitrite reductase small subunit [Campylobacter upsaliensis] &gt;gi|57015673|gb|EAL52464.1| cytochrome c nitrite reductase, small subunit NrfH, putative [Campylobacter upsaliensis RM3195]</Hit_def>
+  <Hit_accession>WP_004276383</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.69836</Hsp_evalue>
+      <Hsp_query-from>470</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>AIRANAANPHTDGRQNMNCASCHQIIG</Hsp_qseq>
+      <Hsp_hseq>AINATS-NPHKD--NSLSCVSCHSGVG</Hsp_hseq>
+      <Hsp_midline>AI A + NPH D   +++C SCH  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|490402903|ref|WP_004277522.1|</Hit_id>
+  <Hit_def>cytochrome c nitrite reductase small subunit [Campylobacter upsaliensis] &gt;gi|315481174|gb|EFU71805.1| cytochrome c-type protein NrfH [Campylobacter upsaliensis JV21]</Hit_def>
+  <Hit_accession>WP_004277522</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.69836</Hsp_evalue>
+      <Hsp_query-from>470</Hsp_query-from>
+      <Hsp_query-to>496</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>AIRANAANPHTDGRQNMNCASCHQIIG</Hsp_qseq>
+      <Hsp_hseq>AINATS-NPHKD--NSLSCVSCHSGVG</Hsp_hseq>
+      <Hsp_midline>AI A + NPH D   +++C SCH  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|653053103|ref|WP_027304657.1|</Hit_id>
+  <Hit_def>nitrate reductase [Campylobacter upsaliensis]</Hit_def>
+  <Hit_accession>WP_027304657</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.75718</Hsp_evalue>
+      <Hsp_query-from>417</Hsp_query-from>
+      <Hsp_query-to>492</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>PPPIPANAVSPHTDGRQNMTCNTCHQFVGGAAAGPIAFGQPMMPIAAPQQPAPAIRANAANPHTDGRQNMNCASCH</Hsp_qseq>
+      <Hsp_hseq>PPLISHNLDGMLPITKESNSCLTCHD---------KAIAQDVGAIAAPASHYYDFRKNKPTGDVISEVRYNCIQCH</Hsp_hseq>
+      <Hsp_midline>PP I  N        +++ +C TCH           A  Q +  IAAP       R N            NC  CH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>5386</Statistics_db-num>
+      <Statistics_db-len>1650369</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

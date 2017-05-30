@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99596.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>431</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99596.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>431</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|492750624|ref|WP_005948775.1|</Hit_id>
+  <Hit_def>tetracycline resistance MFS efflux pump, partial [Blautia hydrogenotrophica] &gt;gi|225038940|gb|EEG49186.1| hypothetical protein RUMHYD_01892, partial [Blautia hydrogenotrophica DSM 10507]</Hit_def>
+  <Hit_accession>EEG49186</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0132632</Hsp_evalue>
+      <Hsp_query-from>295</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>ERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCL</Hsp_qseq>
+      <Hsp_hseq>KRFGEKQAIIAGMAADALGYVLLAFATR---GWMAFPIMILLASGGIGMPALQAMLSRQVDDDHQGQLQGSLAALTSL</Hsp_hseq>
+      <Hsp_midline>+RFG  QA++ GM   ALG+++L F      G++ FPI+++ A       A Q +       D  G + G+   +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|739424742|ref|WP_037284836.1|</Hit_id>
+  <Hit_def>hypothetical protein [Ruminococcus albus] &gt;gi|593023522|gb|EXM40993.1| hypothetical protein RASY3_02425 [Ruminococcus albus SY3]</Hit_def>
+  <Hit_accession>WP_037284836</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.212078</Hsp_evalue>
+      <Hsp_query-from>296</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>RFGRIQAVLLGMMLSALG----FIMLGFVVNPFDGFIVFPILLVSAGQAGC---FVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFT</Hsp_qseq>
+      <Hsp_hseq>RKEKTNIVFCGTANSPLRNIEFFAKLAKYVNKIDDSIVFYII----GKCNCTDLFDSSNIVYLKEVPHDKLSPYIACSDILLNFGVKTPAAISGKIFEYMGYAKPIIST</Hsp_hseq>
+      <Hsp_midline>R  +   V  G   S L     F  L   VN  D  IVF I+    G+  C   F +  I+ +   P D L   +   +++   G+     I G +F+Y+G   P I T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1052724978|emb|SCH53412.1|</Hit_id>
+  <Hit_def>Probable metabolite transport protein CsbC [uncultured Megasphaera sp.] &gt;gi|1053008102|emb|SCI98589.1| Probable metabolite transport protein CsbC [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCI98589</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.651715</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AYLGYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYV--SRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAV---LMQIP---------GHAGITVTMLLTAAISVAGA--WLARKFLVDVAPRTVETSVPWRAVWDLVKAEPRLR</Hsp_qseq>
+      <Hsp_hseq>ALAGQLSDKLGRRKMILISALIFVVGSVLSGIAPDNGQ--------YYLIGVRILLGLAVGAASALVPAYMSEMAPAHLRGRLSGINQTMIVSGMLLSYIVDYLLKDLPEMYAWRLMLGLAAVPAIILFFGVLRLPESPRFLVRHNLLDAARRTLSYIRPSDEV------EPELK</Hsp_hseq>
+      <Hsp_midline>A  G LSD++GR ++I+   L+  VG+V++ ++P  G         YY+   R+++    GA    + A   + +    R RL      M+  G+ L Y V   L  +P         G A +   +L    + +  +  +L R  L+D A RT+    P   V      EP L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|225038945|gb|EEG49191.1|</Hit_id>
+  <Hit_def>transporter, major facilitator family protein, partial [Blautia hydrogenotrophica DSM 10507]</Hit_def>
+  <Hit_accession>EEG49191</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.31644</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LVVAIQPLFLRNVLNIPFETAGAVNANVQVVTEVLDLFIFA-YLGYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAG-SGAVWPQLSALAGDFSDDSNRAR</Hsp_qseq>
+      <Hsp_hseq>LVMPVLPGLLRDIVH---SDSIASHYGVLLALYALMQFLCAPVLGALSDRFGRRPVLLASLLGATIDYAIMATTP--------VLWILYAGRIV--AGITGATGAVAGAYIADITDGEDRAR</Hsp_hseq>
+      <Hsp_midline>LV+ + P  LR++++     + A +  V +    L  F+ A  LG LSDR GR  +++A  L A +   I   +P         L + Y  R++  AG +GA      A   D +D  +RAR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1052724643|emb|SCH71520.1|</Hit_id>
+  <Hit_def>Ribosomal protein L11 methyltransferase [uncultured Megasphaera sp.] &gt;gi|1053007233|emb|SCJ29134.1| Ribosomal protein L11 methyltransferase [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCJ29134</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.19261</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LVVAIQPLFLRNVLNIPFE----TAGAVNANVQVVTEVLDLFIFAYLGYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWV</Hsp_qseq>
+      <Hsp_hseq>LAVAAAKLGAKHVVAVDFDEKAVSQAVINANLNNVSDVVDVYNSDLLAAVSAEGKKADVVVANLVTNAVLALLPTLPPYM</Hsp_hseq>
+      <Hsp_midline>L VA   L  ++V+ + F+    +   +NAN+  V++V+D++    L  +S    +  ++VA  +  AV A++  L P++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|927056785|ref|WP_053769777.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MFS transporter [Clostridiales] &gt;gi|1005913440|gb|KYG88044.1| MFS transporter permease [Ruminococcus sp. DSM 100440]</Hit_def>
+  <Hit_accession>WP_053769777</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.07726</Hsp_evalue>
+      <Hsp_query-from>268</Hsp_query-from>
+      <Hsp_query-to>418</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>AAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYALRLV-----KSEARG</Hsp_qseq>
+      <Hsp_hseq>SAGVMGVIGGLMNLCSLFCRPFVGNLADRISKYRLSFIGAVLMTVA--CLGYMTASDPYVVIFARMINGVGFACCSVCMSTWMCDMLPKEKIGSGMGFYGMMNALGMAIAPAIGVSIYQMMGYRVSFALA----LMFSAFTILIIQFISDKGEPRG</Hsp_hseq>
+      <Hsp_midline>+A   G++ GLM    +   P   +  +R  + +   +G +L  +    LG++       ++F  ++   G A C V       D  PK+ +GS +G + ++  LG+     IG  ++  +G    F       L+ SA+ + ++     K E RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|524314786|emb|CDA74228.1|</Hit_id>
+  <Hit_def>major Facilitator Superfamily [Ruminococcus sp. CAG:579]</Hit_def>
+  <Hit_accession>CDA74228</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.62073</Hsp_evalue>
+      <Hsp_query-from>293</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>FIERFGRIQAVLLGMMLSALGFIMLGFV----VNPFDGFIVFPILL-VSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFF</Hsp_qseq>
+      <Hsp_hseq>FADVIGYRKCVVGSQMLSAIGLVGLAFLPQITADPFTGIIISTILYAIGSGLTEVLVSPIVEACPFEHKEAAMSLLHSFYCWGAVGVILL</Hsp_hseq>
+      <Hsp_midline>F +  G  + V+   MLSA+G + L F+     +PF G I+  IL  + +G     V+P +       K+   S+L +F   G +G+I  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1052892964|emb|SCI08075.1|</Hit_id>
+  <Hit_def>Inner membrane symporter yicJ [uncultured Ruminococcus sp.]</Hit_def>
+  <Hit_accession>SCI08075</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.57102</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>FLRNVLNIPFETAGAVNANVQVVTEVLDLFIFAYLGYLSD----RIGRVR-IIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAV-WPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYA</Hsp_qseq>
+      <Hsp_hseq>FYTNVMHL---NAGAVSV-MFLVTKVIDGISDLIVGFLIDKTNTRWGKSRPWILFGAVPFGVAAVVAFSVPNIG--QTGMLIYAYVSYILLSTAYTVVNIPMASILPALSEDPHERTVLASCRTFFSSVGSTVVSA</Hsp_hseq>
+      <Hsp_midline>F  NV+++    AGAV+  + +VT+V+D      +G+L D    R G+ R  I+ G +   V AV+A   P +G    G L+  YVS +++S     V  P  S L     D   R  L S   F  + G T+V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|295108324|emb|CBL22277.1|</Hit_id>
+  <Hit_def>sugar (Glycoside-Pentoside-Hexuronide) transporter [Blautia obeum A2-162]</Hit_def>
+  <Hit_accession>CBL22277</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>7.8644</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>FLRNVLNIPFETAGAVNANVQVVTEVLDLFIFAYLGYLSD----RIGRVR-IIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAV-WPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYA</Hsp_qseq>
+      <Hsp_hseq>FYTNVMHL---NAGAVSV-MFLVTKVIDGISDLIVGFLIDKTNTRWGKSRPWILFGAVPFGVAAVVAFSVPNIG--QTGMLIYAYVSYILLSTAYTVVNIPMASILPALSEDPHERTVLASCRTFFSSVGSTVVSA</Hsp_hseq>
+      <Hsp_midline>F  NV+++    AGAV+  + +VT+V+D      +G+L D    R G+ R  I+ G +   V AV+A   P +G    G L+  YVS +++S     V  P  S L     D   R  L S   F  + G T+V A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|503264126|ref|WP_013498787.1|</Hit_id>
+  <Hit_def>MFS transporter [Ruminococcus albus] &gt;gi|315449066|gb|ADU22630.1| major facilitator superfamily MFS_1 [Ruminococcus albus 7 = DSM 20455]</Hit_def>
+  <Hit_accession>WP_013498787</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.19861</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>391</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>GYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGG-----ASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDSNRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAVWDL------VKAEPRLRLAFASSLFARSDMVFVGLFLMLWFIYFADLVKVGQAEAAARAGMLIGLMGAVVMLSIPVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVN----PFDG---FIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPP</Hsp_qseq>
+      <Hsp_hseq>GLLADRFNRRILMVCGDSLSALGLIFILLNMQFGTLQLWMICVGVTISSFFSSLLNPAYKATITDLLT--EEQYAKASGMVQIASSAQFLIS---PFIASILLSFYDIRLILMIDICTIIVTVITILLVNRHIKE-KPHKKEN---FNALKDLKEGFASVIRHPGIRILVFLMSFACFTLGLLQTMLSPMVLSFTDSKSLGYLESLSAIGMLVGSIVIGVM-------SIKKNFCRV--LFIGLALNGLGMIGIGMTCNFRIIICSGLLIFITLPFINVSA---------DTMARINIPNEVQGRAWGVISILSQFGCLLSYGLSGIMADHIFCP</Hsp_hseq>
+      <Hsp_midline>G L+DR  R  ++V G  ++A+G +   L+   G        +G  +  + S ++  A    +   L+     ++  S   ++ S+  F+++     + ++L+       I +  + T  ++V    L  + + +  P   E    + A+ DL      V   P +R+      FA   +  +   L    + F D   +G  E+ +  GML+G +   VM       S  + F R+  + +G+ L+ LG I +G   N       G   FI  P + VSA           +   + P ++ G   G  +++   G +    + G + D+I  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|547717302|ref|WP_022131995.1|</Hit_id>
+  <Hit_def>MFS transporter [Negativibacillus massiliensis] &gt;gi|524319868|emb|CDA79514.1| major facilitator superfamily MFS_1 [Clostridium sp. CAG:242]</Hit_def>
+  <Hit_accession>WP_022131995</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.60514</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>399</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>DRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVVYYVSRVIMSAGSGAVWPQLSALAGDFSDDS---NRARLLSNTAFMMAFGVTLVYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAVWDLVKAEPRLRLAFASSLFARSDMVFVGLFLMLWFIYFADLVKVGQAEAAARAGMLIGLMGAV--VMLSI--PVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCF--VAPQILTVD-----HAPKDLLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGV</Hsp_qseq>
+      <Hsp_hseq>EKIGRKKVFLTGLVLTACSYALLAFSR--------ELVWLYLSQMIDGIATALLSVSLYTMVVDESGEEIAVNRGKQSAAQNFGGLYGMIFYFVLLSNMDFFATWKVFFLGSAVLTLYGVWNAARRLEDNMPKETDG-----------KKLQNLKLAIC---LKAKGLIAVRFLLSLSLNVLGAVFVLIMMQRFGNNMMMIGLICLIPSTLLAYLSPSIGAKIKRFGERKSFLTASILAILLLIWMSASTVP---------VLFGLGWSGYSFAVTAMNLSMDAVFSKQIPEKERGMYSGIYSCSVNLGSMIASVLGGFFMQEIGESTPFYLTAV</Hsp_hseq>
+      <Hsp_midline>++IGR ++ + G ++ A    +   S          LV  Y+S++I    +  +   L  +  D S +    NR +  +   F   +G+   + +L  +   A   V  L +A +++ G W A + L D  P+  +            K    L+LA          ++ V   L L       +  +   +      M+IGL+  +   +L+   P   + I+RFG  ++ L   +L+ L  I +     P         +L   G +G    V    L++D       P+   G   G ++    LG +    +GGF    IG   PF  T V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>263598</Statistics_db-num>
+      <Statistics_db-len>85202602</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

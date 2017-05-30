@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99590.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamM, containing Cation efflux protein [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>318</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99590.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamM, containing Cation efflux protein [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>318</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|515098110|ref|WP_016727323.1|</Hit_id>
+  <Hit_def>cation transporter [Ralstonia solanacearum] &gt;gi|557809415|gb|ESS50216.1| hypothetical protein L665_01131 [Ralstonia solanacearum SD54] &gt;gi|916488782|gb|AKZ28305.1| cation diffusion facilitator family transporter (plasmid) [Ralstonia solanacearum] &gt;gi|959219738|emb|CUV26535.1| conserved membrane protein of unknown function [Ralstonia solanacearum] &gt;gi|959230346|emb|CUV37172.1| conserved membrane protein of unknown function [Ralstonia solanacearum] &gt;gi|959235790|emb|CUV42636.1| conserved membrane protein of unknown function [Ralstonia solanacearum] &gt;gi|959236383|emb|CUV43230.1| conserved membrane protein of unknown function [Ralstonia solanacearum] &gt;gi|1028840580|gb|OAK90453.1| cation diffusion facilitator family transporter [Ralstonia solanacearum] &gt;gi|1057956834|gb|AOE90929.1| putative transporter YdfM [Ralstonia solanacearum] &gt;gi|1092282943|gb|OHU97451.1| cation-efflux pump [Ralstonia solanacearum] &gt;gi|1100711771|gb|OIN69632.1| cation-efflux pump [Ralstonia solanacearum] &gt;gi|1100712438|gb|OIN70276.1| cation-efflux pump [Ralstonia solanacearum] &gt;gi|1102202612|gb|OIT14383.1| cation-efflux pump [Ralstonia solanacearum] &gt;gi|1102801839|gb|APC69812.1| hypothetical protein RSOE_CAD03375 [Ralstonia solanacearum OE1-1] &gt;gi|1109343009|gb|APF85691.1| cation diffusion facilitator family transporter [Ralstonia solanacearum FJAT-1458] &gt;gi|1111824010|gb|API73409.1| cation diffusion facilitator family transporter [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>AKZ28305</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>3.50361e-13</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAV</Hsp_qseq>
+      <Hsp_hseq>VSAAVNCALSAGQIAAGLWSHSQGLVADGLHTLSDLIADGIVFIANRNSHKGPDEDHQYGHARYENAASLGLGLLLMAAGAGMIWSALASLSAPHGAAPVHGLALWVALAALAAKEGLFRYMLAVARRIGSRMLVANAWHARSDAVSSLVAAVGVAG-NLMGFRWLDPVAACVVGAMIGRVGIRFGWEALNDLMDRALPPAQVQAIRASLAATPGVINVHDLRTRVTGDQALVDAHIEVDPRVSVSEGHAIAVRARANV</Hsp_hseq>
+      <Hsp_midline>V  AV+  L   +   GL   SQ ++AD +++L D++   +V I    S K  D +H YGH + E   S+ + ++ +     ++  A+  L         H + LW AL ++    G++ Y   VA    S ++   A H   DA +S   A+G+ G + +   W+DP  A      +  +G     +A   LMD     A    I  +    PGV  V  LR R  G     D  I VDP  +V + H I    +A V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|499404070|ref|WP_011091537.1|</Hit_id>
+  <Hit_def>nucleoid-associated protein, YbaB/EbfC family [Buchnera aphidicola] &gt;gi|31077052|sp|Q89A94.1|Y426_BUCBP RecName: Full=Nucleoid-associated protein bbp_426 &gt;gi|27904303|gb|AAO27136.1| hypothetical protein YbaB [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>WP_011091537</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>1.65855</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>TASGAVALGIIGAHYLNMPWIDPAVALWETIDLLL-LGKVVFMDAYRGLMD</Hsp_qseq>
+      <Hsp_hseq>SGAGAVKVTLIGSHYCKKIELDKNTILEHDKEILEDLITAAFNDAVRKISD</Hsp_hseq>
+      <Hsp_midline>+ +GAV + +IG+HY     +D    L    ++L  L    F DA R + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|916492289|gb|AKZ27143.1|</Hit_id>
+  <Hit_def>lipoprotein [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>AKZ27143</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>5.30963</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>WIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAER</Hsp_qseq>
+      <Hsp_hseq>WTDIALATPQKVDLLALTNGVLTDLGRAPLP--AGQYQQVRLVLSANQ</Hsp_hseq>
+      <Hsp_midline>W D A+A  + +DLL L   V  D  R  +   AG+  Q R+V +A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|499198445|ref|WP_010895985.1|</Hit_id>
+  <Hit_def>phosphate acetyltransferase [Buchnera aphidicola] &gt;gi|15616795|ref|NP_240007.1| phosphate acetyltransferase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)] &gt;gi|11133754|sp|P57273.1|PTA_BUCAI RecName: Full=Phosphate acetyltransferase; AltName: Full=Phosphotransacetylase &gt;gi|25321713|pir||E84950 phosphate acetyltransferase (EC 2.3.1.8) [imported] - Buchnera sp. (strain APS) &gt;gi|10038858|dbj|BAB12893.1| phosphate acetyltransferase [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>WP_010895985</Hit_accession>
+  <Hit_len>708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>6.27658</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>LVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMD-AYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARY----VGQDIWADMIIGVDPENT</Hsp_qseq>
+      <Hsp_hseq>LTSIGLSIIYFFYQKKIKKKSVQSILYFSCTQNSSNST-----------SHVINKYF----SKIVHTVDYIDFSKVLFNSPEYSFLLNKVIDEHYNNKFLRELILIEGIKNNYCINSEEMNYDISQNLNAEVIFIANLENS</Hsp_hseq>
+      <Hsp_midline>L SIG+++  +FY + +  ++   ++      +  ++T           +H +N  +      +  T+D +   KV+F    Y  L++    E   N+ +     + G++    + +      + Q++ A++I   + EN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|497559949|ref|WP_009874133.1|</Hit_id>
+  <Hit_def>phosphate acetyltransferase [Buchnera aphidicola] &gt;gi|219624393|gb|ACL30548.1| phosphate acetyltransferase [Buchnera aphidicola str. 5A (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>WP_009874133</Hit_accession>
+  <Hit_len>708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>6.555</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>LVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMD-AYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARY----VGQDIWADMIIGVDPENT</Hsp_qseq>
+      <Hsp_hseq>LTSIGLSIIYFFYQKKIKKKSVQSILYFSCTQNSSNST-----------SHVINKYF----SKIVHTVDYIDFSKVLFNSPEYSFLLNKVIDEHYNNKFLRELILIEGIKNNYCINSEEMNYDISQNLNAEVIFIANLENS</Hsp_hseq>
+      <Hsp_midline>L SIG+++  +FY + +  ++   ++      +  ++T           +H +N  +      +  T+D +   KV+F    Y  L++    E   N+ +     + G++    + +      + Q++ A++I   + EN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|501696234|ref|WP_012619464.1|</Hit_id>
+  <Hit_def>phosphate acetyltransferase [Buchnera aphidicola] &gt;gi|219621839|gb|ACL29995.1| phosphate acetyltransferase [Buchnera aphidicola str. Tuc7 (Acyrthosiphon pisum)] &gt;gi|1176186724|gb|OQX99679.1| phosphate acetyltransferase [Erwiniaceae bacterium 4572_131]</Hit_def>
+  <Hit_accession>WP_012619464</Hit_accession>
+  <Hit_len>708</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>6.96565</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>LVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMD-AYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARY----VGQDIWADMIIGVDPENT</Hsp_qseq>
+      <Hsp_hseq>LTSIGLSIIYFFYQKKIKKKSVQSILYFSCTQNSSNST-----------SHVINKYF----SKIVHTVDYIDFSKVLFNSPEYSFLLNKVIDEHYNNKFLRELILIEGIKNNYCINSEEMNYDISQNLNAEVIFIANLENS</Hsp_hseq>
+      <Hsp_midline>L SIG+++  +FY + +  ++   ++      +  ++T           +H +N  +      +  T+D +   KV+F    Y  L++    E   N+ +     + G++    + +      + Q++ A++I   + EN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|916491925|gb|AKZ26779.1|</Hit_id>
+  <Hit_def>recombinase RecB [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>AKZ26779</Hit_accession>
+  <Hit_len>962</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>7.38087</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>IVEAAERVPGVRGVIHLRARYVG</Hsp_qseq>
+      <Hsp_hseq>VVPTAAQIPGVRGALHASAQAAG</Hsp_hseq>
+      <Hsp_midline>+V  A ++PGVRG +H  A+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1129510810|ref|WP_075465225.1|</Hit_id>
+  <Hit_def>heat-shock protein [Ralstonia solanacearum] &gt;gi|916492581|gb|AKZ27435.1| heat-shock protein [Ralstonia solanacearum] &gt;gi|1004331203|gb|AMP38432.1| heat-shock protein [Ralstonia solanacearum]</Hit_def>
+  <Hit_accession>AKZ27435</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>7.45454</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGK--VVFMDAYRGLMD</Hsp_qseq>
+      <Hsp_hseq>LANGGVHIGGTDFDRALSLANVMPLLGLNSTLRNGKAMPSG---------QYFDL-------ASWHTINHVYTRKAWAVVMDNYRDVAD</Hsp_hseq>
+      <Hsp_midline>L + GV++G   + R +++    PL+   +   +G A  SG          Y ++       A W TI+ +   K   V MD YR + D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|504312123|ref|WP_014499225.1|</Hit_id>
+  <Hit_def>DNA primase [Buchnera aphidicola] &gt;gi|345538447|gb|AEO08424.1| DNA primase [Buchnera aphidicola str. Ak (Acyrthosiphon kondoi)]</Hit_def>
+  <Hit_accession>WP_014499225</Hit_accession>
+  <Hit_len>577</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>9.75813</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>12</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>HHGDATASGAVALGIIGAHYLNMPWID</Hsp_qseq>
+      <Hsp_hseq>HHGRIVGFGGRALDNISPKYLNSPETD</Hsp_hseq>
+      <Hsp_midline>HHG     G  AL  I   YLN P  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>15359</Statistics_db-num>
+      <Statistics_db-len>4878806</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

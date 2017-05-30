@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|490446732|ref|WP_004317638.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteroides] &gt;gi|229447164|gb|EEO52955.1| peptidase Do [Bacteroides sp. D1] &gt;gi|262353019|gb|EEZ02114.1| peptidase Do [Bacteroides sp. 2_1_22] &gt;gi|292636473|gb|EFF54951.1| peptidase Do [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294442109|gb|EFG10928.1| peptidase Do [Bacteroides xylanisolvens SD CC 1b] &gt;gi|295087658|emb|CBK69181.1| periplasmic serine protease, Do/DeqQ family [Bacteroides xylanisolvens XB1A] &gt;gi|298269747|gb|EFI11340.1| HtrA protein [Bacteroides sp. D22] &gt;gi|335939623|gb|EGN01496.1| hypothetical protein HMPREF0127_02950 [Bacteroides sp. 1_1_30] &gt;gi|392691432|gb|EIY84677.1| protease Do [Bacteroides xylanisolvens CL03T12C04] &gt;gi|584440309|emb|CDM00751.1| Serine protease, DegP/HtrA, do-like [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584447480|emb|CDM04567.1| Serine protease, DegP/HtrA, do-like [Bacteroides xylanisolvens SD CC 1b] &gt;gi|893723040|gb|KMW77204.1| protease Do [Bacteroides sp. 3_1_13] &gt;gi|933386938|emb|CUO93485.1| serine protease [Bacteroides xylanisolvens] &gt;gi|1089281729|emb|SEB15316.1| Do/DeqQ family serine protease [Bacteroides xylanisolvens] &gt;gi|1099534472|emb|SFN62980.1| Do/DeqQ family serine protease [Bacteroides xylanisolvens]</Hit_def>
+  <Hit_accession>EEZ02114</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>9.48235e-14</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNNHVIEGADEISVKLNDN---REFKGRVIGTDPSTDLALVKIEGDD-FPTIPVGDSEALKVGEWVLAVGNPFNLNSTVTAGIVSAKARSLGVYNGGIESFIQTDAAINQGNSGGALVNAKGELVGINSVLSSPTGAYAGYGFAIPTSIMTKVIADLKQYGT</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H +    +I+V++  +   R F  +V+ T P  +LAL+K++  + F    + + + +  G+ V A G        V  G+V +    L V    I   +++DA  +   +GG LVNA+G+LVGIN   + PTG     GF +P  ++   + D+ ++ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|495113377|ref|WP_007838197.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteroides] &gt;gi|212662646|gb|EEB23220.1| peptidase Do [Bacteroides dorei DSM 17855] &gt;gi|229434094|gb|EEO44171.1| peptidase Do [Bacteroides dorei 5_1_36/D4] &gt;gi|229454783|gb|EEO60504.1| serine protease [Bacteroides sp. 9_1_42FAA] &gt;gi|263237421|gb|EEZ22871.1| peptidase Do [Bacteroides sp. 3_1_33FAA] &gt;gi|392637659|gb|EIY31525.1| protease Do [Bacteroides dorei CL02T00C15] &gt;gi|392646047|gb|EIY39766.1| protease Do [Bacteroides dorei CL02T12C06] &gt;gi|392647456|gb|EIY41157.1| protease Do [Bacteroides dorei CL03T12C01] &gt;gi|524387238|emb|CDB37607.1| protease Do [Bacteroides dorei CAG:222] &gt;gi|671710650|gb|AII62923.1| deoxyribonuclease HsdR [Bacteroides dorei] &gt;gi|671716634|gb|AII68906.1| deoxyribonuclease HsdR [Bacteroides dorei] &gt;gi|922840640|gb|ALA74680.1| deoxyribonuclease HsdR [Bacteroides dorei] &gt;gi|1026629179|gb|AND20385.1| deoxyribonuclease HsdR [Bacteroides dorei CL03T12C01]</Hit_def>
+  <Hit_accession>EEZ22871</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>7.69833e-13</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNNHVIDNADVISVKLNDG---REYKGRVIGTDPSTDLALVKIEADE-LPTIPVGDSEALKVGEWVLAVGNPFNMTSTVTAGIVSAKARSLGVYNQGVESFIQTDAAINQGNSGGALVNAKGELVGINSVLYSPTGAYSGYGFAIPTSIMKKVIADLKEYGT</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H + N   I+V++      R +  +V+ T P  +LAL+K++  E      + + + +  G+ V A G        V  G+V +    L V    +   +++DA  +   +GG LVNA+G+LVGIN     PTG     GF +P  ++   + D+  + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|492246858|ref|WP_005788554.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteroides] &gt;gi|53714036|ref|YP_100028.1| serine protease precursor [Bacteroides fragilis YCH46] &gt;gi|52216901|dbj|BAD49494.1| serine protease precursor [Bacteroides fragilis YCH46] &gt;gi|60493667|emb|CAH08456.1| putative heat shock-related protease [Bacteroides fragilis NCTC 9343] &gt;gi|251946144|gb|EES86521.1| protease Do [Bacteroides sp. 3_2_5] &gt;gi|263254012|gb|EEZ25477.1| peptidase Do [Bacteroides sp. 2_1_16] &gt;gi|335940321|gb|EGN02189.1| hypothetical protein HMPREF1018_04455 [Bacteroides sp. 2_1_56FAA] &gt;gi|387774480|gb|EIK36590.1| protease Do [Bacteroides fragilis CL07T00C01] &gt;gi|392651493|gb|EIY45155.1| protease Do [Bacteroides fragilis CL03T00C08] &gt;gi|392654420|gb|EIY48067.1| protease Do [Bacteroides fragilis CL03T12C07] &gt;gi|392696760|gb|EIY89950.1| protease Do [Bacteroides fragilis CL05T12C13] &gt;gi|392699234|gb|EIY92416.1| protease Do [Bacteroides fragilis CL05T00C42] &gt;gi|392699390|gb|EIY92568.1| protease Do [Bacteroides fragilis CL07T12C05] &gt;gi|524625356|emb|CDD44378.1| putative heat shock-related protease [Bacteroides fragilis CAG:47] &gt;gi|595889709|gb|EXY12633.1| PDZ-like domain protein [Bacteroides fragilis str. 1007-1-F #8] &gt;gi|595926571|gb|EXY35306.1| PDZ-like domain protein [Bacteroides fragilis str. 34-F-2 #13] &gt;gi|595942170|gb|EXY45923.1| PDZ-like domain protein [Bacteroides fragilis str. 3783N1-2] &gt;gi|595949270|gb|EXY50707.1| PDZ-like domain protein [Bacteroides fragilis str. 3783N2-1] &gt;gi|595956298|gb|EXY55500.1| PDZ-like domain protein [Bacteroides fragilis str. 3976T7] &gt;gi|595971070|gb|EXY65105.1| PDZ-like domain protein [Bacteroides fragilis str. 3986 N(B)19] &gt;gi|595990921|gb|EXY79805.1| PDZ-like domain protein [Bacteroides fragilis str. 3988 T1] &gt;gi|596010941|gb|EXY94965.1| PDZ-like domain protein [Bacteroides fragilis str. 3998 T(B) 4] &gt;gi|596017759|gb|EXY99976.1| PDZ-like domain protein [Bacteroides fragilis str. DS-166] &gt;gi|596030486|gb|EXZ09511.1| PDZ-like domain protein [Bacteroides fragilis str. DS-71] &gt;gi|596035749|gb|EXZ13505.1| PDZ-like domain protein [Bacteroides fragilis str. Ds-233] &gt;gi|596044201|gb|EXZ18818.1| PDZ-like domain protein [Bacteroides fragilis str. J-143-4] &gt;gi|596058203|gb|EXZ28035.1| PDZ-like domain protein [Bacteroides fragilis str. S36L11] &gt;gi|596065019|gb|EXZ33322.1| PDZ-like domain protein [Bacteroides fragilis str. 1007-1-F #4] &gt;gi|596071454|gb|EXZ38779.1| PDZ-like domain protein [Bacteroides fragilis str. 1007-1-F #7] &gt;gi|596077453|gb|EXZ43925.1| PDZ-like domain protein [Bacteroides fragilis str. 2-F-2 #4] &gt;gi|596082469|gb|EXZ48380.1| PDZ-like domain protein [Bacteroides fragilis str. 3397 N2] &gt;gi|596087920|gb|EXZ53165.1| PDZ-like domain protein [Bacteroides fragilis str. 3397 T14] &gt;gi|596098635|gb|EXZ62638.1| PDZ-like domain protein [Bacteroides fragilis str. 3725 D9(v)] &gt;gi|596104031|gb|EXZ67474.1| PDZ-like domain protein [Bacteroides fragilis str. 3783N1-8] &gt;gi|596110414|gb|EXZ72751.1| PDZ-like domain protein [Bacteroides fragilis str. 3976T8] &gt;gi|596116690|gb|EXZ77931.1| PDZ-like domain protein [Bacteroides fragilis str. 3-F-2 #6] &gt;gi|596122127|gb|EXZ82534.1| PDZ-like domain protein [Bacteroides fragilis str. B1 (UDC16-1)] &gt;gi|596129826|gb|EXZ88098.1| PDZ-like domain protein [Bacteroides fragilis str. J38-1] &gt;gi|596137140|gb|EXZ93903.1| PDZ-like domain protein [Bacteroides fragilis str. Korea 419] &gt;gi|596150221|gb|EYA04114.1| PDZ-like domain protein [Bacteroides fragilis str. S6L3] &gt;gi|596155607|gb|EYA09013.1| PDZ-like domain protein [Bacteroides fragilis str. S6R6] &gt;gi|596161530|gb|EYA13982.1| PDZ-like domain protein [Bacteroides fragilis str. 1007-1-F #10] &gt;gi|596170301|gb|EYA21780.1| PDZ-like domain protein [Bacteroides fragilis str. 1007-1-F #3] &gt;gi|596173283|gb|EYA24217.1| PDZ-like domain protein [Bacteroides fragilis str. 1007-1-F #9] &gt;gi|596179140|gb|EYA29465.1| PDZ-like domain protein [Bacteroides fragilis str. 1009-4-F #10] &gt;gi|596183141|gb|EYA33125.1| PDZ-like domain protein [Bacteroides fragilis str. 1009-4-F #7] &gt;gi|596194715|gb|EYA43001.1| PDZ-like domain protein [Bacteroides fragilis str. 3397 N3] &gt;gi|596200142|gb|EYA47655.1| PDZ-like domain protein [Bacteroides fragilis str. 3719 T6] &gt;gi|596205305|gb|EYA52190.1| PDZ-like domain protein [Bacteroides fragilis str. 3986 N(B)22] &gt;gi|596210032|gb|EYA56440.1| PDZ-like domain protein [Bacteroides fragilis str. 3986 T(B)13] &gt;gi|596215008|gb|EYA61007.1| PDZ-like domain protein [Bacteroides fragilis str. A7 (UDC12-2)] &gt;gi|596226756|gb|EYA70771.1| PDZ-like domain protein [Bacteroides fragilis str. S24L15] &gt;gi|596231901|gb|EYA75259.1| PDZ-like domain protein [Bacteroides fragilis str. S24L26] &gt;gi|596237113|gb|EYA79799.1| PDZ-like domain protein [Bacteroides fragilis str. S24L34] &gt;gi|596242652|gb|EYA84678.1| PDZ-like domain protein [Bacteroides fragilis str. S36L12] &gt;gi|596248946|gb|EYA90133.1| PDZ-like domain protein [Bacteroides fragilis str. S36L5] &gt;gi|596254973|gb|EYA95214.1| PDZ-like domain protein [Bacteroides fragilis str. S38L5] &gt;gi|596260328|gb|EYA99768.1| PDZ-like domain protein [Bacteroides fragilis str. S6L8] &gt;gi|596265816|gb|EYB04462.1| PDZ-like domain protein [Bacteroides fragilis str. S6R5] &gt;gi|596270831|gb|EYB08981.1| PDZ-like domain protein [Bacteroides fragilis str. 3783N1-6] &gt;gi|596276123|gb|EYB13677.1| PDZ-like domain protein [Bacteroides fragilis str. S38L3] &gt;gi|596281543|gb|EYB18432.1| PDZ-like domain protein [Bacteroides fragilis str. I1345] &gt;gi|598873929|gb|EYE47171.1| PDZ-like domain protein [Bacteroides fragilis str. S6L5] &gt;gi|598879464|gb|EYE52402.1| PDZ-like domain protein [Bacteroides fragilis str. S6R8] &gt;gi|598879947|gb|EYE52855.1| PDZ-like domain protein [Bacteroides fragilis str. 1007-1-F #5] &gt;gi|598890893|gb|EYE63008.1| PDZ-like domain protein [Bacteroides fragilis str. 1007-1-F #6] &gt;gi|598894984|gb|EYE66888.1| PDZ-like domain protein [Bacteroides fragilis str. 3986 N3] &gt;gi|663460357|gb|KER55581.1| deoxyribonuclease HsdR [Bacteroides fragilis] &gt;gi|794208226|gb|AKA54217.1| deoxyribonuclease HsdR [Bacteroides fragilis] &gt;gi|922662529|emb|CUA19213.1| putative periplasmic serine endoprotease DegP-like precursor [Bacteroides fragilis] &gt;gi|1042803325|gb|ANQ62972.1| deoxyribonuclease HsdR [Bacteroides fragilis] &gt;gi|1049551074|gb|OCR30655.1| type I deoxyribonuclease HsdR [Bacteroides fragilis] &gt;gi|1049552571|gb|OCR32133.1| type I deoxyribonuclease HsdR [Bacteroides fragilis] &gt;gi|1049555625|gb|OCR35141.1| type I deoxyribonuclease HsdR [Bacteroides fragilis] &gt;gi|1049560798|gb|OCR40173.1| type I deoxyribonuclease HsdR [Bacteroides fragilis] &gt;gi|1087862577|gb|OGX97635.1| deoxyribonuclease HsdR [Bacteroides fragilis] &gt;gi|1145719466|gb|OOD29098.1| deoxyribonuclease HsdR [Bacteroides fragilis]</Hit_def>
+  <Hit_accession>EEZ25477</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>1.66803e-12</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAV-GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNNHVIDGADEIIVKLNDN---REFKGRMIGTDPNSDLALVKIEGDD-FPTIPVGDSDALKVGEWVLAVGNPFNLTSTVTAGIVSAKARTLGVYGIGGVESFIQTDAAINQGNSGGALVNAKGELVGINAVLSSPTGAYAGYGFAIPTSVMTKVVSDLKQYGT</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H +    +I V++  +   R F  +++ T P  +LAL+K++  + F    + +   +  G+ V A G        V  G+V +    L V G   +   +++DA  +   +GG LVNA+G+LVGIN   + PTG     GF +P  V+   + D+ ++ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|492396297|ref|WP_005831283.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteria] &gt;gi|156858344|gb|EDO51775.1| peptidase Do [Bacteroides uniformis ATCC 8492] &gt;gi|270273872|gb|EFA19734.1| peptidase Do [Bacteroides sp. D20] &gt;gi|316903520|gb|EFV25373.1| protease Do [Bacteroides sp. 4_1_36] &gt;gi|392688418|gb|EIY81703.1| protease Do [Bacteroides uniformis CL03T00C23] &gt;gi|392689078|gb|EIY82361.1| protease Do [Bacteroides uniformis CL03T12C37] &gt;gi|524691904|emb|CDE04709.1| protease Do [Bacteroides uniformis CAG:3] &gt;gi|649543543|gb|KDS50394.1| peptidase Do family protein [Bacteroides uniformis str. 3978 T3 ii] &gt;gi|649554588|gb|KDS61136.1| peptidase Do family protein [Bacteroides uniformis str. 3978 T3 i] &gt;gi|933188026|emb|CUO06406.1| protease Do [Bacteroides uniformis] &gt;gi|933193292|emb|CUP03935.1| protease Do [Bacteroides uniformis] &gt;gi|933229749|emb|CUP18707.1| protease Do [Bacteroides uniformis] &gt;gi|933365390|emb|CUO43102.1| Periplasmic pH-dependent serine endoprotease DegQ precursor [Catenibacterium mitsuokai] &gt;gi|1002412274|gb|KXT36997.1| peptidase Do [Bacteroides uniformis]</Hit_def>
+  <Hit_accession>EFA19734</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>3.04909e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTT-------QITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNNHVVEGADEITVKLNDD---RELKGRIIGTDPSTDLALIKIEGDD-FPTIPVGDSDQLKVGEWVLAVGNPFNLNSTVTAGIV--SAKARSIGSSASNGQAANIQSFIQTDAAINQGNSGGALVNAKGELVGINAMLYSPTGAYSGYGFAIPTSIMTKVVADLKQFGT</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H V    +ITV++      R    +++ T P  +LAL+K++  + F    + +   +  G+ V A G        V  G+V  S    ++G++        I   +++DA  +   +GG LVNA+G+LVGIN     PTG     GF +P  ++   + D+ +F T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|492488008|ref|WP_005862015.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteroidales] &gt;gi|149935445|gb|ABR42142.1| serine protease [Parabacteroides distasonis ATCC 8503] &gt;gi|256736221|gb|EEU49550.1| putative serine protease MucD [Parabacteroides sp. D13] &gt;gi|262293926|gb|EEY81859.1| putative serine protease MucD [Bacteroides sp. 2_1_33B] &gt;gi|298265860|gb|EFI07520.1| S1C (protease Do) subfamily peptidase MucD [Bacteroides sp. 3_1_19] &gt;gi|409225256|gb|EKN18179.1| protease Do [Parabacteroides distasonis CL03T12C09] &gt;gi|409233328|gb|EKN26168.1| protease Do [Parabacteroides sp. D25] &gt;gi|524400141|emb|CDB48083.1| serine protease [Parabacteroides sp. CAG:2] &gt;gi|649553037|gb|KDS59592.1| peptidase Do family protein [Parabacteroides distasonis str. 3999B T(B) 4] &gt;gi|649557377|gb|KDS63850.1| peptidase Do family protein [Parabacteroides distasonis str. 3999B T(B) 6] &gt;gi|659414486|gb|KEJ83670.1| hypothetical protein HMPREF1002_03852 [Porphyromonas sp. 31_2] &gt;gi|891343841|gb|KMW33426.1| serine protease [Parabacteroides sp. 2_1_7] &gt;gi|933217452|emb|CUP02955.1| Probable periplasmic serine endoprotease DegP-like precursor [Parabacteroides distasonis] &gt;gi|933233686|emb|CUN32757.1| Probable periplasmic serine endoprotease DegP-like precursor [Parabacteroides distasonis]</Hit_def>
+  <Hit_accession>EEU49550</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>8.73064e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQS-SDAPLAVG---TTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVEG--FTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVIISTDGYIITNNHVIDGADELEVTLNDN---RKFPAKIIGADPTTDIALIKIEATD-LPTIPFGDSEKLKVGEWVLAVGNPFNLTSTVTAGIVSAKSRGNIGAGGKDRSKIESFIQTDAAVNPGNSGGALVNTKGELVGINTAIYSETGNFAGYSFAVPISIAGKVANDLKQFGT</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY+IT  H +    ++ V +  +   R+FPA+++   P  ++AL+K++ T+        + + +  G+ V A G        V  G+V + S   +  G    ++I   +++DA  +   +GG LVN +G+LVGIN A    TG   G  F VP  +      D+ +F T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|524795750|emb|CDE92172.1|</Hit_id>
+  <Hit_def>probable serine protease [Fusobacterium sp. CAG:815]</Hit_def>
+  <Hit_accession>CDE92172</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.52449e-09</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>PDVQ---RLYYTVPPAVVGVGG---GGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIR-RFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE----GFTVPAQVIVSHLQDVVRFK</Hsp_qseq>
+      <Hsp_hseq>PDEQVNISVYEKITPAIVAIDAQVADGVSAG---TGCVVTPDGMILTGSHVVDGATTIDVTTYNGQTYRAKFIAQMGK---NKDLALIKIQPKRPLQTVSFADSEEVKVGQKVLTIGNPFGFSNTLTQGIISRID--------YVKNRFQTDAAINPGCSGGPLLNTTGEVIGISQSIYNPDHNISNIGIGFAIPSNEAVKFIATIDRSK</Hsp_hseq>
+      <Hsp_midline>PD Q    +Y  + PA+V +      GV+AG   +G +V  +G ++T  H V     I V        R +F AQ+ K     +LAL+K+Q          A+ + V  GQ+V   G     +  + QG++   D         + +  ++DA  +   +GGPL+N  G+++GI+ +   P   +     GF +P+   V  +  + R K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|524763431|emb|CDE60385.1|</Hit_id>
+  <Hit_def>probable serine protease [Fusobacterium sp. CAG:439]</Hit_def>
+  <Hit_accession>CDE60385</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>2.68706e-09</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>LYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTI-PGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE----GFTVP----------AQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>VYEKINPAIVAIDANLTDGFSAGTGCVVRSDGVILTGSHVIEGAKDIDV---TTYDGKVYKASILAKMGKNKDLALLKIDAKKNLKTISFGDSSDVKVGQKVLAIGNPFGFSGTLTSGIVSRID--YAKGRIQ------TDAAINPGCSGGPLLNSQGEVIGISQSIYNPDNNISNIGIGFAIPVNDAKKFIETANLGNSHLTNKKRF</Hsp_hseq>
+      <Hsp_midline>+Y  + PA+V +     +     +G +V ++G ++T  H +    DI V   T+   + + A ++  +    +LALLK+   +        +   V  GQ+V A G     +  +  G+V   D   A G  Q      +DA  +   +GGPL+N+QG+++GI+ +   P   +     GF +P          A +  SHL +  RF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1127550789|gb|APS26245.1|</Hit_id>
+  <Hit_def>Serine protease Do-like HtrA [Weissella cibaria] &gt;gi|1131351029|gb|APU63748.1| Serine protease Do-like HtrA [Weissella cibaria] &gt;gi|1131353182|gb|APU65898.1| Serine protease Do-like HtrA [Weissella cibaria]</Hit_def>
+  <Hit_accession>APU65898</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>9.42738e-06</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAVGTTQITHL-----LRSDAVYSWEQTGGPLVNAQGDLVGIN---IAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>GNTAYIVTNNHVVSGSN--ALQVLLSDGTK-LTATLVGTDEQTDLAVLKINASKVSEVADFANSSKIEPGQSVLAIGSPLGSEYATSVTEGIISATKREVDATNENGDSLGKATVIQTDAAINPGNSGGPLVNLAGQVVGINSMKLASSTDGTSVEGMGFAIPANTVVNIINELEK</Hsp_hseq>
+      <Hsp_midline>G   Y++T  H V+      +QV  S G +   A +V T    +LA+LK+  ++       AN   + PGQ V A G  +    A  V +G++ ++   +         L     +++DA  +   +GGPLVN  G +VGIN   +A++     VE  GF +PA  +V+ + ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|551176307|ref|WP_022819125.1|</Hit_id>
+  <Hit_def>membrane protein [Fusobacterium russii]</Hit_def>
+  <Hit_accession>WP_022819125</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.457106</Hsp_evalue>
+      <Hsp_query-from>506</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>PEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKM</Hsp_qseq>
+      <Hsp_hseq>PKNILFGKIMAFSLGFYDGFLGPGTAAFLMFCLIKIFKLDFANASGNTKVLNL-SSNAASLIVFTYLGK---INWAYGIGIAIVMTFGA----ILGSKLAILKGNKFIKPVFLIVTAILILKM</Hsp_hseq>
+      <Hsp_midline>P+      ++   +G + G LG       +     I ++   NA  N+ VL   +S A S++ F + G    I+W   + +A+VM  GA    ILG++L  +   + +K ++    A + +KM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|551177169|ref|WP_022819705.1|</Hit_id>
+  <Hit_def>anion permease [Fusobacterium russii]</Hit_def>
+  <Hit_accession>WP_022819705</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.841529</Hsp_evalue>
+      <Hsp_query-from>513</Hsp_query-from>
+      <Hsp_query-to>563</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>AVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVA</Hsp_qseq>
+      <Hsp_hseq>AIVGLLLGFISAFLGIGGGPLNVVLLIFLFSMSTKEASLNSIFIIFFSQIA</Hsp_hseq>
+      <Hsp_midline>A++GL +G  S  LGI GG + V L  ++  +S + A  NS  ++F++ +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|492553703|ref|WP_005884121.1|</Hit_id>
+  <Hit_def>anion permease [Fusobacterium mortiferum] &gt;gi|229419897|gb|EEO34944.1| hypothetical protein FMAG_00506 [Fusobacterium mortiferum ATCC 9817]</Hit_def>
+  <Hit_accession>WP_005884121</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.6627</Hsp_evalue>
+      <Hsp_query-from>512</Hsp_query-from>
+      <Hsp_query-to>570</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>SAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFI</Hsp_qseq>
+      <Hsp_hseq>AALIGFSLGMISAFLGIGGGPINIAILAYFFNMNSKTCSLNSIYIIFFSQTTSLLTTFI</Hsp_hseq>
+      <Hsp_midline>+A++G  +G+ S  LGI GG I + +  Y   ++ +    NS  ++F++     +  FI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|492554045|ref|WP_005884363.1|</Hit_id>
+  <Hit_def>membrane protein [Fusobacterium mortiferum] &gt;gi|229420020|gb|EEO35067.1| hypothetical protein FMAG_00629 [Fusobacterium mortiferum ATCC 9817]</Hit_def>
+  <Hit_accession>WP_005884363</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.06708</Hsp_evalue>
+      <Hsp_query-from>402</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>AAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMAGKAVLEILQPNAGEDTAEAIAAAEAGDEMDELMALAEGTTRPKTSGIALPEGPTRSA-VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>ASALKFATSGKVNWELSKKIMPF-----------------SLVGALLGVKTVVLIDS---KYLYPIAIVLLLLVLIYTLVNKKMGE-----------ENNFQGLNKGNVNAGRVMGLTMGFYDGFFGPGTGSFLIFALIRIFKLDFTNASGNAKILNLTSNLA-SMFLFIFLGK---VNFFYSVPIGIIMIFGA----TLGAKTAVTKGTKFIKPMFLIVTSIVLVKMI</Hsp_hseq>
+      <Hsp_midline>A+AL+   +  V W+  K ++P+                 S+VG LLG+  +++      + L P A       +       +M E           + +   L +G   +  V+GL MG + G  G   G   +     I ++   NA  N+ +L   +++A S+  FI  G    +++   V + ++MI GA     LGA+       + +K ++    + + +KM+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1122330085|ref|WP_074016662.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fusobacterium massiliense]</Hit_def>
+  <Hit_accession>WP_074016662</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.34835</Hsp_evalue>
+      <Hsp_query-from>402</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>AAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIG-DS------VVGVLLGLFALIMAGKAVLEILQPNAGEDTAEAIAAAEAGDEMDELMALAEGTTRPKTSGIALPEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKM</Hsp_qseq>
+      <Hsp_hseq>ASAFKFWKAKKINTEIVSKLFIFSLAGAVLG--VKTAVSIDSKYFTPISFGILIIVFIYALKNKKL--------GEDN------------------FYRGTT---------PKTIIYGKIMAFALGFYDGFLGPGTAAFLMFCLIKIFKLDFSSASGNTKILNLSSNFA-SLIVFAYFGK---LNWTYGILIALVMTVGA----IIGSRLAIYKGNKFIKPMFLIVTSVLIIKM</Hsp_hseq>
+      <Hsp_midline>A+A +  KA+ +  + V  L  + +AG V+G  +  A+  DS        G+L+ +F   +  K +        GED                      GTT         P+      ++   +G + G LG       +     I ++   +A  N+ +L   ++ A S++ F + G    ++W   + +ALVM  GA    I+G+RL      + +K ++    + + IKM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|576334625|gb|ETZ29242.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF2085_00588 [Fusobacterium nucleatum 13_3C]</Hit_def>
+  <Hit_accession>ETZ29242</Hit_accession>
+  <Hit_len>3220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.45353</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>2838</Hsp_hit-from>
+      <Hsp_hit-to>3008</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>GAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLV-----RQGMVQS-SDAPLAVGTTQITHLLRSDAVYSWE----QTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVRFKTG</Hsp_qseq>
+      <Hsp_hseq>GSLIGSTSGVLLTSYAIDNLPE-ALNTLKGSNTSVIPTVTYKT---GNPSLV-LYDKSKFLPVPVANNGTLV--TQPLTTSGALATVSLLTDGANKQGMVNKLGKEPLDVEKAPVFATISDEKLTSFQNEVSKAGTKLDLKTGELIG----PKGGKGKVVGTTLDGKIVANMSGRNVIFENG</Hsp_hseq>
+      <Hsp_midline>G+++G+   V+ T +++ N+P+  +     +     P    KT    N +L+ L    KFL   +AN  T+V   Q       +A   L+     +QGMV      PL V    +   +  + + S++    + G  L    G+L+G      G  GKV G T+  +++ +     V F+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|576679822|gb|EUB33332.1|</Hit_id>
+  <Hit_def>hemeagluttinin repeat protein [Fusobacterium sp. OBRC1]</Hit_def>
+  <Hit_accession>EUB33332</Hit_accession>
+  <Hit_len>3258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.45642</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>2876</Hsp_hit-from>
+      <Hsp_hit-to>3046</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>GAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLV-----RQGMVQS-SDAPLAVGTTQITHLLRSDAVYSWE----QTGGPLVNAQGDLVGINIAATGPTGKVEGFTVPAQVIVSHLQDVVRFKTG</Hsp_qseq>
+      <Hsp_hseq>GSLIGSTSGVLLTSYAIDNLPE-ALNTLKGSNTSVIPTVTYKT---GNPSLV-LYDKSKFLPVPVANNGTLV--TQPLTTSGALATVSLLTDGANKQGMVNKLGKEPLDVEKAPVFATISDEKLTSFQNEVSKAGTKLDLKTGELIG----PKGGKGKVVGTTLDGKIVANMSGRNVIFENG</Hsp_hseq>
+      <Hsp_midline>G+++G+   V+ T +++ N+P+  +     +     P    KT    N +L+ L    KFL   +AN  T+V   Q       +A   L+     +QGMV      PL V    +   +  + + S++    + G  L    G+L+G      G  GKV G T+  +++ +     V F+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>169683</Statistics_db-num>
+      <Statistics_db-len>57800240</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|927045406|gb|ALD76613.1|</Hit_id>
+  <Hit_def>HtrA protease/chaperone protein [Citrobacter freundii]</Hit_def>
+  <Hit_accession>ALD76613</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.55075e-11</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VASGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>+ SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|588302034|gb|EXF31322.1|</Hit_id>
+  <Hit_def>serine endoprotease [Citrobacter freundii RLS1] &gt;gi|668709163|gb|KFB94963.1| HtrA family protease/chaperone protein [Citrobacter freundii ATCC 8090 = MTCC 1658]</Hit_def>
+  <Hit_accession>EXF31322</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>2.91082e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|507081000|ref|WP_016151754.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Enterobacteriaceae] &gt;gi|500569274|gb|EOQ32977.1| protease do [Citrobacter sp. KTE32] &gt;gi|500610943|gb|EOQ51623.1| protease do [Citrobacter sp. KTE151] &gt;gi|725515422|gb|KHE07802.1| serine endoprotease [Citrobacter braakii] &gt;gi|725519712|gb|KHE12091.1| serine endoprotease [Citrobacter braakii] &gt;gi|806990890|gb|KKC63658.1| serine endoprotease [Citrobacter amalonaticus] &gt;gi|829330556|gb|KLQ23069.1| serine endoprotease [Enterobacter sp. GN02600] &gt;gi|1045512014|gb|OCF83483.1| serine endoprotease [Citrobacter freundii] &gt;gi|1132110205|gb|OLY69288.1| serine endoprotease DegQ [Citrobacter braakii] &gt;gi|1171020390|gb|OQM41176.1| serine endoprotease DegQ [Citrobacter braakii]</Hit_def>
+  <Hit_accession>WP_016151754</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.0406e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|491274009|ref|WP_005132129.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease [Enterobacteriaceae] &gt;gi|391309475|gb|EIQ67144.1| protease do [Shigella flexneri 1235-66] &gt;gi|619736682|gb|AHY11921.1| serine endoprotease [Citrobacter freundii CFNIH1] &gt;gi|729041806|emb|CEJ63176.1| HtrA protease/chaperone protein [Citrobacter pasteurii] &gt;gi|838561803|gb|KLV46372.1| periplasmic serine endoprotease DegP [Citrobacter sp. MGH100] &gt;gi|981170394|dbj|GAS73658.1| periplasmic serine endoprotease DegP precursor [Salmonella enterica] &gt;gi|981191474|dbj|GAS75209.1| periplasmic serine endoprotease DegP precursor [Salmonella enterica] &gt;gi|1103053153|gb|OIY01978.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103202207|gb|OIZ47812.1| serine endoprotease [Citrobacter freundii] &gt;gi|1182471755|gb|ORT75281.1| serine endoprotease [Citrobacter werkmanii] &gt;gi|1187477531|gb|OSP20206.1| serine endoprotease [Citrobacter werkmanii]</Hit_def>
+  <Hit_accession>WP_005132129</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.06735e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|489925851|ref|WP_003829191.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Enterobacteriaceae] &gt;gi|226909198|gb|EEH95116.1| protease do [Citrobacter sp. 30_2] &gt;gi|363644482|gb|EHL83763.1| protease do [Citrobacter freundii 4_7_47CFAA] &gt;gi|575566222|gb|ETX65861.1| protease do [Citrobacter freundii UCI 32] &gt;gi|838585985|gb|KLV70403.1| periplasmic serine endoprotease DegP [Citrobacter sp. MGH105] &gt;gi|838586480|gb|KLV70891.1| periplasmic serine endoprotease DegP [Citrobacter sp. MGH110] &gt;gi|838603570|gb|KLV87856.1| periplasmic serine endoprotease DegP [Citrobacter sp. BIDMC108] &gt;gi|1018173835|emb|SAD66984.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1047768052|gb|OCO62833.1| serine endoprotease [Citrobacter freundii] &gt;gi|1069072460|gb|OEH25828.1| serine endoprotease [Citrobacter freundii] &gt;gi|1100258071|gb|OIK39754.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103058399|gb|OIY07124.1| serine endoprotease [Citrobacter freundii] &gt;gi|1162235326|gb|OPW91035.1| serine endoprotease DegQ [Citrobacter sp. A60] &gt;gi|1162549116|gb|OPX53682.1| serine endoprotease DegQ [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_003829191</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>3.29001e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|757801280|ref|WP_043018481.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease [Citrobacter freundii complex] &gt;gi|635728113|gb|KDF09888.1| protease do [Citrobacter freundii MGH 56] &gt;gi|721585742|gb|KGZ29016.1| serine endoprotease [Citrobacter freundii] &gt;gi|1046456766|emb|SBW25286.1| HtrA protease/chaperone protein [Citrobacter europaeus] &gt;gi|1169402106|gb|ARC41480.1| serine endoprotease [Citrobacter braakii]</Hit_def>
+  <Hit_accession>WP_043018481</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.02425e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|489108709|ref|WP_003018567.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Citrobacter] &gt;gi|394717136|gb|EJF22834.1| serine endoprotease [Citrobacter sp. A1] &gt;gi|411774267|gb|EKS57777.1| serine endoprotease [Citrobacter freundii ATCC 8090 = MTCC 1658] &gt;gi|422895906|gb|EKU35692.1| serine endoprotease [Citrobacter sp. L17] &gt;gi|455643760|gb|EMF22884.1| serine endoprotease [Citrobacter freundii GTC 09479] &gt;gi|486078939|gb|EOD62593.1| serine endoprotease [Citrobacter freundii GTC 09629] &gt;gi|500562026|gb|EOQ25906.1| protease do [Citrobacter sp. KTE30] &gt;gi|575572697|gb|ETX72227.1| protease do [Citrobacter freundii UCI 31] &gt;gi|689845898|dbj|GAL38752.1| periplasmic serine endoprotease DegP [Citrobacter freundii NBRC 12681] &gt;gi|721540854|gb|KGY84207.1| serine endoprotease [Citrobacter freundii] &gt;gi|763854270|gb|KJC13865.1| serine endoprotease [Citrobacter freundii] &gt;gi|816229348|gb|KKJ88167.1| serine endoprotease [Citrobacter freundii] &gt;gi|828943624|gb|AKL19606.1| serine endoprotease [Citrobacter freundii] &gt;gi|828984801|gb|AKL56497.1| serine endoprotease [Citrobacter freundii] &gt;gi|838555026|gb|KLV39628.1| periplasmic serine endoprotease DegP [Citrobacter sp. MGH99] &gt;gi|838567448|gb|KLV51971.1| periplasmic serine endoprotease DegP [Citrobacter sp. MGH103] &gt;gi|838567982|gb|KLV52502.1| periplasmic serine endoprotease DegP [Citrobacter sp. MGH104] &gt;gi|838595172|gb|KLV79526.1| periplasmic serine endoprotease DegP [Citrobacter sp. MGH109] &gt;gi|838596669|gb|KLV81007.1| periplasmic serine endoprotease DegP [Citrobacter sp. BIDMC107] &gt;gi|938653869|gb|KPR56554.1| serine endoprotease [Citrobacter freundii] &gt;gi|985303272|gb|KWZ87975.1| peptidase Do [Citrobacter freundii] &gt;gi|1004517363|gb|KYC20953.1| serine endoprotease [Citrobacter sp. AATXR] &gt;gi|1004524084|gb|KYC27614.1| serine endoprotease [Citrobacter sp. AATXQ] &gt;gi|1050866689|gb|ANZ88886.1| serine endoprotease [Citrobacter freundii] &gt;gi|1061489902|gb|AOI28341.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103052444|gb|OIY01271.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103067132|gb|OIY15478.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103080876|gb|OIY28854.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103193838|gb|OIZ39977.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103194703|gb|OIZ40487.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103195455|gb|OIZ41467.1| serine endoprotease [Citrobacter freundii] &gt;gi|1103206595|gb|OIZ51987.1| serine endoprotease [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_003018567</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.13138e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1126141182|ref|WP_075145183.1|</Hit_id>
+  <Hit_def>serine endoprotease [Citrobacter freundii] &gt;gi|1125908781|gb|APR30446.1| serine endoprotease [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_075145183</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>4.46347e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|765459572|ref|WP_044714931.1|</Hit_id>
+  <Hit_def>serine endoprotease [Citrobacter freundii] &gt;gi|763843714|gb|KJC03567.1| serine endoprotease [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_044714931</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>4.62952e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVVTNNHVVDNATVIKVQLSDG---RKFDAKIVGKDPRSDIALIQIQDPKNLTAIKLADSDALRVGDYTVAIGNPFGLGETVTSGIV-SALGRSGLNAENYENFIQTDAAINRGNSGGALVNLNGELIGINTAILAPDGGNIGIGFAIPSNMVKNLTSQMVEF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H V N   I VQ++     R+F A++V   P  ++AL+++Q  +     ++A+   +  G    A G        V  G+V S+     +      + +++DA  +   +GG LVN  G+L+GIN A   P G     GF +P+ ++ +    +V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489944477|ref|WP_003847784.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-alkenal reductase [Enterobacterales] &gt;gi|455641982|gb|EMF21153.1| 2-alkenal reductase [Citrobacter freundii GTC 09479] &gt;gi|571260920|emb|CCQ39125.1| putative peptidase [Yersinia enterocolitica (type O:5) str. YE53/03] &gt;gi|575572803|gb|ETX72333.1| hypothetical protein P834_05373 [Citrobacter freundii UCI 31] &gt;gi|721540955|gb|KGY84308.1| 2-alkenal reductase [Citrobacter freundii] &gt;gi|741028005|gb|KHS48269.1| 2-alkenal reductase [Hafnia paralvei] &gt;gi|770950346|gb|KJL50779.1| 2-alkenal reductase [Enterobacter kobei] &gt;gi|806989573|gb|KKC62376.1| 2-alkenal reductase [Citrobacter amalonaticus] &gt;gi|817363784|gb|AKF36705.1| 2-alkenal reductase [Yersinia enterocolitica] &gt;gi|893247656|emb|CNJ89786.1| protease [Yersinia enterocolitica] &gt;gi|900084946|emb|CQJ44344.1| protease [Yersinia enterocolitica] &gt;gi|900163078|emb|CQD57379.1| protease [Yersinia enterocolitica] &gt;gi|932127222|gb|ALG46694.1| 2-alkenal reductase [Yersinia enterocolitica] &gt;gi|938651551|gb|KPR54509.1| 2-alkenal reductase [Citrobacter freundii] &gt;gi|974889827|gb|KUQ71382.1| 2-alkenal reductase [Enterobacter kobei] &gt;gi|1004382393|gb|AMO81427.1| 2-alkenal reductase [Obesumbacterium proteus] &gt;gi|1004516064|gb|KYC19665.1| 2-alkenal reductase [Citrobacter sp. AATXQ] &gt;gi|1015061042|emb|CZV93312.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1015282910|emb|CZX89964.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1017375965|emb|SAI28751.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1017384912|emb|SAF06547.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1017516525|emb|SAA45275.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1017662558|emb|SAD08792.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1017798318|emb|SAH86636.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1017845876|emb|SAD77204.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1017866471|emb|SAE80090.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1033988770|gb|OAT61119.1| PDZ/DHR/GLGF domain-containing peptidase [Obesumbacterium proteus ATCC 12841] &gt;gi|1067042121|gb|AOP88494.1| 2-alkenal reductase [Enterobacter kobei] &gt;gi|1129737645|gb|OLR18282.1| 2-alkenal reductase [Enterobacter kobei] &gt;gi|1131957101|emb|SIR83266.1| DegP2 peptidase. Serine peptidase. MEROPS family S01B [Enterobacter kobei]</Hit_def>
+  <Hit_accession>WP_003847784</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>8.15077e-11</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQT-TEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPL--AVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>SGFIWDDAGHVVTNFHVIQGASEATVKLADG---RDYQAALVGTSPAHDIAVLKIGVGFKRPPAVPVGTSADLKVGQKVFAIGNPFGLDWTLTTGIVSALDRSLPGEAGGPAIDHLIQTDAAINPGNSGGPLLDSAGRLIGINTAIYSPSGASAGIGFAVPVDTVMRVVPQLIK</Hsp_hseq>
+      <Hsp_midline>SG I    G+V+T  H +    + TV++A     R + A +V T P H++A+LK+    ++     +     +  GQ+VFA G        +  G+V + D  L    G   I HL+++DA  +   +GGPL+++ G L+GIN A   P+G     GF VP   ++  +  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|895897922|ref|WP_048999050.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_048999050</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.05104e-07</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VASGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFDAKLIGSDDQSDIALLQIQHPSNLMQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>+ SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q     +   +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|983531486|ref|WP_060683125.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Citrobacter freundii] &gt;gi|927046724|gb|ALD77931.1| Outer membrane stress sensor protease DegQ, serine protease [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_060683125</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.58126e-07</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VASGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFDAKIIGSDDQSDIALLQIQHPSNLTQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>+ SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q         +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|765440908|ref|WP_044701337.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Citrobacter freundii] &gt;gi|763849883|gb|KJC09589.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|828942393|gb|AKL18375.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|828986083|gb|AKL57779.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103067884|gb|OIY16191.1| serine endoprotease DegQ [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_044701337</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.48641e-07</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VASGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFDAKLIGSDDQSDIALLQIQHPSNLTQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>+ SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q         +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|757800614|ref|WP_043017816.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Citrobacter freundii complex] &gt;gi|635729752|gb|KDF11515.1| protease degQ [Citrobacter freundii MGH 56] &gt;gi|721587057|gb|KGZ30331.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1046455778|emb|SBW25658.1| Outer membrane stress sensor protease DegQ, serine protease [Citrobacter europaeus] &gt;gi|1081604507|emb|SCA43361.1| Outer membrane stress sensor protease DegQ, serine protease [Citrobacter europaeus] &gt;gi|1125910066|gb|APR31731.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1169403384|gb|ARC42758.1| serine endoprotease DegQ [Citrobacter braakii]</Hit_def>
+  <Hit_accession>WP_043017816</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.63156e-07</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VASGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFDAKLIGSDDQSDIALLQIQHPSNLTQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>+ SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q         +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|740849078|ref|WP_038634331.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Citrobacter freundii complex] &gt;gi|619735358|gb|AHY10597.1| serine endoprotease DegQ [Citrobacter freundii CFNIH1] &gt;gi|1182470345|gb|ORT73887.1| serine endoprotease DegQ [Citrobacter werkmanii] &gt;gi|1187478891|gb|OSP21546.1| serine endoprotease DegQ [Citrobacter werkmanii]</Hit_def>
+  <Hit_accession>WP_038634331</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.68078e-07</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFEAKLIGSDDQSDIALLQIQHPSNLTQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q         +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|507083960|ref|WP_016154708.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Citrobacter] &gt;gi|500605285|gb|EOQ46044.1| protease degQ [Citrobacter sp. KTE151] &gt;gi|1045511879|gb|OCF83359.1| serine endoprotease DegQ [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_016154708</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.68078e-07</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>SGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>SGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFDAKLIGSDDQSDIALLQIQHPSNLTQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q         +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|489115300|ref|WP_003025151.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Citrobacter] &gt;gi|394718517|gb|EJF24147.1| protease degQ [Citrobacter sp. A1] &gt;gi|411772269|gb|EKS55895.1| serine endoprotease [Citrobacter freundii ATCC 8090 = MTCC 1658] &gt;gi|422892682|gb|EKU32535.1| protease DegQ [Citrobacter sp. L17] &gt;gi|455644621|gb|EMF23714.1| serine endoprotease [Citrobacter freundii GTC 09479] &gt;gi|486077396|gb|EOD61115.1| serine endoprotease [Citrobacter freundii GTC 09629] &gt;gi|500557595|gb|EOQ21646.1| protease degQ [Citrobacter sp. KTE30] &gt;gi|575568439|gb|ETX68019.1| protease degQ [Citrobacter freundii UCI 31] &gt;gi|588302470|gb|EXF31753.1| serine endoprotease DegQ [Citrobacter freundii RLS1] &gt;gi|668712954|gb|KFB98655.1| outer membrane stress sensor serine protease [Citrobacter freundii ATCC 8090 = MTCC 1658] &gt;gi|689842715|dbj|GAL41911.1| periplasmic serine endoprotease DegQ [Citrobacter freundii NBRC 12681] &gt;gi|721543994|gb|KGY87347.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|763844569|gb|KJC04397.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|816230542|gb|KKJ89352.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|838557821|gb|KLV42408.1| periplasmic pH-dependent serine endoprotease DegQ [Citrobacter sp. MGH99] &gt;gi|838571828|gb|KLV56333.1| periplasmic pH-dependent serine endoprotease DegQ [Citrobacter sp. MGH103] &gt;gi|838593785|gb|KLV78141.1| periplasmic pH-dependent serine endoprotease DegQ [Citrobacter sp. BIDMC107] &gt;gi|938651992|gb|KPR54887.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|985306731|gb|KWZ91366.1| protease DegQ [Citrobacter freundii] &gt;gi|1004511020|gb|KYC14770.1| serine endoprotease DegQ [Citrobacter sp. AATXQ] &gt;gi|1004515129|gb|KYC18752.1| serine endoprotease DegQ [Citrobacter sp. AATXR] &gt;gi|1050863189|gb|ANZ85386.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1061491210|gb|AOI29649.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103065642|gb|OIY14072.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103065825|gb|OIY14231.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103069732|gb|OIY17971.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103199307|gb|OIZ45169.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103200576|gb|OIZ46292.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103205743|gb|OIZ51212.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103210677|gb|OIZ55913.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103212531|gb|OIZ57680.1| serine endoprotease DegQ [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_003025151</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.68078e-07</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VASGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFDAKLIGSDDQSDIALLQIQHPSNLTQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>+ SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q         +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|489925465|ref|WP_003828805.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Enterobacteriaceae] &gt;gi|363645632|gb|EHL84895.1| protease degQ [Citrobacter freundii 4_7_47CFAA] &gt;gi|1018172305|emb|SAE28505.1| protease Do [Enterobacter cloacae]</Hit_def>
+  <Hit_accession>WP_003828805</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.68078e-07</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VASGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFDAKLIGSDDQSDIALLQIQHPSNLTQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>+ SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q         +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|496061444|ref|WP_008785951.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Citrobacter] &gt;gi|226908755|gb|EEH94673.1| protease degQ [Citrobacter sp. 30_2] &gt;gi|575562770|gb|ETX62490.1| protease degQ [Citrobacter freundii UCI 32] &gt;gi|838580389|gb|KLV64847.1| periplasmic pH-dependent serine endoprotease DegQ [Citrobacter sp. MGH105] &gt;gi|838585908|gb|KLV70327.1| periplasmic pH-dependent serine endoprotease DegQ [Citrobacter sp. MGH110] &gt;gi|838609349|gb|KLV93607.1| periplasmic pH-dependent serine endoprotease DegQ [Citrobacter sp. BIDMC108] &gt;gi|1047768446|gb|OCO63215.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1069071298|gb|OEH24734.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1100262310|gb|OIK43564.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1103059313|gb|OIY08010.1| serine endoprotease DegQ [Citrobacter freundii] &gt;gi|1162235688|gb|OPW91391.1| serine endoprotease DegQ [Citrobacter sp. A60] &gt;gi|1162544711|gb|OPX49453.1| serine endoprotease DegQ [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_008785951</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.78053e-07</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VASGAIV-GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKV--EGFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAAKGYVLTNNHVINQAQKISVQLNDG---REFDAKLIGSDDQSDIALLQIQHPSNLTQIAIADSDKLRVGDFAVAVGNPFGLGQTATSGIV-SALGRSGLNLEGLENFIQTDASINRGNSGGALLNLNGELIGINTAILAPGGGSIGIGFAIPSNMARTLAQQLMQF</Hsp_hseq>
+      <Hsp_midline>+ SG I+  A GYV+T  H +     I+VQ+      R F A+++ +    ++ALL++Q         +A+   +  G    A G           G+V S+     +    + + +++DA  +   +GG L+N  G+L+GIN A   P G     GF +P+ +  +  Q +++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|696370140|ref|WP_032945146.1|</Hit_id>
+  <Hit_def>MULTISPECIES: outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii complex] &gt;gi|575562771|gb|ETX62491.1| protease degS [Citrobacter freundii UCI 32] &gt;gi|838580388|gb|KLV64846.1| serine endoprotease DegS [Citrobacter sp. MGH105] &gt;gi|838585909|gb|KLV70328.1| serine endoprotease DegS [Citrobacter sp. MGH110] &gt;gi|927046723|gb|ALD77930.1| Outer membrane stress sensor protease DegS [Citrobacter freundii] &gt;gi|1047768447|gb|OCO63216.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1069071297|gb|OEH24733.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103059312|gb|OIY08009.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1162544712|gb|OPX49454.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_032945146</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>8.28681e-07</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>PAVVGVGGGGVNAG--------PVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINI-----AATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>PAVVNVYNRSMNSTAHNQLEIRTLGSGVIMDQRGYIITNKHVINDADQIIVALQDG---RVFEALLVGSDTLTDLAVLKINATGGLPTIPINNKRVPHIGDVVLAIGNPYNLGQTITQGII-SATGRIGLNPTGRQNFLQTDASINHGNSGGALVNSLGELMGINTLSFDKSNDGETPEGIGFAIPFQLATKIMDKLIR</Hsp_hseq>
+      <Hsp_midline>PAVV V    +N+          + SG I+   GY+IT  H + +   I V +      R F A +V +    +LA+LK+  T       + N +    G  V A G        + QG++ S+   + +  T   + L++DA  +   +GG LVN+ G+L+GIN      +  G T +  GF +P Q+    +  ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|489115303|ref|WP_003025154.1|</Hit_id>
+  <Hit_def>MULTISPECIES: outer membrane-stress sensor serine endopeptidase DegS [Enterobacteriaceae] &gt;gi|363645633|gb|EHL84896.1| protease degS [Citrobacter freundii 4_7_47CFAA] &gt;gi|394718518|gb|EJF24148.1| protease degS [Citrobacter sp. A1] &gt;gi|411772268|gb|EKS55894.1| serine endoprotease [Citrobacter freundii ATCC 8090 = MTCC 1658] &gt;gi|422892681|gb|EKU32534.1| protease DegS [Citrobacter sp. L17] &gt;gi|455644620|gb|EMF23713.1| serine endoprotease [Citrobacter freundii GTC 09479] &gt;gi|486077397|gb|EOD61116.1| serine endoprotease [Citrobacter freundii GTC 09629] &gt;gi|500557596|gb|EOQ21647.1| protease degS [Citrobacter sp. KTE30] &gt;gi|500563509|gb|EOQ27364.1| protease degS [Citrobacter sp. KTE32] &gt;gi|500605286|gb|EOQ46045.1| protease degS [Citrobacter sp. KTE151] &gt;gi|571190361|emb|CDL38241.1| Outer membrane stress sensor protease DegS [Escherichia coli ISC11] &gt;gi|575568440|gb|ETX68020.1| protease degS [Citrobacter freundii UCI 31] &gt;gi|588302469|gb|EXF31752.1| serine endoprotease [Citrobacter freundii RLS1] &gt;gi|635729753|gb|KDF11516.1| protease degS [Citrobacter freundii MGH 56] &gt;gi|668712955|gb|KFB98656.1| outer membrane stress sensor protease [Citrobacter freundii ATCC 8090 = MTCC 1658] &gt;gi|689842716|dbj|GAL41912.1| serine endoprotease DegS [Citrobacter freundii NBRC 12681] &gt;gi|721543995|gb|KGY87348.1| serine endoprotease [Citrobacter freundii] &gt;gi|721587056|gb|KGZ30330.1| serine endoprotease [Citrobacter freundii] &gt;gi|725512071|gb|KHE04468.1| serine endoprotease [Citrobacter braakii] &gt;gi|725515945|gb|KHE08324.1| serine endoprotease [Citrobacter braakii] &gt;gi|763844570|gb|KJC04398.1| serine endoprotease [Citrobacter freundii] &gt;gi|763849884|gb|KJC09590.1| serine endoprotease [Citrobacter freundii] &gt;gi|806989355|gb|KKC62170.1| serine endoprotease [Citrobacter amalonaticus] &gt;gi|816230541|gb|KKJ89351.1| serine endoprotease [Citrobacter freundii] &gt;gi|828942394|gb|AKL18376.1| serine endoprotease [Citrobacter freundii] &gt;gi|828986082|gb|AKL57778.1| serine endoprotease [Citrobacter freundii] &gt;gi|829330374|gb|KLQ22891.1| serine endoprotease [Enterobacter sp. GN02600] &gt;gi|838557822|gb|KLV42409.1| serine endoprotease DegS [Citrobacter sp. MGH99] &gt;gi|838571829|gb|KLV56334.1| serine endoprotease DegS [Citrobacter sp. MGH103] &gt;gi|838571984|gb|KLV56486.1| serine endoprotease DegS [Citrobacter sp. MGH104] &gt;gi|838589678|gb|KLV74069.1| serine endoprotease DegS [Citrobacter sp. MGH109] &gt;gi|838593784|gb|KLV78140.1| serine endoprotease DegS [Citrobacter sp. BIDMC107] &gt;gi|938651993|gb|KPR54888.1| serine endoprotease [Citrobacter freundii] &gt;gi|985306730|gb|KWZ91365.1| periplasmic serine peptidase DegS [Citrobacter freundii] &gt;gi|1004511021|gb|KYC14771.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter sp. AATXQ] &gt;gi|1004515130|gb|KYC18753.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter sp. AATXR] &gt;gi|1018172306|emb|SAE28544.1| serine endoprotease [Enterobacter cloacae] &gt;gi|1045511880|gb|OCF83360.1| serine endoprotease [Citrobacter freundii] &gt;gi|1046455777|emb|SBW25657.1| Outer membrane stress sensor protease DegS [Citrobacter europaeus] &gt;gi|1050863188|gb|ANZ85385.1| serine endoprotease [Citrobacter freundii] &gt;gi|1061491209|gb|AOI29648.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1081604508|emb|SCA43362.1| Outer membrane stress sensor protease DegS [Citrobacter europaeus] &gt;gi|1103065643|gb|OIY14073.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103065826|gb|OIY14232.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103067885|gb|OIY16192.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103069731|gb|OIY17970.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103199306|gb|OIZ45168.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103200575|gb|OIZ46291.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103205744|gb|OIZ51213.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103210678|gb|OIZ55914.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1103212532|gb|OIZ57681.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1125910065|gb|APR31730.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1132108410|gb|OLY67500.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter braakii] &gt;gi|1162241474|gb|OPW97094.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter sp. A316] &gt;gi|1169403383|gb|ARC42757.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter braakii] &gt;gi|1171020297|gb|OQM41084.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter braakii]</Hit_def>
+  <Hit_accession>WP_003025154</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>8.58481e-07</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>PAVVGVGGGGVNAG--------PVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINI-----AATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>PAVVNVYNRSMNSTAHNQLEIRTLGSGVIMDQRGYIITNKHVINDADQIIVALQDG---RVFEALLVGSDTLTDLAVLKINATGGLPTIPINNKRVPHIGDVVLAIGNPYNLGQTITQGII-SATGRIGLNPTGRQNFLQTDASINHGNSGGALVNSLGELMGINTLSFDKSNDGETPEGIGFAIPFQLATKIMDKLIR</Hsp_hseq>
+      <Hsp_midline>PAVV V    +N+          + SG I+   GY+IT  H + +   I V +      R F A +V +    +LA+LK+  T       + N +    G  V A G        + QG++ S+   + +  T   + L++DA  +   +GG LVN+ G+L+GIN      +  G T +  GF +P Q+    +  ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|496061445|ref|WP_008785952.1|</Hit_id>
+  <Hit_def>MULTISPECIES: outer membrane-stress sensor serine endopeptidase DegS [Citrobacter] &gt;gi|226908756|gb|EEH94674.1| protease degS [Citrobacter sp. 30_2] &gt;gi|1100262311|gb|OIK43565.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter freundii] &gt;gi|1162235689|gb|OPW91392.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter sp. A60]</Hit_def>
+  <Hit_accession>WP_008785952</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>9.21329e-07</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>PAVVGVGGGGVNAG--------PVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINI-----AATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>PAVVNVYNRSMNSTAHNQLEIRTLGSGVIMDQRGYIITNKHVINDADQIIVALQDG---RVFEALLVGSDTLTDLAVLKINATGGLPTIPINNKRVPHIGDVVLAIGNPYNLGQTITQGII-SATGRIGLNPTGRQNFLQTDASINHGNSGGALVNSLGELMGINTLSFDKSNDGETPEGIGFAIPFQLATKIMDKLIR</Hsp_hseq>
+      <Hsp_midline>PAVV V    +N+          + SG I+   GY+IT  H + +   I V +      R F A +V +    +LA+LK+  T       + N +    G  V A G        + QG++ S+   + +  T   + L++DA  +   +GG LVN+ G+L+GIN      +  G T +  GF +P Q+    +  ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|740849081|ref|WP_038634334.1|</Hit_id>
+  <Hit_def>MULTISPECIES: outer membrane-stress sensor serine endopeptidase DegS [Citrobacter] &gt;gi|619735359|gb|AHY10598.1| serine endoprotease [Citrobacter freundii CFNIH1] &gt;gi|1182470344|gb|ORT73886.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter werkmanii] &gt;gi|1187478892|gb|OSP21547.1| outer membrane-stress sensor serine endopeptidase DegS [Citrobacter werkmanii]</Hit_def>
+  <Hit_accession>WP_038634334</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>9.37746e-07</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>PAVVGVGGGGVNAG--------PVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINI-----AATGPTGKVEGFTVPAQVIVSHLQDVVR</Hsp_qseq>
+      <Hsp_hseq>PAVVNVYNRSMNSTAHNQLEIRTLGSGVIMDQRGYIITNKHVINDADQIIVALQDG---RVFEALLVGSDTLTDLAVLKINATGGLPTIPINNKRVPHIGDVVLAIGNPYNLGQTITQGII-SATGRIGLNPTGRQNFLQTDASINHGNSGGALVNSLGELMGINTLSFDKSNDGETPEGIGFAIPFQLATKIMDKLIR</Hsp_hseq>
+      <Hsp_midline>PAVV V    +N+          + SG I+   GY+IT  H + +   I V +      R F A +V +    +LA+LK+  T       + N +    G  V A G        + QG++ S+   + +  T   + L++DA  +   +GG LVN+ G+L+GIN      +  G T +  GF +P Q+    +  ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|489200819|ref|WP_003110027.1|</Hit_id>
+  <Hit_def>2-alkenal reductase [Pseudomonas aeruginosa] &gt;gi|552476235|gb|ERX33601.1| periplasmic serine peptidase DegS [Pseudomonas aeruginosa 19660] &gt;gi|557217259|gb|ESQ65115.1| 2-alkenal reductase [Pseudomonas aeruginosa HB15] &gt;gi|574045734|gb|ETV22385.1| periplasmic serine peptidase DegS [Pseudomonas aeruginosa BWHPSA043] &gt;gi|618779568|gb|KAJ16368.1| 2-alkenal reductase [Pseudomonas aeruginosa ID4365] &gt;gi|725658505|gb|KHE35888.1| 2-alkenal reductase [Pseudomonas aeruginosa] &gt;gi|816107451|gb|KKJ54747.1| 2-alkenal reductase [Pseudomonas aeruginosa MRSN 317] &gt;gi|956185007|gb|KSG43573.1| 2-alkenal reductase [Pseudomonas aeruginosa] &gt;gi|957286832|gb|KSR24310.1| 2-alkenal reductase [Pseudomonas aeruginosa] &gt;gi|961426140|gb|ALS14779.1| 2-alkenal reductase [Pseudomonas aeruginosa] &gt;gi|987652839|gb|KXD76571.1| 2-alkenal reductase [Pseudomonas aeruginosa] &gt;gi|987663338|gb|KXD86899.1| 2-alkenal reductase [Pseudomonas aeruginosa] &gt;gi|987686355|gb|KXE09609.1| 2-alkenal reductase [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>KHE35888</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.59272e-06</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>VASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLK--LQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPA-------QVIVSHLQDVVRFKTG-GAAGVAPPAAQTVAMGSSSWWSKAKAVVGGPTAVPGM</Hsp_qseq>
+      <Hsp_hseq>LGSAVIMSAEGYLLTNNHVTAGADQIIVALRDG---RETIAQLVGSDPETDLAVLKIDLKNLPAMTLGRSDGIRT---GDVCLAIGNPFGVGQTVTMGII-SATGRNQLGLNTYEDFIQTDAAINPGNSGGALVDAAGNLIGINTAIFSKSGGSQGIGFAIPTKLALEVMQSIIEHGQ-VIRGWLGVEVKALTPELAESLGLGESAGIVVAGVYRDGPAARGGL</Hsp_hseq>
+      <Hsp_midline>+ S  I+ A GY++T  H  A    I V +      R   AQ+V + P  +LA+LK  L+        R   I+T   G    A G        V  G++ S+     +G       +++DA  +   +GG LV+A G+L+GIN A    +G  +  GF +P        Q I+ H Q V+R   G     + P  A+++ +G S+    A     GP A  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|490497993|ref|WP_004364147.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine peptidase [Pseudomonas] &gt;gi|404525521|gb|EKA35786.1| serine protease MucD precursor [Pseudomonas aeruginosa ATCC 700888] &gt;gi|552463074|gb|ERX20678.1| serine protease MucD [Pseudomonas aeruginosa X13273] &gt;gi|552469901|gb|ERX27410.1| serine protease MucD [Pseudomonas aeruginosa 19660] &gt;gi|552600245|gb|ERY16857.1| serine protease MucD [Pseudomonas aeruginosa BL21] &gt;gi|552709165|gb|ERZ22608.1| serine protease MucD [Pseudomonas aeruginosa S54485] &gt;gi|557562852|gb|ESR72610.1| serine peptidase [Pseudomonas aeruginosa VRFPA05] &gt;gi|574046367|gb|ETV23012.1| serine protease MucD [Pseudomonas aeruginosa BWHPSA043] &gt;gi|582070878|gb|EVT87292.1| serine peptidase [Pseudomonas aeruginosa VRFPA09] &gt;gi|653201641|gb|KEA22636.1| serine peptidase [Pseudomonas aeruginosa C1913C] &gt;gi|725655080|gb|KHE32862.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|761594894|dbj|BAQ41723.1| serine protease [Pseudomonas aeruginosa] &gt;gi|927227265|gb|AHA20171.2| serine peptidase [Pseudomonas aeruginosa PA1] &gt;gi|927997651|gb|ALE50218.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|955856703|gb|KSD20798.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|955896044|gb|KSD59619.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|955990309|gb|KSE51936.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956124844|gb|KSF84381.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956207963|gb|KSG66091.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956244333|gb|KSH01704.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956447220|gb|KSJ01021.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956487109|gb|KSJ40308.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956723659|gb|KSL72889.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956797781|gb|KSM45589.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956840779|gb|KSM87687.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956933520|gb|KSN78609.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|956958075|gb|KSO02814.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|957028137|gb|KSO71347.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|957163801|gb|KSQ03184.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|957172611|gb|KSQ11927.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|957223060|gb|KSQ61538.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|957260752|gb|KSQ98654.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|957349619|gb|KSR85992.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|1080915963|gb|OFQ76629.1| serine peptidase [Pseudomonas sp. HMSC063H08] &gt;gi|1101466617|gb|APB67069.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|1122128070|gb|OKR38892.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|1122177919|gb|OKR87033.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|1122214946|gb|OKS22941.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|1178104825|gb|ORE35342.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|1181893856|gb|ARI93427.1| serine peptidase [Pseudomonas aeruginosa] &gt;gi|1181948714|gb|ARI99962.1| serine peptidase [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>KHE32862</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.59136e-06</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MSVGQFLVRNVA-MPDVQR--LYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN</Hsp_qseq>
+      <Hsp_hseq>MARGQLSIPDLEGLPPMFRDFLERSIPQVPRNPRGQQREAQSLGSGFIISNDGYILTNNHVVADADEILVRLSDRS---EHKAKLVGADPRSDVAVLKIEA-KNLPTLKLGDSNKLKVGEWVLAIGSPFGFDHSVTAGIVSAKGRSLP--NESYVPFIQTDVAINPGNSGGPLLNLEGEVVGIN</Hsp_hseq>
+      <Hsp_midline>M+ GQ  + ++  +P + R  L  ++P       G    A  + SG I+  +GY++T  H VA+  +I V+++  +      A++V   P  ++A+LK++  +     ++ +   +  G+ V A G        V  G+V +    L          +++D   +   +GGPL+N +G++VGIN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|489174878|ref|WP_003084408.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Pseudomonas] &gt;gi|310884330|gb|EFQ42924.1| putative permease [Pseudomonas aeruginosa 39016] &gt;gi|348037314|dbj|BAK92674.1| putative permease [Pseudomonas aeruginosa NCGM2.S1] &gt;gi|552245102|gb|ERV04978.1| permease [Pseudomonas aeruginosa BL18] &gt;gi|552260802|gb|ERV21079.1| permease [Pseudomonas aeruginosa BL17] &gt;gi|552265820|gb|ERV26033.1| permease [Pseudomonas aeruginosa BL15] &gt;gi|552266450|gb|ERV26662.1| permease [Pseudomonas aeruginosa BL14] &gt;gi|552307499|gb|ERV67202.1| permease [Pseudomonas aeruginosa BL08] &gt;gi|552313620|gb|ERV73856.1| permease [Pseudomonas aeruginosa BL04] &gt;gi|552423652|gb|ERW81782.1| permease [Pseudomonas aeruginosa BWHPSA006] &gt;gi|552472563|gb|ERX30025.1| permease [Pseudomonas aeruginosa 19660] &gt;gi|552473057|gb|ERX30594.1| permease [Pseudomonas aeruginosa 6077] &gt;gi|552487711|gb|ERX44936.1| permease [Pseudomonas aeruginosa U2504] &gt;gi|552702728|gb|ERZ16187.1| permease [Pseudomonas aeruginosa JJ692] &gt;gi|560116608|emb|CDH74726.1| putative permease [Pseudomonas aeruginosa MH27] &gt;gi|563409176|gb|AHB53598.1| membrane protein [Pseudomonas aeruginosa MTB-1] &gt;gi|574047539|gb|ETV24176.1| permease [Pseudomonas aeruginosa BWHPSA043] &gt;gi|611800135|gb|EZN77242.1| permease [Pseudomonas aeruginosa BWH030] &gt;gi|611915155|gb|EZO91224.1| permease [Pseudomonas aeruginosa BWH054] &gt;gi|670351672|dbj|BAP19476.1| putative permease [Pseudomonas aeruginosa] &gt;gi|685837740|dbj|BAP48350.1| putative permease [Pseudomonas aeruginosa] &gt;gi|698162201|emb|CDM49384.1| hypothetical protein PAWS394_0384 [Pseudomonas aeruginosa WS394] &gt;gi|725656828|gb|KHE34226.1| membrane protein [Pseudomonas aeruginosa] &gt;gi|955850519|gb|KSD14716.1| anion permease [Pseudomonas aeruginosa] &gt;gi|955855832|gb|KSD19935.1| anion permease [Pseudomonas aeruginosa] &gt;gi|955877170|gb|KSD41055.1| anion permease [Pseudomonas aeruginosa] &gt;gi|955910240|gb|KSD73553.1| anion permease [Pseudomonas aeruginosa] &gt;gi|955925210|gb|KSD88228.1| anion permease [Pseudomonas aeruginosa] &gt;gi|955952702|gb|KSE15167.1| anion permease [Pseudomonas aeruginosa] &gt;gi|955978348|gb|KSE40167.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956009365|gb|KSE70625.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956011584|gb|KSE72816.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956053457|gb|KSF14064.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956264241|gb|KSH21337.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956296459|gb|KSH52908.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956306351|gb|KSH62565.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956319265|gb|KSH75277.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956479619|gb|KSJ32925.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956510790|gb|KSJ63572.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956550856|gb|KSK02966.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956551045|gb|KSK03154.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956576251|gb|KSK27875.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956597467|gb|KSK48801.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956662215|gb|KSL12568.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956679309|gb|KSL29290.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956697444|gb|KSL47154.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956710821|gb|KSL60277.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956716459|gb|KSL65782.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956726644|gb|KSL75825.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956731483|gb|KSL80553.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956781330|gb|KSM29495.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956792491|gb|KSM40422.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956816911|gb|KSM64309.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956830950|gb|KSM78053.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956842955|gb|KSM89782.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956913250|gb|KSN58793.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956968200|gb|KSO12738.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956981738|gb|KSO25859.1| anion permease [Pseudomonas aeruginosa] &gt;gi|956984090|gb|KSO28167.1| anion permease [Pseudomonas aeruginosa] &gt;gi|957093643|gb|KSP34604.1| anion permease [Pseudomonas aeruginosa] &gt;gi|957107473|gb|KSP47909.1| anion permease [Pseudomonas aeruginosa] &gt;gi|957167568|gb|KSQ06909.1| anion permease [Pseudomonas aeruginosa] &gt;gi|957176834|gb|KSQ16030.1| anion permease [Pseudomonas aeruginosa] &gt;gi|957242078|gb|KSQ80212.1| anion permease [Pseudomonas aeruginosa] &gt;gi|957278814|gb|KSR16405.1| anion permease [Pseudomonas aeruginosa] &gt;gi|957342301|gb|KSR78765.1| anion permease [Pseudomonas aeruginosa] &gt;gi|1012069028|gb|KYO86996.1| hypothetical protein LL05_02932 [Pseudomonas aeruginosa] &gt;gi|1020678192|gb|KZM01144.1| hypothetical protein AN929_01685 [Pseudomonas aeruginosa] &gt;gi|1020685225|gb|KZM07432.1| hypothetical protein AN928_30120 [Pseudomonas aeruginosa] &gt;gi|1020690316|gb|KZM11978.1| hypothetical protein AN930_29680 [Pseudomonas aeruginosa] &gt;gi|1042693872|gb|OBY44250.1| hypothetical protein A9Z48_10550 [Pseudomonas aeruginosa] &gt;gi|1078477694|gb|OFC01806.1| hypothetical protein AN470_07230 [Pseudomonas aeruginosa] &gt;gi|1090955826|gb|OHO95011.1| hypothetical protein HMPREF2659_02965 [Pseudomonas sp. HMSC058B07] &gt;gi|1118938671|gb|OKN85387.1| hypothetical protein AM471_004116 [Pseudomonas aeruginosa] &gt;gi|1118955934|gb|OKO02549.1| hypothetical protein AM479_002643 [Pseudomonas aeruginosa] &gt;gi|1118975691|gb|OKO22210.1| hypothetical protein AM484_000375 [Pseudomonas aeruginosa] &gt;gi|1122101480|gb|OKR13191.1| hypothetical protein BH589_10575 [Pseudomonas aeruginosa] &gt;gi|1122107019|gb|OKR18581.1| hypothetical protein BH590_05390 [Pseudomonas aeruginosa] &gt;gi|1122141896|gb|OKR52215.1| hypothetical protein BH594_00545 [Pseudomonas aeruginosa] &gt;gi|1122188990|gb|OKR97702.1| hypothetical protein BH603_13945 [Pseudomonas aeruginosa] &gt;gi|1122191537|gb|OKS00150.1| hypothetical protein BH602_10175 [Pseudomonas aeruginosa] &gt;gi|1122238175|gb|OKS45502.1| hypothetical protein BH610_04100 [Pseudomonas aeruginosa] &gt;gi|1125601057|gb|OLF01969.1| hypothetical protein A8O36_20915 [Pseudomonas aeruginosa] &gt;gi|1148259494|gb|OOK50497.1| hypothetical protein BM548_21190 [Pseudomonas aeruginosa] &gt;gi|1148399091|gb|OOK89003.1| anion permease [Pseudomonas aeruginosa] &gt;gi|1176903727|gb|ARG84477.1| hypothetical protein E613_03450 [Pseudomonas aeruginosa]</Hit_def>
+  <Hit_accession>KHE34226</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000889553</Hsp_evalue>
+      <Hsp_query-from>353</Hsp_query-from>
+      <Hsp_query-to>630</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>MLALAAGVTGGMMTMGGGVLQVAGMMVFF---GYGMYLIRPVVFLTNV--VVYGA--AALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLL----GLFALIMAGKAVLEILQPNAGEDTAEAIAAAEAGDEMDELMALAEGTTRPKTSGIALPEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPV----TLALVMIPGAYVG--------GILGARLMRVLPVRVLKGIYAATMAAIAIKMLT</Hsp_qseq>
+      <Hsp_hseq>VLGACAGVLAGLFGVGGGLIIVPALVFSFTAHGFGGDVLTQMAVGTSLATIVFTSINSILEHHRRGAVRW----PVFAWMTLGILVGSALGALTAAQIKGPLLQKIIGVFAILVALQMVLD-LKPKGNREV-------------------------PGKGGLTLA---------GAVIGWASAIFGIGGGSLTVPFLSW-RSVPMQQAVATSSACGLPIAISGA-LSFIAVG------WHNPQLPEWSLGYVYLP-ALVGIAATSMLFARFGARLAHRLSPRVLKRLFALLLFSVGISFLT</Hsp_hseq>
+      <Hsp_midline>+L   AGV  G+  +GGG++ V  ++  F   G+G  ++  +   T++  +V+ +  + L + +   V+W    P+  W   G+++G  +G      + G LL    G+FA+++A + VL+ L+P    +                          P   G+ L          G  +G  S I GI GG + VP   +   + +Q A+A SS      +++G+ ++FI  G      W  P     +L  V +P A VG           GARL   L  RVLK ++A  + ++ I  LT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|497338655|ref|WP_009652868.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Enterobacteriaceae] &gt;gi|402281797|gb|EJU30419.1| sulfite exporter TauE/SafE [Klebsiella sp. OBRC7] &gt;gi|575566895|gb|ETX66499.1| hypothetical protein P834_09628 [Citrobacter freundii UCI 31] &gt;gi|721532615|gb|KGY75976.1| membrane protein [Citrobacter freundii] &gt;gi|1044227690|emb|SBZ37244.1| Sulfite exporter TauE/SafE [Klebsiella pneumoniae] &gt;gi|1073975775|gb|AOV15488.1| hypothetical protein BJF97_31175 (plasmid) [Klebsiella sp. LTGPAF-6F] &gt;gi|1103187682|gb|OIZ34027.1| hypothetical protein BEH71_25315 [Citrobacter freundii] &gt;gi|1172788774|gb|ARD68817.1| Sulfite exporter TauE (plasmid) [Citrobacter freundii] &gt;gi|1179882877|gb|ORJ48250.1| anion permease (plasmid) [Kluyvera intermedia]</Hit_def>
+  <Hit_accession>WP_009652868</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00149314</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKM</Hsp_qseq>
+      <Hsp_hseq>GFMTGLLAVGGGFIIVPLLRQFTPLPIHSCIATSLMIVALVSIGGIAVAVIQGATLPL-----PFTLWFVL--SAATGMSIGRRLSQHLPEHIVQKGFSGLLIVVALGM</Hsp_hseq>
+      <Hsp_midline>G  +G+L + GG I VPL R    + + + IA S ++V   S+ G  VA I G +  L     P TL  V+   A  G  +G RL + LP  +++  ++  +  +A+ M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|765454906|ref|WP_044711152.1|</Hit_id>
+  <Hit_def>anion permease [Citrobacter freundii] &gt;gi|763850719|gb|KJC10409.1| permease [Citrobacter freundii] &gt;gi|1100260373|gb|OIK41898.1| permease [Citrobacter freundii]</Hit_def>
+  <Hit_accession>WP_044711152</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.12931</Hsp_evalue>
+      <Hsp_query-from>359</Hsp_query-from>
+      <Hsp_query-to>464</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>GVTGGMMTMGGGVLQVAGMMVFFGYGMYL---IRPVVFLTNVVVYGAAALRNDKAQLVQWDKVKPLIPWGVAGVVIGYFIGNAIGDSVVGVLLGLFALIMAGKAVLEIL</Hsp_qseq>
+      <Hsp_hseq>GIVAALLGVAGGELLIPTIVIIFGADIRLAGSLSLMISLPTMVVGFSRYTNADAFQVLK--KEKPLFIW----MVIGSIIGAAIG----GLMLGLFPI----KALMTIL</Hsp_hseq>
+      <Hsp_midline>G+   ++ + GG L +  +++ FG  + L   +  ++ L  +VV  +     D  Q+++  K KPL  W    +VIG  IG AIG    G++LGLF +    KA++ IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>104662</Statistics_db-num>
+      <Statistics_db-len>34625946</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

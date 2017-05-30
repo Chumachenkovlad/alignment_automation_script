@@ -1,0 +1,2506 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1043549667|ref|WP_065392616.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine peptidase [Gammaproteobacteria] &gt;gi|1043503981|gb|OCA62576.1| serine peptidase [Aeromonas hydrophila] &gt;gi|1062420373|gb|AOM01963.1| serine peptidase [Cobetia marina]</Hit_def>
+  <Hit_accession>WP_065392616</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>2.24376e-32</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>GQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALD-------EVGWL-----PTSTAEGPAMGLVAMQRPMGVGVGAAGPVIAAG</Hsp_qseq>
+      <Hsp_hseq>GQEMPEFFKHFFGDQFPGQGRGGIEKRSSLGSGFIISDDGYIMTNAHVVDGADEVMVRLND---RRELKAQVVGEDKKTDIALLKVKAD-DLPTLPMGDSDALEVGQWVAAIGSPFGFDHSVTAGIVSAIDRTLPSD--AYVPFIQTDVAINPGNSGGPLFDLEGDVVGINSQIYTRSGGFMGVSFAIPINVAMDVADKLKTDGRVDRGWLGVVIQPVSKDLAESFGLDRARGALIADLDPDGPAAASG</Hsp_hseq>
+      <Hsp_midline>GQ MP+       D  P           ++G+G I+ +DG+I+TN HVV GA+ V V + D         ++V  D+  D+ALLK+     L    +GDSDA+ V   V AIG+PFG D +V+ GI+SA  +T+  +   +   +QTD AIN GNSGGPL    G VVGIN+ IYT +G F G+ FA+P N A   A         + GWL     P S     + GL   +  +   +   GP  A+G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.82617e-09</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQPVSKDLAESFGLDRARGALIADLDPDGPAAASGLKAGDIIMAVDGDEVETSANLPRMVGASSPGDSLKLSILRDGKHQT---------LQAKVGHWPGSD-------------QDKIAAASNDKQGLGIAV-TELGKAALADM-------NLDNGVKVLEVDPQGVAAEAGITAGDVLVELNQQPLTSVQSLRDVV-AKLPADRPVSLRLVRNGRPLYIAL</Hsp_hseq>
+      <Hsp_midline>LG  + P+++ L     L   RG  +  + P+ PAA++GL+ GD+I+ VDG  V     +  ++     G S+++ +LR G             L A V   P +              Q  I     +   LG+ + T +    +  M           G +V EV     AA AG+ A D+++E+N +P+TS   L   + A   A + + L++ RNG+  +I L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.320535</Hsp_evalue>
+      <Hsp_query-from>528</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>PGSDQDKIAAASNDKQGL-GIAVTELGK--AALADMNLDNGVKVLEVDPQGVAAEAGITAGDVLVELNQQPLTSVQSLRDVVAKLPADRPVSLRLVRNG</Hsp_hseq>
+      <Hsp_midline>P   Q  +A +   +  L G A+T L +     A++    GV V  V P   AA AG+  GDV+++++ +P+   + +  ++A++P  R V + ++R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489280752|ref|WP_003188388.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-alkenal reductase [Pseudomonas] &gt;gi|387159470|gb|AFJ54669.1| serine protease AlgW [Pseudomonas fluorescens A506] &gt;gi|388002280|gb|EIK63609.1| serine protease AlgW [Pseudomonas fluorescens SS101] &gt;gi|515437354|gb|EPJ85573.1| hypothetical protein CFT9_09055 [Pseudomonas sp. CFT9] &gt;gi|515458253|gb|EPL06716.1| hypothetical protein CF150_25234 [Pseudomonas sp. CF150] &gt;gi|567817400|gb|ETK38803.1| 2-alkenal reductase [Pseudomonas fluorescens FH5] &gt;gi|646237837|gb|AIB40196.1| 2-alkenal reductase [Pseudomonas sp. WCS374] &gt;gi|946247825|gb|KRC99341.1| 2-alkenal reductase [Pseudomonas sp. Root9] &gt;gi|949217776|gb|KRP78792.1| 2-alkenal reductase [Pseudomonas sp. DSM 29167] &gt;gi|962126150|gb|KTC26046.1| 2-alkenal reductase [Pseudomonas sp. ICMP 19500] &gt;gi|1065861923|gb|OEC35443.1| 2-alkenal reductase [Pseudomonas sp. AP42] &gt;gi|1070903171|gb|AOS77268.1| 2-alkenal reductase [Pseudomonas fluorescens] &gt;gi|1085803770|emb|SDT12657.1| serine protease DegS [Pseudomonas sp. bs2935] &gt;gi|1088393575|gb|OHC34326.1| 2-alkenal reductase [Pseudomonadales bacterium RIFCSPLOWO2_12_60_38] &gt;gi|1088396143|gb|OHC36816.1| 2-alkenal reductase [Pseudomonadales bacterium RIFCSPLOWO2_12_FULL_59_450] &gt;gi|1104094293|emb|SFX45036.1| serine protease DegS [Pseudomonas sp. NFR02] &gt;gi|1104098924|emb|SFX67233.1| serine protease DegS [Pseudomonas sp. NFPP02] &gt;gi|1113035225|gb|OJT29152.1| 2-alkenal reductase [Pseudomonas sp. FSL W5-0203] &gt;gi|1119495555|gb|OKO46313.1| 2-alkenal reductase [Pseudomonas sp. BTN1] &gt;gi|1121024303|gb|OKP65307.1| 2-alkenal reductase [Pseudomonas fluorescens] &gt;gi|1152546311|gb|OOW06039.1| 2-alkenal reductase [Pseudomonas sp. MF6394] &gt;gi|1153214005|gb|OPB33982.1| 2-alkenal reductase [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>OKP65307</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>4.12046e-31</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>390</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>PTTRSVEN-IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGM-THSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV-------GWL-----PTSTAEGPAMGLVAMQRPMGVGVGAAGPVIAAGTP----------SPHVDGRQNMD</Hsp_qseq>
+      <Hsp_hseq>PKQRRMESSLGSGVIMSPEGYILTNNHVTTGADQIVVALRDGRETL---ARVVGSDPETDLAVLKIDLK-NLPAITLGRSDGLRVGDVALAIGNPFGVGQTVTMGIISATGRNQL--GLNSYEDFIQTDAAINPGNSGGALVDANGNLTGINTAIFSKSGGSQGIGFAIPVKLAMEVMKSIIEHGQVIRGWLGIEVQPLTKELAESFGLTGRPGIVVAGIFRDGPAQKAGLQLGDVILSIDGAPAGDGRKSMN</Hsp_hseq>
+      <Hsp_midline>P  R +E+ +G+GVI+  +G+I+TN HV  GA+ + V ++D   ++     +V  D   DLA+LKI  K  L A  LG SD + V D  +AIG PFG+  TV+ GIISA  +  +  G+ ++ + +QTDAAIN GNSGG LV ANG + GINTAI++ +G   GIGFA+P   A       +       GWL     P +     + GL      +  G+   GP   AG            +P  DGR++M+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00328528</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>632</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMS</Hsp_qseq>
+      <Hsp_hseq>LGIEVQPLTKELAESFGLTGRPGIVVAGIFRDGPAQKAGLQLGDVILSIDGAPAGDGRKSMNQVARIKPTDKVAILVMRNGKEIKLS</Hsp_hseq>
+      <Hsp_midline>LG  + PLT+ L     L    G+ V G+  + PA  AGL+ GDVIL +DG P     +    +A +     V I V+R G    +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|739135647|ref|WP_037000603.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 2-alkenal reductase [Pseudomonas] &gt;gi|610712488|gb|EZH81858.1| 2-alkenal reductase [Pseudomonas pseudoalcaligenes AD6] &gt;gi|1098292794|emb|SFO69159.1| serine protease DegS [Pseudomonas composti]</Hit_def>
+  <Hit_accession>EZH81858</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.32037e-30</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>DGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGM-THSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>DNLPR----QQRMESSLGSAVLMSREGYLLTNNHVVSGADQIVVALKDGRETL---ARVIGSDPETDLAVLKIDLP-NLPAITLGRSDRIRIGDVSLAIGNPFGVGQTVTMGIISATGRNQL--GLNTYEDFIQTDAAINPGNSGGALVDAHGNLVGINTAIFSKSGGSQGIGFAIPVKLA</Hsp_hseq>
+      <Hsp_midline>D LPR      R   ++G+ V++  +G+++TN HVV GA+ + V +KD   ++     ++  D   DLA+LKI     L A  LG SD + + D  +AIG PFG+  TV+ GIISA  +  +  G+ T+ + +QTDAAIN GNSGG LV A+G +VGINTAI++ +G   GIGFA+P   A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>6.78657e-06</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>632</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMS</Hsp_qseq>
+      <Hsp_hseq>LGVEVQPLTPELAESFGLDGRPGIVVAGVYRDGPAQKAGLQPGDLILSIDGEPASDGRRSMNQVARTKPGDKIRIEVLRNGKSLDLT</Hsp_hseq>
+      <Hsp_midline>LG  + PLT  L     L    G+ V GV  + PA  AGL+PGD+IL +DG P          +A    G  +RI VLR G   +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|739136432|ref|WP_037001380.1|</Hit_id>
+  <Hit_def>serine peptidase, partial [Pseudomonas pseudoalcaligenes] &gt;gi|610711467|gb|EZH80875.1| serine peptidase, partial [Pseudomonas pseudoalcaligenes AD6]</Hit_def>
+  <Hit_accession>EZH80875</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>3.45164e-29</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PRNPGGRQREAQSLGSGFIISPDGYIMTNNHVVADADEIIVRLSD---RSELEAKLIGADPRSDVALLKVEAK-DLPVVRLGKADDLKVGEWVLAIGSPFGFDHSVTAGIVSAKGRNLPSD--SYVPFIQTDVAINPGNSGGPLFNLQGEVVGINSQIFTRSGGFMGLSFAIP</Hsp_hseq>
+      <Hsp_midline>PR      R  +++G+G I+  DG+I+TN HVV  A+ + V + D         +++  D   D+ALLK+  K  L    LG +D + V + V+AIG+PFG D +V+ GI+SAK + +  +  ++   +QTD AIN GNSGGPL    G VVGIN+ I+T +G F G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.229188</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVNKDLAESFGLDKPAGALVAQVLEDGPADKGGLQVGDVILSLNGKPIIMSADLPHLVGGLKPGEKAELDVVRDGSRKKLDVTVG</Hsp_hseq>
+      <Hsp_midline>LG  +  + + L     L    G  V  V  + PA   GL+ GDVIL ++G+P+    ++  ++  +  G    + V+R G    + +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504530263|ref|WP_014717365.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine peptidase [Pseudomonas] &gt;gi|387160784|gb|AFJ55983.1| serine protease MucD [Pseudomonas fluorescens A506] &gt;gi|515433603|gb|EPJ81753.1| putative exported heat-shock adaptation serine protease [Pseudomonas sp. CFT9] &gt;gi|515465478|gb|EPL14023.1| putative exported heat-shock adaptation serine protease [Pseudomonas sp. CF150] &gt;gi|567819389|gb|ETK40691.1| serine peptidase [Pseudomonas fluorescens FH5] &gt;gi|646238681|gb|AIB41040.1| serine peptidase [Pseudomonas sp. WCS374] &gt;gi|946242042|gb|KRC93626.1| serine peptidase [Pseudomonas sp. Root9] &gt;gi|949234501|gb|KRP95402.1| serine peptidase [Pseudomonas sp. DSM 28142] &gt;gi|962129639|gb|KTC29280.1| serine peptidase [Pseudomonas sp. ICMP 19500] &gt;gi|984320712|gb|KWV70095.1| putative periplasmic serine endoprotease DegP-like precursor [Pseudomonas fluorescens] &gt;gi|984323926|gb|KWV73241.1| putative periplasmic serine endoprotease DegP-like precursor [Pseudomonas fluorescens] &gt;gi|984333267|gb|KWV82483.1| putative periplasmic serine endoprotease DegP-like precursor [Pseudomonas fluorescens] &gt;gi|984338187|gb|KWV87151.1| putative periplasmic serine endoprotease DegP-like precursor [Pseudomonas fluorescens] &gt;gi|1065877559|gb|OEC50606.1| serine peptidase [Pseudomonas sp. AP42] &gt;gi|1070898810|gb|AOS72907.1| serine peptidase [Pseudomonas fluorescens] &gt;gi|1085803069|emb|SDS93282.1| serine protease Do [Pseudomonas sp. bs2935] &gt;gi|1088391887|gb|OHC32703.1| serine peptidase [Pseudomonadales bacterium RIFCSPLOWO2_12_60_38] &gt;gi|1088396602|gb|OHC37233.1| serine peptidase [Pseudomonadales bacterium RIFCSPLOWO2_12_FULL_59_450] &gt;gi|1104094943|emb|SFX63918.1| serine protease Do [Pseudomonas sp. NFR02] &gt;gi|1104099348|emb|SFX59483.1| serine protease Do [Pseudomonas sp. NFPP02] &gt;gi|1113034809|gb|OJT28759.1| serine peptidase [Pseudomonas sp. FSL W5-0203] &gt;gi|1119496690|gb|OKO47427.1| serine peptidase [Pseudomonas sp. BTN1] &gt;gi|1121034086|gb|OKP74872.1| serine peptidase [Pseudomonas fluorescens] &gt;gi|1152533263|gb|OOV93096.1| serine peptidase [Pseudomonas sp. MF6394] &gt;gi|1153213185|gb|OPB33209.1| serine peptidase [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>OKP74872</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>5.17578e-29</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>PAPVVSGGPFTGVVTLLRNSVVSVTASSS------GGQVMPDPLGL------VNPDGLPRFANPT----TRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP-------SNQARLFALDEVGWL</Hsp_qseq>
+      <Hsp_hseq>PAQAVELPDFTQLVEQASPAVVNISTTQKLPDRKVSNQQMPDLEGLPPMLREFFERGMPQPRSPRGGGGQREAQSLGSGFIISPDGYILTNNHVIADADEILVRLAD---RSELKAKLIGTDPRSDVALLKIDGK-DLPVLKLGKSQDLKAGQWVVAIGSPFGFDHTVTQGIVSAIGRSLPNE--NYVPFIQTDVPINPGNSGGPLFNLAGEVVGINSQIYTRSGGFMGVSFAIPIDVAMDVSNQLKSGGKVSRGWL</Hsp_hseq>
+      <Hsp_midline>PA  V    FT +V     +VV+++ +          Q MPD  GL          G+P+  +P      R  +++G+G I+  DG+I+TN HV+  A+ + V + D         +++  D   D+ALLKI  K  L    LG S  +     V+AIG+PFG D TV++GI+SA  +++  E   +   +QTD  IN GNSGGPL    G VVGIN+ IYT +G F G+ FA+P       SNQ +       GWL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.31868e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVNKDLAESFGLDKPAGALVAQIQDNGPAAKGGLKVGDVILSMNGQPIIMSADLPHLVGALKAGGKAKLEVIRDGKRQNVELTVGAIPEEGATLDA-------LGNAK---------PGAERSSNRLGIAVVELTAEQ--------KKTFDLQSGVVIKEVQDGP-AALIGLQPGDVITHLNNQAIDTTKEF-ADIAKALPKNRSVSMRVLRQGRASFITF</Hsp_hseq>
+      <Hsp_midline>LG  +  + + L     L    G  V  +  N PAA  GL+ GDVIL ++G+P+    ++  ++  +  G   ++ V+R G   N+ L  G      A + A        G A          P      N LG+ +    A Q                G  + EV  G  AA+ GLQ  D+I  +NN+ + +     A I  A    + + ++V R G+  +I  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00121783</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GGSRAS-LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>GAERSSNRLGIAVVELTAEQKKTFDLQSG--VVIKEVQ-DGPAALIGLQPGDVITHLNNQAIDTTKEFADIAKALPKNRSVSMRVLRQGRASFITF</Hsp_hseq>
+      <Hsp_midline>G  R+S  LG A+  LT       +L +G  V +  V  + PAA  GL+PGDVI  ++ + +   +E A I   +P  RSV + VLR G  S ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|491483999|ref|WP_005341740.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas veronii] &gt;gi|404627485|gb|EKB24286.1| protease Do [Aeromonas veronii AMC34]</Hit_def>
+  <Hit_accession>WP_005341740</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>2.29126e-27</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVTLKD---GREYAAKKIGEDKQSDIALLQIKAE-ELVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + VT+KD      Y+ + +  D+  D+ALL+I  + +L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>4.51215e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGAGKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSPAAASGLQKGDIIIGVNRLRINTLGELSKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+PV    E+ A +A M  G+ V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|754659238|ref|WP_042041895.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas rivuli]</Hit_def>
+  <Hit_accession>WP_042041895</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>3.03818e-27</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVIHEADEIKVSLKD---GREFTAKKIGEDKQSDIALLQIKAD-DLTAIKLADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HV+  A+ + V++KD      ++ + +  D+  D+ALL+I     LTA  L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>2.76171e-08</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGAELTSDLAKTFGSTKQNGAFVNQVMPGSSADKAGIKAGDIISSIDGKPIRSFGELRAKIATMGAGKQVTLGIVRDGKEQSVKVT---------LKQADDSEVRASALHPALEGA-----KLSTTTD----------------------PVA----GVAVSEIDPRSPAAASGLQKGDIIIGVNRLRVNALADLTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG     LT  L          G FVN V P + A  AG++ GD+I  +DG+P+    E+ A +A M  G+ V +G++R G   ++ +          + QA  + V  +   P + G      K+ T  +                      PVA    G  V+E+   S AA +GLQ  D+II VN   V + A L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|754611926|ref|WP_042001515.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas bivalvium]</Hit_def>
+  <Hit_accession>WP_042001515</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>4.15394e-27</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVIHEADEIKVSLKD---GREFTAKKIGEDKQSDIALLQIKSD-DLTAIKLADSDDLRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HV+  A+ + V++KD      ++ + +  D+  D+ALL+I     LTA  L DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.7493e-07</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGAELTSDLAKTFGSTKQNGAFVNQVMPGSAADKAGIKAGDIISSIDGKAIRSFGELRAKIATMGAGKQVILGIVRDGKEESVKV---------TLKQADDSEVRASALHPALEG-----AKLST-------------TTDPVTGVA-------------VSDIDARSPAAASGLQKGDVIIGVNRLRVNTLADLTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG     LT  L          G FVN V P + A  AG++ GD+I  +DG+ +    E+ A +A M  G+ V +G++R G   ++ +          + QA  + V  +   P + G      K+ T                PV G+              V+++ A S AA +GLQ  D+II VN   V + A L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|492573943|ref|WP_005891069.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas molluscorum] &gt;gi|485944330|gb|EOD56960.1| DegQ serine protease [Aeromonas molluscorum 848]</Hit_def>
+  <Hit_accession>WP_005891069</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>5.73129e-27</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVIHEADEIKVSLKD---GREFTAKKIGEDKQSDIALLQIKAD-DLTAIKMADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HV+  A+ + V++KD      ++ + +  D+  D+ALL+I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>3.72793e-07</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGAELTSDLAKTFGSTKQNGAFVNQVMPGSSADKAGIKAGDIISSIDGKAIRSFGELRAKIATMGAGKQVTLGIVRDGKEESVKVT---------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVA----GVAVSEIDPRSPAAATGLQKGDVIIGVNRLRVNALADLTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG     LT  L          G FVN V P + A  AG++ GD+I  +DG+ +    E+ A +A M  G+ V +G++R G   ++ +          + QA  + V  +   P + G      K+ T  +                      PVA    G  V+E+   S AA  GLQ  D+II VN   V + A L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1057710589|ref|WP_068978370.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas sp. EERV15]</Hit_def>
+  <Hit_accession>WP_068978370</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>8.07641e-27</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLSLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L++  G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>8.66383e-08</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPGSSADKAGIKAGDIIISIDGKAVRSFGELRAKIATMGAGKQVELGLIRDGK---------PQSVKVTLKQADDTEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVTDIDPRSPAAASGLQKGDIIIGVNRLRINALGDLTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG   T LT  +          G FVN V P + A  AG++ GD+I+ +DG+ V    E+ A +A M  G+ V +G++R G          P  +   + QA    V  +   P + G      K+ T  +                      PV+    G  V ++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|515981964|ref|WP_017412547.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas salmonicida]</Hit_def>
+  <Hit_accession>WP_017412547</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.25526e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTYGIVSALGRSGLKIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.14787e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGSELTSDIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEETVKVM---------LKKADDSEILASVLHPALEG-----AKLST-------------TSEPVTGVA-------------VSDIAARSPAAASGLQKGDIIIGVNRLRVNSLAELTKALKNKPDV---LALNIQRGESSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   + LT  +          G FVN V P++ AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + ++         + +A  + ++ +   P + G      K+ T               +PV G+              V+++ A S AA +GLQ  D+II VN   V S A L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|953819835|ref|WP_058053453.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas allosaccharophila] &gt;gi|953669297|gb|KRW55469.1| serine endoprotease DegQ [Aeromonas allosaccharophila]</Hit_def>
+  <Hit_accession>WP_058053453</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.33861e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>5.05435e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGAGKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSPAAASGLQKGDIIIGVNRLRINTLGELTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+PV    E+ A +A M  G+ V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|696657470|ref|WP_033138187.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas finlandiensis]</Hit_def>
+  <Hit_accession>WP_033138187</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.33861e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIQFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>6.27797e-08</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPGSAADKAGIKAGDIIVSIDGKAVRSFGELRAKIATMGAGKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSAAAASGLQKGDIIIGVNRLRINTLGELTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG   T LT  +          G FVN V P + A  AG++ GD+I+ +DG+ V    E+ A +A M  G+ V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|538453983|gb|ERF62252.1|</Hit_id>
+  <Hit_def>serine protease [Aeromonas veronii Hm21]</Hit_def>
+  <Hit_accession>ERF62252</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.39383e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.59521e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>221</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGAGKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLST-------------TTDPVSGVA-------------VADIDPRSPAAASGLQKGDIIIGVNRLRINTLGELTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+PV    E+ A +A M  G+ V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T                PV G+              VA++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|966358027|ref|WP_058406372.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas salmonicida] &gt;gi|961705183|gb|KTA94162.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. smithia]</Hit_def>
+  <Hit_accession>WP_058406372</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.42749e-26</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>ISVSGKKITRQRLPEQFRFFFGPNLPD-EQVSEQPFQALGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+SV+      Q +P+         LP     + +  + +G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.62581e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGSELTSDIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEETVKVM---------LKKADDSEILASVLHPALEG-----AKLST-------------TSEPVTGVA-------------VSDIAARSPAAASGLQKGDIIIGVNRLRVNSLAELTKALKNKPDV---LALNIQRGESSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   + LT  +          G FVN V P++ AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + ++         + +A  + ++ +   P + G      K+ T               +PV G+              V+++ A S AA +GLQ  D+II VN   V S A L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|754655804|ref|WP_042039074.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas popoffii]</Hit_def>
+  <Hit_accession>WP_042039074</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.44066e-26</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>TTRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>SERPFQALGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDRQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+ R  + +G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D   D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.00023254</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPGSAAAKAGIKAGDIIISIDGKAIRSFGELRAKIATMGADKQVSLGLIRDGKEQTVKVI---------LKKADDSEILASALHPALEG-----AKLST-------------TTEPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRLHINSLEELTKALKNKP---EVLALNIQRGESSLYLVL</Hsp_hseq>
+      <Hsp_midline>G  R   LG   T LT  +          G FVN V P + AA AG++ GD+I+ +DG+ +    E+ A +A M   + V +G++R G    + ++         + +A  + ++ +   P + G      K+ T               +PV G+              V+++   S AA +GLQ  D+II VN   + S   L  A+K      + + L + R     ++VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|516395550|ref|WP_017784948.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_017784948</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.52226e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.23849e-08</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGIIGTELTSEVAKTFGYNKKDGAFVNQVMPGSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TSEPVSGVA-------------VSEIDPRSPAAASGLQKGDVIIGVNRLRINSLEELSKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P + AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T               +PV G+              V+E+   S AA +GLQ  D+II VN   + S   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|696589419|ref|WP_033115444.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas lacus]</Hit_def>
+  <Hit_accession>WP_033115444</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.55048e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVRDLADQIVKY</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R  A   V +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.95832e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPGSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGAGKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSAAAASGLQKGDIIIGVNRVRINTLGELTKALKSKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P + A  AG++ GD+I+ +DG+PV    E+ A +A M  G+ V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + +   L  A+K+       + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|516393012|ref|WP_017782411.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_017782411</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.60848e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>9.98256e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGIIGTELTSEVAKTFGYNKKDGAFVNQVMPDSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TSEPVSGVA-------------VSEIDPRSPAAASGLQKGDVIIGVNRLRINSLEELSKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T               +PV G+              V+E+   S AA +GLQ  D+II VN   + S   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|491448120|ref|WP_005305907.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Aeromonas] &gt;gi|9945004|gb|AAG03073.1|AF293977_1 htrA-like serine protease [Aeromonas hydrophila] &gt;gi|404630242|gb|EKB26943.1| protease Do [Aeromonas hydrophila SSU] &gt;gi|604188194|gb|AHV37637.1| serine endoprotease DegQ [Aeromonas hydrophila YL17] &gt;gi|848281676|gb|KMK92042.1| serine endoprotease DegQ [Aeromonas enteropelogenes] &gt;gi|1039460194|gb|OBR44938.1| serine endoprotease DegQ [Aeromonas dhakensis]</Hit_def>
+  <Hit_accession>WP_005305907</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.63829e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.1578e-08</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGIIGTELTSEVAKTFGYNKKDGAFVNQVMPDSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TSEPVSGVA-------------VSEIDPRSPAAASGLQKGDVIIGVNRLRINSLEELSKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T               +PV G+              V+E+   S AA +GLQ  D+II VN   + S   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|752538631|ref|WP_041210133.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Aeromonas] &gt;gi|756562449|gb|KIQ80362.1| serine endoprotease DegQ [Aeromonas sp. L_1B5_3]</Hit_def>
+  <Hit_accession>WP_041210133</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.68405e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVRDLADQIVKY</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R  A   V +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.5136e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGAGKQVELGLIRDGKAQSAKV---------TLKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSAAAASGLQKGDIIIGVNRVRINTLGELTKALKSKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+PV    E+ A +A M  G+ V +G++R G   +  +          + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + +   L  A+K+       + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|754668778|ref|WP_042049868.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas dhakensis]</Hit_def>
+  <Hit_accession>WP_042049868</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.69958e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>7.0419e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGIIGTELTSEVAKTFGYNKKDGAFVNQVMPDSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TSEPVTGVA-------------VSEIDPRSPAAASGLQKGDVIIGVNRLRINSLEELSKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T               +PV G+              V+E+   S AA +GLQ  D+II VN   + S   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|760140640|ref|WP_043821891.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas veronii]</Hit_def>
+  <Hit_accession>WP_043821891</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>1.71526e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.43984e-08</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGAGKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSPAAASGLQKGDIIIGVNRLRINTLGGLTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+PV    E+ A +A M  G+ V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|491456597|ref|WP_005314377.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas salmonicida] &gt;gi|142850192|gb|ABO88513.1| DegQ serine protease [Aeromonas salmonicida subsp. salmonicida A449] &gt;gi|356688084|gb|EHI52649.1| DegQ serine protease [Aeromonas salmonicida subsp. salmonicida 01-B526] &gt;gi|612336976|dbj|GAJ49026.1| periplasmic serine endoprotease DegQ [Aeromonas salmonicida subsp. masoucida NBRC 13784] &gt;gi|726076528|gb|KHE96190.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|726081787|gb|KHF01232.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|760175929|gb|KIX24116.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|961691852|gb|KTA81293.1| serine endoprotease DegQ [Aeromonas salmonicida] &gt;gi|961693145|gb|KTA82562.1| serine endoprotease DegQ [Aeromonas salmonicida] &gt;gi|961699169|gb|KTA88346.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1009558870|gb|KYN72627.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028010732|gb|OAH64745.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028028713|gb|OAH82284.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028034846|gb|OAH88197.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1028036653|gb|OAH89937.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114451803|gb|OKA74915.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114455810|gb|OKA78794.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114457100|gb|OKA80037.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114467919|gb|OKA90458.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114471222|gb|OKA93684.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114471696|gb|OKA94154.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114478536|gb|OKB00752.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114481627|gb|OKB03780.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114485013|gb|OKB07092.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1114496011|gb|OKB17743.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida] &gt;gi|1179820645|gb|ORJ13601.1| serine endoprotease DegQ [Aeromonas salmonicida] &gt;gi|1179824026|gb|ORJ16320.1| serine endoprotease DegQ [Aeromonas salmonicida] &gt;gi|1186232987|gb|OSM52804.1| serine endoprotease DegQ [Aeromonas salmonicida subsp. salmonicida]</Hit_def>
+  <Hit_accession>WP_005314377</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.76316e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.53565e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGSELTSDIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEETVKVM---------LKKADDSEILASVLHPALEG-----AKLST-------------TSEPVTGVA-------------VSDIAARSPAAASGLQKGDIIIGVNRLRVNSLAELTKALKNKPDV---LALNIQRGESSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   + LT  +          G FVN V P++ AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + ++         + +A  + ++ +   P + G      K+ T               +PV G+              V+++ A S AA +GLQ  D+II VN   V S A L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|491478554|ref|WP_005336295.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Aeromonas] &gt;gi|404613886|gb|EKB10899.1| protease Do [Aeromonas veronii AER397] &gt;gi|404616812|gb|EKB13754.1| protease Do [Aeromonas veronii AER39] &gt;gi|404628726|gb|EKB25501.1| protease Do [Aeromonas veronii AMC35] &gt;gi|953576959|gb|KRV64971.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953584304|gb|KRV72178.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953597758|gb|KRV85279.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953598304|gb|KRV85815.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953603786|gb|KRV91233.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953611519|gb|KRV98753.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953619427|gb|KRW06508.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953620372|gb|KRW07416.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953629345|gb|KRW16223.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953629822|gb|KRW16694.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953639287|gb|KRW25985.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953644092|gb|KRW30662.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953646323|gb|KRW32853.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953649947|gb|KRW36397.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953654529|gb|KRW40903.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953660052|gb|KRW46352.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|953661075|gb|KRW47356.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|1006068319|gb|AMQ41413.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|1024204690|gb|KZW94817.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|1024271429|gb|ANB53766.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|1024308881|gb|ANB67608.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|1065872955|gb|OEC46212.1| serine endoprotease DegQ [Aeromonas sp. DNP9] &gt;gi|1065883381|gb|OEC56336.1| serine endoprotease DegQ [Aeromonas sp. ANNP30] &gt;gi|1065893220|gb|OEC65916.1| serine endoprotease DegQ [Aeromonas sp. ANP5] &gt;gi|1120840164|gb|OKP36490.1| serine endoprotease DegQ [Aeromonas veronii bv. veronii] &gt;gi|1120844730|gb|OKP40962.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|1120850005|gb|OKP46166.1| serine endoprotease DegQ [Aeromonas allosaccharophila] &gt;gi|1125645736|gb|OLF22021.1| serine endoprotease DegQ [Aeromonas sp. YN13HZO-058] &gt;gi|1125689064|gb|OLF58283.1| serine endoprotease DegQ [Aeromonas veronii] &gt;gi|1131977214|emb|SIQ59088.1| serine protease DegQ [Aeromonas veronii]</Hit_def>
+  <Hit_accession>WP_005336295</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.82911e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>5.27982e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGAGKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSPAAASGLQKGDIIIGVNRLRINTLGELTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+PV    E+ A +A M  G+ V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|749068002|ref|WP_040096291.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas australiensis]</Hit_def>
+  <Hit_accession>WP_040096291</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.84598e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>9.52102e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGSELTSDIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIVSIDGKSVRSFGELRAKIATMGSGKQVELGLIRDGKAQSVKV---------TLKQADDTEVRASALHPALEG-----AKLST-------------TTEPVSGVV-------------VSDIAARSPAAASGLQKGDIIIGVNRLRINTLGELSKALKSKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG   + LT  +          G FVN V P++ AA AG++ GD+I+ +DG+ V    E+ A +A M +G+ V +G++R G   ++ +          + QA    V  +   P + G      K+ T               +PV G+              V+++ A S AA +GLQ  D+II VN   + +   L  A+K+     + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|756832280|ref|WP_042649048.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas media]</Hit_def>
+  <Hit_accession>WP_042649048</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.90993e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPK--VQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAEDLVQITFA---DSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  VQ+T A   DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.96864e-05</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTTDIAKSFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TTDPVTGVA-------------VADIDPRSPAAAAGLQKGDIIIGVNRLRINS---MDELTKALKNKPEVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T                PV G+              VA++   S AA AGLQ  D+II VN   + S   +D   KA     + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|544709901|ref|WP_021140222.1|</Hit_id>
+  <Hit_def>DegQ serine protease [Aeromonas salmonicida] &gt;gi|530712935|gb|EQC03572.1| DegQ serine protease [Aeromonas salmonicida subsp. pectinolytica 34mel]</Hit_def>
+  <Hit_accession>WP_021140222</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.93269e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.98545e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGSELTSDIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEETVKVM---------LKKADDSEILASVLHPALEG-----AKLST-------------TSEPVTGIA-------------VSDIAARSPAAASGLQKGDIIIGVNRLRVNSLAELTKALKNKPDV---LALNIQRGESSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   + LT  +          G FVN V P++ AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + ++         + +A  + ++ +   P + G      K+ T               +PV G+              V+++ A S AA +GLQ  D+II VN   V S A L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|754632983|ref|WP_042019616.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas sobria] &gt;gi|1095540607|gb|OHY94770.1| serine endoprotease DegQ [Aeromonas sobria]</Hit_def>
+  <Hit_accession>WP_042019616</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.95052e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>8.51431e-08</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPGSSADKAGIKAGDIIISIDGKAVRSFGELRAKIATMGAGKQVELGLIRDGK---------PQSVKVTLKQADDTEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVTDIDPRSPAAASGLQKGDIIIGVNRLRINALGDLTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG   T LT  +          G FVN V P + A  AG++ GD+I+ +DG+ V    E+ A +A M  G+ V +G++R G          P  +   + QA    V  +   P + G      K+ T  +                      PV+    G  V ++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|500026882|ref|WP_011707600.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Aeromonas] &gt;gi|117619388|ref|YP_858347.1| serine peptidase DegQ [Aeromonas hydrophila subsp. hydrophila ATCC 7966] &gt;gi|117560795|gb|ABK37743.1| serine peptidase DegQ [Aeromonas hydrophila subsp. hydrophila ATCC 7966] &gt;gi|507223362|gb|AGM45899.1| serine peptidase DegQ [Aeromonas hydrophila ML09-119] &gt;gi|610713777|gb|EZH83106.1| serine endoprotease DegQ [Aeromonas hydrophila AD9] &gt;gi|613734826|gb|AHX34512.1| serine endoprotease DegQ [Aeromonas hydrophila AL09-71] &gt;gi|615571750|gb|AHX71312.1| serine endoprotease DegQ [Aeromonas hydrophila pc104A] &gt;gi|663470651|gb|KER65478.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|721511045|gb|KGY54505.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|722068930|gb|KHA58342.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|725523400|gb|KHE15626.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|734492930|gb|KHN58629.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|748232277|gb|AJE34748.1| serine endoprotease DegQ [Aeromonas hydrophila J-1] &gt;gi|764082886|gb|AJQ56313.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|785808241|gb|AKA15760.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|827370756|gb|AKJ32943.1| serine endoprotease DegQ [Aeromonas hydrophila NJ-35] &gt;gi|958617707|gb|ALQ61771.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|975025845|gb|ALZ78470.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|982541438|gb|KWR65657.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1012448235|gb|KYQ08621.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1012448660|gb|KYQ09044.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1012449900|gb|KYQ10282.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1012459063|gb|KYQ19391.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1043229657|gb|ANR98466.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1043507543|gb|OCA65975.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1044517657|gb|ANT66361.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1053086487|gb|OCY00060.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1053094321|gb|OCY07802.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1053096939|gb|OCY10409.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1061077413|gb|ODM30636.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1078525005|gb|OFC46697.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1078534161|gb|OFC55356.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1112975182|gb|APJ17085.1| serine endoprotease DegQ [Aeromonas aquatica] &gt;gi|1128276139|gb|OLN99502.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1129672806|gb|OLQ71040.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1131967571|emb|SIR00131.1| serine protease DegQ [Aeromonas sp. RU34C] &gt;gi|1131971841|emb|SIR08951.1| serine protease DegQ [Aeromonas hydrophila] &gt;gi|1139508986|gb|ONG12282.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1145725685|gb|OOD35011.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1180859099|gb|ORJ65450.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1187444816|gb|OSO87945.1| serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|1187636988|gb|OSP51870.1| serine endoprotease DegQ [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_011707600</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.98666e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000437208</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TAEPVTGVA-------------VADIDPRSPAAASGLQKGDIIIGVNRLRINSLEELSKALKNKPDV---LALNIQRGESSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+ +    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T               +PV G+              VA++   S AA +GLQ  D+II VN   + S   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|662018570|gb|KEP91315.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas caviae]</Hit_def>
+  <Hit_accession>KEP91315</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>2.03672e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>0.0001203</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVSLGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------ITDPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRQRINSMGELTKVLKNKPEV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T                PV G+              V+++   S AA +GLQ  D+II VN + + S   L   +K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|754624587|ref|WP_042012391.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas fluvialis]</Hit_def>
+  <Hit_accession>WP_042012391</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>2.09915e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>3.82146e-08</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPGSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGADKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSPAAASGLQKGDIIIGVNRLRINSLGELTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P + A  AG++ GD+I+ +DG+PV    E+ A +A M   + V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + S   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1134335375|ref|WP_076575007.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas sp. RU39B] &gt;gi|1131892569|emb|SIQ47500.1| serine protease DegQ [Aeromonas sp. RU39B]</Hit_def>
+  <Hit_accession>WP_076575007</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>2.12942e-26</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>ISVSGKKITRQRLPEPFRYFFGPDMPE-EQVQEQPFQALGSGVIVDAKKGYVITNAHVVHEADEIKVSLKD---GREFKAKKIGEDKQSDIALLQIKAD-NLVQIAIADSDQLRVGDYAVAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALINLKGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+SV+      Q +P+P        +P       +  + +G+GVIV    G+++TN HVV  A+ + V++KD      +  + +  D+  D+ALL+I     L    + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>5.11764e-08</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGIQGTELTSDIAKTFGYDKQYGAFVNQVMPGSAAEKAGIKAGDIIVSIDGKEIRSFGELRAKIATMGAGKQVKLGLIRD---------SKPMDVAVTLKRADDTDVRASVLNPALEG-----AKLST-------------VTDPVSGVA-------------ISEIKDNSPAAATGLQKGDIIIGVNRVRVNNLEELTKVLKTKSDV---LALNIQRGDASLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG   T LT  +          G FVN V P + A  AG++ GD+I+ +DG+ +    E+ A +A M  G+ V++G++R          + P  +A  + +A    V  +   P + G      K+ T                PV G+              ++E+   S AA  GLQ  D+II VN   V +   L   +K  +     + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|328803156|gb|AEB48355.1|</Hit_id>
+  <Hit_def>Serine peptidase DegQ [Aeromonas veronii B565]</Hit_def>
+  <Hit_accession>AEB48355</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>2.20948e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIVDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVIV    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>5.60872e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSDIAKTFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIVSIDGKPVRSFGELRAKIATMGAGKQVELGLIRDGK-SQTAKVT--------LKQADDSEVRASALHPALEG-----AKLSTTTD----------------------PVS----GVAVADIDPRSPAAASGLQKGDIIIGVNRLRINTLGELTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+PV    E+ A +A M  G+ V +G++R G  S  + VT        + QA  + V  +   P + G      K+ T  +                      PV+    G  VA++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|743523214|ref|WP_039040482.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas caviae]</Hit_def>
+  <Hit_accession>WP_039040482</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>2.29491e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>7.34473e-05</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVSLGLIRDGK---------EQSVKVTLKKADDSEILASALHPALEG-----AKLST-------------TTDPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRQRINSMGELTKVLKNKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G             +   + +A  + ++ +   P + G      K+ T                PV G+              V+++   S AA +GLQ  D+II VN + + S   L   +K      + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|754627746|ref|WP_042015057.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Aeromonas] &gt;gi|651304534|gb|KDV03315.1| serine endoprotease DegQ [Aeromonas sp. HZM] &gt;gi|721525654|gb|KGY69056.1| serine endoprotease DegQ [Aeromonas caviae] &gt;gi|899688985|gb|KMY26696.1| serine endoprotease DegQ [Aeromonas caviae] &gt;gi|1067539782|gb|OEG01567.1| serine endoprotease DegQ [Aeromonas caviae] &gt;gi|1067540663|gb|OEG02436.1| serine endoprotease DegQ [Aeromonas caviae] &gt;gi|1113403678|gb|OJW66487.1| serine endoprotease DegQ [Aeromonas sp. 62-46]</Hit_def>
+  <Hit_accession>WP_042015057</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.33744e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>9.35945e-05</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVSLGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TTDPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRQRINSMGELTKVLKNKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T                PV G+              V+++   S AA +GLQ  D+II VN + + S   L   +K      + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|851892030|ref|WP_048208587.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas hydrophila] &gt;gi|838554955|gb|KLV39559.1| hypothetical protein SH16_03028 [Aeromonas hydrophila]</Hit_def>
+  <Hit_accession>WP_048208587</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.35899e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>6.23059e-05</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVSLGLIRDGKEQSVK-VTLKKADDSEILASALHPALEGAKLSTITG--------------------------PVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRQRINSMGELTKVLKNKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G   ++  VT      + ++ +   P +      T+ G                          PV G+              V+++   S AA +GLQ  D+II VN + + S   L   +K      + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|757628028|ref|WP_042867873.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine endoprotease DegQ [Aeromonas] &gt;gi|675523726|gb|KFN18403.1| serine endoprotease DegQ [Aeromonas salmonicida] &gt;gi|1043503843|gb|OCA62441.1| serine endoprotease DegQ [Aeromonas piscicola]</Hit_def>
+  <Hit_accession>WP_042867873</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.43121e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000288677</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKVI---------LKKADDSEILASVLHPALEG-----AKLST-------------TAEPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRLRINS---LDELTKALKNKPEVLALNIQRGESSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+ +    E+ A +A M   + V +G++R G    + ++         + +A  + ++ +   P + G      K+ T               +PV G+              V+++   S AA +GLQ  D+II VN   + S   LD   KA     + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|752542587|ref|WP_041214027.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas caviae] &gt;gi|721527160|gb|KGY70545.1| serine endoprotease DegQ [Aeromonas caviae]</Hit_def>
+  <Hit_accession>WP_041214027</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.46979e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>0.000102057</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVSLGLIRDGK---------EQSVKVTLKKADDSEILASALHPALEG-----AKLST-------------ITDPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRQRINSMGELTKVLKNKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G             +   + +A  + ++ +   P + G      K+ T                PV G+              V+++   S AA +GLQ  D+II VN + + S   L   +K      + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1050873923|gb|OCW47504.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas caviae]</Hit_def>
+  <Hit_accession>OCW47504</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.51556e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000183832</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQISLGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------ITDPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRQRINSMGELTKVLKNKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + + +G++R G    + +          + +A  + ++ +   P + G      K+ T                PV G+              V+++   S AA +GLQ  D+II VN + + S   L   +K      + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|780216600|ref|WP_045522204.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas caviae]</Hit_def>
+  <Hit_accession>WP_045522204</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.53875e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>9.27878e-05</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVSLGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TTDPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRQRINSMGELTKVLKNKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T                PV G+              V+++   S AA +GLQ  D+II VN + + S   L   +K      + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|657199332|ref|WP_029314844.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas caviae] &gt;gi|721535245|gb|KGY78604.1| serine endoprotease DegQ [Aeromonas caviae] &gt;gi|918712847|gb|KOG95282.1| serine endoprotease DegQ [Aeromonas caviae]</Hit_def>
+  <Hit_accession>WP_029314844</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.58579e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000139368</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVSLGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------ITDPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRQRINSMGELTKVLKNKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T                PV G+              V+++   S AA +GLQ  D+II VN + + S   L   +K      + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|954047098|gb|ALP40856.1|</Hit_id>
+  <Hit_def>DegQ serine protease [Aeromonas schubertii]</Hit_def>
+  <Hit_accession>ALP40856</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.59089e-26</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>ISVSGKKITRQRLPEPFRFFFGPDMPA-EQVQEQPFQALGSGVIIDAKKGYVITNAHVVHEADEIKVSLKD---GREFKAKKIGEDKQSDIALLQIKAD-NLVQIQMADSDKLRVGDYAIAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALINFKGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+SV+      Q +P+P        +P       +  + +G+GVI+    G+++TN HVV  A+ + V++KD      +  + +  D+  D+ALL+I     L    + DSD + V D  IAIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>5.95482e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGIQGQELTSDIAKTFGYDKQYGAFVNQVMPGSAADKAGIKAGDIIVSIDGKEIRSFGELRAKIATMGAGKQVKLGLVRDGKLQETTV</Hsp_hseq>
+      <Hsp_midline>G  R   LG     LT  +          G FVN V P + A  AG++ GD+I+ +DG+ +    E+ A +A M  G+ V++G++R G +   ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.210864</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG--QEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GAFVNQVMPGSAADKAGIKAGDIIVSIDGKEIRSFGELRAKI-ATMGAGKQVKLGLVRDGKLQETTVTL</Hsp_hseq>
+      <Hsp_midline>GA V +V+ GS A  AG++A D+I+ ++ + + S   L A I A   AG+Q+ L + R+G  QE  + L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.896957</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>614</Hsp_query-to>
+      <Hsp_hit-from>379</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN</Hsp_qseq>
+      <Hsp_hseq>GVEISDINPRSPAAATGLQKGDIILGINRVRVNNLSELAKVLKQKSD</Hsp_hseq>
+      <Hsp_midline>GV ++ + P +PAA+ GL+ GD+IL ++   V+   E+A ++ +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|754663453|ref|WP_042045437.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas simiae]</Hit_def>
+  <Hit_accession>WP_042045437</Hit_accession>
+  <Hit_len>457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.64242e-26</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>ISVSGKKITRQRLPEPFRFFFGPDMPS-EQVQEQPFQALGSGVIIDTKKGYVITNAHVVHEADEIKVSLKD---GREFTAKKIGEDKQSDIALLQIKAD-NLVQIQMADSDKLRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALINLKGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+SV+      Q +P+P        +P       +  + +G+GVI+    G+++TN HVV  A+ + V++KD      ++ + +  D+  D+ALL+I     L    + DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>3.05761e-07</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGIQGTELTSDIAKTFGYDKQYGAFVNQVMPGSAAEKAGIKAGDIIVSIDGKEIRSFGELRAKIATMGAGKQVKLGLIRDGK---------EQVAAVTLKQADDSDVRADVLHPALDGAK--LSNV----------------SEPVTGV-------------EVSDINPRSAAAASGLQKGDIIIGVNRVRVNNLSELGKVLKPKSDV---LALNIQRGDASLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG   T LT  +          G FVN V P + A  AG++ GD+I+ +DG+ +    E+ A +A M  G+ V++G++R G              A  + QA  + V      P + G +  +  V                 +PV G+             +V+++   S AA +GLQ  D+II VN   V + + L   +K  +     + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|756841591|ref|WP_042653279.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas encheleia]</Hit_def>
+  <Hit_accession>WP_042653279</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.8605e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHDADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>3.6818e-08</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTNEIAKTFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVALGLIRDGK---------EQSVKVTLKKADDSEILASALHPALEG-----AKLST-------------TTEPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRLRINSLGELTKVLKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G             +   + +A  + ++ +   P + G      K+ T               +PV G+              V+++   S AA +GLQ  D+II VN   + S   L   +K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|966345841|ref|WP_058394606.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas salmonicida] &gt;gi|961687420|gb|KTA76999.1| serine endoprotease DegQ [Aeromonas salmonicida]</Hit_def>
+  <Hit_accession>WP_058394606</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>3.32137e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAD-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I     L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.40618e-09</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGSELTSDIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKPGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEETVKVM---------LKKADDSEILASVLHPALEG-----AKLST-------------TSEPVTGVA-------------VSDIAARSPAAASGLQKGDIIIGVNRLRVNSLAELTKALKNKPDV---LALNIQRGESSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   + LT  +          G FVN V P++ AA AG++PGD+I+ +DG+ +    E+ A +A M   + V +G++R G    + ++         + +A  + ++ +   P + G      K+ T               +PV G+              V+++ A S AA +GLQ  D+II VN   V S A L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|754702338|ref|WP_042078459.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas sanarellii]</Hit_def>
+  <Hit_accession>WP_042078459</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>3.34348e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>3.03614e-05</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TTEPVTGVA-------------VADIDPRSPAAASGLQKGDIIIGVNRLRINSMGELTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T               +PV G+              VA++   S AA +GLQ  D+II VN   + S   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|983422922|ref|WP_060587273.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas schubertii]</Hit_def>
+  <Hit_accession>WP_060587273</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>3.43122e-26</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>VSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>ISVSGKKITRQRLPEPFRFFFGPDMPA-EQVQEQPFQALGSGVIIDAKKGYVITNAHVVHEADEIKVSLKD---GREFKAKKIGEDKQSDIALLQIKAD-NLVQIQMADSDKLRVGDYAIAIGNPFGLGQTVTSGIVSALGRSGLNIENF--ENFIQTDAAINSGNSGGALINFKGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+SV+      Q +P+P        +P       +  + +G+GVI+    G+++TN HVV  A+ + V++KD      +  + +  D+  D+ALL+I     L    + DSD + V D  IAIG PFGL  TV+ GI+SA  R  + IE     N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>7.10225e-06</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGIQGQELTSDIAKTFGYDKQYGAFVNQVMPGSAADKAGIKAGDIIVSIDGKEIRSFGELRAKIATMGAGKQVKLGLVRDGKLQETTV</Hsp_hseq>
+      <Hsp_midline>G  R   LG     LT  +          G FVN V P + A  AG++ GD+I+ +DG+ +    E+ A +A M  G+ V++G++R G +   ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.22155</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNG--QEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GAFVNQVMPGSAADKAGIKAGDIIVSIDGKEIRSFGELRAKI-ATMGAGKQVKLGLVRDGKLQETTVTL</Hsp_hseq>
+      <Hsp_midline>GA V +V+ GS A  AG++A D+I+ ++ + + S   L A I A   AG+Q+ L + R+G  QE  + L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.863402</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>614</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPN</Hsp_qseq>
+      <Hsp_hseq>GVEISDINPRSPAAATGLQKGDIILGINRVRVNNLSELAKVLKQKSD</Hsp_hseq>
+      <Hsp_midline>GV ++ + P +PAA+ GL+ GD+IL ++   V+   E+A ++ +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|756824121|ref|WP_042641386.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas eucrenophila]</Hit_def>
+  <Hit_accession>WP_042641386</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>3.63132e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIIDAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAE-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I  +  L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.72484e-08</Hsp_evalue>
+      <Hsp_query-from>535</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>451</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>IVKYGEVRRGQLGITGTELTTDIAKSFGYNKKDGAFVNQVMPDSAADKAGIKAGDIIISIDGKPIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TTEPVTGVA-------------VSDIDPRSPAAASGLQKGDIIIGVNRLRINSLGELTKALKDKP---EVLALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>+   G  R   LG   T LT  +          G FVN V P++ A  AG++ GD+I+ +DG+P+    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T               +PV G+              V+++   S AA +GLQ  D+II VN   + S   L  A+K      + + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|754638925|ref|WP_042025045.1|</Hit_id>
+  <Hit_def>serine endoprotease DegQ [Aeromonas enteropelogenes]</Hit_def>
+  <Hit_accession>WP_042025045</Hit_accession>
+  <Hit_len>453</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>3.70789e-26</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVR-NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAK-RKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>LGSGVIINAKKGYVITNAHVVHEADEIKVNLKD---GREYAAKKIGEDKQSDIALLQIKAD-DLVQIKFADSDELRVGDYALAIGNPFGLGQTVTSGIVSALGRSGLNIENL--ENFIQTDAAINSGNSGGALLNLRGELIGINTAILGPNGGNIGIGFAIPSNMVR</Hsp_hseq>
+      <Hsp_midline>+G+GVI+    G+++TN HVV  A+ + V +KD      Y+ + +  D+  D+ALL+I     L      DSD + V D  +AIG PFGL  TV+ GI+SA  R  + IE +   N +QTDAAIN GNSGG L+   G ++GINTAI  PNG   GIGFA+PSN  R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00158484</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGQLGITGTELTSEIAKTFGYNKKDGAFVNQVMPDSAAAKAGIKAGDIIVSIDGKAIRSFGELRAKIATMGADKQVALGLIRDGKEQTVKV---------TLKKADDSEILASALHPALEG-----AKLST-------------TTEPVSGVA-------------VADIDPRSPAAASGLQKGDIIIGVNRLRINTLGELTKALKNKPDV---LALNIQRGDSSLYLVI</Hsp_hseq>
+      <Hsp_midline>G  R   LG   T LT  +          G FVN V P++ AA AG++ GD+I+ +DG+ +    E+ A +A M   + V +G++R G    + +          + +A  + ++ +   P + G      K+ T               +PV G+              VA++   S AA +GLQ  D+II VN   + +   L  A+K        + L + R     ++V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>398636</Statistics_db-num>
+      <Statistics_db-len>136708912</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

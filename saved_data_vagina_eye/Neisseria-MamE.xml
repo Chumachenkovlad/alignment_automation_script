@@ -1,0 +1,2392 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|496981132|ref|WP_009426609.1|</Hit_id>
+  <Hit_def>serine protease MucD [Neisseria sp. oral taxon 020] &gt;gi|429162725|gb|EKY05019.1| putative serine protease MucD [Neisseria sp. oral taxon 020 str. F0370]</Hit_def>
+  <Hit_accession>WP_009426609</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>1.45766e-33</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQNPDDDKDQNFGSGFIISADGYILTNAHVVSGMNNIKVTLND---KREFSAKLIGSDTPSDLALLKIEA-ADLPTVKIGDAKALRTGEWVAAIGAPFGFENSITAGIVSAKGRSLPDE--SYTPFIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+  NP     +N G+G I+  DG+I+TN HVV G N++ VT+ D      +S +++  D   DLALLKI     L    +GD+ A+   + V AIG PFG + +++ GI+SAK +++  E  +++  +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.010065</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>LGVIIQKVDYNLAKSFGLAKPTGALIAQVLPDGPAAAAGLKQGDVVLRVNGEDVLSSNDLPVMVGSIAPGKEITLTIWRNG</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L     L    G  +  V P+ PAA+AGL+ GDV+L+V+G  V    ++  ++  +  G+ + + + R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1124615829|ref|WP_074897462.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria elongata] &gt;gi|1097051883|emb|SFH10864.1| serine protease Do [Neisseria elongata subsp. elongata]</Hit_def>
+  <Hit_accession>WP_074897462</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>4.74717e-32</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQNPDEDKDQNFGSGFIISANGYILTNAHVVSGMNSIKVTLND---KREFSAKLIGSDTQSDVALLKIEAE-GLPTVKIGDVKTLRIGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+  NP     +N G+G I+  +G+I+TN HVV G NS+ VT+ D      +S +++  D   D+ALLKI  +  L    +GD   + + + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>7.49024e-05</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>TGKVQRGRLGVIIQEVNYNLAKSFGLSKPMGALITQVMPDGPAAQAGLKQGDVVLSVNGEEVRASNDLPVMVGSIAPGKEITLQVWRNGEVIEQKILLDNADKNNGSRSGHT------GGD-----------------DGTNLQNQSFTLDN--IGLTLAEQITGDKHRLLV--LRADKVAAQAGLKRGDYILSVGQNPVTDEASMRGALE---KAGNNIPLLVQRGENTLFLAL</Hsp_hseq>
+      <Hsp_midline>+G  +   LG  +  +   L     L    G  +  V P+ PAA AGL+ GDV+L V+G  V    ++  ++  +  G+ + + V R G+V    ++   +          T      GG                  +   ++ ++F      +G+  A  + G      V  + A   AA AGL+  D I+ V   PVT  A +  A++    AG  I L V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489869043|ref|WP_003772609.1|</Hit_id>
+  <Hit_def>peptidase [Neisseria elongata] &gt;gi|291308250|gb|EFE49493.1| peptidase Do [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>WP_003772609</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.86453e-31</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQDPDEDKDQNFGSGFIISANGYILTNSHVVSGMNSIKVTLND---KREFNAKLIGSDTQSDVALLKIEAE-GLPTVKIGDVKTLRIGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+  +P     +N G+G I+  +G+I+TN HVV G NS+ VT+ D      ++ +++  D   D+ALLKI  +  L    +GD   + + + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>8.7015e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEVNYNLAKSFGLSKPMGALITQVMPDGPAAQAGLKQGDVVLSVNGEEVRASNDLPVMVGSIAPGKEITLQVWRNGEVIEQKILLDNADKNNGSRSGHT------GGD-----------------DGTNLQNQSFTLDN--IGLTLAEQITGDKHRLLV--LRADKVAAQAGLKRGDYILSVGQNPVTDEASMRGALE---KAGNNIPLLVQRGENTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L     L    G  +  V P+ PAA AGL+ GDV+L V+G  V    ++  ++  +  G+ + + V R G+V    ++   +          T      GG                  +   ++ ++F      +G+  A  + G      V  + A   AA AGL+  D I+ V   PVT  A +  A++    AG  I L V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|754567904|ref|WP_041961251.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria elongata] &gt;gi|747147300|gb|AJE17683.1| protease Do [Neisseria elongata subsp. glycolytica ATCC 29315]</Hit_def>
+  <Hit_accession>WP_041961251</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>4.39013e-31</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQDPDEDKDQNFGSGFIISANGYILTNSHVVSGMNSIKVTLND---KREFNAKLIGSDTQSDVALLKIEAE-GLPTVKIGDVKTLRIGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+  +P     +N G+G I+  +G+I+TN HVV G NS+ VT+ D      ++ +++  D   D+ALLKI  +  L    +GD   + + + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>6.99073e-05</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>TGKVQRGRLGVIIQEVNYNLAKSFGLSKPMGALITQVMPDGPAAQAGLKQGDVVLSVNGEEVRASNDLPVMVGSIAPGKEITLQVWRNGEVIEQKILLDNADKNNGSRSGHT------GGD-----------------DGTNLQNQSFTLDN--IGLTLAEQITGDKHRLLV--LRADKVAAQAGLKRGDYILSVGQNPVTDEASMRGALE---KAGNNIPLLVQRGENTLFLAL</Hsp_hseq>
+      <Hsp_midline>+G  +   LG  +  +   L     L    G  +  V P+ PAA AGL+ GDV+L V+G  V    ++  ++  +  G+ + + V R G+V    ++   +          T      GG                  +   ++ ++F      +G+  A  + G      V  + A   AA AGL+  D I+ V   PVT  A +  A++    AG  I L V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504354732|ref|WP_014541834.1|</Hit_id>
+  <Hit_def>serine peptidase [Chlamydia trachomatis] &gt;gi|289525869|emb|CBJ15351.1| serine protease [Chlamydia trachomatis Sweden2]</Hit_def>
+  <Hit_accession>CBJ15351</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>5.18216e-31</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>PDPLGLVNPDGLPRFAN-PTTRSVEN-------IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>ENPFDYFNDEFFNRFFGLPSHREQQRPQQRDAVRGTGFIVSEDGYVVTNHHVVEDAGKIHVTLHD---GQKYTAKIVGLDPKTDLAVIKIQAE-KLPFLTFGNSDQLQIGDWAIAIGNPFGLQATVTVGVISAKGRNQ-LHIVDFEDFIQTDAAINPGNSGGPLLNINGQVIGVNTAIVSGSGGYIGIGFAIPSLMAK</Hsp_hseq>
+      <Hsp_midline> +P    N +   RF   P+ R  +         GTG IV  DG++VTN+HVV  A  ++VT+ D     +Y+ +IV +D   DLA++KI  + +L     G+SD + + D  IAIG PFGL  TV+ G+ISAK +   +  +   + +QTDAAIN GNSGGPL+  NG V+G+NTAI + +G + GIGFA+PS  A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.99187e-06</Hsp_evalue>
+      <Hsp_query-from>545</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>FLGVTLQPIDSELATCYKLEKVYGALVTDVVKGSPAEKAGLRQEDVIVAYNGKEVESLSALRNAISLMMPGTRVVLKIVREGKTIEIPV---------TVTQIPTEDGVSALQKMGVR-VQNITPEICKK---LGLAADT--------------------RGILVVAVEAGSPAASAGVAPGQLILAVNRQRVASVEELNQVLK--NSKGENVLLMVSQGDVVRFIVL</Hsp_hseq>
+      <Hsp_midline> LG  L P+   L     L    G  V  V   +PA  AGLR  DVI+  +G+ V     +   ++ M  G  V + ++R G    + +          V Q PT   V A     V  VQ + P++  +   LG+  +T                    +G  V  V AGS AA AG+    LI+ VN + V S   L+  +K   + G+ +LL V +     +IVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|296838050|gb|EFH21988.1|</Hit_id>
+  <Hit_def>trypsin [Neisseria polysaccharea ATCC 43768]</Hit_def>
+  <Hit_accession>EFH21988</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>7.20272e-31</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVTGMGSIKVLLND---KREYTAKLIGSDVQSDVALLKIDATEELPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNE--SYTPFIQTDVAINPGNSGGPLFNLKGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  S+ V + D      Y+ +++  D   D+ALLKI    +L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  +++  +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|750377402|ref|WP_040659316.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria bacilliformis]</Hit_def>
+  <Hit_accession>WP_040659316</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>9.57912e-31</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQDPDDDKNQNFGSGFIISPDGYILTNTHVVSGMNNIKVTLND---KREFPAKLIGSDAQSDVALLKIEAD-GLPAVKTGDVKALRPGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+  +P     +N G+G I+  DG+I+TN HVV G N++ VT+ D      +  +++  D   D+ALLKI     L A   GD  A+   + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000138025</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEIDYNLAKSFGLAKPKGALITQVLPDSPAAQGGLQQGDVVLAVNGEEVRASNDLPVMVGAIAPGKEITLTIWRGGQTLNQKILLDSADKNNGGRNTPAG----SGGS--------------------GLQSQSFVLEN--TGLTLSVQTETGGSRLQVLRVEGA--AERAGLKRGDYILAVGQTKVSDEAGLRQAV---AAAGGNIPFLVQRGDNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L     L   +G  +  V P++PAA  GL+ GDV+L V+G  V    ++  ++  +  G+ + + + R G   N  ++   +         P      +GG+                    G++ ++F+      G+  +     GG   QV  V     A  AGL+  D I+ V    V+  A L  A+    AAG  I   V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|896262068|ref|WP_049253215.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria elongata]</Hit_def>
+  <Hit_accession>WP_049253215</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>9.96511e-31</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQAPDEDKDQNFGSGFIISANGYILTNSHVVAGMNSIKVTLND---KREFSAKLIGSDAQSDVALLKIEAE-GLPTVKIGDVKTLRIGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+   P     +N G+G I+  +G+I+TN HVV G NS+ VT+ D      +S +++  D   D+ALLKI  +  L    +GD   + + + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>6.46845e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEVNYNLAKSFGLSKPMGALITQVMPDGPAAQAGLKQGDVVLSVNGEEVRASNDLPVMVGSIAPGKEITLQVWRNGEVIEQKILLDNADKNNGSRSGHT-------GSDSSANLQN----------------QSFTLDN--IGLTLAEQITGDKHRLLV--LRADKVAAQAGLKRGDYILSVGQNPVTDEASMRGALE---KAGNNIPLLVQRGENTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L     L    G  +  V P+ PAA AGL+ GDV+L V+G  V    ++  ++  +  G+ + + V R G+V    ++   +          T       G+ +   +Q                 ++F      +G+  A  + G      V  + A   AA AGL+  D I+ V   PVT  A +  A++    AG  I L V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|327465368|gb|EGF11649.1|</Hit_id>
+  <Hit_def>S1C subfamily peptidase MucD [Neisseria bacilliformis ATCC BAA-1200]</Hit_def>
+  <Hit_accession>EGF11649</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.05682e-30</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQDPDDDKNQNFGSGFIISPDGYILTNTHVVSGMNNIKVTLND---KREFPAKLIGSDAQSDVALLKIEAD-GLPAVKTGDVKALRPGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+  +P     +N G+G I+  DG+I+TN HVV G N++ VT+ D      +  +++  D   D+ALLKI     L A   GD  A+   + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000144497</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEIDYNLAKSFGLAKPKGALITQVLPDSPAAQGGLQQGDVVLAVNGEEVRASNDLPVMVGAIAPGKEITLTIWRGGQTLNQKILLDSADKNNGGRNTPAG----SGGS--------------------GLQSQSFVLEN--TGLTLSVQTETGGSRLQVLRVEGA--AERAGLKRGDYILAVGQTKVSDEAGLRQAV---AAAGGNIPFLVQRGDNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L     L   +G  +  V P++PAA  GL+ GDV+L V+G  V    ++  ++  +  G+ + + + R G   N  ++   +         P      +GG+                    G++ ++F+      G+  +     GG   QV  V     A  AGL+  D I+ V    V+  A L  A+    AAG  I   V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|896257533|ref|WP_049248936.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria elongata]</Hit_def>
+  <Hit_accession>WP_049248936</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.06283e-30</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQAPDEDKDQNFGSGFIISANGYILTNAHVVAGMNSIKVTLND---KREFSAKLIGSDAQSDVALLKIEAE-GLPTVKIGDVKTLRIGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+   P     +N G+G I+  +G+I+TN HVV G NS+ VT+ D      +S +++  D   D+ALLKI  +  L    +GD   + + + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>7.88816e-05</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>TGKVQRGRLGVIIQEVNYNLAKSFGLSKPMGALITQVMPDGPAAQAGLKQGDVVLSVNGEEVRASNDLPVMVGSIAPGKEITLQVWRNGEVIEQKILLDNADKNNGSRSGHT------GGD-----------------DGTNLQNQSFTLDN--IGLTLAEQITGDKHRLLV--LRADKVAAQAGLKRGDYILSVGQNPVTDEASMRGALE---KAGNNIPLLVQRGENTLFLAL</Hsp_hseq>
+      <Hsp_midline>+G  +   LG  +  +   L     L    G  +  V P+ PAA AGL+ GDV+L V+G  V    ++  ++  +  G+ + + V R G+V    ++   +          T      GG                  +   ++ ++F      +G+  A  + G      V  + A   AA AGL+  D I+ V   PVT  A +  A++    AG  I L V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1092463526|ref|WP_070453244.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC31F04] &gt;gi|1081155606|gb|OFT02779.1| protease Do [Neisseria sp. HMSC31F04]</Hit_def>
+  <Hit_accession>WP_070453244</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.08258e-30</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQAPDEDKDQNFGSGFIISANGYILTNAHVVAGMNSIKVTLND---KREFSAKLIGSDAQSDVALLKIEAE-GLPTVKIGDVKTLRIGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+   P     +N G+G I+  +G+I+TN HVV G NS+ VT+ D      +S +++  D   D+ALLKI  +  L    +GD   + + + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>5.68322e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEVNYNLAKSFGLSKPMGALITQVMPDGPAAQAGLKQGDVVLSVNGEEVRASNDLPVMVGSIAPGKEITLQVWRNGEVIEQKILLDNADKNNGSRSGHT-------GSDSSANLQN----------------QSFTLDN--IGLTLAEQITGDKHRLLV--LRADKVAAQAGLKRGDYILSVGQNPVTDEASMRGALE---KAGNNIPLLVQRGENTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L     L    G  +  V P+ PAA AGL+ GDV+L V+G  V    ++  ++  +  G+ + + V R G+V    ++   +          T       G+ +   +Q                 ++F      +G+  A  + G      V  + A   AA AGL+  D I+ V   PVT  A +  A++    AG  I L V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1175903793|ref|WP_082162791.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria bacilliformis]</Hit_def>
+  <Hit_accession>WP_082162791</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>1.21296e-30</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>PRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>PQLQDPDDDKNQNFGSGFIISPDGYILTNTHVVSGMNNIKVTLND---KREFPAKLIGSDAQSDVALLKIEAD-GLPAVKTGDVKALRPGEWVAAIGAPFGFENSITAGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLNGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>P+  +P     +N G+G I+  DG+I+TN HVV G N++ VT+ D      +  +++  D   D+ALLKI     L A   GD  A+   + V AIG PFG + +++ GI+SAK +++  E  T    +QTD AIN GNSGGPL   NG VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>6.42577e-05</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEIDYNLAKSFGLAKPKGALITQVLPDSPAAQGGLQQGDVVLAVNGEEVRASNDLPVMVGAIAPGKEITLTIWRGGQTLNQKILLDSADKNNGGRNTPAG----SGGS--------------------GLQSQSFVLEN--TGLTLSVQTETGGSRLQVLRVEGA--AERAGLKRGDYILAVGQTKVSDEAGLRQAV---AAAGGNIPLLVQRGDNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  +   L     L   +G  +  V P++PAA  GL+ GDV+L V+G  V    ++  ++  +  G+ + + + R G   N  ++   +         P      +GG+                    G++ ++F+      G+  +     GG   QV  V     A  AGL+  D I+ V    V+  A L  A+    AAG  I L V R     ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|224953222|gb|EEG34431.1|</Hit_id>
+  <Hit_def>peptidase Do [Neisseria flavescens NRL30031/H210]</Hit_def>
+  <Hit_accession>EEG34431</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>2.76807e-30</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00315407</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEG---------------GHDRFT-------VENAGVTLQVEDADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G +  T       V   G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1092682928|ref|WP_070615788.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC070A01] &gt;gi|1080437187|gb|OFM21898.1| protease Do [Neisseria sp. HMSC070A01]</Hit_def>
+  <Hit_accession>WP_070615788</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>9.8688e-30</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000432157</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKVKLGSAAEQTETSAKETEQPQHEGGHD-------------------GFAVEN----------AGLTLQVENTDGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +  G +          T      GG                     G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|490654698|ref|WP_004519688.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase [Neisseria] &gt;gi|284797322|gb|EFC52669.1| peptidase Do [Neisseria subflava NJ9703] &gt;gi|1080219308|gb|OFK14664.1| protease Do [Neisseria sp. HMSC071A01] &gt;gi|1080451191|gb|OFM35230.1| protease Do [Neisseria sp. HMSC058F07] &gt;gi|1080538446|gb|OFN18757.1| protease Do [Neisseria sp. HMSC072B12] &gt;gi|1080849494|gb|OFQ13277.1| protease Do [Neisseria sp. HMSC068C12] &gt;gi|1081041937|gb|OFR96458.1| protease Do [Neisseria sp. HMSC063B05]</Hit_def>
+  <Hit_accession>WP_004519688</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>9.8688e-30</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00138277</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1093474262|ref|WP_070850052.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC078C12] &gt;gi|1091188294|gb|OHR16115.1| protease Do [Neisseria sp. HMSC078C12]</Hit_def>
+  <Hit_accession>WP_070850052</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.00515e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00071234</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGSHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|896381134|ref|WP_049322802.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_049322802</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.00515e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000255451</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKVKLGSAAEQTETSAKETEQPQHEGGHD-------------------GFAVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKHGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +  G +          T      GG                     G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1093459377|ref|WP_070836902.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC066H01] &gt;gi|1091090370|gb|OHQ23568.1| protease Do [Neisseria sp. HMSC066H01]</Hit_def>
+  <Hit_accession>WP_070836902</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.01442e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000308791</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKVKLGSAAEQTETSAKETEQPQHEGGHD-------------------GFAVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +  G +          T      GG                     G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1016437047|gb|KZC83852.1|</Hit_id>
+  <Hit_def>peptidase Do [Neisseria flavescens]</Hit_def>
+  <Hit_accession>KZC83852</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.01442e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00122569</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1093447433|ref|WP_070826615.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC064D07] &gt;gi|1091071972|gb|OHQ06092.1| protease Do [Neisseria sp. HMSC064D07]</Hit_def>
+  <Hit_accession>WP_070826615</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.04272e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00153332</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHDGGHD------------GFTVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|896407913|ref|WP_049344867.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protease Do [Neisseria] &gt;gi|1080207621|gb|OFK03373.1| protease Do [Neisseria sp. HMSC067H04] &gt;gi|1080344996|gb|OFL34190.1| protease Do [Neisseria sp. HMSC075C12] &gt;gi|1080999531|gb|OFR56281.1| protease Do [Neisseria sp. HMSC067G11] &gt;gi|1081018442|gb|OFR74274.1| protease Do [Neisseria sp. HMSC067G12]</Hit_def>
+  <Hit_accession>WP_049344867</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.04272e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00287495</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQLAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|896424934|ref|WP_049359163.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_049359163</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.05233e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000278448</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKVKLGSAAEQTETSAKETEQPQHEGGHD-------------------GFAVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +  G +          T      GG                     G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|896412743|ref|WP_049348847.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protease Do [Neisseria]</Hit_def>
+  <Hit_accession>WP_049348847</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.07181e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000242575</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKVKLGSAAEQTETSAKETEQPQHEGGHD-------------------GFTVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +  G +          T      GG                     G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1093442992|ref|WP_070822867.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC061B04] &gt;gi|1091012729|gb|OHP49327.1| protease Do [Neisseria sp. HMSC061B04]</Hit_def>
+  <Hit_accession>WP_070822867</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.09165e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDTQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00127963</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|738544983|ref|WP_036493225.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria mucosa] &gt;gi|694240607|gb|KGJ31499.1| protease Do [Neisseria mucosa]</Hit_def>
+  <Hit_accession>WP_036493225</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.09165e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000550084</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVILSIWRGGKQTDVKVKLGSAAEQTETSAKETEQPQHEGGHD-------------------GFAVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +  G +          T      GG                     G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1092833485|ref|WP_070749321.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC056A03] &gt;gi|1080653929|gb|OFO27776.1| protease Do [Neisseria sp. HMSC056A03]</Hit_def>
+  <Hit_accession>WP_070749321</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.15341e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000676452</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS------------AKEAEHPQHEGSHN--GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+              +   P+     N  G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1016439954|gb|KZC86677.1|</Hit_id>
+  <Hit_def>peptidase Do [Neisseria flavescens]</Hit_def>
+  <Hit_accession>KZC86677</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.15341e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00174476</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHDGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1080448221|gb|OFM32421.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC068C04]</Hit_def>
+  <Hit_accession>OFM32421</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.16208e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000682708</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS------------AKEAEHPQHESGHD--GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+              +   P+  +  +  G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1092672901|ref|WP_070606768.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protease Do [Neisseria] &gt;gi|1080290761|gb|OFK82276.1| protease Do [Neisseria sp. HMSC061E12] &gt;gi|1080814247|gb|OFP80031.1| protease Do [Neisseria sp. HMSC066B07] &gt;gi|1090944339|gb|OHO83995.1| protease Do [Neisseria sp. HMSC056A04] &gt;gi|1091095279|gb|OHQ28316.1| protease Do [Neisseria sp. HMSC066F04] &gt;gi|1091189452|gb|OHR17245.1| protease Do [Neisseria sp. HMSC078H04]</Hit_def>
+  <Hit_accession>WP_070606768</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.17476e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00179042</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|896391472|ref|WP_049331212.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protease Do [Neisseria] &gt;gi|1080698816|gb|OFO70175.1| protease Do [Neisseria sp. HMSC065C04]</Hit_def>
+  <Hit_accession>WP_049331212</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.17476e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00321541</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSMMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHDGGHD------------GFTVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  M  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|489780423|ref|WP_003684314.1|</Hit_id>
+  <Hit_def>peptidase [Neisseria flavescens] &gt;gi|241320378|gb|EER56675.1| peptidase Do [Neisseria flavescens SK114]</Hit_def>
+  <Hit_accession>WP_003684314</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.18559e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000536046</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGSHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1093427964|ref|WP_070814786.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC061H08] &gt;gi|1091026680|gb|OHP62684.1| protease Do [Neisseria sp. HMSC061H08]</Hit_def>
+  <Hit_accession>WP_070814786</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.21866e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000574301</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1092791786|ref|WP_070711918.1|</Hit_id>
+  <Hit_def>MULTISPECIES: protease Do [Neisseria] &gt;gi|1080666536|gb|OFO39537.1| protease Do [Neisseria sp. HMSC075C10] &gt;gi|1091126120|gb|OHQ57677.1| protease Do [Neisseria sp. HMSC070H10]</Hit_def>
+  <Hit_accession>WP_070711918</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.21866e-29</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>LPRFANPTTRSVE-NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>MPDMPQEDTESDDLNFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>+P      T S + N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000846287</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMIGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1092705842|ref|WP_070636468.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC073B07] &gt;gi|1080170332|gb|OFJ67893.1| protease Do [Neisseria sp. HMSC073B07]</Hit_def>
+  <Hit_accession>WP_070636468</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.24366e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNAHVVAGMGNIKVLLND---KREYTAKLIGLDTQSDVALLKIDASEELPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNE--SYTPFIQTDVAINPGNSGGPLFNLKGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ +++ +D   D+ALLKI    +L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  +++  +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.00035193</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>SGKVQRGQLGVIIQEVSYDLAKSFGLDKASGALIAKVMPNSPAMQAGLQVGDIVRSVNGEEVRVSSDLPVMVGSMLPGKEVSLEVWRKGEKINVKVKLG</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  +  ++  L     L    G  +  V PN+PA  AGL+ GD++  V+G  V    ++  ++  M  G+ V + V R G+  N+ +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1093444587|ref|WP_070824133.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC064F03] &gt;gi|1091083398|gb|OHQ16980.1| protease Do [Neisseria sp. HMSC064F03]</Hit_def>
+  <Hit_accession>WP_070824133</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>1.25265e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000517885</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1092638035|ref|WP_070583465.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC072C05] &gt;gi|1080517741|gb|OFM99014.1| protease Do [Neisseria sp. HMSC072C05]</Hit_def>
+  <Hit_accession>WP_070583465</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.27584e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000610006</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRSGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHDGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R+G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1016484036|ref|WP_063075356.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria flavescens] &gt;gi|1016433497|gb|KZC80359.1| peptidase Do [Neisseria flavescens]</Hit_def>
+  <Hit_accession>WP_063075356</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.28759e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00203729</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRDGKQTDVKV-----KLGSAAEQTETS------------AKEAEHPQHESGHD--GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+              +   P+  +  +  G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1016435240|gb|KZC82066.1|</Hit_id>
+  <Hit_def>peptidase Do [Neisseria flavescens]</Hit_def>
+  <Hit_accession>KZC82066</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.29946e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.00185317</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|896415291|ref|WP_049350959.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria lactamica]</Hit_def>
+  <Hit_accession>WP_049350959</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.29946e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000730991</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGSHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAISQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II ++   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1179016042|ref|WP_083303931.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC068C04]</Hit_def>
+  <Hit_accession>WP_083303931</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.31143e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000796761</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS------------AKEAEHPQHESGHD--GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SAGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+              +   P+  +  +  G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   +AG+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|896389623|ref|WP_049329559.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_049329559</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.3357e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00109585</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1092470066|ref|WP_070459307.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC15G01] &gt;gi|1081399807|gb|OFV36078.1| protease Do [Neisseria sp. HMSC15G01]</Hit_def>
+  <Hit_accession>WP_070459307</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.36042e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000853609</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRSGKQTDVKV-----KLGSAAEQTETS------------AKEAEHPQHESGHD--GFTVEN----------TGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R+G  +++ +      L +A  Q  T+              +   P+  +  +  G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1092701025|ref|WP_070632462.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC069H12] &gt;gi|1081013441|gb|OFR69480.1| protease Do [Neisseria sp. HMSC069H12]</Hit_def>
+  <Hit_accession>WP_070632462</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.36042e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00107713</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKV-----KLGSAAEQTETS--AKEAEHPQHEGGHD------------GFTVEN----------AGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQRDGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  ++  +  G+ V + + R G  +++ +      L +A  Q  T+        P   G               G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R+G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|489844887|ref|WP_003748581.1|</Hit_id>
+  <Hit_def>peptidase [Neisseria mucosa] &gt;gi|317399373|gb|EFV80043.1| protease DO [Neisseria mucosa C102]</Hit_def>
+  <Hit_accession>WP_003748581</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.36042e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00395336</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRSVNGEEVRASSDLPVMVGSIMPGKEVTLSIWRGGKQTDVKVKLGSAAEQTETSAKETEHPQHDGGHD-------------------GFTVEN----------AGLTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++  V+G  V    ++  ++  +  G+ V + + R G  +++ +  G +          T      GG                     G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1092716290|ref|WP_070646290.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria sp. HMSC073G10] &gt;gi|1081029834|gb|OFR84859.1| protease Do [Neisseria sp. HMSC073G10]</Hit_def>
+  <Hit_accession>WP_070646290</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.46396e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVAGMGNIKVLLND---KREYTAKLVGSDAQSDVALLKIEPQEDLPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTSGIVSAKGRSLPNENYTP--FIQTDVAINPGNSGGPLFNLRGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  ++ V + D      Y+ ++V  D   D+ALLKI P+  L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  T    +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000496045</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAV-AGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVVIQEVSYDLAKSFGLDKASGALIAKIMPNSAAQQAGLQVGDIVRKVNGEEVRASSDLPVIVGSIMPGKEVTLSIWRSGKQTDVKV-----KLGSAAEQTETS------------AKEAEHPQHESGHD--GFTVEN----------TGVTLQVENADGKQRLIVLRVSGAAERAGLKRGDEIIAVSQISVNDESTFRSALE---SSGKNVPLLVQREGNTLFLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + PN+ A  AGL+ GD++ KV+G  V    ++  I+  +  G+ V + + R+G  +++ +      L +A  Q  T+              +   P+  +  +  G  +E            G T       G Q   VL  S AA  AGL+  D II V+   V   +   +A++   ++G+ + L V R G   ++ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|488148503|ref|WP_002219711.1|</Hit_id>
+  <Hit_def>serine protease MucD, partial [Neisseria meningitidis] &gt;gi|325129653|gb|EGC52468.1| serine protease MucD precursor [Neisseria meningitidis OX99.30304]</Hit_def>
+  <Hit_accession>WP_002219711</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.54195e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVTGMGSIKVLLND---KREYTAKLIGSDVQSDVALLKIDATEELPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTAGIVSAKGRSLPNE--SYTPFIQTDVAINPGNSGGPLFNLKGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  S+ V + D      Y+ +++  D   D+ALLKI    +L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  +++  +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000182899</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEVSYGLAQSFGLDKAGGALIAKILPGSPAERAGLQAGDIVLSLDGGEIRSSGDLPVMVGAITPGKEVSLGVWRKGKEITVA--------------------VKLGNASEQTGSSSEPDKAPYAEHQSG----TFSVESAGITLQTHTDSSGG----RLVVVRVSGAAERAGLRRGDEILAVGQVPVNDE---DGFRKAMDKAGKNVPLLVMRRGNTLFIAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + P +PA  AGL+ GD++L +DG  +    ++  ++  +  G+ V +GV R G    ++                    V  G A    G      K P   +  G    TF      + +   T  +GG    ++  V     A  AGL+  D I+ V   PV      D   KA   AG+ + L V R G   +I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|254669974|emb|CBA04645.1|</Hit_id>
+  <Hit_def>serine protease MucD precursor [Neisseria meningitidis alpha153]</Hit_def>
+  <Hit_accession>CBA04645</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>1.57163e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVTGMGSIKVLLND---KREYTAKLIGSDVQSDVALLKIDATEELPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTAGIVSAKGRSLPNE--SYTPFIQTDVAINPGNSGGPLFNLKGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  S+ V + D      Y+ +++  D   D+ALLKI    +L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  +++  +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00275038</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEVSYGLAQSFGLDKAGGALITKILPGSPAERAGLQAGDIILSLNGEEIRSSGDLPVMVGAITPGKEVSLGVWRKGE</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + P +PA  AGL+ GD+IL ++G  +    ++  ++  +  G+ V +GV R G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0263367</Hsp_evalue>
+      <Hsp_query-from>706</Hsp_query-from>
+      <Hsp_query-to>770</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWI</Hsp_qseq>
+      <Hsp_hseq>GALITKILPGSPAERAGLQAGDIILSLNGEEIRSSGDLPVMVGAIT-PGKEVSLGVWRKGEEITI</Hsp_hseq>
+      <Hsp_midline>GA + ++L GS A  AGLQA D+I+ +N   + S   L   + A T  G+++ L V R G+E  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|488155427|ref|WP_002226635.1|</Hit_id>
+  <Hit_def>serine protease MucD, partial [Neisseria meningitidis] &gt;gi|325141736|gb|EGC64189.1| serine protease MucD precursor [Neisseria meningitidis 961-5945]</Hit_def>
+  <Hit_accession>WP_002226635</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>1.72873e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVTGMGSIKVLLND---KREYTAKLIGSDVQSDVALLKIDATEELPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTAGIVSAKGRSLPNE--SYTPFIQTDVAINPGNSGGPLFNLKGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  S+ V + D      Y+ +++  D   D+ALLKI    +L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  +++  +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000259493</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEVSYGLAQSFGLDKAGGALIAKILPGSPAERAGLQAGDIVLSLDGGEIRSSGDLPVMVGAITPGKEVSLGVWRKGEEITIK--------------------VKLGNAAEHIGASSKTDEAP----YTEQQSGTFSVESAGITLQTHTDSSGG----HLVVVRVSDAAERAGLRRGDEILAVGQVPVNDEAGFR---KAMDKAGKNVPLLIMRRGNTLFIAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + P +PA  AGL+ GD++L +DG  +    ++  ++  +  G+ V +GV R G+   +                     V  G A    G      + P    +   +  TF      + +   T  +GG     +  V     A  AGL+  D I+ V   PV   A      KA   AG+ + L + R G   +I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1005618853|ref|WP_061696380.1|</Hit_id>
+  <Hit_def>protease Do [Neisseria meningitidis] &gt;gi|989679169|emb|CWQ74614.1| serine protease [Neisseria meningitidis] &gt;gi|989767830|emb|CWS41508.1| serine protease [Neisseria meningitidis] &gt;gi|989831265|emb|CWR81025.1| serine protease [Neisseria meningitidis] &gt;gi|989912403|emb|CWM91883.1| serine protease [Neisseria meningitidis] &gt;gi|990043978|emb|CWO20210.1| serine protease [Neisseria meningitidis] &gt;gi|990128758|emb|CWN77753.1| serine protease [Neisseria meningitidis] &gt;gi|990213218|emb|CWO75983.1| serine protease [Neisseria meningitidis] &gt;gi|990221335|emb|CWS00619.1| serine protease [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_061696380</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>1.82424e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVTGMGSIKVLLND---KREYTAKLIGSDVQSDVALLKIDSTEELPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTAGIVSAKGRSLPNE--SYTPFIQTDVAINPGNSGGPLFNLKGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  S+ V + D      Y+ +++  D   D+ALLKI    +L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  +++  +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.000165998</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEVSYGLAQSFGLDKAGGALIAKILPGSPAERAGLQAGDIVLSLDGGEIRSSGDLPVMVGAITPGKEVSLGVWRKG--------------------KEITVAVKLGNASEQTGSSSEPDKAPYAEHQSG----TFSVESAGITLQTHTDSSGG----RLVVVRVSGAAERAGLRRGDEILAVGQVPVNDE---DGFRKAMDKAGKNVPLLVMRRGNTLFIAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + P +PA  AGL+ GD++L +DG  +    ++  ++  +  G+ V +GV R G                          V  G A    G      K P   +  G    TF      + +   T  +GG    ++  V     A  AGL+  D I+ V   PV      D   KA   AG+ + L V R G   +I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|488152798|ref|WP_002224006.1|</Hit_id>
+  <Hit_def>peptidase [Neisseria meningitidis] &gt;gi|308388715|gb|ADO31035.1| serine protease [Neisseria meningitidis alpha710] &gt;gi|325135878|gb|EGC58490.1| protease Do [Neisseria meningitidis M0579] &gt;gi|325202679|gb|ADY98133.1| protease Do [Neisseria meningitidis M01-240149] &gt;gi|325207575|gb|ADZ03027.1| protease Do [Neisseria meningitidis NZ-05/33] &gt;gi|485334935|gb|EOB97536.1| peptidase Do family protein [Neisseria meningitidis NM43] &gt;gi|530902298|gb|EQD00880.1| peptidase Do family protein [Neisseria meningitidis 96037] &gt;gi|530907675|gb|EQD05902.1| peptidase Do family protein [Neisseria meningitidis NM3139] &gt;gi|530909360|gb|EQD07493.1| peptidase Do family protein [Neisseria meningitidis NM045] &gt;gi|530910254|gb|EQD08338.1| peptidase Do family protein [Neisseria meningitidis NM151] &gt;gi|530913223|gb|EQD11123.1| peptidase Do family protein [Neisseria meningitidis NM003] &gt;gi|530917161|gb|EQD14836.1| peptidase Do family protein [Neisseria meningitidis NM0552] &gt;gi|530919146|gb|EQD16707.1| peptidase Do family protein [Neisseria meningitidis NM518] &gt;gi|530925769|gb|EQD22928.1| peptidase Do family protein [Neisseria meningitidis NM2866] &gt;gi|837362855|gb|AKM92886.1| putative periplasmic serine endoprotease DegP-like precursor [Neisseria meningitidis M0579] &gt;gi|989349258|emb|CWR56779.1| serine protease [Neisseria meningitidis] &gt;gi|989483936|emb|CWP75861.1| serine protease [Neisseria meningitidis] &gt;gi|989490222|emb|CWQ00599.1| serine protease [Neisseria meningitidis] &gt;gi|989545958|emb|CWU06563.1| serine protease [Neisseria meningitidis] &gt;gi|989572694|emb|CWN71202.1| serine protease [Neisseria meningitidis] &gt;gi|989588406|emb|CWT42228.1| serine protease [Neisseria meningitidis] &gt;gi|989699198|emb|CWQ04912.1| serine protease [Neisseria meningitidis] &gt;gi|989749458|emb|CWO01250.1| serine protease [Neisseria meningitidis] &gt;gi|989849955|emb|CWQ86192.1| serine protease [Neisseria meningitidis] &gt;gi|989858761|emb|CWM50177.1| serine protease [Neisseria meningitidis] &gt;gi|989866258|emb|CWM95845.1| serine protease [Neisseria meningitidis] &gt;gi|989892827|emb|CWP71890.1| serine protease [Neisseria meningitidis] &gt;gi|989917165|emb|CWQ35728.1| serine protease [Neisseria meningitidis] &gt;gi|989928716|emb|CWQ76618.1| serine protease [Neisseria meningitidis] &gt;gi|989949394|emb|CWP66889.1| serine protease [Neisseria meningitidis] &gt;gi|989964951|emb|CWT68651.1| serine protease [Neisseria meningitidis] &gt;gi|989985584|emb|CWU05305.1| serine protease [Neisseria meningitidis] &gt;gi|989999182|emb|CWP06554.1| serine protease [Neisseria meningitidis] &gt;gi|990002785|emb|CWN19909.1| serine protease [Neisseria meningitidis] &gt;gi|990009231|emb|CWR78147.1| serine protease [Neisseria meningitidis] &gt;gi|990024527|emb|CWQ75796.1| serine protease [Neisseria meningitidis] &gt;gi|990028529|emb|CWP38492.1| serine protease [Neisseria meningitidis] &gt;gi|990054581|emb|CWM71828.1| serine protease [Neisseria meningitidis] &gt;gi|990067406|emb|CWT07457.1| serine protease [Neisseria meningitidis] &gt;gi|990069235|emb|CWQ37568.1| serine protease [Neisseria meningitidis] &gt;gi|990073504|emb|CWP14300.1| serine protease [Neisseria meningitidis] &gt;gi|990075598|emb|CWM56793.1| serine protease [Neisseria meningitidis] &gt;gi|990093700|emb|CWM38951.1| serine protease [Neisseria meningitidis] &gt;gi|990097107|emb|CWQ13385.1| serine protease [Neisseria meningitidis] &gt;gi|990107588|emb|CWR90081.1| serine protease [Neisseria meningitidis] &gt;gi|990116493|emb|CWR78398.1| serine protease [Neisseria meningitidis] &gt;gi|990120051|emb|CWT34125.1| serine protease [Neisseria meningitidis] &gt;gi|990122939|emb|CWN62862.1| serine protease [Neisseria meningitidis] &gt;gi|990136668|emb|CWR61349.1| serine protease [Neisseria meningitidis] &gt;gi|990138724|emb|CWM91250.1| serine protease [Neisseria meningitidis] &gt;gi|990140787|emb|CWN83153.1| serine protease [Neisseria meningitidis] &gt;gi|990142902|emb|CWT24222.1| serine protease [Neisseria meningitidis] &gt;gi|990145016|emb|CWQ03078.1| serine protease [Neisseria meningitidis] &gt;gi|990149453|emb|CWP97723.1| serine protease [Neisseria meningitidis] &gt;gi|990151677|emb|CWM38209.1| serine protease [Neisseria meningitidis] &gt;gi|990153411|emb|CWO08954.1| serine protease [Neisseria meningitidis] &gt;gi|990155435|emb|CWU06695.1| serine protease [Neisseria meningitidis] &gt;gi|990160226|emb|CWP53088.1| serine protease [Neisseria meningitidis] &gt;gi|990161954|emb|CWR60477.1| serine protease [Neisseria meningitidis] &gt;gi|990168610|emb|CWM70654.1| serine protease [Neisseria meningitidis] &gt;gi|990170304|emb|CWU09521.1| serine protease [Neisseria meningitidis] &gt;gi|990172579|emb|CWT24953.1| serine protease [Neisseria meningitidis] &gt;gi|990174564|emb|CWR21489.1| serine protease [Neisseria meningitidis] &gt;gi|990176601|emb|CWQ71155.1| serine protease [Neisseria meningitidis] &gt;gi|990180859|emb|CWM99684.1| serine protease [Neisseria meningitidis] &gt;gi|990189727|emb|CWN10793.1| serine protease [Neisseria meningitidis] &gt;gi|990192104|emb|CWR88367.1| serine protease [Neisseria meningitidis] &gt;gi|990197981|emb|CWN80271.1| serine protease [Neisseria meningitidis] &gt;gi|990200987|emb|CWS12352.1| serine protease [Neisseria meningitidis] &gt;gi|990207545|emb|CWM72721.1| serine protease [Neisseria meningitidis] &gt;gi|990216584|emb|CWN69433.1| serine protease [Neisseria meningitidis] &gt;gi|990219015|emb|CWQ72511.1| serine protease [Neisseria meningitidis] &gt;gi|990225636|emb|CWQ93418.1| serine protease [Neisseria meningitidis] &gt;gi|990233785|emb|CWO86352.1| serine protease [Neisseria meningitidis] &gt;gi|990236448|emb|CWQ82159.1| serine protease [Neisseria meningitidis] &gt;gi|990239326|emb|CWT25221.1| serine protease [Neisseria meningitidis] &gt;gi|990240148|emb|CWQ16042.1| serine protease [Neisseria meningitidis] &gt;gi|990244539|emb|CWS07966.1| serine protease [Neisseria meningitidis] &gt;gi|990247105|emb|CWO00156.1| serine protease [Neisseria meningitidis] &gt;gi|990255234|emb|CWN11776.1| serine protease [Neisseria meningitidis] &gt;gi|990257080|emb|CWO48992.1| serine protease [Neisseria meningitidis] &gt;gi|990259366|emb|CWM59297.1| serine protease [Neisseria meningitidis] &gt;gi|990265646|emb|CWR06873.1| serine protease [Neisseria meningitidis] &gt;gi|990267945|emb|CWR01921.1| serine protease [Neisseria meningitidis] &gt;gi|990269949|emb|CWR12757.1| serine protease [Neisseria meningitidis] &gt;gi|990271902|emb|CWR01054.1| serine protease [Neisseria meningitidis] &gt;gi|990274101|emb|CWQ85812.1| serine protease [Neisseria meningitidis] &gt;gi|990276646|emb|CWR08092.1| serine protease [Neisseria meningitidis] &gt;gi|990279782|emb|CWR66775.1| serine protease [Neisseria meningitidis] &gt;gi|990282660|emb|CWS12679.1| serine protease [Neisseria meningitidis] &gt;gi|990295905|emb|CWT74152.1| serine protease [Neisseria meningitidis] &gt;gi|990313466|emb|CWR78794.1| serine protease [Neisseria meningitidis] &gt;gi|990316255|emb|CWN37954.1| serine protease [Neisseria meningitidis] &gt;gi|990322111|emb|CWN73626.1| serine protease [Neisseria meningitidis] &gt;gi|990329852|emb|CWN58688.1| serine protease [Neisseria meningitidis] &gt;gi|990331919|emb|CWO01872.1| serine protease [Neisseria meningitidis] &gt;gi|990333812|emb|CWN27523.1| serine protease [Neisseria meningitidis] &gt;gi|990336132|emb|CWS07751.1| serine protease [Neisseria meningitidis] &gt;gi|990338697|emb|CWP88178.1| serine protease [Neisseria meningitidis] &gt;gi|990342273|emb|CWM84323.1| serine protease [Neisseria meningitidis] &gt;gi|990347237|emb|CWP67582.1| serine protease [Neisseria meningitidis] &gt;gi|990352747|emb|CWM54137.1| serine protease [Neisseria meningitidis] &gt;gi|990357192|emb|CWS44627.1| serine protease [Neisseria meningitidis] &gt;gi|990372799|emb|CWQ13754.1| serine protease [Neisseria meningitidis] &gt;gi|990376509|emb|CWT71619.1| serine protease [Neisseria meningitidis] &gt;gi|990382038|emb|CWM66348.1| serine protease [Neisseria meningitidis] &gt;gi|990391306|emb|CWN07823.1| serine protease [Neisseria meningitidis] &gt;gi|990397348|emb|CWM91952.1| serine protease [Neisseria meningitidis] &gt;gi|990409998|emb|CWT78511.1| serine protease [Neisseria meningitidis] &gt;gi|990415794|emb|CWN73111.1| serine protease [Neisseria meningitidis] &gt;gi|990426329|emb|CWO10173.1| serine protease [Neisseria meningitidis] &gt;gi|990441243|emb|CWS45061.1| serine protease [Neisseria meningitidis] &gt;gi|990445888|emb|CWQ65511.1| serine protease [Neisseria meningitidis] &gt;gi|990448324|emb|CWQ93786.1| serine protease [Neisseria meningitidis] &gt;gi|990465837|emb|CWN12037.1| serine protease [Neisseria meningitidis] &gt;gi|990483661|emb|CWM84019.1| serine protease [Neisseria meningitidis] &gt;gi|990492035|emb|CWQ89532.1| serine protease [Neisseria meningitidis] &gt;gi|990494883|emb|CWQ69723.1| serine protease [Neisseria meningitidis] &gt;gi|990498209|emb|CWS12927.1| serine protease [Neisseria meningitidis] &gt;gi|990506130|emb|CWS69987.1| serine protease [Neisseria meningitidis] &gt;gi|990509362|emb|CWO42079.1| serine protease [Neisseria meningitidis] &gt;gi|990511979|emb|CWS55909.1| serine protease [Neisseria meningitidis] &gt;gi|990517726|emb|CWR86461.1| serine protease [Neisseria meningitidis] &gt;gi|990520483|emb|CWO67868.1| serine protease [Neisseria meningitidis] &gt;gi|990526147|emb|CWU01981.1| serine protease [Neisseria meningitidis] &gt;gi|990541434|emb|CWR12070.1| serine protease [Neisseria meningitidis] &gt;gi|990545467|emb|CWP91528.1| serine protease [Neisseria meningitidis] &gt;gi|990549847|emb|CWN16605.1| serine protease [Neisseria meningitidis] &gt;gi|990567230|emb|CWO42821.1| serine protease [Neisseria meningitidis] &gt;gi|990569636|emb|CWP08108.1| serine protease [Neisseria meningitidis] &gt;gi|990583080|emb|CWM65295.1| serine protease [Neisseria meningitidis] &gt;gi|990584520|emb|CWR88817.1| serine protease [Neisseria meningitidis] &gt;gi|990587242|emb|CWR96241.1| serine protease [Neisseria meningitidis] &gt;gi|990597535|emb|CWN36861.1| serine protease [Neisseria meningitidis] &gt;gi|990605737|emb|CWQ82155.1| serine protease [Neisseria meningitidis] &gt;gi|990608430|emb|CWP17173.1| serine protease [Neisseria meningitidis] &gt;gi|990612185|emb|CWT07541.1| serine protease [Neisseria meningitidis] &gt;gi|990614889|emb|CWP86501.1| serine protease [Neisseria meningitidis] &gt;gi|990617838|emb|CWQ76579.1| serine protease [Neisseria meningitidis] &gt;gi|990625447|emb|CWS70667.1| serine protease [Neisseria meningitidis] &gt;gi|990627634|emb|CWP10247.1| serine protease [Neisseria meningitidis] &gt;gi|990630781|emb|CWN95968.1| serine protease [Neisseria meningitidis] &gt;gi|990632195|emb|CWO48213.1| serine protease [Neisseria meningitidis] &gt;gi|990636520|emb|CWQ85943.1| serine protease [Neisseria meningitidis] &gt;gi|990645464|emb|CWO78155.1| serine protease [Neisseria meningitidis] &gt;gi|990651834|emb|CWS50246.1| serine protease [Neisseria meningitidis] &gt;gi|990654137|emb|CWQ75891.1| serine protease [Neisseria meningitidis] &gt;gi|990658540|emb|CWS64948.1| serine protease [Neisseria meningitidis] &gt;gi|990667064|emb|CWT56046.1| serine protease [Neisseria meningitidis] &gt;gi|990669395|emb|CWS83063.1| serine protease [Neisseria meningitidis] &gt;gi|990676303|emb|CWM56031.1| serine protease [Neisseria meningitidis] &gt;gi|990677991|emb|CWN68723.1| serine protease [Neisseria meningitidis] &gt;gi|990680116|emb|CWN81649.1| serine protease [Neisseria meningitidis] &gt;gi|990690349|emb|CWL96310.1| serine protease [Neisseria meningitidis] &gt;gi|990693655|emb|CWQ40682.1| serine protease [Neisseria meningitidis] &gt;gi|990700553|emb|CWP94168.1| serine protease [Neisseria meningitidis] &gt;gi|990705225|emb|CWT56970.1| serine protease [Neisseria meningitidis] &gt;gi|1049062631|gb|ANW86934.1| protease Do [Neisseria meningitidis] &gt;gi|1134404902|gb|OMH42103.1| protease Do [Neisseria meningitidis] &gt;gi|1134405671|gb|OMH42799.1| protease Do [Neisseria meningitidis] &gt;gi|1134412583|gb|OMH49372.1| protease Do [Neisseria meningitidis] &gt;gi|1137305889|gb|APY30126.1| putative periplasmic serine endoprotease DegP-like precursor [Neisseria meningitidis] &gt;gi|1169332956|gb|ARB72384.1| protease Do [Neisseria meningitidis] &gt;gi|1169369948|gb|ARC09353.1| protease Do [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002224006</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.946</Hsp_bit-score>
+      <Hsp_score>315</Hsp_score>
+      <Hsp_evalue>2.13181e-29</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>NFGSGFIISKDGYILTNTHVVTGMGSIKVLLND---KREYTAKLIGSDVQSDVALLKIDATEELPVVKIGNPKDLKPGEWVAAIGAPFGFDNSVTAGIVSAKGRSLPNE--SYTPFIQTDVAINPGNSGGPLFNLKGQVVGINSQIYSRSGGFMGISFAIP</Hsp_hseq>
+      <Hsp_midline>N G+G I+  DG+I+TN HVV G  S+ V + D      Y+ +++  D   D+ALLKI    +L    +G+   +   + V AIG PFG D +V+ GI+SAK +++  E  +++  +QTD AIN GNSGGPL    G VVGIN+ IY+ +G F GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000180945</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVIIQEVSYGLAQSFGLDKAGGALIAKILPGSPAERAGLQAGDIVLSLDGGEIRSSGDLPVMVGAITPGKEVSLGVWRKGKEITVA--------------------VKLGNASEQTGSSSEPDKAPYAEHQSG----TFSVESAGITLQTHTDSSGG----RLVVVRVSGAAERAGLRRGDEILAVGQVPVNDE---DGFRKAMDKAGKNVPLLVMRRGNTLFIAL</Hsp_hseq>
+      <Hsp_midline>LG  +  ++  L     L    G  +  + P +PA  AGL+ GD++L +DG  +    ++  ++  +  G+ V +GV R G    ++                    V  G A    G      K P   +  G    TF      + +   T  +GG    ++  V     A  AGL+  D I+ V   PV      D   KA   AG+ + L V R G   +I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>376111</Statistics_db-num>
+      <Statistics_db-len>120273133</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

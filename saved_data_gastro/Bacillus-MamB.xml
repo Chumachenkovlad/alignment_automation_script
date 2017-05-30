@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09999.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamB [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>297</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09999.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamB [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>297</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|926258409|ref|WP_053596675.1|</Hit_id>
+  <Hit_def>transporter [Lysinibacillus sp. FJAT-14222] &gt;gi|925210114|gb|KOS60500.1| transporter [Lysinibacillus sp. FJAT-14222]</Hit_def>
+  <Hit_accession>KOS60500</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>2.22736e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAAL-GASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIGFPI-------ADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVAWIALISNLILMVGKIFFGLFGDSEAVFADGIHSGADVVASIAVLAVVGISNKPPDKDHPFGHGKAEVISEAIVGIILIIVSLYIL----VEAILAFFEKPSVPQYSALIAAIISYIAKEILYRYSIKQGKKWNSKAIIAIALDHKGDIVASLAAFIGVLLAIIGNAIGWTFLLYADAIASALVAYFIFRIAMELVKPSVDVLMEKSVDQELLDDYESTIHEFNQVQRIDKIRAREHGHYKLLDIRLSLNHNLTIKQGHDIAREIKNELLNKYPDVGEVLIHINP</Hsp_hseq>
+      <Hsp_midline>++V W A  +++ + + K   GL   S A+ AD +HSGADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++    V+ I   +E PS+  ++AL  A ++ I  E++YRY I  G + NS AIIA A D++ D ++S A  +GV+ ++IG  I       AD IA+  V+  + RI +EL+  +V  LM+ SVD ELL        +   V  I  +R R  G     DIRL ++ NL IK    +A  ++  + ++ P   ++ + ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|504070276|ref|WP_014304270.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Bacillus amyloliquefaciens group] &gt;gi|371566911|emb|CCF03761.1| Cation-efflux pump fieF [Bacillus velezensis CAU B946] &gt;gi|566055096|gb|AHC40844.1| transporter [Bacillus amyloliquefaciens LFB112] &gt;gi|641403629|gb|KDN91659.1| transporter [Bacillus amyloliquefaciens] &gt;gi|808332007|gb|AKD28390.1| cation efflux system [Bacillus velezensis NJN-6] &gt;gi|895758896|emb|COD37114.1| cation efflux family protein [Streptococcus pneumoniae] &gt;gi|975825576|emb|CUX92166.1| putative divalent cation efflux transporter [Bacillus velezensis] &gt;gi|1017168302|gb|KZE56173.1| transporter [Bacillus amyloliquefaciens] &gt;gi|1063803877|gb|AOO60260.1| transporter [Bacillus velezensis] &gt;gi|1175611398|gb|OQV44060.1| cation-efflux pump [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_014304270</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>2.82668e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1155431336|ref|WP_079005253.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus amyloliquefaciens] &gt;gi|1154361443|gb|OPD40360.1| cation-efflux pump [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_079005253</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.11185e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEIISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|651551857|ref|WP_026567944.1|</Hit_id>
+  <Hit_def>transporter [Bacillus sp. UNC41MFS5]</Hit_def>
+  <Hit_accession>WP_026567944</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.3686e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTY---EAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG--FPI-----ADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVAWISVISNIILTLGKIIIGLVGNSDAVFADGIHSAADVFASVIVLLVIKIANKPADDEHPYGHGKAEVIVSGIIGILLFLVAIYVVYEG----ISGFFHEVESPSFLAMWVALFSYVTKVILYRSSLKVAKENKSKAVEAIAFDHKADIVASIAAAIGVLLSIAGSRFDIHFLLYGDKAASIFVAYLIFKIAKEMLTEAFDILLERNIDTETLQEYVAVVKEFNEVKRIDRIRARELGHYVLVDLRIAIDHDKTIKQGHDLAKAIKQKLMDKNDNIQEVLIHLNP</Hsp_hseq>
+      <Hsp_midline>++V W +  ++I +TL K I+GL+  S A+ AD +HS ADV AS +  L +KI+NKPAD+ +P+G+G  + I S I+G LL + A +++Y      ISG +   E+PS  A   A  + +   ++YR  + V  EN S A+ A A+D+++D ++S A  +GV+ S+ G  F I      D  A+I V+ L+ +I  E++ +A   L++ ++DTE LQ    +  +   V  I  +R R +G  V  D+R+ +D +  IK    +A+A++Q++ D+  + +++ + ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|918724337|ref|WP_052587077.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Bacillus] &gt;gi|966559343|gb|KTF59963.1| transporter [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_052587077</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.49972e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYLAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|766628574|ref|WP_044802703.1|</Hit_id>
+  <Hit_def>transporter [Bacillus velezensis] &gt;gi|765094762|gb|KJD56866.1| transporter [Bacillus amyloliquefaciens] &gt;gi|1175616881|gb|OQV46089.1| cation-efflux pump [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_044802703</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.65245e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIIFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAIILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K I GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    I    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|494883142|ref|WP_007609192.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Bacillus] &gt;gi|385147871|gb|EIF11808.1| Cation efflux family protein [Bacillus sp. 5B6] &gt;gi|1131828715|emb|SIR74404.1| cation diffusion facilitator family transporter [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_007609192</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>5.90545e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSFLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIQRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  IQ       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|518087390|ref|WP_019257598.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_019257598</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>6.29611e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSFLLYADAIASAMVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1183781932|ref|WP_084992164.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_084992164</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>8.67276e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSFLLYADAIASAMVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDYDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489248547|ref|WP_003156692.1|</Hit_id>
+  <Hit_def>transporter [Bacillus velezensis] &gt;gi|407072984|gb|EKE45983.1| Cation-efflux pump fieF [Bacillus velezensis M27]</Hit_def>
+  <Hit_accession>WP_003156692</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>8.85991e-45</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPQLIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD +L++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1053804242|ref|WP_066067857.1|</Hit_id>
+  <Hit_def>transporter [Bacillus soli]</Hit_def>
+  <Hit_accession>WP_066067857</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.01152e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG----FPI---ADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVAWISVISNLILTLGKIIIGSYGNSEAVFADGIHSAADVFASVIVLLVIKISDKPADKEHPYGHGKAEVIVSEIIGFLLLLVAIYVAYEGISGLFH-TVESPSFLAMWVALFSFITKIILYRSSLRVANQNNSKAIEAIAFDHKADIVASIAAAIGVLLSIIGERLDIPFLLYGDRVASIFVAYLIFKIAKEMLTEAFDILLERNIKTETIEEYVAIIKQSPDVKRIDRIRAREHGHYVLVDLRIAIDHDKTIKQGHDLAKSIKKNLIDKNDNIREVLIHLNP</Hsp_hseq>
+      <Hsp_midline>++V W +  +++ +TL K I+G    S A+ AD +HS ADV AS +  L +KIS+KPAD+ +P+G+G  + I S I+G LLL+ A ++ Y  +  L   T E+PS  A   A  + I   ++YR  + V N+NNS AI A A+D+++D ++S A  +GV+ S+IG     P     D +A+I V+ L+ +I  E++ +A   L++ ++ TE ++    I   +P V  I  +R R  G  V  D+R+ +D +  IK    +A+++++ + D+  + R++ + ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1005278026|ref|WP_061573690.1|</Hit_id>
+  <Hit_def>transporter [Bacillus amyloliquefaciens] &gt;gi|1004887075|gb|KYC96966.1| hypothetical protein B425_0238 [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_061573690</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.07367e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAVIAIAYDHKGDIVASLAAFIGVLLAIIGNIRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPQLIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS A+IA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD +L++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|647575913|ref|WP_025853803.1|</Hit_id>
+  <Hit_def>transporter [Bacillus amyloliquefaciens] &gt;gi|1101468625|gb|APB80803.1| cation-efflux pump [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_025853803</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.09683e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVAASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADV AS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|860301609|ref|WP_048368253.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Bacillus] &gt;gi|857280257|gb|KMN53157.1| transporter [Bacillus sp. LK7] &gt;gi|924022161|emb|CUB41475.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus amyloliquefaciens] &gt;gi|1063658849|gb|ODS06002.1| putative transporter YdfM [Bacillus velezensis] &gt;gi|1111287756|gb|APH47898.1| cation-efflux pump [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_048368253</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.1086e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYLAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPQLIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD +L++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|763173772|ref|WP_044053420.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|700307048|gb|AIU77928.1| transporter [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_044053420</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>1.47885e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVAASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYLAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADV AS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|982922704|ref|WP_060398014.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|982206016|gb|AMA51253.1| transporter [Bacillus subtilis subsp. inaquosorum]</Hit_def>
+  <Hit_accession>WP_060398014</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>1.57664e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSFLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDYDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|500785256|ref|WP_011996263.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Bacillus subtilis group] &gt;gi|154350606|gb|ABS72685.1| YdfM [Bacillus amyloliquefaciens subsp. plantarum str. FZB42] &gt;gi|556017931|gb|AGZ54959.1| hypothetical protein U471_02430 [Bacillus amyloliquefaciens CC178] &gt;gi|912477240|gb|KNX35768.1| transporter [Bacillus amyloliquefaciens] &gt;gi|974734588|gb|KUP43798.1| transporter [Bacillus velezensis] &gt;gi|1058352752|gb|ODB63502.1| transporter [Bacillus velezensis] &gt;gi|1111274176|gb|APH34323.1| cation-efflux pump [Bacillus subtilis] &gt;gi|1148005140|gb|OOI05388.1| cation-efflux pump [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_011996263</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>1.59355e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYAAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIKPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIQRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++    +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  IQ       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1100824742|ref|WP_071392176.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_071392176</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.69893e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMTGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGKKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|761802945|ref|WP_043866802.1|</Hit_id>
+  <Hit_def>transporter [Bacillus amyloliquefaciens] &gt;gi|753764788|gb|AJH22672.1| transporter [Bacillus amyloliquefaciens] &gt;gi|808202725|gb|AKD20928.1| transporter [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_043866802</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.73557e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEDPSIPQYSALFAALISYLAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPQLIEEYKAVILDCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD +L++    +  D P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|647285930|ref|WP_025731040.1|</Hit_id>
+  <Hit_def>transporter [Bacillus ginsengihumi] &gt;gi|724792581|gb|KHD85338.1| transporter [Bacillus ginsengihumi]</Hit_def>
+  <Hit_accession>WP_025731040</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.7582e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVAWISVWSNVVLMVGKTVVGWFGHSDAVFADGIHSAADVFASVIVLLVIKVANKPADEEHPYGHGKAEVIVSGIVGLILLLVAFYVVFEAIIGFFH-PLQSPSILALWVALFSYLLKELLYRYSLNVATKNNSKAIEAIAYDHKADIVASIAAAIGVVLSLIGEYLHLSFLLYGDKVASIFVAYLIFRISQGILAESFNILMESNVNHDLMKELEETIHSFPDVRRIDRVRAREHGNYILVDIRISIDYNKTIKEGHDLGKQIKQALMKRNDHIQEVLIHLNP</Hsp_hseq>
+      <Hsp_midline>+V W +  +++ + + K ++G    S A+ AD +HS ADV AS +  L +K++NKPADE +P+G+G  + I S IVG +LL+ A ++++ +++       ++PSI A   A  + ++ EL+YRY + V  +NNS AI A A+D+++D ++S A  +GV+ S+IG           D +A+I V+ L+ RI   ++ ++ + LM+S+V+ +L++   +     P V  I  +R R  G  +  DIR+ +D N  IK+   + + ++Q +     H +++ + ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|971836983|ref|WP_058906537.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Bacillus amyloliquefaciens group] &gt;gi|971165876|gb|ALV03611.1| transporter [Bacillus amyloliquefaciens] &gt;gi|1058366710|gb|ODB76914.1| transporter [Bacillus velezensis] &gt;gi|1073859875|gb|AOT99826.1| transporter [Bacillus velezensis] &gt;gi|1148956633|gb|AQS42741.1| cation-efflux pump [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_058906537</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>2.44194e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|489333326|ref|WP_003240568.1|</Hit_id>
+  <Hit_def>cation efflux system [Bacillus subtilis] &gt;gi|443346269|gb|ELS60330.1| cation efflux system [Bacillus subtilis subsp. inaquosorum KCTC 13429]</Hit_def>
+  <Hit_accession>WP_003240568</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>2.46813e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFCGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSFLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDYDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1000058714|gb|KXJ39184.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis]</Hit_def>
+  <Hit_accession>KXJ39184</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>2.52137e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVAPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFPDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SV  EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ + P   ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|651979660|ref|WP_026692971.1|</Hit_id>
+  <Hit_def>transporter [Bacillus kribbensis]</Hit_def>
+  <Hit_accession>WP_026692971</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>2.54841e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIGFPI-------ADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVAWISVWSNIILTLGKIIVGLFAHSDAVFADGIHSAADVFASVIVLLVIKIANKPADEDHPYGHGKAEVIVSGIVGIVLLIVSFYVMYESVIGFFHPI-ETPSLIAVWVALFSFAAKELLYRYSLKVSKQFNSKAIEAIAFDHKADIVASIAAAAGVFLSILGEKLHIHILLYGDKVASLFVAFLIFRIAQEMLKEAFDILLERNVNSELLHKYIDVILSYKDVRRLDKIRAREHGHYILVDVRISVDHDKTIKEGHDLTREIRNALIDKYDNIDEVLIHLNP</Hsp_hseq>
+      <Hsp_midline>++V W +  ++I +TL K I+GL + S A+ AD +HS ADV AS +  L +KI+NKPADE +P+G+G  + I S IVG +LLI + ++MY SV+       E PS+ A   A  +    EL+YRY + V  + NS AI A A+D+++D ++S A   GV  S++G  +        D +A++ V+ L+ RI  E++ +A   L++ +V++ELL     +      V  +  +R R  G  +  D+R+ VD +  IK+   +   +R  + D+  +  ++ + ++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1016515162|ref|WP_063096092.1|</Hit_id>
+  <Hit_def>transporter [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_063096092</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>2.77548e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIQRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  IQ       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|505051984|ref|WP_015239086.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cation-efflux pump [Bacillus] &gt;gi|429485354|gb|AFZ89278.1| hypothetical protein B938_01180 [Bacillus velezensis AS43.3] &gt;gi|1131854919|emb|SIS25506.1| cation diffusion facilitator family transporter [Bacillus sp. RUPDJ] &gt;gi|1175617532|gb|OQV46733.1| cation-efflux pump [Bacillus velezensis] &gt;gi|1175620381|gb|OQV49575.1| cation-efflux pump [Bacillus velezensis] &gt;gi|1175628385|gb|OQV57498.1| cation-efflux pump [Bacillus velezensis] &gt;gi|1175629015|gb|OQV58125.1| cation-efflux pump [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_015239086</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>2.77548e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYAAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIQRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++    +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  IQ       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1100206370|ref|WP_071348381.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus amyloliquefaciens] &gt;gi|1099380675|gb|OIK19984.1| cation-efflux pump [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_071348381</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>2.83534e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALVALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1159737768|ref|WP_079288432.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus intestinalis] &gt;gi|1073774020|emb|SCV39607.1| Cobalt-zinc-cadmium resistance protein [Bacillus subtilis] &gt;gi|1159191018|gb|OPG91009.1| cation-efflux pump [Bacillus intestinalis]</Hit_def>
+  <Hit_accession>WP_079288432</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>3.08797e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVAPELIEEYKAVIFQCNQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFPDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SV  EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ + P   ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1130987084|ref|WP_075749862.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus licheniformis] &gt;gi|1129647801|gb|OLQ46636.1| transporter [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>WP_075749862</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>3.78183e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGMILVLVSVYILIEAILSFVEGP-GVPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTSGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++  +++  + G    P   A   A ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|780191935|ref|WP_045508699.1|</Hit_id>
+  <Hit_def>transporter [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_045508699</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>3.90481e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAVIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS A+IA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1039476645|ref|WP_064814841.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|768925017|gb|KJJ40237.1| transporter [Bacillus subtilis] &gt;gi|1036596806|gb|OBA05012.1| transporter [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_064814841</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>3.90481e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGMILVLVSVYILIEAILSFVEGP-GVPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDILMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++  +++  + G    P   A   A ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1118420682|ref|WP_072183084.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus subtilis] &gt;gi|924029904|emb|CUB41963.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus subtilis] &gt;gi|924105602|emb|CUB16744.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_072183084</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>4.25267e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVAPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQYPDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SV  EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ + P   ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|503116204|ref|WP_013350900.1|</Hit_id>
+  <Hit_def>transporter [Bacillus amyloliquefaciens] &gt;gi|307604985|emb|CBI41356.1| similar to cation efflux system [Bacillus amyloliquefaciens DSM 7] &gt;gi|328910195|gb|AEB61791.1| cation efflux system-like protein [Bacillus amyloliquefaciens LL3] &gt;gi|1039344488|gb|OBR26183.1| putative transporter YdfM [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_013350900</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>4.43805e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAVIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS A+IA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|505201644|ref|WP_015388746.1|</Hit_id>
+  <Hit_def>transporter [Bacillus amyloliquefaciens] &gt;gi|449852136|gb|AGF29128.1| Cation-efflux pump fieF [Bacillus amyloliquefaciens IT-45] &gt;gi|544264129|gb|ERK81771.1| transporter [Bacillus amyloliquefaciens UASWS BA1] &gt;gi|1004325531|gb|AMP32844.1| transporter [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_015388746</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>4.73137e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPQLIEEYKAVILNCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD +L++    +  + P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|752703888|ref|WP_041351247.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|751879875|gb|KIN31840.1| hypothetical protein B4069_0545 [Bacillus subtilis] &gt;gi|751895375|gb|KIN47020.1| hypothetical protein B4072_0586 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_041351247</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>4.78211e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALIANLILMAGKVFFGLAGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGKKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNKIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL   S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R +I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1119645508|ref|WP_072565809.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus subtilis] &gt;gi|1111311447|gb|APH67462.1| cation-efflux pump [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_072565809</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>4.88522e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVVVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVAPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFPDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SV  EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ + P   ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|752691842|ref|WP_041339645.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|751884004|gb|KIN35874.1| hypothetical protein B4068_0529 [Bacillus subtilis] &gt;gi|751896160|gb|KIN47788.1| hypothetical protein B4073_0526 [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_041339645</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>4.88522e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALVANLILMAGKVFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|760325000|ref|WP_043858057.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|758317582|gb|KIU10710.1| divalent cation efflux transporter [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_043858057</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>4.99056e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVI----GFP---IADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALVANLILMAGKVFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWPYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++I    G+P    AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|516292674|ref|WP_017695981.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|751874278|gb|KIN26409.1| hypothetical protein B4070_0565 [Bacillus subtilis] &gt;gi|751882802|gb|KIN34697.1| hypothetical protein B4071_0548 [Bacillus subtilis] &gt;gi|1064278106|gb|ODV47843.1| transporter [Bacillus subtilis] &gt;gi|1110827030|gb|OJH63440.1| cation-efflux pump [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_017695981</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>5.43509e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALIANLILMAGKVFFGLAGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNKIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL   S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R +I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1053182445|ref|WP_065980627.1|</Hit_id>
+  <Hit_def>transporter [Bacillus amyloliquefaciens] &gt;gi|1052479452|gb|AOC89790.1| putative transporter YdfM [Bacillus amyloliquefaciens]</Hit_def>
+  <Hit_accession>WP_065980627</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>5.55228e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAVIAIAYDHKGDIVASLAAFIGVLLAIIGTTRGWSFLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS A+IA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|983386008|ref|WP_060563016.1|</Hit_id>
+  <Hit_def>transporter [Bacillus velezensis] &gt;gi|959995497|gb|KSV96923.1| transporter [Bacillus velezensis] &gt;gi|1167487643|gb|OQC77894.1| cation-efflux pump [Bacillus velezensis]</Hit_def>
+  <Hit_accession>WP_060563016</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>6.31037e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSI--FAALGAS-VTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILMLVSVYIL----IEAISSFVEGPSIPQYSALFAALISYVAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASVIVAYLIFKISMGLIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIQRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++    ++ IS   E PSI  ++AL A+ ++ +  +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I + LI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  IQ       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|489337265|ref|WP_003244477.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Bacillus] &gt;gi|255767145|ref|NP_388428.2| transporter [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|251765146|sp|C0SP78.1|YDFM_BACSU RecName: Full=Uncharacterized transporter YdfM &gt;gi|225184772|emb|CAB12354.2| putative divalent cation efflux transporter [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|402479957|gb|AFQ56466.1| Putative divalent cation efflux transporter [Bacillus subtilis QB928] &gt;gi|407956225|dbj|BAM49465.1| divalent cation efflux transporter [Bacillus subtilis BEST7613] &gt;gi|407963496|dbj|BAM56735.1| divalent cation efflux transporter [Bacillus subtilis BEST7003] &gt;gi|452118768|gb|EME09162.1| cation diffusion facilitator transporter family protein [Bacillus subtilis MB73/2] &gt;gi|459388315|gb|AGG59901.1| putative divalent cation efflux transporter YdfM [Bacillus subtilis subsp. subtilis 6051-HGW] &gt;gi|558567089|gb|AHA76495.1| putative transporter ydfM [Bacillus subtilis PY79] &gt;gi|649009869|gb|AIC38923.1| divalent cation efflux transporter [Bacillus subtilis subsp. subtilis str. JH642 substr. AG174] &gt;gi|649014233|gb|AIC43155.1| divalent cation efflux transporter [Bacillus subtilis subsp. subtilis str. AG1839] &gt;gi|672770619|gb|KFH30202.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|672775448|gb|KFH35022.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|723796992|emb|CEI55680.1| transporter [Bacillus subtilis] &gt;gi|724426186|emb|CEJ76105.1| transporter [Bacillus sp.] &gt;gi|728883437|gb|AIY91832.1| transporter [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|728887749|gb|AIY96143.1| transporter [Bacillus subtilis] &gt;gi|749184499|gb|AJE93209.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|760454928|gb|KIX81008.1| putative transporter YdfM [Bacillus subtilis] &gt;gi|807072877|gb|AKC46083.1| transporter [Bacillus subtilis KCTC 1028] &gt;gi|811154744|gb|AKE22362.1| hypothetical protein BsLM_0563 [Bacillus sp. LM 4-2] &gt;gi|906389086|gb|KNB75838.1| transporter [Bacillus subtilis] &gt;gi|922815679|gb|KON98971.1| transporter [Bacillus murimartini] &gt;gi|983205498|gb|AMB22959.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1012900268|gb|AMS46083.1| transporter [Bacillus subtilis] &gt;gi|1017093266|gb|KZD82850.1| Cobalt-zinc-cadmium resistance protein [Bacillus subtilis] &gt;gi|1026724104|gb|OAE05596.1| transporter [Bacillus subtilis] &gt;gi|1035534786|gb|ANJ29604.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1049085490|gb|ANX09611.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1049332666|gb|ANY31486.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1049335569|gb|ANY34388.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1049338274|gb|ANY37092.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1051020483|gb|AOA09845.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1072800948|gb|AOT46809.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1072805207|gb|AOT51067.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1150403090|gb|AQR80497.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1150916829|gb|AQR84710.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus subtilis subsp. subtilis str. 168] &gt;gi|1162901424|gb|AQZ89451.1| cation-efflux pump [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_003244477</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>6.31037e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALIANLILMAGKVFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGKKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNSRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|504291877|ref|WP_014478979.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|291482977|dbj|BAI84052.1| hypothetical protein BSNT_06906 [Bacillus subtilis subsp. natto BEST195] &gt;gi|320020474|gb|ADV95460.1| putative divalent cation efflux transporter [Bacillus subtilis BSn5] &gt;gi|635180262|gb|KDE24256.1| transporter [Bacillus subtilis] &gt;gi|675438456|dbj|GAK78451.1| putative divalent cation efflux transporter [Bacillus subtilis Miyagi-4] &gt;gi|811393782|emb|COO15216.1| cation efflux family protein [Streptococcus pneumoniae] &gt;gi|882819555|emb|CJS06175.1| cation efflux family protein [Streptococcus pneumoniae] &gt;gi|924000919|emb|CUB47913.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus subtilis] &gt;gi|924006103|emb|CUB26317.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus subtilis] &gt;gi|924012315|emb|CUB57224.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus subtilis] &gt;gi|924018226|emb|CUB15042.1| Cadmium, cobalt and zinc/H(+)-K(+) antiporter [Bacillus subtilis] &gt;gi|998747850|gb|AMK71192.1| transporter [Bacillus subtilis subsp. natto] &gt;gi|1036323070|gb|OAZ66352.1| putative transporter YdfM [Bacillus subtilis] &gt;gi|1070423384|gb|AOR96947.1| putative transporter YdfM [Bacillus subtilis] &gt;gi|1070874181|gb|AOS66703.1| transporter [Bacillus subtilis] &gt;gi|1094635910|emb|SEN89151.1| cation diffusion facilitator family transporter [Bacillus subtilis] &gt;gi|1111583751|gb|API44852.1| cation-efflux pump [Bacillus subtilis] &gt;gi|1112936137|gb|API96049.1| cation-efflux pump [Bacillus subtilis] &gt;gi|1181763890|gb|ARI87243.1| cation-efflux pump [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_014478979</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>6.37803e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVI----GFP---IADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALIANLILMAGKVFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWPYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++I    G+P    AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|505065615|ref|WP_015252717.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cation-efflux pump [Bacillus] &gt;gi|430021361|gb|AGA21967.1| Hypothetical protein YdfM [Bacillus subtilis subsp. subtilis str. BSP1] &gt;gi|542114128|gb|ERI41988.1| transporter [Bacillus sp. EGD-AK10] &gt;gi|655529700|gb|AIC97141.1| transporter [Bacillus subtilis subsp. subtilis str. OH 131.1] &gt;gi|659922934|emb|CCU60934.1| Cobalt-zinc-cadmium resistance protein [Bacillus subtilis E1] &gt;gi|668753224|gb|KFC29189.1| transporter [Bacillus subtilis] &gt;gi|751132617|gb|KIL30023.1| hypothetical protein B4067_0580 [Bacillus subtilis subsp. subtilis] &gt;gi|751898793|gb|KIN50375.1| hypothetical protein B4145_0548 [Bacillus subtilis] &gt;gi|751899231|gb|KIN50801.1| hypothetical protein B4146_0242 [Bacillus subtilis] &gt;gi|752643251|gb|KIO57125.1| hypothetical protein B4143_0559 [Bacillus subtilis] &gt;gi|758179338|gb|AJO57217.1| transporter [Bacillus sp. YP1] &gt;gi|857327940|gb|KMN95801.1| transporter [Bacillus subtilis] &gt;gi|899704549|gb|KMY41567.1| transporter [Bacillus sp. FJAT-27445] &gt;gi|899704551|gb|KMY41569.1| transporter [Bacillus sp. FJAT-27445] &gt;gi|925225529|gb|KOS70228.1| transporter [Bacillus tequilensis] &gt;gi|1009038583|gb|AMR48221.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1017104690|gb|KZD94105.1| Cobalt-zinc-cadmium resistance protein [Bacillus subtilis] &gt;gi|1036008395|gb|OAY86619.1| transporter [Bacillus subtilis subsp. subtilis] &gt;gi|1051349776|gb|AOA53182.1| putative transporter YdfM [Bacillus subtilis] &gt;gi|1062078795|gb|AOL28585.1| transporter [Bacillus sp. FJAT-14266] &gt;gi|1062082550|gb|AOL32334.1| transporter [Bacillus gibsonii] &gt;gi|1062414748|gb|AOL96338.1| putative transporter YdfM [Bacillus subtilis] &gt;gi|1131847470|emb|SIR34185.1| cation diffusion facilitator family transporter [Bacillus subtilis] &gt;gi|1169001835|gb|ARB35970.1| cation-efflux pump [Bacillus subtilis] &gt;gi|1182675517|emb|SMF37262.1| cation diffusion facilitator family transporter [Bacillus sp. CC120222-01]</Hit_def>
+  <Hit_accession>WP_015252717</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>6.8724e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALIANLILMAGKVFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|489326879|ref|WP_003234175.1|</Hit_id>
+  <Hit_def>transporter [Bacillus subtilis] &gt;gi|349593439|gb|AEP89626.1| cobalt-zinc-cadmium resistance protein CzcD [Bacillus subtilis subsp. subtilis str. RO-NN-1] &gt;gi|351468884|gb|EHA29086.1| hypothetical protein BSSC8_37950 [Bacillus subtilis subsp. subtilis str. SC-8] &gt;gi|588499869|gb|EXF52282.1| transporter [Bacillus subtilis QH-1] &gt;gi|670919626|gb|AII34639.1| transporter [Bacillus subtilis TO-A] &gt;gi|846135176|gb|AKN12623.1| Cobalt-zinc-cadmium resistance protein [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_003234175</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>6.8724e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALIANLILMAGKVFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGKKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|503878822|ref|WP_014112816.1|</Hit_id>
+  <Hit_def>MULTISPECIES: transporter [Bacillales] &gt;gi|349597695|gb|AEP85483.1| cobalt-zinc-cadmium resistance protein CzcD [Bacillus subtilis subsp. spizizenii TU-B-10] &gt;gi|922876581|gb|KOO42401.1| transporter [Jeotgalibacillus marinus]</Hit_def>
+  <Hit_accession>WP_014112816</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>7.40507e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKVFFGLIGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVVVSVYILIEAILSFVEGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIVGNTRGWSYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVAPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFPDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ +++G          AD IA+  V+ L+ +I +ELI  +V  LM+ SV  EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ + P   ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1092599238|ref|WP_070548618.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus subtilis] &gt;gi|1087799054|gb|AOY06174.1| cation-efflux pump [Bacillus subtilis]</Hit_def>
+  <Hit_accession>WP_070548618</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>7.48447e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVI----GFP---IADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALIANLILMAGKVFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNIRGWPYLLYADAIASAIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++I    G+P    AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1180935542|ref|WP_084361099.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Bacillus fumarioli]</Hit_def>
+  <Hit_accession>WP_084361099</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>7.91123e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTY---EAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG--FPIA-----DTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVAWISLVSNIILTLGKIIIGWFGHSDAVFADGIHSAADVCASLLVVLVIKISNKPADLEHPYGHGKAEVIVSGIVGILLFEVSIYVIYEGV----SGFFHPVESPSMLAMWVAVFSFIAKMILYRSSLATAKKNNSKAIEAIAFDHRADIVASIAAAIGVLVSIIGEQFSITPLFYGDKIASIFVAYLIFKIAKEMLAEAFDILLERNINTETLQEYMTIIQQFPDVKRIDRIRAREHGHYVIVDLRIAIDHAKTIKQGHDLAKSIKTRLMDHHDNIDEVLIHFNP</Hsp_hseq>
+      <Hsp_midline>++V W +  ++I +TL K I+G    S A+ AD +HS ADV AS +  L +KISNKPAD  +P+G+G  + I S IVG LL   + +++Y  V    SG +   E+PS+ A   A  + I   ++YR  +    +NNS AI A A+D+R+D ++S A  +GV+ S+IG  F I      D IA+I V+ L+ +I  E++ +A   L++ +++TE LQ    I    P V  I  +R R  G  V  D+R+ +D    IK    +A++++ R+ D   +  ++ +  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1881354|dbj|BAA19381.1|</Hit_id>
+  <Hit_def>ydfM [Bacillus subtilis]</Hit_def>
+  <Hit_accession>BAA19381</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>9.36304e-44</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>EVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KVALIALIANLILMAGKVFFGLVGDSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVIVSVYILIEAILSFVKGP-SVPQYSALFAALISYVAKEILYRYSIKQGKKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGNSRGWSYLLYADAIASAIVAYLIFKISMELIRPSVGVLMEKSVDPELIEEYKAVIFQCDQVKRIDRIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRQFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>+V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L+I + +++  +++  + G    P   A   A ++ +  E++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA+  V+ L+ +I +ELI  +V  LM+ SVD EL++    +      V  I  +R R  G     D+RL +D +L IK    +A  +R  I+ +     ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|799138360|ref|WP_045926312.1|</Hit_id>
+  <Hit_def>transporter [Bacillus siamensis]</Hit_def>
+  <Hit_accession>WP_045926312</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>9.46341e-44</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>EEVVWWAFTADICMTLFKGILGLMSGSVALVADSLHSGADVVASGVTQLSLKISNKPADERYPFGYGNIQYISSAIVGSLLLIGASFLMYGSVVKLISGTYEAPSIFAALGASVTVIVNELMYRYQICVGNENNSPAIIANAWDNRSDAISSAAVMVGVIASVIG-------FPIADTIAAIGVSALVGRIGLELIGKAVHGLMDSSVDTELLQTAWQIATDTPLVHSIYFLRGRHVGEDVQFDIRLRVDPNLRIKDSSMVAEAVRQRIQDEIPHARDIRLFVSP</Hsp_qseq>
+      <Hsp_hseq>KKVALIALIANLILMAGKIFFGLIGNSEAVFADGIHSAADVVASIAVLAVIGISNKPPDQDHPFGHGKAEVISEAIVGIILVLVSVYILIEAISSFVEGP-SVPQYSALFAALISYAAKQILYRYSIKQGEKWNSKAIIAIAYDHKGDIVASLAAFIGVLLAIIGSTRGWSYLLYADAIASVIVAYLIFKISMELIRPSVDVLMEKSVDPELIEEYKAVILHCPQVKRLDKIRAREHGHYKLLDVRLSLDHDLTIKQGHDIAREIRNEIKRHFSDVEEVLIHVNP</Hsp_hseq>
+      <Hsp_midline>++V   A  A++ +   K   GL+  S A+ AD +HS ADVVAS      + ISNKP D+ +PFG+G  + IS AIVG +L++ + +++  ++   + G    P   A   A ++    +++YRY I  G + NS AIIA A+D++ D ++S A  +GV+ ++IG          AD IA++ V+ L+ +I +ELI  +V  LM+ SVD EL++    +    P V  +  +R R  G     D+RL +D +L IK    +A  +R  I+       ++ + V+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>3402296</Statistics_db-num>
+      <Statistics_db-len>1084013622</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

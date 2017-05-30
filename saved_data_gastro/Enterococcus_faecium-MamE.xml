@@ -1,0 +1,2430 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|292633624|gb|EFF52182.1|</Hit_id>
+  <Hit_def>peptidase Do [Bacteroides ovatus SD CMC 3f]</Hit_def>
+  <Hit_accession>EFF52182</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.35117e-33</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>QVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>QQAPDIFDFFFGDGRGQQRQVQSQPRVGFGSGVIISKDGYIVTNNHVIEGADEISVKLNDNR---EFKGRVIGTDPSTDLALVKIEGDDFPTIPV-GDSEALKVGEWVLAVGNPFNLNSTVTAGIVSAKARSLGVYNGGIESFIQTDAAINQGNSGGALVNAKGELVGINSVLSSPTGAYAGYGFAIPTS</Hsp_hseq>
+      <Hsp_midline>Q  PD       DG  +     ++     G+GVI+  DG+IVTN HV+ GA+ + V + D+     + G ++  D + DLAL+KI      T  V GDS+A+ V + V+A+G PF L+ TV+ GI+SAK +++ +      + +QTDAAINQGNSGG LV A G +VGIN+ + +P GA+AG GFA+P++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.12182</Hsp_evalue>
+      <Hsp_query-from>515</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>386</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIM</Hsp_qseq>
+      <Hsp_hseq>DKKEKTVEVTLKNEQGTTKIVKDAG---MEILGAAFKELPDDLKKQLNL--GYGLQVTGVSSG-KMSDAGVRKGFIILKANDQPMRKVSDLEEVM</Hsp_hseq>
+      <Hsp_midline> +   ++ + ++  +G    V  +G     +LGAA   L   L  Q NL  G G+ V GV+     + AG+R G +ILK + +P+ +  ++  +M</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.152299</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>EGVWVSEIVENGSAAGADIKVDDVIIGVDNKKVSNMADLQEALAKHRPGDKVKVKLMRDKKEKTVEVTLKNE-------QGTTKIVKDAGMEILGAAFKELPDDLKKQLNL--------------------------GYGLQVTGVSSG-KMSDAGVRKGFIILKANDQPMRKVSDLEEVMKAAVKSPNQVLF</Hsp_hseq>
+      <Hsp_midline> GV+V+ +  N  AA A ++  DVI+ VD + V    ++   +A+   G  V++ ++R      + +            Q  T  V  AG        + +   +  + N                           G G QV  V +G + + AG++   +I++ N++P+   + L+  +KAA  +  Q+L </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.528921</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>EGVWVSEIVENGSAAGADIKVDDVIIGVDNKKVSNMADLQEAL-AKHRPGDKVKVKLMRDKKE</Hsp_hseq>
+      <Hsp_midline>+G  V+E++    AA A ++ +D+II V+N+ V++ A L  A+ A    G ++ +K+ R+ +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|490446732|ref|WP_004317638.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteroides] &gt;gi|229447164|gb|EEO52955.1| peptidase Do [Bacteroides sp. D1] &gt;gi|262353019|gb|EEZ02114.1| peptidase Do [Bacteroides sp. 2_1_22] &gt;gi|292636473|gb|EFF54951.1| peptidase Do [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294442109|gb|EFG10928.1| peptidase Do [Bacteroides xylanisolvens SD CC 1b] &gt;gi|295087658|emb|CBK69181.1| periplasmic serine protease, Do/DeqQ family [Bacteroides xylanisolvens XB1A] &gt;gi|298269747|gb|EFI11340.1| HtrA protein [Bacteroides sp. D22] &gt;gi|335939623|gb|EGN01496.1| hypothetical protein HMPREF0127_02950 [Bacteroides sp. 1_1_30] &gt;gi|392691432|gb|EIY84677.1| protease Do [Bacteroides xylanisolvens CL03T12C04] &gt;gi|584440309|emb|CDM00751.1| Serine protease, DegP/HtrA, do-like [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584447480|emb|CDM04567.1| Serine protease, DegP/HtrA, do-like [Bacteroides xylanisolvens SD CC 1b] &gt;gi|893723040|gb|KMW77204.1| protease Do [Bacteroides sp. 3_1_13] &gt;gi|933386938|emb|CUO93485.1| serine protease [Bacteroides xylanisolvens] &gt;gi|1089281729|emb|SEB15316.1| Do/DeqQ family serine protease [Bacteroides xylanisolvens] &gt;gi|1099534472|emb|SFN62980.1| Do/DeqQ family serine protease [Bacteroides xylanisolvens]</Hit_def>
+  <Hit_accession>EFF54951</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.502</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>1.76363e-33</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>QVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>QQAPDIFDFFFGDGRGQQRQVQSQPRVGFGSGVIISKDGYIVTNNHVIEGADEISVKLNDNR---EFKGRVIGTDPSTDLALVKIEGDDFPTIPV-GDSEALKVGEWVLAVGNPFNLNSTVTAGIVSAKARSLGVYNGGIESFIQTDAAINQGNSGGALVNAKGELVGINSVLSSPTGAYAGYGFAIPTS</Hsp_hseq>
+      <Hsp_midline>Q  PD       DG  +     ++     G+GVI+  DG+IVTN HV+ GA+ + V + D+     + G ++  D + DLAL+KI      T  V GDS+A+ V + V+A+G PF L+ TV+ GI+SAK +++ +      + +QTDAAINQGNSGG LV A G +VGIN+ + +P GA+AG GFA+P++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.13435</Hsp_evalue>
+      <Hsp_query-from>515</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>391</Hsp_hit-from>
+      <Hsp_hit-to>479</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIM</Hsp_qseq>
+      <Hsp_hseq>DKKEKTVEVTLKNEQGTTKIVKDAG---MEILGAAFKELPDDLKKQLNL--GYGLQVTGVSSG-KMSDAGVRKGFIILKANDQPMRKVSDLEEVM</Hsp_hseq>
+      <Hsp_midline> +   ++ + ++  +G    V  +G     +LGAA   L   L  Q NL  G G+ V GV+     + AG+R G +ILK + +P+ +  ++  +M</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.196024</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>491</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>EGVWVSEIVENGSAAGADIKVDDVIIGVDNKKVSNMADLQEALAKHRPGDKVKVKLMRDKKEKTVEVTLKNE-------QGTTKIVKDAGMEILGAAFKELPDDLKKQLNL--------------------------GYGLQVTGVSSG-KMSDAGVRKGFIILKANDQPMRKVSDLEEVMKAAVKSPNQVLF</Hsp_hseq>
+      <Hsp_midline> GV+V+ +  N  AA A ++  DVI+ VD + V    ++   +A+   G  V++ ++R      + +            Q  T  V  AG        + +   +  + N                           G G QV  V +G + + AG++   +I++ N++P+   + L+  +KAA  +  Q+L </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.603462</Hsp_evalue>
+      <Hsp_query-from>705</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>394</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>KGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>EGVWVSEIVENGSAAGADIKVDDVIIGVDNKKVSNMADLQEAL-AKHRPGDKVKVKLMRDKKE</Hsp_hseq>
+      <Hsp_midline>+G  V+E++    AA A ++ +D+II V+N+ V++ A L  A+ A    G ++ +K+ R+ +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|492435838|ref|WP_005843252.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteroides] &gt;gi|149933689|gb|ABR40387.1| serine protease precursor [Bacteroides vulgatus ATCC 8482] &gt;gi|254836527|gb|EET16836.1| putative serine protease MucD [Bacteroides sp. 4_3_47FAA] &gt;gi|294448968|gb|EFG17511.1| peptidase Do [Bacteroides vulgatus PC510] &gt;gi|317384863|gb|EFV65819.1| serine protease [Bacteroides sp. 3_1_40A] &gt;gi|392689886|gb|EIY83161.1| protease Do [Bacteroides vulgatus CL09T03C04] &gt;gi|507746158|gb|EOS05207.1| peptidase Do [Bacteroides vulgatus dnLKV7] &gt;gi|524826530|emb|CDF17020.1| serine protease [Bacteroides vulgatus CAG:6] &gt;gi|649537865|gb|KDS44938.1| peptidase Do family protein [Bacteroides vulgatus str. 3975 RP4] &gt;gi|933250201|emb|CUQ27279.1| serine protease [Bacteroides vulgatus] &gt;gi|933261681|emb|CUN43572.1| serine protease [Bacteroides vulgatus] &gt;gi|933280746|emb|CUO88699.1| serine protease [Bacteroides vulgatus] &gt;gi|1094815487|emb|SEK21128.1| Do/DeqQ family serine protease [Bacteroides vulgatus] &gt;gi|1124981211|gb|OKZ50718.1| deoxyribonuclease HsdR [Bacteroides vulgatus]</Hit_def>
+  <Hit_accession>EFG17511</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>6.65877e-33</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>FGSGVIISKDGYIVTNNHVIDNADVISVKLND---GREYKGRVIGTDPSTDLALVKIEAD-ELPTIPVGNSEALKVGEWVLAVGNPFNMTSTVTAGIVSAKARSLGVYNNGVESFIQTDAAINQGNSGGALVNARGELVGINSVLYSPTGAYSGYGFAIPTS</Hsp_hseq>
+      <Hsp_midline> G+GVI+  DG+IVTN HV+  A+ + V + D      Y G ++  D + DLAL+KI    +L    +G+S+A+ V + V+A+G PF +  TV+ GI+SAK +++ +      + +QTDAAINQGNSGG LV A G +VGIN+ +Y+P GA++G GFA+P++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00318607</Hsp_evalue>
+      <Hsp_query-from>515</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>387</Hsp_hit-from>
+      <Hsp_hit-to>475</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIM</Hsp_qseq>
+      <Hsp_hseq>DKKEKDIEMTLKNAQGTTKVVKSAG---MDILGAAFREVPQELKRQLNL--GYGVEVTGVTDGKMKA-AGIRKGFIILKANGQPVKSVNDLEDVL</Hsp_hseq>
+      <Hsp_midline> +    + + ++  +G    V  +G     +LGAA   + Q L  Q NL  G GV V GVT     A AG+R G +ILK +G+PV    ++  ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.50702</Hsp_evalue>
+      <Hsp_query-from>580</Hsp_query-from>
+      <Hsp_query-to>759</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>AASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFN-WLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILL</Hsp_qseq>
+      <Hsp_hseq>SAAGNLEVDDVIIGIDGKRVKNFAELQEGLAKHRPGDKVTVKVLRDKKEKDIEMTLKNAQGTTKVVKSAGMDILGAA-----------FREVPQELKRQLNL-----------------------GYGVEVTGVTDGKMKA-AGIRKGFIILKANGQPVKSVNDLEDVLKAATQSPDQVLF</Hsp_hseq>
+      <Hsp_midline>+A+  L   DVI+ +DG+ V    E+   +A+   G  V + VLR     ++ +    +     VV++    ++ A              +VP E    L +                       G G +V  V  G   A AG++   +I++ N +PV S   L+  +KAAT +  Q+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|495654531|ref|WP_008379110.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Enterococcus] &gt;gi|394770604|gb|EJF50408.1| serine protease HtrA [Enterococcus sp. C1] &gt;gi|514493726|gb|EPH59831.1| serine protease do-like HtrA [Enterococcus faecium 13.SD.W.09] &gt;gi|514524431|gb|EPH89553.1| serine protease do-like HtrA [Enterococcus faecalis 06-MB-DW-09] &gt;gi|991888207|gb|AMG51341.1| serine protease [Enterococcus gallinarum]</Hit_def>
+  <Hit_accession>EPH59831</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>7.86519e-26</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIE----GMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTA-IYTPNGAFAGI-----GFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKIDGDDAYVVTNNHVVEGQDGLEVVLAD---GTKVKAELVGTDSYTDLAVLKISSEKVTTAATFGDSSALKVGEPAIAIGSPLGSDYANSVTQGIVSSLNRQVTSQNESGGTISINAIQTDAAINPGNSGGPLINVDGQVIGINSSKIASTSGSASGVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G + + V + D     +   E+V  D   DLA+LKI+ +   TAA  GDS A+ V +  IAIG+P G D   +V++GI+S+  + +  +    G    N +QTDAAIN GNSGGPL+  +G V+GIN++ I + +G+ +G+     GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.83976</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>GVVIYSVNNATPAEQAGLQQYDVITKIDDTEVSTTTDLQSALYKHKVGDTITVTFYR</Hsp_hseq>
+      <Hsp_midline>GV +  V   TPA  AGL+  DVI K+D   V    ++ + + +   G ++ +   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488216632|ref|WP_002287840.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|389867432|ref|YP_006374855.1| S1 family peptidase [Enterococcus faecium DO] &gt;gi|68195424|gb|EAN09870.1| Peptidase S1, chymotrypsin [Enterococcus faecium DO] &gt;gi|388532681|gb|AFK57873.1| S1 family peptidase [Enterococcus faecium DO]</Hit_def>
+  <Hit_accession>WP_002287840</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.02834e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1149903470|ref|WP_077836557.1|</Hit_id>
+  <Hit_def>serine protease, partial [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_077836557</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.27676e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.21393</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIM</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSAL</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|257821673|gb|EEV48803.1|</Hit_id>
+  <Hit_def>peptidase S1 [Enterococcus faecium 1,231,501]</Hit_def>
+  <Hit_accession>EEV48803</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.32489e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVNGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.015502</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1001888991|ref|WP_061343346.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|1001595668|gb|KXS08740.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_061343346</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>1.38408e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEAAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0141036</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKKYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|645922829|ref|WP_025476814.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|958602504|gb|KST46111.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_025476814</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.62209e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVNGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0184569</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|257837454|gb|EEV62528.1|</Hit_id>
+  <Hit_def>peptidase S1 [Enterococcus faecium Com15]</Hit_def>
+  <Hit_accession>EEV62528</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.70082e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVMMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.015502</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>312</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1005277869|ref|WP_061573537.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|1004806265|gb|AMP62148.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_061573537</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.83964e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGTEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.018595</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488274244|ref|WP_002345452.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus faecium] &gt;gi|430618250|gb|ELB55097.1| serine protease do-like htrA [Enterococcus faecium EnGen0056]</Hit_def>
+  <Hit_accession>WP_002345452</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.2363e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVMMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0189414</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488259985|ref|WP_002331193.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|403037864|gb|EJY49114.1| serine protease do-like HtrA [Enterococcus faecium 504] &gt;gi|430535243|gb|ELA75666.1| serine protease do-like htrA [Enterococcus faecium EnGen0011] &gt;gi|430586529|gb|ELB24781.1| serine protease do-like htrA [Enterococcus faecium EnGen0039] &gt;gi|430624069|gb|ELB60720.1| serine protease do-like htrA [Enterococcus faecium EnGen0052] &gt;gi|486815266|gb|EOH49963.1| serine protease do-like htrA [Enterococcus faecium EnGen0191] &gt;gi|487312673|gb|EOM28160.1| serine protease do-like htrA [Enterococcus faecium EnGen0192] &gt;gi|658178053|gb|KEI52710.1| serine protease [Enterococcus faecium UC8733]</Hit_def>
+  <Hit_accession>WP_002331193</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.34126e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0182981</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488222944|ref|WP_002294152.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Enterococcus] &gt;gi|257817201|gb|EEV44529.1| peptidase S1 [Enterococcus faecium 1,231,502] &gt;gi|257827136|gb|EEV53762.1| serine protease [Enterococcus faecium 1,231,410] &gt;gi|291589323|gb|EFF21130.1| hypothetical serine protease YyxA [Enterococcus faecium E1071] &gt;gi|291599554|gb|EFF30569.1| hypothetical serine protease YyxA [Enterococcus faecium U0317] &gt;gi|291605779|gb|EFF35216.1| hypothetical serine protease YyxA [Enterococcus faecium E1162] &gt;gi|313590833|gb|EFR69678.1| trypsin [Enterococcus faecium TX0133a01] &gt;gi|313594022|gb|EFR72867.1| trypsin [Enterococcus faecium TX0133B] &gt;gi|313595188|gb|EFR74033.1| trypsin [Enterococcus faecium TX0133A] &gt;gi|313597819|gb|EFR76664.1| trypsin [Enterococcus faecium TX0133C] &gt;gi|313641710|gb|EFS06290.1| trypsin [Enterococcus faecium TX0133a04] &gt;gi|313644330|gb|EFS08910.1| trypsin [Enterococcus faecium TX0082] &gt;gi|364090695|gb|EHM33246.1| hypothetical serine protease YyxA [Enterococcus faecium E4452] &gt;gi|364092815|gb|EHM35148.1| hypothetical serine protease YyxA [Enterococcus faecium E4453] &gt;gi|402920058|gb|EJX40600.1| serine protease do-like HtrA [Enterococcus faecium S447] &gt;gi|402923999|gb|EJX44242.1| serine protease do-like HtrA [Enterococcus faecium R501] &gt;gi|402927443|gb|EJX47408.1| serine protease do-like HtrA [Enterococcus faecium R496] &gt;gi|402948180|gb|EJX66342.1| serine protease do-like HtrA [Enterococcus faecium R446] &gt;gi|402953755|gb|EJX71443.1| serine protease do-like HtrA [Enterococcus faecium P1140] &gt;gi|402965564|gb|EJX82267.1| serine protease do-like HtrA [Enterococcus faecium ERV69] &gt;gi|402971760|gb|EJX88010.1| serine protease do-like HtrA [Enterococcus faecium ERV38] &gt;gi|402980004|gb|EJX95640.1| serine protease do-like HtrA [Enterococcus faecium ERV26] &gt;gi|402982740|gb|EJX98183.1| serine protease do-like HtrA [Enterococcus faecium ERV165] &gt;gi|402983271|gb|EJX98683.1| serine protease do-like HtrA [Enterococcus faecium ERV168] &gt;gi|402986984|gb|EJY02080.1| serine protease do-like HtrA [Enterococcus faecium ERV161] &gt;gi|402991309|gb|EJY06108.1| serine protease do-like HtrA [Enterococcus faecium ERV102] &gt;gi|402993351|gb|EJY07958.1| serine protease do-like HtrA [Enterococcus faecium ERV1] &gt;gi|402996965|gb|EJY11320.1| serine protease do-like HtrA [Enterococcus faecium E422] &gt;gi|402999938|gb|EJY14099.1| serine protease do-like HtrA [Enterococcus faecium E417] &gt;gi|403007603|gb|EJY21165.1| serine protease do-like HtrA [Enterococcus faecium C621] &gt;gi|403013008|gb|EJY26157.1| serine protease do-like HtrA [Enterococcus faecium 515] &gt;gi|403018233|gb|EJY30928.1| serine protease do-like HtrA [Enterococcus faecium 511] &gt;gi|403018894|gb|EJY31541.1| serine protease do-like HtrA [Enterococcus faecium 514] &gt;gi|403031509|gb|EJY43111.1| serine protease do-like HtrA [Enterococcus faecium 509] &gt;gi|425722448|gb|EKU85343.1| hypothetical protein HMPREF9307_01924 [Enterococcus faecium FB129-CNAB4] &gt;gi|430480646|gb|ELA57820.1| serine protease do-like htrA [Enterococcus faecium EnGen0013] &gt;gi|430497988|gb|ELA74005.1| serine protease do-like htrA [Enterococcus faecium EnGen0017] &gt;gi|430540933|gb|ELA81110.1| serine protease do-like htrA [Enterococcus faecium EnGen0004] &gt;gi|430549963|gb|ELA89773.1| serine protease do-like htrA [Enterococcus faecium EnGen0009] &gt;gi|430557293|gb|ELA96761.1| serine protease do-like htrA [Enterococcus faecium EnGen0018] &gt;gi|430562488|gb|ELB01720.1| serine protease do-like htrA [Enterococcus faecium EnGen0007] &gt;gi|430573100|gb|ELB11930.1| serine protease do-like htrA [Enterococcus faecium EnGen0032] &gt;gi|430577667|gb|ELB16254.1| serine protease do-like htrA [Enterococcus faecium EnGen0031] &gt;gi|430580001|gb|ELB18481.1| serine protease do-like htrA [Enterococcus faecium EnGen0025] &gt;gi|430582198|gb|ELB20625.1| serine protease do-like htrA [Enterococcus faecium EnGen0035] &gt;gi|430592347|gb|ELB30362.1| serine protease do-like htrA [Enterococcus faecium EnGen0036] &gt;gi|430611665|gb|ELB48741.1| serine protease do-like htrA [Enterococcus faecium EnGen0034] &gt;gi|430629975|gb|ELB66352.1| serine protease do-like htrA [Enterococcus faecium EnGen0054] &gt;gi|430636244|gb|ELB72314.1| serine protease do-like htrA [Enterococcus faecium EnGen0050] &gt;gi|430636716|gb|ELB72777.1| serine protease do-like htrA [Enterococcus faecium EnGen0051] &gt;gi|430640882|gb|ELB76710.1| serine protease do-like htrA [Enterococcus faecium EnGen0046] &gt;gi|430641620|gb|ELB77415.1| serine protease do-like htrA [Enterococcus faecium EnGen0057] &gt;gi|430646979|gb|ELB82438.1| serine protease do-like htrA [Enterococcus faecium EnGen0045] &gt;gi|430649346|gb|ELB84728.1| serine protease do-like htrA [Enterococcus faecium EnGen0049] &gt;gi|445187473|gb|AGE29115.1| Serine protease, DegP, HtrA, do-like protein [Enterococcus faecium NRRL B-2354] &gt;gi|486444623|gb|EOD89420.1| serine protease do-like htrA [Enterococcus faecium EnGen0006] &gt;gi|486445032|gb|EOD89820.1| serine protease do-like htrA [Enterococcus faecium EnGen0041] &gt;gi|486655213|gb|EOF94957.1| serine protease do-like htrA [Enterococcus faecium EnGen0166] &gt;gi|486661994|gb|EOG01531.1| serine protease do-like htrA [Enterococcus faecium EnGen0169] &gt;gi|486662102|gb|EOG01636.1| serine protease do-like htrA [Enterococcus faecium EnGen0168] &gt;gi|486663565|gb|EOG03050.1| serine protease do-like htrA [Enterococcus faecium EnGen0167] &gt;gi|486667177|gb|EOG06431.1| serine protease do-like htrA [Enterococcus faecium EnGen0171] &gt;gi|486672008|gb|EOG11100.1| serine protease do-like htrA [Enterococcus faecium EnGen0175] &gt;gi|486673226|gb|EOG12297.1| serine protease do-like htrA [Enterococcus faecium EnGen0170] &gt;gi|486679738|gb|EOG18550.1| serine protease do-like htrA [Enterococcus faecium EnGen0177] &gt;gi|486682932|gb|EOG21537.1| serine protease do-like htrA [Enterococcus faecium EnGen0179] &gt;gi|486691753|gb|EOG29938.1| serine protease do-like htrA [Enterococcus faecium EnGen0180] &gt;gi|486692157|gb|EOG30321.1| serine protease do-like htrA [Enterococcus faecium EnGen0181] &gt;gi|486700132|gb|EOG37957.1| serine protease do-like htrA [Enterococcus faecium EnGen0183] &gt;gi|486820348|gb|EOH54879.1| serine protease do-like htrA [Enterococcus faecium EnGen0257] &gt;gi|486836054|gb|EOH69783.1| serine protease do-like htrA [Enterococcus faecium EnGen0265] &gt;gi|486839506|gb|EOH73084.1| serine protease do-like htrA [Enterococcus faecium ATCC 8459] &gt;gi|487151827|gb|EOK71389.1| serine protease do-like htrA [Enterococcus faecium EnGen0125] &gt;gi|487159319|gb|EOK78727.1| serine protease do-like htrA [Enterococcus faecium EnGen0145] &gt;gi|487171000|gb|EOK90140.1| serine protease do-like htrA [Enterococcus faecium EnGen0149] &gt;gi|487174754|gb|EOK93790.1| serine protease do-like htrA [Enterococcus faecium EnGen0150] &gt;gi|487184506|gb|EOL03220.1| serine protease do-like htrA [Enterococcus faecium EnGen0152] &gt;gi|487295247|gb|EOM11330.1| serine protease do-like htrA [Enterococcus faecium EnGen0260] &gt;gi|487299890|gb|EOM15867.1| serine protease do-like htrA [Enterococcus faecium EnGen0261] &gt;gi|487305440|gb|EOM21141.1| serine protease do-like htrA [Enterococcus faecium EnGen0193] &gt;gi|487320125|gb|EOM35313.1| serine protease do-like htrA [Enterococcus faecium EnGen0254] &gt;gi|487327649|gb|EOM42380.1| serine protease do-like htrA [Enterococcus faecium EnGen0172] &gt;gi|487329631|gb|EOM44583.1| serine protease do-like htrA [Enterococcus faecium EnGen0256] &gt;gi|487358174|gb|EOM71701.1| serine protease do-like htrA [Enterococcus faecium EnGen0163] &gt;gi|508234852|gb|EOU08312.1| serine protease do-like htrA [Enterococcus faecium ATCC 8459] &gt;gi|514551483|gb|EPI15561.1| serine protease do-like HtrA [Enterococcus faecium SD2A-2] &gt;gi|514555202|gb|EPI19072.1| serine protease do-like HtrA [Enterococcus faecium OC2A-1] &gt;gi|514556669|gb|EPI20464.1| serine protease do-like HtrA [Enterococcus faecium LA4B-2] &gt;gi|529202453|gb|AGS74196.1| Serine protease do-like htrA [Enterococcus faecium Aus0085] &gt;gi|531625429|gb|EQJ04430.1| serine protease do-like htrA [Clostridioides difficile Y384] &gt;gi|612137483|gb|EZP90502.1| serine protease [Enterococcus faecium VRE1044] &gt;gi|612141274|gb|EZP94084.1| serine protease [Enterococcus faecium VSE1036] &gt;gi|612143974|gb|EZP96583.1| serine protease [Enterococcus faecium VRE1261] &gt;gi|612147793|gb|EZQ00263.1| serine protease [Enterococcus faecium VRE0576] &gt;gi|658184382|gb|KEI59039.1| serine protease [Enterococcus faecium UC10237] &gt;gi|695581740|gb|KGK73790.1| serine protease [Enterococcus faecium] &gt;gi|703902594|gb|KGQ72365.1| serine protease [Enterococcus faecium] &gt;gi|816116698|gb|KKJ63776.1| serine protease [Enterococcus faecium MRSN 3418] &gt;gi|906417053|gb|KNB92551.1| serine protease [Enterococcus faecium] &gt;gi|906421391|gb|KNB96889.1| serine protease [Enterococcus faecium] &gt;gi|924359966|gb|KOR93286.1| serine protease [Enterococcus faecium] &gt;gi|930361833|gb|ALF50019.1| serine protease [Enterococcus faecium] &gt;gi|941951884|gb|ALL11165.1| serine protease [Enterococcus faecium] &gt;gi|974999933|gb|ALZ50922.1| serine protease [Enterococcus faecium] &gt;gi|984403417|gb|KWW22153.1| serine protease [Enterococcus faecium] &gt;gi|985092993|gb|KWX89692.1| serine protease [Enterococcus faecium] &gt;gi|985095200|gb|KWX91760.1| serine protease [Enterococcus faecium] &gt;gi|985097820|gb|KWX94260.1| serine protease [Enterococcus faecium] &gt;gi|985101019|gb|KWX97229.1| serine protease [Enterococcus faecium] &gt;gi|985111013|gb|KWY06541.1| serine protease [Enterococcus faecium] &gt;gi|985111807|gb|KWY07284.1| serine protease [Enterococcus faecium] &gt;gi|985120187|gb|KWY15144.1| serine protease [Enterococcus faecium] &gt;gi|985121360|gb|KWY16256.1| serine protease [Enterococcus faecium] &gt;gi|985124831|gb|KWY19418.1| serine protease [Enterococcus faecium] &gt;gi|985134376|gb|KWY28136.1| serine protease [Enterococcus faecium] &gt;gi|985136103|gb|KWY29634.1| serine protease [Enterococcus faecium] &gt;gi|985138749|gb|KWY32074.1| serine protease [Enterococcus faecium] &gt;gi|985140512|gb|KWY33714.1| serine protease [Enterococcus faecium] &gt;gi|985142494|gb|KWY35536.1| serine protease [Enterococcus faecium] &gt;gi|985142941|gb|KWY35954.1| serine protease [Enterococcus faecium] &gt;gi|985146228|gb|KWY38997.1| serine protease [Enterococcus faecium] &gt;gi|985151111|gb|KWY43452.1| serine protease [Enterococcus faecium] &gt;gi|985153507|gb|KWY45711.1| serine protease [Enterococcus faecium] &gt;gi|985154007|gb|KWY46183.1| serine protease [Enterococcus faecium] &gt;gi|985163794|gb|KWY55326.1| serine protease [Enterococcus faecium] &gt;gi|985169115|gb|KWY60202.1| serine protease [Enterococcus faecium] &gt;gi|985169861|gb|KWY60887.1| serine protease [Enterococcus faecium] &gt;gi|985170265|gb|KWY61279.1| serine protease [Enterococcus faecium] &gt;gi|985172299|gb|KWY63204.1| serine protease [Enterococcus faecium] &gt;gi|985180952|gb|KWY71194.1| serine protease [Enterococcus faecium] &gt;gi|985183958|gb|KWY73950.1| serine protease [Enterococcus faecium] &gt;gi|985189439|gb|KWY79109.1| serine protease [Enterococcus faecium] &gt;gi|985190671|gb|KWY80262.1| serine protease [Enterococcus faecium] &gt;gi|985192323|gb|KWY81838.1| serine protease [Enterococcus faecium] &gt;gi|985196171|gb|KWY85489.1| serine protease [Enterococcus faecium] &gt;gi|985196509|gb|KWY85811.1| serine protease [Enterococcus faecium] &gt;gi|985196904|gb|KWY86185.1| serine protease [Enterococcus faecium] &gt;gi|985199013|gb|KWY88193.1| serine protease [Enterococcus faecium] &gt;gi|985205523|gb|KWY94390.1| serine protease [Enterococcus faecium] &gt;gi|985209597|gb|KWY98264.1| serine protease [Enterococcus faecium] &gt;gi|985216340|gb|KWZ04579.1| serine protease [Enterococcus faecium] &gt;gi|985216866|gb|KWZ05052.1| serine protease [Enterococcus faecium] &gt;gi|985218251|gb|KWZ06350.1| serine protease [Enterococcus faecium] &gt;gi|985219024|gb|KWZ07084.1| serine protease [Enterococcus faecium] &gt;gi|985222316|gb|KWZ10242.1| serine protease [Enterococcus faecium] &gt;gi|985228838|gb|KWZ16435.1| serine protease [Enterococcus faecium] &gt;gi|985478415|emb|CUX97708.1| Serine protease2C DegP/HtrA2C do-like (EC 3.4.21.-) [Enterococcus faecium] &gt;gi|996359141|gb|KXG94195.1| serine protease [Enterococcus faecium] &gt;gi|996377276|gb|KXH04312.1| serine protease [Enterococcus faecium] &gt;gi|996390430|gb|KXH10455.1| serine protease [Enterococcus faecium] &gt;gi|996390685|gb|KXH10689.1| serine protease [Enterococcus faecium] &gt;gi|996391678|gb|KXH11585.1| serine protease [Enterococcus faecium] &gt;gi|996393958|gb|KXH13601.1| serine protease [Enterococcus faecium] &gt;gi|996398301|gb|KXH15804.1| serine protease [Enterococcus faecium] &gt;gi|996405511|gb|KXH21355.1| serine protease [Enterococcus faecium] &gt;gi|996405524|gb|KXH21367.1| serine protease [Enterococcus faecium] &gt;gi|996624926|gb|KXH54497.1| serine protease [Enterococcus faecium] &gt;gi|1008421212|gb|AMQ96313.1| serine protease [Enterococcus faecium] &gt;gi|1036488230|emb|SAY73662.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036490831|emb|SAM39324.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036497518|emb|SAY69989.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036500842|emb|SAY57115.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036503914|emb|SAY55836.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036505928|emb|SAM41431.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036509085|emb|SAM42811.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036512403|emb|SAM38866.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036515846|emb|SAM38641.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036519905|emb|SAY70036.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1039153646|gb|OBP99555.1| serine protease [Enterococcus faecium] &gt;gi|1040773839|gb|OBU83522.1| serine protease [Enterococcus faecium] &gt;gi|1049464936|emb|CVH51665.1| Serine protease2C DegP/HtrA2C do-like [Enterococcus faecium] &gt;gi|1062446028|gb|AOM24103.1| serine protease [Enterococcus faecium] &gt;gi|1062457229|gb|AOM33737.1| serine protease [Enterococcus faecium] &gt;gi|1080272490|gb|OFK64913.1| serine protease [Enterococcus sp. HMSC055G03] &gt;gi|1080304983|gb|OFK95775.1| serine protease [Enterococcus sp. HMSC063H10] &gt;gi|1080728098|gb|OFO98244.1| serine protease [Enterococcus sp. HMSC076D08] &gt;gi|1080838847|gb|OFQ03246.1| serine protease [Enterococcus sp. HMSC063C12] &gt;gi|1080918333|gb|OFQ78848.1| serine protease [Enterococcus sp. HMSC065H12] &gt;gi|1095521367|gb|OHY83164.1| serine protease [Enterococcus faecium] &gt;gi|1108549589|gb|APE41237.1| serine protease [Enterococcus faecium] &gt;gi|1113042408|gb|OJT36214.1| serine protease [Enterococcus faecium] &gt;gi|1132516316|gb|OLZ01649.1| serine protease [Enterococcus faecium] &gt;gi|1132518482|gb|OLZ03751.1| serine protease [Enterococcus faecium] &gt;gi|1132521520|gb|OLZ06599.1| serine protease [Enterococcus faecium] &gt;gi|1132529026|gb|OLZ13763.1| serine protease [Enterococcus faecium] &gt;gi|1143518026|gb|ONN40919.1| serine protease [Enterococcus faecium] &gt;gi|1143524850|gb|ONN47532.1| serine protease [Enterococcus faecium] &gt;gi|1145970523|gb|OOE20855.1| serine protease [Enterococcus faecium] &gt;gi|1149365572|gb|OOL57128.1| serine protease [Enterococcus faecium] &gt;gi|1149369577|gb|OOL60218.1| serine protease [Enterococcus faecium] &gt;gi|1149372196|gb|OOL62719.1| serine protease [Enterococcus faecium] &gt;gi|1149374843|gb|OOL65198.1| serine protease [Enterococcus faecium] &gt;gi|1149383769|gb|OOL73666.1| serine protease [Enterococcus faecium] &gt;gi|1150408777|gb|AQT57458.1| Serine protease Do-like HtrA [Enterococcus faecium] &gt;gi|1151041151|gb|OOP62127.1| serine protease [Enterococcus faecium] &gt;gi|1158642169|gb|AQY27467.1| serine protease [Enterococcus faecium] &gt;gi|1158645754|gb|AQY31048.1| serine protease [Enterococcus faecium] &gt;gi|1159234566|gb|OPH30160.1| serine protease [Enterococcus faecium] &gt;gi|1159237372|gb|OPH32444.1| serine protease [Enterococcus faecium] &gt;gi|1159237391|gb|OPH32462.1| serine protease [Enterococcus faecium] &gt;gi|1172706756|gb|OQO63822.1| serine protease [Enterococcus faecium] &gt;gi|1172709208|gb|OQO66069.1| serine protease [Enterococcus faecium] &gt;gi|1186630874|emb|SMJ50680.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186726334|emb|SMK01704.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186745440|emb|SMJ94099.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186808363|emb|SMI46246.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186811806|emb|SMK14852.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186817345|emb|SMH89943.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186822375|emb|SMM75175.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186825797|emb|SMI40953.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186828719|emb|SMM53735.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186832339|emb|SMM65114.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186846061|emb|SMI50953.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186848813|emb|SMI56169.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186852333|emb|SMK03652.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186856353|emb|SMK00623.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186859486|emb|SMJ88272.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186862789|emb|SMK00058.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186865941|emb|SMJ61848.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186869908|emb|SMJ81156.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186873074|emb|SMK97299.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186877417|emb|SMK03445.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186880726|emb|SMK74013.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186883832|emb|SMK71906.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186887262|emb|SMK78948.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186890416|emb|SML04120.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186893764|emb|SMK97303.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186896856|emb|SMJ95236.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186899943|emb|SMK00280.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186903124|emb|SMJ94522.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186906347|emb|SMK77272.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186909420|emb|SMK97958.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186912407|emb|SML64677.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186915509|emb|SML83329.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186918891|emb|SMK91133.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186922161|emb|SML58792.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186925450|emb|SMJ81961.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186928639|emb|SML64656.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186931810|emb|SMJ82823.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186935572|emb|SMH95572.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186938249|emb|SMK94222.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186941298|emb|SMI54088.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186944712|emb|SMJ92664.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186947859|emb|SMI37453.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186950955|emb|SML58460.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186954279|emb|SMI60341.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186958665|emb|SMI07958.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186960807|emb|SMI46083.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186964103|emb|SMJ88981.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186967277|emb|SMI41251.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186970462|emb|SMJ90545.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186973804|emb|SMJ93467.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186977107|emb|SMK03486.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186980183|emb|SMM84370.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186983545|emb|SMI44611.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186986816|emb|SMJ85841.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186989767|emb|SML57709.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186993115|emb|SML70513.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186996317|emb|SMM52060.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186999697|emb|SML54815.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187002900|emb|SML41758.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187006245|emb|SMI38691.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187009396|emb|SMI32383.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187012770|emb|SML64608.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187016057|emb|SMJ93069.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187019126|emb|SMI26366.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187022330|emb|SML72296.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187025821|emb|SML61663.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187029005|emb|SMJ89387.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187032175|emb|SMI43783.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187035459|emb|SMJ83098.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187038703|emb|SMK00616.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187041906|emb|SMM36965.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187045247|emb|SMN07285.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187048607|emb|SMJ89005.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187051813|emb|SML03345.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187055470|emb|SMI01465.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187058287|emb|SMK06002.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187061624|emb|SML59037.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187064864|emb|SMK68495.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187068006|emb|SML03396.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187071375|emb|SMK20767.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187074731|emb|SMK94109.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187077968|emb|SML56956.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187081076|emb|SML61033.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187084269|emb|SMI49323.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187087742|emb|SML00357.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187090979|emb|SML57292.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187094295|emb|SML48131.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187097593|emb|SMI14569.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187100760|emb|SMK83997.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187104068|emb|SML54933.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187107315|emb|SML61198.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187110591|emb|SML00910.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187113968|emb|SML68084.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187117027|emb|SML71858.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187120479|emb|SML55571.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187123763|emb|SMJ92307.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187126959|emb|SML73482.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187645693|gb|OSP58120.1| serine protease [Enterococcus faecium] &gt;gi|1187645769|gb|OSP58188.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002294152</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.42875e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.018617</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|514904429|ref|WP_016629843.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus faecium] &gt;gi|514548965|gb|EPI13176.1| serine protease do-like HtrA [Enterococcus faecium SD1C-2]</Hit_def>
+  <Hit_accession>WP_016629843</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.49651e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVDIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0184569</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|488232890|ref|WP_002304098.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Enterococcus] &gt;gi|257813136|gb|EEV41894.1| peptidase S1 [Enterococcus faecium 1,230,933] &gt;gi|378937295|gb|AFC62367.1| Serine protease do-like htrA [Enterococcus faecium Aus0004] &gt;gi|403025085|gb|EJY37188.1| serine protease do-like HtrA [Enterococcus faecium 510] &gt;gi|430546620|gb|ELA86563.1| serine protease do-like htrA [Enterococcus faecium EnGen0016] &gt;gi|486683972|gb|EOG22533.1| serine protease do-like htrA [Enterococcus faecium EnGen0178] &gt;gi|486823280|gb|EOH57656.1| serine protease do-like htrA [Enterococcus faecium EnGen0264] &gt;gi|487291239|gb|EOM07437.1| serine protease do-like htrA [Enterococcus faecium EnGen0258] &gt;gi|487302387|gb|EOM18281.1| serine protease do-like htrA [Enterococcus faecium EnGen0262] &gt;gi|551096513|gb|ERT27960.1| serine protease do-like htrA [Enterococcus faecium BM4538] &gt;gi|551099732|gb|ERT31173.1| hypothetical protein O992_02235 [Enterococcus faecium NEF1] &gt;gi|816123535|gb|KKJ70114.1| serine protease [Enterococcus faecium MRSN 11639] &gt;gi|967387281|gb|KTK58704.1| serine protease [Enterococcus faecium] &gt;gi|969730888|gb|KUE82854.1| serine protease [Enterococcus faecium] &gt;gi|985113642|gb|KWY09032.1| serine protease [Enterococcus faecium] &gt;gi|1062769037|gb|AON59437.1| serine protease [Enterococcus faecium] &gt;gi|1080226856|gb|OFK21915.1| serine protease [Enterococcus sp. HMSC077E07] &gt;gi|1080554101|gb|OFN33343.1| serine protease [Enterococcus sp. HMSC077E04] &gt;gi|1080806106|gb|OFP72480.1| serine protease [Enterococcus sp. HMSC060E05] &gt;gi|1090985415|gb|OHP23343.1| serine protease [Enterococcus sp. HMSC060D07] &gt;gi|1090998671|gb|OHP35752.1| serine protease [Enterococcus sp. HMSC060D09] &gt;gi|1132527682|gb|OLZ12452.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002304098</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.49651e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0184569</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1149377938|gb|OOL68122.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>OOL68122</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.56615e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKSELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0184569</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488218893|ref|WP_002290101.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Enterococcus] &gt;gi|227180023|gb|EEI60995.1| trypsin [Enterococcus faecium TX1330] &gt;gi|257823881|gb|EEV50813.1| peptidase S1 [Enterococcus faecium 1,141,733] &gt;gi|257829757|gb|EEV56364.1| peptidase S1 [Enterococcus faecium 1,231,408] &gt;gi|257833121|gb|EEV59542.1| peptidase S1 [Enterococcus faecium Com12] &gt;gi|291609733|gb|EFF38992.1| hypothetical serine protease YyxA [Enterococcus faecium E980] &gt;gi|292642131|gb|EFF60295.1| trypsin [Enterococcus faecium PC4.1] &gt;gi|402424538|gb|EJV56711.1| serine protease do-like HtrA [Enterococcus faecium TX1337RF] &gt;gi|402918470|gb|EJX39158.1| serine protease do-like HtrA [Enterococcus faecium V689] &gt;gi|402929557|gb|EJX49305.1| serine protease do-like HtrA [Enterococcus faecium R497] &gt;gi|402938513|gb|EJX57517.1| serine protease do-like HtrA [Enterococcus faecium R494] &gt;gi|402943432|gb|EJX61918.1| serine protease do-like HtrA [Enterococcus faecium P1190] &gt;gi|402956967|gb|EJX74389.1| serine protease do-like HtrA [Enterococcus faecium P1137] &gt;gi|402958857|gb|EJX76141.1| serine protease do-like HtrA [Enterococcus faecium P1139] &gt;gi|402963631|gb|EJX80484.1| serine protease do-like HtrA [Enterococcus faecium ERV99] &gt;gi|402969742|gb|EJX86130.1| serine protease do-like HtrA [Enterococcus faecium P1123] &gt;gi|403005417|gb|EJY19127.1| serine protease do-like HtrA [Enterococcus faecium C497] &gt;gi|403009964|gb|EJY23376.1| serine protease do-like HtrA [Enterococcus faecium C1904] &gt;gi|403019192|gb|EJY31809.1| serine protease do-like HtrA [Enterococcus faecium 513] &gt;gi|403040165|gb|EJY51264.1| serine protease do-like HtrA [Enterococcus faecium 506] &gt;gi|403040957|gb|EJY52002.1| serine protease do-like HtrA [Enterococcus faecium 503] &gt;gi|430493378|gb|ELA69681.1| serine protease do-like htrA [Enterococcus faecium EnGen0015] &gt;gi|430537118|gb|ELA77471.1| serine protease do-like htrA [Enterococcus faecium EnGen0002] &gt;gi|430563151|gb|ELB02382.1| serine protease do-like htrA [Enterococcus faecium EnGen0003] &gt;gi|430565457|gb|ELB04603.1| serine protease do-like htrA [Enterococcus faecium EnGen0028] &gt;gi|430568241|gb|ELB07298.1| serine protease do-like htrA [Enterococcus faecium EnGen0029] &gt;gi|430591771|gb|ELB29798.1| serine protease do-like htrA [Enterococcus faecium EnGen0042] &gt;gi|430596430|gb|ELB34254.1| serine protease do-like htrA [Enterococcus faecium EnGen0033] &gt;gi|430602918|gb|ELB40468.1| serine protease do-like htrA [Enterococcus faecium EnGen0026] &gt;gi|430612873|gb|ELB49897.1| serine protease do-like htrA [Enterococcus faecium EnGen0038] &gt;gi|430616459|gb|ELB53369.1| serine protease do-like htrA [Enterococcus faecium EnGen0030] &gt;gi|430622716|gb|ELB59426.1| serine protease do-like htrA [Enterococcus faecium EnGen0047] &gt;gi|486934421|gb|EOI65103.1| serine protease do-like htrA [Enterococcus faecium EnGen0318] &gt;gi|486934522|gb|EOI65203.1| serine protease do-like htrA [Enterococcus faecium EnGen0314] &gt;gi|486937075|gb|EOI67633.1| serine protease do-like htrA [Enterococcus faecium EnGen0316] &gt;gi|486945346|gb|EOI75574.1| serine protease do-like htrA [Enterococcus faecium EnGen0319] &gt;gi|486945579|gb|EOI75801.1| serine protease do-like htrA [Enterococcus faecium EnGen0323] &gt;gi|486945877|gb|EOI76092.1| serine protease do-like htrA [Enterococcus faecium EnGen0321] &gt;gi|486954309|gb|EOI84289.1| serine protease do-like htrA [Enterococcus faecium EnGen0312] &gt;gi|508159726|gb|EOT36376.1| serine protease do-like htrA [Enterococcus faecium EnGen0376] &gt;gi|508179064|gb|EOT54627.1| serine protease do-like htrA [Enterococcus faecium EnGen0375] &gt;gi|508216589|gb|EOT90757.1| serine protease do-like htrA [Enterococcus faecium EnGen0375] &gt;gi|508222012|gb|EOT96154.1| serine protease do-like htrA [Enterococcus faecium EnGen0376] &gt;gi|508224853|gb|EOT98969.1| serine protease do-like htrA [Enterococcus faecium EnGen0377] &gt;gi|508227281|gb|EOU01325.1| serine protease do-like htrA [Enterococcus faecium EnGen0377] &gt;gi|658174429|gb|KEI49086.1| serine protease [Enterococcus faecium UC8668] &gt;gi|658177692|gb|KEI52349.1| serine protease [Enterococcus faecium UC7256] &gt;gi|958608970|gb|KST52280.1| serine protease [Enterococcus faecium] &gt;gi|985234227|gb|KWZ21481.1| serine protease [Enterococcus faecium] &gt;gi|985234837|gb|KWZ22035.1| serine protease [Enterococcus faecium] &gt;gi|985235889|gb|KWZ23032.1| serine protease [Enterococcus faecium] &gt;gi|985243516|gb|KWZ30252.1| serine protease [Enterococcus faecium] &gt;gi|985245778|gb|KWZ32479.1| serine protease [Enterococcus faecium] &gt;gi|985323954|gb|KXA07960.1| serine protease do-like HtrA [Enterococcus faecium] &gt;gi|1024764241|gb|ANB92827.1| serine protease [Enterococcus faecium] &gt;gi|1032666154|gb|OAQ37864.1| serine protease [Enterococcus faecium] &gt;gi|1036492491|emb|SAM48931.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1036534453|emb|SAM77396.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1062436880|gb|AOM16757.1| serine protease [Enterococcus faecium] &gt;gi|1062440985|gb|AOM20187.1| serine protease [Enterococcus faecium] &gt;gi|1062443974|gb|AOM22533.1| serine protease [Enterococcus faecium] &gt;gi|1062449138|gb|AOM26926.1| serine protease [Enterococcus faecium] &gt;gi|1062454567|gb|AOM31750.1| serine protease [Enterococcus faecium] &gt;gi|1062462136|gb|AOM37976.1| serine protease [Enterococcus faecium] &gt;gi|1080257952|gb|OFK51269.1| serine protease [Enterococcus sp. HMSC073E08] &gt;gi|1080394572|gb|OFL81458.1| serine protease [Enterococcus sp. HMSC073E07] &gt;gi|1080567231|gb|OFN45657.1| serine protease [Enterococcus sp. HMSC056C08] &gt;gi|1080570465|gb|OFN48518.1| serine protease [Enterococcus sp. HMSC072G01] &gt;gi|1080589010|gb|OFN66185.1| serine protease [Enterococcus sp. HMSC063D12] &gt;gi|1080742368|gb|OFP11677.1| serine protease [Enterococcus sp. HMSC065H03] &gt;gi|1080772872|gb|OFP40654.1| serine protease [Enterococcus sp. HMSC061C05] &gt;gi|1081023328|gb|OFR78766.1| serine protease [Enterococcus sp. HMSC072F07] &gt;gi|1081030556|gb|OFR85541.1| serine protease [Enterococcus sp. HMSC067C01] &gt;gi|1090904500|gb|OHO46701.1| serine protease [Enterococcus sp. HMSC035C10] &gt;gi|1091135269|gb|OHQ66339.1| serine protease [Enterococcus sp. HMSC070F12] &gt;gi|1091136683|gb|OHQ67652.1| serine protease [Enterococcus sp. HMSC072D11] &gt;gi|1091142310|gb|OHQ72981.1| serine protease [Enterococcus sp. HMSC072F02] &gt;gi|1091152910|gb|OHQ83041.1| serine protease [Enterococcus sp. HMSC074F07] &gt;gi|1132411445|gb|APV53203.1| serine protease [Enterococcus faecium] &gt;gi|1132440407|gb|APV55995.1| serine protease [Enterococcus faecium] &gt;gi|1132607688|gb|OLZ35745.1| serine protease [Enterococcus faecium] &gt;gi|1149357593|gb|OOL50303.1| serine protease [Enterococcus faecium] &gt;gi|1149358990|gb|OOL51475.1| serine protease [Enterococcus faecium] &gt;gi|1149359638|gb|OOL52017.1| serine protease [Enterococcus faecium] &gt;gi|1149368024|gb|OOL59019.1| serine protease [Enterococcus faecium] &gt;gi|1149380762|gb|OOL70795.1| serine protease [Enterococcus faecium] &gt;gi|1149393403|gb|OOL82420.1| serine protease [Enterococcus faecium] &gt;gi|1149537615|emb|SJX67394.1| Serine protease, DegP/HtrA, do-like [Enterococcus faecium] &gt;gi|1172712733|gb|OQO69425.1| serine protease [Enterococcus faecium] &gt;gi|1186535827|emb|SMM96034.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186539540|emb|SMM02885.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186543545|emb|SMM33150.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186546680|emb|SMM83229.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186549607|emb|SMM27085.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186553235|emb|SMM11446.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186556222|emb|SMI89546.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186559770|emb|SMM12561.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186564295|emb|SMI76161.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186566937|emb|SMM12495.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186570245|emb|SMM15740.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186574665|emb|SMM07210.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186578747|emb|SMK42510.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186581914|emb|SMK33994.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186584883|emb|SMM21711.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186588488|emb|SMM19442.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186591578|emb|SMK37509.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186595232|emb|SMK45784.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186598818|emb|SMM73896.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186601938|emb|SMM27675.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186606251|emb|SMM86516.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186608648|emb|SMM03861.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186612280|emb|SML80362.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186614806|emb|SMM88133.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186620696|emb|SMM76461.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186621966|emb|SMM82803.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186624914|emb|SMM88206.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186631664|emb|SMI92613.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186634903|emb|SMI94849.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186638436|emb|SMI56728.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186641099|emb|SMM42290.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186644089|emb|SMI89552.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186647816|emb|SMI91085.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186651601|emb|SMI46506.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186653986|emb|SMI98863.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186657296|emb|SMJ77401.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186660441|emb|SMI93861.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186664512|emb|SML84227.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186666890|emb|SMI98941.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186671559|emb|SMM86495.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186674576|emb|SMI61995.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186677199|emb|SMI89889.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186680350|emb|SMK47364.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186683420|emb|SMI96847.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186686559|emb|SMI91882.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186689702|emb|SMI89698.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186692710|emb|SMI92423.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186695877|emb|SMJ00748.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186699626|emb|SMI60826.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186701851|emb|SMI99590.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186706887|emb|SMI81324.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186709510|emb|SMJ08804.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186712520|emb|SMI95162.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186718746|emb|SMI90244.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186722362|emb|SMK29621.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186732607|emb|SMJ32486.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186737241|emb|SMI02193.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186738321|emb|SMI95537.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186748294|emb|SMK53730.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186759185|emb|SMM61138.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186772047|emb|SMK34009.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186778385|emb|SMI93633.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186781598|emb|SMK44821.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186792139|emb|SMK04870.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186801340|emb|SMK47416.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186804572|emb|SMK31040.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186817973|emb|SMI93616.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186834348|emb|SMK38296.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186839107|emb|SMI70361.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186842010|emb|SMI67748.1| Serine protease do-like htrA [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002290101</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.56615e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVMMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0191057</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488254028|ref|WP_002325236.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|402930573|gb|EJX50217.1| serine protease do-like HtrA [Enterococcus faecium R499] &gt;gi|430442180|gb|ELA52228.1| serine protease do-like htrA [Enterococcus faecium EnGen0012] &gt;gi|430551727|gb|ELA91478.1| serine protease do-like htrA [Enterococcus faecium EnGen0020] &gt;gi|430605789|gb|ELB43171.1| serine protease do-like htrA [Enterococcus faecium EnGen0044] &gt;gi|486617730|gb|EOF58826.1| serine protease do-like htrA [Enterococcus faecium EnGen0131] &gt;gi|486674893|gb|EOG13929.1| serine protease do-like htrA [Enterococcus faecium EnGen0176] &gt;gi|487092236|gb|EOK18048.1| serine protease do-like htrA [Enterococcus faecium EnGen0371] &gt;gi|487327904|gb|EOM42887.1| serine protease do-like htrA [Enterococcus faecium EnGen0173] &gt;gi|487330689|gb|EOM45591.1| serine protease do-like htrA [Enterococcus faecium EnGen0174] &gt;gi|985118259|gb|KWY13376.1| serine protease [Enterococcus faecium] &gt;gi|985237349|gb|KWZ24403.1| serine protease [Enterococcus faecium] &gt;gi|1020002408|gb|KZK33118.1| serine protease [Enterococcus faecium] &gt;gi|1143512208|gb|ONN35376.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002325236</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.58328e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.018595</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|763283650|ref|WP_044144988.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_044144988</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.58979e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0184569</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|498530111|ref|WP_010829527.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus faecium] &gt;gi|487089074|gb|EOK15043.1| serine protease do-like htrA [Enterococcus faecium EnGen0372]</Hit_def>
+  <Hit_accession>WP_010829527</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>2.58979e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.015131</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKKYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1098610743|ref|WP_071242877.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|1095525056|gb|OHY86586.1| serine protease [Enterococcus faecium] &gt;gi|1095526375|gb|OHY87788.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_071242877</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.66601e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0177664</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|742293733|ref|WP_038811427.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|658184854|gb|KEI59511.1| serine protease [Enterococcus faecium UC7251]</Hit_def>
+  <Hit_accession>WP_038811427</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.7363e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0196073</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|488248277|ref|WP_002319485.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|291601033|gb|EFF31324.1| trypsin domain protein [Enterococcus faecium E1039] &gt;gi|430485014|gb|ELA61958.1| serine protease do-like htrA [Enterococcus faecium EnGen0014] &gt;gi|906429145|gb|KNC04644.1| serine protease [Enterococcus faecium] &gt;gi|1143513907|gb|ONN37030.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002319485</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.7363e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0191057</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|488228090|ref|WP_002299298.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|289162966|gb|EFD10815.1| hypothetical protein EDAG_00359 [Enterococcus faecium D344SRF] &gt;gi|291591003|gb|EFF22707.1| hypothetical serine protease YyxA [Enterococcus faecium E1636] &gt;gi|291593930|gb|EFF25415.1| hypothetical serine protease YyxA [Enterococcus faecium E1679] &gt;gi|430490924|gb|ELA67420.1| serine protease do-like htrA [Enterococcus faecium EnGen0008] &gt;gi|430544686|gb|ELA84708.1| serine protease do-like htrA [Enterococcus faecium EnGen0021] &gt;gi|430599341|gb|ELB37048.1| serine protease do-like htrA [Enterococcus faecium EnGen0024] &gt;gi|486621862|gb|EOF62856.1| serine protease do-like htrA [Enterococcus faecium EnGen0124] &gt;gi|486624426|gb|EOF65347.1| serine protease do-like htrA [Enterococcus faecium EnGen0133] &gt;gi|486628028|gb|EOF68849.1| serine protease do-like htrA [Enterococcus faecium EnGen0126] &gt;gi|486629804|gb|EOF70543.1| serine protease do-like htrA [Enterococcus faecium EnGen0135] &gt;gi|486632173|gb|EOF72810.1| serine protease do-like htrA [Enterococcus faecium EnGen0130] &gt;gi|486635424|gb|EOF76011.1| serine protease do-like htrA [Enterococcus faecium EnGen0132] &gt;gi|486635736|gb|EOF76265.1| serine protease do-like htrA [Enterococcus faecium EnGen0128] &gt;gi|486642166|gb|EOF82540.1| serine protease do-like htrA [Enterococcus faecium EnGen0138] &gt;gi|486644095|gb|EOF84395.1| serine protease do-like htrA [Enterococcus faecium EnGen0137] &gt;gi|486648703|gb|EOF88848.1| serine protease do-like htrA [Enterococcus faecium EnGen0140] &gt;gi|486806681|gb|EOH41703.1| serine protease do-like htrA [Enterococcus faecium EnGen0185] &gt;gi|486812816|gb|EOH47629.1| serine protease do-like htrA [Enterococcus faecium EnGen0189] &gt;gi|486814704|gb|EOH49406.1| serine protease do-like htrA [Enterococcus faecium EnGen0190] &gt;gi|486910881|gb|EOI42356.1| serine protease do-like htrA [Enterococcus faecium EnGen0267] &gt;gi|486912961|gb|EOI44409.1| serine protease do-like htrA [Enterococcus faecium EnGen0313] &gt;gi|487152859|gb|EOK72417.1| serine protease do-like htrA [Enterococcus faecium EnGen0129] &gt;gi|487154071|gb|EOK73609.1| serine protease do-like htrA [Enterococcus faecium EnGen0134] &gt;gi|487159067|gb|EOK78477.1| serine protease do-like htrA [Enterococcus faecium EnGen0142] &gt;gi|487164734|gb|EOK84033.1| serine protease do-like htrA [Enterococcus faecium EnGen0146] &gt;gi|487167030|gb|EOK86236.1| serine protease do-like htrA [Enterococcus faecium EnGen0147] &gt;gi|487167529|gb|EOK86727.1| serine protease do-like htrA [Enterococcus faecium EnGen0148] &gt;gi|487175060|gb|EOK94095.1| serine protease do-like htrA [Enterococcus faecium EnGen0151] &gt;gi|487180487|gb|EOK99323.1| serine protease do-like htrA [Enterococcus faecium EnGen0155] &gt;gi|487182712|gb|EOL01653.1| serine protease do-like htrA [Enterococcus faecium EnGen0153] &gt;gi|487186479|gb|EOL05127.1| serine protease do-like htrA [Enterococcus faecium EnGen0156] &gt;gi|487250169|gb|EOL67375.1| serine protease do-like htrA [Enterococcus faecium EnGen0308] &gt;gi|487254431|gb|EOL71521.1| serine protease do-like htrA [Enterococcus faecium EnGen0305] &gt;gi|487290837|gb|EOM07040.1| serine protease do-like htrA [Enterococcus faecium EnGen0259] &gt;gi|487346039|gb|EOM60550.1| serine protease do-like htrA [Enterococcus faecium EnGen0186] &gt;gi|487347725|gb|EOM62204.1| serine protease do-like htrA [Enterococcus faecium EnGen0187] &gt;gi|487349690|gb|EOM64089.1| serine protease do-like htrA [Enterococcus faecium EnGen0188] &gt;gi|487356913|gb|EOM70472.1| serine protease do-like htrA [Enterococcus faecium EnGen0164] &gt;gi|535442768|gb|EEW66519.2| hypothetical protein EFZG_00710 [Enterococcus faecium TC 6] &gt;gi|551187937|gb|ERT51594.1| serine protease do-like htrA [Enterococcus faecium 10/96A] &gt;gi|906424920|gb|KNC00419.1| serine protease [Enterococcus faecium] &gt;gi|984816974|gb|KWW58122.1| serine protease [Enterococcus faecium] &gt;gi|984822523|gb|KWW63174.1| serine protease [Enterococcus faecium] &gt;gi|984822663|gb|KWW63305.1| serine protease [Enterococcus faecium] &gt;gi|984824145|gb|KWW64694.1| serine protease [Enterococcus faecium] &gt;gi|984827707|gb|KWW68056.1| serine protease [Enterococcus faecium] &gt;gi|984832459|gb|KWW72441.1| serine protease [Enterococcus faecium] &gt;gi|984833776|gb|KWW73672.1| serine protease [Enterococcus faecium] &gt;gi|984835747|gb|KWW75530.1| serine protease [Enterococcus faecium] &gt;gi|984840084|gb|KWW79384.1| serine protease [Enterococcus faecium] &gt;gi|984845548|gb|KWW84435.1| serine protease [Enterococcus faecium] &gt;gi|984850021|gb|KWW88632.1| serine protease [Enterococcus faecium] &gt;gi|984851230|gb|KWW89759.1| serine protease [Enterococcus faecium] &gt;gi|984855856|gb|KWW94079.1| serine protease [Enterococcus faecium] &gt;gi|984858412|gb|KWW96550.1| serine protease [Enterococcus faecium] &gt;gi|984921518|gb|KWX17386.1| serine protease [Enterococcus faecium] &gt;gi|1003377353|gb|KXW84241.1| serine protease [Enterococcus faecium] &gt;gi|1186716585|emb|SML71448.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186728636|emb|SMJ34220.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186742240|emb|SML86723.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186751668|emb|SMM96294.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186754717|emb|SMM67566.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186762295|emb|SMK31319.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186767667|emb|SMJ27616.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186768820|emb|SMK35326.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186775371|emb|SMJ55005.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186785071|emb|SMM67930.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186787704|emb|SMM74962.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186794385|emb|SMN08050.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1186797994|emb|SMM38519.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1187668802|gb|OSP79645.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002299298</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.75461e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0149829</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKKYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|488256859|ref|WP_002328067.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus faecium] &gt;gi|430488358|gb|ELA65040.1| serine protease do-like htrA [Enterococcus faecium EnGen0019] &gt;gi|430587098|gb|ELB25331.1| serine protease do-like htrA [Enterococcus faecium EnGen0040] &gt;gi|486651703|gb|EOF91614.1| serine protease do-like htrA [Enterococcus faecium EnGen0161] &gt;gi|486652696|gb|EOF92586.1| serine protease do-like htrA [Enterococcus faecium EnGen0162] &gt;gi|486692871|gb|EOG31012.1| serine protease do-like htrA [Enterococcus faecium EnGen0182] &gt;gi|486920939|gb|EOI52155.1| serine protease do-like htrA [Enterococcus faecium EnGen0317] &gt;gi|487191904|gb|EOL10372.1| serine protease do-like htrA [Enterococcus faecium EnGen0158] &gt;gi|487193549|gb|EOL11972.1| serine protease do-like htrA [Enterococcus faecium EnGen0159] &gt;gi|487193907|gb|EOL12312.1| serine protease do-like htrA [Enterococcus faecium EnGen0160]</Hit_def>
+  <Hit_accession>WP_002328067</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.77999e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0192488</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|514902808|ref|WP_016628497.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus faecium] &gt;gi|514542480|gb|EPI06927.1| serine protease do-like HtrA [Enterococcus faecium SD3B-2]</Hit_def>
+  <Hit_accession>WP_016628497</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.78695e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0194386</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|498472385|ref|WP_010777023.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus faecium] &gt;gi|486918405|gb|EOI49731.1| serine protease do-like htrA [Enterococcus faecium EnGen0315]</Hit_def>
+  <Hit_accession>WP_010777023</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.85755e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0189191</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|959840522|ref|WP_058128852.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|958601706|gb|KST45334.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_058128852</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.86469e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0194386</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|985519785|ref|WP_060810617.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|985104738|gb|KWY00743.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_060810617</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>2.94459e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0843542</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>348</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>VIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline>V V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|742289940|ref|WP_038809125.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|676254117|gb|KFO17989.1| serine protease [Enterococcus faecium UC7267] &gt;gi|695581103|gb|KGK73444.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_038809125</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.02672e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTVYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0199489</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|488280081|ref|WP_002351289.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|402944186|gb|EJX62620.1| serine protease do-like HtrA [Enterococcus faecium P1986]</Hit_def>
+  <Hit_accession>WP_002351289</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.04704e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0187563</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|844738264|ref|WP_047927734.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_047927734</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.25709e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVMMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0202966</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|844777347|ref|WP_047936906.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_047936906</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>3.6359e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKTDGNTAYVVTNNHVVDGQQGLEVMMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0199489</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|488303388|ref|WP_002374326.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|403032944|gb|EJY44480.1| serine protease do-like HtrA [Enterococcus faecium 505]</Hit_def>
+  <Hit_accession>WP_002374326</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>3.70318e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYIVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVNVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   +IVTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N    G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0192715</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|763018629|ref|WP_043902882.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|906427042|gb|KNC02541.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_043902882</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>3.76257e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0157801</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKKYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|498425758|ref|WP_010731809.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus faecium] &gt;gi|486823607|gb|EOH57975.1| serine protease do-like htrA [Enterococcus faecium EnGen0263]</Hit_def>
+  <Hit_accession>WP_010731809</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>6.30136e-24</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDGNTAYVVTNNHVVDGQQGLEVLMKD---GTKVKAELVGTDAYSDLAVLKINSDKVETVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVNVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + DG   ++VTN HVV G   + V +KD     +   E+V  D   DLA+LKI      T A  GDS A+ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  T N    G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0192715</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>NGVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline> GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|488320116|ref|WP_002389501.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecalis] &gt;gi|300849136|gb|EFK76889.1| serine protease do-like HtrA [Enterococcus faecalis TUSoD Ef11]</Hit_def>
+  <Hit_accession>EFK76889</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>8.90634e-23</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVT--ASSSGGQVMPDPLGLV------NPDGLPRFANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY---TPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>TKAVKKVQNSVVSVINMQSASNNSSADDPFGGLFGGNEGTQDSSGNNGNDLEAASE--GSGVIYKKDGKTAYVVTNNHVVDKAQGLEVVLSD---GTKVKGELVGTDAYTDLAVIKISSDKVDQVAEFGNSSKITVGEPAIAIGSPLGSDYANSVTQGIISSVNRNITNKNESGETININAIQTDAAINPGNSGGPLINIQGQVIGINSVKIVQSTSQVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>T  V  ++NSVVSV    S+S      DP G +        D      N    + E  G+GVI + DG   ++VTN HVV  A  + V + D     +  GE+V  D   DLA++KI+       A  G+S  + V +  IAIG+P G D   +V++GIIS+  + +  +  +    + N +QTDAAIN GNSGGPL+   G V+GIN+      T   +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0151849</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLT----QRLGLQANLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>LGITMSDLTGISSQQQEQILKIPASVKTGVVVRGVEAATPAEKAGLEKYDVITKVDGQDVSSTTDLQSALYKKKVGDKMEVTYYR</Hsp_hseq>
+      <Hsp_midline>LG  ++ LT    Q+      +PA    GV V GV   TPA  AGL   DVI KVDG+ V    ++ + + +   G  + +   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|488297198|ref|WP_002368406.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Bacilli] &gt;gi|256710267|gb|EEU25311.1| serine protease DO [Enterococcus faecalis T8] &gt;gi|256950890|gb|EEU67522.1| peptidase S1 [Enterococcus faecalis Merz96] &gt;gi|291078754|gb|EFE16118.1| trypsin [Enterococcus faecalis R712] &gt;gi|291082331|gb|EFE19294.1| trypsin [Enterococcus faecalis S613] &gt;gi|294452705|gb|EFG21135.1| trypsin [Enterococcus faecalis PC1.1] &gt;gi|295114368|emb|CBL33005.1| Trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain [Enterococcus sp. 7L76] &gt;gi|306505164|gb|EFM74352.1| trypsin [Enterococcus faecalis TX0860] &gt;gi|306509423|gb|EFM78480.1| trypsin [Enterococcus faecalis TX0855] &gt;gi|310628935|gb|EFQ12218.1| trypsin [Enterococcus faecalis TX0102] &gt;gi|310631362|gb|EFQ14645.1| trypsin [Enterococcus faecalis EnGen0311] &gt;gi|311289011|gb|EFQ67567.1| trypsin [Enterococcus faecalis DAPTO 516] &gt;gi|315027695|gb|EFT39627.1| trypsin [Enterococcus faecalis TX2137] &gt;gi|315036544|gb|EFT48476.1| trypsin [Enterococcus faecalis TX0027] &gt;gi|315162516|gb|EFU06533.1| trypsin [Enterococcus faecalis TX0645] &gt;gi|315167262|gb|EFU11279.1| trypsin [Enterococcus faecalis TX1341] &gt;gi|315578617|gb|EFU90808.1| trypsin [Enterococcus faecalis TX0630] &gt;gi|323478970|gb|ADX78409.1| serine protease htrA [Enterococcus faecalis 62] &gt;gi|397337819|gb|AFO45491.1| serine protease htrA [Enterococcus faecalis D32] &gt;gi|402359787|gb|EJU94408.1| serine protease do-like HtrA [Enterococcus faecalis 599] &gt;gi|429513006|gb|ELA02599.1| serine protease DO [Enterococcus faecalis OG1X] &gt;gi|429517138|gb|ELA06605.1| serine protease DO [Enterococcus faecalis M7] &gt;gi|486445886|gb|EOD90643.1| serine protease DO [Enterococcus faecalis EnGen0076] &gt;gi|486450300|gb|EOD94898.1| serine protease DO [Enterococcus faecalis EnGen0074] &gt;gi|486453954|gb|EOD98493.1| serine protease DO [Enterococcus faecalis EnGen0075] &gt;gi|486456680|gb|EOE01126.1| serine protease DO [Enterococcus faecalis EnGen0073] &gt;gi|486458312|gb|EOE02730.1| serine protease DO [Enterococcus faecalis EnGen0058] &gt;gi|486462884|gb|EOE07228.1| serine protease DO [Enterococcus faecalis EnGen0078] &gt;gi|486466648|gb|EOE10866.1| serine protease DO [Enterococcus faecalis EnGen0079] &gt;gi|486468207|gb|EOE12342.1| serine protease DO [Enterococcus faecalis EnGen0060] &gt;gi|486473729|gb|EOE17792.1| serine protease DO [Enterococcus faecalis EnGen0080] &gt;gi|486476681|gb|EOE20653.1| serine protease DO [Enterococcus faecalis EnGen0082] &gt;gi|486477224|gb|EOE21184.1| serine protease DO [Enterococcus faecalis EnGen0083] &gt;gi|486478501|gb|EOE22389.1| serine protease DO [Enterococcus faecalis EnGen0081] &gt;gi|486483573|gb|EOE27366.1| serine protease DO [Enterococcus faecalis EnGen0071] &gt;gi|486486013|gb|EOE29733.1| serine protease DO [Enterococcus faecalis EnGen0072] &gt;gi|486486652|gb|EOE30363.1| serine protease DO [Enterococcus faecalis EnGen0084] &gt;gi|486581853|gb|EOF23501.1| serine protease DO [Enterococcus faecalis EnGen0086] &gt;gi|486590143|gb|EOF31674.1| serine protease DO [Enterococcus faecalis EnGen0103] &gt;gi|486590367|gb|EOF31897.1| serine protease DO [Enterococcus faecalis EnGen0102] &gt;gi|486596721|gb|EOF38180.1| serine protease DO [Enterococcus faecalis EnGen0104] &gt;gi|486597619|gb|EOF39062.1| serine protease DO [Enterococcus faecalis EnGen0105] &gt;gi|486604088|gb|EOF45434.1| serine protease DO [Enterococcus faecalis EnGen0116] &gt;gi|486606092|gb|EOF47402.1| serine protease DO [Enterococcus faecalis EnGen0118] &gt;gi|486607075|gb|EOF48374.1| serine protease DO [Enterococcus faecalis EnGen0117] &gt;gi|486873171|gb|EOI05826.1| serine protease DO [Enterococcus faecalis EnGen0241] &gt;gi|486877085|gb|EOI09494.1| serine protease DO [Enterococcus faecalis EnGen0244] &gt;gi|486889257|gb|EOI21344.1| serine protease DO [Enterococcus faecalis EnGen0251] &gt;gi|486894988|gb|EOI26977.1| serine protease DO [Enterococcus faecalis EnGen0249] &gt;gi|486899108|gb|EOI30973.1| serine protease DO [Enterococcus faecalis EnGen0250] &gt;gi|486909151|gb|EOI40652.1| serine protease DO [Enterococcus faecalis EnGen0299] &gt;gi|486959354|gb|EOI89138.1| serine protease DO [Enterococcus faecalis EnGen0311] &gt;gi|486964496|gb|EOI94241.1| serine protease DO [Enterococcus faecalis EnGen0302] &gt;gi|486965046|gb|EOI94779.1| serine protease DO [Enterococcus faecalis EnGen0298] &gt;gi|486969043|gb|EOI98567.1| serine protease DO [Enterococcus faecalis EnGen0306] &gt;gi|486972906|gb|EOJ02391.1| serine protease DO [Enterococcus faecalis EnGen0282] &gt;gi|486977552|gb|EOJ06996.1| serine protease DO [Enterococcus faecalis ATCC 29200] &gt;gi|486979976|gb|EOJ09299.1| serine protease DO [Enterococcus faecalis EnGen0304] &gt;gi|486980800|gb|EOJ10119.1| serine protease DO [Enterococcus faecalis EnGen0279] &gt;gi|486985754|gb|EOJ15022.1| serine protease DO [Enterococcus faecalis EnGen0281] &gt;gi|486986490|gb|EOJ15662.1| serine protease DO [Enterococcus faecalis EnGen0287] &gt;gi|486992215|gb|EOJ21265.1| serine protease DO [Enterococcus faecalis EnGen0284] &gt;gi|486994126|gb|EOJ23147.1| serine protease DO [Enterococcus faecalis EnGen0286] &gt;gi|486998030|gb|EOJ27017.1| serine protease DO [Enterococcus faecalis EnGen0300] &gt;gi|487001044|gb|EOJ29918.1| serine protease DO [Enterococcus faecalis EnGen0293] &gt;gi|487002287|gb|EOJ31146.1| serine protease DO [Enterococcus faecalis EnGen0290] &gt;gi|487007677|gb|EOJ36419.1| serine protease DO [Enterococcus faecalis ATCC 27275] &gt;gi|487010074|gb|EOJ38617.1| serine protease DO [Enterococcus faecalis ATCC 27959] &gt;gi|487011225|gb|EOJ39851.1| serine protease DO [Enterococcus faecalis EnGen0289] &gt;gi|487016150|gb|EOJ44463.1| serine protease DO [Enterococcus faecalis EnGen0285] &gt;gi|487019964|gb|EOJ48248.1| serine protease DO [Enterococcus faecalis EnGen0345] &gt;gi|487020710|gb|EOJ48987.1| serine protease DO [Enterococcus faecalis EnGen0361] &gt;gi|487025333|gb|EOJ53398.1| serine protease DO [Enterococcus faecalis EnGen0363] &gt;gi|487029387|gb|EOJ57288.1| serine protease DO [Enterococcus faecalis EnGen0364] &gt;gi|487033146|gb|EOJ60927.1| serine protease DO [Enterococcus faecalis EnGen0350] &gt;gi|487033199|gb|EOJ60979.1| serine protease DO [Enterococcus faecalis EnGen0336] &gt;gi|487039696|gb|EOJ67278.1| serine protease DO [Enterococcus faecalis EnGen0351] &gt;gi|487039754|gb|EOJ67335.1| serine protease DO [Enterococcus faecalis EnGen0352] &gt;gi|487040540|gb|EOJ68114.1| serine protease DO [Enterococcus faecalis EnGen0337] &gt;gi|487053220|gb|EOJ80378.1| serine protease DO [Enterococcus faecalis EnGen0369] &gt;gi|487054614|gb|EOJ81753.1| serine protease DO [Enterococcus faecalis EnGen0356] &gt;gi|487061683|gb|EOJ88749.1| serine protease DO [Enterococcus faecalis EnGen0368] &gt;gi|487062260|gb|EOJ89149.1| serine protease DO [Enterococcus faecalis EnGen0370] &gt;gi|487068747|gb|EOJ95404.1| serine protease DO [Enterococcus faecalis EnGen0359] &gt;gi|487069398|gb|EOJ96048.1| serine protease DO [Enterococcus faecalis EnGen0360] &gt;gi|487076752|gb|EOK03247.1| serine protease DO [Enterococcus faecalis EnGen0367] &gt;gi|487080449|gb|EOK06780.1| serine protease DO [Enterococcus faecalis ATCC 10100] &gt;gi|487083416|gb|EOK09590.1| serine protease DO [Enterococcus faecalis ATCC 6055] &gt;gi|487093238|gb|EOK18854.1| serine protease DO [Enterococcus faecalis EnGen0326] &gt;gi|487093302|gb|EOK19078.1| serine protease DO [Enterococcus faecalis EnGen0329] &gt;gi|487101443|gb|EOK27064.1| serine protease DO [Enterococcus faecalis EnGen0334] &gt;gi|487101629|gb|EOK27241.1| serine protease DO [Enterococcus faecalis EnGen0333] &gt;gi|487102079|gb|EOK27682.1| serine protease DO [Enterococcus faecalis EnGen0328] &gt;gi|487112007|gb|EOK37407.1| serine protease DO [Enterococcus faecalis EnGen0335] &gt;gi|487113199|gb|EOK38585.1| serine protease DO [Enterococcus faecalis EnGen0330] &gt;gi|487117920|gb|EOK43279.1| serine protease DO [Enterococcus faecalis EnGen0332] &gt;gi|487122287|gb|EOK47541.1| serine protease DO [Enterococcus faecalis EnGen0062] &gt;gi|487124183|gb|EOK49410.1| serine protease DO [Enterococcus faecalis EnGen0061] &gt;gi|487194710|gb|EOL13046.1| serine protease DO [Enterococcus faecalis EnGen0327] &gt;gi|487197359|gb|EOL15667.1| serine protease DO [Enterococcus faecalis EnGen0331] &gt;gi|487203495|gb|EOL21678.1| serine protease DO [Enterococcus faecalis EnGen0365] &gt;gi|487204056|gb|EOL22228.1| serine protease DO [Enterococcus faecalis EnGen0342] &gt;gi|487209847|gb|EOL27914.1| serine protease DO [Enterococcus faecalis EnGen0346] &gt;gi|487216508|gb|EOL35313.1| serine protease DO [Enterococcus faecalis EnGen0348] &gt;gi|487234641|gb|EOL52148.1| serine protease DO [Enterococcus faecalis EnGen0240] &gt;gi|487237052|gb|EOL54534.1| serine protease DO [Enterococcus faecalis EnGen0245] &gt;gi|487242742|gb|EOL60078.1| serine protease DO [Enterococcus faecalis EnGen0246] &gt;gi|487244071|gb|EOL61373.1| serine protease DO [Enterococcus faecalis EnGen0247] &gt;gi|487263814|gb|EOL80609.1| serine protease DO [Enterococcus faecalis EnGen0303] &gt;gi|487275514|gb|EOL92121.1| serine protease DO [Enterococcus faecalis EnGen0366] &gt;gi|487276046|gb|EOL92651.1| serine protease DO [Enterococcus faecalis EnGen0341] &gt;gi|487279409|gb|EOL95938.1| serine protease DO [Enterococcus faecalis EnGen0344] &gt;gi|487306531|gb|EOM22194.1| serine protease DO [Enterococcus faecalis EnGen0253] &gt;gi|487312437|gb|EOM27929.1| serine protease DO [Enterococcus faecalis EnGen0232] &gt;gi|514515645|gb|EPH81172.1| serine protease do-like HtrA [Enterococcus faecalis 02-MB-BW-10] &gt;gi|514520613|gb|EPH85918.1| serine protease do-like HtrA [Enterococcus faecalis 06-MB-S-10] &gt;gi|514534053|gb|EPH98786.1| serine protease do-like HtrA [Enterococcus faecalis F01966] &gt;gi|514539813|gb|EPI04370.1| serine protease do-like HtrA [Enterococcus faecalis 20.SD.W.06] &gt;gi|514542886|gb|EPI07310.1| serine protease do-like HtrA [Enterococcus faecalis RP2S-4] &gt;gi|514552927|gb|EPI16910.1| serine protease do-like HtrA [Enterococcus faecium SB2C-2] &gt;gi|514563996|gb|EPI27491.1| serine protease do-like HtrA [Enterococcus faecalis VC1B-1] &gt;gi|514565220|gb|EPI28671.1| serine protease do-like HtrA [Enterococcus faecalis WKS-26-18-2] &gt;gi|544348695|gb|ERL07528.1| serine protease do-like HtrA [Enterococcus faecalis E12] &gt;gi|551089882|gb|ERT21387.1| serine protease DO [Enterococcus faecalis BM4539] &gt;gi|551094485|gb|ERT25949.1| serine protease DO [Enterococcus faecalis JH2-2] &gt;gi|564594398|gb|ETC90771.1| serine protease [Enterococcus faecalis PF3] &gt;gi|566261818|gb|ETJ09673.1| S1 family peptidase [Enterococcus faecalis DORA_14] &gt;gi|573595810|gb|ETT89883.1| serine protease DO [Enterococcus faecalis EnGen0400] &gt;gi|573597094|gb|ETT91161.1| serine protease DO [Enterococcus faecalis EnGen0401] &gt;gi|573602023|gb|ETT96014.1| serine protease DO [Enterococcus faecalis EnGen0403] &gt;gi|573603463|gb|ETT97452.1| serine protease DO [Enterococcus faecalis EnGen0402] &gt;gi|573607167|gb|ETU01083.1| serine protease DO [Enterococcus faecalis EnGen0404] &gt;gi|573612447|gb|ETU06313.1| serine protease DO [Enterococcus faecalis EnGen0405] &gt;gi|573614594|gb|ETU08394.1| serine protease DO [Enterococcus faecalis EnGen0406] &gt;gi|573621214|gb|ETU14922.1| serine protease DO [Enterococcus faecalis EnGen0408] &gt;gi|573625428|gb|ETU19077.1| serine protease DO [Enterococcus faecalis EnGen0410] &gt;gi|573630150|gb|ETU23757.1| serine protease DO [Enterococcus faecalis EnGen0412] &gt;gi|573631003|gb|ETU24588.1| serine protease DO [Enterococcus faecalis EnGen0413] &gt;gi|573636170|gb|ETU29687.1| serine protease DO [Enterococcus faecalis EnGen0414] &gt;gi|573637115|gb|ETU30611.1| serine protease DO [Enterococcus faecalis EnGen0415] &gt;gi|573644942|gb|ETU38335.1| serine protease DO [Enterococcus faecalis EnGen0416] &gt;gi|573648107|gb|ETU41447.1| serine protease DO [Enterococcus faecalis EnGen0418] &gt;gi|573653144|gb|ETU46407.1| serine protease DO [Enterococcus faecalis EnGen0421] &gt;gi|573659238|gb|ETU52404.1| serine protease DO [Enterococcus faecalis EnGen0423] &gt;gi|573667150|gb|ETU60233.1| serine protease DO [Enterococcus faecalis EnGen0425] &gt;gi|582038424|gb|AHI41753.1| Serine protease DO [Enterococcus faecalis DENG1] &gt;gi|619184173|gb|KAJ59981.1| Serine protease, DegP/HtrA [Enterococcus faecalis GA2] &gt;gi|619188751|gb|KAJ64347.1| Serine protease, DegP/HtrA [Enterococcus faecalis KS19] &gt;gi|619189671|gb|KAJ65231.1| Serine protease, DegP/HtrA [Enterococcus faecalis MN16] &gt;gi|619192804|gb|KAJ68211.1| Serine protease, DegP/HtrA [Enterococcus faecalis MD6] &gt;gi|619195372|gb|KAJ70625.1| Serine protease, DegP/HtrA [Enterococcus faecalis MTmid8] &gt;gi|619206222|gb|KAJ81022.1| Serine protease, DegP/HtrA [Enterococcus faecalis NJ44] &gt;gi|619207088|gb|KAJ81852.1| Serine protease, DegP/HtrA [Enterococcus faecalis GAN13] &gt;gi|694244111|gb|KGJ34922.1| serine protease [Enterococcus faecalis] &gt;gi|749429546|gb|KII40386.1| serine protease [Enterococcus faecalis] &gt;gi|749431127|gb|KII41967.1| serine protease [Enterococcus faecalis] &gt;gi|749431424|gb|KII42264.1| serine protease [Enterococcus faecalis] &gt;gi|749435766|gb|KII46606.1| serine protease [Enterococcus faecalis] &gt;gi|749439497|gb|KII50337.1| serine protease [Enterococcus faecalis] &gt;gi|749443797|gb|KII54637.1| serine protease [Enterococcus faecalis] &gt;gi|815134766|emb|CRH65695.1| serine protease [Chlamydia trachomatis] &gt;gi|827113992|gb|KLL19189.1| serine protease [Streptococcus agalactiae] &gt;gi|914302330|gb|KOA02487.1| serine protease [Enterococcus faecalis] &gt;gi|990709820|emb|CWW92012.1| Serine protease Do-like HtrA [Listeria monocytogenes] &gt;gi|991811611|emb|CWJ47449.1| trypsin domain-containing protein [Streptococcus pneumoniae] &gt;gi|1026280128|gb|OAD10000.1| serine protease [Enterococcus faecalis] &gt;gi|1045289161|gb|ANU73912.1| serine protease [Enterococcus faecalis] &gt;gi|1046365804|gb|OCK16165.1| serine protease [Enterococcus faecalis] &gt;gi|1049598167|dbj|BAV37508.1| serine protease DO [Enterococcus faecalis] &gt;gi|1078268563|gb|OFA14326.1| serine protease Do-like HtrA [Enterococcus faecalis] &gt;gi|1102515751|gb|APC56901.1| serine protease [Enterococcus faecalis] &gt;gi|1102520675|gb|OIU89811.1| serine protease [Enterococcus faecalis] &gt;gi|1102523319|gb|OIU92454.1| serine protease [Enterococcus faecalis] &gt;gi|1102526566|gb|OIU95700.1| serine protease [Enterococcus faecalis] &gt;gi|1108582026|gb|APE73494.1| serine protease [Enterococcus faecalis] &gt;gi|1127395085|gb|APS16476.1| serine protease [Enterococcus faecalis] &gt;gi|1142909024|gb|AQL54870.1| serine protease [Enterococcus faecalis] &gt;gi|1145443818|emb|SJN51881.1| Serine protease, DegP/HtrA, do-like [Sphingobacterium faecium PCAi_F2.5] &gt;gi|1149388833|gb|OOL78271.1| serine protease [Enterococcus faecalis] &gt;gi|1151022129|gb|OOP47538.1| serine protease [Enterococcus faecalis] &gt;gi|1151022894|gb|OOP48207.1| serine protease [Enterococcus faecalis] &gt;gi|1151025787|gb|OOP51038.1| serine protease [Enterococcus faecalis] &gt;gi|1151029600|gb|OOP54776.1| serine protease [Enterococcus faecalis] &gt;gi|1172717146|gb|OQO73468.1| serine protease [Enterococcus faecalis] &gt;gi|1184262427|gb|OSC86463.1| serine protease [Enterococcus faecalis] &gt;gi|1184265779|gb|OSC89305.1| serine protease [Enterococcus faecalis] &gt;gi|1185284773|gb|OSH22574.1| serine protease DO [Enterococcus faecalis] &gt;gi|1185303945|gb|OSH40835.1| serine protease DO [Enterococcus faecalis] &gt;gi|1185914244|gb|OSM15426.1| serine protease [Enterococcus faecalis] &gt;gi|1185922341|gb|OSM23076.1| serine protease [Enterococcus faecalis] &gt;gi|1185922555|gb|OSM23280.1| serine protease [Enterococcus faecalis] &gt;gi|1185929173|gb|OSM29705.1| serine protease [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002368406</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>9.84696e-23</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVT--ASSSGGQVMPDPLGLV------NPDGLPRFANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY---TPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>TKAVKKVQNSVVSVINMQSASNNSSADDPFGGLFGGNEGTQDSSGNNGNDLEAASE--GSGVIYKKDGKTAYVVTNNHVVDKAQGLEVVLSD---GTKVKGELVGTDAYTDLAVIKISSDKVDQVAEFGNSSKITVGEPAIAIGSPLGSDYANSVTQGIISSVNRNITNKNESGETININAIQTDAAINPGNSGGPLINIEGQVIGINSVKIVQSTSQVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>T  V  ++NSVVSV    S+S      DP G +        D      N    + E  G+GVI + DG   ++VTN HVV  A  + V + D     +  GE+V  D   DLA++KI+       A  G+S  + V +  IAIG+P G D   +V++GIIS+  + +  +  +    + N +QTDAAIN GNSGGPL+   G V+GIN+      T   +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.015855</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>321</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLT----QRLGLQANLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>LGITMSDLTGISSQQQEQILKIPASVKTGVVVRGVEAATPAEKAGLEKYDVITKVDGQDVSSTTDLQSALYKKKVGDKMEVTYYR</Hsp_hseq>
+      <Hsp_midline>LG  ++ LT    Q+      +PA    GV V GV   TPA  AGL   DVI KVDG+ V    ++ + + +   G  + +   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|498441380|ref|WP_010747024.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease HtrA [Enterococcus] &gt;gi|486841476|gb|EOH74997.1| serine protease do-like htrA [Enterococcus raffinosus ATCC 49464] &gt;gi|508207961|gb|EOT82176.1| serine protease do-like htrA [Enterococcus raffinosus ATCC 49464] &gt;gi|1036537174|emb|SAZ97924.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1080744032|gb|OFP13271.1| serine protease [Enterococcus sp. HMSC066C04] &gt;gi|1081239162|gb|OFT82109.1| serine protease [Enterococcus sp. HMSC29A04] &gt;gi|1081325726|gb|OFU65076.1| serine protease [Enterococcus sp. HMSC14A10]</Hit_def>
+  <Hit_accession>SAZ97924</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>3.76114e-21</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GTGVIVR---NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKI-TPKV-QLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMV---IEGMT-HSNLLQTDAAINQGNSGGPLVAANGTVVGINTA--IYTP-NGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKLEGNTAYIVTNNHVVEKQDGLEVLLKD--GS-KVKATLVGTDSYTDLAVLKVESDKVANIKPATFGDSSSLKVGEPAIALGSPLGSQYANSVTSGIISSLNRQVVNQNDEGQTVNINAIQTDAAINPGNSGGPLVNMAGQVVGINSSKIVQTESNVSVEGIGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI +   N  +IVTN HVV   + + V +KD  GS +    +V  D   DLA+LK+ + KV  +  A  GDS ++ V +  IA+G+P G     +V+ GIIS+  + +V    EG T + N +QTDAAIN GNSGGPLV   G VVGIN++  + T  N +  GIGFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0316356</Hsp_evalue>
+      <Hsp_query-from>548</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>AALTPL-TQRLGLQANLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>ASLSDLSTEQVSEIVKVPSSVTQGVVVGSVQSSTPADQAGLKKYDVITKIDDTDVSSGVELQSELYKHKVGDTVKITYYR</Hsp_hseq>
+      <Hsp_midline>A+L+ L T+++     +P+   +GV V  V  +TPA  AGL+  DVI K+D   V    E+ + + +   G +V+I   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|498413162|ref|WP_010722340.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus faecium] &gt;gi|486702101|gb|EOG39767.1| serine protease do-like htrA [Enterococcus faecium EnGen0184]</Hit_def>
+  <Hit_accession>WP_010722340</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>6.70921e-21</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVR---NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKSGNSAYIVTNNHVVEGQQGLEVLLKD---GTKVKAELVGTDAYSDLAVLKISADKVNKVASFGDSNSLKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNQTVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSASSSGVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI +   N  +IVTN HVV G   + V +KD     +   E+V  D   DLA+LKI+       A  GDS+++ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  +   +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00115709</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>NGVIVTSVQPATPAEKAGLKQYDVITKIDNTDVSSGVELQSVLYQKKVGDSVKVTYYR</Hsp_hseq>
+      <Hsp_midline> GV V  V P TPA  AGL+  DVI K+D   V    E+ +++ +   G SV++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|488253104|ref|WP_002324312.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease HtrA [Enterococcus] &gt;gi|430438887|gb|ELA49285.1| serine protease do-like htrA [Enterococcus faecium EnGen0005] &gt;gi|430445245|gb|ELA55012.1| serine protease do-like htrA [Enterococcus faecium EnGen0010] &gt;gi|430482271|gb|ELA59391.1| serine protease do-like htrA [Enterococcus faecium EnGen0022] &gt;gi|430555467|gb|ELA95005.1| serine protease do-like htrA [Enterococcus faecium EnGen0001] &gt;gi|430571093|gb|ELB10022.1| serine protease do-like htrA [Enterococcus faecium EnGen0027] &gt;gi|430607261|gb|ELB44583.1| serine protease do-like htrA [Enterococcus faecium EnGen0043] &gt;gi|430629289|gb|ELB65694.1| serine protease do-like htrA [Enterococcus faecium EnGen0048] &gt;gi|486643434|gb|EOF83736.1| serine protease do-like htrA [Enterococcus faecium EnGen0136] &gt;gi|486928234|gb|EOI59250.1| serine protease do-like htrA [Enterococcus faecium EnGen0322] &gt;gi|487262025|gb|EOL78898.1| serine protease do-like htrA [Enterococcus faecium EnGen0320] &gt;gi|487320532|gb|EOM35706.1| serine protease do-like htrA [Enterococcus faecium EnGen0255] &gt;gi|487357913|gb|EOM71445.1| serine protease do-like htrA [Enterococcus faecium EnGen0165] &gt;gi|589230602|gb|EEW63947.2| serine protease do-like htrA [Enterococcus faecium C68] &gt;gi|703908832|gb|KGQ78388.1| serine protease [Enterococcus faecium] &gt;gi|984816853|gb|KWW58009.1| serine protease [Enterococcus faecium] &gt;gi|1003374465|gb|KXW81452.1| serine protease [Enterococcus faecium C68] &gt;gi|1072834217|gb|AOT77604.1| Serine protease Do-like HtrA [Enterococcus faecium] &gt;gi|1080365373|gb|OFL53681.1| serine protease [Enterococcus sp. HMSC058D07] &gt;gi|1090897621|gb|OHO40744.1| serine protease [Enterococcus sp. HMSC034B11] &gt;gi|1091245370|gb|OHR70152.1| serine protease [Enterococcus sp. HMSC34G12] &gt;gi|1112965271|gb|APJ07336.1| serine protease [Enterococcus faecium] &gt;gi|1172685144|gb|OQO43825.1| serine protease [Enterococcus hirae] &gt;gi|1172698634|gb|OQO56461.1| serine protease [Enterococcus hirae]</Hit_def>
+  <Hit_accession>WP_002324312</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>7.02123e-21</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVR---NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKSGNSAYIVTNNHVVEGQQGLEVLLKD---GTKVKAELVGTDAYSDLAVLKISADKVNKVASFGDSNSLKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNQTVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSASSSGVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI +   N  +IVTN HVV G   + V +KD     +   E+V  D   DLA+LKI+       A  GDS+++ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  +   +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00135215</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>NGVIVTSVQPATPAEKAGLKQYDVITKIDDTDVSSGVELQSVLYQKKVGDSVKVTYYR</Hsp_hseq>
+      <Hsp_midline> GV V  V P TPA  AGL+  DVI K+D   V    E+ +++ +   G SV++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|498431290|ref|WP_010737045.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Enterococcus] &gt;gi|392335944|gb|AFM70226.1| serine protease DO [Enterococcus hirae ATCC 9790] &gt;gi|486839819|gb|EOH73226.1| serine protease do-like htrA [Enterococcus hirae ATCC 9790] &gt;gi|508230542|gb|EOU04013.1| serine protease do-like htrA [Enterococcus hirae ATCC 9790] &gt;gi|649263283|gb|KDR91736.1| serine protease [Enterococcus hirae] &gt;gi|906415569|gb|KNB91067.1| serine protease [Enterococcus faecium] &gt;gi|1026746033|gb|AND73400.1| serine protease [Enterococcus hirae] &gt;gi|1172673995|gb|OQO33705.1| serine protease [Enterococcus hirae] &gt;gi|1172677582|gb|OQO37090.1| serine protease [Enterococcus hirae] &gt;gi|1172681824|gb|OQO40761.1| serine protease [Enterococcus hirae] &gt;gi|1172693997|gb|OQO52112.1| serine protease [Enterococcus hirae] &gt;gi|1172694073|gb|OQO52183.1| serine protease [Enterococcus hirae] &gt;gi|1172702088|gb|OQO59580.1| serine protease [Enterococcus hirae]</Hit_def>
+  <Hit_accession>WP_010737045</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>8.89784e-21</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVR---NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKSGNSAYIVTNNHVVEGQQGLEVLLKD---GTKVKAELVGTDAYSDLAVLKISADKVNKVASFGDSNSLKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNQTVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSASSSGVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI +   N  +IVTN HVV G   + V +KD     +   E+V  D   DLA+LKI+       A  GDS+++ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  +   +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00135407</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>NGVIVTSVQPATPAEKAGLKQYDVITKIDDTDVSSGVELQSVLYQKKVGDSVKVTYYR</Hsp_hseq>
+      <Hsp_midline> GV V  V P TPA  AGL+  DVI K+D   V    E+ +++ +   G SV++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|498411146|ref|WP_010720945.1|</Hit_id>
+  <Hit_def>serine protease HtrA [Enterococcus hirae] &gt;gi|486613986|gb|EOF55117.1| serine protease do-like htrA [Enterococcus hirae EnGen0127]</Hit_def>
+  <Hit_accession>EOF55117</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>9.31138e-21</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVR---NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGIN------TAIYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKSGNSAYIVTNNHVVEGQQGLEVLLKD---GTKVKAELVGTDAYSDLAVLKISADKVNKVASFGDSNSLKVGEPAIAIGSPLGSEYANSVTSGIISSLNRQVTSTNESNQTVNINAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSASSSGVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI +   N  +IVTN HVV G   + V +KD     +   E+V  D   DLA+LKI+       A  GDS+++ V +  IAIG+P G +   +V+ GIIS+  + +     ++     N +QTDAAIN GNSGGPLV   G V+GIN      T+  +   +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0219117</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>400</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>NGVIVTSVQPATPAEKAGLKQYDVITKIYDTDVSSGVELQSVLYQKKVGDSVKVTYYR</Hsp_hseq>
+      <Hsp_midline> GV V  V P TPA  AGL+  DVI K+    V    E+ +++ +   G SV++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|492530594|ref|WP_005875495.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Serine protease DegP HtrA do-like protein [Enterococcus] &gt;gi|474483818|gb|EMS76980.1| Serine protease, DegP, HtrA, do-like protein [Enterococcus durans IPLA 655] &gt;gi|508156063|gb|EOT32788.1| serine protease do-like htrA [Enterococcus durans ATCC 6056] &gt;gi|508252283|gb|EOU25691.1| serine protease do-like htrA [Enterococcus durans ATCC 6056] &gt;gi|915771851|gb|AKX86119.1| serine protease [Enterococcus durans] &gt;gi|917639134|gb|AKZ47489.1| serine protease [Enterococcus durans] &gt;gi|958603747|gb|KST47294.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_005875495</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>9.93892e-20</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHS----NLLQTDAAINQGNSGGPLVAANGTVVGINTA------IYTPNGAFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKEGNTSYIVTNNHVVDGQQGLEVLLKD---GTKVKAELVGTDAYSDLAVLKIQSDKVDKVASFGDSSALKVGEPAIAIGSPLGSEYANSVTSGIVSSLNRQVTSTNESNETVNINAIQTDAAINPGNSGGPLINIEGQVIGINSSKIATTSESSSGVSVEGMGFAIPSN</Hsp_hseq>
+      <Hsp_midline>G+GVI + +G   +IVTN HVV G   + V +KD     +   E+V  D   DLA+LKI        A  GDS A+ V +  IAIG+P G +   +V+ GI+S+  + +     ++     N +QTDAAIN GNSGGPL+   G V+GIN++        +   +  G+GFA+PSN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0118507</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>402</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>NGVIVASVQPATPAEKAGLKQYDVITKIDDTEVSSGVELQSALYKKKVGDTVKITYYQEKD</Hsp_hseq>
+      <Hsp_midline> GV V  V P TPA  AGL+  DVI K+D   V    E+ + + +   G +V+I   +  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|493838799|ref|WP_006785958.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Turicibacter] &gt;gi|292644412|gb|EFF62508.1| trypsin [Turicibacter sanguinis PC909] &gt;gi|325488359|gb|EGC90783.1| serine protease Do-like protein [Turicibacter sp. HGF1] &gt;gi|932978708|emb|CUM76860.1| Serine protease Do-like HtrA [Turicibacter sanguinis]</Hit_def>
+  <Hit_accession>EFF62508</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>5.37563e-16</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>GLPRFANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT------HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPS</Hsp_qseq>
+      <Hsp_hseq>GVVNFANNRTQGE---GSGIIYKAEGDTAYIVTNQHVVDSGDYFEVVFSN--GN-RSEAELLGSDIYTDLAVLKVSDVTVDAVAEFGSTEDLQVGQTVIAIGNPLGLNFAGSATSGIVSGKDRTVSVDLNSDGYDDWEMTVLQTDTAINPGNSGGALINLDGKIVGIN-SMKIATSSVEGMSFSIPT</Hsp_hseq>
+      <Hsp_midline>G+  FAN  T+     G+G+I + +G   +IVTN HVV   +   V   +  G+ R   E++  D   DLA+LK++       A  G ++ + V   VIAIG P GL+   + + GI+S K +T+ ++  +         +LQTD AIN GNSGG L+  +G +VGIN ++     +  G+ F++P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|816126985|gb|KKJ72663.1|</Hit_id>
+  <Hit_def>serine protease, partial [Enterococcus faecium MRSN 4777]</Hit_def>
+  <Hit_accession>KKJ72663</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0082157</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>GVIVTNVQTATPAEKAGLKQYDVITKIDDKEVSSGVELQSALYKKKVGDSVKI</Hsp_hseq>
+      <Hsp_midline>GV V  V   TPA  AGL+  DVI K+D + V    E+ + + +   G SV+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|959840388|ref|WP_058128718.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Enterococcus faecium] &gt;gi|958604414|gb|KST47913.1| metalloprotease RseP [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_058128718</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00893047</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VGEIMPNGAAAEAGLKENDEVVSVDGKEIHSWNDLTTVITKNP-GKTLDFKIEREGQVQSIDV</Hsp_hseq>
+      <Hsp_midline>V  + PN  AA AGL+  D ++ VDG+ +H   ++  ++ + P G+++   + R G V ++ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.19046</Hsp_evalue>
+      <Hsp_query-from>708</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>QVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>RVGEIMPNGAAAEAGLKENDEVVSVDGKEIHSWNDLTTVI--TKNPGKTLDFKIEREGQ</Hsp_hseq>
+      <Hsp_midline>+V E++    AA AGL+ ND ++ V+ + + S   L   I      G+ +  K+ R GQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1036489331|emb|SAM48141.1|</Hit_id>
+  <Hit_def>membrane-associated zinc metalloprotease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>SAM48141</Hit_accession>
+  <Hit_len>355</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00937375</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VGEIMPNGAAAEAGLKENDEVVSVDGKEIHSWNDLTTVITKNP-GKTLDFKIEREGQVQSVDV</Hsp_hseq>
+      <Hsp_midline>V  + PN  AA AGL+  D ++ VDG+ +H   ++  ++ + P G+++   + R G V ++ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>7.32837</Hsp_evalue>
+      <Hsp_query-from>708</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>QVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>RVGEIMPNGAAAEAGLKENDEVVSVDGKEIHSWNDLTTVI--TKNPGKTLDFKIEREGQ</Hsp_hseq>
+      <Hsp_midline>+V E++    AA AGL+ ND ++ V+ + + S   L   I      G+ +  K+ R GQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|488251981|ref|WP_002323189.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Enterococcus faecium] &gt;gi|364089300|gb|EHM32000.1| RIP metalloprotease RseP [Enterococcus faecium E4453] &gt;gi|364090239|gb|EHM32850.1| RIP metalloprotease RseP [Enterococcus faecium E4452] &gt;gi|430575786|gb|ELB14483.1| RIP metalloprotease RseP [Enterococcus faecium EnGen0027] &gt;gi|486915334|gb|EOI46741.1| RIP metalloprotease RseP [Enterococcus faecium EnGen0315]</Hit_def>
+  <Hit_accession>WP_002323189</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00982161</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VGEIMPNGAAAEAGLKENDEVVSVDGKEIHSWNDLTTVITKNP-GKTLDFKIEREGQVQSVNV</Hsp_hseq>
+      <Hsp_midline>V  + PN  AA AGL+  D ++ VDG+ +H   ++  ++ + P G+++   + R G V ++++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>6.35251</Hsp_evalue>
+      <Hsp_query-from>708</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>QVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>RVGEIMPNGAAAEAGLKENDEVVSVDGKEIHSWNDLTTVI--TKNPGKTLDFKIEREGQ</Hsp_hseq>
+      <Hsp_midline>+V E++    AA AGL+ ND ++ V+ + + S   L   I      G+ +  K+ R GQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>185567</Statistics_db-num>
+      <Statistics_db-len>56928210</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,826 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99589.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamN, containing Divalent ion symporter domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>437</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99589.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamN, containing Divalent ion symporter domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>437</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|844878819|ref|WP_047952920.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|830058322|gb|KLR86175.1| NadC family protein [Neisseria gonorrhoeae SK1902]</Hit_def>
+  <Hit_accession>WP_047952920</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.285449</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMSMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ +++      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|830078488|gb|KLR99701.1|</Hit_id>
+  <Hit_def>NadC family protein, partial [Neisseria gonorrhoeae SK14515]</Hit_def>
+  <Hit_accession>KLR99701</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.60382</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|830139432|gb|KLS42966.1|</Hit_id>
+  <Hit_def>NadC family protein, partial [Neisseria gonorrhoeae SK23020]</Hit_def>
+  <Hit_accession>KLS42966</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.624358</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|844861843|ref|WP_047951776.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|830044144|gb|KLR76158.1| NadC family protein [Neisseria gonorrhoeae SK33414]</Hit_def>
+  <Hit_accession>WP_047951776</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.634105</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>LALIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>LYIFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>L + FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|515714142|ref|WP_017146742.1|</Hit_id>
+  <Hit_def>NadC family protein [Neisseria gonorrhoeae] &gt;gi|535127434|gb|EQS72930.1| solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2/3/5 [Neisseria gonorrhoeae FA19] &gt;gi|870660960|gb|AKP09826.1| Sodium-dependent dicarboxylate transporter SdcS [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_017146742</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.709785</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATTLHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|645185838|ref|WP_025456106.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|891691693|emb|CNQ26062.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891763148|emb|CNQ15252.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891823878|emb|CNS61958.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892025032|emb|CNR45882.1| NadC family protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025456106</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.728494</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATTAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|856831601|ref|WP_048339552.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|850061610|gb|KMM29980.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_048339552</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.74124</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATTAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1006080880|ref|WP_061727590.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis] &gt;gi|990126484|emb|CWR41204.1| NadC family protein [Neisseria meningitidis] &gt;gi|990229969|emb|CWN55274.1| NadC family protein [Neisseria meningitidis] &gt;gi|1137305594|gb|APY29831.1| Na(+)/dicarboxylate symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>APY29831</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.836924</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|498043176|ref|WP_010357332.1|</Hit_id>
+  <Hit_def>transporter [Neisseria gonorrhoeae] &gt;gi|830048287|gb|KLR79360.1| NadC family protein [Neisseria gonorrhoeae SK7842] &gt;gi|830063573|gb|KLR89785.1| NadC family protein [Neisseria gonorrhoeae SK6987] &gt;gi|830089391|gb|KLS07403.1| NadC family protein [Neisseria gonorrhoeae SK29344] &gt;gi|830128444|gb|KLS35608.1| NadC family protein [Neisseria gonorrhoeae ATL_2011_01_03] &gt;gi|830243223|gb|KLT20938.1| NadC family protein [Neisseria gonorrhoeae GC1-182] &gt;gi|891649436|emb|CNS08858.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1078559204|emb|SCW11796.1| Uncharacterized transporter HI_0608 [Neisseria gonorrhoeae] &gt;gi|1095813657|gb|OIA87413.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1145727858|gb|OOD37083.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_010357332</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.858982</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|763414411|ref|WP_044270670.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|636866642|gb|KDN03446.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_044270670</Hit_accession>
+  <Hit_len>469</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.880576</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|504393024|ref|WP_014580126.1|</Hit_id>
+  <Hit_def>transporter [Neisseria gonorrhoeae] &gt;gi|830147127|gb|KLS48800.1| NadC family protein [Neisseria gonorrhoeae MU_NG3] &gt;gi|830229890|gb|KLT09413.1| NadC family protein [Neisseria gonorrhoeae MU_NG20] &gt;gi|870667385|gb|AKP15752.1| Sodium-dependent dicarboxylate transporter SdcS [Neisseria gonorrhoeae] &gt;gi|1066412894|emb|SBO48566.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066421870|emb|SBO62863.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066424148|emb|SBO63465.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066433077|emb|SBO62947.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067564624|emb|SBM94599.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067567029|emb|SBM87303.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067571221|emb|SBM86542.1| NadC family protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_014580126</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.889299</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|645182224|ref|WP_025455868.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|800236061|emb|CFC25789.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800585328|emb|CFH08404.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|802488492|emb|CFR87870.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|802955144|emb|CFV32364.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|809673821|emb|CNR20917.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810264428|emb|CNT36542.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|830058500|gb|KLR86314.1| NadC family protein [Neisseria gonorrhoeae SK15454] &gt;gi|830070428|gb|KLR94479.1| NadC family protein [Neisseria gonorrhoeae SK7461] &gt;gi|830134456|gb|KLS39743.1| NadC family protein [Neisseria gonorrhoeae SK39420] &gt;gi|830143536|gb|KLS46285.1| NadC family protein [Neisseria gonorrhoeae ATL_2011_01-21] &gt;gi|830157099|gb|KLS56210.1| NadC family protein [Neisseria gonorrhoeae ATL_2011_05-08] &gt;gi|830157188|gb|KLS56296.1| NadC family protein [Neisseria gonorrhoeae MIA_2011_02_02] &gt;gi|830160339|gb|KLS58886.1| NadC family protein [Neisseria gonorrhoeae NYC_2011_05_13] &gt;gi|830192103|gb|KLS81878.1| NadC family protein [Neisseria gonorrhoeae MU_NG21] &gt;gi|830206815|gb|KLS92905.1| NadC family protein [Neisseria gonorrhoeae MU_NG23] &gt;gi|891512669|emb|CNR45123.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891556635|emb|CNQ34773.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891655965|emb|CNP23079.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891685128|emb|CNS81310.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891700131|emb|CNP52572.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891721923|emb|CNR02285.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891749821|emb|CNP36952.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891771615|emb|CNT52236.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891780490|emb|CNS49790.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891798033|emb|CNQ67985.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891976876|emb|CNP37660.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1035871378|gb|ANJ47339.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1035876390|gb|ANJ51745.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1066417300|emb|SBQ18634.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067582030|emb|SBM85794.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1078556831|emb|SCW12155.1| Uncharacterized transporter HI_0608 [Neisseria gonorrhoeae] &gt;gi|1095667784|gb|OHZ56280.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095669500|gb|OHZ57872.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095700136|gb|OHZ85500.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095728849|gb|OIA11604.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095798863|gb|OIA74056.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025455868</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.912737</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|645188537|ref|WP_025456174.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|636864986|gb|KDN01901.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|830050874|gb|KLR81059.1| NadC family protein [Neisseria gonorrhoeae SK8976] &gt;gi|830073758|gb|KLR96808.1| NadC family protein [Neisseria gonorrhoeae SK708] &gt;gi|1095793777|gb|OIA69572.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_025456174</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.912737</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1096985417|ref|WP_071198097.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095766197|gb|OIA45529.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095809325|gb|OIA83430.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095824218|gb|OIA97029.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095825195|gb|OIA97923.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_071198097</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.920685</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1176448205|ref|WP_082283233.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1078566427|emb|SCW11049.1| Uncharacterized transporter HI_0608 [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_082283233</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.928703</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSHGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|501495082|ref|WP_012503451.1|</Hit_id>
+  <Hit_def>transporter [Neisseria gonorrhoeae] &gt;gi|193933402|gb|ACF29226.1| putative transport protein [Neisseria gonorrhoeae NCCP11945] &gt;gi|800104600|emb|CEZ96742.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800156561|emb|CFA83708.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800240269|emb|CFC33604.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800242417|emb|CFC35420.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800244689|emb|CFC37008.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800353144|emb|CFE21342.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800578423|emb|CFG85601.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800580772|emb|CFG89369.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800582984|emb|CFH04479.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800592379|emb|CFH34897.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|802413434|emb|CFR30064.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|802420332|emb|CFR37173.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|809711260|emb|CNN83119.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|809719632|emb|CNR34402.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810052175|emb|CNT35739.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810073310|emb|CNS42407.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810081839|emb|CNS22184.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810086174|emb|CNN81727.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810088359|emb|CNR36273.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810092634|emb|CNO59939.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810094806|emb|CNQ22824.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810101232|emb|CNS55589.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810111803|emb|CNR10284.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810116393|emb|CNS30874.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810120731|emb|CNS18718.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810122876|emb|CNQ11108.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810157278|emb|CNR46681.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810159496|emb|CNP93587.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810165963|emb|CNS37705.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810209164|emb|CNQ67491.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810211315|emb|CNQ10029.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810243939|emb|CNR17233.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810273853|emb|CNR66875.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|830091498|gb|KLS08842.1| NadC family protein [Neisseria gonorrhoeae SK32402] &gt;gi|830100349|gb|KLS15055.1| NadC family protein [Neisseria gonorrhoeae ATL_2011_01_17] &gt;gi|830104674|gb|KLS17990.1| NadC family protein [Neisseria gonorrhoeae SK36809] &gt;gi|830115227|gb|KLS25885.1| NadC family protein [Neisseria gonorrhoeae MIA_2011_05-10] &gt;gi|830121375|gb|KLS30405.1| NadC family protein [Neisseria gonorrhoeae ALB_2011_04_03] &gt;gi|830169421|gb|KLS65312.1| NadC family protein [Neisseria gonorrhoeae MU_NG12] &gt;gi|830176926|gb|KLS70880.1| NadC family protein [Neisseria gonorrhoeae MU_NG9] &gt;gi|830190706|gb|KLS81054.1| NadC family protein [Neisseria gonorrhoeae MU_NG8] &gt;gi|830196752|gb|KLS85484.1| NadC family protein [Neisseria gonorrhoeae MU_NG5] &gt;gi|830205474|gb|KLS91820.1| NadC family protein [Neisseria gonorrhoeae MU_NG14] &gt;gi|830208529|gb|KLS94200.1| NadC family protein [Neisseria gonorrhoeae MU_NG19] &gt;gi|830222565|gb|KLT04166.1| NadC family protein [Neisseria gonorrhoeae MU_NG25] &gt;gi|891440632|emb|CNR38376.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891449086|emb|CNR71402.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891451151|emb|CNS68018.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891455316|emb|CNQ07941.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891459247|emb|CNR58647.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891463684|emb|CNR41899.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891469953|emb|CNQ71937.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891478891|emb|CNS37236.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891481030|emb|CNS75474.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891491410|emb|CNQ54799.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891497751|emb|CNR84619.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891502069|emb|CNP15545.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891506324|emb|CNQ10697.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891508393|emb|CNQ09684.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891510504|emb|CNR64240.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891529593|emb|CNT45761.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891531669|emb|CNS58427.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891533823|emb|CNS18999.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891535883|emb|CNT20251.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891553762|emb|CNR89574.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891559487|emb|CNS75330.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891562452|emb|CNT38901.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891568094|emb|CNQ16961.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891578430|emb|CNS51562.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891588573|emb|CNS50707.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891591921|emb|CNQ16554.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891601909|emb|CNR46470.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891651647|emb|CNP63741.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891669956|emb|CNT13796.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891672132|emb|CNQ66300.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891674068|emb|CNS74032.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891676481|emb|CNQ69432.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891678658|emb|CNQ43780.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891687031|emb|CNS85557.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891689451|emb|CNR09113.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891695988|emb|CNQ22132.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891698134|emb|CNQ16009.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891702312|emb|CNP95067.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891704103|emb|CNO13938.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891706840|emb|CNT12396.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891709010|emb|CNP05651.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891715438|emb|CNR40384.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891723839|emb|CNO85533.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891726274|emb|CNT40303.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891728460|emb|CNT47476.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891730374|emb|CNR25454.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891737074|emb|CNS39831.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891741396|emb|CNS58987.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891743606|emb|CNS86019.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891745497|emb|CNQ95283.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891752258|emb|CNS74428.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891754436|emb|CNO97500.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891756647|emb|CNS62537.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891758827|emb|CNP60135.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891765359|emb|CNR65671.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891769693|emb|CNO43605.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891776196|emb|CNT50009.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891782511|emb|CNR48976.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891784937|emb|CNS11659.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891787145|emb|CNP76111.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891789315|emb|CNQ23635.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891791455|emb|CNS37661.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891793536|emb|CNS41807.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891795828|emb|CNP82357.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891800215|emb|CNR23192.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891802359|emb|CNR11944.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891804578|emb|CNP41798.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891806763|emb|CNO53904.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891808907|emb|CNP76201.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891811129|emb|CNP52429.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891813318|emb|CNO33460.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891817623|emb|CNP50047.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891819774|emb|CNT04244.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891828457|emb|CNO27129.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891834904|emb|CNQ20914.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891839388|emb|CNS33435.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891841564|emb|CNQ52632.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891843806|emb|CNP52871.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891852645|emb|CNR24864.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891854827|emb|CNS53143.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891857015|emb|CNS95113.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891861363|emb|CNP04999.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891865725|emb|CNS50580.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891867872|emb|CNS37681.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891872271|emb|CNR29097.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891876557|emb|CNR72150.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891878779|emb|CNQ16377.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891885196|emb|CNQ20703.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891887411|emb|CNS38430.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891889559|emb|CNT52636.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891891780|emb|CNN86097.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891893968|emb|CNS89472.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891900476|emb|CNT13619.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891902680|emb|CNR43608.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891904854|emb|CNQ57994.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891907032|emb|CNP09462.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891913484|emb|CNR74905.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891917931|emb|CNQ02858.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891920104|emb|CNP16281.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891924472|emb|CNS88992.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891926612|emb|CNQ00629.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891930964|emb|CNP87082.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891932954|emb|CNQ20881.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891937558|emb|CNR72674.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891939336|emb|CNP76486.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891941906|emb|CNQ38616.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891944129|emb|CNR26006.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891946265|emb|CNQ41956.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891950590|emb|CNQ13608.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891957149|emb|CNS71999.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891959326|emb|CNR78808.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891961514|emb|CNQ22943.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891963698|emb|CNS58345.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891965876|emb|CNQ11339.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891968099|emb|CNR34583.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891970248|emb|CNQ21905.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891974656|emb|CNQ89791.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891979092|emb|CNT39622.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891981278|emb|CNR52788.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891983491|emb|CNR60394.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891987837|emb|CNN84476.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891992121|emb|CNP09821.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891994342|emb|CNS94199.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892000609|emb|CNR33492.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892005233|emb|CNQ57689.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892007378|emb|CNO32512.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892009715|emb|CNS38177.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892011867|emb|CNQ32994.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892014051|emb|CNS37922.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892015832|emb|CNP91696.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892018410|emb|CNQ32802.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892027156|emb|CNR11661.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892031572|emb|CNS55598.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892033762|emb|CNS54722.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892038099|emb|CNR59372.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892040077|emb|CNR77359.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892044747|emb|CNP11107.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892053420|emb|CNS13718.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892057755|emb|CNQ80911.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892066338|emb|CNR36140.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892068741|emb|CNS52011.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892070970|emb|CNS58866.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892073162|emb|CNN99891.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892088586|emb|CNR29017.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892121862|emb|CNP30081.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|998401089|gb|KXI26029.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1035873971|gb|ANJ49618.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1066419620|emb|SBO63174.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066426349|emb|SBO61542.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066430826|emb|SBO63176.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067568897|emb|SBM90793.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067584252|emb|SBM85802.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067591632|emb|SBN17394.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1078561087|emb|SCW14555.1| Uncharacterized transporter HI_0608 [Neisseria gonorrhoeae] &gt;gi|1078568580|emb|SCW15993.1| Uncharacterized transporter HI_0608 [Neisseria gonorrhoeae] &gt;gi|1095659450|gb|OHZ49019.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095675337|gb|OHZ63089.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095675591|gb|OHZ63329.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095676401|gb|OHZ64062.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095680347|gb|OHZ67593.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095682012|gb|OHZ69106.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095684358|gb|OHZ71268.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095686100|gb|OHZ72853.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095690529|gb|OHZ76870.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095701961|gb|OHZ87122.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095702263|gb|OHZ87395.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095706000|gb|OHZ90799.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095706953|gb|OHZ91684.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095709713|gb|OHZ94198.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095710910|gb|OHZ95275.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095712589|gb|OHZ96826.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095715219|gb|OHZ99273.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095716368|gb|OIA00277.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095720154|gb|OIA03742.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095725977|gb|OIA08939.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095727834|gb|OIA10682.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095736022|gb|OIA18086.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095739334|gb|OIA21098.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095740699|gb|OIA22366.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095743468|gb|OIA24867.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095745746|gb|OIA26925.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095747951|gb|OIA28916.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095749129|gb|OIA29961.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095749453|gb|OIA30257.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095752299|gb|OIA32824.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095758294|gb|OIA38322.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095759238|gb|OIA39179.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095760028|gb|OIA39921.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095765013|gb|OIA44453.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095766358|gb|OIA45680.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095767089|gb|OIA46346.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095774339|gb|OIA52970.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095774622|gb|OIA53229.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095775013|gb|OIA53578.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095777753|gb|OIA56054.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095778999|gb|OIA57187.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095783157|gb|OIA60967.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095788424|gb|OIA64707.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095788847|gb|OIA65103.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095797164|gb|OIA72577.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095801752|gb|OIA76647.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095808781|gb|OIA82966.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095809617|gb|OIA83703.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095810576|gb|OIA84530.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095817932|gb|OIA91351.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095818627|gb|OIA91974.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095818867|gb|OIA92196.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_012503451</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.928703</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|498045727|ref|WP_010359883.1|</Hit_id>
+  <Hit_def>transporter [Neisseria gonorrhoeae] &gt;gi|59800821|ref|YP_207533.1| sodium/dicarboxylate transporter [Neisseria gonorrhoeae FA 1090] &gt;gi|59717716|gb|AAW89121.1| anion:sodium symporter [Neisseria gonorrhoeae FA 1090] &gt;gi|636862374|gb|KDM99480.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|800201319|emb|CFB78194.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800248918|emb|CFC51122.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800572090|emb|CFG79757.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|800586999|emb|CFH28931.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|802446733|emb|CFR57180.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810140113|emb|CNQ06634.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|810257076|emb|CNR25286.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|830064035|gb|KLR90128.1| NadC family protein [Neisseria gonorrhoeae SK28355] &gt;gi|830067123|gb|KLR92415.1| NadC family protein [Neisseria gonorrhoeae SK16259] &gt;gi|830079657|gb|KLS00586.1| NadC family protein [Neisseria gonorrhoeae SK22871] &gt;gi|830086466|gb|KLS05327.1| NadC family protein [Neisseria gonorrhoeae ATL_2011_01_08] &gt;gi|830087528|gb|KLS06125.1| NadC family protein [Neisseria gonorrhoeae SK16942] &gt;gi|830100860|gb|KLS15428.1| NadC family protein [Neisseria gonorrhoeae SK17973] &gt;gi|830106610|gb|KLS19228.1| NadC family protein [Neisseria gonorrhoeae SK29471] &gt;gi|830110631|gb|KLS22129.1| NadC family protein [Neisseria gonorrhoeae ATL_2011_01-25] &gt;gi|830116384|gb|KLS26704.1| NadC family protein [Neisseria gonorrhoeae ATL_2011_05-13] &gt;gi|830124428|gb|KLS32679.1| NadC family protein [Neisseria gonorrhoeae ALB_2011_03_03] &gt;gi|830125734|gb|KLS33743.1| NadC family protein [Neisseria gonorrhoeae MIA_2011_03-09] &gt;gi|830130090|gb|KLS36878.1| NadC family protein [Neisseria gonorrhoeae ATL_2011_01_05] &gt;gi|830141886|gb|KLS44899.1| NadC family protein [Neisseria gonorrhoeae ALB_2011_01-02] &gt;gi|830149191|gb|KLS50449.1| NadC family protein [Neisseria gonorrhoeae MIA_2011_03-10] &gt;gi|830160215|gb|KLS58771.1| NadC family protein [Neisseria gonorrhoeae NYC_2011_05_07] &gt;gi|830166522|gb|KLS63357.1| NadC family protein [Neisseria gonorrhoeae MIA_2011_05-15] &gt;gi|830173109|gb|KLS68019.1| NadC family protein [Neisseria gonorrhoeae NOR_2011_03-06] &gt;gi|830179006|gb|KLS72454.1| NadC family protein [Neisseria gonorrhoeae MU_NG15] &gt;gi|830185497|gb|KLS77204.1| NadC family protein [Neisseria gonorrhoeae MU_NG18] &gt;gi|830195446|gb|KLS84384.1| NadC family protein [Neisseria gonorrhoeae MU_NG4] &gt;gi|830213760|gb|KLS97955.1| NadC family protein [Neisseria gonorrhoeae CH811] &gt;gi|830217421|gb|KLT00295.1| NadC family protein [Neisseria gonorrhoeae SK12684] &gt;gi|830221740|gb|KLT03605.1| NadC family protein [Neisseria gonorrhoeae MU_NG17] &gt;gi|830228263|gb|KLT08272.1| NadC family protein [Neisseria gonorrhoeae MU_NG26] &gt;gi|831430605|gb|KLU13503.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|870665404|gb|AKP14022.1| Sodium-dependent dicarboxylate transporter SdcS [Neisseria gonorrhoeae] &gt;gi|891604619|emb|CNQ28908.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891636207|emb|CNS71782.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891682950|emb|CNQ23616.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891739216|emb|CNP04381.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891760733|emb|CNS33876.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891767523|emb|CNT48281.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891773982|emb|CNT01964.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891825965|emb|CNN94718.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891832171|emb|CNR67323.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891850399|emb|CNR90634.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891859177|emb|CNQ51624.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891863503|emb|CNP97633.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891870058|emb|CNT53297.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891883063|emb|CNN85399.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891895519|emb|CNT21891.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891909055|emb|CNR50472.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891915408|emb|CNO34502.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891952769|emb|CNQ25260.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891985179|emb|CNS19855.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892003042|emb|CNQ41293.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892020617|emb|CNR41541.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892035904|emb|CNO98985.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892049106|emb|CNR32477.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892060012|emb|CNQ94958.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892062202|emb|CNQ04356.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|892101875|emb|CNR25294.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066406110|emb|SBO48651.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066408297|emb|SBO48698.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066410632|emb|SBO48653.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066415104|emb|SBO49840.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1066428557|emb|SBO60845.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067572958|emb|SBM91275.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067575514|emb|SBM85735.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067577721|emb|SBM85831.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067579848|emb|SBM86290.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067586424|emb|SBM86651.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1067588561|emb|SBM86652.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|1078563930|emb|SCW13458.1| Uncharacterized transporter HI_0608 [Neisseria gonorrhoeae] &gt;gi|1095660950|gb|OHZ50412.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095664752|gb|OHZ53587.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095687468|gb|OHZ74105.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095691846|gb|OHZ78037.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095693895|gb|OHZ79900.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095720572|gb|OIA04109.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095732219|gb|OIA14610.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095733617|gb|OIA15880.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095789401|gb|OIA65627.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095794030|gb|OIA69795.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1169359813|gb|ARB99225.1| transporter [Neisseria gonorrhoeae] &gt;gi|1169361782|gb|ARC01192.1| transporter [Neisseria gonorrhoeae] &gt;gi|1169364667|gb|ARC04076.1| transporter [Neisseria gonorrhoeae] &gt;gi|1175788260|gb|OQW21612.1| transporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_010359883</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.936791</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1098534205|ref|WP_071226716.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|1095666622|gb|OHZ55210.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_071226716</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.94495</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|728044573|ref|WP_033910477.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|654607994|gb|KEC88445.1| anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|693765845|gb|KGI96705.1| anion:sodium symporter [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_033910477</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.94495</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|268587344|gb|EEZ52020.1|</Hit_id>
+  <Hit_def>transmembrane transporter [Neisseria gonorrhoeae PID1]</Hit_def>
+  <Hit_accession>EEZ52020</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.03894</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATTAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|268626448|gb|EEZ58848.1|</Hit_id>
+  <Hit_def>transmembrane transporter [Neisseria gonorrhoeae SK-93-1035] &gt;gi|893692750|gb|KMW64910.1| transmembrane transporter [Neisseria gonorrhoeae DGI18] &gt;gi|896773366|gb|KMY05361.1| transmembrane transporter [Neisseria gonorrhoeae PID24-1]</Hit_def>
+  <Hit_accession>EEZ58848</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.25664</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|268547816|gb|EEZ43234.1|</Hit_id>
+  <Hit_def>NadC family protein [Neisseria gonorrhoeae 35/02]</Hit_def>
+  <Hit_accession>EEZ43234</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.25664</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|291610044|gb|EFF39166.1|</Hit_id>
+  <Hit_def>NadC family protein [Neisseria gonorrhoeae F62]</Hit_def>
+  <Hit_accession>EFF39166</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.32356</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|268582685|gb|EEZ47361.1|</Hit_id>
+  <Hit_def>divalent anion:Na+ symporter (DASS) family transporter [Neisseria gonorrhoeae MS11] &gt;gi|268624205|gb|EEZ56605.1| transmembrane transporter [Neisseria gonorrhoeae SK-92-679] &gt;gi|899687010|gb|KMY24745.1| NadC family protein [Neisseria gonorrhoeae FA6140]</Hit_def>
+  <Hit_accession>EEZ47361</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.32356</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|226512329|gb|EEH61674.1|</Hit_id>
+  <Hit_def>transmembrane transporter [Neisseria gonorrhoeae 1291]</Hit_def>
+  <Hit_accession>EEH61674</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.32356</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|268621978|gb|EEZ54378.1|</Hit_id>
+  <Hit_def>transmembrane transporter [Neisseria gonorrhoeae PID332]</Hit_def>
+  <Hit_accession>EEZ54378</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.38204</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|268585038|gb|EEZ49714.1|</Hit_id>
+  <Hit_def>transmembrane transporter [Neisseria gonorrhoeae PID18] &gt;gi|291011177|gb|EFE03173.1| NadC family protein [Neisseria gonorrhoeae DGI2]</Hit_def>
+  <Hit_accession>EEZ49714</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.43067</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|912497833|ref|WP_050171887.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria gonorrhoeae] &gt;gi|891954502|emb|CNS49836.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891971874|emb|CNR45682.1| NadC family protein [Neisseria gonorrhoeae] &gt;gi|891995948|emb|CNP97254.1| NadC family protein [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>WP_050171887</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.35876</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLLRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     L +G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>55970</Statistics_db-num>
+      <Statistics_db-len>16105535</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1727 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|910257278|ref|WP_050061779.1|</Hit_id>
+  <Hit_def>hypothetical protein [Silvibacterium bohemicum]</Hit_def>
+  <Hit_accession>WP_050061779</Hit_accession>
+  <Hit_len>1281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>7.11848e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>999</Hsp_hit-from>
+      <Hsp_hit-to>1195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>PSNMLDEV-TLYTHYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>PARVLDDMRTIPTNPKDRLAKALPFGGV-LYQSALQRND-------FTYGIALLQHGYLDQATASFQQVLAAKPDDPEACYNLGTLYLRRNDLDQAKKYLERTVALRADYPEAWNNLGMIAAQQGRADDAMQNFQRSLQQRPSYAIALVNLGNLYRRQGAFDKAQDLLTRALAIQPDDPEIDYGLGMLYAQQGQIPQASDYLQKA</Hsp_hseq>
+      <Hsp_midline>P+ +LD++ T+ T+    +AK L    V  ++SA   ND          GI+  + G   +A    +QV  A   D E   +LG  Y++   +D+  + LER++A   D  +    LG+   Q  + D A+    +  +  P        LG      G FD+A D    AL ++P++ ++   +   Y Q G   +A  + +KA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.30755e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>1104</Hsp_hit-from>
+      <Hsp_hit-to>1257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>WNNLGMIAAQQGRADDAMQNFQRSLQQRPSYAIALVNLGNLYRRQGAFDKAQDLLTRALAIQPDDPEIDYGLGMLYAQQGQIPQASDYLQKAIALRPDYPEARNNLGILYVRAQNYSEAEAQFKTCIQLVPNFDQSYLNLARLYAMRGDRESAI</Hsp_hseq>
+      <Hsp_midline>+ + G+  A+ GR  +A+   ++            ++LG  Y + GA D+  +LL R++A  PD+ ++   LG+ Y Q  +   A   L K     P     R  LG+       + EA   FK  + L PN  + +  +A  Y   G  E A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|575408698|gb|ETW95183.1|</Hit_id>
+  <Hit_def>hypothetical protein ETSY1_31695 [Candidatus Entotheonella sp. TSY1]</Hit_def>
+  <Hit_accession>ETW95183</Hit_accession>
+  <Hit_len>998</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.12992e-07</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>789</Hsp_hit-from>
+      <Hsp_hit-to>979</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>LYTHYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>LYTRTGRPQAA------IDAYQQAVRLNPAYAEAH-NDLGTLYAEQGDMGRAIASFQAAVKADAKSVEAHYNLAMAYGAQGDTARLIRALHETLGLDPQHREAHLNLGIGYLQQGEPFAAMAQFQALINLAPDMADAHYFLAVTAAQMGQIETMQASLQRALKQDPNHVRAHSALASLYFQQRQYDLAWQHGSRAAEL</Hsp_hseq>
+      <Hsp_midline>LYT  G   A       +DA++ A  +N    + +  D G  +A+ G    A+   +    ADA  VE   +L +AY   G   R    L  ++   P + +    LG+ Y+Q  +   A+     +    P   +  + L V    +G+ +    S + AL   PN  + H A+A  Y Q   ++ A  H  +A EL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000138871</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>724</Hsp_hit-from>
+      <Hsp_hit-to>862</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMG</Hsp_qseq>
+      <Hsp_hseq>ESKRYDDALRYFEQALERRADLTDARYGLGLVYGAQGKTEQAEAAFKRLIQDAPEMAEAHTHLGALYTRTGRPQAAIDAYQQAVRLNPAYAEAHNDLGTLYAEQGDMGRAIASFQAAVKADAKSVEAHYNLAMAYGAQG</Hsp_hseq>
+      <Hsp_midline>++ RY +A+   EQ  +  A   +    LG+ Y   G  ++     +R I DAP+  +  T LG  Y +  +   A+    +    NP        LG      G    AI SF+ A+       + H  +A +Y   G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0837218</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>735</Hsp_hit-from>
+      <Hsp_hit-to>906</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFK</Hsp_qseq>
+      <Hsp_hseq>FEQALERRADLTDARY-GLGLVYGAQGKTEQAEAAFKRLIQDAPEMAEAHTHLGALYTRTGRPQAAIDAYQQAVRLNPAYAEAHNDLGTLYAEQGDMGRAIASFQAAVKADAKSVEAHYNLAMAYGAQGDTARLIRALHETLGLDPQHREAHLNLGIGYLQQGEPFAAMAQFQ</Hsp_hseq>
+      <Hsp_midline>F  A     D+    Y   G+ +   G+  +A    +++        E   HLG  Y +TG      +  ++++   P   +    LG  Y +      A+       +A+  +    + L +A    G     I +    LGL P   + H  +   Y Q G    A+  F+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.192571</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>615</Hsp_hit-from>
+      <Hsp_hit-to>771</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>RDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPD-NIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>KQEALAHVQAGRAADAINAFEKVLQQVPDDYIAQQYLIELYWRRGSRELARQRLKTMSETLPDANFLLQFAFHLEDATLP--ELADEVYLQAAQLDPQAPEAPYRLGKRALESKRYDDALRYFEQALERRADLTDARYGLGLVYGAQGKTEQAEAAFKR</Hsp_hseq>
+      <Hsp_midline>+ + ++H +AGR ++A+   E+V      D     +L   Y + G+ +   + L+      PD N  +     L    +   +LA  + ++ A+ +P      +RLG       R+D+A+  F+ AL  R +       +   Y   G  E+A   FK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|491511639|ref|WP_005369273.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Photobacterium angustum] &gt;gi|90440200|gb|EAS65381.1| Hypothetical fimbrial biogenesis and twitching motility protein [Photobacterium angustum S14]</Hit_def>
+  <Hit_accession>EAS65381</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.98615e-07</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMG</Hsp_qseq>
+      <Hsp_hseq>EARLNLGLNYLKDGQWERARENLEIALRYDPDYYRAQISMAYYYQKVGEKDAADKMYRKVLKHSPKNGDVLNNYGVFLCSEGRYDEAIAAFVKAI-----EQPYYYLISASYENAG</Hsp_hseq>
+      <Hsp_midline>E  L+LG+ Y+K G  +R  E LE ++   PD  +    +   Y +V + D A  +  KV + +P N +V    GV L + GR+DEAI +F  A+     E   +  I+ SYE  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>6.28345</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQV--YDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAE</Hsp_qseq>
+      <Hsp_hseq>GLNYLKDGQWERARENLEIALRYDPDYYRAQISM--AYYYQKVGEKDAADKMYRKVLKHSPKNGDVLNNYGVFLCSEGRYDEAIAAFVKAIE</Hsp_hseq>
+      <Hsp_midline>G+++ K G++  A   LE    YD D +  ++++     Y K G  D   ++  + +  +P N  V    G+      +YD A+   VK  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|916634110|ref|WP_051241201.1|</Hit_id>
+  <Hit_def>hypothetical protein [Vibrio litoralis]</Hit_def>
+  <Hit_accession>WP_051241201</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>4.73994e-07</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>536</Hsp_hit-from>
+      <Hsp_hit-to>733</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>LSVAKKLGANMVDAFRSAFSVNDDIRQV--YYRDKGISHAKAG-------RYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>LAQSAKLSAQERDKLNE---VLDEYRQVQAYQSDRGFSYAALGSLAINLNRLDEAQNHFNQAIKVEPNFVPAYVNLADVYRRQNNEAAAQKVLLKGVEIAPDNASLYYSLAMSYVRSQDKAKALIELEQATLKAPDNVRYHYTYSLLLKDQGQLKKAVAALERAYQLSPTSPDLTYALAQEYAELGEYFSALQYAQKLKKL</Hsp_hseq>
+      <Hsp_midline>L+ + KL A   D       V D+ RQV  Y  D+G S+A  G       R  EA     Q    +   V   ++L   Y +        ++L + +  APDN  +   L ++YV+ Q    A+  L +     P N    +   + L + G+  +A+ + + A  L P    +  A+A  Y ++G +  AL + +K  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|504950333|ref|WP_015137435.1|</Hit_id>
+  <Hit_def>cytochrome c biogenesis factor [Nostoc sp. PCC 7524] &gt;gi|427364258|gb|AFY46979.1| cytochrome c biogenesis factor [Nostoc sp. PCC 7524]</Hit_def>
+  <Hit_accession>WP_015137435</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>6.97009e-07</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>327</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>AFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMG</Hsp_qseq>
+      <Hsp_hseq>AFQNVISLDIQHTKSYFM-RGRANLYLKNYAEAIQDYRQVIKLEPNNDEAHYLLGYTLTRTNNLEEAIAAYRQTIKLNPRHAHAYNNLGSIFGRQGRYNEAIQVLQQSIQLDPKNTPAYFNLGRALYETGRYEQAVEYFRQALKLEPNYSSAQEYLERTLQRLG</Hsp_hseq>
+      <Hsp_midline>AF++  S++    + Y+  +G ++     Y+EA+    QV   +  + E    LG    +T  ++       ++I   P +      LG  + +  +Y+ A+ +L +  + +P N    F LG AL   GR+++A++ F+ AL L PN       +  + +++G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0373571</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>298</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVML--EQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADA-----------PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>KGINSSEAAIYFNLGMALFYEEKWQEASTAFQNVISLDIQHTKSYFMRGRANLYLKNYAEAIQDYRQVIKLEPNNDEAHYLLGYTLTRTNNLEEAIAAYRQTIKLNPRHAHAYNNLGSIFGRQGRYNEAIQVLQQSIQLDPKNTPAYFNLGRALYETGRYEQAVEYFRQALKLE</Hsp_hseq>
+      <Hsp_midline>KGI+ ++A  Y    + L  E+ +   +   +  + L I + K+  +     L  ++ A+A           P+N +   +LG T  +    + A+    +  + NP + +    LG      GR++EAI   + ++ L P     +  +  +  + G +E+A+ +F++A +L+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>9.26521</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>FMRGRANLYLKNYAEAIQDYRQVIKLEPNNDEAHYLLGYTLTRTNNLEEAIAAYRQTIKLNPRHA</Hsp_hseq>
+      <Hsp_midline>F  G A   L  + EAI  ++  + L PN  + H  + Y+  +  + EEA+  +++  +L+ R A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>9.77843</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>441</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>VALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>IYFNLGMALFYEEKWQEASTAFQNVISLDIQHTKSYFMRGRANLYLKNYAEAIQDYRQVIKLEPNNDEAHYLLGYTLTRTNNLEEAIAAYRQTIKLNPRHAHAYNNLGSIFGRQGRYNEAIQVLQQSIQLDPKNT</Hsp_hseq>
+      <Hsp_midline>+  +LG+A          +   +  I+    + K   + G   + ++ Y  A+    +V +  P N    + LG  L      +EAI +++  + L P     +  +   + + G + EA+   +++ +LD ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|575425666|gb|ETX08947.1|</Hit_id>
+  <Hit_def>hypothetical protein ETSY2_02370 [Candidatus Entotheonella sp. TSY2]</Hit_def>
+  <Hit_accession>ETX08947</Hit_accession>
+  <Hit_len>975</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>2.41894e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>794</Hsp_hit-from>
+      <Hsp_hit-to>956</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>HNDLGTLYAERGDFSRAIASFQAAVQADANSVEAHYNLAMAYGTQGDTARMISALHETLRLDPQHREAHLNLGIGYLRQGEAFAATAQFQTLVKLAPEMADAHYFLAVAAAQMGQIETMQASLQRALQQDPNHARAHSALASLYFQQKQYDLAWQHGSRAAAL</Hsp_hseq>
+      <Hsp_midline>+ D G  +A+ G +S A+   +    ADA  VE   +L +AY   G   R    L  ++   P + +    LG+ Y++  +   A      + +  P   +  + L VA   +G+ +    S + AL   PN  + H A+A  Y Q   ++ A  H  +A  L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.45096e-05</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>670</Hsp_hit-from>
+      <Hsp_hit-to>824</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>RYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>RYDDALRYFEQALERRADLMDARYGLGLVYVAQGNTAQAEATFKRLLQDAPEMADAHIHLGALYLRMGRIQAAVDAYRQVTVLQPQEANAYHHLSTALAAQGKTAEAEAQLQQAVRLNPAYAAAHNDLGTLYAERGDFSRAIASFQAAVQADANS</Hsp_hseq>
+      <Hsp_midline>RY +A+   EQ  +  A  ++    LG+ YV  G   +     +R + DAP+       LG  Y+++ +   AV    +V    P   N    L  AL   G+  EA    + A+ L P     H  +   Y + G    A+  F+ A + D  S</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>3.10419</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>558</Hsp_hit-from>
+      <Hsp_hit-to>714</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>RDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPD-NIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>KQEALAHVRTGRMADAIKAFETVLRQVPDDYIAQQYLIELYWRRGSRESARQLLQRMSETLPDANFLLQFAFNLEATALP--ELADEVYLVAAHLDPQASEALYRLGKRALESKRYDDALRYFEQALERRADLMDARYGLGLVYVAQGNTAQAEATFKR</Hsp_hseq>
+      <Hsp_midline>+ + ++H + GR ++A+   E V      D     +L   Y + G+ +   +LL+R     PD N  +     L    +   +LA  + +  A  +P      +RLG       R+D+A+  F+ AL  R +       +   Y   G+  +A   FK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|751278223|ref|WP_040987070.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio renipiscarius] &gt;gi|749736806|gb|KII75885.1| pilus assembly protein PilW [Vibrio renipiscarius] &gt;gi|749743198|gb|KII82092.1| pilus assembly protein PilW [Vibrio renipiscarius]</Hit_def>
+  <Hit_accession>WP_040987070</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>3.36456e-06</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>QVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>EIYSNPQEKAEARLALGMGYLQQGNMGKARENLEKAMQHAPDFYRTQISLAHYYEQVGEDDKARKLYKKAKSDHPSNGNVLNNYGTFLCKQGEYKEADELFNKAI-----------AQPYYYQISGSYENA</Hsp_hseq>
+      <Hsp_midline>++Y       E  L LG+ Y++ G + +  E LE+++  APD  +    L   Y QV + D A  L  K    +P N NV    G  L   G + EA + F  A+           A  Y Y+  GS+E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|684142158|dbj|GAL08796.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis protein PilF [Photobacterium aphoticum]</Hit_def>
+  <Hit_accession>GAL08796</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.50372e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE-ALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>EARIALGLSYLENGQWQRARDNLEIALEYAPKYYRAQNAMAYYYQQVDEPTQAEALYKQALRDSPKNGDVQNNYGTFLCAQGRYDEAISAFEKAI-----------AQPYYYLTSASYENAALCSLKKGSESEAR</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y++ G   R  + LE ++  AP   +    +   Y QV +   A  L  +    +P N +V+   G  L   GR+DEAI +F+ A+           A  Y Y    S+E  AL   KK +E + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|837734268|ref|WP_047863695.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|835720094|gb|KLU77377.1| pilus assembly protein PilW [Aliivibrio fischeri]</Hit_def>
+  <Hit_accession>WP_047863695</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.59207e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1027736582|ref|WP_063669586.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri]</Hit_def>
+  <Hit_accession>WP_063669586</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.62251e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|499580581|ref|WP_011261364.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|59711234|ref|YP_204010.1| type IV pilus biogenesis/stability protein [Vibrio fischeri ES114] &gt;gi|59479335|gb|AAW85122.1| type IV pilus biogenesis/stability protein [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>WP_011261364</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.63464e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1046211393|ref|WP_065603942.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1045715812|gb|OCH05371.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1045783958|gb|OCH62112.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri]</Hit_def>
+  <Hit_accession>WP_065603942</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.73368e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1027728294|ref|WP_063661701.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri]</Hit_def>
+  <Hit_accession>WP_063661701</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.76682e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|515585945|ref|WP_017018640.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1045747786|gb|OCH27349.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1045754304|gb|OCH33705.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1067334656|gb|OEE12630.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri ZF-211]</Hit_def>
+  <Hit_accession>WP_017018640</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.76682e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|491560342|ref|WP_005417928.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|371495254|gb|EHN70850.1| type IV pilus biogenesis/stability protein PilW [Vibrio fischeri SR5] &gt;gi|1045711852|gb|OCH01708.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1045755636|gb|OCH34997.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1045764169|gb|OCH43331.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1067271951|gb|OED55452.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1067273176|gb|OED56665.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri]</Hit_def>
+  <Hit_accession>WP_005417928</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.76682e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1046231966|ref|WP_065622244.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|1045727741|gb|OCH12232.1| type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri]</Hit_def>
+  <Hit_accession>WP_065622244</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.81771e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|501526476|ref|WP_012532984.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri] &gt;gi|197315889|gb|ACH65336.1| type IV pilus biogenesis/stability protein PilW [Vibrio fischeri MJ11]</Hit_def>
+  <Hit_accession>WP_012532984</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.83499e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1027709278|ref|WP_063643976.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aliivibrio fischeri]</Hit_def>
+  <Hit_accession>WP_063643976</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.85244e-05</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>EARITLGLSYLNAGDMMKARENLELAVQYAPDYYRSQTSLAYYYQQVEEDDLAEKAYKRALRYSSKNGNVLNNYGVFLCKKGRYEEAQEKFTQAI</Hsp_hseq>
+      <Hsp_midline>E  + LG++Y+  G + +  E LE ++  APD  +  T L   Y QV++ DLA     +    +  N NV    GV L   GR++EA + F  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1067455544|gb|OEF25592.1|</Hit_id>
+  <Hit_def>hypothetical protein A1QC_01480 [Vibrio rumoiensis 1S-45]</Hit_def>
+  <Hit_accession>OEF25592</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>3.42851e-05</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>544</Hsp_hit-from>
+      <Hsp_hit-to>724</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDAD---AFDVE-----VALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>VLDEYRQA--------QVYQADRGFSHVALGNLALSLKQLDKA-EADFKQAINVEPIFIPAYVNLADVYRVKKEESKARDILEQGLKIAPENATLYYAKAMSYVRDGQKSKALEPLRHATHYAASNMQYHYTYSLLLKDVGKPKEAVEELVKAYELSSNNPDLAYAISQAYIELKDYSSALVYAKKLQQL</Hsp_hseq>
+      <Hsp_midline>++D +R A        QVY  D+G SH   G  + ++  L++  +AD   A +VE       ++L   Y       +  ++LE+ +  AP+N  +     ++YV+  +   A+  L         N    +   + L ++G+  EA++    A  L  N   +  AI+ +Y ++  +  AL + KK  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|515592036|ref|WP_017024683.1|</Hit_id>
+  <Hit_def>hypothetical protein [Vibrio rumoiensis]</Hit_def>
+  <Hit_accession>WP_017024683</Hit_accession>
+  <Hit_len>754</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>3.50382e-05</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>556</Hsp_hit-from>
+      <Hsp_hit-to>736</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDAD---AFDVE-----VALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>VLDEYRQA--------QVYQADRGFSHVALGNLALSLKQLDKA-EADFKQAINVEPIFIPAYVNLADVYRVKKEESKARDILEQGLKIAPENATLYYAKAMSYVRDGQKSKALEPLRHATHYAASNMQYHYTYSLLLKDVGKPKEAVEELVKAYELSSNNPDLAYAISQAYIELKDYSSALVYAKKLQQL</Hsp_hseq>
+      <Hsp_midline>++D +R A        QVY  D+G SH   G  + ++  L++  +AD   A +VE       ++L   Y       +  ++LE+ +  AP+N  +     ++YV+  +   A+  L         N    +   + L ++G+  EA++    A  L  N   +  AI+ +Y ++  +  AL + KK  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|499841751|ref|WP_011522485.1|</Hit_id>
+  <Hit_def>hypothetical protein [Candidatus Koribacter versatilis] &gt;gi|94550759|gb|ABF40683.1| TPR repeat protein [Candidatus Koribacter versatilis Ellin345]</Hit_def>
+  <Hit_accession>WP_011522485</Hit_accession>
+  <Hit_len>1127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>9.84774e-05</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKI</Hsp_qseq>
+      <Hsp_hseq>VAYLDKGIALLNLQKLPESEAALNKAGEAMPKNPRVWYNLGLLNRGAGKYDAAIENFNRVTTIDPNDSDTFYMIGSLYLQLQKYEDAIGAYKSALKINPLHASAEFGLAKALQRAGKVEEARDHLHI</Hsp_hseq>
+      <Hsp_midline>V Y DKGI+     +  E+   L +  +A   +  V  +LG+     G  D   E   R     P++     ++G  Y+Q+QKY+ A+       + NP++ +  F L  AL   G+ +EA D   I</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000759662</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATV-LGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>NIGVALMNQQRMEKAVEKFDLALEKDP-KLSVAYLDKGIALLNLQKLPESEAALNKAGEAMPKNPRVWYNLGLLNRGAGKYDAAIENFNRVTTIDPNDSDTFYMIGSLYLQLQKYEDAIGAYKSA</Hsp_hseq>
+      <Hsp_midline>++G+A +    +++  E  + ++   P  + VA +  G+  + +QK   +   L K  EA P N  V + LG+     G++D AI++F     + PN+      I   Y Q+  +E+A+  +K A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.00858618</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>LDKGIALLNLQKLPESEAALNKAGEAMPKNPRVWYNLGLLNRGAGKYDAAIENFNRVTTIDPNDSDTFYMIGSLYLQLQKYEDAIGAYKSALKINPLHASAEFGLAKALQRAGKVEEARDHL</Hsp_hseq>
+      <Hsp_midline>L  GIA +    +      L ++    P N +V   LGL      KYD A+    +V   +P + +  + +G     L ++++AI ++K AL + P        +A + ++ G  EEA  H </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|931467800|gb|KPK49813.1|</Hit_id>
+  <Hit_def>hypothetical protein AMK72_03605 [Planctomycetes bacterium SM23_25]</Hit_def>
+  <Hit_accession>KPK49813</Hit_accession>
+  <Hit_len>1148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000120901</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>RYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGA-------VDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>RYAEASKAYEAVLDLAPAWVAARFNLGVAYFNMHGQRGGQENLDAARQVFETILASAPGHLHARFCLGLYHQHVGDDEKALEHFQRVRQADATDPHAAYKCAEALVALGRNEEGTTMLEHVIALDPGFVSAVYRLALQYQRTGQRDKAMPLFDR</Hsp_hseq>
+      <Hsp_midline>RY+EA    E V D     V    +LG+AY            +D   ++ E  +A AP ++     LGL +  V   + A+    +V +A+  + +  ++   AL  LGR +E     +  + L P        +A  Y++ G  ++A+P F +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0591768</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLL</Hsp_qseq>
+      <Hsp_hseq>GLYHQHVGDDEKALEHFQRVRQADATDPHAAYKCAEALVALGRNEEGTTMLEHVIALDPGFVSAVYRLALQYQRTGQRDKAMPLF</Hsp_hseq>
+      <Hsp_midline>G+ H   G   +A+   ++V  ADA D   A     A V  G  + GT +LE  IA  P  +     L L Y +  + D A+PL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|262351087|gb|EEZ00220.1|</Hit_id>
+  <Hit_def>hypothetical protein VOA_000272 [Vibrio sp. RC586]</Hit_def>
+  <Hit_accession>EEZ00220</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.000132409</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLANGSMIKARENLEKALQHAPDYYRSQLSMAHYFEAVGENDSARKMYRSALNQNPKNGNVLNNFGTFLCKQGEYDTADEYFRRAV-----EQPYYYLISASYENAGLCALKAGKNDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y+  G++ +  E LE+++  APD  +    +   +  V + D A  +       NP N NV    G  L   G +D A + F+ A+     E   +  I+ SYE       + G ++ A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|931385194|gb|KPJ75148.1|</Hit_id>
+  <Hit_def>hypothetical protein AMS14_04150 [Planctomycetes bacterium DG_20]</Hit_def>
+  <Hit_accession>KPJ75148</Hit_accession>
+  <Hit_len>1148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000132577</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>RYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGA-------VDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>RYAEASKAYEAVLDLAPAWVAARFNLGVAYFNMHGQRGGQENLDAARQVFETILASAPGHLHARFCLGLYHQHVGDDEKALEHFQRVRQADATDPHAAYKCAEALVALGRNEEGTTMLEHVIALDPGFVSAVYRLALQYQRTGQRDKAMPLFDR</Hsp_hseq>
+      <Hsp_midline>RY+EA    E V D     V    +LG+AY            +D   ++ E  +A AP ++     LGL +  V   + A+    +V +A+  + +  ++   AL  LGR +E     +  + L P        +A  Y++ G  ++A+P F +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0624863</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLL</Hsp_qseq>
+      <Hsp_hseq>GLYHQHVGDDEKALEHFQRVRQADATDPHAAYKCAEALVALGRNEEGTTMLEHVIALDPGFVSAVYRLALQYQRTGQRDKAMPLF</Hsp_hseq>
+      <Hsp_midline>G+ H   G   +A+   ++V  ADA D   A     A V  G  + GT +LE  IA  P  +     L L Y +  + D A+PL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|906397539|gb|AKS42968.1|</Hit_id>
+  <Hit_def>FG-GAP repeat protein [Wenzhouxiangella marina]</Hit_def>
+  <Hit_accession>AKS42968</Hit_accession>
+  <Hit_len>1102</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000138137</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>ISHAKAGRYSEAVVMLEQVYDADAFDV------------EVALHLGIAYV---KTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>LSDALIERNNRGVALMGQYRNEDARQVFAELLAERPDWTDVEVNLAIATLNRQREGDELVALEIVERVLVDHPEHLRARYVAGLMRFYIGDAEGALDHLAQVARAAPEDAHVAYFHGQALGQLDRTEEALAEYLRAIELDAYLRSAYYGAALAYRQQGEPEQA</Hsp_hseq>
+      <Hsp_midline>+S A   R +  V ++ Q  + DA  V            +V ++L IA +   + G      E++ER + D P++++   V GL    +   + A+  L +VA A P + +V +  G AL  L R +EA+  +  A+ L       +   A +Y Q G  E+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|740298450|ref|WP_038136250.1|</Hit_id>
+  <Hit_def>hypothetical protein [Verrucomicrobia bacterium SCGC AAA168-F10]</Hit_def>
+  <Hit_accession>WP_038136250</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000140509</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>585</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>GKIEEAKELYQAAIRANPEYGQALTGLGALFLTEKRSDLAEPLFEKALKVDPNHAAALINLAMIDQSRGRKESALEKLTRVIELNPDYGAARLNLGSLYASMGEFPDAIVQLKKAILLNPK</Hsp_hseq>
+      <Hsp_midline>G ++   EL + +I   P+  +  T LG  ++  ++ DLA PL  K  + +P +      L +   + GR + A++     + L P+ G     +   Y  MG   +A+   KKA  L+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.451833</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>452</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>RQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>QELYNRAK-IATAQ-GKIEEAKELYQAAIRANPEYGQALTGLGALFLTEKRSDLAEPLFEKALKVDPNHAAALINLAMIDQSRGRKESALEKLTRVIELNPDYGAARLNLGSLYASMGEFPDAIVQLKKAILLNPKQPAARLTLAAVYADTKQWERS</Hsp_hseq>
+      <Hsp_midline>+++Y R K I+ A+ G+  EA  + +    A+    +    LG  ++     D    L E+++   P++      L +      + + A+  L +V E NP     R  LG    ++G F +AI   K A+ L P +      +A  Y      E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|491442956|ref|WP_005300745.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Photobacterium damselae] &gt;gi|268163175|gb|EEZ41671.1| hypothetical fimbrial biogenesis and twitching motility protein [Photobacterium damselae subsp. damselae CIP 102761] &gt;gi|1055854049|gb|ODA22542.1| type IV pilus biogenesis/stability protein PilW [Photobacterium damselae subsp. damselae] &gt;gi|1065910812|gb|OEC82848.1| type IV pilus biogenesis/stability protein PilW [Photobacterium damselae subsp. damselae]</Hit_def>
+  <Hit_accession>EEZ41671</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000194832</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIAL</Hsp_qseq>
+      <Hsp_hseq>AEARITLGLGYLQAGQWQRAKENLDLALKYAPKYYRAQNAMAFYYQKVDENAKAEAMYKKALQDSPKNGDVLNNYGVFLCSEARYDEAINAFEQAI</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G   R  E L+ ++  AP   +    +   Y +V +   A  +  K  + +P N +V    GV L +  R+DEAI++F+ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|446754712|ref|WP_000831968.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type IV pilus biogenesis/stability protein PilW [Vibrio] &gt;gi|297536785|gb|EFH75618.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae RC385]</Hit_def>
+  <Hit_accession>WP_000831968</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000275455</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLANGSMIKARENLEKALQHAPDYYRSQLSMAHYFEAVGENDSARKMYRSALNQNPKNGNVLNNFGTFLCKQGEYDTADEYFRRAV-----EQPYYYLISASYENAGLCALKAGKNDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y+  G++ +  E LE+++  APD  +    +   +  V + D A  +       NP N NV    G  L   G +D A + F+ A+     E   +  I+ SYE       + G ++ A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|684620889|dbj|GAL27656.1|</Hit_id>
+  <Hit_def>type IV pilus (Tfp) assembly protein PilF [Vibrio variabilis]</Hit_def>
+  <Hit_accession>GAL27656</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000275563</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>ETRIELGLAYIQRGQFSRAKQDLEKALEFAPNYYRSQLSMAHYYEVVGEYKMAESRYRAALKVAPNNGHVYHNYGTYLCKQGEYEKANQYFLDAV-TRPN----YYQIAESYENAGLCALKNKQFKNAQRYFEKS</Hsp_hseq>
+      <Hsp_midline>E  + LG+AY++ G   R  + LE+++  AP+  +    +   Y  V +Y +A        +  P N +V    G  L   G +++A   F  A+  RPN    +  IA SYE  G        FK A    E+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1175388088|ref|WP_081935878.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio maritimus] &gt;gi|684614503|dbj|GAL18831.1| type IV pilus (Tfp) assembly protein PilF [Vibrio maritimus]</Hit_def>
+  <Hit_accession>WP_081935878</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000286939</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>ETRIELGIAYIQRGQFSRAKQDFEKALEFAPNYYRSQLSMAHYYEVVGEYKMAESRYRAALKVAPNNGHVYHNYGTYLCKQGEFEKANQYFLDAV-TRPN----YYQIAESYENAGLCALKNKQFKSAQRYFEKS</Hsp_hseq>
+      <Hsp_midline>E  + LGIAY++ G   R  +  E+++  AP+  +    +   Y  V +Y +A        +  P N +V    G  L   G F++A   F  A+  RPN    +  IA SYE  G        FK A    E+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|503375570|ref|WP_013610231.1|</Hit_id>
+  <Hit_def>hypothetical protein [Vibrio nigripulchritudo] &gt;gi|326325997|ref|YP_004250806.1| Protein of unknown function with TPR repeat [Vibrio nigripulchritudo] &gt;gi|323669048|emb|CBJ93090.1| Protein of unknown function with TPR repeat (plasmid) [Vibrio nigripulchritudo] &gt;gi|548962339|emb|CCN38637.1| hypothetical protein VIBNIAM115_p0039 [Vibrio nigripulchritudo AM115] &gt;gi|548968616|emb|CCN85906.1| hypothetical protein VIBNIBLFn1_p0043 [Vibrio nigripulchritudo BLFn1] &gt;gi|548987061|emb|CCN97703.1| hypothetical protein VIBNIENn2_p0043 [Vibrio nigripulchritudo ENn2] &gt;gi|548992903|emb|CCN44946.1| hypothetical protein VIBNIFTn2_p0038 [Vibrio nigripulchritudo FTn2] &gt;gi|549011234|emb|CCO43934.1| hypothetical protein VIBNISFn135_p10047 [Vibrio nigripulchritudo SFn135] &gt;gi|549017124|emb|CCN79701.1| hypothetical protein VIBNISO65_p0038 [Vibrio nigripulchritudo SO65] &gt;gi|549029535|emb|CCO56014.1| hypothetical protein VIBNIWn13_p0043 [Vibrio nigripulchritudo Wn13] &gt;gi|549130202|emb|CCN91897.1| hypothetical protein VIBNISFn27_p10047 [Vibrio nigripulchritudo SFn27]</Hit_def>
+  <Hit_accession>WP_013610231</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000435314</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>318</Hsp_hit-from>
+      <Hsp_hit-to>445</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>LHLGIAYVKTGAVDRGTELLERS---IADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>LTLGIRYGDVFQHEKALSILNDCHDLCVDSKEQLMLFRGLSWNYSKINEHNLALQYCQKVLTLAPSEAGSYLELAVVLSALGRHQEALDSNLKALDLGEDSFRGYNNTGWSYQQLEQFDKAIEWYMKA</Hsp_hseq>
+      <Hsp_midline>L LGI Y      ++   +L        D+ + + +   L   Y ++ +++LA+    KV    P        L V L  LGR  EA+DS   AL L  +  + +    +SY+Q+   ++A+  + KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1172341293|ref|WP_080724567.1|</Hit_id>
+  <Hit_def>hypothetical protein [Vibrio nigripulchritudo]</Hit_def>
+  <Hit_accession>WP_080724567</Hit_accession>
+  <Hit_len>664</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000448105</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>LHLGIAYVKTGAVDRGTELLERS---IADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>LTLGIRYGDVFQHEKALSILNDCHDLCVDSKEQLMLFRGLSWNYSKINEHNLALQYCQKVLTLAPSEAGSYLELAVVLSALGRHQEALDSNLKALDLGEDSFRGYNNTGWSYQQLEQFDKAIEWYMKA</Hsp_hseq>
+      <Hsp_midline>L LGI Y      ++   +L        D+ + + +   L   Y ++ +++LA+    KV    P        L V L  LGR  EA+DS   AL L  +  + +    +SY+Q+   ++A+  + KA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|903430870|emb|CSC38462.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>CSC38462</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000471726</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDAARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|903141042|emb|CSC69032.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903170327|emb|CSA68661.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>CSC69032</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000539014</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|920719858|ref|WP_053055048.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW, partial [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_053055048</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000685885</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|920631162|ref|WP_053031583.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW, partial [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_053031583</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000741638</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|920650463|ref|WP_053035892.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW, partial [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_053035892</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000837411</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|920611656|ref|WP_053021051.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW, partial [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_053021051</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000897552</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1183765400|ref|WP_084981438.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|1181976486|gb|ORP13178.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_084981438</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000901111</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDAARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1061906384|ref|WP_069212829.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_069212829</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000909609</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDAARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|950985105|ref|WP_057557026.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|940537892|gb|KQA31192.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940543974|gb|KQA37204.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940552524|gb|KQA45604.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940573580|gb|KQA66338.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940589681|gb|KQA82164.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940602362|gb|KQA94674.1| pilus assembly protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_057557026</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000926844</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDAARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|974047975|gb|KUO38154.1|</Hit_id>
+  <Hit_def>pilus assembly protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>KUO38154</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000940072</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|446722560|ref|WP_000799873.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|146316966|gb|ABQ21505.1| putative fimbrial biogenesis and twitching motility protein [Vibrio cholerae O395] &gt;gi|227013521|gb|ACP09731.1| putative fimbrial biogenesis and twitching motility protein [Vibrio cholerae O395] &gt;gi|229347712|gb|EEO12671.1| type IV pilus (Tfp) assembly protein PilF [Vibrio cholerae TMA 21] &gt;gi|262021864|gb|EEY40574.1| type IV pilus (Tfp) assembly protein PilF [Vibrio cholerae RC27] &gt;gi|408032270|gb|EKG68857.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae CP1037(10)] &gt;gi|469682794|gb|EMP98805.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae O1 str. 95412] &gt;gi|781022284|gb|KJS92454.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|903160079|emb|CSA44446.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903248459|emb|CRZ51935.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903286511|emb|CSA42158.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903351197|emb|CSC04556.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903369235|emb|CSA38860.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903373107|emb|CSA46685.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903409520|emb|CSA27341.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903485164|emb|CSA34351.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903492794|emb|CSA67572.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903496533|emb|CSA43942.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|903499269|emb|CSB18062.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|910945230|gb|KNH50871.1| type IV pilus assembly protein PilF [Vibrio cholerae V52] &gt;gi|910953677|gb|KNH57792.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae 1587] &gt;gi|940545352|gb|KQA38553.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940549643|gb|KQA42753.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940564786|gb|KQA57653.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940580500|gb|KQA73134.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|940585639|gb|KQA78183.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|967485472|gb|KTL56192.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|974033084|gb|KUO23767.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|977937038|gb|KVI44773.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|1068786943|gb|OEG78085.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|1079964976|gb|OFJ39341.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae V52] &gt;gi|1092196842|gb|AOY47316.1| type IV pilus assembly protein PilF [Vibrio cholerae] &gt;gi|1092258985|gb|AOY50921.1| type IV pilus assembly protein PilF [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_000799873</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000944405</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDAARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|940967029|ref|WP_055034146.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio metoecus] &gt;gi|940605508|gb|KQA97760.1| pilus assembly protein PilW [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_055034146</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000953309</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>EVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>EARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYFEMVGENDSARKMYQSALNQHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAALCALKAGKNDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline>E  + LG+ Y++ G++ +  E LE+++  APD  +    +   +  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G ++ A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|653338254|gb|KEA48530.1|</Hit_id>
+  <Hit_def>pilus assembly protein PilW [Vibrio cholerae O1 biovar El Tor] &gt;gi|763969206|gb|KJD16003.1| pilus assembly protein PilW [Vibrio cholerae O1 biovar El Tor] &gt;gi|974037181|gb|KUO27639.1| pilus assembly protein PilW [Vibrio cholerae] &gt;gi|1026820444|gb|OAE76267.1| pilus assembly protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>KEA48530</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000966905</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|903213627|emb|CSA68446.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>CSA68446</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000975336</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDAARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|920723228|ref|WP_053056467.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW, partial [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_053056467</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00104114</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1096235607|ref|WP_071180237.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|1079954996|gb|OFJ29981.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae] &gt;gi|1132542081|gb|OLZ26315.1| type IV pilus biogenesis/stability protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>WP_071180237</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.00105695</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDSARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAGLCALKAGKTDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G  + A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|446749904|ref|WP_000827160.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type IV pilus biogenesis/stability protein PilW [Vibrio] &gt;gi|260839084|gb|EEX65716.1| hypothetical protein VCJ_001997 [Vibrio sp. RC341] &gt;gi|940526557|gb|KQA21053.1| pilus assembly protein PilW [Vibrio metoecus] &gt;gi|940616256|gb|KQB08326.1| pilus assembly protein PilW [Vibrio metoecus]</Hit_def>
+  <Hit_accession>WP_000827160</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00108712</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE-------QMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYFEMVGENDSARKMYQSALNQHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAALCALKAGKNDNAREYFKRA</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   +  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE       + G ++ A  +FK+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|903063116|emb|CSA57803.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Vibrio cholerae]</Hit_def>
+  <Hit_accession>CSA57803</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00109192</Hsp_evalue>
+      <Hsp_query-from>80</Hsp_query-from>
+      <Hsp_query-to>196</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>VEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMG</Hsp_qseq>
+      <Hsp_hseq>AEARIALGLGYLENGSMIKARENLEKALQHAPDYYRSQLSMAHYYEAVGENDAARKMYRTALSEHPKNGNVLNNFGTFLCKQGEYDTADQYFRRAV-----EQPYYYLISASYENAG</Hsp_hseq>
+      <Hsp_midline> E  + LG+ Y++ G++ +  E LE+++  APD  +    +   Y  V + D A  +       +P N NV    G  L   G +D A   F+ A+     E   +  I+ SYE  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>2080159</Statistics_db-num>
+      <Statistics_db-len>728704751</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|292633624|gb|EFF52182.1|</Hit_id>
+  <Hit_def>peptidase Do [Bacteroides ovatus SD CMC 3f]</Hit_def>
+  <Hit_accession>EFF52182</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>6.71051e-14</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNNHVIEGADEISVKLNDN---REFKGRVIGTDPSTDLALVKIEGDD-FPTIPVGDSEALKVGEWVLAVGNPFNLNSTVTAGIVSAKARSLGVYNGGIESFIQTDAAINQGNSGGALVNAKGELVGINSVLSSPTGAYAGYGFAIPTSIMTKVIADLKQYGT</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H +    +I+V++  +   R F  +V+ T P  +LAL+K++  + F    + + + +  G+ V A G        V  G+V +    L V    I   +++DA  +   +GG LVNA+G+LVGIN   + PTG     GF +P  ++   + D+ ++ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|490446732|ref|WP_004317638.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteroides] &gt;gi|229447164|gb|EEO52955.1| peptidase Do [Bacteroides sp. D1] &gt;gi|262353019|gb|EEZ02114.1| peptidase Do [Bacteroides sp. 2_1_22] &gt;gi|292636473|gb|EFF54951.1| peptidase Do [Bacteroides xylanisolvens SD CC 2a] &gt;gi|294442109|gb|EFG10928.1| peptidase Do [Bacteroides xylanisolvens SD CC 1b] &gt;gi|295087658|emb|CBK69181.1| periplasmic serine protease, Do/DeqQ family [Bacteroides xylanisolvens XB1A] &gt;gi|298269747|gb|EFI11340.1| HtrA protein [Bacteroides sp. D22] &gt;gi|335939623|gb|EGN01496.1| hypothetical protein HMPREF0127_02950 [Bacteroides sp. 1_1_30] &gt;gi|392691432|gb|EIY84677.1| protease Do [Bacteroides xylanisolvens CL03T12C04] &gt;gi|584440309|emb|CDM00751.1| Serine protease, DegP/HtrA, do-like [Bacteroides xylanisolvens SD CC 2a] &gt;gi|584447480|emb|CDM04567.1| Serine protease, DegP/HtrA, do-like [Bacteroides xylanisolvens SD CC 1b] &gt;gi|893723040|gb|KMW77204.1| protease Do [Bacteroides sp. 3_1_13] &gt;gi|933386938|emb|CUO93485.1| serine protease [Bacteroides xylanisolvens] &gt;gi|1089281729|emb|SEB15316.1| Do/DeqQ family serine protease [Bacteroides xylanisolvens] &gt;gi|1099534472|emb|SFN62980.1| Do/DeqQ family serine protease [Bacteroides xylanisolvens]</Hit_def>
+  <Hit_accession>EFF54951</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>9.33929e-14</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNNHVIEGADEISVKLNDN---REFKGRVIGTDPSTDLALVKIEGDD-FPTIPVGDSEALKVGEWVLAVGNPFNLNSTVTAGIVSAKARSLGVYNGGIESFIQTDAAINQGNSGGALVNAKGELVGINSVLSSPTGAYAGYGFAIPTSIMTKVIADLKQYGT</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H +    +I+V++  +   R F  +V+ T P  +LAL+K++  + F    + + + +  G+ V A G        V  G+V +    L V    I   +++DA  +   +GG LVNA+G+LVGIN   + PTG     GF +P  ++   + D+ ++ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|492435838|ref|WP_005843252.1|</Hit_id>
+  <Hit_def>MULTISPECIES: type I deoxyribonuclease HsdR [Bacteroides] &gt;gi|149933689|gb|ABR40387.1| serine protease precursor [Bacteroides vulgatus ATCC 8482] &gt;gi|254836527|gb|EET16836.1| putative serine protease MucD [Bacteroides sp. 4_3_47FAA] &gt;gi|294448968|gb|EFG17511.1| peptidase Do [Bacteroides vulgatus PC510] &gt;gi|317384863|gb|EFV65819.1| serine protease [Bacteroides sp. 3_1_40A] &gt;gi|392689886|gb|EIY83161.1| protease Do [Bacteroides vulgatus CL09T03C04] &gt;gi|507746158|gb|EOS05207.1| peptidase Do [Bacteroides vulgatus dnLKV7] &gt;gi|524826530|emb|CDF17020.1| serine protease [Bacteroides vulgatus CAG:6] &gt;gi|649537865|gb|KDS44938.1| peptidase Do family protein [Bacteroides vulgatus str. 3975 RP4] &gt;gi|933250201|emb|CUQ27279.1| serine protease [Bacteroides vulgatus] &gt;gi|933261681|emb|CUN43572.1| serine protease [Bacteroides vulgatus] &gt;gi|933280746|emb|CUO88699.1| serine protease [Bacteroides vulgatus] &gt;gi|1094815487|emb|SEK21128.1| Do/DeqQ family serine protease [Bacteroides vulgatus] &gt;gi|1124981211|gb|OKZ50718.1| deoxyribonuclease HsdR [Bacteroides vulgatus]</Hit_def>
+  <Hit_accession>EFG17511</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.06264e-13</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIAATGPTGKVE--GFTVPAQVIVSHLQDVVRFKT</Hsp_qseq>
+      <Hsp_hseq>SGVIISKDGYIVTNNHVIDNADVISVKLNDG---REYKGRVIGTDPSTDLALVKIEADE-LPTIPVGNSEALKVGEWVLAVGNPFNMTSTVTAGIVSAKARSLGVYNNGVESFIQTDAAINQGNSGGALVNARGELVGINSVLYSPTGAYSGYGFAIPTSIMTKVIADLKEYGT</Hsp_hseq>
+      <Hsp_midline>SG I+  +GY++T  H + N   I+V++      R +  +V+ T P  +LAL+K++  E      + N + +  G+ V A G        V  G+V +    L V    +   +++DA  +   +GG LVNA+G+LVGIN     PTG     GF +P  ++   + D+  + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|777763046|gb|AJY53557.1|</Hit_id>
+  <Hit_def>sulfite exporter (plasmid) [Enterococcus faecium]</Hit_def>
+  <Hit_accession>AJY53557</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.00067833</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSV-VAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLP</Hsp_qseq>
+      <Hsp_hseq>GLFLGFLASLLGIGGGPINVSLLMLLFSIPIKDATVYSIGTIFFSQSAKLITIAF----NTGFNHYD--LTLLKFTIPAAFIGGFLGAKCSNVLS</Hsp_hseq>
+      <Hsp_midline>GL +G  + +LGI GG I V L   +  I +++A   S   +F++  A  + +AF    +TG  H++  +TL    IP A++GG LGA+   VL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|493838799|ref|WP_006785958.1|</Hit_id>
+  <Hit_def>MULTISPECIES: trypsin [Turicibacter] &gt;gi|292644412|gb|EFF62508.1| trypsin [Turicibacter sanguinis PC909] &gt;gi|325488359|gb|EGC90783.1| serine protease Do-like protein [Turicibacter sp. HGF1] &gt;gi|932978708|emb|CUM76860.1| Serine protease Do-like HtrA [Turicibacter sanguinis]</Hit_def>
+  <Hit_accession>EFF62508</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000954103</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>VGQFLVRNVAMPDVQRLY--YTVPPAVVGVGGGGVNAGP-VASGAIVGANG---YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGR----NMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQT-------------GGPLVNAQGDLVGINIAATGPTGKVEG--FTVPAQVIVSHLQDV</Hsp_qseq>
+      <Hsp_hseq>IQEVVEREVVTQESQRIEAIQKVSPAIVGVVNFANNRTQGEGSGIIYKAEGDTAYIVTNQH-VVDSGDY-FEVVFSNG-NRSEAELLGSDIYTDLAVLKVSDVTVDAVAEFGSTEDLQVGQTVIAIGNPLGLNFAGSAT--SGIVSGKDRTVSVD-------LNSDGYDDWEMTVLQTDTAINPGNSGGALINLDGKIVGIN-SMKIATSSVEGMSFSIPTYVALPIINDL</Hsp_hseq>
+      <Hsp_midline>+ + + R V   + QR+     V PA+VGV     N      SG I  A G   Y++T  H V +  D   +V  S G  R  A+++ +    +LA+LK+            + + +  GQ V A G     N AG+     G+V   D  ++V        L SD    WE T             GG L+N  G +VGIN +    T  VEG  F++P  V +  + D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|498427041|ref|WP_010733078.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|486819996|gb|EOH54458.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0263]</Hit_def>
+  <Hit_accession>WP_010733078</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00115649</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLP</Hsp_qseq>
+      <Hsp_hseq>GLILGFLASFLGIGGGPINVSLLMLMFHFKIKEAVIYSICTIFFSQLAKLVSIFLGSGFA-----QFDLSMLLYIVPAALLGGVLGAYLSKFLS</Hsp_hseq>
+      <Hsp_midline>GL +G  +  LGI GG I V L   +    ++ A+  S   +F++ +A  V  F+  G       +  +++ L ++P A +GG+LGA L + L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488275034|ref|WP_002346242.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|430622368|gb|ELB59100.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0047]</Hit_def>
+  <Hit_accession>WP_002346242</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00507622</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLP</Hsp_qseq>
+      <Hsp_hseq>GLILGFLASFLGIGGGPINVSLLMLMFHFKIKEAVIYSICTIFFSQLAKLVSIFLGSGFA-----QFDLSMLLYIVPAALLGGVLGVYLSKFLS</Hsp_hseq>
+      <Hsp_midline>GL +G  +  LGI GG I V L   +    ++ A+  S   +F++ +A  V  F+  G       +  +++ L ++P A +GG+LG  L + L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488258490|ref|WP_002329698.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|430493396|gb|ELA69699.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0015] &gt;gi|430591790|gb|ELB29817.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0042] &gt;gi|985323999|gb|KXA08002.1| hypothetical protein HMPREF3199_01798 [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002329698</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00657986</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLP</Hsp_qseq>
+      <Hsp_hseq>GLILGFLASLLGIGGGPINVSLLMLLFSISIKDATVYSICTILFSQFAKLLTI---ALTTGFSRYD--LTILWFVIPAAIIGGLLGAKLSNVLS</Hsp_hseq>
+      <Hsp_midline>GL +G  + +LGI GG I V L   +  IS+++A   S   + ++  A  +       +TG   ++  +T+   +IP A +GG+LGA+L  VL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488320116|ref|WP_002389501.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecalis] &gt;gi|300849136|gb|EFK76889.1| serine protease do-like HtrA [Enterococcus faecalis TUSoD Ef11]</Hit_def>
+  <Hit_accession>EFK76889</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00721739</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>GVGGGGVNAGPVASGAIVGANG---YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLA----VGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN-IAATGPTGKVE----GFTVPAQVIVS</Hsp_qseq>
+      <Hsp_hseq>GNNGNDLEAASEGSGVIYKKDGKTAYVVTNNHVVDKAQGLEVVLSDGTKVK---GELVGTDAYTDLAVIKISSDKVDQVAEFGNSSKITVGEPAIAIGSPLGSDYANSVTQGIISSVNRNITNKNESGETININAIQTDAAINPGNSGGPLINIQGQVIGINSVKIVQSTSQVSVEGMGFAIPSNDVVN</Hsp_hseq>
+      <Hsp_midline>G  G  + A    SG I   +G   YV+T  H V     + V ++    ++    ++V T    +LA++K+ + +        N   +  G+   A G  +    A  V QG++ S +  +      G T   + +++DA  +   +GGPL+N QG ++GIN +     T +V     GF +P+  +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|495654531|ref|WP_008379110.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Enterococcus] &gt;gi|394770604|gb|EJF50408.1| serine protease HtrA [Enterococcus sp. C1] &gt;gi|514493726|gb|EPH59831.1| serine protease do-like HtrA [Enterococcus faecium 13.SD.W.09] &gt;gi|514524431|gb|EPH89553.1| serine protease do-like HtrA [Enterococcus faecalis 06-MB-DW-09] &gt;gi|991888207|gb|AMG51341.1| serine protease [Enterococcus gallinarum]</Hit_def>
+  <Hit_accession>EPH59831</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0136135</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>IVGANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAV-----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN---IAATGPTG---KVE--GFTVPAQVIV</Hsp_qseq>
+      <Hsp_hseq>IDGDDAYVVTNNHVVEGQDGLEVVLADGTKVK---AELVGTDSYTDLAVLKISSEKVTTAATFGDSSALKVGEPAIAIGSPLGSDYANSVTQGIVSSLNRQVTSQNESGGTISI-NAIQTDAAINPGNSGGPLINVDGQVIGINSSKIASTSGSASGVSVEGMGFAIPSNDVV</Hsp_hseq>
+      <Hsp_midline>I G + YV+T  H V     + V +A    ++   A++V T    +LA+LK+ + +        +   +  G+   A G  +    A  V QG+V S +  +       GT  I + +++DA  +   +GGPL+N  G ++GIN   IA+T  +     VE  GF +P+  +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|488239318|ref|WP_002310526.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|257824804|gb|EEV51736.1| conserved hypothetical protein [Enterococcus faecium 1,141,733]</Hit_def>
+  <Hit_accession>WP_002310526</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0138143</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLP</Hsp_qseq>
+      <Hsp_hseq>GLILGFLAIFLGIGGGPINVSLLMLMFHFKIKEAVIYSICTIFFSQLAKLVSIFLGSGFA-----QFDLSMLLYIVPAALLGGVLGVYLSKFLS</Hsp_hseq>
+      <Hsp_midline>GL +G  +  LGI GG I V L   +    ++ A+  S   +F++ +A  V  F+  G       +  +++ L ++P A +GG+LG  L + L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488297198|ref|WP_002368406.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Bacilli] &gt;gi|256710267|gb|EEU25311.1| serine protease DO [Enterococcus faecalis T8] &gt;gi|256950890|gb|EEU67522.1| peptidase S1 [Enterococcus faecalis Merz96] &gt;gi|291078754|gb|EFE16118.1| trypsin [Enterococcus faecalis R712] &gt;gi|291082331|gb|EFE19294.1| trypsin [Enterococcus faecalis S613] &gt;gi|294452705|gb|EFG21135.1| trypsin [Enterococcus faecalis PC1.1] &gt;gi|295114368|emb|CBL33005.1| Trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain [Enterococcus sp. 7L76] &gt;gi|306505164|gb|EFM74352.1| trypsin [Enterococcus faecalis TX0860] &gt;gi|306509423|gb|EFM78480.1| trypsin [Enterococcus faecalis TX0855] &gt;gi|310628935|gb|EFQ12218.1| trypsin [Enterococcus faecalis TX0102] &gt;gi|310631362|gb|EFQ14645.1| trypsin [Enterococcus faecalis EnGen0311] &gt;gi|311289011|gb|EFQ67567.1| trypsin [Enterococcus faecalis DAPTO 516] &gt;gi|315027695|gb|EFT39627.1| trypsin [Enterococcus faecalis TX2137] &gt;gi|315036544|gb|EFT48476.1| trypsin [Enterococcus faecalis TX0027] &gt;gi|315162516|gb|EFU06533.1| trypsin [Enterococcus faecalis TX0645] &gt;gi|315167262|gb|EFU11279.1| trypsin [Enterococcus faecalis TX1341] &gt;gi|315578617|gb|EFU90808.1| trypsin [Enterococcus faecalis TX0630] &gt;gi|323478970|gb|ADX78409.1| serine protease htrA [Enterococcus faecalis 62] &gt;gi|397337819|gb|AFO45491.1| serine protease htrA [Enterococcus faecalis D32] &gt;gi|402359787|gb|EJU94408.1| serine protease do-like HtrA [Enterococcus faecalis 599] &gt;gi|429513006|gb|ELA02599.1| serine protease DO [Enterococcus faecalis OG1X] &gt;gi|429517138|gb|ELA06605.1| serine protease DO [Enterococcus faecalis M7] &gt;gi|486445886|gb|EOD90643.1| serine protease DO [Enterococcus faecalis EnGen0076] &gt;gi|486450300|gb|EOD94898.1| serine protease DO [Enterococcus faecalis EnGen0074] &gt;gi|486453954|gb|EOD98493.1| serine protease DO [Enterococcus faecalis EnGen0075] &gt;gi|486456680|gb|EOE01126.1| serine protease DO [Enterococcus faecalis EnGen0073] &gt;gi|486458312|gb|EOE02730.1| serine protease DO [Enterococcus faecalis EnGen0058] &gt;gi|486462884|gb|EOE07228.1| serine protease DO [Enterococcus faecalis EnGen0078] &gt;gi|486466648|gb|EOE10866.1| serine protease DO [Enterococcus faecalis EnGen0079] &gt;gi|486468207|gb|EOE12342.1| serine protease DO [Enterococcus faecalis EnGen0060] &gt;gi|486473729|gb|EOE17792.1| serine protease DO [Enterococcus faecalis EnGen0080] &gt;gi|486476681|gb|EOE20653.1| serine protease DO [Enterococcus faecalis EnGen0082] &gt;gi|486477224|gb|EOE21184.1| serine protease DO [Enterococcus faecalis EnGen0083] &gt;gi|486478501|gb|EOE22389.1| serine protease DO [Enterococcus faecalis EnGen0081] &gt;gi|486483573|gb|EOE27366.1| serine protease DO [Enterococcus faecalis EnGen0071] &gt;gi|486486013|gb|EOE29733.1| serine protease DO [Enterococcus faecalis EnGen0072] &gt;gi|486486652|gb|EOE30363.1| serine protease DO [Enterococcus faecalis EnGen0084] &gt;gi|486581853|gb|EOF23501.1| serine protease DO [Enterococcus faecalis EnGen0086] &gt;gi|486590143|gb|EOF31674.1| serine protease DO [Enterococcus faecalis EnGen0103] &gt;gi|486590367|gb|EOF31897.1| serine protease DO [Enterococcus faecalis EnGen0102] &gt;gi|486596721|gb|EOF38180.1| serine protease DO [Enterococcus faecalis EnGen0104] &gt;gi|486597619|gb|EOF39062.1| serine protease DO [Enterococcus faecalis EnGen0105] &gt;gi|486604088|gb|EOF45434.1| serine protease DO [Enterococcus faecalis EnGen0116] &gt;gi|486606092|gb|EOF47402.1| serine protease DO [Enterococcus faecalis EnGen0118] &gt;gi|486607075|gb|EOF48374.1| serine protease DO [Enterococcus faecalis EnGen0117] &gt;gi|486873171|gb|EOI05826.1| serine protease DO [Enterococcus faecalis EnGen0241] &gt;gi|486877085|gb|EOI09494.1| serine protease DO [Enterococcus faecalis EnGen0244] &gt;gi|486889257|gb|EOI21344.1| serine protease DO [Enterococcus faecalis EnGen0251] &gt;gi|486894988|gb|EOI26977.1| serine protease DO [Enterococcus faecalis EnGen0249] &gt;gi|486899108|gb|EOI30973.1| serine protease DO [Enterococcus faecalis EnGen0250] &gt;gi|486909151|gb|EOI40652.1| serine protease DO [Enterococcus faecalis EnGen0299] &gt;gi|486959354|gb|EOI89138.1| serine protease DO [Enterococcus faecalis EnGen0311] &gt;gi|486964496|gb|EOI94241.1| serine protease DO [Enterococcus faecalis EnGen0302] &gt;gi|486965046|gb|EOI94779.1| serine protease DO [Enterococcus faecalis EnGen0298] &gt;gi|486969043|gb|EOI98567.1| serine protease DO [Enterococcus faecalis EnGen0306] &gt;gi|486972906|gb|EOJ02391.1| serine protease DO [Enterococcus faecalis EnGen0282] &gt;gi|486977552|gb|EOJ06996.1| serine protease DO [Enterococcus faecalis ATCC 29200] &gt;gi|486979976|gb|EOJ09299.1| serine protease DO [Enterococcus faecalis EnGen0304] &gt;gi|486980800|gb|EOJ10119.1| serine protease DO [Enterococcus faecalis EnGen0279] &gt;gi|486985754|gb|EOJ15022.1| serine protease DO [Enterococcus faecalis EnGen0281] &gt;gi|486986490|gb|EOJ15662.1| serine protease DO [Enterococcus faecalis EnGen0287] &gt;gi|486992215|gb|EOJ21265.1| serine protease DO [Enterococcus faecalis EnGen0284] &gt;gi|486994126|gb|EOJ23147.1| serine protease DO [Enterococcus faecalis EnGen0286] &gt;gi|486998030|gb|EOJ27017.1| serine protease DO [Enterococcus faecalis EnGen0300] &gt;gi|487001044|gb|EOJ29918.1| serine protease DO [Enterococcus faecalis EnGen0293] &gt;gi|487002287|gb|EOJ31146.1| serine protease DO [Enterococcus faecalis EnGen0290] &gt;gi|487007677|gb|EOJ36419.1| serine protease DO [Enterococcus faecalis ATCC 27275] &gt;gi|487010074|gb|EOJ38617.1| serine protease DO [Enterococcus faecalis ATCC 27959] &gt;gi|487011225|gb|EOJ39851.1| serine protease DO [Enterococcus faecalis EnGen0289] &gt;gi|487016150|gb|EOJ44463.1| serine protease DO [Enterococcus faecalis EnGen0285] &gt;gi|487019964|gb|EOJ48248.1| serine protease DO [Enterococcus faecalis EnGen0345] &gt;gi|487020710|gb|EOJ48987.1| serine protease DO [Enterococcus faecalis EnGen0361] &gt;gi|487025333|gb|EOJ53398.1| serine protease DO [Enterococcus faecalis EnGen0363] &gt;gi|487029387|gb|EOJ57288.1| serine protease DO [Enterococcus faecalis EnGen0364] &gt;gi|487033146|gb|EOJ60927.1| serine protease DO [Enterococcus faecalis EnGen0350] &gt;gi|487033199|gb|EOJ60979.1| serine protease DO [Enterococcus faecalis EnGen0336] &gt;gi|487039696|gb|EOJ67278.1| serine protease DO [Enterococcus faecalis EnGen0351] &gt;gi|487039754|gb|EOJ67335.1| serine protease DO [Enterococcus faecalis EnGen0352] &gt;gi|487040540|gb|EOJ68114.1| serine protease DO [Enterococcus faecalis EnGen0337] &gt;gi|487053220|gb|EOJ80378.1| serine protease DO [Enterococcus faecalis EnGen0369] &gt;gi|487054614|gb|EOJ81753.1| serine protease DO [Enterococcus faecalis EnGen0356] &gt;gi|487061683|gb|EOJ88749.1| serine protease DO [Enterococcus faecalis EnGen0368] &gt;gi|487062260|gb|EOJ89149.1| serine protease DO [Enterococcus faecalis EnGen0370] &gt;gi|487068747|gb|EOJ95404.1| serine protease DO [Enterococcus faecalis EnGen0359] &gt;gi|487069398|gb|EOJ96048.1| serine protease DO [Enterococcus faecalis EnGen0360] &gt;gi|487076752|gb|EOK03247.1| serine protease DO [Enterococcus faecalis EnGen0367] &gt;gi|487080449|gb|EOK06780.1| serine protease DO [Enterococcus faecalis ATCC 10100] &gt;gi|487083416|gb|EOK09590.1| serine protease DO [Enterococcus faecalis ATCC 6055] &gt;gi|487093238|gb|EOK18854.1| serine protease DO [Enterococcus faecalis EnGen0326] &gt;gi|487093302|gb|EOK19078.1| serine protease DO [Enterococcus faecalis EnGen0329] &gt;gi|487101443|gb|EOK27064.1| serine protease DO [Enterococcus faecalis EnGen0334] &gt;gi|487101629|gb|EOK27241.1| serine protease DO [Enterococcus faecalis EnGen0333] &gt;gi|487102079|gb|EOK27682.1| serine protease DO [Enterococcus faecalis EnGen0328] &gt;gi|487112007|gb|EOK37407.1| serine protease DO [Enterococcus faecalis EnGen0335] &gt;gi|487113199|gb|EOK38585.1| serine protease DO [Enterococcus faecalis EnGen0330] &gt;gi|487117920|gb|EOK43279.1| serine protease DO [Enterococcus faecalis EnGen0332] &gt;gi|487122287|gb|EOK47541.1| serine protease DO [Enterococcus faecalis EnGen0062] &gt;gi|487124183|gb|EOK49410.1| serine protease DO [Enterococcus faecalis EnGen0061] &gt;gi|487194710|gb|EOL13046.1| serine protease DO [Enterococcus faecalis EnGen0327] &gt;gi|487197359|gb|EOL15667.1| serine protease DO [Enterococcus faecalis EnGen0331] &gt;gi|487203495|gb|EOL21678.1| serine protease DO [Enterococcus faecalis EnGen0365] &gt;gi|487204056|gb|EOL22228.1| serine protease DO [Enterococcus faecalis EnGen0342] &gt;gi|487209847|gb|EOL27914.1| serine protease DO [Enterococcus faecalis EnGen0346] &gt;gi|487216508|gb|EOL35313.1| serine protease DO [Enterococcus faecalis EnGen0348] &gt;gi|487234641|gb|EOL52148.1| serine protease DO [Enterococcus faecalis EnGen0240] &gt;gi|487237052|gb|EOL54534.1| serine protease DO [Enterococcus faecalis EnGen0245] &gt;gi|487242742|gb|EOL60078.1| serine protease DO [Enterococcus faecalis EnGen0246] &gt;gi|487244071|gb|EOL61373.1| serine protease DO [Enterococcus faecalis EnGen0247] &gt;gi|487263814|gb|EOL80609.1| serine protease DO [Enterococcus faecalis EnGen0303] &gt;gi|487275514|gb|EOL92121.1| serine protease DO [Enterococcus faecalis EnGen0366] &gt;gi|487276046|gb|EOL92651.1| serine protease DO [Enterococcus faecalis EnGen0341] &gt;gi|487279409|gb|EOL95938.1| serine protease DO [Enterococcus faecalis EnGen0344] &gt;gi|487306531|gb|EOM22194.1| serine protease DO [Enterococcus faecalis EnGen0253] &gt;gi|487312437|gb|EOM27929.1| serine protease DO [Enterococcus faecalis EnGen0232] &gt;gi|514515645|gb|EPH81172.1| serine protease do-like HtrA [Enterococcus faecalis 02-MB-BW-10] &gt;gi|514520613|gb|EPH85918.1| serine protease do-like HtrA [Enterococcus faecalis 06-MB-S-10] &gt;gi|514534053|gb|EPH98786.1| serine protease do-like HtrA [Enterococcus faecalis F01966] &gt;gi|514539813|gb|EPI04370.1| serine protease do-like HtrA [Enterococcus faecalis 20.SD.W.06] &gt;gi|514542886|gb|EPI07310.1| serine protease do-like HtrA [Enterococcus faecalis RP2S-4] &gt;gi|514552927|gb|EPI16910.1| serine protease do-like HtrA [Enterococcus faecium SB2C-2] &gt;gi|514563996|gb|EPI27491.1| serine protease do-like HtrA [Enterococcus faecalis VC1B-1] &gt;gi|514565220|gb|EPI28671.1| serine protease do-like HtrA [Enterococcus faecalis WKS-26-18-2] &gt;gi|544348695|gb|ERL07528.1| serine protease do-like HtrA [Enterococcus faecalis E12] &gt;gi|551089882|gb|ERT21387.1| serine protease DO [Enterococcus faecalis BM4539] &gt;gi|551094485|gb|ERT25949.1| serine protease DO [Enterococcus faecalis JH2-2] &gt;gi|564594398|gb|ETC90771.1| serine protease [Enterococcus faecalis PF3] &gt;gi|566261818|gb|ETJ09673.1| S1 family peptidase [Enterococcus faecalis DORA_14] &gt;gi|573595810|gb|ETT89883.1| serine protease DO [Enterococcus faecalis EnGen0400] &gt;gi|573597094|gb|ETT91161.1| serine protease DO [Enterococcus faecalis EnGen0401] &gt;gi|573602023|gb|ETT96014.1| serine protease DO [Enterococcus faecalis EnGen0403] &gt;gi|573603463|gb|ETT97452.1| serine protease DO [Enterococcus faecalis EnGen0402] &gt;gi|573607167|gb|ETU01083.1| serine protease DO [Enterococcus faecalis EnGen0404] &gt;gi|573612447|gb|ETU06313.1| serine protease DO [Enterococcus faecalis EnGen0405] &gt;gi|573614594|gb|ETU08394.1| serine protease DO [Enterococcus faecalis EnGen0406] &gt;gi|573621214|gb|ETU14922.1| serine protease DO [Enterococcus faecalis EnGen0408] &gt;gi|573625428|gb|ETU19077.1| serine protease DO [Enterococcus faecalis EnGen0410] &gt;gi|573630150|gb|ETU23757.1| serine protease DO [Enterococcus faecalis EnGen0412] &gt;gi|573631003|gb|ETU24588.1| serine protease DO [Enterococcus faecalis EnGen0413] &gt;gi|573636170|gb|ETU29687.1| serine protease DO [Enterococcus faecalis EnGen0414] &gt;gi|573637115|gb|ETU30611.1| serine protease DO [Enterococcus faecalis EnGen0415] &gt;gi|573644942|gb|ETU38335.1| serine protease DO [Enterococcus faecalis EnGen0416] &gt;gi|573648107|gb|ETU41447.1| serine protease DO [Enterococcus faecalis EnGen0418] &gt;gi|573653144|gb|ETU46407.1| serine protease DO [Enterococcus faecalis EnGen0421] &gt;gi|573659238|gb|ETU52404.1| serine protease DO [Enterococcus faecalis EnGen0423] &gt;gi|573667150|gb|ETU60233.1| serine protease DO [Enterococcus faecalis EnGen0425] &gt;gi|582038424|gb|AHI41753.1| Serine protease DO [Enterococcus faecalis DENG1] &gt;gi|619184173|gb|KAJ59981.1| Serine protease, DegP/HtrA [Enterococcus faecalis GA2] &gt;gi|619188751|gb|KAJ64347.1| Serine protease, DegP/HtrA [Enterococcus faecalis KS19] &gt;gi|619189671|gb|KAJ65231.1| Serine protease, DegP/HtrA [Enterococcus faecalis MN16] &gt;gi|619192804|gb|KAJ68211.1| Serine protease, DegP/HtrA [Enterococcus faecalis MD6] &gt;gi|619195372|gb|KAJ70625.1| Serine protease, DegP/HtrA [Enterococcus faecalis MTmid8] &gt;gi|619206222|gb|KAJ81022.1| Serine protease, DegP/HtrA [Enterococcus faecalis NJ44] &gt;gi|619207088|gb|KAJ81852.1| Serine protease, DegP/HtrA [Enterococcus faecalis GAN13] &gt;gi|694244111|gb|KGJ34922.1| serine protease [Enterococcus faecalis] &gt;gi|749429546|gb|KII40386.1| serine protease [Enterococcus faecalis] &gt;gi|749431127|gb|KII41967.1| serine protease [Enterococcus faecalis] &gt;gi|749431424|gb|KII42264.1| serine protease [Enterococcus faecalis] &gt;gi|749435766|gb|KII46606.1| serine protease [Enterococcus faecalis] &gt;gi|749439497|gb|KII50337.1| serine protease [Enterococcus faecalis] &gt;gi|749443797|gb|KII54637.1| serine protease [Enterococcus faecalis] &gt;gi|815134766|emb|CRH65695.1| serine protease [Chlamydia trachomatis] &gt;gi|827113992|gb|KLL19189.1| serine protease [Streptococcus agalactiae] &gt;gi|914302330|gb|KOA02487.1| serine protease [Enterococcus faecalis] &gt;gi|990709820|emb|CWW92012.1| Serine protease Do-like HtrA [Listeria monocytogenes] &gt;gi|991811611|emb|CWJ47449.1| trypsin domain-containing protein [Streptococcus pneumoniae] &gt;gi|1026280128|gb|OAD10000.1| serine protease [Enterococcus faecalis] &gt;gi|1045289161|gb|ANU73912.1| serine protease [Enterococcus faecalis] &gt;gi|1046365804|gb|OCK16165.1| serine protease [Enterococcus faecalis] &gt;gi|1049598167|dbj|BAV37508.1| serine protease DO [Enterococcus faecalis] &gt;gi|1078268563|gb|OFA14326.1| serine protease Do-like HtrA [Enterococcus faecalis] &gt;gi|1102515751|gb|APC56901.1| serine protease [Enterococcus faecalis] &gt;gi|1102520675|gb|OIU89811.1| serine protease [Enterococcus faecalis] &gt;gi|1102523319|gb|OIU92454.1| serine protease [Enterococcus faecalis] &gt;gi|1102526566|gb|OIU95700.1| serine protease [Enterococcus faecalis] &gt;gi|1108582026|gb|APE73494.1| serine protease [Enterococcus faecalis] &gt;gi|1127395085|gb|APS16476.1| serine protease [Enterococcus faecalis] &gt;gi|1142909024|gb|AQL54870.1| serine protease [Enterococcus faecalis] &gt;gi|1145443818|emb|SJN51881.1| Serine protease, DegP/HtrA, do-like [Sphingobacterium faecium PCAi_F2.5] &gt;gi|1149388833|gb|OOL78271.1| serine protease [Enterococcus faecalis] &gt;gi|1151022129|gb|OOP47538.1| serine protease [Enterococcus faecalis] &gt;gi|1151022894|gb|OOP48207.1| serine protease [Enterococcus faecalis] &gt;gi|1151025787|gb|OOP51038.1| serine protease [Enterococcus faecalis] &gt;gi|1151029600|gb|OOP54776.1| serine protease [Enterococcus faecalis] &gt;gi|1172717146|gb|OQO73468.1| serine protease [Enterococcus faecalis] &gt;gi|1184262427|gb|OSC86463.1| serine protease [Enterococcus faecalis] &gt;gi|1184265779|gb|OSC89305.1| serine protease [Enterococcus faecalis] &gt;gi|1185284773|gb|OSH22574.1| serine protease DO [Enterococcus faecalis] &gt;gi|1185303945|gb|OSH40835.1| serine protease DO [Enterococcus faecalis] &gt;gi|1185914244|gb|OSM15426.1| serine protease [Enterococcus faecalis] &gt;gi|1185922341|gb|OSM23076.1| serine protease [Enterococcus faecalis] &gt;gi|1185922555|gb|OSM23280.1| serine protease [Enterococcus faecalis] &gt;gi|1185929173|gb|OSM29705.1| serine protease [Enterococcus faecalis]</Hit_def>
+  <Hit_accession>WP_002368406</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0195397</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>GVGGGGVNAGPVASGAIVGANG---YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLA----VGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN-IAATGPTGKVE----GFTVPAQVIVS</Hsp_qseq>
+      <Hsp_hseq>GNNGNDLEAASEGSGVIYKKDGKTAYVVTNNHVVDKAQGLEVVLSDGTKVK---GELVGTDAYTDLAVIKISSDKVDQVAEFGNSSKITVGEPAIAIGSPLGSDYANSVTQGIISSVNRNITNKNESGETININAIQTDAAINPGNSGGPLINIEGQVIGINSVKIVQSTSQVSVEGMGFAIPSNDVVN</Hsp_hseq>
+      <Hsp_midline>G  G  + A    SG I   +G   YV+T  H V     + V ++    ++    ++V T    +LA++K+ + +        N   +  G+   A G  +    A  V QG++ S +  +      G T   + +++DA  +   +GGPL+N +G ++GIN +     T +V     GF +P+  +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|514881668|ref|WP_016613609.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus gallinarum] &gt;gi|514493681|gb|EPH59786.1| hypothetical protein D931_03582 [Enterococcus faecium 13.SD.W.09] &gt;gi|991888167|gb|AMG51301.1| hypothetical protein AL523_16815 [Enterococcus gallinarum]</Hit_def>
+  <Hit_accession>EPH59786</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0331094</Hsp_evalue>
+      <Hsp_query-from>496</Hsp_query-from>
+      <Hsp_query-to>612</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>TRPKTSGIALPEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSV-VAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVL-PVRV</Hsp_qseq>
+      <Hsp_hseq>TKYNWRGFAL-EKVGWYAACGLILGFLASLLGIGGGPINVSLLMLLFAMPIKEATIYSICTIFFSQLAKILTIAF----STGFGAYDLQIL--WFVIPAAIVGGLLGAKASNVLSPQRV</Hsp_hseq>
+      <Hsp_midline>T+    G AL E     A  GL +G  + +LGI GG I V L   +  + ++ A   S   +F++ +A  + +AF    STG   ++  +     +IP A VGG+LGA+   VL P RV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|309385844|gb|ADO66771.1|</Hit_id>
+  <Hit_def>protein of unknown function DUF81 (plasmid) [Enterococcus faecium]</Hit_def>
+  <Hit_accession>ADO66771</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0373835</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLP</Hsp_qseq>
+      <Hsp_hseq>GLVLGFLASLLGIGGGPINVSLLMLMFALPIKEATVYSICTIFFSQLAKIVTI---AGTTGFGLYDLKIL--WFVIPAAIVGGLLGAKVSTVLS</Hsp_hseq>
+      <Hsp_midline>GL +G  + +LGI GG I V L   +  + ++ A   S   +F++ +A  V      G+TG   ++  +     +IP A VGG+LGA++  VL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|488320824|ref|WP_002390209.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|389870028|ref|YP_006377578.1| hypothetical protein HMPREF0351_12972 (plasmid) [Enterococcus faecium DO] &gt;gi|68194867|gb|EAN09340.1| Protein of unknown function DUF81 [Enterococcus faecium DO] &gt;gi|388535407|gb|AFK60596.1| protein of hypothetical function DUF81 (plasmid) [Enterococcus faecium DO]</Hit_def>
+  <Hit_accession>WP_002390209</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.038182</Hsp_evalue>
+      <Hsp_query-from>453</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LIMAGKAVLEILQPNAGEDTAEAIAAAEAGDEMDEL------MALAEGTTRPKTSGIALPEGPTRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLP</Hsp_qseq>
+      <Hsp_hseq>LWVSGGAVLGGILGNVAFDHLLLLFQNEDEVQMIQIFLTVVTLLFAFFYTKYDWPGFQL-KNNFWYCFCGLVLGFLASLLGIGGGPINVSLLMLMFALPIKEATVYSICTIFFSQLAKIVTI---AGTTGFGLYDLKIL--WFVIPAAIVGGLLGAKVSTVLS</Hsp_hseq>
+      <Hsp_midline>L ++G AVL  +  N   D    +   E   +M ++      +  A   T+    G  L +        GL +G  + +LGI GG I V L   +  + ++ A   S   +F++ +A  V      G+TG   ++  +     +IP A VGG+LGA++  VL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|488269705|ref|WP_002340913.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|430593635|gb|ELB31621.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0042]</Hit_def>
+  <Hit_accession>WP_002340913</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.169093</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTIVL---TSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V   +   ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488256520|ref|WP_002327728.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Enterococcus] &gt;gi|403041041|gb|EJY52081.1| hypothetical protein HMPREF1347_00447 [Enterococcus faecium 504] &gt;gi|430489386|gb|ELA66000.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0019] &gt;gi|430586351|gb|ELB24612.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0040] &gt;gi|658176967|gb|KEI51624.1| hypothetical protein P743_0111030 [Enterococcus faecium UC8733] &gt;gi|658181815|gb|KEI56472.1| hypothetical protein DY87_0100150 [Enterococcus faecium UC7256] &gt;gi|1080775080|gb|OFP42773.1| hypothetical protein HMPREF2988_00430 [Enterococcus sp. HMSC061C05]</Hit_def>
+  <Hit_accession>WP_002327728</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.189653</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488267303|ref|WP_002338511.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|430583246|gb|ELB21635.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0035] &gt;gi|487091653|gb|EOK17581.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0371] &gt;gi|487330239|gb|EOM45182.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0174] &gt;gi|676252363|gb|KFO16235.1| membrane protein [Enterococcus faecium UC7267] &gt;gi|695581335|gb|KGK73565.1| membrane protein [Enterococcus faecium] &gt;gi|1095523307|gb|OHY84979.1| hypothetical protein A8G90_01970 [Enterococcus faecium] &gt;gi|1095524908|gb|OHY86448.1| hypothetical protein A8G82_04740 [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002338511</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.191876</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>619</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAA</Hsp_qseq>
+      <Hsp_hseq>ICGVILGFLASFLGIGGGPINVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSGFMRFD--LSMLFYIIPAAVIGGLWGAKFSRILSPKKVTFIFQA</Hsp_hseq>
+      <Hsp_midline>+ G+ +G  +  LGI GG I V L   +  + ++ A   S   +F++ +A  V       ++G + ++  +++   +IP A +GG+ GA+  R+L  + +  I+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488246706|ref|WP_002317914.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|260077264|gb|EEW64984.1| hypothetical protein EFZG_00927 [Enterococcus faecium TC 6] &gt;gi|289162636|gb|EFD10489.1| hypothetical protein EDAG_00599 [Enterococcus faecium D344SRF] &gt;gi|291592726|gb|EFF24319.1| hypothetical protein EfmE1636_0524 [Enterococcus faecium E1636] &gt;gi|430538020|gb|ELA78319.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0011] &gt;gi|486646556|gb|EOF86739.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0161] &gt;gi|486647833|gb|EOF87874.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0162] &gt;gi|486687783|gb|EOG26178.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0182] &gt;gi|486905448|gb|EOI37067.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0267] &gt;gi|486911491|gb|EOI42954.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0313] &gt;gi|486919244|gb|EOI50514.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0317] &gt;gi|487179987|gb|EOK98832.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0153] &gt;gi|487191151|gb|EOL09633.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0158] &gt;gi|487192428|gb|EOL10877.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0159] &gt;gi|487309909|gb|EOM25501.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0192] &gt;gi|984813288|gb|KWW54579.1| hypothetical protein AWN49_13385 [Enterococcus faecium] &gt;gi|984814631|gb|KWW55871.1| hypothetical protein AWN51_12280 [Enterococcus faecium] &gt;gi|984820323|gb|KWW61117.1| hypothetical protein AWN59_15010 [Enterococcus faecium] &gt;gi|984826420|gb|KWW66833.1| hypothetical protein AWN56_09465 [Enterococcus faecium] &gt;gi|984826595|gb|KWW66998.1| hypothetical protein AWN52_08190 [Enterococcus faecium] &gt;gi|984833998|gb|KWW73874.1| hypothetical protein AWN54_11740 [Enterococcus faecium] &gt;gi|984836550|gb|KWW76270.1| hypothetical protein AWN61_02815 [Enterococcus faecium] &gt;gi|984838152|gb|KWW77672.1| hypothetical protein AWN57_07080 [Enterococcus faecium] &gt;gi|984842821|gb|KWW81913.1| hypothetical protein AWU17_05585 [Enterococcus faecium] &gt;gi|984845152|gb|KWW84071.1| hypothetical protein AWN60_08565 [Enterococcus faecium] &gt;gi|984849085|gb|KWW87741.1| hypothetical protein AWN55_06720 [Enterococcus faecium] &gt;gi|984851995|gb|KWW90446.1| hypothetical protein AWU18_04985 [Enterococcus faecium] &gt;gi|984854297|gb|KWW92602.1| hypothetical protein AWU16_08835 [Enterococcus faecium] &gt;gi|984856460|gb|KWW94658.1| hypothetical protein AWN50_08210 [Enterococcus faecium] &gt;gi|984922590|gb|KWX18458.1| hypothetical protein AWT83_08275 [Enterococcus faecium] &gt;gi|1003376030|gb|KXW82997.1| hypothetical protein AUT27_04435 [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002317914</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.197048</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>619</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAA</Hsp_qseq>
+      <Hsp_hseq>ICGVILGFLASFLGIGGGPINVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSGFMRFD--LSMLFYIIPAAVIGGLWGAKFSRILSPKKVTFIFQA</Hsp_hseq>
+      <Hsp_midline>+ G+ +G  +  LGI GG I V L   +  + ++ A   S   +F++ +A  V       ++G + ++  +++   +IP A +GG+ GA+  R+L  + +  I+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|430491775|gb|ELA68227.1|</Hit_id>
+  <Hit_def>hypothetical protein OGM_00747 [Enterococcus faecium EnGen0008] &gt;gi|430546922|gb|ELA86864.1| hypothetical protein OI3_02770 [Enterococcus faecium EnGen0021] &gt;gi|486619043|gb|EOF60100.1| hypothetical protein SE3_00659 [Enterococcus faecium EnGen0124] &gt;gi|486620455|gb|EOF61479.1| hypothetical protein SE7_02045 [Enterococcus faecium EnGen0133] &gt;gi|486624626|gb|EOF65546.1| hypothetical protein SE9_01555 [Enterococcus faecium EnGen0126] &gt;gi|486625976|gb|EOF66791.1| hypothetical protein SEG_01701 [Enterococcus faecium EnGen0135] &gt;gi|486629364|gb|EOF70104.1| hypothetical protein SEU_01005 [Enterococcus faecium EnGen0130] &gt;gi|486633499|gb|EOF74118.1| hypothetical protein SG7_01309 [Enterococcus faecium EnGen0128] &gt;gi|486634489|gb|EOF75093.1| hypothetical protein SGA_00806 [Enterococcus faecium EnGen0132] &gt;gi|486637342|gb|EOF77855.1| hypothetical protein SGG_02222 [Enterococcus faecium EnGen0138] &gt;gi|486639113|gb|EOF79589.1| hypothetical protein SGE_01747 [Enterococcus faecium EnGen0137] &gt;gi|486644791|gb|EOF85027.1| hypothetical protein SGK_01213 [Enterococcus faecium EnGen0140] &gt;gi|486799120|gb|EOH34292.1| hypothetical protein SQW_02511 [Enterococcus faecium EnGen0185] &gt;gi|486809723|gb|EOH44663.1| hypothetical protein SSG_01574 [Enterococcus faecium EnGen0190] &gt;gi|486810038|gb|EOH44972.1| hypothetical protein SSC_00906 [Enterococcus faecium EnGen0189] &gt;gi|487148369|gb|EOK67978.1| hypothetical protein SEM_01949 [Enterococcus faecium EnGen0129] &gt;gi|487150331|gb|EOK69912.1| hypothetical protein SEO_02038 [Enterococcus faecium EnGen0134] &gt;gi|487150562|gb|EOK70138.1| hypothetical protein SE5_00877 [Enterococcus faecium EnGen0125] &gt;gi|487155967|gb|EOK75478.1| hypothetical protein SGS_01448 [Enterococcus faecium EnGen0142] &gt;gi|487156199|gb|EOK75709.1| hypothetical protein SGY_01380 [Enterococcus faecium EnGen0145] &gt;gi|487161648|gb|EOK80984.1| hypothetical protein SI3_02109 [Enterococcus faecium EnGen0147] &gt;gi|487162155|gb|EOK81474.1| hypothetical protein SI1_00653 [Enterococcus faecium EnGen0146] &gt;gi|487165508|gb|EOK84788.1| hypothetical protein SI5_00659 [Enterococcus faecium EnGen0148] &gt;gi|487169952|gb|EOK89113.1| hypothetical protein SIA_02154 [Enterococcus faecium EnGen0151] &gt;gi|487184891|gb|EOL03587.1| hypothetical protein SIS_00657 [Enterococcus faecium EnGen0156] &gt;gi|487341893|gb|EOM56494.1| hypothetical protein SQY_01985 [Enterococcus faecium EnGen0186] &gt;gi|487343101|gb|EOM57688.1| hypothetical protein SS1_02314 [Enterococcus faecium EnGen0187] &gt;gi|487347401|gb|EOM61887.1| hypothetical protein SS9_02196 [Enterococcus faecium EnGen0188]</Hit_def>
+  <Hit_accession>ELA68227</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.238709</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>619</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAA</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQA</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|498438015|ref|WP_010743678.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Enterococcus] &gt;gi|486849040|gb|EOH82104.1| hypothetical protein UAK_00340 [Enterococcus raffinosus ATCC 49464] &gt;gi|508203841|gb|EOT78059.1| hypothetical protein I590_01596 [Enterococcus raffinosus ATCC 49464] &gt;gi|1036538417|emb|SAM61631.1| hypothetical protein DTPHA_1401704 [Enterococcus faecium] &gt;gi|1080744607|gb|OFP13825.1| permease [Enterococcus sp. HMSC066C04] &gt;gi|1081240584|gb|OFT83452.1| permease [Enterococcus sp. HMSC29A04] &gt;gi|1081326471|gb|OFU65793.1| permease [Enterococcus sp. HMSC14A10] &gt;gi|1105355522|gb|OJG88716.1| hypothetical protein RV13_GL002126 [Enterococcus raffinosus]</Hit_def>
+  <Hit_accession>SAM61631</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.241234</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>628</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKM</Hsp_qseq>
+      <Hsp_hseq>GIASGLLGIGSGVFKVTAMDTIMKIPLKPSSATSNLMMGVTAAASAMVYFFSGAI--LPQIAAPLAL------GVLVGATIGSRIMTRLKPIVIRMIFIPILFFMGLQM</Hsp_hseq>
+      <Hsp_midline>G+ SG+LGI  GV +V     I +I L+ + A S++++   + A ++V F  G    L    AP+ L      G  VG  +G+R+M  L   V++ I+   +  + ++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488260381|ref|WP_002331589.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|430542680|gb|ELA82788.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0004] &gt;gi|514546328|gb|EPI10623.1| hypothetical protein D357_01385 [Enterococcus faecium SD3B-2] &gt;gi|985478842|emb|CUX98135.1| FIG00627600: hypothetical protein&apos; [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002331589</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.244958</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>ICGVILGFLASFLGIGGGPINVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSGFMRFD--LSMLFYIIPAAVIGGLWGAKFSRILSPKKVTFIF</Hsp_hseq>
+      <Hsp_midline>+ G+ +G  +  LGI GG I V L   +  + ++ A   S   +F++ +A  V       ++G + ++  +++   +IP A +GG+ GA+  R+L  + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1150406979|gb|AQT55660.1|</Hit_id>
+  <Hit_def>Sulfite exporter TauE/SafE [Enterococcus faecium]</Hit_def>
+  <Hit_accession>AQT55660</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.249905</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIF</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|488247377|ref|WP_002318585.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|291602730|gb|EFF32944.1| hypothetical protein EfmE1039_0519 [Enterococcus faecium E1039] &gt;gi|430552037|gb|ELA91787.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0009] &gt;gi|430574242|gb|ELB13020.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0032] &gt;gi|486613331|gb|EOF54551.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0131] &gt;gi|514546077|gb|EPI10389.1| hypothetical protein D356_02130 [Enterococcus faecium SD2A-2] &gt;gi|658181310|gb|KEI55967.1| hypothetical protein P744_0111335 [Enterococcus faecium UC10237] &gt;gi|1020005397|gb|KZK35947.1| membrane protein [Enterococcus faecium] &gt;gi|1143511632|gb|ONN34817.1| hypothetical protein BTN90_08615 [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002318585</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.265198</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAIIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|488242247|ref|WP_002313455.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|227178761|gb|EEI59733.1| hypothetical protein HMPREF0352_2063 [Enterococcus faecium TX1330] &gt;gi|257831848|gb|EEV58269.1| conserved hypothetical protein [Enterococcus faecium Com12] &gt;gi|430613914|gb|ELB50913.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0038] &gt;gi|430625221|gb|ELB61871.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0047] &gt;gi|486668079|gb|EOG07320.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0170] &gt;gi|487304890|gb|EOM20590.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0193]</Hit_def>
+  <Hit_accession>WP_002313455</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.265198</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|257829294|gb|EEV55901.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein [Enterococcus faecium 1,231,408] &gt;gi|257835809|gb|EEV60883.1| conserved hypothetical protein [Enterococcus faecium Com15]</Hit_def>
+  <Hit_accession>EEV55901</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.265267</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|844750863|ref|WP_047929448.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_047929448</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.267548</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAIIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|763070775|ref|WP_043952269.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|906416572|gb|KNB92070.1| membrane protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_043952269</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.267548</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAIIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|488255098|ref|WP_002326306.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Enterococcus] &gt;gi|403034943|gb|EJY46357.1| hypothetical protein HMPREF1348_01005 [Enterococcus faecium 505] &gt;gi|430484099|gb|ELA61134.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0022] &gt;gi|430608553|gb|ELB45799.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0043] &gt;gi|486636426|gb|EOF76966.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0136] &gt;gi|486809611|gb|EOH44557.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0191] &gt;gi|486822813|gb|EOH57198.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0263] &gt;gi|486912403|gb|EOI43854.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0315] &gt;gi|487250470|gb|EOL67637.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0305] &gt;gi|670923712|gb|AII38724.1| hypothetical protein M395_03480 [Enterococcus faecium T110] &gt;gi|1080835608|gb|OFQ00162.1| hypothetical protein HMPREF2961_08320 [Enterococcus sp. HMSC076E04] &gt;gi|1091137550|gb|OHQ68473.1| hypothetical protein HMPREF2731_02720 [Enterococcus sp. HMSC072F02]</Hit_def>
+  <Hit_accession>WP_002326306</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.267548</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAIIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|446546334|ref|WP_000623680.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Staphylococcus] &gt;gi|7592615|dbj|BAA94322.1| hypothetical protein [Staphylococcus aureus] &gt;gi|402347175|gb|EJU82230.1| hypothetical protein HMPREF1384_01972 [Staphylococcus aureus subsp. aureus CM05] &gt;gi|408422608|emb|CCJ10019.1| Putative uncharacterized protein [Staphylococcus aureus subsp. aureus ST228] &gt;gi|408424596|emb|CCJ11983.1| Putative uncharacterized protein [Staphylococcus aureus subsp. aureus ST228] &gt;gi|408426585|emb|CCJ13948.1| Putative uncharacterized protein [Staphylococcus aureus subsp. aureus ST228] &gt;gi|408428573|emb|CCJ25738.1| Putative uncharacterized protein [Staphylococcus aureus subsp. aureus ST228] &gt;gi|408430562|emb|CCJ17877.1| Putative uncharacterized protein [Staphylococcus aureus subsp. aureus ST228] &gt;gi|408432555|emb|CCJ19840.1| Putative uncharacterized protein [Staphylococcus aureus subsp. aureus ST228] &gt;gi|408434544|emb|CCJ21804.1| Putative uncharacterized protein [Staphylococcus aureus subsp. aureus ST228] &gt;gi|408436529|emb|CCJ23772.1| Putative uncharacterized protein [Staphylococcus aureus subsp. aureus ST228] &gt;gi|577811679|gb|EUJ71903.1| membrane protein [Staphylococcus aureus DAR5898] &gt;gi|577812891|gb|EUJ73100.1| membrane protein [Staphylococcus aureus DAR5897] &gt;gi|577819715|gb|EUJ79890.1| membrane protein [Staphylococcus aureus DAR5896] &gt;gi|577822359|gb|EUJ82485.1| membrane protein [Staphylococcus aureus DAR5895] &gt;gi|577822617|gb|EUJ82737.1| membrane protein [Staphylococcus aureus DAR5894] &gt;gi|577825277|gb|EUJ85377.1| membrane protein [Staphylococcus aureus DAR5893] &gt;gi|577830368|gb|EUJ90415.1| membrane protein [Staphylococcus aureus DAR5892] &gt;gi|577831464|gb|EUJ91495.1| membrane protein [Staphylococcus aureus DAR5891] &gt;gi|577831948|gb|EUJ91971.1| membrane protein [Staphylococcus aureus DAR5882] &gt;gi|577839212|gb|EUJ99168.1| membrane protein [Staphylococcus aureus DAR5883] &gt;gi|577839263|gb|EUJ99218.1| membrane protein [Staphylococcus aureus DAR5876] &gt;gi|577841671|gb|EUK01605.1| membrane protein [Staphylococcus aureus DAR5866] &gt;gi|577846365|gb|EUK06255.1| membrane protein [Staphylococcus aureus DAR5860] &gt;gi|577847640|gb|EUK07519.1| membrane protein [Staphylococcus aureus DAR5844] &gt;gi|577852755|gb|EUK12584.1| membrane protein [Staphylococcus aureus DAR5842] &gt;gi|577853934|gb|EUK13751.1| membrane protein [Staphylococcus aureus DAR5810] &gt;gi|593029503|gb|EXM45234.1| membrane protein [Staphylococcus aureus DAR5855] &gt;gi|593035461|gb|EXM51032.1| membrane protein [Staphylococcus aureus DAR116] &gt;gi|593035691|gb|EXM51258.1| membrane protein [Staphylococcus aureus DAR133] &gt;gi|593046794|gb|EXM62127.1| membrane protein [Staphylococcus aureus DAR5789] &gt;gi|593047844|gb|EXM63150.1| membrane protein [Staphylococcus aureus DAR5790] &gt;gi|593050223|gb|EXM65453.1| membrane protein [Staphylococcus aureus DAR5791] &gt;gi|593054874|gb|EXM70000.1| membrane protein [Staphylococcus aureus DAR5792] &gt;gi|593055909|gb|EXM71018.1| membrane protein [Staphylococcus aureus DAR5793] &gt;gi|593058622|gb|EXM73648.1| membrane protein [Staphylococcus aureus DAR5794] &gt;gi|593062736|gb|EXM77673.1| membrane protein [Staphylococcus aureus DAR5795] &gt;gi|593064120|gb|EXM79028.1| membrane protein [Staphylococcus aureus DAR5796] &gt;gi|593067041|gb|EXM81882.1| membrane protein [Staphylococcus aureus DAR5797] &gt;gi|593072484|gb|EXM87193.1| membrane protein [Staphylococcus aureus DAR5799] &gt;gi|593074807|gb|EXM89443.1| membrane protein [Staphylococcus aureus DAR5800] &gt;gi|593085231|gb|EXM99624.1| membrane protein [Staphylococcus aureus DAR5803] &gt;gi|593087731|gb|EXN01976.1| membrane protein [Staphylococcus aureus DAR5804] &gt;gi|593096801|gb|EXN10706.1| membrane protein [Staphylococcus aureus DAR5807] &gt;gi|593098795|gb|EXN12590.1| membrane protein [Staphylococcus aureus DAR5808] &gt;gi|593101077|gb|EXN14785.1| membrane protein [Staphylococcus aureus DAR5809] &gt;gi|593105198|gb|EXN18736.1| membrane protein [Staphylococcus aureus DAR5811] &gt;gi|593106888|gb|EXN20361.1| membrane protein [Staphylococcus aureus DAR5812] &gt;gi|593110262|gb|EXN23599.1| membrane protein [Staphylococcus aureus DAR5813] &gt;gi|593113245|gb|EXN26450.1| membrane protein [Staphylococcus aureus DAR5815] &gt;gi|593119972|gb|EXN32964.1| membrane protein [Staphylococcus aureus DAR5817] &gt;gi|593121634|gb|EXN34507.1| membrane protein [Staphylococcus aureus DAR5819] &gt;gi|593122700|gb|EXN35527.1| membrane protein [Staphylococcus aureus DAR5820] &gt;gi|593128091|gb|EXN40721.1| membrane protein [Staphylococcus aureus DAR5821] &gt;gi|593131128|gb|EXN43578.1| membrane protein [Staphylococcus aureus DAR5823] &gt;gi|593137071|gb|EXN49102.1| membrane protein [Staphylococcus aureus DAR5824] &gt;gi|593137992|gb|EXN50149.1| membrane protein [Staphylococcus aureus DAR5825] &gt;gi|593142184|gb|EXN54153.1| membrane protein [Staphylococcus aureus DAR5826] &gt;gi|593144036|gb|EXN55901.1| membrane protein [Staphylococcus aureus DAR5827] &gt;gi|593145321|gb|EXN57126.1| membrane protein [Staphylococcus aureus DAR5828] &gt;gi|593149333|gb|EXN60996.1| membrane protein [Staphylococcus aureus DAR5829] &gt;gi|593152217|gb|EXN63727.1| membrane protein [Staphylococcus aureus DAR5830] &gt;gi|593154181|gb|EXN65602.1| membrane protein [Staphylococcus aureus DAR5831] &gt;gi|593158626|gb|EXN69880.1| membrane protein [Staphylococcus aureus DAR5832] &gt;gi|593160733|gb|EXN71891.1| membrane protein [Staphylococcus aureus DAR5833] &gt;gi|593163645|gb|EXN74686.1| membrane protein [Staphylococcus aureus DAR5834] &gt;gi|593166759|gb|EXN77672.1| membrane protein [Staphylococcus aureus DAR5835] &gt;gi|593169602|gb|EXN80397.1| membrane protein [Staphylococcus aureus DAR5836] &gt;gi|593172335|gb|EXN83018.1| membrane protein [Staphylococcus aureus DAR5837] &gt;gi|593175098|gb|EXN85656.1| membrane protein [Staphylococcus aureus DAR5838] &gt;gi|593178042|gb|EXN88471.1| membrane protein [Staphylococcus aureus DAR5839] &gt;gi|593180698|gb|EXN91009.1| membrane protein [Staphylococcus aureus DAR5840] &gt;gi|593183651|gb|EXN93829.1| membrane protein [Staphylococcus aureus DAR5841] &gt;gi|593188193|gb|EXN98153.1| membrane protein [Staphylococcus aureus DAR5843] &gt;gi|593190308|gb|EXO00090.1| membrane protein [Staphylococcus aureus DAR5845] &gt;gi|593195811|gb|EXO05418.1| membrane protein [Staphylococcus aureus DAR5847] &gt;gi|593199993|gb|EXO09325.1| membrane protein [Staphylococcus aureus DAR5848] &gt;gi|593200062|gb|EXO09387.1| membrane protein [Staphylococcus aureus DAR5849] &gt;gi|593205386|gb|EXO14461.1| membrane protein [Staphylococcus aureus DAR5850] &gt;gi|593206374|gb|EXO15336.1| membrane protein [Staphylococcus aureus DAR5851] &gt;gi|593207437|gb|EXO16342.1| membrane protein [Staphylococcus aureus DAR5853] &gt;gi|593213905|gb|EXO22588.1| membrane protein [Staphylococcus aureus DAR5854] &gt;gi|593214648|gb|EXO23241.1| membrane protein [Staphylococcus aureus DAR5857] &gt;gi|593215202|gb|EXO23755.1| membrane protein [Staphylococcus aureus DAR5856] &gt;gi|593222221|gb|EXO30526.1| membrane protein [Staphylococcus aureus DAR5858] &gt;gi|593224069|gb|EXO32227.1| membrane protein [Staphylococcus aureus DAR5859] &gt;gi|593225714|gb|EXO33814.1| membrane protein [Staphylococcus aureus DAR5861] &gt;gi|593234570|gb|EXO42283.1| membrane protein [Staphylococcus aureus DAR5864] &gt;gi|593238846|gb|EXO46325.1| membrane protein [Staphylococcus aureus DAR5865] &gt;gi|600688550|gb|EYO80976.1| membrane protein [Staphylococcus aureus DAR5880] &gt;gi|600692284|gb|EYO84667.1| membrane protein [Staphylococcus aureus DAR5878] &gt;gi|600696539|gb|EYO88861.1| membrane protein [Staphylococcus aureus DAR5877] &gt;gi|600697744|gb|EYO90043.1| membrane protein [Staphylococcus aureus DAR5875] &gt;gi|600698127|gb|EYO90420.1| membrane protein [Staphylococcus aureus DAR5874] &gt;gi|600699841|gb|EYO92108.1| membrane protein [Staphylococcus aureus DAR5873] &gt;gi|600883410|gb|EYQ74515.1| membrane protein [Staphylococcus aureus DAR3143] &gt;gi|600888853|gb|EYQ79898.1| membrane protein [Staphylococcus aureus DAR3144] &gt;gi|600888902|gb|EYQ79946.1| membrane protein [Staphylococcus aureus DAR3148] &gt;gi|600895009|gb|EYQ85985.1| membrane protein [Staphylococcus aureus DAR3150] &gt;gi|600898289|gb|EYQ89238.1| membrane protein [Staphylococcus aureus DAR3153] &gt;gi|600899654|gb|EYQ90590.1| membrane protein [Staphylococcus aureus DAR3152] &gt;gi|600919145|gb|EYR09936.1| membrane protein [Staphylococcus aureus DAR3175] &gt;gi|600933880|gb|EYR24541.1| membrane protein [Staphylococcus aureus DAR3236] &gt;gi|600933901|gb|EYR24561.1| membrane protein [Staphylococcus aureus DAR5890] &gt;gi|600935105|gb|EYR25754.1| membrane protein [Staphylococcus aureus DAR5889] &gt;gi|600941004|gb|EYR31596.1| membrane protein [Staphylococcus aureus DAR5888] &gt;gi|600945195|gb|EYR35732.1| membrane protein [Staphylococcus aureus DAR5886] &gt;gi|600949175|gb|EYR39667.1| membrane protein [Staphylococcus aureus DAR5887] &gt;gi|600949777|gb|EYR40243.1| membrane protein [Staphylococcus aureus DAR5885] &gt;gi|600952157|gb|EYR42577.1| membrane protein [Staphylococcus aureus DAR5884] &gt;gi|600958346|gb|EYR48723.1| membrane protein [Staphylococcus aureus DAR5881] &gt;gi|600958371|gb|EYR48746.1| membrane protein [Staphylococcus aureus DAR5872] &gt;gi|600963008|gb|EYR53341.1| membrane protein [Staphylococcus aureus DAR5871] &gt;gi|600965502|gb|EYR55807.1| membrane protein [Staphylococcus aureus DAR5870] &gt;gi|600966496|gb|EYR56775.1| membrane protein [Staphylococcus aureus DAR5868] &gt;gi|600970875|gb|EYR61127.1| membrane protein [Staphylococcus aureus DAR5869] &gt;gi|800081165|emb|CEZ62220.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|800323215|emb|CFD77183.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|800775102|emb|CFK34473.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|800777883|emb|CFK36144.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804963284|emb|CRC51988.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804966444|emb|CRC15448.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804968474|emb|CRC63912.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804971245|emb|CRC55282.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804973491|emb|CRC73068.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804976909|emb|CRC38784.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804979988|emb|CRC15449.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804984074|emb|CRC50494.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804988925|emb|CRC62152.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804991264|emb|CRC72483.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804995396|emb|CRC26275.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|804997604|emb|CRC47968.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805000253|emb|CRC47734.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805002086|emb|CRC74089.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805005863|emb|CRC39082.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805007909|emb|CRC59890.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805011460|emb|CRC23672.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805014408|emb|CRC31698.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805016131|emb|CRC72419.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805034456|emb|CRC88359.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805036218|emb|CRD05389.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805038947|emb|CRD05891.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805042018|emb|CRD02609.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805044663|emb|CRD07341.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805047207|emb|CRD09661.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805049910|emb|CRD11028.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805053170|emb|CRD07554.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|805186971|emb|CRE65740.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|811041809|emb|CMU02544.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|811185564|emb|CMU26824.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|811200456|emb|CMU13621.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|811206800|emb|CMT58741.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|827254900|gb|KLM45274.1| membrane protein [Staphylococcus aureus] &gt;gi|827312119|gb|KLN02122.1| membrane protein [Staphylococcus aureus] &gt;gi|887651664|emb|CMT72743.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887654423|emb|CMU12556.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887657110|emb|CMT78209.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887660224|emb|CMT89095.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887663923|emb|CMT27992.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887665953|emb|CMT84791.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887668272|emb|CMT79918.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887671567|emb|CMU09505.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887674596|emb|CMT38525.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887676539|emb|CMU27517.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887679638|emb|CMT55818.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887682033|emb|CMT81056.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887686266|emb|CMT67589.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887687919|emb|CMT99196.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887690329|emb|CMU33835.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887694348|emb|CMT02067.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887695573|emb|CMU51040.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|887700209|emb|CMT42676.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|967379004|gb|KTK50520.1| hypothetical protein AL517_11465 [Staphylococcus epidermidis] &gt;gi|996228148|emb|CXJ43986.1| domain of uncharacterised function%2C putative [Staphylococcus aureus] &gt;gi|996410622|gb|KXH23069.1| hypothetical protein AS277_13565 [Enterococcus faecium] &gt;gi|1019986789|gb|KZK17645.1| membrane protein [Staphylococcus aureus] &gt;gi|1035301843|gb|OAX04432.1| hypothetical protein A9J92_05260 [Staphylococcus epidermidis] &gt;gi|1042011905|gb|OBY00045.1| membrane protein [Staphylococcus aureus subsp. aureus] &gt;gi|1042012023|gb|OBY00157.1| hypothetical protein RB22_00260 [Staphylococcus aureus subsp. aureus] &gt;gi|1052232520|gb|OCX33261.1| membrane protein [Staphylococcus haemolyticus] &gt;gi|1080179908|gb|OFJ77001.1| hypothetical protein HMPREF2846_10625 [Staphylococcus sp. HMSC056G08] &gt;gi|1081132202|gb|OFS80728.1| hypothetical protein HMPREF3154_03540 [Staphylococcus sp. HMSC06C11] &gt;gi|1090969784|gb|OHP08385.1| hypothetical protein HMPREF2546_06240 [Staphylococcus sp. HMSC058E12]</Hit_def>
+  <Hit_accession>KXH23069</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.273735</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>IGLVSGIVGAGGAFIIIPVLLVIFKLPMNMVVTNSIVIAFISSIGAFIIKLLQG--------YIPINSAIPLILGSILFTPLGMKIGQKIPDSIQKGIVSILIVIAIIKLI</Hsp_hseq>
+      <Hsp_midline>+GL SGI+G  G  I +P+   I ++ +   + NS V+ F +S+   ++  + G          P+  A+ +I G+ +   LG ++ + +P  + KGI +  +    IK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1173328696|ref|WP_081186151.1|</Hit_id>
+  <Hit_def>hypothetical protein [Enterococcus faecium] &gt;gi|1172709091|gb|OQO65953.1| hypothetical protein BH741_10370 [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_081186151</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.274081</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|645922898|ref|WP_025476883.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_025476883</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.279611</Hsp_evalue>
+      <Hsp_query-from>510</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TRSAVLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>TWYLICGVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>T   + G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|535241560|gb|EQT85179.1|</Hit_id>
+  <Hit_def>hypothetical protein EFXG_03883 [Enterococcus faecium C68]</Hit_def>
+  <Hit_accession>EQT85179</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.280492</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTIAL---TSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIF</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V   +   ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|515489160|ref|WP_016922428.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_016922428</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.292217</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGLVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG++ V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|257819784|gb|EEV46932.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein [Enterococcus faecium 1,231,501]</Hit_def>
+  <Hit_accession>EEV46932</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.29752</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>ICGVILGFLASFLGIGGGPINVSLLMLMFALPIKEAALYSLSTIFFSQLAKLVTI---ALTSGFMRFD--LSMLFYIIPAAVIGGLWGAKFSRILSPKKVTFIF</Hsp_hseq>
+      <Hsp_midline>+ G+ +G  +  LGI GG I V L   +  + ++ A   S   +F++ +A  V       ++G + ++  +++   +IP A +GG+ GA+  R+L  + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|645922725|ref|WP_025476710.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|958602042|gb|KST45661.1| hypothetical protein AOY34_06970 [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_025476710</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.351662</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>ICGVILGFLASFLGIGGGPINVSLLMLMFALPIKEAALYSLSTIFFSQLAKLVTI---ALTSGFMRFD--LSMLFYIIPAAVIGGLWGAKFSRILSPKKVTFIF</Hsp_hseq>
+      <Hsp_midline>+ G+ +G  +  LGI GG I V L   +  + ++ A   S   +F++ +A  V       ++G + ++  +++   +IP A +GG+ GA+  R+L  + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|742293733|ref|WP_038811427.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|658184854|gb|KEI59511.1| serine protease [Enterococcus faecium UC7251]</Hit_def>
+  <Hit_accession>WP_038811427</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.427317</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>HLLRSDAVYSWEQTGGPLVNAQGDLVGIN---IAATGPTG---KVE--GFTVPAQVIVS</Hsp_qseq>
+      <Hsp_hseq>NAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSNVVVN</Hsp_hseq>
+      <Hsp_midline>+ +++DA  +   +GGPLVN +G ++GIN   IA+T  +     VE  GF +P+ V+V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|488274080|ref|WP_002345288.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|430619554|gb|ELB56381.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0056]</Hit_def>
+  <Hit_accession>WP_002345288</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.487253</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>619</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAA</Hsp_qseq>
+      <Hsp_hseq>GVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRILSPKKVTFIFQA</Hsp_hseq>
+      <Hsp_midline>G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|498441380|ref|WP_010747024.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease HtrA [Enterococcus] &gt;gi|486841476|gb|EOH74997.1| serine protease do-like htrA [Enterococcus raffinosus ATCC 49464] &gt;gi|508207961|gb|EOT82176.1| serine protease do-like htrA [Enterococcus raffinosus ATCC 49464] &gt;gi|1036537174|emb|SAZ97924.1| Serine protease do-like htrA [Enterococcus faecium] &gt;gi|1080744032|gb|OFP13271.1| serine protease [Enterococcus sp. HMSC066C04] &gt;gi|1081239162|gb|OFT82109.1| serine protease [Enterococcus sp. HMSC29A04] &gt;gi|1081325726|gb|OFU65076.1| serine protease [Enterococcus sp. HMSC14A10]</Hit_def>
+  <Hit_accession>SAZ97924</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.522684</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>GANGYVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMA---NIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLA----VGTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGIN---IAATGPTGKVE--GFTVPAQVIVS</Hsp_qseq>
+      <Hsp_hseq>GNTAYIVTNNHVVEKQDGLEVLLKDGSKVK---ATLVGTDSYTDLAVLKVES-DKVANIKPATFGDSSSLKVGEPAIALGSPLGSQYANSVTSGIISSLNRQVVNQNDEGQTVNINAIQTDAAINPGNSGGPLVNMAGQVVGINSSKIVQTESNVSVEGIGFAIPSNDVVN</Hsp_hseq>
+      <Hsp_midline>G   Y++T  H V     + V +   + ++   A +V T    +LA+LK+++ +K  + + A   +  ++  G+   A G  +    A  V  G++ S +  +      G T   + +++DA  +   +GGPLVN  G +VGIN   I  T     VE  GF +P+  +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|488263677|ref|WP_002334885.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|402424874|gb|EJV57038.1| hypothetical protein HMPREF1345_00219 [Enterococcus faecium TX1337RF] &gt;gi|430564542|gb|ELB03726.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0003] &gt;gi|1149535115|emb|SJX71631.1| hypothetical protein FM130_12965 [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002334885</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.522838</Hsp_evalue>
+      <Hsp_query-from>516</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>GLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>GVVLGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRILSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>G+ +G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  R+L  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1098610743|ref|WP_071242877.1|</Hit_id>
+  <Hit_def>serine protease [Enterococcus faecium] &gt;gi|1095525056|gb|OHY86586.1| serine protease [Enterococcus faecium] &gt;gi|1095526375|gb|OHY87788.1| serine protease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_071242877</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.836243</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>HLLRSDAVYSWEQTGGPLVNAQGDLVGIN---IAATGPTG---KVE--GFTVPAQVIVSHLQDVVRF</Hsp_qseq>
+      <Hsp_hseq>NAIQTDAAINPGNSGGPLVNIEGQVIGINSSKIASTSESTSNVSVEGMGFAIPSNDVVNIINQLEKY</Hsp_hseq>
+      <Hsp_midline>+ +++DA  +   +GGPLVN +G ++GIN   IA+T  +     VE  GF +P+  +V+ +  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|257818294|gb|EEV45622.1|</Hit_id>
+  <Hit_def>conserved hypothetical protein [Enterococcus faecium 1,231,502]</Hit_def>
+  <Hit_accession>EEV45622</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.944333</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|498421641|ref|WP_010729039.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|486668853|gb|EOG08033.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0175] &gt;gi|658183335|gb|KEI57992.1| hypothetical protein L234_0110620 [Enterococcus faecium UC7251]</Hit_def>
+  <Hit_accession>WP_010729039</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.959959</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPINVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSGFMRFD--LSMLFYIIPAAVIGGLWGAKFSRILSPKKVTFIF</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG I V L   +  + ++ A   S   +F++ +A  V       ++G + ++  +++   +IP A +GG+ GA+  R+L  + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1120946072|ref|WP_073460907.1|</Hit_id>
+  <Hit_def>hypothetical protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_073460907</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.985644</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPINVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSGFMRFD--LSMLFYIIPAAVIGGLWGAKFSRILSPKKVTFIF</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG I V L   +  + ++ A   S   +F++ +A  V       ++G + ++  +++   +IP A +GG+ GA+  R+L  + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|488262560|ref|WP_002333768.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|430556491|gb|ELA95989.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0001] &gt;gi|430575470|gb|ELB14186.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0027]</Hit_def>
+  <Hit_accession>WP_002333768</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.994357</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|488223843|ref|WP_002295051.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|291588490|gb|EFF20324.1| hypothetical protein EfmE1071_1548 [Enterococcus faecium E1071]</Hit_def>
+  <Hit_accession>WP_002295051</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.00315</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|488253878|ref|WP_002325086.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Enterococcus] &gt;gi|389869306|ref|YP_006376729.1| hypothetical protein HMPREF0351_12123 [Enterococcus faecium DO] &gt;gi|68195988|gb|EAN10421.1| Protein of unknown function DUF81 [Enterococcus faecium DO] &gt;gi|388534555|gb|AFK59747.1| protein of hypothetical function DUF81 [Enterococcus faecium DO] &gt;gi|430442880|gb|ELA52901.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0012] &gt;gi|430552977|gb|ELA92694.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0020] &gt;gi|430558265|gb|ELA97684.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0018] &gt;gi|430561681|gb|ELB00935.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0007] &gt;gi|430578330|gb|ELB16882.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0031] &gt;gi|430589001|gb|ELB27158.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0039] &gt;gi|430607662|gb|ELB44963.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0044] &gt;gi|430625658|gb|ELB62273.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0052] &gt;gi|486437664|gb|EOD82621.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0041] &gt;gi|487166590|gb|EOK85802.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0149] &gt;gi|487168809|gb|EOK87983.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0150] &gt;gi|487177889|gb|EOK96812.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0152] &gt;gi|487311449|gb|EOM26963.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0254] &gt;gi|487353263|gb|EOM66950.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0164] &gt;gi|924357846|gb|KOR91350.1| hypothetical protein AL397_08925 [Enterococcus faecium] &gt;gi|958609512|gb|KST52799.1| hypothetical protein AOY35_00720 [Enterococcus faecium] &gt;gi|985173905|gb|KWY64714.1| hypothetical protein AS246_09930 [Enterococcus faecium] &gt;gi|985190366|gb|KWY79975.1| hypothetical protein AS251_08290 [Enterococcus faecium] &gt;gi|996384158|gb|KXH05136.1| hypothetical protein AS273_11915 [Enterococcus faecium] &gt;gi|1080302062|gb|OFK92997.1| hypothetical protein HMPREF2793_00615 [Enterococcus sp. HMSC063H10] &gt;gi|1172706921|gb|OQO63970.1| hypothetical protein BH732_01480 [Enterococcus faecium] &gt;gi|1172709793|gb|OQO66635.1| hypothetical protein BH743_03335 [Enterococcus faecium] &gt;gi|1186725862|emb|SMK17198.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186737307|emb|SMI04657.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186739991|emb|SMI14416.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186745139|emb|SMK06198.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186761067|emb|SMM43869.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186773783|emb|SMJ45095.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186780232|emb|SMI02726.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186783243|emb|SMJ87015.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186803089|emb|SMJ73953.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186806309|emb|SMJ36568.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186807927|emb|SMI66154.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186811303|emb|SMK27151.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186819779|emb|SMI06165.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186821754|emb|SMM82121.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186828240|emb|SMM60011.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186836163|emb|SMJ56169.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186848382|emb|SMI74461.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186911938|emb|SML85147.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186915059|emb|SML94463.1| Sulfite exporter TauE/SafE [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002325086</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.01202</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPINVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSGFMRFD--LSMLFYIIPAAVIGGLWGAKFSRILSPKKVTFIF</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG I V L   +  + ++ A   S   +F++ +A  V       ++G + ++  +++   +IP A +GG+ GA+  R+L  + +  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|498418001|ref|WP_010726170.1|</Hit_id>
+  <Hit_def>sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|487356054|gb|EOM69668.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0165]</Hit_def>
+  <Hit_accession>WP_010726170</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.01202</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|488231777|ref|WP_002302985.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Enterococcus] &gt;gi|291598922|gb|EFF29971.1| hypothetical protein EfmU0317_0925 [Enterococcus faecium U0317] &gt;gi|364090231|gb|EHM32844.1| Hypothetical protein EfmE4452_1850 [Enterococcus faecium E4452] &gt;gi|402923726|gb|EJX43991.1| hypothetical protein HMPREF1382_00914 [Enterococcus faecium S447] &gt;gi|402929268|gb|EJX49045.1| hypothetical protein HMPREF1380_01660 [Enterococcus faecium R499] &gt;gi|402935100|gb|EJX54383.1| hypothetical protein HMPREF1378_00794 [Enterococcus faecium R496] &gt;gi|402943148|gb|EJX61660.1| hypothetical protein HMPREF1376_01919 [Enterococcus faecium R446] &gt;gi|402949450|gb|EJX67509.1| hypothetical protein HMPREF1375_00714 [Enterococcus faecium P1986] &gt;gi|402952443|gb|EJX70257.1| hypothetical protein HMPREF1373_01898 [Enterococcus faecium P1140] &gt;gi|402982269|gb|EJX97743.1| hypothetical protein HMPREF1365_00353 [Enterococcus faecium ERV168] &gt;gi|402985115|gb|EJY00350.1| hypothetical protein HMPREF1364_01207 [Enterococcus faecium ERV165] &gt;gi|402986975|gb|EJY02072.1| hypothetical protein HMPREF1362_02137 [Enterococcus faecium ERV102] &gt;gi|402989183|gb|EJY04127.1| hypothetical protein HMPREF1363_00598 [Enterococcus faecium ERV161] &gt;gi|403000987|gb|EJY15069.1| hypothetical protein HMPREF1358_02349 [Enterococcus faecium C621] &gt;gi|403001836|gb|EJY15856.1| hypothetical protein HMPREF1360_00253 [Enterococcus faecium E422] &gt;gi|403008745|gb|EJY22237.1| hypothetical protein HMPREF1355_02957 [Enterococcus faecium 515] &gt;gi|404454670|gb|EKA01582.1| Sulfite exporter TauE/SafE [Enterococcus sp. GMD4E] &gt;gi|404463928|gb|EKA09503.1| Sulfite exporter TauE/SafE [Enterococcus sp. GMD2E] &gt;gi|410734722|gb|EKQ76640.1| Sulfite exporter TauE/SafE [Enterococcus sp. GMD5E] &gt;gi|430440548|gb|ELA50795.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0005] &gt;gi|430485570|gb|ELA62476.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0014] &gt;gi|430497471|gb|ELA73508.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0017] &gt;gi|430580667|gb|ELB19134.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0025] &gt;gi|430630604|gb|ELB66959.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0054] &gt;gi|430630734|gb|ELB67083.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0048] &gt;gi|430640706|gb|ELB76540.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0057] &gt;gi|430643034|gb|ELB78790.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0046] &gt;gi|430646223|gb|ELB81717.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0049] &gt;gi|430649420|gb|ELB84797.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0045] &gt;gi|445187874|gb|AGE29516.1| hypothetical protein M7W_881 [Enterococcus faecium NRRL B-2354] &gt;gi|486442272|gb|EOD87095.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0006] &gt;gi|486653789|gb|EOF93581.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0166] &gt;gi|486659609|gb|EOF99209.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0167] &gt;gi|486677045|gb|EOG15937.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0177] &gt;gi|486680406|gb|EOG19184.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0179] &gt;gi|486694799|gb|EOG32994.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0184] &gt;gi|486833625|gb|EOH67454.1| sulfite exporter TauE/SafE [Enterococcus faecium ATCC 8459] &gt;gi|487179536|gb|EOK98483.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0155] &gt;gi|487251458|gb|EOL68605.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0308] &gt;gi|487286298|gb|EOM02655.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0259] &gt;gi|487291348|gb|EOM07541.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0260] &gt;gi|487294715|gb|EOM10808.1| sulfite exporter TauE/SafE [Enterococcus faecium EnGen0261] &gt;gi|508233121|gb|EOU06584.1| sulfite exporter TauE/SafE [Enterococcus faecium ATCC 8459] &gt;gi|514552363|gb|EPI16376.1| hypothetical protein D355_01513 [Enterococcus faecium SD1C-2] &gt;gi|514556041|gb|EPI19854.1| hypothetical protein D352_02652 [Enterococcus faecium LA4B-2] &gt;gi|514556507|gb|EPI20311.1| hypothetical protein D353_01496 [Enterococcus faecium OC2A-1] &gt;gi|529204367|gb|AGS76110.1| Sulfite exporter TauE/SafE [Enterococcus faecium Aus0085] &gt;gi|531633015|gb|EQJ11545.1| sulfite exporter TauE/SafE family protein [Clostridioides difficile Y384] &gt;gi|544219989|gb|ERK33706.1| hypothetical protein I131_06565 [Enterococcus faecium CRL1879] &gt;gi|612136892|gb|EZP89950.1| hypothetical protein Z973_10090 [Enterococcus faecium VRE1044] &gt;gi|612139850|gb|EZP92774.1| hypothetical protein Z972_09715 [Enterococcus faecium VSE1036] &gt;gi|612143263|gb|EZP95911.1| hypothetical protein Z974_09955 [Enterococcus faecium VRE1261] &gt;gi|816120149|gb|KKJ67062.1| membrane protein [Enterococcus faecium MRSN 3418] &gt;gi|906418155|gb|KNB93653.1| membrane protein [Enterococcus faecium] &gt;gi|930362182|gb|ALF50368.1| hypothetical protein AMR85_10300 [Enterococcus faecium] &gt;gi|941951533|gb|ALL10814.1| hypothetical protein AQ614_09900 [Enterococcus faecium] &gt;gi|969729901|gb|KUE82086.1| hypothetical protein AU265_12795 [Enterococcus faecium] &gt;gi|975000253|gb|ALZ51242.1| hypothetical protein AWJ25_02920 [Enterococcus faecium] &gt;gi|985095378|gb|KWX91930.1| hypothetical protein AS221_08710 [Enterococcus faecium] &gt;gi|985096668|gb|KWX93178.1| hypothetical protein AS220_05420 [Enterococcus faecium] &gt;gi|985099356|gb|KWX95669.1| hypothetical protein AS222_09185 [Enterococcus faecium] &gt;gi|985100427|gb|KWX96663.1| hypothetical protein AS223_12430 [Enterococcus faecium] &gt;gi|985101908|gb|KWX98062.1| hypothetical protein AS225_11005 [Enterococcus faecium] &gt;gi|985102418|gb|KWX98547.1| hypothetical protein AS224_10685 [Enterococcus faecium] &gt;gi|985111347|gb|KWY06854.1| hypothetical protein AS226_07950 [Enterococcus faecium] &gt;gi|985119820|gb|KWY14800.1| hypothetical protein AS230_11855 [Enterococcus faecium] &gt;gi|985122331|gb|KWY17170.1| hypothetical protein AS229_06425 [Enterococcus faecium] &gt;gi|985122448|gb|KWY17282.1| hypothetical protein AS231_11575 [Enterococcus faecium] &gt;gi|985131817|gb|KWY25771.1| hypothetical protein AS234_10300 [Enterococcus faecium] &gt;gi|985138880|gb|KWY32195.1| hypothetical protein AS235_08775 [Enterococcus faecium] &gt;gi|985142203|gb|KWY35266.1| hypothetical protein AS237_11410 [Enterococcus faecium] &gt;gi|985142441|gb|KWY35488.1| hypothetical protein AS236_08135 [Enterococcus faecium] &gt;gi|985153326|gb|KWY45539.1| hypothetical protein AS239_08365 [Enterococcus faecium] &gt;gi|985154741|gb|KWY46884.1| hypothetical protein AS241_12585 [Enterococcus faecium] &gt;gi|985155426|gb|KWY47548.1| hypothetical protein AS240_08350 [Enterococcus faecium] &gt;gi|985162047|gb|KWY53713.1| hypothetical protein AS242_05725 [Enterococcus faecium] &gt;gi|985165199|gb|KWY56658.1| hypothetical protein AS243_07820 [Enterococcus faecium] &gt;gi|985165467|gb|KWY56910.1| hypothetical protein AS244_06525 [Enterococcus faecium] &gt;gi|985170501|gb|KWY61501.1| hypothetical protein AS245_11110 [Enterococcus faecium] &gt;gi|985179011|gb|KWY69460.1| hypothetical protein AS248_08765 [Enterococcus faecium] &gt;gi|985181345|gb|KWY71558.1| hypothetical protein AS249_09365 [Enterococcus faecium] &gt;gi|985183759|gb|KWY73755.1| hypothetical protein AS247_11730 [Enterococcus faecium] &gt;gi|985188360|gb|KWY78067.1| hypothetical protein AS250_07030 [Enterococcus faecium] &gt;gi|985198621|gb|KWY87815.1| hypothetical protein AS254_10305 [Enterococcus faecium] &gt;gi|985199755|gb|KWY88910.1| hypothetical protein AS253_06450 [Enterococcus faecium] &gt;gi|985201984|gb|KWY91024.1| hypothetical protein AS255_11180 [Enterococcus faecium] &gt;gi|985204658|gb|KWY93573.1| hypothetical protein AS256_13505 [Enterococcus faecium] &gt;gi|985209133|gb|KWY97828.1| hypothetical protein AS258_09320 [Enterococcus faecium] &gt;gi|985209571|gb|KWY98240.1| hypothetical protein AS257_07465 [Enterococcus faecium] &gt;gi|985213655|gb|KWZ02111.1| hypothetical protein AS259_10845 [Enterococcus faecium] &gt;gi|985219172|gb|KWZ07223.1| hypothetical protein AS261_12045 [Enterococcus faecium] &gt;gi|985220473|gb|KWZ08480.1| hypothetical protein AS262_14675 [Enterococcus faecium] &gt;gi|985221209|gb|KWZ09183.1| hypothetical protein AS260_07135 [Enterococcus faecium] &gt;gi|985229604|gb|KWZ17162.1| hypothetical protein AS263_08335 [Enterococcus faecium] &gt;gi|985234804|gb|KWZ22003.1| hypothetical protein AS266_08835 [Enterococcus faecium] &gt;gi|996366194|gb|KXG98421.1| hypothetical protein AS270_03650 [Enterococcus faecium] &gt;gi|996402631|gb|KXH18880.1| hypothetical protein AS278_10990 [Enterococcus faecium] &gt;gi|996631399|gb|KXH58962.1| hypothetical protein AWE50_05060 [Enterococcus faecium] &gt;gi|1001593052|gb|KXS06472.1| hypothetical protein AUC59_11740 [Enterococcus faecium] &gt;gi|1036489927|emb|SAM44713.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1036505128|emb|SAM50368.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1036508326|emb|SAM49953.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1036511347|emb|SAM48244.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1036514364|emb|SAM47904.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1039154377|gb|OBQ00287.1| hypothetical protein A2F96_05090 [Enterococcus faecium] &gt;gi|1040771852|gb|OBU81708.1| hypothetical protein A8C58_12775 [Enterococcus faecium] &gt;gi|1062440655|gb|AOM19857.1| hypothetical protein AL015_11405 [Enterococcus faecium] &gt;gi|1062447768|gb|AOM25843.1| hypothetical protein AL017_10420 [Enterococcus faecium] &gt;gi|1080265916|gb|OFK58834.1| hypothetical protein HMPREF2809_12435 [Enterococcus sp. HMSC055G03] &gt;gi|1080507530|gb|OFM89366.1| hypothetical protein HMPREF2646_11295 [Enterococcus sp. HMSC069A01] &gt;gi|1080564106|gb|OFN42802.1| hypothetical protein HMPREF2558_11050 [Enterococcus sp. HMSC056C08] &gt;gi|1080730500|gb|OFP00500.1| hypothetical protein HMPREF3010_05840 [Enterococcus sp. HMSC076D08] &gt;gi|1080838736|gb|OFQ03141.1| hypothetical protein HMPREF2964_03510 [Enterococcus sp. HMSC063C12] &gt;gi|1080923800|gb|OFQ83937.1| hypothetical protein HMPREF2921_01985 [Enterococcus sp. HMSC065H12] &gt;gi|1090991539|gb|OHP29001.1| hypothetical protein HMPREF2616_00250 [Enterococcus sp. HMSC060D07] &gt;gi|1090994775|gb|OHP32064.1| hypothetical protein HMPREF2592_04670 [Enterococcus sp. HMSC060D09] &gt;gi|1091120767|gb|OHQ52576.1| hypothetical protein HMPREF2668_02130 [Enterococcus sp. HMSC070F12] &gt;gi|1112963555|gb|APJ05620.1| hypothetical protein BOW68_01800 [Enterococcus faecium] &gt;gi|1113046701|gb|OJT40400.1| hypothetical protein BSR54_05975 [Enterococcus faecium] &gt;gi|1149350322|gb|OOL44207.1| anion permease [Enterococcus faecium] &gt;gi|1149351144|gb|OOL44933.1| anion permease [Enterococcus faecium] &gt;gi|1149351824|gb|OOL45531.1| anion permease [Enterococcus faecium] &gt;gi|1149360378|gb|OOL52638.1| anion permease [Enterococcus faecium] &gt;gi|1149361289|gb|OOL53450.1| anion permease [Enterococcus faecium] &gt;gi|1149371077|gb|OOL61718.1| anion permease [Enterococcus faecium] &gt;gi|1149376551|gb|OOL66906.1| anion permease [Enterococcus faecium] &gt;gi|1149382385|gb|OOL72418.1| anion permease [Enterococcus faecium] &gt;gi|1149385397|gb|OOL75294.1| anion permease [Enterococcus faecium] &gt;gi|1149394468|gb|OOL83376.1| anion permease [Enterococcus faecium] &gt;gi|1151044686|gb|OOP65482.1| anion permease [Enterococcus faecium] &gt;gi|1159229359|gb|OPH25743.1| anion permease [Enterococcus faecium] &gt;gi|1159230795|gb|OPH27008.1| anion permease [Enterococcus faecium] &gt;gi|1159230892|gb|OPH27086.1| anion permease [Enterococcus faecium] &gt;gi|1186541704|emb|SML16574.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186632672|emb|SMI42640.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186635480|emb|SMI61762.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186638380|emb|SMI59155.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186642475|emb|SMM40769.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186646427|emb|SMH88263.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186648381|emb|SMI60462.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186651508|emb|SMI52703.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186656453|emb|SMH81145.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186659750|emb|SMJ22111.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186662809|emb|SMH74201.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186665551|emb|SML40592.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186668882|emb|SMH88696.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186679604|emb|SMH85660.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186680986|emb|SMK16339.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186684084|emb|SMI61209.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186687223|emb|SMI54483.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186692166|emb|SMH74574.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186693419|emb|SMI49840.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186696594|emb|SMI64105.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186702572|emb|SMI72172.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186707160|emb|SMI67070.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186710188|emb|SMI86767.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186714316|emb|SMI00089.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186719428|emb|SMI51873.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1186723097|emb|SMJ87701.1| Sulfite exporter TauE/SafE [Enterococcus faecium] &gt;gi|1187646204|gb|OSP58575.1| anion permease [Enterococcus faecium] &gt;gi|1187647773|gb|OSP59923.1| anion permease [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_002302985</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.06689</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|763018161|ref|WP_043902516.1|</Hit_id>
+  <Hit_def>anion permease [Enterococcus faecium] &gt;gi|906425291|gb|KNC00790.1| membrane protein [Enterococcus faecium]</Hit_def>
+  <Hit_accession>WP_043902516</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.08583</Hsp_evalue>
+      <Hsp_query-from>519</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>MGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAI</Hsp_qseq>
+      <Hsp_hseq>LGFLASFLGIGGGPVNVSLLMLMFALPIKEATLYSLSTIFFSQLAKLVTI---ALTSSFMRFD--LSMLFYVIPAAVIGGLWGARFSRVLSPKKVTFIFQAIVIVVLL</Hsp_hseq>
+      <Hsp_midline>+G  +  LGI GG + V L   +  + ++ A   S   +F++ +A  V       ++  + ++  +++   +IP A +GG+ GAR  RVL  + +  I+ A +  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>185567</Statistics_db-num>
+      <Statistics_db-len>56928210</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

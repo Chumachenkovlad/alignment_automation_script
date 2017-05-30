@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99596.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>431</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99596.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamH, containing Major facilitator superfamily, general substrate transporter [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>431</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|291542489|emb|CBL15599.1|</Hit_id>
+  <Hit_def>hypothetical protein RBR_13450 [Ruminococcus bromii L2-63]</Hit_def>
+  <Hit_accession>CBL15599</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.222688</Hsp_evalue>
+      <Hsp_query-from>241</Hsp_query-from>
+      <Hsp_query-to>357</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>SDM--VFVGLFLMLWFIYFADLVKVGQAEAAARAGMLIGLMGAVVMLSI---PVWRSFIERFGRIQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKD</Hsp_qseq>
+      <Hsp_hseq>SDMTPLFCYIFITLYLFSSSMVVSRVKGRNPVKACFIYGMPAAAVSLSYGVGAVLTSSVENTG-ISALVNGVMFIVLGIYIVSFSVEMF---------------AGCLTKAEVEIIESLPED</Hsp_hseq>
+      <Hsp_midline>SDM  +F  +F+ L+    + +V   +     +A  + G+  A V LS     V  S +E  G I A++ G+M   LG  ++ F V  F               AGC    ++  ++  P+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1081442386|emb|SCY13842.1|</Hit_id>
+  <Hit_def>NDP-sugar epimerase, includes UDP-GlcNAc-inverting 4,6-dehydratase FlaA1 and capsular polysaccharide biosynthesis protein EpsC [Ruminococcus bromii]</Hit_def>
+  <Hit_accession>SCY13842</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>1.11875</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>LLVSAGQAGCFVAPQILTVDHAPKDLLGSVL</Hsp_qseq>
+      <Hsp_hseq>LIVGAGRAGRMILTEIQNAEHDPNNPIGNIL</Hsp_hseq>
+      <Hsp_midline>L+V AG+AG  +  +I   +H P + +G++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1081441147|emb|SCY71483.1|</Hit_id>
+  <Hit_def>SseB protein N-terminal domain-containing protein [Ruminococcus bromii]</Hit_def>
+  <Hit_accession>SCY71483</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>1.51215</Hsp_evalue>
+      <Hsp_query-from>305</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LGMMLSALGFIMLGFVVNPFDGFIVFPILLV-SAGQAGCFVAPQILTV-----------DHAPKDLLGSVLGAF</Hsp_qseq>
+      <Hsp_hseq>LAQMVTDPNANICGFVINPFGKSVTFPKPMVHSIKQQRDYMRMKKNTIKPDTPVQLGDPDEYPIDLMAALINHF</Hsp_hseq>
+      <Hsp_midline>L  M++     + GFV+NPF   + FP  +V S  Q   ++  +  T+           D  P DL+ +++  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1081442529|emb|SCY07031.1|</Hit_id>
+  <Hit_def>GTP pyrophosphokinase [Ruminococcus bromii]</Hit_def>
+  <Hit_accession>SCY07031</Hit_accession>
+  <Hit_len>733</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.42115</Hsp_evalue>
+      <Hsp_query-from>358</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYAL</Hsp_qseq>
+      <Hsp_hseq>IVDNVSDCYNVLGVVHDIF-KPIPNRFKDYISMPKPNMYQSLHTTVLDKNAI</Hsp_hseq>
+      <Hsp_midline>++ +V   +NV+G +  IF   I     DYI  P P ++  +   ++   A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|291542892|emb|CBL16002.1|</Hit_id>
+  <Hit_def>(p)ppGpp synthetase, RelA/SpoT family [Ruminococcus bromii L2-63] &gt;gi|524000616|emb|CCX81585.1| (P)ppGpp synthetase RelA/SpoT family [Ruminococcus sp. CAG:108] &gt;gi|1125087528|gb|OLA50163.1| (p)ppGpp synthetase [Ruminococcus sp. CAG:108-related_41_35]</Hit_def>
+  <Hit_accession>CBL16002</Hit_accession>
+  <Hit_len>732</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>3.02722</Hsp_evalue>
+      <Hsp_query-from>358</Hsp_query-from>
+      <Hsp_query-to>409</Hsp_query-to>
+      <Hsp_hit-from>276</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LLGSVLGAFNVIGCLGIIFFVQIGGFLFDYIGPPAPFIFTGVGNLIISAYAL</Hsp_qseq>
+      <Hsp_hseq>IVDTVSDCYNVLGVVHDIF-KPIPNRFKDYISMPKPNMYQSLHTTVLDKNAI</Hsp_hseq>
+      <Hsp_midline>++ +V   +NV+G +  IF   I     DYI  P P ++  +   ++   A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1081442389|emb|SCY13948.1|</Hit_id>
+  <Hit_def>4-hydroxy 2-oxovalerate aldolase [Ruminococcus bromii]</Hit_def>
+  <Hit_accession>SCY13948</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>4.27328</Hsp_evalue>
+      <Hsp_query-from>295</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>ERFGR--IQAVLLGMMLSALGFIMLGFVVNPFDGFIVFPILLVSAGQAGCFVAPQILTVDHAPKDLLGSVLGAF</Hsp_qseq>
+      <Hsp_hseq>KKFGRNAINGIIAGLMDSGVDLIEIGFLQN--EGFGEGKTVYKNSKDAEEYVP-------NDKKDTLFTVLADY</Hsp_hseq>
+      <Hsp_midline>++FGR  I  ++ G+M S +  I +GF+ N  +GF     +  ++  A  +V        +  KD L +VL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1081441408|emb|SCY61995.1|</Hit_id>
+  <Hit_def>ferrous iron transport protein B [Ruminococcus bromii]</Hit_def>
+  <Hit_accession>SCY61995</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>6.01466</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>679</Hsp_hit-from>
+      <Hsp_hit-to>722</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>IFAYLGYLSDRIGRVRIIVAGFLVAAVGAVIAPLSPWVGGASIGALVV</Hsp_qseq>
+      <Hsp_hseq>IFAPLGFGDWRISTA--LIAGFM--AKESVVSTLNVLVGGAGIGSILT</Hsp_hseq>
+      <Hsp_midline>IFA LG+   RI     ++AGF+  A  +V++ L+  VGGA IG+++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|291541505|emb|CBL14615.1|</Hit_id>
+  <Hit_def>acetyl-CoA carboxylase carboxyltransferase subunit alpha [Ruminococcus bromii L2-63]</Hit_def>
+  <Hit_accession>CBL14615</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>7.6901</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VYAVLMQIPGHAGITVTMLLTAAISVAGAWLARKFLVDVAPRTVETSVPWRAVWDLVKAEPRLRLAFASSLFARSDM</Hsp_qseq>
+      <Hsp_hseq>LYITVLTDPTTGGVTASFAMEGDIILAEPDCLVAF---AGPRVIEQTIRQKLPKDFQTSEFVLQKGFIDSVVSRNDL</Hsp_hseq>
+      <Hsp_midline>+Y  ++  P   G+T +  +   I +A       F     PR +E ++  +   D   +E  L+  F  S+ +R+D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|291542576|emb|CBL15686.1|</Hit_id>
+  <Hit_def>SseB protein [Ruminococcus bromii L2-63] &gt;gi|1052713764|emb|SCI95318.1| enhanced serine sensitivity protein SseB [uncultured Ruminococcus sp.] &gt;gi|1125087225|gb|OLA49867.1| hypothetical protein BHW53_07725 [Ruminococcus sp. CAG:108-related_41_35]</Hit_def>
+  <Hit_accession>CBL15686</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>7.74972</Hsp_evalue>
+      <Hsp_query-from>318</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>GFVVNPFDGFIVFPILLVSA</Hsp_qseq>
+      <Hsp_hseq>GFVINPFGKSVTFPKQMVHS</Hsp_hseq>
+      <Hsp_midline>GFV+NPF   + FP  +V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>4290</Statistics_db-num>
+      <Statistics_db-len>1288157</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

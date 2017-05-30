@@ -1,0 +1,2487 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1071358178|ref|WP_069792180.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus xylosus] &gt;gi|1070846243|gb|OEK90328.1| hypothetical protein AST15_00625 [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>WP_069792180</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.95204e-08</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-----SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVQFQYGLVLCHLEMFEPAIDQLNRVLAI----DKKHADALYNLGLATYMQMENTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F+ AID     L +     K H    Y     +Y QM + +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>3.57409e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>KQGNFEEALKALFENIEASPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPEN-------GAIY---------------------------YNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDR</Hsp_hseq>
+      <Hsp_midline>K G + EA+  L +  +A   +VE  ++ GI   + G V++  +  +R+I   P+N       G  Y                           + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A E D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1172526766|ref|WP_080892159.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus xylosus] &gt;gi|683403835|emb|CEF18624.1| Tetratricopeptide repeat protein [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>WP_080892159</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>5.96336e-08</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVQFQYGLVLCHLEMFEQAIDQLKRVLAIDSKHADALYNLGLATYMQTEDTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F++AID  K  L +          +   +Y Q    +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>4.49262e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>KQGNFEEALKALFENIEASPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPEN-------GAIY---------------------------YNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDR</Hsp_hseq>
+      <Hsp_midline>K G + EA+  L +  +A   +VE  ++ GI   + G V++  +  +R+I   P+N       G  Y                           + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A E D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1070836608|gb|OEK80913.1|</Hit_id>
+  <Hit_def>hypothetical protein AST16_04260 [Staphylococcus xylosus] &gt;gi|1070840959|gb|OEK85146.1| hypothetical protein AST17_08510 [Staphylococcus xylosus] &gt;gi|1070844447|gb|OEK88590.1| hypothetical protein AST14_03200 [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>OEK80913</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>6.26283e-08</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVQFQYGLVLCHLEMFEQAIDQLKRVLAIDSKHADALYNLGLATYMQTEDTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F++AID  K  L +          +   +Y Q    +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>4.43819e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>KQGNFEEALKALFENIEASPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPEN-------GAIY---------------------------YNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDR</Hsp_hseq>
+      <Hsp_midline>K G + EA+  L +  +A   +VE  ++ GI   + G V++  +  +R+I   P+N       G  Y                           + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A E D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|655524129|gb|AID01587.1|</Hit_id>
+  <Hit_def>hypothetical protein BE24_05770 [Staphylococcus xylosus] &gt;gi|968541024|gb|KTW23967.1| tetratricopeptide domain-containing protein [Staphylococcus xylosus] &gt;gi|1070863125|gb|OEL06797.1| hypothetical protein AST13_01790 [Staphylococcus xylosus] &gt;gi|1172997407|gb|ARD74702.1| hypothetical protein AWC37_05970 [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>AID01587</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>6.44932e-08</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAELDDRDDAEVQFQYGLVLCHLEMFEQAIDQLKRVLAIDSKHADALYNLGLATYMQTEDTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F++AID  K  L +          +   +Y Q    +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.46501e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIETSPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAELDDR</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I  +P  ++     G+   +  + + A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A ELD+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1172277974|ref|WP_080661256.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>WP_080661256</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>7.11175e-08</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAELDDRDDAEVQFQYGLVLCHLEMFEQAIDQLKRVLAIDSKHADALYNLGLATYMQTEDTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F++AID  K  L +          +   +Y Q    +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.31938e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIETSPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAELDDR</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I  +P  ++     G+   +  + + A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A ELD+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|825273893|ref|WP_047131823.1|</Hit_id>
+  <Hit_def>MULTISPECIES: tetratricopeptide domain-containing protein [Staphylococcus] &gt;gi|1016912196|gb|AMY04629.1| hypothetical protein A4G25_01310 [Staphylococcus condimenti] &gt;gi|1080728913|gb|OFO99010.1| hypothetical protein HMPREF3007_00935 [Staphylococcus sp. HMSC065E08] &gt;gi|1125942612|gb|APR60867.1| hypothetical protein BTZ13_06555 [Staphylococcus condimenti]</Hit_def>
+  <Hit_accession>WP_047131823</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>8.31563e-08</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRP--NEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINSGILLAEAGEVEKAEKFFQKALTIDPDNGAIYYNLANVYYNAESFNDAIKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAMPFLMRASELDDKNDEEIQFQYGLVLCHLEIFDAAVEQLDKVLSQNPENTDALYNRGLA-GYMKTENTEEAMPYFERAIEIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +L   Y    + +   +L ++++    D      ++G+++ Q+  +  A+P L++ +E +  N   ++F+ G+ L +L  FD A++     L   P   +   +R +A  Y +  + EEA+P+F++A E+D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>8.39317e-05</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>IKEGKFEEALKALFENIEENPEAIENYINSGILLAEAGEVEKAEKFFQKALTIDPDNGAIYYNLANVYYNAESFNDAIKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAMPFLMRASELDDKN</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I + P+ I+     G+   +  + + A     K    +P N  + + L     N   F++AI  ++ AL    +E   +  I  S+ Q+G+ +EA+P   +A+ELD+++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00464847</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER-SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVA-LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>FQKALTIDPDNGAIYYNLANVYY-NAESFNDAIKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAMPFLMRASELDDKNDEEIQFQYGLVLCHLEIFDAAVEQLDKVLSQNPENTDALYNRGLAGYMKTENTEEAMPYFERAIEIDPKHLLSQHAIK-MFKQLDQEEE</Hsp_hseq>
+      <Hsp_midline>F+ A +++ D   +YY    + +  A  +++A+ + +Q       + +    +G+++ + GA       L R S  D  ++ ++    GL    ++ +D AV  L KV   NP N +  +  G+A        +EA+  F+ A+ + P       AI   ++Q+   EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|950782460|ref|WP_057510445.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus simulans]</Hit_def>
+  <Hit_accession>WP_057510445</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.27774e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANP-VNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP--NEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>YINSGILLAEAGEIEKAEKFFQKALTIDPNNGAIYYNLANVYYNAESFNDAIKLYQQALKTGVDEADTNYMIGMSFNNLGDYKSALPFLMRAAELDQNKDEEIQFQYGLVLCHLELFDQAVKQLDIVLNINPKHTDALYNRGLA-GYMFTEEIYEAIPYFEKAIEID</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +L   Y    + +   +L ++++    D      ++G+++  +  Y  A+P L++ AE +   +  ++F+ G+ L +L  FD+A+    I L + P   +   +R +A  Y       EA+P+F+KA E+D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00451984</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKEGQFETALKALFENIDAHPEDIENYINSGILLAEAGEIEKAEKFFQKALTIDPNNGAIYYNLANVYYNAESFNDAIKLYQQALKTGVDEADTNYMIGMSFNNLGDYKSALPFLMRAAELDQN</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P++I+     G+   +  + + A     K    +P N  + + L     N   F++AI  ++ AL    +E   +  I  S+  +G ++ ALP   +A ELD+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|516333993|ref|WP_017724650.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>WP_017724650</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>1.40903e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-----SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVQFQYGLVLCHLEMFEQAIDQLNRVLVL----DKKHADALYNLGLATYMQTENTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F++AID     L L     K H    Y     +Y Q  + +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>3.54017e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>KQGNFEEALKALFENIEASPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPEN-------GAIY---------------------------YNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDR</Hsp_hseq>
+      <Hsp_midline>K G + EA+  L +  +A   +VE  ++ GI   + G V++  +  +R+I   P+N       G  Y                           + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A E D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|745772958|ref|WP_039068296.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>WP_039068296</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>2.00134e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-----SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVKFQYGLVLCHLEMFEPAIDQLNRVLAI----DKKHADALYNLGLATYMQTENTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F+ AID     L +     K H    Y     +Y Q  + +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>3.18759e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>KQGNFEEALKALFENIEASPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPEN-------GAIY---------------------------YNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDR</Hsp_hseq>
+      <Hsp_midline>K G + EA+  L +  +A   +VE  ++ GI   + G V++  +  +R+I   P+N       G  Y                           + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A E D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1172323589|ref|WP_080706868.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>WP_080706868</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.4554e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVQFQYGLVLCHLEMFEQAIDQLNRVLAIDSKHADALYNLGLATYMQTEDTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F++AID     L +          +   +Y Q    +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>4.00723e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>KQGNFEEALKALFENIEASPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPEN-------GAIY---------------------------YNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDR</Hsp_hseq>
+      <Hsp_midline>K G + EA+  L +  +A   +VE  ++ GI   + G V++  +  +R+I   P+N       G  Y                           + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A E D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|657168369|gb|AID42607.1|</Hit_id>
+  <Hit_def>Tetratricopeptide repeat (TPR) family protein [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>AID42607</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.86734e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVQFQYGLVLCHLEMFEQAIDQLNRVLAIDSKHADALYNLGLATYMQTEDTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F++AID     L +          +   +Y Q    +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>4.19169e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>KQGNFEEALKALFENIEASPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPEN-------GAIY---------------------------YNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDR</Hsp_hseq>
+      <Hsp_midline>K G + EA+  L +  +A   +VE  ++ GI   + G V++  +  +R+I   P+N       G  Y                           + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A E D+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|805422577|ref|WP_046099238.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus carnosus] &gt;gi|803485259|gb|KKB26120.1| tetratricopeptide domain-containing protein [Staphylococcus carnosus subsp. utilis]</Hit_def>
+  <Hit_accession>WP_046099238</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>3.95121e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRP--NEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINSGILLAEAGEVEKAEKFFQKALTLNPDNGAIYYNLANVYYNAESFNDANKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAIPFLMRASELDDKNDEEIQFQYGLVLCHLEMFDAAVAQLDKVLAQNPENTDALYNRGLA-GYMKTENTEDALPYFERAVEIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    +  +  +  +L   Y    + +   +L ++++    D      ++G+++ Q+  +  A+P L++ +E +  N   ++F+ G+ L +L  FD A+      L   P   +   +R +A  Y +  + E+ALP+F++A E+D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000738771</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>IKEGKFEAALKALFENIEKNPEAIENYINSGILLAEAGEVEKAEKFFQKALTLNPDNGAIYYNLANVYYNAESFNDANKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAIPFLMRASELDDKN</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P+ I+     G+   +  + + A     K    NP N  + + L     N   F++A   ++ AL    +E   +  I  S+ Q+G+ +EA+P   +A+ELD+++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0660505</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>KEGKFEAALKALFENIEKNPEAIENYINSGILLAEAGEVEKAEKFFQKALTLNPDNGAIYYNLANVYYNAESFNDANKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAI</Hsp_hseq>
+      <Hsp_midline>K G++  A+  L +  + +   +E  ++ GI   + G V++  +  ++++   PDN  +   L   Y   + ++ A  L  +  +      +  + +G++ + LG F EAI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1032578186|ref|WP_064211023.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus lentus] &gt;gi|1032207514|gb|OAO24685.1| hypothetical protein AXY34_03095 [Staphylococcus lentus]</Hit_def>
+  <Hit_accession>WP_064211023</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>4.31525e-07</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>DEVTLYTHYGLSVAKKLGANMVDAF-RSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVA--LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGS</Hsp_qseq>
+      <Hsp_hseq>NEVTNYINAGTILAEADELEKAEKFFRKAITINEEHGGAYYSLANLYYNQQ-RFDEAVKLYQFAIQKGLNDSDTNFMLGMCFNELGAHTEAMPYVMRAHELKPDDLEIAFQYGLTLCQVEMFGEAIIQLENVLEKDPQHVDALYNLGLAKYMKNEDA-EEALQYFNKAVEIQPDHLLSGHAIK-MFEQMSE</Hsp_hseq>
+      <Hsp_midline>+EVT Y + G  +A+       + F R A ++N++    YY    + + +  R+ EAV + +        D +    LG+ + + GA       + R+    PD++++A   GLT  QV+ +  A+  L  V E +P + +  + LG+A  + N    +EA+  F  A+ ++P+      AI   +EQM  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00773405</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>IAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>VELIENKKFDEALKCLFENIEENPNEVTNYINAGTILAEADELEKAEKFFRKAITINEEHGGAYYSLANLYYNQQRFDEAVKLYQFAIQKGLNDSDTNFMLGMCFNELGAHTEAMPYVMRAHEL</Hsp_hseq>
+      <Hsp_midline>+  ++    D   + L  +I + P+ +      G    +  + + A     K    N  +    + L     N  RFDEA+  ++ A+    N+   +  +   + ++G+H EA+P+  +A+EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|896497314|ref|WP_049405564.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus pettenkoferi]</Hit_def>
+  <Hit_accession>WP_049405564</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>5.6745e-07</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRA-----IAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKKGEIEQALQALFNNIERNPKEIENYINAGILIAETGEVEKAEKFFQRALVLDPENAAVFYNLANVYYNEGRFNEAIKLYQQAL----QSPKVHQVDTNYMIGMSFNQLGAHKEAMPYLMRAAELDDEGDV</Hsp_hseq>
+      <Hsp_midline>+K G +++  + L  +I   P  I+     G+   +  + + A     +    +P N  V + L     N GRF+EAI  ++ AL       KVH+      I  S+ Q+G+H+EA+P+  +A ELD+   V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.133843</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDA-DAFDVEVALHLGIAYVKTGAVDRGTELLERSIA-DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI--DSFKIALGLRPNEGKVHRAIAYSYEQM</Hsp_qseq>
+      <Hsp_hseq>FQRALVLDPENAAVFYNLANVYYNE-GRFNEAIKLYQQALQSPKVHQVDTNYMIGMSFNQLGAHKEAMPYLMRAAELDDEGDVEVQFQYGLVLCHLELYEQAVTQLQHVLELDEKHVDALYNLGLAQYMLTE-DKALAMDYFQRAVNINPEHHMSQHALQ-TFEQL</Hsp_hseq>
+      <Hsp_midline>F+ A  ++ +   V+Y    + + + GR++EA+ + +Q   +     V+    +G+++ + GA       L R+   D   +++V    GL    ++ Y+ AV  L  V E +  + +  + LG+A   L   D+A+  D F+ A+ + P       A+  ++EQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|488411720|ref|WP_002481105.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Staphylococcus] &gt;gi|410876656|gb|EKS24554.1| hypothetical protein HMPREF9310_01614 [Staphylococcus simulans ACS-120-V-Sch1] &gt;gi|550797310|gb|ERS92552.1| hypothetical protein SSIM_11095 [Staphylococcus simulans UMC-CNS-990] &gt;gi|985358983|gb|KXA41058.1| tetratricopeptide repeat protein [Staphylococcus simulans] &gt;gi|991932752|gb|AMG95956.1| hypothetical protein AL483_03770 [Staphylococcus simulans] &gt;gi|1080435681|gb|OFM20444.1| hypothetical protein HMPREF2713_03275 [Staphylococcus sp. HMSC059E03] &gt;gi|1080542304|gb|OFN22482.1| hypothetical protein HMPREF2603_10725 [Staphylococcus sp. HMSC055C03] &gt;gi|1080676907|gb|OFO49371.1| hypothetical protein HMPREF3031_03285 [Staphylococcus sp. HMSC072B07] &gt;gi|1080759616|gb|OFP28274.1| hypothetical protein HMPREF2997_00055 [Staphylococcus sp. HMSC057C08] &gt;gi|1081338749|gb|OFU77492.1| hypothetical protein HMPREF3110_08525 [Staphylococcus sp. HMSC10C03] &gt;gi|1081367492|gb|OFV04916.1| hypothetical protein HMPREF3124_08675 [Staphylococcus sp. HMSC12H08] &gt;gi|1091176757|gb|OHR05285.1| hypothetical protein HMPREF2721_02910 [Staphylococcus sp. HMSC078A12] &gt;gi|1091223307|gb|OHR49320.1| hypothetical protein HMPREF2951_10870 [Staphylococcus sp. HMSC056D08] &gt;gi|1091230449|gb|OHR56043.1| hypothetical protein HMPREF2798_11300 [Staphylococcus sp. HMSC070A03] &gt;gi|1091230692|gb|OHR56274.1| hypothetical protein HMPREF3021_08670 [Staphylococcus sp. HMSC070A02] &gt;gi|1091235908|gb|OHR61198.1| hypothetical protein HMPREF2937_05345 [Staphylococcus sp. HMSC061G12] &gt;gi|1091328279|gb|OHS48276.1| hypothetical protein HMPREF3270_10490 [Staphylococcus sp. HMSC65H10]</Hit_def>
+  <Hit_accession>WP_002481105</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>6.41761e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANP-VNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP--NEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>YINSGILLAEAGEIEKAEKFFQKALTIDPNNGAIYYNLANVYYNAESFNDAIKLYQQALKTGVDEADTNYMIGMSFNNLGDYKSALPFLMRAAELDQNKDEEIQFQYGLVLCHLELFDQAVKQLDTVLNINPKHTDALYNRGLA-GYMFTEEIYEAIPYFEKAIEID</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +L   Y    + +   +L ++++    D      ++G+++  +  Y  A+P L++ AE +   +  ++F+ G+ L +L  FD+A+      L + P   +   +R +A  Y       EA+P+F+KA E+D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.0046052</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKEGQFETALKALFENIDAHPEDIENYINSGILLAEAGEIEKAEKFFQKALTIDPNNGAIYYNLANVYYNAESFNDAIKLYQQALKTGVDEADTNYMIGMSFNNLGDYKSALPFLMRAAELDQN</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P++I+     G+   +  + + A     K    +P N  + + L     N   F++AI  ++ AL    +E   +  I  S+  +G ++ ALP   +A ELD+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00701311</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>KEGQFETALKALFENIDAHPEDIENYINSGILLAEAGEIEKAEKFFQKALTIDPNNGAIYYNLANVYYNAESFNDAIKLYQQALKTGVDEADTNYMIGMSFNNLGDYKSAL</Hsp_hseq>
+      <Hsp_midline>K G++  A+  L +  DA   D+E  ++ GI   + G +++  +  ++++   P+N  +   L   Y   + ++ A+ L  +  +      +  + +G++ +NLG +  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1092694449|ref|WP_070626374.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus sp. HMSC056G08] &gt;gi|1080181934|gb|OFJ78885.1| hypothetical protein HMPREF2846_07745 [Staphylococcus sp. HMSC056G08]</Hit_def>
+  <Hit_accession>WP_070626374</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>8.92017e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANP-VNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRP--NEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>YINSGILLAEAGEIEKAEKFFQKALTIDPNNGAIYYNLANVYYNAESFNDAIKLYQQALKTGVDEADTNYMIGMSFNNLGDYKSALPFLMRSAELDQNKDEEIQFQYGLVLCHLELFDQAVKQLDTVLNINPKHTDALYNRGLA-GYMFTEEIYEAIPYFEKAIEID</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +L   Y    + +   +L ++++    D      ++G+++  +  Y  A+P L++ AE +   +  ++F+ G+ L +L  FD+A+      L + P   +   +R +A  Y       EA+P+F+KA E+D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00650814</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>KEGQFETALKALFENIDAHPEDIENYINSGILLAEAGEIEKAEKFFQKALTIDPNNGAIYYNLANVYYNAESFNDAIKLYQQALKTGVDEADTNYMIGMSFNNLGDYKSAL</Hsp_hseq>
+      <Hsp_midline>K G++  A+  L +  DA   D+E  ++ GI   + G +++  +  ++++   P+N  +   L   Y   + ++ A+ L  +  +      +  + +G++ +NLG +  A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0104764</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKEGQFETALKALFENIDAHPEDIENYINSGILLAEAGEIEKAEKFFQKALTIDPNNGAIYYNLANVYYNAESFNDAIKLYQQALKTGVDEADTNYMIGMSFNNLGDYKSALPFLMRSAELDQN</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P++I+     G+   +  + + A     K    +P N  + + L     N   F++AI  ++ AL    +E   +  I  S+  +G ++ ALP   ++ ELD+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|924276199|ref|WP_053463919.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus carnosus] &gt;gi|923370761|gb|KOR13502.1| hypothetical protein AMC75_01130 [Staphylococcus carnosus]</Hit_def>
+  <Hit_accession>WP_053463919</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>9.18294e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRP--NEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINSGILLAEAGEVEKAEKFFQKALTLNPDNGAIYYNLANVYYNAESFNDAIKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAMPFLMRASELDDKNDEEIQFQYGLVLCHLEMFDAAVAQLDKVLAQNPENTDALYNRGLA-GYMKTENTEDALPYFERAVEIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    +  +  +  +L   Y    + +   +L ++++    D      ++G+++ Q+  +  A+P L++ +E +  N   ++F+ G+ L +L  FD A+      L   P   +   +R +A  Y +  + E+ALP+F++A E+D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.36889e-05</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>IKEGKFEAALKALFENIEKNPEAIENYINSGILLAEAGEVEKAEKFFQKALTLNPDNGAIYYNLANVYYNAESFNDAIKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAMPFLMRASELDDKN</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P+ I+     G+   +  + + A     K    NP N  + + L     N   F++AI  ++ AL    +E   +  I  S+ Q+G+ +EA+P   +A+ELD+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1051357194|ref|WP_065865429.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus carnosus] &gt;gi|1050295749|gb|ANZ33222.1| hypothetical protein BEK99_05190 [Staphylococcus carnosus]</Hit_def>
+  <Hit_accession>WP_065865429</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>9.61444e-07</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRP--NEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINSGILLAEAGEVEKAEKFFQKALTLNPDNGAIYYNLANVYYNAESFNDAIKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAMPFLMRASELDDKNDEEIQFQYGLVLCHLEMFDAAVAQLDKVLAQNPENTDALYNRGLA-GYMKTENTEDALPYFERAVEIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    +  +  +  +L   Y    + +   +L ++++    D      ++G+++ Q+  +  A+P L++ +E +  N   ++F+ G+ L +L  FD A+      L   P   +   +R +A  Y +  + E+ALP+F++A E+D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>5.54523e-05</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>IKEGKFEAALKALFENIEKNPEAIENYINSGILLAEAGEVEKAEKFFQKALTLNPDNGAIYYNLANVYYNAESFNDAIKLYQQALQKGVDEADTNYMIGMSFNQLGAFKEAMPFLMRASELDDKN</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P+ I+     G+   +  + + A     K    NP N  + + L     N   F++AI  ++ AL    +E   +  I  S+ Q+G+ +EA+P   +A+ELD+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1073640352|ref|WP_070045746.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus lentus] &gt;gi|1072597617|emb|SCU52494.1| TPR domain-containing protein [Staphylococcus lentus]</Hit_def>
+  <Hit_accession>WP_070045746</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.00296e-06</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>DEVTLYTHYGLSVAKKLGANMVDAF-RSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVA--LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGS</Hsp_qseq>
+      <Hsp_hseq>NEVTNYINAGTILAEADELEKAEKFFQKAITINEEHGGAYYSLANLYYNQQ-RFDEAVKLYQFAIQKGLNDSDTNFMLGMCFNELGAHTEAMPYVMRAHELNPDDLEIAFQYGLTLCQVEMFGEAIKQLENVLEKDPQHVDALYNLGLAKYMKNEDA-EEALQYFNKAVEIQPDHLLSGHAIK-MFEQMSE</Hsp_hseq>
+      <Hsp_midline>+EVT Y + G  +A+       + F + A ++N++    YY    + + +  R+ EAV + +        D +    LG+ + + GA       + R+    PD++++A   GLT  QV+ +  A+  L  V E +P + +  + LG+A  + N    +EA+  F  A+ ++P+      AI   +EQM  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00425151</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>IAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>VELIENKKFDEALKCLFENIEENPNEVTNYINAGTILAEADELEKAEKFFQKAITINEEHGGAYYSLANLYYNQQRFDEAVKLYQFAIQKGLNDSDTNFMLGMCFNELGAHTEAMPYVMRAHELN</Hsp_hseq>
+      <Hsp_midline>+  ++    D   + L  +I + P+ +      G    +  + + A     K    N  +    + L     N  RFDEA+  ++ A+    N+   +  +   + ++G+H EA+P+  +A+EL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1032568621|ref|WP_064204505.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus lentus] &gt;gi|1032215129|gb|OAO31803.1| hypothetical protein AXY37_04545 [Staphylococcus lentus]</Hit_def>
+  <Hit_accession>WP_064204505</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.02256e-06</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>DEVTLYTHYGLSVAKKLGANMVDAF-RSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVA--LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGS</Hsp_qseq>
+      <Hsp_hseq>NEVTNYINAGTILAEADELEKAEKFFQKAITINEEHGGAYYSLANLYYNQQ-RFDEAVKLYQFAIQKGLNDSDTNFMLGMCFNELGAHTEAMPYVMRAHELNPDDLEIAFQYGLTLCQVEMFGEAITQLENVLEKDPQHVDALYNLGLAKYMKNEDA-EEALQYFNKAVEIQPDHLLSGHAIK-MFEQMSE</Hsp_hseq>
+      <Hsp_midline>+EVT Y + G  +A+       + F + A ++N++    YY    + + +  R+ EAV + +        D +    LG+ + + GA       + R+    PD++++A   GLT  QV+ +  A+  L  V E +P + +  + LG+A  + N    +EA+  F  A+ ++P+      AI   +EQM  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00429149</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>IAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>VELIENKKFDEALKCLFENIEENPNEVTNYINAGTILAEADELEKAEKFFQKAITINEEHGGAYYSLANLYYNQQRFDEAVKLYQFAIQKGLNDSDTNFMLGMCFNELGAHTEAMPYVMRAHELN</Hsp_hseq>
+      <Hsp_midline>+  ++    D   + L  +I + P+ +      G    +  + + A     K    N  +    + L     N  RFDEA+  ++ A+    N+   +  +   + ++G+H EA+P+  +A+EL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1173644085|ref|WP_081328090.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus xylosus] &gt;gi|1072466509|emb|SCT83591.1| TPR domain protein [Staphylococcus xylosus]</Hit_def>
+  <Hit_accession>WP_081328090</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.17086e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAY-SYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YINAGILLAEAGEVEKAEKFFQRAITLDPENGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVQFQYGLVLCHLEMFEQAINQLNRVLAIDSKHADALYNLGLATYMQTEDTDEAIRHFEAA</Hsp_hseq>
+      <Hsp_midline>Y + GI  A+AG   +A    ++    D  +  +  +LG  Y   G  +   +L ++++    D +    ++G+++ Q++ ++ A+P L+  AE +   +  V+F+ G+ L +L  F++AI+     L +          +   +Y Q    +EA+ HF+ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>3.6429e-05</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>KQGNFEEALKALFENIEASPKEVENYINAGILLAEAGEVEKAEKFFQRAITLDPEN-------GAIY---------------------------YNLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDR</Hsp_hseq>
+      <Hsp_midline>K G + EA+  L +  +A   +VE  ++ GI   + G V++  +  +R+I   P+N       G  Y                           + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ +  EALP    A E D+R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0429169</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTE-LLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVAL-DNLGRFDEAIDSFKIALGLRPNEGKVHRAI</Hsp_qseq>
+      <Hsp_hseq>FQRAITLDPENGAIYY-NLGNVYYNEGRFNEAIKLYQQALKFNVDKVDTNYMIGMSFNQLEAFNEALPFLMTAAEQDDRDDAEVQFQYGLVLCHLEMFEQAINQLNRVLAIDSKHADALYNLGLATYMQTEDTDEAIRHFEAAVDANPDHVMSHHAI</Hsp_hseq>
+      <Hsp_midline>F+ A +++ +   +YY + G  +   GR++EA+ + +Q    +   V+    +G+++ +  A +     L+  +  D  D+ +V    GL    ++ ++ A+  L +V   +  + +  + LG+A        DEAI  F+ A+   P+    H AI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|496843149|ref|WP_009382641.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus massiliensis] &gt;gi|425482802|gb|EKU49958.1| hypothetical protein C273_03650 [Staphylococcus massiliensis S46]</Hit_def>
+  <Hit_accession>WP_009382641</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.40695e-06</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>KAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAP----------------------------------DNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE---ALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>KKGQYEQALSALFENIEQSPEEVENYINAGVLLAEANQVDKAERFFQRAITLKPEHGATYYNLANMYYNQGRYKEAIKLYQLASQKGFDSVDTNYMIGMSFNQLEAFNEAMPFLMRAAELDPRDTEVQFQYGLVLCHLEMFEEAIKQLNHVLEVDPK--HVDASYNLGLATYMAHEDTDGAIASFEKAIEID</Hsp_hseq>
+      <Hsp_midline>K G+Y +A+  L +  +    +VE  ++ G+   +   VD+     +R+I   P                                  D++    ++G+++ Q++ ++ A+P L++ AE +P +  V+F+ G+ L +L  F+EAI      L + P    V  +         +HE+   A+  F+KA E+D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00995123</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKKGQYEQALSALFENIEQSPEEVENYINAGVLLAEANQVDKAERFFQRAITLKPEHGATYYNLANMYYNQGRYKEAIKLYQLASQKGFDSVDTNYMIGMSFNQLEAFNEAMPFLMRAAELDPR</Hsp_hseq>
+      <Hsp_midline>+K G  ++    L  +I  +P+ ++     G+   +  + D A     +     P +    + L     N GR+ EAI  +++A     +    +  I  S+ Q+ +  EA+P   +A ELD R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|515565673|ref|WP_016998512.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus lentus]</Hit_def>
+  <Hit_accession>WP_016998512</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>1.5054e-06</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>DEVTLYTHYGLSVAKKLGANMVDAF-RSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVA--LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGS</Hsp_qseq>
+      <Hsp_hseq>NEVTNYINAGTILAEADELEKAEKFFQKAITINEEHGGAYYSLANLYYNQQ-RFDEAVKLYQFAIQKGLNDSDTNFMLGMCFNELGAHTEAMPYVMRAHELKPDDLEIAFQYGLTLCQVEMFGEAIIQLENVLEKDPQHVDALYNLGLAKYMKNEDA-EEALQYFNKAVEIQPDHLLSGHAIK-MFEQMSE</Hsp_hseq>
+      <Hsp_midline>+EVT Y + G  +A+       + F + A ++N++    YY    + + +  R+ EAV + +        D +    LG+ + + GA       + R+    PD++++A   GLT  QV+ +  A+  L  V E +P + +  + LG+A  + N    +EA+  F  A+ ++P+      AI   +EQM  </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00578899</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>IAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>VELIENKKFDEALKCLFENIEENPNEVTNYINAGTILAEADELEKAEKFFQKAITINEEHGGAYYSLANLYYNQQRFDEAVKLYQFAIQKGLNDSDTNFMLGMCFNELGAHTEAMPYVMRAHEL</Hsp_hseq>
+      <Hsp_midline>+  ++    D   + L  +I + P+ +      G    +  + + A     K    N  +    + L     N  RFDEA+  ++ A+    N+   +  +   + ++G+H EA+P+  +A+EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|835278698|ref|WP_047434460.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus argenteus] &gt;gi|678259373|emb|CDR63391.1| tetratricopeptide repeat family protein [Staphylococcus argenteus]</Hit_def>
+  <Hit_accession>WP_047434460</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.34337e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN--EGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLADANEIEKAERFFQKALTIDSQNGIVFYNLANIYYNQQRYQESIKLYQQALRTNIEQVDCNYMIGMAFNQLEAFKQAMPFLMTAAELDENNDIEVQFQYGLVLCQLEMFDEAITQLKHVLAIDGNHVDARYNLGLA-TFMKNENIDEAIGHFKEAVQIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A A    +A    ++    D+ +  V  +L   Y          +L ++++    + +    ++G+ + Q++ +  A+P L+  AE +  N   V+F+ G+ L  L  FDEAI   K  L +  N  + + +  +A ++ +  + +EA+ HFK+A ++D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0389173</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>HTIYQYIQNGEIEAALQALFDNIEEDPNTIENYINAGIVLADANEIEKAERFFQKALTIDSQNGIVFYNLANIYYNQQRYQESIKLYQQALRTNIEQVDCNYMIGMAFNQLEAFKQAMPFLMTAAELDENNDI</Hsp_hseq>
+      <Hsp_midline>H    Y++ G ++   + L  +I + P+ I+     G+      + + A     K    +  N  V + L     N  R+ E+I  ++ AL     +   +  I  ++ Q+ + ++A+P    A ELDE + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1119559637|ref|WP_072508107.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus argenteus] &gt;gi|1105589860|emb|SHD32655.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105723735|emb|SGX12130.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105728793|emb|SGX60512.1| tetratricopeptide repeat family protein [Staphylococcus argenteus]</Hit_def>
+  <Hit_accession>WP_072508107</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.36607e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN--EGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLADANEIEKAERFFQKALTIDSQNGIVFYNLANIYYNQQRYQESIKLYQQALRTNIEQVDCNYMIGMAFNQLEAFKQALPFLMTAAELDENNDIEVQFQYGLVLCQLEMFDEAITQLKHVLAIDGNHVDARYNLGLA-TFMKNENIDEAIGHFKEAVQIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A A    +A    ++    D+ +  V  +L   Y          +L ++++    + +    ++G+ + Q++ +  A+P L+  AE +  N   V+F+ G+ L  L  FDEAI   K  L +  N  + + +  +A ++ +  + +EA+ HFK+A ++D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0231246</Hsp_evalue>
+      <Hsp_query-from>85</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>HLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>HTIYQYIQNGEIEAALQALFDNIEEDPNTIENYINAGIVLADANEIEKAERFFQKALTIDSQNGIVFYNLANIYYNQQRYQESIKLYQQALRTNIEQVDCNYMIGMAFNQLEAFKQALPFLMTAAELDENNDI</Hsp_hseq>
+      <Hsp_midline>H    Y++ G ++   + L  +I + P+ I+     G+      + + A     K    +  N  V + L     N  R+ E+I  ++ AL     +   +  I  ++ Q+ + ++ALP    A ELDE + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|686155536|ref|WP_031787296.1|</Hit_id>
+  <Hit_def>MULTISPECIES: tetratricopeptide domain-containing protein [Staphylococcus] &gt;gi|599767238|gb|EYG93727.1| tetratricopeptide domain-containing protein [Staphylococcus aureus F87619] &gt;gi|600288005|gb|EYL88645.1| tetratricopeptide domain-containing protein [Staphylococcus aureus M21126] &gt;gi|678253376|emb|CDR21536.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|678256953|emb|CDR55954.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|678261370|emb|CDR21537.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|857604503|emb|CRI13662.1| putative Tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|857607278|emb|CRI28669.1| putative Tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1026848840|gb|OAF04076.1| hypothetical protein AXJ26_07910 [Staphylococcus argenteus] &gt;gi|1105553499|emb|SHC55199.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105564139|emb|SGW69589.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105579888|emb|SHD54117.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1105593270|emb|SGX08156.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105599138|emb|SGX57349.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105621740|emb|SHC89209.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105626771|emb|SGW39463.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105638605|emb|SGX38542.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105649398|emb|SGW42141.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105671320|emb|SGW94705.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105673929|emb|SGW34110.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105675947|emb|SGX10453.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105684832|emb|SGW56783.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105692420|emb|SGW68589.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105711462|emb|SHC28017.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1105751824|emb|SGW50026.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105756941|emb|SGX26135.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105760489|emb|SGW33022.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105768234|emb|SGX65107.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105769806|emb|SHC97580.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105778447|emb|SGW43010.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105781231|emb|SHD47466.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1105784470|emb|SHC93367.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105788792|emb|SHD41466.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1105793983|emb|SGW28108.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105797419|emb|SGW58107.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105800010|emb|SHC87792.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105802604|emb|SGW72270.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105812887|emb|SHD18282.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105815481|emb|SHC94324.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105822431|emb|SGX50620.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105827543|emb|SGW28586.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105830982|emb|SHD23397.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105832732|emb|SHC88131.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105835329|emb|SGW29017.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105846484|emb|SHC90237.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105850921|emb|SGW50707.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105854357|emb|SGX03262.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105861449|emb|SHC49970.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105872679|emb|SGW44376.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105877859|emb|SGW70858.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105881567|emb|SHD00144.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105884793|emb|SHC75758.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105893423|emb|SGW58470.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105906402|emb|SHD22837.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105909031|emb|SGW58993.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105921609|emb|SHD41075.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1105942302|emb|SHD44021.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1105944613|emb|SGW85123.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105959595|emb|SGW36425.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105968036|emb|SHD01013.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105975967|emb|SHC56906.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105979060|emb|SHD47994.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1105991780|emb|SGW85289.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105997974|emb|SHC81583.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1105999736|emb|SGW28483.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106003367|emb|SGX39368.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106005137|emb|SHC70848.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106023762|emb|SGW34657.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106029079|emb|SGW27946.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106031728|emb|SGV83830.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106049920|emb|SGW44638.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106064068|emb|SGW61850.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106072056|emb|SHB55849.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1106087989|emb|SGW88162.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106162135|emb|SHD29197.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106337294|emb|SGW50408.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1106368436|emb|SGW70202.1| tetratricopeptide repeat family protein [Staphylococcus argenteus] &gt;gi|1109725050|emb|SHD84988.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1109731543|emb|SHD94483.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1109732339|emb|SHD90055.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1109734805|emb|SHD92220.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1109743927|emb|SHD92208.1| tetratricopeptide repeat family protein [Staphylococcus aureus] &gt;gi|1111830202|gb|API79599.1| hypothetical protein A7971_07855 [Staphylococcus argenteus] &gt;gi|1134553659|gb|OMH89374.1| hypothetical protein A4R31_10400 [Staphylococcus argenteus] &gt;gi|1134554290|gb|OMH89984.1| hypothetical protein A4R30_05835 [Staphylococcus argenteus] &gt;gi|1134559559|gb|OMH95023.1| hypothetical protein A4R32_09250 [Staphylococcus argenteus] &gt;gi|1134568216|gb|OMI03491.1| hypothetical protein A4R33_03195 [Staphylococcus argenteus]</Hit_def>
+  <Hit_accession>WP_031787296</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.43548e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN--EGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLADANEIEKAERFFQKALTIDSQNGIVFYNLANIYYNQQRYQESIKLYQQALRTNIEQVDCNYMIGMAFNQLEAFKQALPFLMTAAELDENNDIEVQFQYGLVLCQLEMFDEAITQLKHVLAIDGNHVDARYNLGLA-TFMKNENIDEAIGHFKEAVQIDPK</Hsp_hseq>
+      <Hsp_midline>Y + GI  A A    +A    ++    D+ +  V  +L   Y          +L ++++    + +    ++G+ + Q++ +  A+P L+  AE +  N   V+F+ G+ L  L  FDEAI   K  L +  N  + + +  +A ++ +  + +EA+ HFK+A ++D +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.102101</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIQNGEIEAALQALFDNIEEDPNIIENYINAGIVLADANEIEKAERFFQKALTIDSQNGIVFYNLANIYYNQQRYQESIKLYQQALRTNIEQVDCNYMIGMAFNQLEAFKQALPFLMTAAELDENNDI</Hsp_hseq>
+      <Hsp_midline>Y++ G ++   + L  +I + P+ I+     G+      + + A     K    +  N  V + L     N  R+ E+I  ++ AL     +   +  I  ++ Q+ + ++ALP    A ELDE + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|751612608|ref|WP_041080573.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus saprophyticus] &gt;gi|750926247|gb|KIJ86000.1| tetratricopeptide domain-containing protein [Staphylococcus saprophyticus]</Hit_def>
+  <Hit_accession>WP_041080573</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.46274e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNGSIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N ++ + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0192886</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL--RPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNGSIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDVEVQFQYGLVLCHLEMFDQAIKQLKSVLEMDNKQSDALYNLGLA-TYMQTEDTAQAIEYFEAA</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  V+F+ G+ L +L  FD+AI   K  L +  + ++   +  +A +Y Q     +A+ +F+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|896502606|ref|WP_049410254.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus pettenkoferi]</Hit_def>
+  <Hit_accession>WP_049410254</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.49647e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRA-----IAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKKGEIEQALQALFNNIERNPKEIENYINAGILIAEAGEVEKAEKFFQRALVLDPENAAVFYNLANVYYNEGRFNEAIKLYQQAL----QSPEVHQVDTNYMIGMSFNQLGAHKEAMPYLMRAAELDDEGDV</Hsp_hseq>
+      <Hsp_midline>+K G +++  + L  +I   P  I+     G+   +  + + A     +    +P N  V + L     N GRF+EAI  ++ AL       +VH+      I  S+ Q+G+H+EA+P+  +A ELD+   V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0976654</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDA-DAFDVEVALHLGIAYVKTGAVDRGTELLERSIA-DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI--DSFKIALGLRPNEGKVHRAIAYSYEQM</Hsp_qseq>
+      <Hsp_hseq>FQRALVLDPENAAVFYNLANVYYNE-GRFNEAIKLYQQALQSPEVHQVDTNYMIGMSFNQLGAHKEAMPYLMRAAELDDEGDVEVQFQYGLVLCHLELYEQAVTQLQHVLELDEKHVDALYNLGLAQYMLTE-DKALAMDYFQRAVDINPEHHMSQHALQ-TFEQL</Hsp_hseq>
+      <Hsp_midline>F+ A  ++ +   V+Y    + + + GR++EA+ + +Q   + +   V+    +G+++ + GA       L R+   D   +++V    GL    ++ Y+ AV  L  V E +  + +  + LG+A   L   D+A+  D F+ A+ + P       A+  ++EQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1071400689|ref|WP_069826841.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus saprophyticus] &gt;gi|1070830169|gb|OEK74600.1| hypothetical protein AST06_03190 [Staphylococcus saprophyticus] &gt;gi|1150754634|gb|OOO71944.1| hypothetical protein B0W56_05525 [Staphylococcus saprophyticus]</Hit_def>
+  <Hit_accession>WP_069826841</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.63466e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKVLFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFSQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   ++L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.120133</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFSQLEAFKEALPFLMTAAEQDDRHDVEIQFQYGLVLCHLEMFEQAIKQLKSVLEM</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  ++F+ G+ L +L  F++AI   K  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|488401625|ref|WP_002471010.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus pettenkoferi] &gt;gi|365231273|gb|EHM72328.1| tetratricopeptide repeat protein [Staphylococcus pettenkoferi VCU012]</Hit_def>
+  <Hit_accession>WP_002471010</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>3.67186e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRA-----IAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKKGEIEQALQALFNNIERNPKEIENYINAGILIAEAGEVEKAEKFFQRALVLDPENAAVFYNLANVYYNEGRFNEAIKLYQQAL----QSPEVHQVDTNYMIGMSFNQLGAHKEAMPYLMRAVELDDEGDV</Hsp_hseq>
+      <Hsp_midline>+K G +++  + L  +I   P  I+     G+   +  + + A     +    +P N  V + L     N GRF+EAI  ++ AL       +VH+      I  S+ Q+G+H+EA+P+  +A ELD+   V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0263501</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDA-DAFDVEVALHLGIAYVKTGAVDRGTELLERSIA-DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI--DSFKIALGLRPNEGKVHRAIAYSYEQM</Hsp_qseq>
+      <Hsp_hseq>FQRALVLDPENAAVFYNLANVYYNE-GRFNEAIKLYQQALQSPEVHQVDTNYMIGMSFNQLGAHKEAMPYLMRAVELDDEGDVEVQFQYGLVLCHLELYEQAVTQLQHVLELDEKHVDALYNLGLAQYMLTE-DKALAMDYFQRAVDINPEHHMSQHALQ-TFEQL</Hsp_hseq>
+      <Hsp_midline>F+ A  ++ +   V+Y    + + + GR++EA+ + +Q   + +   V+    +G+++ + GA       L R++  D   +++V    GL    ++ Y+ AV  L  V E +  + +  + LG+A   L   D+A+  D F+ A+ + P       A+  ++EQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|896376346|ref|WP_049318721.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus aureus]</Hit_def>
+  <Hit_accession>WP_049318721</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>3.75639e-06</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVA--LDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>EVTNYINAGTILAE---ANDIERAEKFFQKAITVNESHGGAYYSLANLYYNQQ-RFEEAIKLYQHAIKRGLNDADTNFMLGMSFNELGAHTEAMPYVMRAHELNEDDVEIGFQYGLTLCQLEMFDEAIVQLEKVLEKDPEHVDALYNLGLAKYMKNENA-EEALVYFRKAVDIQPD</Hsp_hseq>
+      <Hsp_midline>EVT Y + G  +A+   AN ++     F+ A +VN+     YY    + + +  R+ EA+ + +        D +    LG+++ + GA       + R+     D++++    GLT  Q++ +D A+  L KV E +P + +  + LG+A  + N    +EA+  F+ A+ ++P+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00714534</Hsp_evalue>
+      <Hsp_query-from>88</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>IAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDE</Hsp_qseq>
+      <Hsp_hseq>VKLIQNKKFDEALSYLFENIEEDPKEVTNYINAGTILAEANDIERAEKFFQKAITVNESHGGAYYSLANLYYNQQRFEEAIKLYQHAIKRGLNDADTNFMLGMSFNELGAHTEAMPYVMRAHELNE</Hsp_hseq>
+      <Hsp_midline>+  ++    D     L  +I + P  +      G    +    + A     K    N  +    + L     N  RF+EAI  ++ A+    N+   +  +  S+ ++G+H EA+P+  +A+EL+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1092517669|ref|WP_070502421.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus sp. HMSC071G07] &gt;gi|1080287003|gb|OFK78717.1| hypothetical protein HMPREF2802_00515 [Staphylococcus sp. HMSC071G07]</Hit_def>
+  <Hit_accession>WP_070502421</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>4.04328e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRA-----IAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKKGEIEQALQALFNNIERNPKEIENYINAGILIAEAGEVEKAEKFFQRALVLDPENAAVFYNLANVYYNEGRFNEAIKLYQQAL----QSPEVHQVDTNYMIGMSFNQLGAHKEAMPYLMRAAELDNEGDV</Hsp_hseq>
+      <Hsp_midline>+K G +++  + L  +I   P  I+     G+   +  + + A     +    +P N  V + L     N GRF+EAI  ++ AL       +VH+      I  S+ Q+G+H+EA+P+  +A ELD    V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0789021</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDA-DAFDVEVALHLGIAYVKTGAVDRGTELLERSIA-DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI--DSFKIALGLRPNEGKVHRAIAYSYEQM</Hsp_qseq>
+      <Hsp_hseq>FQRALVLDPENAAVFYNLANVYYNE-GRFNEAIKLYQQALQSPEVHQVDTNYMIGMSFNQLGAHKEAMPYLMRAAELDNEGDVEVQFQYGLVLCHLELYEQAVTQLQHVLELDEKHVDALYNLGLAQYMLTE-DKALAMDYFQRAVDINPEHHMSQHALQ-TFEQL</Hsp_hseq>
+      <Hsp_midline>F+ A  ++ +   V+Y    + + + GR++EA+ + +Q   + +   V+    +G+++ + GA       L R+   D   +++V    GL    ++ Y+ AV  L  V E +  + +  + LG+A   L   D+A+  D F+ A+ + P       A+  ++EQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|896468075|ref|WP_049388871.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein, partial [Staphylococcus capitis]</Hit_def>
+  <Hit_accession>WP_049388871</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.50246e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPEHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.408356</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>LERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>LFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1071395535|ref|WP_069822034.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus saprophyticus] &gt;gi|1070799868|gb|OEK45273.1| hypothetical protein ASS92_08715 [Staphylococcus saprophyticus] &gt;gi|1128267998|gb|OLN95064.1| hypothetical protein BMJ13_03700 [Staphylococcus saprophyticus]</Hit_def>
+  <Hit_accession>WP_069822034</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>4.73983e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0285126</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDVEVQFQYGLVLCHLEMFDQAIKQLKSVLEM</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  V+F+ G+ L +L  FD+AI   K  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|488413733|ref|WP_002483118.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus saprophyticus] &gt;gi|379325072|gb|EHY92204.1| hypothetical protein SSME_12120 [Staphylococcus saprophyticus subsp. saprophyticus KACC 16562] &gt;gi|379325732|gb|EHY92863.1| hypothetical protein SSME_11870 [Staphylococcus saprophyticus subsp. saprophyticus KACC 16562]</Hit_def>
+  <Hit_accession>WP_002483118</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.31938e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.106507</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDVEVQFQYGLVLCHLEMFEQAIKQLKSVLEM</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  V+F+ G+ L +L  F++AI   K  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1071399626|ref|WP_069825899.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus saprophyticus] &gt;gi|1070803007|gb|OEK48361.1| hypothetical protein ASS91_05500 [Staphylococcus saprophyticus]</Hit_def>
+  <Hit_accession>WP_069825899</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.58121e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.111555</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDVEVQFQYGLVLCHLEMFEQAIKQLKSVLEM</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  V+F+ G+ L +L  F++AI   K  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1071412475|ref|WP_069837978.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus saprophyticus] &gt;gi|1070804800|gb|OEK50048.1| hypothetical protein ASS93_01150 [Staphylococcus saprophyticus]</Hit_def>
+  <Hit_accession>WP_069837978</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.6895e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNNAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0593929</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNNAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDVEVQFQYGLVLCHLEMFEQAIKQLKSVLEM</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  V+F+ G+ L +L  F++AI   K  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|222442514|gb|EEE48620.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Staphylococcus capitis SK14]</Hit_def>
+  <Hit_accession>EEE48620</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.72282e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPKHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00333582</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1139691382|dbj|BAW90640.1|</Hit_id>
+  <Hit_def>hypothetical protein JMUB0001_1141 [Staphylococcus capitis]</Hit_def>
+  <Hit_accession>BAW90640</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.78918e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPKHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00341343</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1071362091|ref|WP_069795327.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus saprophyticus] &gt;gi|1070781406|gb|OEK27253.1| hypothetical protein ASS84_05600 [Staphylococcus saprophyticus]</Hit_def>
+  <Hit_accession>WP_069795327</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.79988e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFSQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.112593</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGLR</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFSQLEAFKEALPFLMTAAEQDDRHDVEIQFQYGLVLCHLEMFEQAIKQLKSVLEMN</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  ++F+ G+ L +L  F++AI   K  L + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|515409166|ref|WP_016898208.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Staphylococcus] &gt;gi|1032052238|gb|OAN25787.1| hypothetical protein A4V14_03320 [Staphylococcus capitis] &gt;gi|1080939547|gb|OFQ99107.1| hypothetical protein HMPREF2910_04245 [Staphylococcus sp. HMSC066C03]</Hit_def>
+  <Hit_accession>WP_016898208</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.90144e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPEHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00322693</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|499622232|ref|WP_011302966.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Staphylococcus] &gt;gi|72494965|dbj|BAE18286.1| conserved hypothetical protein [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305] &gt;gi|872024383|emb|CRV16993.1| TPR repeat-containing protein yrrB [Streptococcus equi subsp. equi] &gt;gi|991852009|gb|AMG20250.1| hypothetical protein AL528_08630 [Staphylococcus saprophyticus] &gt;gi|991865041|gb|AMG33310.1| hypothetical protein AL494_05980 [Staphylococcus saprophyticus] &gt;gi|1070764136|gb|OEK10371.1| hypothetical protein ASS78_09535 [Staphylococcus saprophyticus] &gt;gi|1070764531|gb|OEK10763.1| hypothetical protein ASS79_08070 [Staphylococcus saprophyticus] &gt;gi|1070770011|gb|OEK16074.1| hypothetical protein ASS80_03965 [Staphylococcus saprophyticus] &gt;gi|1070771208|gb|OEK17249.1| hypothetical protein ASS77_02895 [Staphylococcus saprophyticus] &gt;gi|1070773854|gb|OEK19843.1| hypothetical protein ASS81_07420 [Staphylococcus saprophyticus] &gt;gi|1070776356|gb|OEK22287.1| hypothetical protein ASS82_02800 [Staphylococcus saprophyticus] &gt;gi|1070779739|gb|OEK25622.1| hypothetical protein ASS83_07780 [Staphylococcus saprophyticus] &gt;gi|1070785068|gb|OEK30847.1| hypothetical protein ASS85_00830 [Staphylococcus saprophyticus] &gt;gi|1070786654|gb|OEK32417.1| hypothetical protein ASS86_02450 [Staphylococcus saprophyticus] &gt;gi|1070788535|gb|OEK34267.1| hypothetical protein ASS87_06200 [Staphylococcus saprophyticus] &gt;gi|1070791833|gb|OEK37436.1| hypothetical protein ASS88_05485 [Staphylococcus saprophyticus] &gt;gi|1070792644|gb|OEK38228.1| hypothetical protein ASS90_05800 [Staphylococcus saprophyticus] &gt;gi|1070794137|gb|OEK39671.1| hypothetical protein ASS89_06185 [Staphylococcus saprophyticus] &gt;gi|1070850898|gb|OEK94875.1| hypothetical protein AST09_05085 [Staphylococcus saprophyticus] &gt;gi|1070852241|gb|OEK96174.1| hypothetical protein AST08_05340 [Staphylococcus saprophyticus] &gt;gi|1070857714|gb|OEL01559.1| hypothetical protein AST10_02650 [Staphylococcus saprophyticus] &gt;gi|1080230635|gb|OFK25474.1| hypothetical protein HMPREF2825_07025 [Staphylococcus sp. HMSC068H12] &gt;gi|1128262895|gb|OLN90543.1| hypothetical protein BMJ01_03390 [Staphylococcus saprophyticus] &gt;gi|1145685968|gb|OOC96491.1| hypothetical protein BWO95_09420 [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>WP_011302966</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>5.96946e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFSQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.112593</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFSQLEAFKEALPFLMTAAEQDDRHDVEIQFQYGLVLCHLEMFEQAIKQLKSVLEM</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  ++F+ G+ L +L  F++AI   K  L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|835431629|ref|WP_047503944.1|</Hit_id>
+  <Hit_def>MULTISPECIES: tetratricopeptide domain-containing protein [Staphylococcus] &gt;gi|1032217426|gb|OAO34019.1| hypothetical protein AXY40_05485 [Staphylococcus saprophyticus] &gt;gi|1032220483|gb|OAO36944.1| hypothetical protein AXY41_02305 [Staphylococcus saprophyticus] &gt;gi|1070848263|gb|OEK92282.1| hypothetical protein AST07_03840 [Staphylococcus saprophyticus]</Hit_def>
+  <Hit_accession>WP_047503944</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.08525e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPQNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0321759</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPQNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDVEVQFQYGLVLCHLEMFEQAIKQLKLVLEM</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  V+F+ G+ L +L  F++AI   K+ L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|662109157|ref|WP_030064669.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus capitis]</Hit_def>
+  <Hit_accession>WP_030064669</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.13251e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPKHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.000989039</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVKNYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ +K     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|836648132|ref|WP_047796355.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus capitis] &gt;gi|831183935|gb|AKL92059.1| TPR repeat-containing protein YrrB [Staphylococcus capitis subsp. capitis] &gt;gi|952560386|emb|CUT96389.1| TPR domain protein [Staphylococcus capitis]</Hit_def>
+  <Hit_accession>WP_047796355</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.19167e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPEHVDAIYNLGLASYMKKEDIDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00338162</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|488400636|ref|WP_002470021.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Staphylococcus] &gt;gi|341594897|gb|EGS37575.1| tetratricopeptide repeat protein [Staphylococcus capitis VCU116] &gt;gi|555595354|emb|CDI71525.1| Tetratricopeptide repeat protein [Staphylococcus capitis CR01] &gt;gi|871950494|emb|CRN10107.1| TPR domain protein [Staphylococcus capitis] &gt;gi|910025282|emb|CQD27236.1| TPR domain protein [Staphylococcus capitis] &gt;gi|910031962|emb|CQD28038.1| TPR domain protein [Staphylococcus capitis] &gt;gi|952556779|emb|CUT97418.1| TPR domain protein [Staphylococcus capitis] &gt;gi|967435389|gb|KTL06388.1| hypothetical protein AL529_01585 [Staphylococcus capitis] &gt;gi|1080506237|gb|OFM88109.1| hypothetical protein HMPREF2642_10450 [Staphylococcus sp. HMSC055A09] &gt;gi|1081131465|gb|OFS80003.1| hypothetical protein HMPREF3154_05140 [Staphylococcus sp. HMSC06C11]</Hit_def>
+  <Hit_accession>WP_002470021</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.19167e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPKHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00338162</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1032577240|ref|WP_064210123.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus capitis] &gt;gi|1032210758|gb|OAO27629.1| hypothetical protein AXY38_02470 [Staphylococcus capitis] &gt;gi|1032213923|gb|OAO30707.1| hypothetical protein AXY39_01480 [Staphylococcus capitis]</Hit_def>
+  <Hit_accession>WP_064210123</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.2514e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPKHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0030793</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1071393495|ref|WP_069820190.1|</Hit_id>
+  <Hit_def>hypothetical protein [Staphylococcus saprophyticus] &gt;gi|1070856853|gb|OEL00536.1| hypothetical protein AST11_07375 [Staphylococcus saprophyticus]</Hit_def>
+  <Hit_accession>WP_069820190</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.38461e-06</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>IKQGNFEEALKALFENIEANPKEVENYINAGILLAEANEVDKAEKFFQRAITLDPKNGAIYYNLGNVYYNEGRFNEAIKLYQQALKFNVDQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDV</Hsp_hseq>
+      <Hsp_midline>+K G  +   + L  +I   P  ++     G+   +  + D A     +    +P N  + + LG    N GRF+EAI  ++ AL    ++   +  I  S+ Q+ + +EALP    A E D+R  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.0409693</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>EVTLYTHYGLSVAKKLGANMVDA----FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPV-NFNVRFRLGVALDNLGRFDEAIDSFKIALGL</Hsp_qseq>
+      <Hsp_hseq>EVENYINAGILLAE---ANEVDKAEKFFQRAITLDPKNGAIYY-NLGNVYYNEGRFNEAIKLYQQ-----------ALKFNV-----------------------DQVDTNYMIGMSFNQLEAFKEALPFLMTAAEQDDRHDVEVQFQYGLVLCHLEMFEQAIKQLKLVLEM</Hsp_hseq>
+      <Hsp_midline>EV  Y + G+ +A+   AN VD     F+ A +++     +YY + G  +   GR++EA+ + +Q           AL   +                       D +    ++G+++ Q++ +  A+P L+  AE +   +  V+F+ G+ L +L  F++AI   K+ L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|313653937|gb|EFS17694.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Staphylococcus capitis C87]</Hit_def>
+  <Hit_accession>EFS17694</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>6.42136e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPEHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.0035617</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNQGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|896385943|ref|WP_049326504.1|</Hit_id>
+  <Hit_def>tetratricopeptide domain-containing protein [Staphylococcus capitis]</Hit_def>
+  <Hit_accession>WP_049326504</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>7.08213e-06</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVN-FNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNE-GKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>YINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNEGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDVEIQFQYGLVLCQLEMFEQAINQLNHVLKIDPKHVDAIYNLGLASYMKKEDVDEAIAYFEQAVSIDEQ</Hsp_hseq>
+      <Hsp_midline>Y + GI  + AG   +A    ++    D  +  V  +L   Y   G      +L ++++ +    +    ++G+++ Q++ +  A+P L+  AE +  +   ++F+ G+ L  L  F++AI+     L + P     ++     SY +    +EA+ +F++A  +DE+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00439477</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>YVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YIKDGKFEDALKALFENIEENPNAVENYINAGIVLSDAGEIEKAERFFQKAITIDPSNGAVYYNLANVYYNEGRFKEAIKLYQKALKNNVATVDCNYMIGMSFNQLEAFKEALPFLMTAAEKDDNDDV</Hsp_hseq>
+      <Hsp_midline>Y+K G  +   + L  +I + P+ ++     G+      + + A     K    +P N  V + L     N GRF EAI  ++ AL         +  I  S+ Q+ + +EALP    A E D+   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1011169</Statistics_db-num>
+      <Statistics_db-len>367683794</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

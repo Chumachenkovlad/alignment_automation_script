@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|502703866|ref|WP_012939130.1|</Hit_id>
+  <Hit_def>peptidase S1 [Acidaminococcus fermentans] &gt;gi|283953343|gb|ADB48146.1| HtrA2 peptidase [Acidaminococcus fermentans DSM 20731] &gt;gi|1088743017|emb|SDW79482.1| serine protease Do [Acidaminococcus fermentans] &gt;gi|1097065286|emb|SFO41160.1| serine protease Do [Acidaminococcus fermentans]</Hit_def>
+  <Hit_accession>WP_012939130</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>2.63268e-31</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>QVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>KVGPAVVGITNKALVRDYFNRTQLVEQGSGSGVIYSKDGLIATNNHVVAGAQEIVVSLPD---GKTYTGKVLGTDPNTDLAVVKIEADGDLPVAEFGDSDSLMVGEPAIAIGNPLGMEFRGSVTAGVISALNRSLDM-GERRFRLIQTDAAINPGNSGGALVNADGQVIGINSAKIAASGV-EGIGFAIPINEAK</Hsp_hseq>
+      <Hsp_midline>+V P  +G+ N   +  + N T    +  G+GVI   DG I TN HVV GA  + V++ D      Y+G+++  D   DLA++KI     L  A  GDSD++ V +  IAIG P G++   +V+ G+ISA  +++ + G     L+QTDAAIN GNSGG LV A+G V+GIN+A    +G   GIGFA+P N+A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00131522</Hsp_evalue>
+      <Hsp_query-from>493</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>QIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAAL--TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>QVIG-INSAKIAASGVEGI--------GFAIPINEAKPILKELAEKGRVVRPYLGVSLLDQTLAKRLGFDLDLRGG--LFVVKMFQDGPAYRGGIRPNDIIVKFNGTKVDSVAALRDALGKCQVGQQVPVTILRGDEEVNKTV</Hsp_hseq>
+      <Hsp_midline>Q+IG + +A IAA G  G           AI I   +     +A  G      LG +L    L +RLG   +L  G  +FV  +  + PA   G+RP D+I+K +G  V     +   + +   G+ V + +LR  +  N ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|502702757|ref|WP_012938044.1|</Hit_id>
+  <Hit_def>peptidase S41 [Acidaminococcus fermentans] &gt;gi|283952251|gb|ADB47054.1| carboxyl-terminal protease [Acidaminococcus fermentans DSM 20731] &gt;gi|1088743392|emb|SDW61793.1| carboxyl-terminal processing protease [Acidaminococcus fermentans] &gt;gi|1097064013|emb|SFO69026.1| carboxyl-terminal processing protease [Acidaminococcus fermentans]</Hit_def>
+  <Hit_accession>WP_012938044</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.110651</Hsp_evalue>
+      <Hsp_query-from>576</Hsp_query-from>
+      <Hsp_query-to>600</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>PNTPAASAGLRPGDVILKVDGRPVH</Hsp_qseq>
+      <Hsp_hseq>EDTPAYKAGIKAGDILLKIDGEDLN</Hsp_hseq>
+      <Hsp_midline> +TPA  AG++ GD++LK+DG  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|502703443|ref|WP_012938719.1|</Hit_id>
+  <Hit_def>peptidase [Acidaminococcus fermentans] &gt;gi|283952931|gb|ADB47734.1| membrane-associated zinc metalloprotease [Acidaminococcus fermentans DSM 20731] &gt;gi|1088743784|emb|SDW38663.1| regulator of sigma E protease [Acidaminococcus fermentans] &gt;gi|1097064609|emb|SFO57790.1| regulator of sigma E protease [Acidaminococcus fermentans]</Hit_def>
+  <Hit_accession>WP_012938719</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>1.81911</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>611</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAE</Hsp_qseq>
+      <Hsp_hseq>VGSLMEGYPGAEAGLKAGDRLVSINGRKLEKWNDINALVQQ</Hsp_hseq>
+      <Hsp_midline>V  +    P A AGL+ GD ++ ++GR + +  ++ A++ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.63425</Hsp_evalue>
+      <Hsp_query-from>709</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>VGSLMEGYPGAEAGLKAGDRLVSINGRKLEKWNDINALVQQNGPEPGQVV--IDRNGTERTVVL</Hsp_hseq>
+      <Hsp_midline>V  ++ G   A AGL+A D ++ +N R +     ++A ++       Q++  + RNG E  +VL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1124452549|ref|WP_074738642.1|</Hit_id>
+  <Hit_def>site-2 protease family protein [Acidaminococcus fermentans] &gt;gi|1097064918|emb|SFO51746.1| Zn-dependent protease (includes SpoIVFB) [Acidaminococcus fermentans]</Hit_def>
+  <Hit_accession>WP_074738642</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>4.92949</Hsp_evalue>
+      <Hsp_query-from>477</Hsp_query-from>
+      <Hsp_query-to>587</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>NPHTDGRQNMNCASCHQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGV--FVNGV-TPNTPAASAGLRP</Hsp_qseq>
+      <Hsp_hseq>TPEGDGRLTMNPLAHLDLIGSLMLILV---GFGWARPVRVDPRYYA----NPRKGMLQVAFAGP--ASNLLVTFLAMFLQLFLARYFNAGRGVLLFLNWLMLYNVWFAFFNLLP</Hsp_hseq>
+      <Hsp_midline> P  DGR  MN  +   +IGS+    +   G G A      P   A     PR G   VA +G   AS L      +  +L L     AGRGV  F+N +   N   A   L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|502703315|ref|WP_012938594.1|</Hit_id>
+  <Hit_def>peptidase M50 [Acidaminococcus fermentans] &gt;gi|283952804|gb|ADB47607.1| peptidase M50 [Acidaminococcus fermentans DSM 20731]</Hit_def>
+  <Hit_accession>WP_012938594</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>7.89153</Hsp_evalue>
+      <Hsp_query-from>477</Hsp_query-from>
+      <Hsp_query-to>587</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>NPHTDGRQNMNCASCHQIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGV--FVNGV-TPNTPAASAGLRP</Hsp_qseq>
+      <Hsp_hseq>TPEGDGRLTMNPLAHLDLIGSLMLILV---GFGWARPVRVDPRYYA----NPRKGMLQVAFAGP--ASNLLVTFLAMFLQLFLPRYFNAGRGVLLFLNWLMLYNVWFAFFNLLP</Hsp_hseq>
+      <Hsp_midline> P  DGR  MN  +   +IGS+    +   G G A      P   A     PR G   VA +G   AS L      +  +L L     AGRGV  F+N +   N   A   L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>5070</Statistics_db-num>
+      <Statistics_db-len>1740536</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

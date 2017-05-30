@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|489122214|ref|WP_003032033.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Streptococcus anginosus group] &gt;gi|333768731|gb|EGL45900.1| trypsin [Streptococcus anginosus SK52 = DSM 20563] &gt;gi|383341278|gb|EID19539.1| serine protease do-like HtrA [Streptococcus anginosus subsp. whileyi CCUG 39159] &gt;gi|520959436|dbj|BAN60583.1| trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain [Streptococcus anginosus subsp. whileyi MAS624] &gt;gi|537637236|gb|AGU84506.1| putative serine protease [Streptococcus anginosus C238] &gt;gi|540767954|dbj|GAD37645.1| trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain [Streptococcus anginosus SK52 = DSM 20563] &gt;gi|540774232|dbj|GAD41368.1| trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain [Streptococcus intermedius SK54] &gt;gi|540783420|dbj|GAD46718.1| trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain [Streptococcus anginosus T5] &gt;gi|1178152411|gb|ORE81667.1| serine protease [Streptococcus anginosus SK52 = DSM 20563]</Hit_def>
+  <Hit_accession>WP_003032033</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.000859805</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANG---YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI---NIAATGPTGKVE--GFTVPAQVIVS</Hsp_qseq>
+      <Hsp_hseq>SGVIYKKDGKYAYLVTNTHVISGAKKVDIRLADG---NKVPGEIVGSDTYSDISVVRISADKVKSVAEFGDSSKLTVGETAIAIGSPLGSNYANTVTQGIISSLNRNVSLKSEDGQTISTQAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTS-VEGLGFAIPSNDVIN</Hsp_hseq>
+      <Hsp_midline>SG I   +G   Y++T  H ++    + +++A      + P ++V +    +++++++   +        +   +  G+   A G  +    A  V QG++ S +  +++    G T  T  +++D   +   +GGPLVN QG ++GI    IA+ G T  VE  GF +P+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|493312886|ref|WP_006270334.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Streptococcus] &gt;gi|383341184|gb|EID19450.1| trypsin [Streptococcus constellatus subsp. constellatus SK53] &gt;gi|537626387|gb|AGU73663.1| putative serine protease [Streptococcus constellatus subsp. pharyngis C232] &gt;gi|537628142|gb|AGU75417.1| putative serine protease [Streptococcus constellatus subsp. pharyngis C818] &gt;gi|537633535|gb|AGU80807.1| putative serine protease [Streptococcus constellatus subsp. pharyngis C1050] &gt;gi|540772322|dbj|GAD38665.1| trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain [Streptococcus constellatus subsp. constellatus SK53] &gt;gi|540780866|dbj|GAD44856.1| trypsin-like serine proteases, typically periplasmic, contain C-terminal PDZ domain [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377] &gt;gi|576670401|gb|EUB23694.1| serine protease do-like HtrA [Streptococcus sp. AS20] &gt;gi|967431479|gb|KTL02522.1| serine protease [Streptococcus sp. FDAARGOS_146] &gt;gi|1002525763|gb|KXU00869.1| Serine protease, DegP/HtrA, do-like protein [Streptococcus constellatus] &gt;gi|1080577978|gb|OFN55610.1| serine protease [Streptococcus sp. HMSC034B05] &gt;gi|1080829369|gb|OFP94340.1| serine protease [Streptococcus sp. HMSC067A03]</Hit_def>
+  <Hit_accession>WP_006270334</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.000954301</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANG---YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI---NIAATGPTGKVE--GFTVPAQVIVS</Hsp_qseq>
+      <Hsp_hseq>SGVIYKKDGKYAYLVTNTHVINGAKKVDIRLADG---NKVPGEIIGSDTYSDISVVRISADKVKTVAEFGDSSKLTVGETAIAIGSPLGSNYANTVTQGIISSLNRNVSLKSESGQTISTQAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTS-VEGLGFAIPSNDVIN</Hsp_hseq>
+      <Hsp_midline>SG I   +G   Y++T  H +     + +++A      + P +++ +    +++++++   +        +   +  G+   A G  +    A  V QG++ S +  +++    G T  T  +++D   +   +GGPLVN QG ++GI    IA+ G T  VE  GF +P+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|489162021|ref|WP_003071656.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus intermedius] &gt;gi|355363735|gb|EHG11471.1| hypothetical protein HMPREF9682_01867 [Streptococcus intermedius F0395]</Hit_def>
+  <Hit_accession>WP_003071656</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00097103</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>SGAIVGANG---YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGI---NIAATGPTGKVE--GFTVPAQVIVS</Hsp_qseq>
+      <Hsp_hseq>SGVIYKKDGKYAYLVTNTHVINGAKKVDIRLADG---NKVPGEIIGSDTYSDISVVRISADKVKTVAEFGDSSKLTVGETAIAIGSPLGSNYANTVTQGIISSLNRNVSLKSESGQTISTQAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTS-VEGLGFAIPSNDVIN</Hsp_hseq>
+      <Hsp_midline>SG I   +G   Y++T  H +     + +++A      + P +++ +    +++++++   +        +   +  G+   A G  +    A  V QG++ S +  +++    G T  T  +++D   +   +GGPLVN QG ++GI    IA+ G T  VE  GF +P+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|538452302|ref|WP_020999302.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus intermedius] &gt;gi|537629958|gb|AGU77232.1| putative serine protease [Streptococcus intermedius B196] &gt;gi|537631737|gb|AGU79010.1| putative serine protease [Streptococcus intermedius C270] &gt;gi|1109662970|dbj|BAW17993.1| putative serine protease [Streptococcus intermedius]</Hit_def>
+  <Hit_accession>WP_020999302</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0143158</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIA--ATGPTGKVE--GFTVPAQ---VIVSHLQ</Hsp_qseq>
+      <Hsp_hseq>YLVTNTHVINGASKVDIRLADG---NKVPGEIVGSDTYSDISVVRISASKVKSVAEFGDSSKLTVGETAIAIGSPLGSNYANTVTQGIISSLNRNVSLKSEDGQTISTQAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNRGTSVEGLGFAIPSNDVTNIISQLE</Hsp_hseq>
+      <Hsp_midline>Y++T  H +     + +++A      + P ++V +    +++++++  ++        +   +  G+   A G  +    A  V QG++ S +  +++    G T  T  +++D   +   +GGPLVN QG ++GI  +  A+     VE  GF +P+     I+S L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|489165983|ref|WP_003075586.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus intermedius] &gt;gi|383846478|gb|EID83874.1| serine protease do-like HtrA [Streptococcus intermedius SK54] &gt;gi|391758741|dbj|BAM24358.1| serine protease DegP [Streptococcus intermedius JTH08] &gt;gi|514207201|gb|EPH03005.1| hypothetical protein HMPREF1654_01615 [Streptococcus intermedius ATCC 27335]</Hit_def>
+  <Hit_accession>WP_003075586</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0153441</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIA--ATGPTGKVE--GFTVPAQ---VIVSHLQ</Hsp_qseq>
+      <Hsp_hseq>YLVTNTHVINGASKVDIRLADG---NKVPGEIVGSDTYSDISVVRISASKVKSVAEFGDSSKLTVGETAIAIGSPLGSNYANTVTQGIISSLNRNVSLKSEDGQTISTQAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNRGTSVEGLGFAIPSNDVTNIISQLE</Hsp_hseq>
+      <Hsp_midline>Y++T  H +     + +++A      + P ++V +    +++++++  ++        +   +  G+   A G  +    A  V QG++ S +  +++    G T  T  +++D   +   +GGPLVN QG ++GI  +  A+     VE  GF +P+     I+S L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|489165891|ref|WP_003075495.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus intermedius] &gt;gi|355363580|gb|EHG11317.1| hypothetical protein HMPREF9177_01896 [Streptococcus intermedius F0413]</Hit_def>
+  <Hit_accession>WP_003075495</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0157485</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIA--ATGPTGKVE--GFTVPAQ---VIVSHLQ</Hsp_qseq>
+      <Hsp_hseq>YLVTNTHVINGASKVDIRLADG---NKVPGEIVGSDTYSDISVVRISASKVKSVAEFGDSSKLTVGETAIAIGSPLGSNYANTVTQGIISSLNRNVSLKSEDGQTISTQAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNRGTSVEGLGFAIPSNDVTNIISQLE</Hsp_hseq>
+      <Hsp_midline>Y++T  H +     + +++A      + P ++V +    +++++++  ++        +   +  G+   A G  +    A  V QG++ S +  +++    G T  T  +++D   +   +GGPLVN QG ++GI  +  A+     VE  GF +P+     I+S L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|497255522|ref|WP_009569739.1|</Hit_id>
+  <Hit_def>trypsin family protein [Streptococcus intermedius] &gt;gi|422112560|gb|EKU16347.1| trypsin family protein [Streptococcus intermedius BA1] &gt;gi|929735990|gb|ALF28613.1| serine protease [Streptococcus intermedius] &gt;gi|1169387289|gb|ARC26683.1| serine protease [Streptococcus intermedius]</Hit_def>
+  <Hit_accession>WP_009569739</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0179357</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>YVITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAG--APLVRQGMVQSSDAPLAV----GTTQITHLLRSDAVYSWEQTGGPLVNAQGDLVGINIA--ATGPTGKVE--GFTVPAQ---VIVSHLQ</Hsp_qseq>
+      <Hsp_hseq>YLVTNTHVINGASKVDIRLADG---NKVPGKIVGSDTYSDISVVRISASKVKSVAEFGDSSKLTVGETAIAIGSPLGSNYANTVTQGIISSLNRNVSLKSEDGQTISTQAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNRGTSVEGLGFAIPSNDVTNIISQLE</Hsp_hseq>
+      <Hsp_midline>Y++T  H +     + +++A      + P ++V +    +++++++  ++        +   +  G+   A G  +    A  V QG++ S +  +++    G T  T  +++D   +   +GGPLVN QG ++GI  +  A+     VE  GF +P+     I+S L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1176480790|ref|WP_082312021.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S3 [Streptococcus intermedius] &gt;gi|929735845|gb|ALF28468.1| 30S ribosomal protein S3 [Streptococcus intermedius] &gt;gi|1169387429|gb|ARC26823.1| 30S ribosomal protein S3 [Streptococcus intermedius]</Hit_def>
+  <Hit_accession>WP_082312021</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.178144</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>WGAYLLDNYDEDDYFRGSDDMSVGQFLVRNVAMP-----DVQR--------LYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYV-ITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQ</Hsp_qseq>
+      <Hsp_hseq>WDAKWYAEKEYADYL--HEDLAIRKFIQKELADAAVSTIEIERAVNKVNVSLHTAKPGMVIGKGGSNVDALRAKLNKLTGKQVHINIIEIKS----PDLDAHLVGEAIARQLEQRVA-------FRRAQKQAIQRTMRAGAKGIKTQVSGR--------LNGADIARSEGYSEGTVPL--------HTLRADIDYAWEE</Hsp_hseq>
+      <Hsp_midline>W A      +  DY    +D+++ +F+ + +A       +++R        L+   P  V+G GG  V+A       + G   ++ I  + S    PD+   +   A  R+   +V            + Q  ++ +      I+T V G+        + GA + R         PL        H LR+D  Y+WE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|489121134|ref|WP_003030965.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Streptococcus anginosus group] &gt;gi|333770651|gb|EGL47659.1| hypothetical protein HMPREF9966_1094 [Streptococcus anginosus SK52 = DSM 20563] &gt;gi|540768481|dbj|GAD37149.1| hypothetical protein ANG1_1336 [Streptococcus anginosus SK52 = DSM 20563] &gt;gi|540774496|dbj|GAD41124.1| hypothetical protein ANG3_1587 [Streptococcus intermedius SK54] &gt;gi|1178154649|gb|ORE83885.1| anion permease [Streptococcus anginosus SK52 = DSM 20563]</Hit_def>
+  <Hit_accession>WP_003030965</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.22277</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAG--SVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>GVMSALLGIGAGAFKVLAMDTVMKMPLKASSATSN---FMMGVTGTASAIFYLFIGQINPI-LVTPIAL------GVLAGSFIGSRIMPYVPVKVLRWIFLVALLALGVQMF</Hsp_hseq>
+      <Hsp_midline>G+ S +LGI  G  +V     + ++ L+ + A S+   F   V G  S + ++  G    I    P+ L      G   G  +G+R+M  +PV+VL+ I+   + A+ ++M </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489158917|ref|WP_003068574.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion permease [Streptococcus] &gt;gi|355367147|gb|EHG14860.1| hypothetical protein HMPREF9682_00265 [Streptococcus intermedius F0395] &gt;gi|576671783|gb|EUB25461.1| sulfite exporter TauE/SafE [Streptococcus sp. AS20] &gt;gi|742785723|gb|KIC78871.1| permease [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_003068574</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.279957</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAG--SVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>GVMSALLGIGAGAFKVLAMDTVMKMPLK---ASSATANFMMGVTGTASAIFYLFVGQINPV-LVTPIAL------GVLVGSFIGSRIMPYVPVKVLRWIFLVALLALGMQMF</Hsp_hseq>
+      <Hsp_midline>G+ S +LGI  G  +V     + ++ L+   A+S+   F   V G  S + ++  G    +    P+ L      G  VG  +G+R+M  +PV+VL+ I+   + A+ ++M </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|538448745|ref|WP_020997940.1|</Hit_id>
+  <Hit_def>anion permease [Streptococcus constellatus] &gt;gi|537625834|gb|AGU73110.1| hypothetical protein SCRE_1287 [Streptococcus constellatus subsp. pharyngis C232] &gt;gi|537627590|gb|AGU74865.1| hypothetical protein SCR2_1287 [Streptococcus constellatus subsp. pharyngis C818] &gt;gi|537632983|gb|AGU80255.1| hypothetical protein SCI_1330 [Streptococcus constellatus subsp. pharyngis C1050] &gt;gi|540781507|dbj|GAD44270.1| hypothetical protein ANG5_0798 [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377]</Hit_def>
+  <Hit_accession>GAD44270</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.28492</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAG--SVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>GVMSALLGIGAGAFKVLAMDTVMKMPLK---ASSATANFMMGVTGTASAIFYLFVGQINPV-LVTPIAL------GVLVGSFIGSRIMPYVPVKVLRWIFLVALLALGMQMF</Hsp_hseq>
+      <Hsp_midline>G+ S +LGI  G  +V     + ++ L+   A+S+   F   V G  S + ++  G    +    P+ L      G  VG  +G+R+M  +PV+VL+ I+   + A+ ++M </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1109661735|dbj|BAW16758.1|</Hit_id>
+  <Hit_def>putative transport protein [Streptococcus intermedius]</Hit_def>
+  <Hit_accession>BAW16758</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.311085</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAG--SVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>GVMSALLGIGAGAFKVLAMDTVMKMPLK---ASSATANFMMGVTGTASAIFYLFVGQINPV-LVTPIAL------GVLVGSFIGSRIMPYVPVKVLRWIFLVALLALGMQMF</Hsp_hseq>
+      <Hsp_midline>G+ S +LGI  G  +V     + ++ L+   A+S+   F   V G  S + ++  G    +    P+ L      G  VG  +G+R+M  +PV+VL+ I+   + A+ ++M </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489163451|ref|WP_003073075.1|</Hit_id>
+  <Hit_def>anion permease [Streptococcus intermedius] &gt;gi|355365667|gb|EHG13389.1| hypothetical protein HMPREF9177_00674 [Streptococcus intermedius F0413] &gt;gi|383844869|gb|EID82279.1| sulfite exporter TauE/SafE [Streptococcus intermedius SK54] &gt;gi|391757656|dbj|BAM23273.1| putative transport protein [Streptococcus intermedius JTH08] &gt;gi|422113795|gb|EKU17522.1| sulfite exporter TauE/SafE family protein [Streptococcus intermedius BA1] &gt;gi|514209481|gb|EPH05235.1| hypothetical protein HMPREF1654_00398 [Streptococcus intermedius ATCC 27335] &gt;gi|537629099|gb|AGU76373.1| hypothetical protein SIR_1011 [Streptococcus intermedius B196] &gt;gi|537630933|gb|AGU78206.1| hypothetical protein SII_1030 [Streptococcus intermedius C270]</Hit_def>
+  <Hit_accession>WP_003073075</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.327922</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAG--SVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>GVMSALLGIGAGAFKVLAMDTVMKMPLK---ASSATANFMMGVTGTASAIFYLFVGQINPV-LVTPIAL------GVLVGSFIGSRIMPYVPVKVLRWIFLVALLALGMQMF</Hsp_hseq>
+      <Hsp_midline>G+ S +LGI  G  +V     + ++ L+   A+S+   F   V G  S + ++  G    +    P+ L      G  VG  +G+R+M  +PV+VL+ I+   + A+ ++M </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|493312157|ref|WP_006269624.1|</Hit_id>
+  <Hit_def>anion permease [Streptococcus constellatus] &gt;gi|383343796|gb|EID21968.1| sulfite exporter TauE/SafE [Streptococcus constellatus subsp. constellatus SK53] &gt;gi|540773281|dbj|GAD37736.1| hypothetical protein ANG2_0064 [Streptococcus constellatus subsp. constellatus SK53]</Hit_def>
+  <Hit_accession>GAD37736</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.339649</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAG--SVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>GVMSALLGIGAGAFKVLAMDTVMKMPLK---ASSATANFMMGVTGTASAIFYLFVGQINPV-LVTPIAL------GVLVGSFIGSRIMPYVPVKVLRWIFLVALLALGMQMF</Hsp_hseq>
+      <Hsp_midline>G+ S +LGI  G  +V     + ++ L+   A+S+   F   V G  S + ++  G    +    P+ L      G  VG  +G+R+M  +PV+VL+ I+   + A+ ++M </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1176480381|ref|WP_082311612.1|</Hit_id>
+  <Hit_def>permease [Streptococcus intermedius] &gt;gi|929735196|gb|ALF27819.1| permease [Streptococcus intermedius] &gt;gi|1169386658|gb|ARC26052.1| permease [Streptococcus intermedius]</Hit_def>
+  <Hit_accession>WP_082311612</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.415681</Hsp_evalue>
+      <Hsp_query-from>520</Hsp_query-from>
+      <Hsp_query-to>629</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAG--SVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIYAATMAAIAIKML</Hsp_qseq>
+      <Hsp_hseq>GVMSALLGIGAGAFKVLAMDTVMKMPLK---ASSATANFMMGVTGTASAIFYLFVGQINPV-LVTPIAL------GVLIGSFIGSRIMPYVPVKVLRWIFLVALLALGMQMF</Hsp_hseq>
+      <Hsp_midline>G+ S +LGI  G  +V     + ++ L+   A+S+   F   V G  S + ++  G    +    P+ L      G  +G  +G+R+M  +PV+VL+ I+   + A+ ++M </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|489165588|ref|WP_003075195.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S3 [Streptococcus intermedius] &gt;gi|355363421|gb|EHG11158.1| 30S ribosomal protein S3 [Streptococcus intermedius F0413] &gt;gi|422112602|gb|EKU16385.1| ribosomal protein S3 [Streptococcus intermedius BA1] &gt;gi|537629810|gb|AGU77084.1| 30S ribosomal protein S3 [Streptococcus intermedius B196] &gt;gi|537631593|gb|AGU78866.1| 30S ribosomal protein S3 [Streptococcus intermedius C270] &gt;gi|1109662813|dbj|BAW17836.1| 30S ribosomal protein S3 [Streptococcus intermedius]</Hit_def>
+  <Hit_accession>WP_003075195</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.623806</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>WGAYLLDNYDEDDYFRGSDDMSVGQFLVRNVAMP-----DVQR--------LYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYV-ITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQ</Hsp_qseq>
+      <Hsp_hseq>WDAKWYAEKEYADYL--HEDLAIRKFIQKELADAAVSTIEIERAVNKVNVSLHTAKPGMVIGKGGSNVDALRAKLNKLTGKQVHINIIEIKS----PDLDAHLVGEGIARQLEQRVA-------FRRAQKQAIQRTMRAGAKGIKTQVSGR--------LNGADIARSEGYSEGTVPL--------HTLRADIDYAWEE</Hsp_hseq>
+      <Hsp_midline>W A      +  DY    +D+++ +F+ + +A       +++R        L+   P  V+G GG  V+A       + G   ++ I  + S    PD+   +      R+   +V            + Q  ++ +      I+T V G+        + GA + R         PL        H LR+D  Y+WE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|489167616|ref|WP_003077210.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S3 [Streptococcus intermedius] &gt;gi|383845478|gb|EID82881.1| ribosomal protein S3 [Streptococcus intermedius SK54] &gt;gi|391758584|dbj|BAM24201.1| 30S ribosomal protein S3 [Streptococcus intermedius JTH08] &gt;gi|514207374|gb|EPH03178.1| 30S ribosomal protein S3 [Streptococcus intermedius ATCC 27335]</Hit_def>
+  <Hit_accession>WP_003077210</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.29464</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>WGAYLLDNYDEDDYFRGSDDMSVGQFLVRNVAMP-----DVQR--------LYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYV-ITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQ</Hsp_qseq>
+      <Hsp_hseq>WDAKWYAEKEYADYL--HEDLAIRKFIQKELADAAVSTIEIERAVNKVNVSLHTAKPGMVIGKGGSNVDGLRAKLNKLTGKQVHINIIEIKS----PDLDAHLVGEGIARQLEQRVA-------FRRAQKQAIQRTMRAGAKGIKTQVSGR--------LNGADIARSEGYSEGTVPL--------HTLRADIDYAWEE</Hsp_hseq>
+      <Hsp_midline>W A      +  DY    +D+++ +F+ + +A       +++R        L+   P  V+G GG  V+        + G   ++ I  + S    PD+   +      R+   +V            + Q  ++ +      I+T V G+        + GA + R         PL        H LR+D  Y+WE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|489119639|ref|WP_003029478.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 30S ribosomal protein S3 [Streptococcus] &gt;gi|315188117|gb|EFU21846.1| ribosomal protein S3 [Streptococcus anginosus F0211] &gt;gi|333770254|gb|EGL47303.1| ribosomal protein S3 [Streptococcus anginosus SK52 = DSM 20563] &gt;gi|400373642|gb|EJP26570.1| ribosomal protein S3 [Streptococcus anginosus SK1138] &gt;gi|540769869|dbj|GAD36087.1| ribosomal protein S3 [Streptococcus anginosus SK52 = DSM 20563] &gt;gi|540775877|dbj|GAD40142.1| ribosomal protein S3 [Streptococcus intermedius SK54] &gt;gi|540777182|dbj|GAD43173.1| ribosomal protein S3 [Streptococcus anginosus 1505] &gt;gi|573494587|gb|ETS95258.1| ribosomal protein S3 [Streptococcus sp. OBRC6] &gt;gi|577032820|gb|EUC75593.1| ribosomal protein S3 [Streptococcus sp. CM7] &gt;gi|674114546|gb|AIK76978.1| 30S ribosomal protein S3 [Streptococcus anginosus] &gt;gi|973438461|gb|KUM00244.1| 30S ribosomal protein S3 [Streptococcus anginosus] &gt;gi|1049060563|gb|ANW85982.1| SSU ribosomal protein S3p [Streptococcus anginosus] &gt;gi|1080375423|gb|OFL63324.1| 30S ribosomal protein S3 [Streptococcus sp. HMSC061D01] &gt;gi|1080776064|gb|OFP43700.1| 30S ribosomal protein S3 [Streptococcus sp. HMSC066E07] &gt;gi|1091371187|gb|OHS89328.1| 30S ribosomal protein S3 [Streptococcus sp. HMSC36C04] &gt;gi|1178153114|gb|ORE82360.1| 30S ribosomal protein S3 [Streptococcus anginosus SK52 = DSM 20563]</Hit_def>
+  <Hit_accession>WP_003029478</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.02065</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>WGAYLLDNYDEDDYFRGSDDMSVGQFLVRNVAMP-----DVQR--------LYYTVPPAVVGVGGGGVNAGPVASGAIVGANGYV-ITTLHSVANVPDITVQVATSAGIRRFPAQVVKTIPGHNLALLKLQTTEKFLHFRMANIQTVVPGQQVFAFGRNMAGAPLVRQGMVQSSDAPLAVGTTQITHLLRSDAVYSWEQ</Hsp_qseq>
+      <Hsp_hseq>WDAKWYAEKEYADYL--HEDLAIRKFVQKELADAAVSTIEIERAVNKVNVSLHTAKPGMVIGKGGANVDALRAKLNKLTSKQVHINIIEIKS----PDLDAHLVGEGIARQLEQRVA-------FRRAQKQAIQRTMRAGAKGIKTQVSGR--------LNGADIARSEGYSEGTVPL--------HTLRADIDYAWEE</Hsp_hseq>
+      <Hsp_midline>W A      +  DY    +D+++ +F+ + +A       +++R        L+   P  V+G GG  V+A       +     ++ I  + S    PD+   +      R+   +V            + Q  ++ +      I+T V G+        + GA + R         PL        H LR+D  Y+WE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|489160091|ref|WP_003069740.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DNA-entry nuclease [Streptococcus] &gt;gi|355366152|gb|EHG13871.1| DNA-entry nuclease [Streptococcus intermedius F0395] &gt;gi|576671587|gb|EUB25270.1| DNA/RNA non-specific endonuclease-like protein [Streptococcus sp. AS20] &gt;gi|742785221|gb|KIC78369.1| DNA-entry nuclease [Streptococcus constellatus] &gt;gi|967432043|gb|KTL03086.1| DNA-entry nuclease [Streptococcus sp. FDAARGOS_146] &gt;gi|1080579209|gb|OFN56802.1| DNA-entry nuclease [Streptococcus sp. HMSC034B05]</Hit_def>
+  <Hit_accession>WP_003069740</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>7.23107</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>FLILVTFAWGAYLLDNYDEDDYFRGSDDMSVGQFLVRNVAMPDVQ</Hsp_qseq>
+      <Hsp_hseq>FLALV-LALGGYSFSNYHNHSSTKHSDSTAINRSIRKNYAAPSQE</Hsp_hseq>
+      <Hsp_midline>FL LV  A G Y   NY      + SD  ++ + + +N A P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|489115402|ref|WP_003025253.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DNA-entry nuclease [Streptococcus anginosus group] &gt;gi|319811396|gb|EFW07691.1| DNA-entry nuclease [Streptococcus anginosus 1_2_62CV]</Hit_def>
+  <Hit_accession>WP_003025253</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.64813</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>76</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>FLILVTFAWGAYLLDNYDEDDYFRGSDDMSVGQFLVRNVAMPDVQ</Hsp_qseq>
+      <Hsp_hseq>FLALV-LALGGYSFSNYHNHSSTKHSDSTAINRSIRKNHAAPSQE</Hsp_hseq>
+      <Hsp_midline>FL LV  A G Y   NY      + SD  ++ + + +N A P  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>17338</Statistics_db-num>
+      <Statistics_db-len>5530458</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,994 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|491713851|ref|WP_005558662.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans] &gt;gi|347991707|gb|EGY33170.1| type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans serotype e str. SC1083] &gt;gi|1008960766|gb|KYK76421.1| hypothetical protein SA3096_01425 [Aggregatibacter actinomycetemcomitans serotype e str. SA3096] &gt;gi|1008967322|gb|KYK82588.1| hypothetical protein SC936_01285 [Aggregatibacter actinomycetemcomitans serotype e str. SC936] &gt;gi|1008985239|gb|KYK96082.1| hypothetical protein ANH9776_02385 [Aggregatibacter actinomycetemcomitans serotype e str. ANH9776]</Hit_def>
+  <Hit_accession>WP_005558662</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.135571</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLL------VKVAEANPVNFN----VRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>VKFQRYNRAIPFIFLFLLSACVTQQSAVDFDKQKAAKARVELALGYLQQQDSAQAKLNLDKARSYAPDYYLVSAAFAYFYQQQGDLEQARAAYLNAIKLDDKQ</Hsp_hseq>
+      <Hsp_midline>V+ Q+Y+ A+P +        V + + V+F+     + R+ +AL  L + D A     +  A    P+   V  A AY Y+Q G  E+A   +  A +LD++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|644287776|ref|WP_025298068.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans] &gt;gi|601110825|gb|AHN70759.1| hypothetical protein CF65_00101 [Aggregatibacter actinomycetemcomitans HK1651]</Hit_def>
+  <Hit_accession>WP_025298068</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.393392</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLVK------VAEANPVNFN----VRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKFQQHNRAIPFIFPFLLSACVTQQSAVDFDKQKAAKARVELALGYLQQQDSAQAKLNLDKAFSYAPDYYLVSAAFAYFYQQQGDIEQARTTYLNAIKLDDK</Hsp_hseq>
+      <Hsp_midline>++ Q+++ A+P +        V + + V+F+     + R+ +AL  L + D A     +  A    P+   V  A AY Y+Q G  E+A   +  A +LD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|491692876|ref|WP_005547469.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans] &gt;gi|261414011|gb|ACX83382.1| hypothetical protein D11S_2028 [Aggregatibacter actinomycetemcomitans D11S-1] &gt;gi|365745346|gb|AEW76251.1| type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans ANH9381] &gt;gi|908383235|gb|KND84334.1| hypothetical protein SCC1398_0201095 [Aggregatibacter actinomycetemcomitans serotype b str. SCC1398] &gt;gi|909998562|gb|AKU28090.1| hypothetical protein HK1651_00370 [Aggregatibacter actinomycetemcomitans HK1651] &gt;gi|917594081|gb|KOE52327.1| hypothetical protein I23C_0308785 [Aggregatibacter actinomycetemcomitans serotype b str. I23C] &gt;gi|917596904|gb|KOE55096.1| hypothetical protein SCC4092_0203000 [Aggregatibacter actinomycetemcomitans serotype b str. SCC4092] &gt;gi|917597413|gb|KOE55600.1| hypothetical protein S23A_0205320 [Aggregatibacter actinomycetemcomitans serotype b str. S23A] &gt;gi|917599245|gb|KOE57387.1| hypothetical protein SCC2302_0309245 [Aggregatibacter actinomycetemcomitans serotype c str. SCC2302] &gt;gi|917601716|gb|KOE59803.1| hypothetical protein AAS4A_0203390 [Aggregatibacter actinomycetemcomitans serotype c str. AAS4A] &gt;gi|917605379|gb|KOE63357.1| hypothetical protein D17P2_0300315 [Aggregatibacter actinomycetemcomitans serotype c str. D17P-2] &gt;gi|1008276475|gb|AMQ92327.1| hypothetical protein ACT74_06805 [Aggregatibacter actinomycetemcomitans] &gt;gi|1008959754|gb|KYK75466.1| hypothetical protein SA2149_04980 [Aggregatibacter actinomycetemcomitans serotype e str. SA2149] &gt;gi|1008965304|gb|KYK80682.1| hypothetical protein SC383S_03585 [Aggregatibacter actinomycetemcomitans SC383s]</Hit_def>
+  <Hit_accession>WP_005547469</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.43552</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLVK------VAEANPVNFN----VRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKFQQHNRAIPFIFPFLLSACVTQQSAVDFDKQKAAKARVELALGYLQQQDSAQAKLNLDKAFSYAPDYYLVSAAFAYFYQQQGDIEQARTAYLNAIKLDDK</Hsp_hseq>
+      <Hsp_midline>++ Q+++ A+P +        V + + V+F+     + R+ +AL  L + D A     +  A    P+   V  A AY Y+Q G  E+A   +  A +LD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|491699810|ref|WP_005551171.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans] &gt;gi|385876056|gb|AFI87615.1| hypothetical protein D7S_01890 [Aggregatibacter actinomycetemcomitans D7S-1] &gt;gi|429154764|gb|EKX97477.1| type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans Y4] &gt;gi|908381731|gb|KND82895.1| hypothetical protein H5P1_0210130 [Aggregatibacter actinomycetemcomitans serotype a str. H5P1] &gt;gi|917610504|gb|KOE68208.1| hypothetical protein A160_0200315 [Aggregatibacter actinomycetemcomitans serotype a str. A160] &gt;gi|917610621|gb|KOE68318.1| hypothetical protein SCC393_0302170 [Aggregatibacter actinomycetemcomitans serotype e str. SCC393] &gt;gi|917610984|gb|KOE68664.1| hypothetical protein I63B_0300285 [Aggregatibacter actinomycetemcomitans serotype d str. I63B] &gt;gi|1008277786|gb|AMQ93637.1| hypothetical protein ACT75_03415 [Aggregatibacter actinomycetemcomitans] &gt;gi|1008964791|gb|KYK80190.1| hypothetical protein SA2876_01085 [Aggregatibacter actinomycetemcomitans serotype e str. SA2876] &gt;gi|1008969203|gb|KYK83729.1| hypothetical protein SA3033_06365 [Aggregatibacter actinomycetemcomitans serotype d str. SA3033] &gt;gi|1008973508|gb|KYK87169.1| hypothetical protein SA2200_06060 [Aggregatibacter actinomycetemcomitans serotype d str. SA2200] &gt;gi|1008983753|gb|KYK95007.1| hypothetical protein SA3733_05600 [Aggregatibacter actinomycetemcomitans serotype d str. SA3733] &gt;gi|1045566720|gb|ANU81216.1| type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>WP_005551171</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.519151</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLVK------VAEANPVNFN----VRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKFQQHNRAIPFIFPFLLSACVTQQSAVDFDKQKAAKARVELALGYLQQQDSAQAKLNLDKACSYAPDYYLVSAAFAYFYQQQGDIEQARAAYLNAIKLDDK</Hsp_hseq>
+      <Hsp_midline>++ Q+++ A+P +        V + + V+F+     + R+ +AL  L + D A     +  A    P+   V  A AY Y+Q G  E+A   +  A +LD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|491979954|ref|WP_005703576.1|</Hit_id>
+  <Hit_def>transporter [Aggregatibacter aphrophilus] &gt;gi|909548517|gb|KNE85733.1| transporter [Aggregatibacter aphrophilus ATCC 33389] &gt;gi|1042701349|gb|OBY51515.1| transporter [Aggregatibacter aphrophilus]</Hit_def>
+  <Hit_accession>KNE85733</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.638663</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNL--GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>ILLEAYELEP--YRVDFLFGAANANIYNGNTDKAIELYQKVLNVAPDDVKAHIYLTAWHRFKGNKAESDNHFKQLKNL</Hsp_hseq>
+      <Hsp_midline>+L++  E  P  + V F  G A  N+  G  D+AI+ ++  L + P++ K H  +   +   G+  E+  HFK+   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|491977101|ref|WP_005702022.1|</Hit_id>
+  <Hit_def>transporter [Aggregatibacter aphrophilus] &gt;gi|247534920|gb|ACS98166.1| transporter [Aggregatibacter aphrophilus NJ8700] &gt;gi|353345358|gb|EHB89653.1| hypothetical protein HMPREF9335_01490 [Aggregatibacter aphrophilus F0387] &gt;gi|908227486|gb|AKS65467.1| transporter [Aggregatibacter aphrophilus NJ8700]</Hit_def>
+  <Hit_accession>AKS65467</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.64443</Hsp_evalue>
+      <Hsp_query-from>136</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LLVKVAEANPVNFNVRFRLGVALDNL--GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>ILLEAYELEP--YRVDFLFGAANANIYNGNTDKAIELYQKVLNVAPDDVKAHIYLTAWHRFKGNKAESDNHFKQLKNL</Hsp_hseq>
+      <Hsp_midline>+L++  E  P  + V F  G A  N+  G  D+AI+ ++  L + P++ K H  +   +   G+  E+  HFK+   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|491976713|ref|WP_005701647.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter aphrophilus] &gt;gi|247533211|gb|ACS96457.1| type IV pilus biogenesis/stability protein PilW [Aggregatibacter aphrophilus NJ8700] &gt;gi|353345563|gb|EHB89854.1| type IV pilus biogenesis/stability protein PilW [Aggregatibacter aphrophilus F0387] &gt;gi|908225891|gb|AKS63872.1| hypothetical protein NJ8700_00030 [Aggregatibacter aphrophilus NJ8700]</Hit_def>
+  <Hit_accession>AKS63872</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>0.850615</Hsp_evalue>
+      <Hsp_query-from>153</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>RLGVALDNLGRFD--EAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>RVELALGHLQQQDGSQAKLNLDKALSYAPKYYLVHAALAYFYQQQGDVEHAKQSYLTAIKLDDKQ</Hsp_hseq>
+      <Hsp_midline>R+ +AL +L + D  +A  +   AL   P    VH A+AY Y+Q G  E A   +  A +LD++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|491979840|ref|WP_005703462.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter aphrophilus] &gt;gi|909548666|gb|KNE85879.1| hypothetical protein ATCC33389_0203220 [Aggregatibacter aphrophilus ATCC 33389] &gt;gi|1042702966|gb|OBY53120.1| type IV pilus biogenesis/stability protein PilW [Aggregatibacter aphrophilus]</Hit_def>
+  <Hit_accession>KNE85879</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.08114</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>ALSYAPKYYLVHAALAYFYQQQGDVEHAKQSYLTAIKLDDKQ</Hsp_hseq>
+      <Hsp_midline>AL   P    VH A+AY Y+Q G  E A   +  A +LD++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1009091360|ref|WP_061885444.1|</Hit_id>
+  <Hit_def>transporter [Aggregatibacter actinomycetemcomitans] &gt;gi|1008961226|gb|KYK76852.1| transporter [Aggregatibacter actinomycetemcomitans serotype e str. SA2149] &gt;gi|1008966701|gb|KYK81993.1| transporter [Aggregatibacter actinomycetemcomitans SC383s]</Hit_def>
+  <Hit_accession>WP_061885444</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.2754</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>AVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIK</Hsp_qseq>
+      <Hsp_hseq>AAILLE-AYELEPYRVDFLFGAANANIYNGNTDKAIELYQKVLTVAPDNVK</Hsp_hseq>
+      <Hsp_midline>A ++LE  Y+ + + V+       A +  G  D+  EL ++ +  APDN+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|502358732|ref|WP_012771591.1|</Hit_id>
+  <Hit_def>co-chaperone YbbN [Aggregatibacter aphrophilus] &gt;gi|247534189|gb|ACS97435.1| thioredoxin domain protein [Aggregatibacter aphrophilus NJ8700] &gt;gi|908226801|gb|AKS64782.1| hypothetical protein NJ8700_05020 [Aggregatibacter aphrophilus NJ8700]</Hit_def>
+  <Hit_accession>AKS64782</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.43511</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>FRLGVALDNL-GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>FKEGQALDAFQGALDQATLQQRLSIIL-PKEEEIKFNQALDLLQVENYEQALPLLKEAWEL</Hsp_hseq>
+      <Hsp_midline>F+ G ALD   G  D+A    ++++ L P E ++    A    Q+ ++E+ALP  K+A EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1009094732|ref|WP_061887434.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans] &gt;gi|1008978434|gb|KYK91131.1| hypothetical protein SA508_01335 [Aggregatibacter actinomycetemcomitans serotype d str. SA508] &gt;gi|1008980852|gb|KYK92760.1| hypothetical protein SA269_05915 [Aggregatibacter actinomycetemcomitans serotype d str. SA269]</Hit_def>
+  <Hit_accession>WP_061887434</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>1.90665</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLVK------VAEANPVNFN----VRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKFQQHNRAIPFIFPFLLSACATQQSAVDFDKQKAAKARVELALGYLQQQDSAQAKLNLDKACSYAPDYYLVSAAFAYFYQQQGDIEQARAAYLNAIKLDDK</Hsp_hseq>
+      <Hsp_midline>++ Q+++ A+P +          + + V+F+     + R+ +AL  L + D A     +  A    P+   V  A AY Y+Q G  E+A   +  A +LD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|491686334|ref|WP_005542471.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans] &gt;gi|917588453|gb|KOE32010.1| hypothetical protein D17P3_0300940 [Aggregatibacter actinomycetemcomitans D17P-3]</Hit_def>
+  <Hit_accession>WP_005542471</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>1.97819</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLVK------VAEANPVNFN----VRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKFQQHNRAIPFIFPFLLSACVTQQSAVDFDKQKAAKARVELALGYLQQQDSAQAKLNLDKACSYAPDYYLVSAAFAYFYQQQGDIEQARAAYLNVIKLDDK</Hsp_hseq>
+      <Hsp_midline>++ Q+++ A+P +        V + + V+F+     + R+ +AL  L + D A     +  A    P+   V  A AY Y+Q G  E+A   +    +LD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|491716206|ref|WP_005560215.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aggregatibacter actinomycetemcomitans] &gt;gi|917607366|gb|KOE65212.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype a str. A160] &gt;gi|917609919|gb|KOE67649.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype e str. SCC393] &gt;gi|1008965246|gb|KYK80626.1| TadD [Aggregatibacter actinomycetemcomitans serotype e str. SA2876]</Hit_def>
+  <Hit_accession>WP_005560215</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.28794</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|491728629|ref|WP_005566661.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aggregatibacter actinomycetemcomitans] &gt;gi|601111428|gb|AHN71362.1| nonspecific tight adherence protein D [Aggregatibacter actinomycetemcomitans HK1651] &gt;gi|908381341|gb|KND82528.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype b str. SCC1398] &gt;gi|917596516|gb|KOE54717.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype b str. SCC4092]</Hit_def>
+  <Hit_accession>WP_005566661</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.30874</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|491692066|ref|WP_005546827.1|</Hit_id>
+  <Hit_def>nonspecific tight adherence protein D [Aggregatibacter actinomycetemcomitans] &gt;gi|917601477|gb|KOE59572.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype c str. SCC2302] &gt;gi|917603277|gb|KOE61337.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype c str. AAS4A] &gt;gi|917605077|gb|KOE63065.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype c str. D17P-2] &gt;gi|1008960596|gb|KYK76257.1| TadD [Aggregatibacter actinomycetemcomitans serotype e str. SA2149] &gt;gi|1008963627|gb|KYK79093.1| TadD [Aggregatibacter actinomycetemcomitans SC383s]</Hit_def>
+  <Hit_accession>WP_005546827</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.39387</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|491727670|ref|WP_005566006.1|</Hit_id>
+  <Hit_def>nonspecific tight adherence protein D [Aggregatibacter actinomycetemcomitans] &gt;gi|307548793|dbj|BAJ19115.1| TadD [Aggregatibacter actinomycetemcomitans] &gt;gi|365746160|gb|AEW77065.1| Flp pilus assembly protein TadD [Aggregatibacter actinomycetemcomitans ANH9381] &gt;gi|917595592|gb|KOE53808.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype b str. I23C] &gt;gi|917597672|gb|KOE55850.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype b str. S23A] &gt;gi|917613231|gb|KOE70785.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype f str. D18P1] &gt;gi|1008275393|gb|AMQ91245.1| NrfG protein [Aggregatibacter actinomycetemcomitans] &gt;gi|1008972290|gb|KYK86147.1| TadD [Aggregatibacter actinomycetemcomitans serotype f str. SC29R]</Hit_def>
+  <Hit_accession>WP_005566006</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.4376</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|156069869|gb|ABU44871.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aggregatibacter actinomycetemcomitans Y4]</Hit_def>
+  <Hit_accession>ABU44871</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.471</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>NMLDEVTLYTHYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDN</Hsp_qseq>
+      <Hsp_hseq>NLLIPVDMYKILGRTTS------LNDTLKQLFGEVDSLEQYQYLADAITHIREMCMSQQKLMLDNLRQSEISTLPIHLIRDKASSSGGTFLRG-----RSFNPRPEN</Hsp_hseq>
+      <Hsp_midline>N+L  V +Y   G + +      + D  +  F   D + Q  Y    I+H +    S+  +ML+ +  ++   + + L    A    G   RG     RS    P+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|10334987|gb|AAD38175.3|AF152598_4</Hit_id>
+  <Hit_def>TadD [Aggregatibacter actinomycetemcomitans] &gt;gi|26000718|gb|AAN75214.1| TadD [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>AAD38175</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.48212</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|491711890|ref|WP_005557718.1|</Hit_id>
+  <Hit_def>nonspecific tight adherence protein D [Aggregatibacter actinomycetemcomitans] &gt;gi|347992432|gb|EGY33835.1| putative nonspecific tight adherence protein D [Aggregatibacter actinomycetemcomitans serotype e str. SC1083] &gt;gi|1008964589|gb|KYK79997.1| TadD [Aggregatibacter actinomycetemcomitans serotype e str. SC936]</Hit_def>
+  <Hit_accession>WP_005557718</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.48212</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|491686323|ref|WP_005542460.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aggregatibacter actinomycetemcomitans] &gt;gi|429153699|gb|EKX96473.1| tetratricopeptide repeat protein [Aggregatibacter actinomycetemcomitans Y4] &gt;gi|908381947|gb|KND83108.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype a str. H5P1] &gt;gi|917587316|gb|KOE30916.1| NrfG protein [Aggregatibacter actinomycetemcomitans D17P-3] &gt;gi|917606854|gb|KOE64739.1| NrfG protein [Aggregatibacter actinomycetemcomitans serotype d str. I63B] &gt;gi|928587871|dbj|BAS48262.1| tetratricopeptide repeat protein [Aggregatibacter actinomycetemcomitans NUM4039] &gt;gi|1008970345|gb|KYK84696.1| TadD [Aggregatibacter actinomycetemcomitans serotype d str. SA3033] &gt;gi|1008974717|gb|KYK88230.1| TadD [Aggregatibacter actinomycetemcomitans serotype d str. SA2200] &gt;gi|1008978327|gb|KYK91056.1| TadD [Aggregatibacter actinomycetemcomitans serotype d str. SA269] &gt;gi|1045566878|gb|ANU81374.1| NrfG protein [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>WP_005542460</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.55044</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLKTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|307133502|dbj|BAJ19014.1|</Hit_id>
+  <Hit_def>TadD [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>BAJ19014</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.57362</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLKTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1009093493|ref|WP_061886639.1|</Hit_id>
+  <Hit_def>NrfG protein, partial [Aggregatibacter actinomycetemcomitans] &gt;gi|1008956272|gb|KYK72347.1| TadD, partial [Aggregatibacter actinomycetemcomitans serotype e str. SA3096]</Hit_def>
+  <Hit_accession>WP_061886639</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.58893</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1008968608|gb|KYK83243.1|</Hit_id>
+  <Hit_def>TadD, partial [Aggregatibacter actinomycetemcomitans serotype d str. SA508]</Hit_def>
+  <Hit_accession>KYK83243</Hit_accession>
+  <Hit_len>182</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>2.95461</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLKTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|491976340|ref|WP_005701461.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aggregatibacter aphrophilus] &gt;gi|247533372|gb|ACS96618.1| TadD [Aggregatibacter aphrophilus NJ8700] &gt;gi|353345873|gb|EHB90162.1| hypothetical protein HMPREF9335_01023 [Aggregatibacter aphrophilus F0387] &gt;gi|908226039|gb|AKS64020.1| NrfG protein [Aggregatibacter aphrophilus NJ8700]</Hit_def>
+  <Hit_accession>AKS64020</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>3.79731</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTSSPKNGEIYNLRGVTYALMGNPNKASEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+++     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|928586906|dbj|BAS47297.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans NUM4039]</Hit_def>
+  <Hit_accession>BAS47297</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>4.26241</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VAEANPVNFN----VRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>VTQQSAVDFDKQKAAKARVELALGYLQQQDSAQAKLNLDKACSYAPDYYLVSAAFAYFYQQQGDIEQARAAYLNAIKLDDK</Hsp_hseq>
+      <Hsp_midline>V + + V+F+     + R+ +AL  L + D A     +  A    P+   V  A AY Y+Q G  E+A   +  A +LD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|491744164|ref|WP_005577297.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans] &gt;gi|359756878|gb|EHK91035.1| type IV pilus biogenesis/stability protein PilW [Aggregatibacter actinomycetemcomitans RhAA1] &gt;gi|909506800|gb|KNE78069.1| hypothetical protein RHAA2_04595 [Aggregatibacter actinomycetemcomitans RhAA1]</Hit_def>
+  <Hit_accession>WP_005577297</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>4.73978</Hsp_evalue>
+      <Hsp_query-from>125</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>VQVQKYDLAVPLLV------KVAEANPVNFN----VRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERS</Hsp_qseq>
+      <Hsp_hseq>VKFQRYNRAILFIFLFLLSACVTQQSVVDFDKQKAAKARVELALGYLQQQDSAQAKLNLDKARSYAPDYYLVSAAFAYFYQQQGDLEQARAAYLNAIKLDDKQ</Hsp_hseq>
+      <Hsp_midline>V+ Q+Y+ A+  +        V + + V+F+     + R+ +AL  L + D A     +  A    P+   V  A AY Y+Q G  E+A   +  A +LD++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|491980935|ref|WP_005704284.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aggregatibacter aphrophilus] &gt;gi|909547871|gb|KNE85091.1| NrfG protein [Aggregatibacter aphrophilus ATCC 33389] &gt;gi|1042702826|gb|OBY52980.1| NrfG protein [Aggregatibacter aphrophilus]</Hit_def>
+  <Hit_accession>KNE85091</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>6.18607</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENGLLTSTPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|504515329|ref|WP_014702431.1|</Hit_id>
+  <Hit_def>Flp pilus assembly protein TadD [Aggregatibacter actinomycetemcomitans] &gt;gi|385875641|gb|AFI87200.1| NrfG protein [Aggregatibacter actinomycetemcomitans D7S-1] &gt;gi|1008278663|gb|AMQ94514.1| NrfG protein [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>WP_014702431</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>6.53054</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLVSSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|32452629|gb|AAP43991.1|</Hit_id>
+  <Hit_def>TadD [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>AAP43991</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>6.53054</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLVSSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|915552104|ref|WP_050846240.1|</Hit_id>
+  <Hit_def>NrfG protein [Aggregatibacter actinomycetemcomitans] &gt;gi|909999039|gb|AKU28567.1| NrfG protein [Aggregatibacter actinomycetemcomitans HK1651]</Hit_def>
+  <Hit_accession>WP_050846240</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>7.08347</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLVSSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|491744815|ref|WP_005577948.1|</Hit_id>
+  <Hit_def>hypothetical protein [Aggregatibacter actinomycetemcomitans] &gt;gi|359756252|gb|EHK90411.1| TadD [Aggregatibacter actinomycetemcomitans RhAA1] &gt;gi|909506190|gb|KNE77472.1| NrfG protein [Aggregatibacter actinomycetemcomitans RhAA1]</Hit_def>
+  <Hit_accession>WP_005577948</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>7.08347</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLVSSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|491980568|ref|WP_005704091.1|</Hit_id>
+  <Hit_def>co-chaperone YbbN [Aggregatibacter aphrophilus] &gt;gi|909548281|gb|KNE85500.1| hypothetical protein ATCC33389_0206250 [Aggregatibacter aphrophilus ATCC 33389] &gt;gi|1042704234|gb|OBY54365.1| co-chaperone YbbN [Aggregatibacter aphrophilus]</Hit_def>
+  <Hit_accession>KNE85500</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>7.19936</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>FRLGVALDNL-GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>FKEGQALDAFQGALEQATLQQRLSVIL-PKEEEIKFNQALDLLQVENYEQALPLLKEAWEL</Hsp_hseq>
+      <Hsp_midline>F+ G ALD   G  ++A    ++++ L P E ++    A    Q+ ++E+ALP  K+A EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|261412781|gb|ACX82152.1|</Hit_id>
+  <Hit_def>NrfG protein [Aggregatibacter actinomycetemcomitans D11S-1]</Hit_def>
+  <Hit_accession>ACX82152</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>9.6279</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVENSLLTTSPKNGEVYNLRGVTYALIGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++     L   P  G+V+     +Y  +G+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|307548808|dbj|BAJ19129.1|</Hit_id>
+  <Hit_def>TadD [Aggregatibacter actinomycetemcomitans]</Hit_def>
+  <Hit_accession>BAJ19129</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>9.72976</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LDNLGRFDEAIDSFKIAL-GLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>LNQLKRYQEALEVEKNSLLTTSPKNGEVYNLRGVTYALMGNPNKANEDINKARE</Hsp_hseq>
+      <Hsp_midline>L+ L R+ EA++  K +L    P  G+V+     +Y  MG+  +A     KA E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29172</Statistics_db-num>
+      <Statistics_db-len>9258529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

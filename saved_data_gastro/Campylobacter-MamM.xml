@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99590.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamM, containing Cation efflux protein [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>318</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99590.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamM, containing Cation efflux protein [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>318</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|930358897|gb|ALF47084.1|</Hit_id>
+  <Hit_def>putative Co/Zn/Cd cation transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>ALF47084</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.80772e-15</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>GWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPH----LIVLWAALVSIGVNVGMYFYSRCVAIETNS</Hsp_qseq>
+      <Hsp_hseq>GLIGIVTNAILAAMKAVVGFASGSIAIILDAVNNLSDALSSVITIVGIKIAGKSPDKEHPFGYGRVEYLTAIVIGVIILYTGGTSVVESAKKIISPS---TPNYDTVLLALIAILVAVKFALGL--YTQKVGQKVNS</Hsp_hseq>
+      <Hsp_midline>G +G+  + +L  MKA VG   GS A++ DA+ +L D L++++ I+G  I+ K  D EHP+G+G+VE++ ++V+ V+ +   G  +V + + ++  S   TP+    L+ L A LV++   +G+  Y++ V  + NS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|748637308|ref|WP_039895485.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter showae]</Hit_def>
+  <Hit_accession>WP_039895485</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>3.86729e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILL--DESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHL------RARYVG</Hsp_qseq>
+      <Hsp_hseq>IGIVTNFFLAGAKIFIAMVSNSVALISDAVNNLSDAGSSIITIFGSKLASKMPDEDHPYGYGRTEYIGGLIVSVIVLMLGFQFLKTSIENIFAPEPTSFTMPFLAFLFCA---IFVKFALGFYYKKIGKQTKSISLIAVGQEALGDAIISCVILVSAALSYFVDI-QIDGYAGALASLVIIINGVLLIKETFDKIIGQRVEKEISDEIYAAVNRCEIVRGAYDLILHNYGAQRYVG</Hsp_hseq>
+      <Hsp_midline>+G+  +  L   K F+ ++  S A+++DA+ +L D  ++++ I G+ ++SK  D +HPYG+G+ E+I  ++VSV+ ++L    L  +++ +   + +    P L  L+ A   I V   + FY + +  +T S  +  + +   GDA  S  + +    ++++++  ID       ++ +++ G ++  + +  ++     + + + I  A  R   VRG   L        RYVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|255299512|gb|EET78798.1|</Hit_id>
+  <Hit_def>cation diffusion facilitator family transporter [Campylobacter showae RM3277]</Hit_def>
+  <Hit_accession>EET78798</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>5.58404e-15</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILL--DESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHL------RARYVG</Hsp_qseq>
+      <Hsp_hseq>IGIVTNFFLAGAKIFIAMVSNSVALISDAVNNLSDAGSSIITIFGSKLASKMPDEDHPYGYGRTEYIGGLIVSVIVLMLGFQFLKTSIENIFAPEPTSFTMPFLAFLFCA---IFVKFALGFYYKKIGKQTKSISLIAVGQEALGDAIISCVILVSAALSYFVDI-QIDGYAGALASLVIIINGVLLIKETFDKIIGQRVEKEISDEIYAAVNRCEIVRGAYDLILHNYGAQRYVG</Hsp_hseq>
+      <Hsp_midline>+G+  +  L   K F+ ++  S A+++DA+ +L D  ++++ I G+ ++SK  D +HPYG+G+ E+I  ++VSV+ ++L    L  +++ +   + +    P L  L+ A   I V   + FY + +  +T S  +  + +   GDA  S  + +    ++++++  ID       ++ +++ G ++  + +  ++     + + + I  A  R   VRG   L        RYVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|421960747|gb|EKU12349.1|</Hit_id>
+  <Hit_def>Cobalt-zinc-cadmium resistance protein [Campylobacter showae CSUNSWCD]</Hit_def>
+  <Hit_accession>EKU12349</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>9.63936e-15</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>LIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILL--DESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHL------RARYVGQ</Hsp_qseq>
+      <Hsp_hseq>MVSNSVALISDAVNNLSDAGSSIITIFGSKLASKMPDEDHPYGYGRTEYIGGLIVSVIVLMLGFQFLKTSVENIFAPEPTSFTIPFLAFLFCAIF---VKFALGFYYKKIGKQTKSISLKAVGQEALGDAIIS-CVILVSAALSYFDDIQIDGYAGALASLFIIINGVLLIKETFDKIIGQRVEKEISDEIYAAVNRCEIVRGAYDLILHNYGAQRYVGS</Hsp_hseq>
+      <Hsp_midline>++  S A+++DA+ +L D  ++++ I G+ ++SK  D +HPYG+G+ E+I  ++VSV+ ++L    L  +V+ +   + +    P L  L+ A+    V   + FY + +  +T S  +K + +   GDA  S  V L      Y +   ID       ++ +++ G ++  + +  ++     + + + I  A  R   VRG   L        RYVG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|696196284|gb|KGL36903.1|</Hit_id>
+  <Hit_def>cation transporter [Helicobacter sp. MIT 05-5294]</Hit_def>
+  <Hit_accession>KGL36903</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>2.00199e-14</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>VLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAV-QILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL-------WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRIE</Hsp_qseq>
+      <Hsp_hseq>ILIIVKFIVGILSGSIAILASAIDSLLDLFASLFNLYAVTKAEKPADFNYNYGMGKIESLAAVIEGSVILVSGIFILYQSCKKLFLDEKLTYLNY--SLYVMIFSLILTTMLVIYLSYVAKKSKNLVIKADALHYKTDILSNAAVLVALLLVQWTDFHQIDAIFGLGIGIYVAYSALGLLKEGVFV-------LLDRTLEEQKVNAIKQILDSAPKIQSYHDLKTRQSGEINFVEVHLVFDPNISLLDAHQASDFVECS----IRNLE</Hsp_hseq>
+      <Hsp_midline>+L+++K  VG++ GS A+LA A+ SL D+  +L  +   T + KP D  + YG GK+E + +++   V +V   ++L  +  ++ LDE L    +   L+  + S+ +   +  Y   VA ++ + +IK  A H+  D  ++ AV + ++   + +   ID    L       +  + LL  G  V       L+D T  E   N I +  +  P ++    L+ R  G+  + ++ +  DP  ++  AH+  + V+ +    IR +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|492512452|ref|WP_005871339.1|</Hit_id>
+  <Hit_def>cation diffusion facilitator transporter [Campylobacter gracilis] &gt;gi|257442602|gb|EEV17741.1| cation diffusion facilitator family transporter [Campylobacter gracilis RM3268] &gt;gi|909718861|gb|AKT93200.1| putative Co/Zn/Cd cation transporter [Campylobacter gracilis]</Hit_def>
+  <Hit_accession>WP_005871339</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>1.16879e-13</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>GWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAV-QILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPW-IDPAVALWETIDLLLLGKV--VFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMI-IGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>GAIGIISNVILAAFKGVVGLISGSIAVVLDAVNNLSDALSSVITIVGVHLASKQPDRAHPFGHGRIEYLSAIVIAVIILYTGGVSLVESIKKIIHPQAANYNAVSLVIIAVAVAAKFSLGLYTQKTGERVNSDSLVASGV------DAKYDALVSLATLVAALISLIFGLSLEAYLGAIISALLIKTAYEILRDTISKLLGSRPSLELTNEIYDVVRGFEGVIGAYDLMFHDYGPDKMVGSVHIEVASDTTAAQIDALTRRIQNAVFAKFNII</Hsp_hseq>
+      <Hsp_midline>G +G+  + +L   K  VGLI GS A++ DA+ +L D L++++ I+G  ++SK  D  HP+GHG++E++ ++V++V+ +   G  LV ++ +I+  ++ +     +V+ A  V+   ++G+Y       + ++S +   +      DA     V+L  + A  +++ + +     L   I  LL+     +  D    L+       + N I +      GV G   L     G D     + I V  + T  Q   +   +Q AV  K   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|544659130|ref|WP_021092747.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter concisus] &gt;gi|543212830|gb|ERJ31838.1| Cobalt-zinc-cadmium resistance protein [Campylobacter concisus UNSW2]</Hit_def>
+  <Hit_accession>WP_021092747</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.17638e-13</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>GWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHL-IVLWAALVSIGVNVGMY</Hsp_qseq>
+      <Hsp_hseq>GIIGIVTNAILAAIKAIVGFASGSIAIILDAVNNLSDAFSSVITIVGIKIAGKRPDKEHPFGYGRVEYLTAIVIGVIILYTGGTSVVESAKKIISPSTTNYDTISLVLIAILVVVKFALGLY</Hsp_hseq>
+      <Hsp_midline>G +G+  + +L  +KA VG   GS A++ DA+ +L D  ++++ I+G  I+ K  D EHP+G+G+VE++ ++V+ V+ +   G  +V + + ++  S      + +VL A LV +   +G+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|497337261|ref|WP_009651474.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter sp. FOBRC14] &gt;gi|401015785|gb|EJP74563.1| cation diffusion facilitator family transporter [Campylobacter sp. FOBRC14]</Hit_def>
+  <Hit_accession>WP_009651474</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.15729e-12</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRG</Hsp_qseq>
+      <Hsp_hseq>IGIITNVCLAATKICIALVSGSVAIITDAINNLSDASSCVITIFGSKLAAKMPDEDHPYGYGRVEYIGGLVVSIVVLMLGFDFLKTSICNIISPVQTKFTAPLLLILF---IAIFVKFALGAHYRKVGKNTKSISLKAVGTEALGDAIISCVILFSAALSYFWGVQ-IDGYAGALASLFIIINGVLLIKETFDKIIGGRVEKEVVDEIYAAVNRCEIVRG</Hsp_hseq>
+      <Hsp_midline>+G+  +  L   K  + L+ GS A++ DA+ +L D  + ++ I G+ +++K  D +HPYG+G+VE+I  +VVS+V ++L    L  ++  ++   ++    P L++L+   ++I V   +  + R V   T S  +K +     GDA  S  +      +++  +  ID       ++ +++ G ++  + +  ++     + V + I  A  R   VRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|930180920|gb|EAU01257.2|</Hit_id>
+  <Hit_def>Co/Zn/Cd cation transporter [Campylobacter curvus 525.92]</Hit_def>
+  <Hit_accession>EAU01257</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.21822e-12</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRG</Hsp_qseq>
+      <Hsp_hseq>IGIITNVCLAATKICIALVSGSVAIITDAINNLSDASSCVITIFGSKLAAKMPDEDHPYGYGRVEYIGGLVVSIVVLMLGFDFLKTSICNIISPVQTKFTAPLLLILF---IAIFVKFALGAHYRKVGKNTKSISLKAVGTEALGDAIISCVILFSAALSYFWGVQ-IDGYAGALASLFIIINGVLLIKETFDKIIGGRVEKEVVDEIYAAVNRCEIVRG</Hsp_hseq>
+      <Hsp_midline>+G+  +  L   K  + L+ GS A++ DA+ +L D  + ++ I G+ +++K  D +HPYG+G+VE+I  +VVS+V ++L    L  ++  ++   ++    P L++L+   ++I V   +  + R V   T S  +K +     GDA  S  +      +++  +  ID       ++ +++ G ++  + +  ++     + V + I  A  R   VRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|497163279|ref|WP_009492865.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter showae] &gt;gi|421960817|gb|EKU12419.1| Cobalt-zinc-cadmium resistance protein [Campylobacter showae CSUNSWCD]</Hit_def>
+  <Hit_accession>WP_009492865</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.40718e-12</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>GWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHL-IVLWAALVSIGVNVGMY</Hsp_qseq>
+      <Hsp_hseq>GIIGIVANAILAAIKAVVGFASGSIAIILDAVNNLSDALSSVITIVGIKIAGKNPDKEHPFGYGRVEYLTAIVIGVIILYTGGTSVVESAKKIIYPSAPSYDLISLVLIAILVVVKFALGIY</Hsp_hseq>
+      <Hsp_midline>G +G+  + +L  +KA VG   GS A++ DA+ +L D L++++ I+G  I+ K  D EHP+G+G+VE++ ++V+ V+ +   G  +V + + ++  S      + +VL A LV +   +G+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|500772097|ref|WP_011992486.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter curvus]</Hit_def>
+  <Hit_accession>WP_011992486</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.42034e-12</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRG</Hsp_qseq>
+      <Hsp_hseq>IGIITNVCLAATKICIALVSGSVAIITDAINNLSDASSCVITIFGSKLAAKMPDEDHPYGYGRVEYIGGLVVSIVVLMLGFDFLKTSICNIISPVQTKFTAPLLLILF---IAIFVKFALGAHYRKVGKNTKSISLKAVGTEALGDAIISCVILFSAALSYFWGVQ-IDGYAGALASLFIIINGVLLIKETFDKIIGGRVEKEVVDEIYAAVNRCEIVRG</Hsp_hseq>
+      <Hsp_midline>+G+  +  L   K  + L+ GS A++ DA+ +L D  + ++ I G+ +++K  D +HPYG+G+VE+I  +VVS+V ++L    L  ++  ++   ++    P L++L+   ++I V   +  + R V   T S  +K +     GDA  S  +      +++  +  ID       ++ +++ G ++  + +  ++     + V + I  A  R   VRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|516864459|ref|WP_018136572.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter curvus]</Hit_def>
+  <Hit_accession>WP_018136572</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>3.04422e-12</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRG</Hsp_qseq>
+      <Hsp_hseq>IGIITNVCLAATKICIALVSGSVAIITDAINNLSDASSCVITIFGSKLAAKMPDEAHPYGYGRVEYIGGLVVSIVVLMLGFDFLKTSIGNIISPVQTKFTAPLLLILF---IAIFVKFALGAHYRKVGKNTKSISLKAVGTEALGDAIIS-CVILFSAALSYFWGAQIDGYAGALASLFIIINGVLLIKETFDKIIGGRVEKEVVDEIYAAVNRCEIVRG</Hsp_hseq>
+      <Hsp_midline>+G+  +  L   K  + L+ GS A++ DA+ +L D  + ++ I G+ +++K  D  HPYG+G+VE+I  +VVS+V ++L    L  ++  ++   ++    P L++L+   ++I V   +  + R V   T S  +K +     GDA  S  V L      Y     ID       ++ +++ G ++  + +  ++     + V + I  A  R   VRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1179351376|gb|ORI00118.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>ORI00118</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>3.69387e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MRKSGCAVCSRSIGWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>MNKQECTQGENKAVIAAGACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVVAAGYIFYESIKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DAFGILLDHAANHEVTDEIIKMIKAKQRISDFHYLNTRRSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIRDKFKEF</Hsp_hseq>
+      <Hsp_midline>M K  C            A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ +V  GY+   +++   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V + I++  +    +    +L  R     I+  + +  D + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1179360631|gb|ORI09158.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>ORI09158</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>4.5072e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>MRKSGCAVCSRSIGWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>MNKQECTQGENKAVIAAGACAFLLALVKFAAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVVAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DAFGVLLDHAASPEVTDEIIKMIKAKQRISDFHYLNTRQSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>M K  C            A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ +V  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V + I++  +    +    +L  R     I+  + +  D + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1180624657|ref|WP_084110062.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_084110062</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>5.31699e-12</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVVAAGYIFYESIKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DAFGILLDHAANHEVTDEIIKMIKAKQRISDFHYLNTRRSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIRDKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ +V  GY+   +++   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V + I++  +    +    +L  R     I+  + +  D + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1172940472|ref|WP_081004442.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter concisus] &gt;gi|930359654|gb|ALF47841.1| cation diffusion facilitator family transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_081004442</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>7.68e-12</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRI---VEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIR</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFAAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVVAAGYIFYESIKKFSEPNLEIDLDL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAINLGK----DAFGILLDHAASPEVIDEIIKMIKAKERISDFH---YLSTRQSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFR</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ +V  GY+   +++   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V + I   ++A ER+       +L  R     I+  + +  D + ++  AHE+ ++++A +  K R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|544659410|ref|WP_021093021.1|</Hit_id>
+  <Hit_def>cobalt-zinc-cadmium resistance protein [Campylobacter concisus] &gt;gi|543212415|gb|ERJ31429.1| Cobalt-zinc-cadmium resistance protein [Campylobacter concisus UNSW2]</Hit_def>
+  <Hit_accession>WP_021093021</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>7.8261e-12</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVVAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVIVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DAFGVLLDHAASPEVTAEIIKMIKAKQRISDFHYLNTRQSANTIFLTLHLVFDKDISLYDAHEVAESLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ +V  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V   I++  +    +    +L  R     I+  + +  D + ++  AHE+ E+++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|544651272|ref|WP_021085237.1|</Hit_id>
+  <Hit_def>cobalt-zinc-cadmium resistance protein [Campylobacter concisus] &gt;gi|543205594|gb|ERJ24864.1| Cobalt-zinc-cadmium resistance protein [Campylobacter concisus UNSW1]</Hit_def>
+  <Hit_accession>WP_021085237</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.03812e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRI---VEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFAAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSKKQADERFNFGYTKLEALAALFECVIIVLAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DAFGVLLDHAASPEVTAEIIKMIKAKERISDFH---YLNTRQSANTIFLTLHLVFDKDISLYDAHEVAESLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ ++  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V   I   ++A ER+       +L  R     I+  + +  D + ++  AHE+ E+++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|544657629|ref|WP_021091268.1|</Hit_id>
+  <Hit_def>cobalt-zinc-cadmium resistance protein [Campylobacter concisus] &gt;gi|543206619|gb|ERJ25814.1| Cobalt-zinc-cadmium resistance protein [Campylobacter concisus ATCC 51562]</Hit_def>
+  <Hit_accession>WP_021091268</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.60019e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQN---RIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIR</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVVAAGYIFYESIKKFSEPNLEIDLGL-SLGVMVFSVIVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAINLGK----DAFGILLDHAASPEVTEGIIKMIKAKERISDFH---YLNTRQSANAIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFR</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ +V  GY+   +++   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V     ++++A ER+       +L  R     I+  + +  D + ++  AHE+ ++++A +  K R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|489029976|ref|WP_002940369.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter concisus] &gt;gi|384577926|gb|EIF07200.1| Cobalt-zinc-cadmium resistance protein [Campylobacter concisus UNSWCD]</Hit_def>
+  <Hit_accession>WP_002940369</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.82521e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFAAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADEKFNFGYTKLEALAALFECVIIVVAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVIVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DAFGVLLDHAASPEVTAEIIKMIKAKQRISDFHYLNTRQSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D +  +G+ K+E + ++   V+ +V  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V   I++  +    +    +L  R     I+  + +  D + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1129515071|ref|WP_075469420.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter concisus] &gt;gi|1073371316|gb|OEX92628.1| transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_075469420</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>2.52692e-11</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>WVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASG-----------AVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGV--IHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRIESL</Hsp_qseq>
+      <Hsp_hseq>WLSIAASVVVILLKAAAALVTGSVGFLSDAIESVINLVAACVGLWALKLSAKPADDNHNFGHSRAEYFSAQVEGTLILIASVVIIYTAV----DRIIHPQP--------VEQLGVGLGFSVAAAAVNAAVGVALIRAGKKYRSTTLDADGRHLITDVWTSVGVVVGMALVWLTGWAVLDPVVALIVGVNILITGYKLLKGAIQGLLSETLPDDEVETVHEFLRAFADENGVEFTSVRTAAAGRDRLISIVMQVPGEWSVSHSHEHADAVEEGLAESLGGAETI</Hsp_hseq>
+      <Hsp_midline>W+ +A S V++++KA   L+ GS   L+DA+ S+ +++ A + +    +S+KP D  H +GH + E+  + V   + ++ +  ++  AV    D  +H  P        +  +GV +G    +  V       LI+   K+      A G            V +G+          +DP VAL   +++L+ G  +   A +GL+  T  +     + E         GV    +R    G+D    +++ V  E +V  +HE  +AV+  +   +   E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1173643357|ref|WP_081327363.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter concisus] &gt;gi|158604956|gb|ABW74772.1| cation diffusion facilitator family transporter [Campylobacter concisus 13826]</Hit_def>
+  <Hit_accession>WP_081327363</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>4.62039e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>MRKSGCAVCSRSIGWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIR</Hsp_qseq>
+      <Hsp_hseq>INKQECTQSENKAVIAAGACAFLLALVKFAAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVVAAGYIFYESVEKFSEPNLEIDLGL-SLGVMVFSVVVTLALVIFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DALGVLLDHAASPEITAEIIKMIKAKNRISDFHYLNTRQSANTIFLTLHLVFDKDISLYDAHEVAESLEAEIREKFK</Hsp_hseq>
+      <Hsp_midline>+ K  C            A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ +V  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA   L+DH A   +   I++  +    +    +L  R     I+  + +  D + ++  AHE+ E+++A +  K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1179358525|gb|ORI07120.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter concisus]</Hit_def>
+  <Hit_accession>ORI07120</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.97488e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>MRKSGCAVCSRSIGWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRI---VEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>MNKQECTQGENKAVIAAGACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECAIIVAAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAINLGK----DAFGILLDHAASPEVTDEIIKMIKAKERISDFH---YLNTRQSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>M K  C            A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++    + +   GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V + I   ++A ER+       +L  R     I+  + +  D + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1189233603|ref|WP_085658635.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter concisus] &gt;gi|1187724037|gb|OSQ23137.1| cation-efflux pump [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_085658635</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>7.80382e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIR</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVVAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVIFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DALGVLLDHAASPEVTAEIIKMIKAKQRILDFHYLNTRQSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFR</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ +V  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA   L+DH A   V   I++  +    +    +L  R     I+  + +  D + ++  AHE+ ++++A +  K R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|544650877|ref|WP_021084888.1|</Hit_id>
+  <Hit_def>cobalt-zinc-cadmium resistance protein [Campylobacter concisus] &gt;gi|543202306|gb|ERJ21667.1| Cobalt-zinc-cadmium resistance protein [Campylobacter concisus UNSW3]</Hit_def>
+  <Hit_accession>WP_021084888</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>8.17735e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADEKFNFGYTKLEALAALFECVIIVLAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVVVTLYLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DALGVLLDHAASPEVTAEIIKMIKAKQRISDFHYLNTRQSANTIFLTLHLVFDKDISLYDAHEVAESLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D +  +G+ K+E + ++   V+ ++  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA   L+DH A   V   I++  +    +    +L  R     I+  + +  D + ++  AHE+ E+++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1180550860|ref|WP_084042170.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter concisus]</Hit_def>
+  <Hit_accession>WP_084042170</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>9.49662e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRI---VEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECAIIVAAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAINLGK----DAFGILLDHAASPEVTDEIIKMIKAKERISDFH---YLNTRQSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++    + +   GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V + I   ++A ER+       +L  R     I+  + +  D + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|544653061|ref|WP_021086949.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter concisus] &gt;gi|543211572|gb|ERJ30622.1| Cobalt-zinc-cadmium resistance protein [Campylobacter concisus UNSWCS]</Hit_def>
+  <Hit_accession>WP_021086949</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.29254e-10</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFTAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVLAAGYIFYESIKKFSEPNLEIDLGL-SLGVMVFSVIVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DAFGVLLDHAASPEVIDGIIKMIKAKQRISDFHYLNTRQSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ ++  GY+   +++   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   V + I++  +    +    +L  R     I+  + +  D + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|736972863|ref|WP_034969275.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter mucosalis] &gt;gi|653290805|gb|KEA45711.1| hypothetical protein CR66_06070 [Campylobacter mucosalis]</Hit_def>
+  <Hit_accession>WP_034969275</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.59865e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHL------RARYVG</Hsp_qseq>
+      <Hsp_hseq>LGIVLNIFLASIKILIALASNSVAVISDAINNISDAFSSVITIFGSKLATKLPDENHPYGYGRTEYIGGLIVSVIVLMLGLNFLKASVEVIIEPKQTNFEFVAILFLAFAMILKFLIAKIYKK-VGNDTESISLKAVGAEAFGDAIISFIILIS-AGVSYFYGIFIDGWAGILASGFIIFNGIVLIKQTFDKIIGVRVEQEVSQKVYMAVKECEIVLGAYDLILHNYGVERYVG</Hsp_hseq>
+      <Hsp_midline>+G+ ++  L  +K  + L   S A+++DA+ ++ D  ++++ I G+ +++K  D  HPYG+G+ E+I  ++VSV+ ++L    L  +V+++++        + +L+ A   I   +    Y + V  +T S  +K +     GDA  S  + +   G  Y    +ID    +  +  ++  G V+    +  ++     + V  ++  A +    V G   L        RYVG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|544655608|ref|WP_021089315.1|</Hit_id>
+  <Hit_def>cobalt-zinc-cadmium resistance protein [Campylobacter concisus] &gt;gi|543209598|gb|ERJ28703.1| Cobalt-zinc-cadmium resistance protein [Campylobacter concisus ATCC 51561]</Hit_def>
+  <Hit_accession>WP_021089315</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.48304e-10</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFAAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVLAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKVDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DAFGVLLDHAASPKITAEIIKMIKAKQRISDFHYLNTRQSANTIFLTLHLVFNKDISLYDAHEVADSLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ ++  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA+  L+DH A   +   I++  +    +    +L  R     I+  + +  + + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|496649683|ref|WP_009293651.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter sp. 10_1_50] &gt;gi|363652620|gb|EHL91653.1| cation diffusion facilitator family transporter [Campylobacter sp. 10_1_50]</Hit_def>
+  <Hit_accession>WP_009293651</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>2.8554e-10</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVAL----WETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRI</Hsp_qseq>
+      <Hsp_hseq>ACAFLLALVKFAAGLFSGSVAVLGSAIDSMLDFIVSLLNLFALRKSRKQADERFNFGYTKLEALAALFECVIIVLAAGYIFYESVKKFSEPNLEIDLGL-SLGVMVFSVVVTLCLVLFLNQISKKSGNLIIKADALHYKIDLFSNLAVIISLLIIKFSGFVMIDAIFGIVISGYIAQSAISLGK----DALGVLLDHAASPEVTAEIIKMIKAKQRISDFHYLNTRQSANTIFLTLHLVFDKDISLYDAHEVADSLEAEIREKFKEF</Hsp_hseq>
+      <Hsp_midline>A + +L ++K   GL  GS A+L  A+ S+ D + +L+ +     S K  D    +G+ K+E + ++   V+ ++  GY+   +V+   + +L     L  L   + S+ V + +  +   ++ ++ + +IK  A H+  D  ++ AV + ++   +     ID    +    +     + LGK    DA   L+DH A   V   I++  +    +    +L  R     I+  + +  D + ++  AHE+ ++++A +  K +  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|459279048|gb|EMG30929.1|</Hit_id>
+  <Hit_def>MMT1 protein, partial [Campylobacter showae CC57C]</Hit_def>
+  <Hit_accession>EMG30929</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>3.72693e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>VGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVV</Hsp_qseq>
+      <Hsp_hseq>IGIVTNFFLAGTKIFIAMVSNSVALISDAVNNLSDAGSSIITIFGSKLASKMPDEDHPYGYGRTEYIGGLIVSVI</Hsp_hseq>
+      <Hsp_midline>+G+  +  L   K F+ ++  S A+++DA+ +L D  ++++ I G+ ++SK  D +HPYG+G+ E+I  ++VSV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|981212390|ref|WP_059435316.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter fetus] &gt;gi|962431538|emb|CUU86229.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059435316</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.25848e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKI</Hsp_qseq>
+      <Hsp_hseq>AVAIILAIVKFIVGITSGSLAVLSSAIDSMLDCLVSALNYFALKKSNANPNDKFNFGYGKVEALVALFEGAFIVGIAVFICYSSVQKLLNGAKSVETTSAMLVMVISMVLTGL---LVLYLRMVYKKTGNLIIKADALHYKTDLLTNLAIFIALFVIWITGYDVVDAIFGIVVSIYIAFSAFGLLKDGVYILLDGALPSDIVRAIIDILNSKEDVKSYHYLKTRKSGEKSFFSVHLVFDPNISLSKAHKVADDIESDIKSKF</Hsp_hseq>
+      <Hsp_midline>AV+ +L ++K  VG+  GS A+L+ A+ S+ D L + +       S+   + +  +G+GKVE ++++      + +  ++   +VQ LL+  +S+  T  ++V+  ++V  G+   +  Y R V  +T + +IK  A H+  D   + A+ + +          +D    +  +I +      +  D    L+D      +   I++       V+   +L+ R  G+  +  + +  DP  ++ +AH++ + +++ +  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|489805375|ref|WP_003709249.1|</Hit_id>
+  <Hit_def>cobalt-zinc-cadmium resistance protein [Lactobacillus salivarius] &gt;gi|380344308|gb|EIA32654.1| cobalt-zinc-cadmium resistance protein [Lactobacillus salivarius SMXD51] &gt;gi|1173427721|gb|OQQ75811.1| cation transporter [Lactobacillus salivarius] &gt;gi|1173470546|gb|OQR16866.1| cation transporter [Lactobacillus salivarius]</Hit_def>
+  <Hit_accession>EIA32654</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.69716e-09</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>VMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTI--------------------SSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQ</Hsp_qseq>
+      <Hsp_hseq>IIEYFLAEISNSQTLRADAFNNISGIVSTMLLMIGIHIARDIDDDDIAGMAPLPKLNMSQRGNDQRVQFTRFRYETVFTLVTGVVMIGIAISVISTGIINLWKPDKRVIPEPIALVGAGIATVIMLIVWYLNRRAGRKLQNAALSASAQDSLSDAFTSIGTLISISGALIFKITWLDGATSILVGLFILYSGFKIFMDSSLNLVDYFDPE-VEEEYRNVVLSVPGVAHLSELKAHYNGNIVSLDIVVMVDAKMSVLDSYRIAENIE</Hsp_hseq>
+      <Hsp_midline>+++ F+  I  SQ + ADA  ++  +++ ++++IG  I                    S +  D    +   + E + ++V  VV I +   ++   +  L        P  I L  A ++  + + +++ +R    +  +  +   A+    DA  S    + I GA    + W+D A ++   + +L  G  +FMD+   L+D+   E V+         VPGV  +  L+A Y G  +  D+++ VD + +V  ++ I E ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|981174492|ref|WP_059425684.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter fetus] &gt;gi|962406976|emb|CUU68071.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus] &gt;gi|962430856|emb|CUU75776.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059425684</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>3.22278e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKI</Hsp_qseq>
+      <Hsp_hseq>AVAIILAIVKFVVGITSGSLAVLSSAIDSMLDCLVSVLNYFALKKSNANPNDKFNFGYGKVEALVALFEGAFIVGIAVFICYSSVQKLLNGAKSVETTSAMLVMVISMVLTGL---LVLYLRMVYKKTGNLIIKADALHYKTDLLTNLAIFIALFVIWITGYDVVDAIFGIVVSIYIAFSAFGLLKEGVYILLDGALPSDIVRAIIDILNSKEDVKSYHYLKTRKSGEKSFFSVHLVFDPNISLSKAHKVADDIESDIKSKF</Hsp_hseq>
+      <Hsp_midline>AV+ +L ++K  VG+  GS A+L+ A+ S+ D L +++       S+   + +  +G+GKVE ++++      + +  ++   +VQ LL+  +S+  T  ++V+  ++V  G+   +  Y R V  +T + +IK  A H+  D   + A+ + +          +D    +  +I +      +  +    L+D      +   I++       V+   +L+ R  G+  +  + +  DP  ++ +AH++ + +++ +  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|981208739|ref|WP_059431759.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter fetus] &gt;gi|962411669|emb|CUU74975.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus] &gt;gi|962414788|emb|CUU77724.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059431759</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>4.06567e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKI</Hsp_qseq>
+      <Hsp_hseq>AVAIILAIVKFIVGITSGSLAVLSSAIDSMLDCLVSALNYFALKKSNANPNDKFNFGYGKVEALVALFEGAFIVGIAVFICYSSVQKLLNGAKSVETTSAMLVMVISMVLTGL---LVLYLRMVYKKTGNLIIKADALHYKTDLLTNLAIFIALFVIWITGYDVVDAIFGIVVSIYIAFSAFGLLKEGVYILLDGALPSDVVRAIIDILNSKEDVKSYHYLKTRKSGEKSFFSVHLVFDPNISLSKAHKVADDIESDIKSKF</Hsp_hseq>
+      <Hsp_midline>AV+ +L ++K  VG+  GS A+L+ A+ S+ D L + +       S+   + +  +G+GKVE ++++      + +  ++   +VQ LL+  +S+  T  ++V+  ++V  G+   +  Y R V  +T + +IK  A H+  D   + A+ + +          +D    +  +I +      +  +    L+D      V   I++       V+   +L+ R  G+  +  + +  DP  ++ +AH++ + +++ +  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|981185561|ref|WP_059426807.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter fetus] &gt;gi|962412869|emb|CUU68084.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus] &gt;gi|962420403|emb|CUU82151.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059426807</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>5.27299e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKI</Hsp_qseq>
+      <Hsp_hseq>AVAIILAIVKFIVGITSGSLAVLSSAIDSMLDCLVSALNYFALKKSNANPNDKFNFGYGKVEALVALFEGAFIVGIAVFICYSSVQKLLNGAKSVETTSAMLVMVISMVLTGL---LVLYLRMVYKKTGNLIIKADALHYKTDLLTNLAIFIALFVIWITGYDVVDAIFGIVVSIYIAFSAFGLLKEGVYILLDGALPSDIVRAIIDILNSKEDVKSYHYLKTRKSGEKSFFSVHLVFDPNISLSKAHKVADDIESDIKSKF</Hsp_hseq>
+      <Hsp_midline>AV+ +L ++K  VG+  GS A+L+ A+ S+ D L + +       S+   + +  +G+GKVE ++++      + +  ++   +VQ LL+  +S+  T  ++V+  ++V  G+   +  Y R V  +T + +IK  A H+  D   + A+ + +          +D    +  +I +      +  +    L+D      +   I++       V+   +L+ R  G+  +  + +  DP  ++ +AH++ + +++ +  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|736964355|ref|WP_034960835.1|</Hit_id>
+  <Hit_def>MULTISPECIES: cation transporter [Campylobacter] &gt;gi|653289848|gb|KEA44874.1| cation transporter [Campylobacter hyointestinalis subsp. hyointestinalis] &gt;gi|962416676|emb|CUU69499.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus] &gt;gi|962418503|emb|CUU68157.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus] &gt;gi|962428217|emb|CUU79461.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus] &gt;gi|1028381548|gb|ANE32811.1| cation diffusion facilitator family transporter [Campylobacter hyointestinalis subsp. hyointestinalis LMG 9260] &gt;gi|1097011935|emb|SFT38363.1| ferrous-iron efflux pump FieF [Campylobacter hyointestinalis]</Hit_def>
+  <Hit_accession>WP_034960835</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>5.42189e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKI</Hsp_qseq>
+      <Hsp_hseq>AVAIILAIVKFVVGITSGSLAVLSSAIDSMLDCLVSVLNYFALKKSNANPNDKFNFGYGKVEALVALFEGAFIVGIAVFICYSSVQKLLNGAKSVETTSAMLVMAISMVLTGL---LVLYLRRVYKKTGNLIIKADALHYKTDLLTNLAIFIALFVIWITGYDVVDAIFGIVVSIYIAFSAFGLVKEGVYILLDGALPSDVVRAIIDILNSKEDVKSYHYLKTRKSGEKSFFSVHLVFDPNISLSKAHKVADDIESDIKSKF</Hsp_hseq>
+      <Hsp_midline>AV+ +L ++K  VG+  GS A+L+ A+ S+ D L +++       S+   + +  +G+GKVE ++++      + +  ++   +VQ LL+  +S+  T  ++V+  ++V  G+   +  Y R V  +T + +IK  A H+  D   + A+ + +          +D    +  +I +      +  +    L+D      V   I++       V+   +L+ R  G+  +  + +  DP  ++ +AH++ + +++ +  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|981208091|ref|WP_059431312.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter fetus] &gt;gi|962425317|emb|CUU87253.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059431312</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>6.34839e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKI</Hsp_qseq>
+      <Hsp_hseq>AVAIILAIVKFIVGITSGSLAVLSSAIDSMLDCLVSALNYFALKKSNANPNDKFNFGYGKVEALVALFEGAFIVGIAIFICYSSVQKLLNGAKSVETTSAMLVMVISMVLTGL---LVLYLRMVYKKTGNLIIKADALHYKTDLLTNLAIFIALFVIWITGYDVVDAIFGIVVSIYIAFSAFGLLKEGVYILLDGALPSDIVRAIIDILNSKEDVKSYHYLKTRKSGEKSFFSVHLVFDPNISLSKAHKVADDIESDIKSKF</Hsp_hseq>
+      <Hsp_midline>AV+ +L ++K  VG+  GS A+L+ A+ S+ D L + +       S+   + +  +G+GKVE ++++      + +  ++   +VQ LL+  +S+  T  ++V+  ++V  G+   +  Y R V  +T + +IK  A H+  D   + A+ + +          +D    +  +I +      +  +    L+D      +   I++       V+   +L+ R  G+  +  + +  DP  ++ +AH++ + +++ +  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|981211375|ref|WP_059434315.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter fetus] &gt;gi|962408853|emb|CUU77020.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus] &gt;gi|962424055|emb|CUU68663.1| ferrous-iron efflux pump FieF [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_059434315</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>8.86426e-09</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKI</Hsp_qseq>
+      <Hsp_hseq>AVAIILAIVKFIVGITSGSLAVLSSAIDSMLDCLVSALNYFALKKSNANPNDKFNFGYGKVEALVALFEGAFIVGIAVFICYSSVQKLLNGAKSVETTSAMLVMAISMVLTGL---LVLYLRRVYKKTGNLIIKADALHYKTDLLTNLAIFIALFVIWITGYDVVDAIFGIVVSIYIAFSAFGLVKEGVYILLDGALPSDVVRAIIDILNSKEDVKSYHYLKTRKSGEKSFFSVHLVFDPNISLSKAHKVADDIESDIKSKF</Hsp_hseq>
+      <Hsp_midline>AV+ +L ++K  VG+  GS A+L+ A+ S+ D L + +       S+   + +  +G+GKVE ++++      + +  ++   +VQ LL+  +S+  T  ++V+  ++V  G+   +  Y R V  +T + +IK  A H+  D   + A+ + +          +D    +  +I +      +  +    L+D      V   I++       V+   +L+ R  G+  +  + +  DP  ++ +AH++ + +++ +  K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|971481494|ref|WP_058893069.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter iguaniorum] &gt;gi|971186589|gb|ALV24265.1| cation diffusion facilitator family transporter [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_058893069</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>3.5926e-08</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQ---ILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRR</Hsp_qseq>
+      <Hsp_hseq>SVAVVLAIIKFSVGLASGSMAVLSSAIDSLLDCLVSALNYFAMKKSSANPNAKFNFGYGKLEALVALFEG-AFIVGIGIFICYSSAEKIINPKQSIDVGAGFIVMIISLVMTGL---LVLYLKSVYTKTGNLIVKADALHYQTDLITNAAILAALFAIWLSGYEIIDALFGIGISIYIVFSAISLVREGVYILLDGSLELDKVEEIIEIINSKPDIKSYHYLKTRKSGDKSYFSVHLVFDPDISLSLAHKIGDEIEDDIKAKINN</Hsp_hseq>
+      <Hsp_midline>+V+ VL ++K  VGL  GS A+L+ A+ SL D L + +       SS   +A+  +G+GK+E ++++     FIV  G  + ++     I   +S+      IV+  +LV  G+   +  Y + V  +T + ++K  A H+  D   + A+   +          ID    +  +I ++     +  +    L+D +        I+E     P ++   +L+ R  G   +  + +  DP+ ++  AH+I + ++  +  KI  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|740668424|ref|WP_038453714.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter iguaniorum] &gt;gi|669188077|gb|AII14530.1| cation diffusion facilitator family transporter [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_038453714</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>3.90359e-08</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRR</Hsp_qseq>
+      <Hsp_hseq>SVAVVLAIIKFSVGLASGSMAVLSSAIDSLLDCLVSALNYFAMKKSSANPNAKFNFGYGKLEALVALFEGAFIVGIGIFICYSSVEKIINPKQSIDVGAGFIVMIISLVMTGL---LVLYLKSVYTKTGNLIVKADALHYQTDLITNAAILAALFAIWLSGYEIIDALFGIGISIYIVFSAISLVREGVYILLDGSLELDKVEEIIEIINSKPDIKSYHYLKTRKSGDKSYFSVHLVFDPDISLSLAHKIGDEIEDDIKAKFNN</Hsp_hseq>
+      <Hsp_midline>+V+ VL ++K  VGL  GS A+L+ A+ SL D L + +       SS   +A+  +G+GK+E ++++      + +  ++   +V+ +++  +S+      IV+  +LV  G+   +  Y + V  +T + ++K  A H+  D   + A+   +          ID    +  +I ++     +  +    L+D +        I+E     P ++   +L+ R  G   +  + +  DP+ ++  AH+I + ++  +  K   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1028817461|ref|WP_063998495.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter hyointestinalis] &gt;gi|1028384382|gb|ANE34620.1| cation diffusion facilitator family transporter [Campylobacter hyointestinalis subsp. lawsonii]</Hit_def>
+  <Hit_accession>WP_063998495</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.90288e-08</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIR</Hsp_qseq>
+      <Hsp_hseq>AVAIILAIVKFIVGITSGSLAVLSSAIDSMLDCLVSALNYFALKKSNANPNDKFNFGYGKVEALVALFEGAFIIGIAIFICYSSIQKLLNGTKSVETTSAMLVMVISMVFTGL---LVLYLRRVYKKTGNLIIKADALHYKTDLLTNLAIFIALFVIWITGYDAVDAIFGIVVSIYIAFSAFGLVKDGVYILLDGALPSDVVCAIIDILNSKEDVKSYHYLKTRKSGEKSFFSVHLVFDPNISLSKAHKVADDIESDIKSKFN</Hsp_hseq>
+      <Hsp_midline>AV+ +L ++K  VG+  GS A+L+ A+ S+ D L + +       S+   + +  +G+GKVE ++++      I +  ++   ++Q LL+  +S+  T  ++V+  ++V  G+   +  Y R V  +T + +IK  A H+  D   + A+ + +          +D    +  +I +      +  D    L+D      V   I++       V+   +L+ R  G+  +  + +  DP  ++ +AH++ + +++ +  K  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1028818477|ref|WP_063999509.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter iguaniorum] &gt;gi|1028386073|gb|ANE35679.1| cation diffusion facilitator family transporter [Campylobacter iguaniorum]</Hit_def>
+  <Hit_accession>WP_063999509</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>5.05338e-08</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRR</Hsp_qseq>
+      <Hsp_hseq>SVAVVLAIIKFSVGLASGSMAVLSSAIDSLLDCLVSALNYFAMKKSSANPNAKFNFGYGKLDALVALFEGAFIVGIGIFICYSSVEKIINPKQSIDVGAGFIVMIISLVMTGL---LVLYLKSVYTKTGNLIVKADALHYQTDLITNAAILAALFAIWLSGYEIIDALFGIGISIYIIFSAISLLREGVYILLDGSLELDKVEEIIEIINSKPDIKSYHYLKTRKSGDKNYFSVHLVFDPDISLSLAHKIGDEIEDDIKAKFNN</Hsp_hseq>
+      <Hsp_midline>+V+ VL ++K  VGL  GS A+L+ A+ SL D L + +       SS   +A+  +G+GK++ ++++      + +  ++   +V+ +++  +S+      IV+  +LV  G+   +  Y + V  +T + ++K  A H+  D   + A+   +          ID    +  +I ++     +  +    L+D +        I+E     P ++   +L+ R  G   +  + +  DP+ ++  AH+I + ++  +  K   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1153082055|gb|OPA77271.1|</Hit_id>
+  <Hit_def>hypothetical protein BFG04_04030 [Campylobacter pinnipediorum subsp. pinnipediorum]</Hit_def>
+  <Hit_accession>OPA77271</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>5.80707e-08</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>VSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVE----FILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIR</Hsp_qseq>
+      <Hsp_hseq>IALILAIVKIIAGFLSGSMLLINSAVDSFFDSFVSFLNLFVLKKSSQSPDSTFNFGYSKLESLAAFTQGLIISCI-----GIFLFYQSIMKLVQNNHNLDIEISIFAMLFSLFFTAIIVFLLYYAFKKTDNLVVKTDMQHYKGDLVANLAVLLAFVFISFTNLYIFDSLFGILASCYIIYSAFLLIKQSSYMLLDGSIDEKILCEVVQLILQREEVLSLHDIKSRQSGNRYFLSYHLVFNKALSLNEAHDISDEIENLIKEKFK</Hsp_hseq>
+      <Hsp_midline>++ +L ++K   G + GS  ++  A+ S  D   + + +     SS+  D+   +G+ K+E    F   +++S +     G  L +   + L ++ H     I ++A L S+     + F       +T++ ++KT  +H+ GD  A+ AV L  +   + N+   D    +  +  ++    ++   +   L+D +  E +   +V+   +   V  +  +++R  G   +    +  +   ++ +AH+I + ++  +  K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|917048197|ref|WP_051654909.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter mucosalis]</Hit_def>
+  <Hit_accession>WP_051654909</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>9.20835e-08</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>STVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAV-QILLDESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAV</Hsp_qseq>
+      <Hsp_hseq>AVILAIFKFIAGFLSGSVSVMSSAIDSMLDCLVSFLNFLALKKSSDAPNAKFNYGYGKLEALSSLFEGVFIIGIGLFILYQSVKKIFIPEQNFDVS--IGLYVMLVSLVLTGALILFLNKIATLTNNLIIKADALHYKSDFYSNLAIIIALIVIKFTGFVLIDAILGIMISIYIIYSAISLIREGVLILLDAALPSQIINEVVQIILSKPEISSFHYLKSRQSGAYTYLSYHLVFNGNFSLLKAHEISDEI</Hsp_hseq>
+      <Hsp_midline>+ +L + K   G + GS ++++ A+ S+ D L + +  +    SS   +A+  YG+GK+E + S+   V  I +  ++L  +V +I + E        I L+  LVS+ +   +  +   +A  TN+ +IK  A H+  D  ++ A+ + +I   +     ID  + +  +I ++     +  +    L+D      + N +V+     P +    +L++R  G   +    +  +   ++ +AHEI + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|647481246|ref|WP_025803190.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter corcagiensis]</Hit_def>
+  <Hit_accession>WP_025803190</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.20733e-07</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILL---DESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAG----EAVQNRIVEAAERV----PGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRIE</Hsp_qseq>
+      <Hsp_hseq>FKLIIGAVSGSMTVLSSAIDSIMDCVVSAANFFASTKADQEADSKFNFGYAKLEGVMSLLEG-FFITGIGVFLIYTSAIKVINPPESIKVNIALYVMIFSLIVTGV---LILYLNSAYKKSSSLIIKADILHYKTDFFTNVGIILALVIIHFTGLIIIDAIFG-------VLIGVYIFISAIK-LMKESAAVLIDKAVNPEILSSIERFIDDHDGITSHHALKTRQFGDNAYITAHLVFTPNISLKKAHDMGDEIENFIINTYKDIN</Hsp_hseq>
+      <Hsp_midline> K  +G + GS  +L+ A+ S+ D + +      +T + +  D++  +G+ K+E ++S++    FI   G  L++   I +    ES+     L V+  +L+  GV   +  Y      +++S +IK    H+  D   +  + L ++  H+  +  ID           +L+G  +F+ A + LM  +A     +AV   I+ + ER      G+     L+ R  G + +    +   P  ++++AH++ + ++  +    + I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1050117237|ref|WP_065839727.1|</Hit_id>
+  <Hit_def>cation transporter [Campylobacter fetus] &gt;gi|1049827562|gb|OCR96002.1| cation transporter [Campylobacter fetus subsp. testudinum]</Hit_def>
+  <Hit_accession>WP_065839727</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.2667e-07</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLD--ESLHRTPHLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIR</Hsp_qseq>
+      <Hsp_hseq>SVAVVLAIIKFAIGLASGSMAVLSSAIDSLLDCLVSALNYFALRKSNSDPNSKFNFGYGKIEALVALFEGAFIIGIGIFICYSSVIKILNPEKSIEVGAGMIVM---IISIILTGALVFYLQREYKKTGNLIIKADALHYQTDLVTNAVILVALFAIWLSGYEIIDALFGIGISVYIVFSAFKLLKEGVYILLDGALPESMISEIIDIINLKHEVKDYHYLKSRISGEKYYFSVHLVFDPSISLSKAHSVADDIESEIKSKFN</Hsp_hseq>
+      <Hsp_midline>+V+ VL ++K  +GL  GS A+L+ A+ SL D L + +       S+   +++  +G+GK+E ++++      I +  ++   +V  +L+  +S+     +IV+   ++SI +   + FY +    +T + +IK  A H+  D   +  + + +          ID    +  ++ ++     +  +    L+D    E++ + I++       V+   +L++R  G+  +  + +  DP  ++ +AH + + +++ +  K  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1176417114|ref|WP_082255674.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter fetus] &gt;gi|998756981|emb|CZE48637.1| pantothenate metabolism flavoprotein [Campylobacter fetus subsp. fetus] &gt;gi|998759152|emb|CZE51007.1| pantothenate metabolism flavoprotein [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_082255674</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>3.89573e-07</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>VMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHL----IVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALW-------ETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQ</Hsp_qseq>
+      <Hsp_hseq>IFKFIVGIASGSISVLASAIDSMLDCLISALNYFALKKSTASSNSHFNYGYGKIEALMALFEGTFIVGIGAYIFYESIRKIM--SGNHTPDLDSAIVVMSVSFVATGL---LILYLKREAARTNSLIIKADALHYKTDFFTNLGIIVALVIIKFSGFYIVDAIFGIIISGYIAVSAIGLIKEGVYVLLD---GAID----AKIVKQITDFISKDPHICGYHDLRTRESAKTYYLSAHIVFNPQITLLQAHNAGDEIE</Hsp_hseq>
+      <Hsp_midline>+ K  VG+  GS ++LA A+ S+ D L + +       S+   ++   YG+GK+E ++++      + +  Y+   +++ ++  S + TP L    +V+  + V+ G+   +  Y +  A  TNS +IK  A H+  D   +  + + ++   +     +D    +          I L+  G  V +D   G +D      +  +I +   + P + G   LR R   +  +    I  +P+ T+ QAH   + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1176421159|ref|WP_082258994.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter fetus] &gt;gi|998760828|emb|CZE48757.1| pantothenate metabolism flavoprotein [Campylobacter fetus subsp. fetus]</Hit_def>
+  <Hit_accession>WP_082258994</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>5.07397e-07</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>VMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHL----IVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALW-------ETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQ</Hsp_qseq>
+      <Hsp_hseq>IFKFIVGIASGSISVLASAIDSMLDCLISALNYFALKKSTASSNSHFNYGYGKIEALMALFEGTFIVGIGAYIFYESIRKIM--SGNHTPDLDSAIVVMSVSFVATGL---LILYLKREAARTNSLIIKADALHYKTDFFTNLGIIVALVIIKFSGFYIVDAIFGIIISGYIAVSAIGLIKEGVYVLLD---GAID----AKIVKQITDFISKDPHICGYHDLRTRESAKTYYLSAHIVFNPQITLLQAHNAGDEIE</Hsp_hseq>
+      <Hsp_midline>+ K  VG+  GS ++LA A+ S+ D L + +       S+   ++   YG+GK+E ++++      + +  Y+   +++ ++  S + TP L    +V+  + V+ G+   +  Y +  A  TNS +IK  A H+  D   +  + + ++   +     +D    +          I L+  G  V +D   G +D      +  +I +   + P + G   LR R   +  +    I  +P+ T+ QAH   + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|497174528|ref|WP_009496754.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter showae] &gt;gi|421958719|gb|EKU10335.1| Cobalt-zinc-cadmium resistance protein [Campylobacter showae CSUNSWCD]</Hit_def>
+  <Hit_accession>WP_009496754</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>5.15867e-07</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>287</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>AVSTVLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTP--HLIVLWAALVSIGVNVGMYFYSRCVAIETNSPLIKTMAKHHHGDATASGAVALGIIGAHYLNMPWIDPAVALWETIDLLLLGKVVFMDAYRGLMDHTAGEAVQNRIVEAAERVPGVRGVIHLRARYVGQDIWADMIIGVDPENTVEQAHEICEAVQAAVCGKIRRIE</Hsp_qseq>
+      <Hsp_hseq>ATAFALAVIKFAAGLIGGSVAVLSSAIDSMLDLLVSALNFFAIRKSQAAPDAKFNFGYAKLEALAAMFEGVLIVGAGAFIFYESVRKLQTE---QAPVDTAFSLYAMALSVAVTGLLVAYLSRVARRTRNLIVRADALHYKSDLFSNLAVIASLILVEFTGFAAIDAVFGIVISGYIAVSAINLMKESIGVLLDRALEPEITAQIEEIIRSRPQIASYHGLATRKSANICYVAVHLVFNREISLYDAHKISDEIEATIRAKYGEFE</Hsp_hseq>
+      <Hsp_midline>A +  L V+K   GLIGGS A+L+ A+ S+ D+L + +       S    DA+  +G+ K+E + +M   V+ +    ++   +V+ L  E   + P      L+A  +S+ V   +  Y   VA  T + +++  A H+  D  ++ AV   +I   +     ID    +  +  + +    +  ++   L+D      +  +I E     P +     L  R      +  + +  + E ++  AH+I + ++A +  K    E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>470744</Statistics_db-num>
+      <Statistics_db-len>162470253</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
