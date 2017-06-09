@@ -1,0 +1,882 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99592.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>347</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99592.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>347</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|746717651|ref|WP_039676529.1|</Hit_id>
+  <Hit_def>hypothetical protein [Streptococcus constellatus] &gt;gi|742784896|gb|KIC78044.1| hypothetical protein RN79_00250 [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_039676529</Hit_accession>
+  <Hit_len>733</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.344547</Hsp_evalue>
+      <Hsp_query-from>245</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>15</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>21</Hsp_align-len>
+      <Hsp_qseq>DVTESVKIACEALMPDIIESI</Hsp_qseq>
+      <Hsp_hseq>DVTENVKIKTEEFFPDLIEEV</Hsp_hseq>
+      <Hsp_midline>DVTE+VKI  E   PD+IE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|493312864|ref|WP_006270313.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Streptococcus constellatus] &gt;gi|383341537|gb|EID19796.1| chaperone protein DnaK [Streptococcus constellatus subsp. constellatus SK53] &gt;gi|540772741|dbj|GAD38216.1| molecular chaperone [Streptococcus constellatus subsp. constellatus SK53]</Hit_def>
+  <Hit_accession>WP_006270313</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.10355</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>FLGIDLGTSHTAVMTSRGKKFLLKSVVGYPK------DVIGLKLLGRPYVVGDEAFEM-----RSYLDLRYPLQDGVLSEISDRDI-----EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPF--MVGYGLDKLN---NTIIVDIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>IIGIDLGTTNSAVAVLEGTE---SKIIANPEGNRTTPSVVSFK--NGEIIVGDAAKRQAVTNPDTVISIKSKM--GTSEKVSANGKEYTPQEISAMILQYLKGYAEDYLGEKVTKAVITVPAYFNDAQRQ-ATKDAGKIAGLEVERIVNEPTAAALAYGLDKTDKEEKVLVFDLGGGTFDVSILE</Hsp_hseq>
+      <Hsp_midline> +GIDLGT+++AV    G +     ++  P+       V+  K      +VGD A         + + ++  +  G   ++S         E++  +L ++   AE    +++  AVI VPA  + A +    K A ++  +    +V+EP    + YGLDK +     ++ D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1092742204|ref|WP_070668783.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Streptococcus sp. HMSC067A03] &gt;gi|1002526388|gb|KXU01405.1| Chaperone protein DnaK [Streptococcus constellatus] &gt;gi|1080829495|gb|OFP94456.1| molecular chaperone DnaK [Streptococcus sp. HMSC067A03]</Hit_def>
+  <Hit_accession>KXU01405</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.43785</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>FLGIDLGTSHTAVMTSRGKKFLLKSVVGYPK------DVIGLKLLGRPYVVGDEAFEM-----RSYLDLRYPLQDGVLSEISDRDI-----EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPF--MVGYGLDKLNNT---IIVDIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>IIGIDLGTTNSAVAVLEGTE---SKIIANPEGNRTTPSVVSFK--NGEIIVGDAAKRQAVTNPDTVISIKSKM--GTSEKVSANGKEYTPQEISAMILQYLKGYAEDYLGEKVTKAVITVPAYFNDAQRQ-ATKDAGKIAGLEVERIVNEPTAAALAYGLDKTDKEEKILVFDLGGGTFDVSILE</Hsp_hseq>
+      <Hsp_midline> +GIDLGT+++AV    G +     ++  P+       V+  K      +VGD A         + + ++  +  G   ++S         E++  +L ++   AE    +++  AVI VPA  + A +    K A ++  +    +V+EP    + YGLDK +     ++ D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|881092856|ref|WP_048801188.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_048801188</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.48051</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>FLGIDLGTSHTAVMTSRGKKFLLKSVVGYPK------DVIGLKLLGRPYVVGDEAFEM-----RSYLDLRYPLQDGVLSEISDRDI-----EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPF--MVGYGLDKLN---NTIIVDIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>IIGIDLGTTNSAVAVLEGTE---SKIIANPEGNRTTPSVVSFK--NGEIIVGDAAKRQAVTNPDTVISIKSKM--GTSEKVSANGKEYTPQEISAMILQYLKGYAEDYLGEKVTKAVITVPAYFNDAQRQ-ATKDAGKIAGLEVERIVNEPTAAALAYGLDKTDKEEKILVFDLGGGTFDVSILE</Hsp_hseq>
+      <Hsp_midline> +GIDLGT+++AV    G +     ++  P+       V+  K      +VGD A         + + ++  +  G   ++S         E++  +L ++   AE    +++  AVI VPA  + A +    K A ++  +    +V+EP    + YGLDK +     ++ D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|538448896|ref|WP_020998030.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Streptococcus constellatus] &gt;gi|537626096|gb|AGU73372.1| heat shock protein 70/molecular chaperone DnaK [Streptococcus constellatus subsp. pharyngis C232] &gt;gi|537627851|gb|AGU75126.1| heat shock protein 70/molecular chaperone DnaK [Streptococcus constellatus subsp. pharyngis C818] &gt;gi|537633245|gb|AGU80517.1| heat shock protein 70/molecular chaperone DnaK [Streptococcus constellatus subsp. pharyngis C1050]</Hit_def>
+  <Hit_accession>WP_020998030</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.48051</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>FLGIDLGTSHTAVMTSRGKKFLLKSVVGYPK------DVIGLKLLGRPYVVGDEAFEM-----RSYLDLRYPLQDGVLSEISDRDI-----EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPF--MVGYGLDKLNNT---IIVDIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>IIGIDLGTTNSAVAVLEGTE---SKIIANPEGNRTTPSVVSFK--NGEIIVGDAAKRQAVTNPDTVISIKSKM--GTSEKVSANGKEYTPQEISAMILQYLKGYAEDYLGEKVTKAVITVPAYFNDAQRQ-ATKDAGKIAGLEVERIVNEPTAAALAYGLDKTDKEEKILVFDLGGGTFDVSILE</Hsp_hseq>
+      <Hsp_midline> +GIDLGT+++AV    G +     ++  P+       V+  K      +VGD A         + + ++  +  G   ++S         E++  +L ++   AE    +++  AVI VPA  + A +    K A ++  +    +V+EP    + YGLDK +     ++ D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|548559860|ref|WP_022525621.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Streptococcus constellatus] &gt;gi|540781371|dbj|GAD44438.1| molecular chaperone [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377]</Hit_def>
+  <Hit_accession>WP_022525621</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.52393</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>FLGIDLGTSHTAVMTSRGKKFLLKSVVGYPK------DVIGLKLLGRPYVVGDEAFEM-----RSYLDLRYPLQDGVLSEISDRDI-----EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPF--MVGYGLDKLNNT---IIVDIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>IIGIDLGTTNSAVAVLEGTE---SKIIANPEGNRTTPSVVSFK--NGEIIVGDAAKRQAVTNPDTVISIKSKM--GTSEKVSANGKEYTPQEISAMILQYLKGYAEDYLGEKVTKAVITVPAYFNDAQRQ-ATKDAGKIAGLEVERIVNEPTAAALAYGLDKTDKEEKILVFDLGGGTFDVSILE</Hsp_hseq>
+      <Hsp_midline> +GIDLGT+++AV    G +     ++  P+       V+  K      +VGD A         + + ++  +  G   ++S         E++  +L ++   AE    +++  AVI VPA  + A +    K A ++  +    +V+EP    + YGLDK +     ++ D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|896610658|ref|WP_049493436.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_049493436</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.5701</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>FLGIDLGTSHTAVMTSRGKKFLLKSVVGYPK------DVIGLKLLGRPYVVGDEAFEM-----RSYLDLRYPLQDGVLSEISDRDI-----EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPF--MVGYGLDKLNNT---IIVDIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>IIGIDLGTTNSAVAVLEGTE---SKIIANPEGNRTTPSVVSFK--NGEIIVGDAAKRQAVTNPDTIISIKSKM--GTSEKVSANGKEYTPQEISAMILQYLKGYAEDYLGEKVTKAVITVPAYFNDAQRQ-ATKDAGKIAGLEVERIVNEPTAAALAYGLDKTDKEEKILVFDLGGGTFDVSILE</Hsp_hseq>
+      <Hsp_midline> +GIDLGT+++AV    G +     ++  P+       V+  K      +VGD A         + + ++  +  G   ++S         E++  +L ++   AE    +++  AVI VPA  + A +    K A ++  +    +V+EP    + YGLDK +     ++ D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|896591532|ref|WP_049477125.1|</Hit_id>
+  <Hit_def>MULTISPECIES: molecular chaperone DnaK [Streptococcus anginosus group]</Hit_def>
+  <Hit_accession>WP_049477125</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>2.63718</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>FLGIDLGTSHTAVMTSRGKKFLLKSVVGYPK------DVIGLKLLGRPYVVGDEAFEM-----RSYLDLRYPLQDGVLSEISDRDI-----EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPF--MVGYGLDKLNNT---IIVDIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>IIGIDLGTTNSAVAVLEGTE---SKIIANPEGNRTTPSVVSFK--NGEIIVGDAAKRQAVTNPDTVISIKSKM--GTSEKVSANGKEYTPQEISAMILQYLKGYAEDYLGEKVTKAVITVPAYFNDAQRQ-ATKDAGKIAGLEVERIVNEPTAAALAYGLDKTDKEEKILVFDLGGGTFDVSILE</Hsp_hseq>
+      <Hsp_midline> +GIDLGT+++AV    G +     ++  P+       V+  K      +VGD A         + + ++  +  G   ++S         E++  +L ++   AE    +++  AVI VPA  + A +    K A ++  +    +V+EP    + YGLDK +     ++ D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|489159435|ref|WP_003069088.1|</Hit_id>
+  <Hit_def>MULTISPECIES: short-chain dehydrogenase [Streptococcus] &gt;gi|355366774|gb|EHG14491.1| hypothetical protein HMPREF9682_00528 [Streptococcus intermedius F0395] &gt;gi|576672172|gb|EUB25850.1| KR domain protein [Streptococcus sp. AS20] &gt;gi|742785447|gb|KIC78595.1| short-chain dehydrogenase [Streptococcus constellatus] &gt;gi|1080828662|gb|OFP93674.1| NAD(P)-dependent oxidoreductase [Streptococcus sp. HMSC067A03]</Hit_def>
+  <Hit_accession>WP_003069088</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>3.1797</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>IEILLRSFQPEYQATVLQNIVFAGGGSRIRGLAAYVKDKLRPFGNADVTC</Hsp_qseq>
+      <Hsp_hseq>VEATAQELRDSYQIDI---ISYIGDVSRLEDLEAAVSQTIQAFGHLDIAC</Hsp_hseq>
+      <Hsp_midline>+E   +  +  YQ  +   I + G  SR+  L A V   ++ FG+ D+ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|493312120|ref|WP_006269588.1|</Hit_id>
+  <Hit_def>short-chain dehydrogenase [Streptococcus constellatus] &gt;gi|383344312|gb|EID22481.1| KR domain protein [Streptococcus constellatus subsp. constellatus SK53] &gt;gi|540772002|dbj|GAD38872.1| hypothetical protein ANG2_1200 [Streptococcus constellatus subsp. constellatus SK53]</Hit_def>
+  <Hit_accession>WP_006269588</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>3.26533</Hsp_evalue>
+      <Hsp_query-from>265</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>IEILLRSFQPEYQATVLQNIVFAGGGSRIRGLAAYVKDKLRPFGNADVTC</Hsp_qseq>
+      <Hsp_hseq>VEATAQELRDSYQIDI---ISYIGDVSRLEDLEAAVSQTIQAFGHLDIAC</Hsp_hseq>
+      <Hsp_midline>+E   +  +  YQ  +   I + G  SR+  L A V   ++ FG+ D+ C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|896597953|ref|WP_049482089.1|</Hit_id>
+  <Hit_def>PTS cellobiose transporter subunit IIC [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_049482089</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>3.69444</Hsp_evalue>
+      <Hsp_query-from>213</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEA--LMPDIIESIEILLRSFQPEYQATVLQNIVFAGGGSRIRGL</Hsp_qseq>
+      <Hsp_hseq>ILVALNSSFWFVGLHGGNVV---NAVMKPLWLSNLDANKVAYQAGEKLPHIFTSV--------------FMDNFVFIGGGGATIGL</Hsp_hseq>
+      <Hsp_midline>+  A+   F FVG  G        A  KP+     ++ K+A +A   +P I  S+               + N VF GGG    GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|746719626|ref|WP_039677675.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Streptococcus constellatus] &gt;gi|742784512|gb|KIC77662.1| molecular chaperone DnaK [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_039677675</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>3.86062</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>FLGIDLGTSHTAVMTSRGKKFLLKSVVGYPK------DVIGLKLLGRPYVVGDEAFEM-----RSYLDLRYPLQDGVLSEISDRDI-----EVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV--VHTALVVSEPF--MVGYGLDKLNNT---IIVDIGAGTTDICALK</Hsp_qseq>
+      <Hsp_hseq>IIGIDLGTTNSAVAVLEGTE---SKIIANPEGNRTTPSVVSFK--NGEIIVGDAAKRQAVTNPDTVISIKSKM--GTSEKVSANGKEYTPQEISAMILQYLKGYAEEYLGEKVSKAVITVPAYFNDAQRQ-ATKDAGKIAGLEVERIVNEPTAAALAYGLDKTEKEEKILVFDLGGGTFDVSILE</Hsp_hseq>
+      <Hsp_midline> +GIDLGT+++AV    G +     ++  P+       V+  K      +VGD A         + + ++  +  G   ++S         E++  +L ++   AE    +++  AVI VPA  + A +    K A ++  +    +V+EP    + YGLDK       ++ D+G GT D+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489116548|ref|WP_003026394.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PTS cellobiose transporter subunit IIC [Streptococcus] &gt;gi|319810975|gb|EFW07294.1| lichenan permease iic component [Streptococcus anginosus 1_2_62CV] &gt;gi|333765870|gb|EGL43197.1| putative PTS system, cellobiose-specific IIC component [Streptococcus anginosus SK52 = DSM 20563] &gt;gi|383343165|gb|EID21359.1| putative PTS system, cellobiose-specific IIC component [Streptococcus constellatus subsp. constellatus SK53] &gt;gi|540768160|dbj|GAD37402.1| hypothetical protein ANG1_1589 [Streptococcus anginosus SK52 = DSM 20563] &gt;gi|540771915|dbj|GAD39009.1| hypothetical protein ANG2_1337 [Streptococcus constellatus subsp. constellatus SK53] &gt;gi|540774943|dbj|GAD40766.1| hypothetical protein ANG3_1229 [Streptococcus intermedius SK54] &gt;gi|576672522|gb|EUB26197.1| putative PTS system, cellobiose-specific IIC component [Streptococcus sp. AS20] &gt;gi|742784628|gb|KIC77777.1| PTS cellobiose transporter subunit IIC [Streptococcus constellatus] &gt;gi|1002526166|gb|KXU01224.1| PTS system, cellobiose-specific IIC component [Streptococcus constellatus] &gt;gi|1080831153|gb|OFP96041.1| PTS cellobiose transporter subunit IIC [Streptococcus sp. HMSC067A03] &gt;gi|1178152741|gb|ORE81992.1| PTS cellobiose transporter subunit IIC [Streptococcus anginosus SK52 = DSM 20563]</Hit_def>
+  <Hit_accession>WP_003026394</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.03132</Hsp_evalue>
+      <Hsp_query-from>213</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEA--LMPDIIESIEILLRSFQPEYQATVLQNIVFAGGGSRIRGL</Hsp_qseq>
+      <Hsp_hseq>ILVALNSSFWFVGLHGGNVV---NAVMKPLWLSNLDANKVAYQAGEKLPHIFTSV--------------FMDNFVFIGGGGATIGL</Hsp_hseq>
+      <Hsp_midline>+  A+   F FVG  G        A  KP+     ++ K+A +A   +P I  S+               + N VF GGG    GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|493311840|ref|WP_006269315.1|</Hit_id>
+  <Hit_def>PTS cellobiose transporter subunit IIC [Streptococcus constellatus] &gt;gi|343393909|gb|EGV06460.1| putative PTS system, cellobiose-specific IIC component [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377] &gt;gi|537624850|gb|AGU72126.1| PTS system, cellobiose-specific IIC component [Streptococcus constellatus subsp. pharyngis C232] &gt;gi|537626607|gb|AGU73882.1| PTS system, cellobiose-specific IIC component [Streptococcus constellatus subsp. pharyngis C818] &gt;gi|537631978|gb|AGU79250.1| PTS system, cellobiose-specific IIC component [Streptococcus constellatus subsp. pharyngis C1050] &gt;gi|540780622|dbj|GAD45106.1| hypothetical protein ANG5_1634 [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377]</Hit_def>
+  <Hit_accession>WP_006269315</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>4.06665</Hsp_evalue>
+      <Hsp_query-from>213</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEA--LMPDIIESIEILLRSFQPEYQATVLQNIVFAGGGSRIRGL</Hsp_qseq>
+      <Hsp_hseq>ILVALNSSFWFVGLHGGNVV---NAVMKPLWLSNLDANKVAYQAGEKLPHIFTSV--------------FMDNFVFIGGGGATIGL</Hsp_hseq>
+      <Hsp_midline>+  A+   F FVG  G        A  KP+     ++ K+A +A   +P I  S+               + N VF GGG    GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|881092895|ref|WP_048801227.1|</Hit_id>
+  <Hit_def>MULTISPECIES: PTS cellobiose transporter subunit IIC [Streptococcus anginosus group]</Hit_def>
+  <Hit_accession>WP_048801227</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>4.32279</Hsp_evalue>
+      <Hsp_query-from>213</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEA--LMPDIIESIEILLRSFQPEYQATVLQNIVFAGGGSRIRGL</Hsp_qseq>
+      <Hsp_hseq>ILVALNSSFWFVGLHGGNVV---NAVMKPLWLSNLDANKVAYQAGEKLPHIFTSV--------------FMDNFVFIGGGGATIGL</Hsp_hseq>
+      <Hsp_midline>+  A+   F FVG  G        A  KP+     ++ K+A +A   +P I  S+               + N VF GGG    GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|493310606|ref|WP_006268096.1|</Hit_id>
+  <Hit_def>malic enzyme, NAD-binding domain protein [Streptococcus constellatus] &gt;gi|343395593|gb|EGV08131.1| malic enzyme, NAD-binding domain protein [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377] &gt;gi|537626122|gb|AGU73398.1| malate dehydrogenase [Streptococcus constellatus subsp. pharyngis C232] &gt;gi|537627877|gb|AGU75152.1| malate dehydrogenase [Streptococcus constellatus subsp. pharyngis C818] &gt;gi|537633271|gb|AGU80543.1| malate dehydrogenase [Streptococcus constellatus subsp. pharyngis C1050] &gt;gi|540781401|dbj|GAD44468.1| malic enzyme [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377]</Hit_def>
+  <Hit_accession>WP_006268096</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>4.35322</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>419</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>SRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGA</Hsp_qseq>
+      <Hsp_hseq>SDGKAFV---ATGIPADMVSYK--GVDYVIG-QANNALVYPGLGLGMLASEASLLTDEMIGAAAHSLSGIVNPGQPGA</Hsp_hseq>
+      <Hsp_midline>S GK F+     G P D++  K  G  YV+G +A     Y  L   +     S ++D  I  A H L+ +V   +PGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|343398023|gb|EGV10556.1|</Hit_id>
+  <Hit_def>translation initiation factor IF-2 [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377]</Hit_def>
+  <Hit_accession>EGV10556</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>4.90734</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>EQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIESI</Hsp_qseq>
+      <Hsp_hseq>KKITFLDTPGHAAFTSMRARGASV-TDITILVVAADDGVMPQTIEAI</Hsp_hseq>
+      <Hsp_midline>++ +F+   G AA    RA G  V  D+T  V  A + +MP  IE+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|493311785|ref|WP_006269260.1|</Hit_id>
+  <Hit_def>glycerol kinase [Streptococcus constellatus] &gt;gi|343394530|gb|EGV07078.1| glycerol kinase [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377] &gt;gi|537624756|gb|AGU72032.1| glycerol kinase [Streptococcus constellatus subsp. pharyngis C232] &gt;gi|537626513|gb|AGU73788.1| glycerol kinase [Streptococcus constellatus subsp. pharyngis C818] &gt;gi|537631884|gb|AGU79156.1| glycerol kinase [Streptococcus constellatus subsp. pharyngis C1050] &gt;gi|540782103|dbj|GAD43784.1| glycerol kinase [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377]</Hit_def>
+  <Hit_accession>WP_006269260</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>5.20198</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLKSVVGYPKDVIGLKLL</Hsp_qseq>
+      <Hsp_hseq>LGIELARAANLETTALGAAFLAGLAVGYWKDMEELKTL</Hsp_hseq>
+      <Hsp_midline>LGI+L  +     T+ G  FL    VGY KD+  LK L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1002526094|gb|KXU01167.1|</Hit_id>
+  <Hit_def>Glycerol kinase [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>KXU01167</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>5.29323</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLKSVVGYPKDVIGLKLL</Hsp_qseq>
+      <Hsp_hseq>LGIELARAANLETTALGAAFLAGLAVGYWKDMEELKTL</Hsp_hseq>
+      <Hsp_midline>LGI+L  +     T+ G  FL    VGY KD+  LK L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|896597879|ref|WP_049482015.1|</Hit_id>
+  <Hit_def>glycerol kinase [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_049482015</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>5.57669</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLKSVVGYPKDVIGLKLL</Hsp_qseq>
+      <Hsp_hseq>LGIELARAANLETTALGAAFLAGLAVGYWKDMEELKTL</Hsp_hseq>
+      <Hsp_midline>LGI+L  +     T+ G  FL    VGY KD+  LK L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|540771489|dbj|GAD39317.1|</Hit_id>
+  <Hit_def>translation initiation factor 2 [Streptococcus constellatus subsp. constellatus SK53]</Hit_def>
+  <Hit_accession>GAD39317</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>5.6729</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>EQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIESI</Hsp_qseq>
+      <Hsp_hseq>KKITFLDTPGHAAFTSMRARGASV-TDITILVVAADDGVMPQTIEAI</Hsp_hseq>
+      <Hsp_midline>++ +F+   G AA    RA G  V  D+T  V  A + +MP  IE+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|355365557|gb|EHG13280.1|</Hit_id>
+  <Hit_def>translation initiation factor IF-2 [Streptococcus intermedius F0395] &gt;gi|540780565|dbj|GAD45152.1| translation initiation factor 2 [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377] &gt;gi|1002526600|gb|KXU01583.1| Translation initiation factor 2 [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>GAD45152</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>5.6729</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>EQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIESI</Hsp_qseq>
+      <Hsp_hseq>KKITFLDTPGHAAFTSMRARGASV-TDITILVVAADDGVMPQTIEAI</Hsp_hseq>
+      <Hsp_midline>++ +F+   G AA    RA G  V  D+T  V  A + +MP  IE+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|746719307|ref|WP_039677472.1|</Hit_id>
+  <Hit_def>glycerol kinase [Streptococcus constellatus] &gt;gi|742784696|gb|KIC77845.1| glycerol kinase [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_039677472</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>5.77403</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLKSVVGYPKDVIGLKLL</Hsp_qseq>
+      <Hsp_hseq>LGIELARAANLETTALGAAFLAGLAVGYWKDMEELKTL</Hsp_hseq>
+      <Hsp_midline>LGI+L  +     T+ G  FL    VGY KD+  LK L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|896609445|ref|WP_049492278.1|</Hit_id>
+  <Hit_def>glycerol kinase [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_049492278</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>5.92661</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLKSVVGYPKDVIGLKLL</Hsp_qseq>
+      <Hsp_hseq>LGIELARAANLETTALGAAFLAGLAVGYWKDMEELKTL</Hsp_hseq>
+      <Hsp_midline>LGI+L  +     T+ G  FL    VGY KD+  LK L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1044893168|ref|WP_065427470.1|</Hit_id>
+  <Hit_def>hypothetical protein [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_065427470</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>6.01074</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>AVIGVPARASGANKALLLKMAQEVVHTALVVSEPFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQM</Hsp_qseq>
+      <Hsp_hseq>AVISVDKSKADSDFIYYYLTQNEIVETLHVIGEQSTSAYP------------SIKPSDITNLKLSLPSLEEQKEISRVLRLLDKKIENNKKINHHLEQM</Hsp_hseq>
+      <Hsp_midline>AVI V    + ++         E+V T  V+ E     Y                 +DI  LK ++P  E+Q  +++    LD++++N     H   QM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|881091980|ref|WP_048800312.1|</Hit_id>
+  <Hit_def>glycerol kinase [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_048800312</Hit_accession>
+  <Hit_len>503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>6.03056</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLKSVVGYPKDVIGLKLL</Hsp_qseq>
+      <Hsp_hseq>LGIELARAANLETTALGAAFLAGLAVGYWKDMEELKTL</Hsp_hseq>
+      <Hsp_midline>LGI+L  +     T+ G  FL    VGY KD+  LK L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|493312875|ref|WP_006270323.1|</Hit_id>
+  <Hit_def>hypoxanthine phosphoribosyltransferase [Streptococcus constellatus] &gt;gi|383341167|gb|EID19433.1| hypoxanthine phosphoribosyltransferase [Streptococcus constellatus subsp. constellatus SK53] &gt;gi|540772335|dbj|GAD38678.1| hypoxanthine-guanine phosphoribosyltransferase [Streptococcus constellatus subsp. constellatus SK53]</Hit_def>
+  <Hit_accession>WP_006270323</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>7.24173</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>GVLSEISDRDIEVA-RHLLTHVVKSAEPGANDEICAVIGVPARASGANKALLL------KMAQEVVHTALVVSEPFMVGYGLD</Hsp_qseq>
+      <Hsp_hseq>GVINIIKDIDQDVTGRHIL-FVEDIIDTGKTLKSLCELFKEKKAASVKIATLLDKPEGRKVNIEADYTCFTIPNEFVVGYGLD</Hsp_hseq>
+      <Hsp_midline>GV++ I D D +V  RH+L  V    + G   +    +    +A+    A LL      K+  E  +T   +   F+VGYGLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|881092937|ref|WP_048801269.1|</Hit_id>
+  <Hit_def>malate dehydrogenase [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_048801269</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>7.78915</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>419</Hsp_hit-from>
+      <Hsp_hit-to>490</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>SRGKKFLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGA</Hsp_qseq>
+      <Hsp_hseq>SDGKAFV---ATGIPADTVSYK--GIDYVIG-QANNALIYPGLGLGMLASEASLLTDEMIGAAAHSLSGIVNPGQPGA</Hsp_hseq>
+      <Hsp_midline>S GK F+     G P D +  K  G  YV+G +A     Y  L   +     S ++D  I  A H L+ +V   +PGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|538447790|ref|WP_020997510.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypoxanthine phosphoribosyltransferase [Streptococcus] &gt;gi|537624645|gb|AGU71921.1| hypoxanthine-guanine phosphoribosyltransferase [Streptococcus constellatus subsp. pharyngis C232] &gt;gi|537626402|gb|AGU73677.1| hypoxanthine-guanine phosphoribosyltransferase [Streptococcus constellatus subsp. pharyngis C818] &gt;gi|537631752|gb|AGU79024.1| hypoxanthine-guanine phosphoribosyltransferase [Streptococcus constellatus subsp. pharyngis C1050] &gt;gi|540780853|dbj|GAD44843.1| hypoxanthine-guanine phosphoribosyltransferase [Streptococcus constellatus subsp. pharyngis SK1060 = CCUG 46377] &gt;gi|576670502|gb|EUB23795.1| hypoxanthine phosphoribosyltransferase [Streptococcus sp. AS20] &gt;gi|742784158|gb|KIC77309.1| hypoxanthine phosphoribosyltransferase [Streptococcus constellatus] &gt;gi|1002525779|gb|KXU00885.1| Hypoxanthine-guanine phosphoribosyltransferase [Streptococcus constellatus]</Hit_def>
+  <Hit_accession>WP_020997510</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.60255</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>GVLSEISDRDIEVA-RHLLTHVVKSAEPGANDEICAVIGVPARASGANKALLL------KMAQEVVHTALVVSEPFMVGYGLD</Hsp_qseq>
+      <Hsp_hseq>GVINIIKDIDQDVTGRHIL-FVEDIIDTGKTLKSLCELFKEKKAASVKIATLLDKPEGRKVNIEADYTCFTIPNEFVVGYGLD</Hsp_hseq>
+      <Hsp_midline>GV++ I D D +V  RH+L  V    + G   +    +    +A+    A LL      K+  E  +T   +   F+VGYGLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|489162045|ref|WP_003071680.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypoxanthine phosphoribosyltransferase [Streptococcus] &gt;gi|355363750|gb|EHG11486.1| hypoxanthine-guanine phosphoribosyltransferase [Streptococcus intermedius F0395] &gt;gi|967431492|gb|KTL02535.1| hypoxanthine phosphoribosyltransferase [Streptococcus sp. FDAARGOS_146] &gt;gi|1080577965|gb|OFN55597.1| hypoxanthine phosphoribosyltransferase [Streptococcus sp. HMSC034B05] &gt;gi|1080829356|gb|OFP94327.1| hypoxanthine phosphoribosyltransferase [Streptococcus sp. HMSC067A03]</Hit_def>
+  <Hit_accession>WP_003071680</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.75986</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>GVLSEISDRDIEVA-RHLLTHVVKSAEPGANDEICAVIGVPARASGANKALLL------KMAQEVVHTALVVSEPFMVGYGLD</Hsp_qseq>
+      <Hsp_hseq>GVINIIKDIDQDVTGRHIL-FVEDIIDTGKTLKSLCELFKEKKAASVKIATLLDKPEGRKVNIEADYTCFTIPNEFVVGYGLD</Hsp_hseq>
+      <Hsp_midline>GV++ I D D +V  RH+L  V    + G   +    +    +A+    A LL      K+  E  +T   +   F+VGYGLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>12325</Statistics_db-num>
+      <Statistics_db-len>3696368</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

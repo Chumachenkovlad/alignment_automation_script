@@ -1,0 +1,2753 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|672596789|gb|AIJ35765.1|</Hit_id>
+  <Hit_def>hypothetical protein EG14_06915 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>AIJ35765</Hit_accession>
+  <Hit_len>852</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.71872e-09</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>363</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKDFSKAIELNDKYTYAYH-SRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGLYEEAIKDYSKAIELDGKFAHAYYDRGNAYCEKGSYEEAIKDYSKAIELDGKFAHAYHNRGNAYCEKGSYEEAIKDYSQAIELDDK</Hsp_hseq>
+      <Hsp_midline>+  F  A  +ND     Y+  +GI++ + G Y EA+    Q  + D   V      GIAY K G+ +   +   ++I      +      G+ Y +   Y+ A+    K  E +    +  +  G A    G ++EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.27396e-06</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>IKDYSQAIELDDKFAHAYY-DRGNAYCEKGSYEEAIKDFSKAIELNDKYTYAYHSRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGLYEEAIKDYSKAIELDGKFAHAYYDRGNAYCEKGSYEEAIKDYSKAIELDGKFA</Hsp_hseq>
+      <Hsp_midline>+  +  A  ++D     YY D+G ++ + G Y EA+    +  + +          GIAY + G+     +   ++I      +      G+ Y +   Y+ A+    +  E +    +     G+A    G ++EAI  +  A+ L       +     +Y + GS+EEA+  + KA ELD + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>2.20625e-05</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>IKDYSKAIELDDKFVHAYH-GRGIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFAHAYYDRGNAYCEKGSYEEAIKDFSKAIELNDKYTYAYHSRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELD</Hsp_hseq>
+      <Hsp_midline>+  +  A  ++D     Y+  +GI++ K G Y EA+    Q  + D          G AY K G   +  +   ++I             G  Y +   Y+ A+    K  E N          G+A    G + EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>3.78941e-05</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IAYYNRGVGCCIVGSYEEAIKDYSQAIELDGKFAPAYYNRGIAYCEKGSYEEAIKDYSKAIELDDKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFAHAYYDRGNAYCEKGSYEEAIKDFSKAIELNDK</Hsp_hseq>
+      <Hsp_midline>+ Y ++G+     G Y EA+    Q  + D        + GIAY + G+ +   +   ++I      +      G+ Y +   Y+ A+    +  E +          G A    G + +AI  +  A+ L       +     +Y + GS+EEA+  F KA EL+++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0318721</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>IKDYSQAIELDGKFAPA-------YYNRGIAYCEKGSYEEAIKDYSKAIELDDKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDDKYA</Hsp_hseq>
+      <Hsp_midline>++ Y  A+ L  K A A        +  G+A    G ++EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD++ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0374676</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>LSNVPEPNRQEAIAYYNRGVGCCIVGSYEEAIKDYSQAIELDGKFAPAYYNRGIAYCEKGSYEEAIKDYSKAIELDDK</Hsp_hseq>
+      <Hsp_midline>L  V E N       +  GV    +G ++EAI  +  A+ L       +     +Y + GS+EEA+  + KA ELD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|501433266|ref|WP_012457924.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|188594516|dbj|BAG33491.1| TPR domain protein [Porphyromonas gingivalis ATCC 33277] &gt;gi|938168546|gb|ALJ25407.1| tetratricopeptide repeat protein [Porphyromonas gingivalis 381]</Hit_def>
+  <Hit_accession>WP_012457924</Hit_accession>
+  <Hit_len>818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.72497e-09</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKDFSKAIELNDKYTYAYH-SRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGLYEEAIKDYSKAIELDGKFAHAYYDRGNAYCEKGSYEEAIKDYSKAIELDGKFAHAYHNRGNAYCEKGSYEEAIKDYSQAIELDDK</Hsp_hseq>
+      <Hsp_midline>+  F  A  +ND     Y+  +GI++ + G Y EA+    Q  + D   V      GIAY K G+ +   +   ++I      +      G+ Y +   Y+ A+    K  E +    +  +  G A    G ++EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.25806e-06</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>IKDYSQAIELDDKFAHAYY-DRGNAYCEKGSYEEAIKDFSKAIELNDKYTYAYHSRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGLYEEAIKDYSKAIELDGKFAHAYYDRGNAYCEKGSYEEAIKDYSKAIELDGKFA</Hsp_hseq>
+      <Hsp_midline>+  +  A  ++D     YY D+G ++ + G Y EA+    +  + +          GIAY + G+     +   ++I      +      G+ Y +   Y+ A+    +  E +    +     G+A    G ++EAI  +  A+ L       +     +Y + GS+EEA+  + KA ELD + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>2.19148e-05</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>IKDYSKAIELDDKFVHAYH-GRGIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFAHAYYDRGNAYCEKGSYEEAIKDFSKAIELNDKYTYAYHSRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELD</Hsp_hseq>
+      <Hsp_midline>+  +  A  ++D     Y+  +GI++ K G Y EA+    Q  + D          G AY K G   +  +   ++I             G  Y +   Y+ A+    K  E N          G+A    G + EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000281101</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>IAYYNRGVGCCIVGSYEEAIKDYSKAIELDDKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFAHAYYDRGNAYCEKGSYEEAIKDFSKAIELNDKYTYAYHSRGIAYCEKGSYKEAIKDYSQAIELD</Hsp_hseq>
+      <Hsp_midline>+ Y ++G+     G Y EA+    +  + D   V      GIAY K G+ +   +   ++I             G  Y +   Y  A+    +  E +    +  +  G A    G ++EAI  F  A+ L       + +   +Y + GS++EA+  + +A ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0407717</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>LSNVPEPNRQEAIAYYNRGVGCCIVGSYEEAIKDYSKAIELDDKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDDKYA</Hsp_hseq>
+      <Hsp_midline>L  V E N       +  GV    +G ++EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD++ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.78043</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFA</Hsp_hseq>
+      <Hsp_midline>G+A    G ++EAI  +  A+ L       +     +Y + G +++A+  + +A ELD++ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|917285689|ref|WP_051892401.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_051892401</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>4.08769e-09</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKDFSKAIELNDKYTYAYH-SRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGLYEEAIKDYSKAIELDGKFAHAYYDRGNAYCEKGSYEEAIKDYSKAIELDGKFAHAYHNRGNAYCEKGSYEEAIKDYSQAIELDDK</Hsp_hseq>
+      <Hsp_midline>+  F  A  +ND     Y+  +GI++ + G Y EA+    Q  + D   V      GIAY K G+ +   +   ++I      +      G+ Y +   Y+ A+    K  E +    +  +  G A    G ++EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.42995e-06</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>IKDYSQAIELDDKFAHAYY-DRGNAYCEKGSYEEAIKDFSKAIELNDKYTYAYHSRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGLYEEAIKDYSKAIELDGKFAHAYYDRGNAYCEKGSYEEAIKDYSKAIELDGKFA</Hsp_hseq>
+      <Hsp_midline>+  +  A  ++D     YY D+G ++ + G Y EA+    +  + +          GIAY + G+     +   ++I      +      G+ Y +   Y+ A+    +  E +    +     G+A    G ++EAI  +  A+ L       +     +Y + GS+EEA+  + KA ELD + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>1.57413e-05</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>YYNRGIAYCEKGSYEEAIKDYSKAIELDDKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFAHAYYDRGNAYCEKGSYEEAIKDFSKAIELNDKYTYAYHSRGIAYCEKGSYKEAIKDYSQAIELD</Hsp_hseq>
+      <Hsp_midline>Y ++GI++ + G Y EA+    +  + D   V      GIAY K G+ +   +   ++I             G  Y +   Y  A+    +  E +    +  +  G A    G ++EAI  F  A+ L       + +   +Y + GS++EA+  + +A ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>2.33588e-05</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>IKDYSKAIELDDKFVHAYH-GRGIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFAHAYYDRGNAYCEKGSYEEAIKDFSKAIELNDKYTYAYHSRGIAYCEKGSYKEAIKDYSQAIELDGKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELD</Hsp_hseq>
+      <Hsp_midline>+  +  A  ++D     Y+  +GI++ K G Y EA+    Q  + D          G AY K G   +  +   ++I             G  Y +   Y+ A+    K  E N          G+A    G + EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000995218</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>GSYEEAIKDYSQAIELDGKFAPAYYNRGIAYCEKGSYEEAIKDYSKAIELDDKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFAHAYYDRGNAYCEKGSYEEAIKDFSKAIELNDK</Hsp_hseq>
+      <Hsp_midline>G Y EA+    Q  + D        + GIAY + G+ +   +   ++I      +      G+ Y +   Y+ A+    +  E +          G A    G + +AI  +  A+ L       +     +Y + GS+EEA+  F KA EL+++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0343614</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>VQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>IKDYSQAIELDGKFAPA-------YYNRGIAYCEKGSYEEAIKDYSKAIELDDKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDDKYA</Hsp_hseq>
+      <Hsp_midline>++ Y  A+ L  K A A        +  G+A    G ++EAI  +  A+ L       +     +Y + GS+EEA+  + +A ELD++ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>7</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.0777779</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GIAYCEKGSYEEAIKDYSKAIELDDKFVHAYHGRGIAYFKKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKFA</Hsp_hseq>
+      <Hsp_midline>G+ Y +   Y+ A+    K  E +    +     G+A    G ++EAI  +  A+ L       +     +Y + G +++A+  + +A ELD++ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>8</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.166528</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>VGSYEEAIKDYSQAIELDGKFAPAYYNRGIAYCEKGSYEEAIKDYSKAIELDDK</Hsp_hseq>
+      <Hsp_midline>+G ++EAI  +  A+ L       +     +Y + GS+EEA+  + KA ELD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|564602033|ref|WP_023846945.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|563395891|gb|ETA26983.1| hypothetical protein SJDPG2_00655 [Porphyromonas gingivalis SJD2] &gt;gi|922688375|gb|ALA93125.1| tetratricopeptide repeat protein [Porphyromonas gingivalis AJW4] &gt;gi|1139922461|emb|SJL34550.1| hypothetical protein PGIN_YH522_01774 [Porphyromonas gingivalis] &gt;gi|1139930131|emb|SJL24916.1| hypothetical protein PGIN_11A_01358 [Porphyromonas gingivalis] &gt;gi|1139933344|emb|SJL35312.1| hypothetical protein PGIN_AFR-5B1_01914 [Porphyromonas gingivalis] &gt;gi|1143534289|emb|SJM20664.1| hypothetical protein PGIN_13-1_01996 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_023846945</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>1.35641e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0269859</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>YIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLGRVY</Hsp_hseq>
+      <Hsp_midline>+ + GR  EA+  LE+    D  +V++   +   Y  T   D+  E L++ +A  PDN  V   LG  Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.99771</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNA</Hsp_hseq>
+      <Hsp_midline>GR +EAI S + A+   P   +++  +A  YE    +++A    KK   LD  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1143533716|emb|SJM17640.1|</Hit_id>
+  <Hit_def>hypothetical protein PGIN_15-9_00592 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>SJM17640</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.39465e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0282354</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>YIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLGRVY</Hsp_hseq>
+      <Hsp_midline>+ + GR  EA+  LE+    D  +V++   +   Y  T   D+  E L++ +A  PDN  V   LG  Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.94437</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNA</Hsp_hseq>
+      <Hsp_midline>GR +EAI S + A+   P   +++  +A  YE    +++A    KK   LD  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|490722901|ref|WP_004585461.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|34397383|gb|AAQ66446.1| TPR domain protein [Porphyromonas gingivalis W83] &gt;gi|392612037|gb|EIW94755.1| tetratricopeptide repeat protein [Porphyromonas gingivalis W50] &gt;gi|482527146|gb|EOA10007.1| tetratricopeptide repeat protein [Porphyromonas gingivalis JCVI SC001] &gt;gi|914347683|gb|AKV63795.1| tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|1139935311|emb|SJL34246.1| hypothetical protein PGIN_ATCC49417_02011 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_004585461</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.40764e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0269859</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>YIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLGRVY</Hsp_hseq>
+      <Hsp_midline>+ + GR  EA+  LE+    D  +V++   +   Y  T   D+  E L++ +A  PDN  V   LG  Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.38471</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNA</Hsp_hseq>
+      <Hsp_midline>GR +EAI S + A+   P   +++  +A  YE    +++A    KK   LD  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|545441873|ref|WP_021679298.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543980737|gb|ERJ84483.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0566]</Hit_def>
+  <Hit_accession>WP_021679298</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.42074e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.21589</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNA</Hsp_hseq>
+      <Hsp_midline>GR +EAI S + A+   P   +++  +A  YE    +++A    KK   LD  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|545424867|ref|WP_021663455.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543953918|gb|ERJ64423.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0569] &gt;gi|1139926087|emb|SJL32391.1| hypothetical protein PGIN_84-3_01771 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_021663455</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.42074e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0269859</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>YIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLGRVY</Hsp_hseq>
+      <Hsp_midline>+ + GR  EA+  LE+    D  +V++   +   Y  T   D+  E L++ +A  PDN  V   LG  Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.8391</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNA</Hsp_hseq>
+      <Hsp_midline>GR +EAI S + A+   P   +++  +A  YE    +++A    KK   LD  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|503582538|ref|WP_013816614.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|333805012|dbj|BAK26219.1| TPR domain-containing protein [Porphyromonas gingivalis TDC60] &gt;gi|543979263|gb|ERJ83122.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0185] &gt;gi|1139931986|emb|SJL22687.1| hypothetical protein PGIN_3A1_01710 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_013816614</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.43397e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.025559</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>YIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLGRVY</Hsp_hseq>
+      <Hsp_midline>+ + GR  EA+  LE+    D  +V++   +   Y  T   D+  E L++ +A  PDN  V   LG  Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>6.27166</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNA</Hsp_hseq>
+      <Hsp_midline>GR +EAI S + A+   P   +++  +A  YE    +++A    KK   LD  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|501433187|ref|WP_012457845.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|188594420|dbj|BAG33395.1| TPR domain protein [Porphyromonas gingivalis ATCC 33277] &gt;gi|672596984|gb|AIJ35960.1| hypothetical protein EG14_07975 [Porphyromonas gingivalis] &gt;gi|938168447|gb|ALJ25308.1| tetratricopeptide repeat protein [Porphyromonas gingivalis 381] &gt;gi|1139928349|emb|SJL20264.1| hypothetical protein PGIN_3-3_01359 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_012457845</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.50198e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0287512</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>YIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLGRVY</Hsp_hseq>
+      <Hsp_midline>+ + GR  EA+  LE+    D  +V++   +   Y  T   D+  E L++ +A  PDN  V   LG  Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.99771</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNA</Hsp_hseq>
+      <Hsp_midline>GR +EAI S + A+   P   +++  +A  YE    +++A    KK   LD  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|545424645|ref|WP_021663246.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543954974|gb|ERJ65383.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0570] &gt;gi|543955068|gb|ERJ65433.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0568] &gt;gi|543987490|gb|ERJ90720.1| tetratricopeptide repeat protein [Porphyromonas gingivalis W4087] &gt;gi|928187860|dbj|GAP81280.1| tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|987481746|gb|KXC08855.1| hypothetical protein AT291_05290 [Porphyromonas gingivalis] &gt;gi|1139925619|emb|SJL22532.1| hypothetical protein PGIN_7BTORR_00038 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_021663246</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.51596e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.027981</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>YIETGRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLGRVY</Hsp_hseq>
+      <Hsp_midline>+ + GR  EA+  LE+    D  +V++   +   Y  T   D+  E L++ +A  PDN  V   LG  Y</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.99771</Hsp_evalue>
+      <Hsp_query-from>162</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNA</Hsp_hseq>
+      <Hsp_midline>GR +EAI S + A+   P   +++  +A  YE    +++A    KK   LD  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|953544012|ref|WP_058018914.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|952999867|gb|ALO29582.1| tetratricopeptide repeat protein [Porphyromonas gingivalis A7A1-28] &gt;gi|1139920837|emb|SJL32758.1| hypothetical protein PGIN_A7A1-28_01749 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_058018914</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>1.6478e-06</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>AFSVNDDIRQVYYRDKGISHAKAGRYSEA------VVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLG</Hsp_qseq>
+      <Hsp_hseq>TLEICNKIKDVPYRQNDVYQLIATVYQDKKDTEGYIRMLEEGVQKFPKEAYYLLNLINKYIETGHTEEAISSLERAIADDPQNVQLYDVMAKLYENTQDYDKAEEWLKKGLALDPDNASVCYDLG</Hsp_hseq>
+      <Hsp_midline>   + + I+ V YR   +    A  Y +       + MLE+       +    L+L   Y++TG  +     LER+IAD P N+++  V+   Y   Q YD A   L K    +P N +V + LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1143532419|emb|SJM19059.1|</Hit_id>
+  <Hit_def>hypothetical protein PGIN_15-9_01913 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>SJM19059</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.33898e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYIAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y+  G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0182289</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEAQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R  A    +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.35482</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYIAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y+ + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|492525859|ref|WP_005874386.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|34397020|gb|AAQ66084.1| TPR domain protein [Porphyromonas gingivalis W83] &gt;gi|392610025|gb|EIW92817.1| PPR repeat protein [Porphyromonas gingivalis W50] &gt;gi|914348112|gb|AKV64224.1| pentatricopeptide repeat-containing protein [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_005874386</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.42701e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYIAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y+  G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0180651</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEAQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R  A    +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>3.3251</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYIAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y+ + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|564602464|ref|WP_023847351.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|563395178|gb|ETA26303.1| hypothetical protein SJDPG2_08100 [Porphyromonas gingivalis SJD2]</Hit_def>
+  <Hit_accession>WP_023847351</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.46656e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRVDDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.018899</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER----SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRVDDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEGQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R    +  +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.92758</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRVDDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|953544077|ref|WP_058018979.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|952999977|gb|ALO29692.1| tetratricopeptide repeat protein [Porphyromonas gingivalis A7A1-28] &gt;gi|1139922007|emb|SJL26645.1| hypothetical protein PGIN_A7A1-28_00524 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_058018979</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.83093e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0192432</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER----SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEGQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R    +  +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.1606</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|545439311|ref|WP_021676988.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543982691|gb|ERJ86297.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0185]</Hit_def>
+  <Hit_accession>WP_021676988</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.93942e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0206836</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER----SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEGQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R    +  +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.1606</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1143079386|ref|WP_077070935.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|1139922669|emb|SJL33765.1| hypothetical protein PGIN_YH522_01642 [Porphyromonas gingivalis] &gt;gi|1139936867|emb|SJL27517.1| hypothetical protein PGIN_ATCC49417_00507 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077070935</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.04992e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0214436</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER----SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEGQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R    +  +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.2423</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|490721620|ref|WP_004584180.1|</Hit_id>
+  <Hit_def>PPR repeat protein [Porphyromonas gingivalis] &gt;gi|482527137|gb|EOA10000.1| PPR repeat protein [Porphyromonas gingivalis JCVI SC001] &gt;gi|922688785|gb|ALA93535.1| tetratricopeptide repeat protein [Porphyromonas gingivalis AJW4]</Hit_def>
+  <Hit_accession>WP_004584180</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.04992e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.021251</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER----SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEGQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R    +  +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.2423</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|503581644|ref|WP_013815720.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|333803829|dbj|BAK25036.1| TPR domain-containing protein [Porphyromonas gingivalis TDC60]</Hit_def>
+  <Hit_accession>WP_013815720</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.16247e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0228413</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRG----TELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEEQNAVNAADASNYAEIRARLYLMTGQTNKALNELRHLCSRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+       + E++  +A D    A +    Y+   + + A+  L  +    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>1.81455</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIY---NRMEEQNAV</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+  +   N ++E++AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|930428421|ref|WP_054191367.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|928187442|dbj|GAP81730.1| tetratricopeptide repeat protein [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_054191367</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.27711e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0175825</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEAQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R  A    +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.99936</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|188594540|dbj|BAG33515.1|</Hit_id>
+  <Hit_def>TPR domain protein [Porphyromonas gingivalis ATCC 33277]</Hit_def>
+  <Hit_accession>BAG33515</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>6.3125e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0158628</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEAQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R  A    +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1143093123|ref|WP_077084185.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|1139927518|emb|SJL26579.1| hypothetical protein PGIN_84-3_00333 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077084185</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.33523e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0174245</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEAQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R  A    +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.07962</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|545423395|ref|WP_021662091.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543959171|gb|ERJ69216.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0568]</Hit_def>
+  <Hit_accession>WP_021662091</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.33523e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0179028</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEAQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R  A    +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.07962</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1143127974|ref|WP_077111045.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|1139927874|emb|SJL20741.1| hypothetical protein PGIN_3-3_00207 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077111045</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.45307e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0222315</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER----SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEGQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R    +  +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.9198</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|545427079|ref|WP_021665492.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543955994|gb|ERJ66301.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0570] &gt;gi|543986305|gb|ERJ89613.1| tetratricopeptide repeat protein [Porphyromonas gingivalis W4087] &gt;gi|672596810|gb|AIJ35786.1| hypothetical protein EG14_07030 [Porphyromonas gingivalis] &gt;gi|938168568|gb|ALJ25429.1| pentatricopeptide repeat-containing protein [Porphyromonas gingivalis 381] &gt;gi|987481509|gb|KXC08623.1| hypothetical protein AT291_06095 [Porphyromonas gingivalis] &gt;gi|1139924863|emb|SJL24753.1| hypothetical protein PGIN_7BTORR_01135 [Porphyromonas gingivalis] &gt;gi|1139930234|emb|SJL24792.1| hypothetical protein PGIN_11A_00172 [Porphyromonas gingivalis] &gt;gi|1139934776|emb|SJL28730.1| hypothetical protein PGIN_AFR-5B1_00640 [Porphyromonas gingivalis] &gt;gi|1143535944|emb|SJM18687.1| hypothetical protein PGIN_13-1_00451 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_021665492</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.45307e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0175825</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEAQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R  A    +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.32473</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|545425553|ref|WP_021664093.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543957497|gb|ERJ67683.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0569]</Hit_def>
+  <Hit_accession>WP_021664093</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.51282e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0194176</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIA----DAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEAQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R  A    +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.2423</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|545440987|ref|WP_021678506.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543983736|gb|ERJ87248.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0566]</Hit_def>
+  <Hit_accession>WP_021678506</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>6.63396e-06</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +LG  Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0226362</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER----SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>GAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEGQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>G  + + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R    +  +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.40789</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEAL</Hsp_qseq>
+      <Hsp_hseq>PNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILGAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>P++  + + LG  Y  + + +     L +     P N N    LG   +  GR D+A+  ++      P+E ++   +A  Y Q G  ++A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|499258634|ref|WP_010956174.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|34397043|gb|AAQ66107.1| TPR domain protein [Porphyromonas gingivalis W83] &gt;gi|914348089|gb|AKV64201.1| tetratricopeptide repeat protein [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_010956174</Hit_accession>
+  <Hit_len>750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>1.88033e-05</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>YRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>YYNRGVAYFKKGSYEEAIKDFSKAIELDDKFVHAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKYILGYNGRGVAYCEKGSYEEAIKDYSKAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDGKFAHAYYGRGNAYCEKGSYEEAIKDYSQAIELDDKYA</Hsp_hseq>
+      <Hsp_midline>Y ++G+++ K G Y EA+    +  + D   V      G AY K G   +  +   ++I      I      G+ Y +   Y+ A+    K  E +          G A    G + +AI  +  A+ L       +     +Y + GS+EEA+  + +A ELD++ A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.000367514</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANP---VNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>IAYYNRGVGCYIVGSYEEAIKDYSKAIELDGKFIPAYYNRGVAYFKKGSYEEAIKDFSKAIELDDKFVHAYHGRGNAYSKKGWYKKAIKDYSQAIELDDKYILGYNGR---GVAYCEKGSYEEAIKDYSKAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDGKFA</Hsp_hseq>
+      <Hsp_midline>+ Y ++G+     G Y EA+    +  + D   +    + G+AY K G+ +   +   ++I      +      G  Y +   Y  A+    +  E +    + +N R   GVA    G ++EAI  +  A+ L       +     +Y + G +++A+  + +A ELD + A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>0.844287</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>DDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>DDKYILGYNGRGVAYCEKGSYEEAIKDYSKAIELDDKYAPAYHGRGNAYSKKGWYKKA---------------------------IKDYSQAIELDGKFAHA-------YYGRGNAYCEKGSYEEAIKDYSQAIELDDKYAPAYHGRGNAYSKKGWYKKAIKDYSQAIELDDK</Hsp_hseq>
+      <Hsp_midline>DD   + Y  +G+++ + G Y EA+    +  + D          G AY K G   +                            ++ Y  A+ L  K A A        +  G A    G ++EAI  +  A+ L       +     +Y + G +++A+  + +A ELD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1143104018|ref|WP_077094545.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|1139932549|emb|SJL21686.1| hypothetical protein PGIN_3A1_01171 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077094545</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>4.53194e-05</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>KGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAI</Hsp_qseq>
+      <Hsp_hseq>EGVRQREQENYAAAFDIFRYCHRLNPNDAALLSELGKLYFAIGRQEEGTRYLEQAYRLYPDNKNYGNILSAVYERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAI</Hsp_hseq>
+      <Hsp_midline>+G+   +   Y+ A  +    +  +  D  +   LG  Y   G  + GT  LE++    PDN     +L   Y +  + D AV L  +++E  P    +RF+L       G  D+AI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0504711</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLER----SIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEE</Hsp_qseq>
+      <Hsp_hseq>YERQGRADDAVRLYEEMSEQFPSEDELRFKLANMYVQAGEIDKAIYIYNRMEGQNAVNAADASNYAEIRARLYLMTGQTNKALNELRRLCNRFPEVNEFRLKYAGTLLDSEKYDEAYEQLQLIARTDSTSGLYHFAMASYY--LGTNEK</Hsp_hseq>
+      <Hsp_midline>+ + GR  +AV + E++ +    + E+   L   YV+ G +D+   +  R    +  +A D    A +    Y+   + + A+  L ++    P     R +    L +  ++DEA +  ++        G  H A+A  Y  +G++E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1143094077|ref|WP_077085085.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|1139931111|emb|SJL22761.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077085085</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>4.70123e-05</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>663</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQSRSLLKRLIALCEELGEEDEA</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P    + + +    E++G  +EA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1143094393|ref|WP_077085400.1|</Hit_id>
+  <Hit_def>hypothetical protein [Porphyromonas gingivalis] &gt;gi|1139930217|emb|SJL24833.1| hypothetical protein PGIN_11A_01300 [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077085400</Hit_accession>
+  <Hit_len>716</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.000298246</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>45</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>VDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>IKDYSKAIELDGKFAHAYY-DRGNVYYKKGANEEAIKDYSKAIELDGKFVHAYHGRGRAYCEKGLYEEAIKDYSKAIELNDKYTYAYHGRGIAYFKKGSYEEAIKDYSKAIELDSKFIPAYYNRGVAYFKKGLYEEAIKDFSQAIELDGKFVHAYHGRGNAYSKKGWYKKAIKDYSQAIELDDK</Hsp_hseq>
+      <Hsp_midline>+  +  A  ++      YY D+G  + K G   EA+    +  + D   V      G AY + G  +   +   ++I             G+ Y +   Y+ A+    K  E +       +  GVA    G ++EAI  F  A+ L       +     +Y + G +++A+  + +A ELD++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.0007347</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>IAYYNRGVDCCIVGSYEEAIKDYSKAIELDGKFAHAYYDRGNVYYKKGANEEAIKDYSKAIELDGKFVHAYHGRGRAYCEKGLYEEAIKDYSKAIELNDKYTYAYHGRGIAYFKKGSYEEAIKDYSKAIELDSKFIPAYYNRGVAYFKKGLYEEAIKDFSQAIELD</Hsp_hseq>
+      <Hsp_midline>+ Y ++G+     G Y EA+    +  + D          G  Y K GA +   +   ++I      +      G  Y +   Y+ A+    K  E N          G+A    G ++EAI  +  A+ L       +     +Y + G +EEA+  F +A ELD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|499302495|ref|WP_010993270.1|</Hit_id>
+  <Hit_def>MULTISPECIES: hypothetical protein [Bacteroides] &gt;gi|60494014|emb|CAH08806.1| conserved hypothetical protein [Bacteroides fragilis NCTC 9343] &gt;gi|596116313|gb|EXZ77597.1| tetratricopeptide repeat family protein [Bacteroides fragilis str. 3-F-2 #6] &gt;gi|596178816|gb|EYA29163.1| tetratricopeptide repeat family protein [Bacteroides fragilis str. 1009-4-F #10] &gt;gi|596182779|gb|EYA32785.1| tetratricopeptide repeat family protein [Bacteroides fragilis str. 1009-4-F #7] &gt;gi|1002814292|gb|KXU48143.1| tetratricopeptide repeat protein [Bacteroides cellulosilyticus] &gt;gi|1002814354|gb|KXU48203.1| tetratricopeptide repeat protein [Bacteroides fragilis] &gt;gi|1145715572|gb|OOD25268.1| hypothetical protein BWP07_12050 [Bacteroides fragilis]</Hit_def>
+  <Hit_accession>CAH08806</Hit_accession>
+  <Hit_len>732</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000526766</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>507</Hsp_hit-from>
+      <Hsp_hit-to>660</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>HAKAGRYSEAVVMLEQVYDA--DAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>HFKKKHWEEAAEAYDTIVDMLMDEEEAEICQKQGYSLQKLKRYDEAIKAYRKADILKSNNVWTNHHLGTCYRLNRQFKEALKYYRKVEEVLPEDTKVIFYIGSCLAEMWNFEEALNYFFKLDFLESNCVKAWRAIGWCSFMIAKREQAMKYYDK</Hsp_hseq>
+      <Hsp_midline>H K   + EA    + + D   D  + E+    G +  K    D   +   ++     +N+     LG  Y   +++  A+    KV E  P +  V F +G  L  +  F+EA++ F     L  N  K  RAI +    +   E+A+ ++ K</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0344437</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>518</Hsp_hit-from>
+      <Hsp_hit-to>596</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>QKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANEL</Hsp_qseq>
+      <Hsp_hseq>EAYDTIVDMLMDEEEAEICQ-----KQGYSLQKLKRYDEAIKAYRKADILKSNNVWTNHHLGTCYRLNRQFKEALKYYRKVEEV</Hsp_hseq>
+      <Hsp_midline>+ YD  V +L+   EA         + G +L  L R+DEAI +++ A  L+ N    +  +   Y      +EAL +++K  E+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.20944</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>540</Hsp_hit-from>
+      <Hsp_hit-to>631</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>GLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>GYSLQKLKRYDEAIKAYRKADILKSNNVWTNHHLGTCYRLNRQFKEALKYYRKVEEVLPEDTKVIFYIGSCLAEMWNFEEALNYFFKLDFLE</Hsp_hseq>
+      <Hsp_midline>G +  ++++YD A+    K       N      LG       +F EA+  ++    + P + KV   I     +M + EEAL +F K + L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|543988219|gb|ERJ91379.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein, partial [Porphyromonas gingivalis W4087]</Hit_def>
+  <Hit_accession>ERJ91379</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0029855</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>LVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>LSNVPEPNRQEAIAYYNRGVGCCIVGSYEEAIKDYSKAIELDDKFANAYNGRGNAYREKGSYEEAIKDFFKAIELDDK</Hsp_hseq>
+      <Hsp_midline>L  V E N       +  GV    +G ++EAI  +  A+ L       +     +Y + GS+EEA+  F KA ELD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|503581258|ref|WP_013815334.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|333803306|dbj|BAK24513.1| TPR domain-containing protein [Porphyromonas gingivalis TDC60]</Hit_def>
+  <Hit_accession>WP_013815334</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00390104</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFTLGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|545425592|ref|WP_021664131.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543957338|gb|ERJ67535.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0569]</Hit_def>
+  <Hit_accession>WP_021664131</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00397232</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFTLGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|564602064|ref|WP_023846975.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|563395971|gb|ETA27060.1| helicase [Porphyromonas gingivalis SJD2]</Hit_def>
+  <Hit_accession>WP_023846975</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00419407</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFTLGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|953544504|ref|WP_058019406.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|953000851|gb|ALO30566.1| PIF1 helicase [Porphyromonas gingivalis A7A1-28] &gt;gi|1139920479|emb|SJL34609.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_058019406</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00480395</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1143093088|ref|WP_077084150.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|1139927638|emb|SJL26321.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077084150</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00507197</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1143079306|ref|WP_077070855.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|1139922858|emb|SJL32875.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077070855</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00511807</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1143091561|ref|WP_077082795.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|1139934517|emb|SJL30210.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077082795</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00521152</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|545423761|ref|WP_021662428.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543954046|gb|ERJ64539.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0570] &gt;gi|543958105|gb|ERJ68230.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0568] &gt;gi|543985865|gb|ERJ89202.1| tetratricopeptide repeat protein [Porphyromonas gingivalis W4087] &gt;gi|987481333|gb|KXC08453.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_021662428</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00521152</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|482528839|gb|EOA11526.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis JCVI SC001]</Hit_def>
+  <Hit_accession>EOA11526</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00525889</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|545441445|ref|WP_021678918.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Porphyromonas gingivalis] &gt;gi|543982393|gb|ERJ86020.1| tetratricopeptide repeat protein [Porphyromonas gingivalis F0566]</Hit_def>
+  <Hit_accession>WP_021678918</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0053549</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1143533927|emb|SJM17406.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>SJM17406</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00545267</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1143129965|ref|WP_077112585.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|1139924626|emb|SJL25346.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077112585</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00555222</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1148759428|ref|WP_077491211.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|1143535798|emb|SJM19100.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077491211</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00560267</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFALGQVLEKFAYYEEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    ++EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|501434029|ref|WP_012458683.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|188595554|dbj|BAG34529.1| putative helicase [Porphyromonas gingivalis ATCC 33277] &gt;gi|672595894|gb|AIJ34870.1| helicase [Porphyromonas gingivalis] &gt;gi|938169530|gb|ALJ26391.1| PIF1 helicase [Porphyromonas gingivalis 381]</Hit_def>
+  <Hit_accession>WP_012458683</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.00575677</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFTLGQVLEKFAYYQEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    + EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1143104083|ref|WP_077094610.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|1139932399|emb|SJL21789.1| helicase [Porphyromonas gingivalis]</Hit_def>
+  <Hit_accession>WP_077094610</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.00647493</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFTLGQVLEKFAYYQEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    + EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|923060066|ref|WP_053443877.1|</Hit_id>
+  <Hit_def>helicase [Porphyromonas gingivalis] &gt;gi|922687946|gb|ALA92696.1| PIF1 helicase [Porphyromonas gingivalis AJW4]</Hit_def>
+  <Hit_accession>WP_053443877</Hit_accession>
+  <Hit_len>680</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.00659307</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>573</Hsp_hit-from>
+      <Hsp_hit-to>642</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>PDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPN</Hsp_qseq>
+      <Hsp_hseq>PDYVEALVRKGKTLAGLNEITASLSTLNQAIAIAPMDFTARFTLGQVLEKFAYYQEALDAYRQADGLNPQ</Hsp_hseq>
+      <Hsp_midline>PD ++     G T   + +   ++  L +     P++F  RF LG  L+    + EA+D+++ A GL P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>35521</Statistics_db-num>
+      <Statistics_db-len>12568845</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

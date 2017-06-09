@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99590.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamM, containing Cation efflux protein [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>318</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99590.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamM, containing Cation efflux protein [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>318</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|517543215|ref|WP_018713423.1|</Hit_id>
+  <Hit_def>thioredoxin-disulfide reductase [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_018713423</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>1.77726</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>WVGLAVSTVLMVMKAF-----VGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHR</Hsp_qseq>
+      <Hsp_hseq>FFGKGVSTCATCDGFFYKNKEVAVLGGGDTALEEAIYLTNIVSKVYLIHRREGFRAAPITVEKAKKNPKIEFVLNAVVDEVYGDNSG---VTGVRVKFNDGKTR</Hsp_hseq>
+      <Hsp_midline>+ G  VST       F     V ++GG    L +A+Y    +    ++       + P+  E    + K+EF+L+ VV  V+   +G   V  V++  ++   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|514957720|ref|WP_016646317.1|</Hit_id>
+  <Hit_def>thioredoxin-disulfide reductase [Campylobacter ureolyticus] &gt;gi|514214128|gb|EPH09825.1| thioredoxin-disulfide reductase [Campylobacter ureolyticus ACS-301-V-Sch3b]</Hit_def>
+  <Hit_accession>WP_016646317</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.87388</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>WVGLAVSTVLMVMKAF-----VGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNV</Hsp_qseq>
+      <Hsp_hseq>FFGKGVSTCATCDGFFYKNKEVAVLGGGDTALEEAIYLTNIVSKVYLIHRREGFRAAPITVEKAKKNPKIEFVLNAVVDEVYGDKSG---VTGVRVKFNDG--KTKELKV-PGIFTFVGLNV</Hsp_hseq>
+      <Hsp_midline>+ G  VST       F     V ++GG    L +A+Y    +    ++       + P+  E    + K+EF+L+ VV  V+   +G   V  V++  ++   +T  L V       +G+NV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|912987915|ref|WP_050335916.1|</Hit_id>
+  <Hit_def>thioredoxin-disulfide reductase [Campylobacter ureolyticus] &gt;gi|909717111|gb|AKT91462.1| thioredoxin reductase [Campylobacter ureolyticus RIGS 9880]</Hit_def>
+  <Hit_accession>WP_050335916</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>2.21582</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>WVGLAVSTVLMVMKAF-----VGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHAVQILLDESLHRTPHLIVLWAALVSIGVNV</Hsp_qseq>
+      <Hsp_hseq>FFGKGVSTCATCDGFFYKNKEVAVLGGGDTALEEAIYLTNIVSKVYLIHRREGFRAAPITVEKAKKNPKIEFVLNAVVDEVYGDNSG---VTGVRVKFNDG--KTKELKV-PGIFTFVGLNV</Hsp_hseq>
+      <Hsp_midline>+ G  VST       F     V ++GG    L +A+Y    +    ++       + P+  E    + K+EF+L+ VV  V+   +G   V  V++  ++   +T  L V       +G+NV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|640528934|ref|WP_024962891.1|</Hit_id>
+  <Hit_def>thioredoxin-disulfide reductase [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_024962891</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>3.6307</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>WVGLAVSTVLMVMKAF-----VGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVF</Hsp_qseq>
+      <Hsp_hseq>FFGKGVSTCATCDGFFYKNKEVAVLGGGDTALEEAIYLTNIVSKVYLIHRREGFRAAPITVEKAKKNPKIEFVLNAIVDEVY</Hsp_hseq>
+      <Hsp_midline>+ G  VST       F     V ++GG    L +A+Y    +    ++       + P+  E    + K+EF+L+ +V  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|640528819|ref|WP_024962779.1|</Hit_id>
+  <Hit_def>hypothetical protein [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_024962779</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>6.45406</Hsp_evalue>
+      <Hsp_query-from>247</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>WADMI----IGVDPENTVEQAHEICEAVQAAVCGKIR</Hsp_qseq>
+      <Hsp_hseq>FADMIKDDKTTLQDQNLTKQVDELCEAIIADDYDKVK</Hsp_hseq>
+      <Hsp_midline>+ADMI      +  +N  +Q  E+CEA+ A    K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|514958180|ref|WP_016646777.1|</Hit_id>
+  <Hit_def>cation diffusion facilitator transporter [Campylobacter ureolyticus] &gt;gi|514213229|gb|EPH08941.1| cation diffusion facilitator family transporter [Campylobacter ureolyticus ACS-301-V-Sch3b]</Hit_def>
+  <Hit_accession>WP_016646777</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>8.56683</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>VLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMVVSVVFIVLTGYLLVHA</Hsp_qseq>
+      <Hsp_hseq>VLAIFKLTAGLFSGSIAVMASAIDSMLDSIISGLNYAALKKSKDKANSKFNYGLSKLEALMAFLEG-LFILGVGLFIFYS</Hsp_hseq>
+      <Hsp_midline>VL + K   GL  GS A++A A+ S+ D + + +       S    +++  YG  K+E +++ +   +FI+  G  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|912987299|ref|WP_050335457.1|</Hit_id>
+  <Hit_def>hypothetical protein [Campylobacter ureolyticus] &gt;gi|909716752|gb|AKT91103.1| hypothetical protein CUREO_1259 [Campylobacter ureolyticus RIGS 9880]</Hit_def>
+  <Hit_accession>WP_050335457</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>8.82568</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>49</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>KSGCAVCSRSIGWVGLAVSTVLMVMKAFVGLIGGSQAMLADAMYSLK</Hsp_qseq>
+      <Hsp_hseq>KDKILLCEELYFKVSEYFETDYALAKHFAPLMGEKSELLLDCLYKLK</Hsp_hseq>
+      <Hsp_midline>K    +C      V     T   + K F  L+G    +L D +Y LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|517542458|ref|WP_018712666.1|</Hit_id>
+  <Hit_def>cation-efflux pump [Campylobacter ureolyticus]</Hit_def>
+  <Hit_accession>WP_018712666</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>9.52311</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VLMVMKAFVGLIGGSQAMLADAMYSLKDMLNALMVIIGTTISSKPLDAEHPYGHGKVEFILSMV</Hsp_qseq>
+      <Hsp_hseq>VLAIFKLTAGLFSGSIAVMASAIDSMLDSIISGLNYAALKKSKDKANSKFNYGLSKLEALMAFL</Hsp_hseq>
+      <Hsp_midline>VL + K   GL  GS A++A A+ S+ D + + +       S    +++  YG  K+E +++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>6350</Statistics_db-num>
+      <Statistics_db-len>2010484</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

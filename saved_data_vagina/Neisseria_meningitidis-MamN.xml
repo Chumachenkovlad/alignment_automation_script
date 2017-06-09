@@ -1,0 +1,1022 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99589.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamN, containing Divalent ion symporter domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>437</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99589.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamN, containing Divalent ion symporter domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>437</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|254671937|emb|CBA04301.1|</Hit_id>
+  <Hit_def>sodium:sulfate symporter, DASS family [Neisseria meningitidis alpha275]</Hit_def>
+  <Hit_accession>CBA04301</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.296686</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1049329878|ref|WP_065824906.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049175540|gb|ANX97244.1| anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_065824906</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.780522</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSLPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488142771|ref|WP_002213979.1|</Hit_id>
+  <Hit_def>divalent anion:Na+ symporter family transporter [Neisseria meningitidis] &gt;gi|304338162|gb|EFM04298.1| transporter, DASS family [Neisseria meningitidis ATCC 13091]</Hit_def>
+  <Hit_accession>WP_002213979</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.986587</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488151506|ref|WP_002222714.1|</Hit_id>
+  <Hit_def>transporter divalent anion:Na+ symporter family [Neisseria meningitidis] &gt;gi|325134062|gb|EGC56717.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis M13399] &gt;gi|530901657|gb|EQD00284.1| na+ symporter family protein [Neisseria meningitidis 96037]</Hit_def>
+  <Hit_accession>WP_002222714</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.02143</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|896394217|ref|WP_049333338.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion:sodium symporter [Neisseria] &gt;gi|1080695779|gb|OFO67285.1| anion:sodium symporter [Neisseria sp. HMSC065C04]</Hit_def>
+  <Hit_accession>WP_049333338</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.04837</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>TLALIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>TIYIFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFAVTAFLSMWISNTATAAMMLPLAMGMMSHLDQEKERKTYVFVLLGIAYCASIGGLGTVVGSPPNMIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>T+ + FG  A++  L    +   +A     LS+G  +  ++M+  VT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PNMI A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|896407685|ref|WP_049344683.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion:sodium symporter [Neisseria] &gt;gi|1080209425|gb|OFK05104.1| anion:sodium symporter [Neisseria sp. HMSC067H04] &gt;gi|1080338477|gb|OFL27878.1| anion:sodium symporter [Neisseria sp. HMSC075C12] &gt;gi|1081001093|gb|OFR57763.1| anion:sodium symporter [Neisseria sp. HMSC067G11] &gt;gi|1081015962|gb|OFR71894.1| anion:sodium symporter [Neisseria sp. HMSC067G12]</Hit_def>
+  <Hit_accession>WP_049344683</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.05817</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>TLALIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>TIYIFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFAVTAFLSMWISNTATAAMMLPLAMGMMSHLDQEKERKTYVFVLLGIAYCASIGGLGTVVGSPPNMIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>T+ + FG  A++  L    +   +A     LS+G  +  ++M+  VT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PNMI A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|489843393|ref|WP_003747091.1|</Hit_id>
+  <Hit_def>MULTISPECIES: NadC family transporter [Neisseria] &gt;gi|317400194|gb|EFV80853.1| NadC family transporter [Neisseria mucosa C102] &gt;gi|1080439047|gb|OFM23700.1| anion:sodium symporter [Neisseria sp. HMSC070A01]</Hit_def>
+  <Hit_accession>WP_003747091</Hit_accession>
+  <Hit_len>472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.06739</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>TLALIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>TIYIFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFAVTAFLSMWISNTATAAMMLPLAMGMMSHLDQEKERKTYVFVLLGIAYCASIGGLGTVVGSPPNMIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>T+ + FG  A++  L    +   +A     LS+G  +  ++M+  VT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PNMI A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|645207976|ref|WP_025460155.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion:sodium symporter [Neisseria] &gt;gi|990594155|emb|CWO81351.1| NadC family protein [Neisseria meningitidis] &gt;gi|990602623|emb|CWN19024.1| NadC family protein [Neisseria meningitidis] &gt;gi|990622386|emb|CWR02769.1| NadC family protein [Neisseria meningitidis] &gt;gi|990641744|emb|CWS74904.1| NadC family protein [Neisseria meningitidis] &gt;gi|990661471|emb|CWT59232.1| NadC family protein [Neisseria meningitidis] &gt;gi|990674538|emb|CWP57901.1| NadC family protein [Neisseria meningitidis] &gt;gi|1080838250|gb|OFQ02670.1| anion:sodium symporter [Neisseria sp. HMSC070F02]</Hit_def>
+  <Hit_accession>WP_025460155</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.07601</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|488172207|ref|WP_002243415.1|</Hit_id>
+  <Hit_def>sulfate symporter, DASS family [Neisseria meningitidis] &gt;gi|402344250|gb|EJU79391.1| sulfate symporter, DASS family [Neisseria meningitidis NM3001]</Hit_def>
+  <Hit_accession>WP_002243415</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.10439</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|896389732|ref|WP_049329668.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_049329668</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.14339</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>TLALIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>TIYIFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFAVTAFLSMWISNTATAAMMLPLAMGMMNHLDQEKERKTYVFVLLGIAYCASIGGLGTVVGSPPNMIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>T+ + FG  A++  L    +   +A     LS+G  +  ++M+  VT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PNMI A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|896397846|ref|WP_049336559.1|</Hit_id>
+  <Hit_def>MULTISPECIES: anion:sodium symporter [Neisseria] &gt;gi|1016438662|gb|KZC85430.1| transporter, NadC family [Neisseria flavescens] &gt;gi|1080224068|gb|OFK19235.1| anion:sodium symporter [Neisseria sp. HMSC071A01] &gt;gi|1080539500|gb|OFN19783.1| anion:sodium symporter [Neisseria sp. HMSC072B12]</Hit_def>
+  <Hit_accession>WP_049336559</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.18376</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>TLALIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>TIYIFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFAVTAFLSMWISNTATAAMMLPLAMGMMSHLDQEKERKTYVFVLLGIAYCASIGGLGTVVGSPPNMIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>T+ + FG  A++  L    +   +A     LS+G  +  ++M+  VT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PNMI A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|488174891|ref|WP_002246099.1|</Hit_id>
+  <Hit_def>na+ symporter family protein [Neisseria meningitidis] &gt;gi|121051919|emb|CAM08225.1| putative transmembrane transport protein [Neisseria meningitidis Z2491] &gt;gi|319410158|emb|CBY90494.1| putative transporter [Neisseria meningitidis WUE 2594] &gt;gi|432211220|gb|ELK67175.1| na+ symporter family protein [Neisseria meningitidis 88050] &gt;gi|432217200|gb|ELK73069.1| na+ symporter family protein [Neisseria meningitidis 63041] &gt;gi|432248828|gb|ELL04252.1| na+ symporter family protein [Neisseria meningitidis 63049] &gt;gi|432254307|gb|ELL09642.1| na+ symporter family protein [Neisseria meningitidis 96023] &gt;gi|432255509|gb|ELL10838.1| na+ symporter family protein [Neisseria meningitidis 65014] &gt;gi|432260605|gb|ELL15863.1| na+ symporter family protein [Neisseria meningitidis 97020] &gt;gi|432277666|gb|ELL32712.1| na+ symporter family protein [Neisseria meningitidis 63006] &gt;gi|485283280|gb|EOB49297.1| na+ symporter family protein [Neisseria meningitidis 94018] &gt;gi|485289139|gb|EOB54769.1| na+ symporter family protein [Neisseria meningitidis 75689] &gt;gi|485289862|gb|EOB55453.1| na+ symporter family protein [Neisseria meningitidis 75643] &gt;gi|485295796|gb|EOB60986.1| na+ symporter family protein [Neisseria meningitidis 97018] &gt;gi|485303456|gb|EOB68161.1| na+ symporter family protein [Neisseria meningitidis 65012] &gt;gi|485304109|gb|EOB68772.1| na+ symporter family protein [Neisseria meningitidis 64182] &gt;gi|485308774|gb|EOB73113.1| na+ symporter family protein [Neisseria meningitidis 97027] &gt;gi|485310873|gb|EOB75078.1| na+ symporter family protein [Neisseria meningitidis 96024] &gt;gi|485311219|gb|EOB75404.1| na+ symporter family protein [Neisseria meningitidis 97008] &gt;gi|485315300|gb|EOB79204.1| na+ symporter family protein [Neisseria meningitidis 98005] &gt;gi|1169365747|gb|ARC05154.1| anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002246099</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.44516</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGSMKAAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488163568|ref|WP_002234776.1|</Hit_id>
+  <Hit_def>sulfate symporter, DASS family [Neisseria meningitidis] &gt;gi|402318136|gb|EJU53661.1| sulfate symporter, DASS family [Neisseria meningitidis NM255] &gt;gi|485376076|gb|EOC35647.1| na+ symporter family protein [Neisseria meningitidis 2004032] &gt;gi|940683759|gb|KQB50381.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049100078|gb|ANX21852.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049101291|gb|ANX23064.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049116395|gb|ANX38161.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049128958|gb|ANX50717.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049151269|gb|ANX73013.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049154591|gb|ANX76334.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049170489|gb|ANX92221.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1051126840|gb|AOA40818.1| anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002234776</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.49619</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVALLRLSRGSMKAAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|506295633|ref|WP_015815408.1|</Hit_id>
+  <Hit_def>putative transport protein [Neisseria meningitidis] &gt;gi|254668212|emb|CBA04976.1| putative transport protein [Neisseria meningitidis alpha14] &gt;gi|990591319|emb|CWP12974.1| NadC family protein [Neisseria meningitidis] &gt;gi|990634412|emb|CWS99342.1| NadC family protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_015815408</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.49619</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVALLRLSRGSMKAAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|488146369|ref|WP_002217577.1|</Hit_id>
+  <Hit_def>transporter divalent anion:Na+ symporter family [Neisseria meningitidis] &gt;gi|316983784|gb|EFV62765.1| transporter, divalent anion:Na+ symporter family protein [Neisseria meningitidis H44/76] &gt;gi|325127929|gb|EGC50832.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis N1568] &gt;gi|325200522|gb|ADY95977.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis H44/76] &gt;gi|402330560|gb|EJU65907.1| sulfate symporter, DASS family [Neisseria meningitidis 69166] &gt;gi|432209481|gb|ELK65448.1| na+ symporter family protein [Neisseria meningitidis 68094] &gt;gi|432210796|gb|ELK66752.1| na+ symporter family protein [Neisseria meningitidis 97021] &gt;gi|432216502|gb|ELK72383.1| na+ symporter family protein [Neisseria meningitidis 70012] &gt;gi|432217575|gb|ELK73443.1| na+ symporter family protein [Neisseria meningitidis 2006087] &gt;gi|432221433|gb|ELK77243.1| na+ symporter family protein [Neisseria meningitidis 2002038] &gt;gi|432222975|gb|ELK78757.1| na+ symporter family protein [Neisseria meningitidis 97014] &gt;gi|432260392|gb|ELL15651.1| na+ symporter family protein [Neisseria meningitidis 61103] &gt;gi|432262007|gb|ELL17252.1| na+ symporter family protein [Neisseria meningitidis 69096] &gt;gi|432274680|gb|ELL29767.1| na+ symporter family protein [Neisseria meningitidis 70030] &gt;gi|485276127|gb|EOB42606.1| na+ symporter family protein [Neisseria meningitidis 69176] &gt;gi|485276556|gb|EOB43010.1| na+ symporter family protein [Neisseria meningitidis 70021] &gt;gi|485276715|gb|EOB43167.1| na+ symporter family protein [Neisseria meningitidis 69155] &gt;gi|485282493|gb|EOB48553.1| na+ symporter family protein [Neisseria meningitidis 96060] &gt;gi|485290548|gb|EOB56096.1| na+ symporter family protein [Neisseria meningitidis 69100] &gt;gi|485296827|gb|EOB61969.1| na+ symporter family protein [Neisseria meningitidis 63023] &gt;gi|485297338|gb|EOB62456.1| na+ symporter family protein [Neisseria meningitidis 61106] &gt;gi|485303067|gb|EOB67789.1| na+ symporter family protein [Neisseria meningitidis 70082] &gt;gi|485394068|gb|EOC52450.1| na+ symporter family protein [Neisseria meningitidis 2005172] &gt;gi|485395486|gb|EOC53782.1| na+ symporter family protein [Neisseria meningitidis 2008223] &gt;gi|514071459|gb|EPF56246.1| na+ symporter family protein [Neisseria meningitidis 98002]</Hit_def>
+  <Hit_accession>WP_002217577</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.54901</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGSMKAAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|488149980|ref|WP_002221188.1|</Hit_id>
+  <Hit_def>transporter divalent anion:Na+ symporter family [Neisseria meningitidis] &gt;gi|120866292|emb|CAM10033.1| putative transmembrane transport protein [Neisseria meningitidis FAM18] &gt;gi|325131974|gb|EGC54673.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis M6190] &gt;gi|325137805|gb|EGC60380.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis ES14902] &gt;gi|432203518|gb|ELK59569.1| na+ symporter family protein [Neisseria meningitidis 87255] &gt;gi|432229084|gb|ELK84777.1| na+ symporter family protein [Neisseria meningitidis NM586] &gt;gi|432231046|gb|ELK86716.1| na+ symporter family protein [Neisseria meningitidis NM762] &gt;gi|432234450|gb|ELK90070.1| na+ symporter family protein [Neisseria meningitidis M7124] &gt;gi|432235256|gb|ELK90872.1| na+ symporter family protein [Neisseria meningitidis M7089] &gt;gi|432235875|gb|ELK91484.1| na+ symporter family protein [Neisseria meningitidis NM174] &gt;gi|432240977|gb|ELK96508.1| na+ symporter family protein [Neisseria meningitidis NM126] &gt;gi|485331371|gb|EOB94207.1| na+ symporter family protein [Neisseria meningitidis NM133] &gt;gi|485334417|gb|EOB97049.1| na+ symporter family protein [Neisseria meningitidis NM43] &gt;gi|485338161|gb|EOC00545.1| na+ symporter family protein [Neisseria meningitidis NM94] &gt;gi|485338313|gb|EOC00695.1| na+ symporter family protein [Neisseria meningitidis NM82] &gt;gi|485338521|gb|EOC00891.1| na+ symporter family protein [Neisseria meningitidis NM82] &gt;gi|485341065|gb|EOC03265.1| na+ symporter family protein [Neisseria meningitidis NM95] &gt;gi|485344091|gb|EOC06072.1| na+ symporter family protein [Neisseria meningitidis NM313] &gt;gi|485345348|gb|EOC07253.1| na+ symporter family protein [Neisseria meningitidis NM1482] &gt;gi|485347584|gb|EOC09338.1| na+ symporter family protein [Neisseria meningitidis NM1495] &gt;gi|485351180|gb|EOC12679.1| na+ symporter family protein [Neisseria meningitidis 73704] &gt;gi|485363940|gb|EOC24363.1| na+ symporter family protein [Neisseria meningitidis NM3147] &gt;gi|485366907|gb|EOC27098.1| na+ symporter family protein [Neisseria meningitidis 2001072] &gt;gi|485368759|gb|EOC28841.1| na+ symporter family protein [Neisseria meningitidis 2001073] &gt;gi|485370665|gb|EOC30605.1| na+ symporter family protein [Neisseria meningitidis 2000081] &gt;gi|485370762|gb|EOC30700.1| na+ symporter family protein [Neisseria meningitidis 2000081] &gt;gi|485376633|gb|EOC36170.1| na+ symporter family protein [Neisseria meningitidis 2001213] &gt;gi|485379962|gb|EOC39297.1| na+ symporter family protein [Neisseria meningitidis 2004264] &gt;gi|485382573|gb|EOC41736.1| na+ symporter family protein [Neisseria meningitidis 2000175] &gt;gi|485383001|gb|EOC42142.1| na+ symporter family protein [Neisseria meningitidis 2005079] &gt;gi|485386846|gb|EOC45724.1| na+ symporter family protein [Neisseria meningitidis 2001068] &gt;gi|485388910|gb|EOC47662.1| na+ symporter family protein [Neisseria meningitidis 2005040] &gt;gi|485389885|gb|EOC48577.1| na+ symporter family protein [Neisseria meningitidis 2002004] &gt;gi|485431734|gb|EOC87359.1| na+ symporter family protein [Neisseria meningitidis NM23] &gt;gi|485432187|gb|EOC87760.1| na+ symporter family protein [Neisseria meningitidis NM32] &gt;gi|485436154|gb|EOC91335.1| na+ symporter family protein [Neisseria meningitidis NM35] &gt;gi|485437957|gb|EOC92987.1| na+ symporter family protein [Neisseria meningitidis NM36] &gt;gi|694194091|gb|KGI99289.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|723271690|gb|KHC98881.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|723273207|gb|KHD00391.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|730569673|gb|AIZ17475.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|730572811|gb|AIZ20213.1| anion:sodium symporter [Neisseria meningitidis M7124] &gt;gi|730575135|gb|AIZ22084.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|730577591|gb|AIZ24038.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|730580930|gb|AIZ26911.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|940676895|gb|KQB45069.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|940680419|gb|KQB48076.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|989256170|emb|CWQ86276.1| NadC family protein [Neisseria meningitidis] &gt;gi|989264502|emb|CWR32631.1| NadC family protein [Neisseria meningitidis] &gt;gi|989268636|emb|CWQ57215.1| NadC family protein [Neisseria meningitidis] &gt;gi|989272762|emb|CWM99764.1| NadC family protein [Neisseria meningitidis] &gt;gi|989305660|emb|CWM83043.1| NadC family protein [Neisseria meningitidis] &gt;gi|989343414|emb|CWN33414.1| NadC family protein [Neisseria meningitidis] &gt;gi|989383384|emb|CWR17947.1| NadC family protein [Neisseria meningitidis] &gt;gi|989389558|emb|CWN03176.1| NadC family protein [Neisseria meningitidis] &gt;gi|989393678|emb|CWO33712.1| NadC family protein [Neisseria meningitidis] &gt;gi|989397755|emb|CWT68995.1| NadC family protein [Neisseria meningitidis] &gt;gi|989399813|emb|CWO47833.1| NadC family protein [Neisseria meningitidis] &gt;gi|989406074|emb|CWR26126.1| NadC family protein [Neisseria meningitidis] &gt;gi|989410145|emb|CWR37081.1| NadC family protein [Neisseria meningitidis] &gt;gi|989414210|emb|CWS26674.1| NadC family protein [Neisseria meningitidis] &gt;gi|989428932|emb|CWN99463.1| NadC family protein [Neisseria meningitidis] &gt;gi|989430746|emb|CWS35527.1| NadC family protein [Neisseria meningitidis] &gt;gi|989433058|emb|CWR82988.1| NadC family protein [Neisseria meningitidis] &gt;gi|989435118|emb|CWN17160.1| NadC family protein [Neisseria meningitidis] &gt;gi|989442173|emb|CWO62878.1| NadC family protein [Neisseria meningitidis] &gt;gi|989446235|emb|CWS30150.1| NadC family protein [Neisseria meningitidis] &gt;gi|989477712|emb|CWS32322.1| NadC family protein [Neisseria meningitidis] &gt;gi|989481125|emb|CWN61501.1| NadC family protein [Neisseria meningitidis] &gt;gi|989511276|emb|CWS27221.1| NadC family protein [Neisseria meningitidis] &gt;gi|989514322|emb|CWO38081.1| NadC family protein [Neisseria meningitidis] &gt;gi|989518102|emb|CWS48063.1| NadC family protein [Neisseria meningitidis] &gt;gi|989534812|emb|CWS53463.1| NadC family protein [Neisseria meningitidis] &gt;gi|989538982|emb|CWN50766.1| NadC family protein [Neisseria meningitidis] &gt;gi|989543082|emb|CWP36991.1| NadC family protein [Neisseria meningitidis] &gt;gi|989545271|emb|CWO54715.1| NadC family protein [Neisseria meningitidis] &gt;gi|989558163|emb|CWP51744.1| NadC family protein [Neisseria meningitidis] &gt;gi|989561253|emb|CWS33812.1| NadC family protein [Neisseria meningitidis] &gt;gi|989576056|emb|CWR49094.1| NadC family protein [Neisseria meningitidis] &gt;gi|989579108|emb|CWO60861.1| NadC family protein [Neisseria meningitidis] &gt;gi|989582180|emb|CWP67106.1| NadC family protein [Neisseria meningitidis] &gt;gi|989594380|emb|CWO43909.1| NadC family protein [Neisseria meningitidis] &gt;gi|989597677|emb|CWO43297.1| NadC family protein [Neisseria meningitidis] &gt;gi|989607274|emb|CWO31886.1| NadC family protein [Neisseria meningitidis] &gt;gi|989613425|emb|CWS30695.1| NadC family protein [Neisseria meningitidis] &gt;gi|989616460|emb|CWN35577.1| NadC family protein [Neisseria meningitidis] &gt;gi|989619201|emb|CWS12390.1| NadC family protein [Neisseria meningitidis] &gt;gi|989625483|emb|CWR33126.1| NadC family protein [Neisseria meningitidis] &gt;gi|989633688|emb|CWO33421.1| NadC family protein [Neisseria meningitidis] &gt;gi|989636698|emb|CWO61497.1| NadC family protein [Neisseria meningitidis] &gt;gi|989645880|emb|CWS24456.1| NadC family protein [Neisseria meningitidis] &gt;gi|989657765|emb|CWT08957.1| NadC family protein [Neisseria meningitidis] &gt;gi|989661014|emb|CWS33191.1| NadC family protein [Neisseria meningitidis] &gt;gi|989673490|emb|CWR73111.1| NadC family protein [Neisseria meningitidis] &gt;gi|989686307|emb|CWN43352.1| NadC family protein [Neisseria meningitidis] &gt;gi|989690731|emb|CWS31865.1| NadC family protein [Neisseria meningitidis] &gt;gi|989694939|emb|CWS25835.1| NadC family protein [Neisseria meningitidis] &gt;gi|989702552|emb|CWS18526.1| NadC family protein [Neisseria meningitidis] &gt;gi|989705805|emb|CWS55802.1| NadC family protein [Neisseria meningitidis] &gt;gi|989708892|emb|CWO14508.1| NadC family protein [Neisseria meningitidis] &gt;gi|989711949|emb|CWM29378.1| NadC family protein [Neisseria meningitidis] &gt;gi|989715040|emb|CWR30659.1| NadC family protein [Neisseria meningitidis] &gt;gi|989718189|emb|CWR52020.1| NadC family protein [Neisseria meningitidis] &gt;gi|989721243|emb|CWT63416.1| NadC family protein [Neisseria meningitidis] &gt;gi|989733993|emb|CWQ33144.1| NadC family protein [Neisseria meningitidis] &gt;gi|989740473|emb|CWO52784.1| NadC family protein [Neisseria meningitidis] &gt;gi|989748056|emb|CWT16033.1| NadC family protein [Neisseria meningitidis] &gt;gi|989752415|emb|CWO24187.1| NadC family protein [Neisseria meningitidis] &gt;gi|989756407|emb|CWP34037.1| NadC family protein [Neisseria meningitidis] &gt;gi|989765878|emb|CWS13450.1| NadC family protein [Neisseria meningitidis] &gt;gi|989784128|emb|CWO47857.1| NadC family protein [Neisseria meningitidis] &gt;gi|989790172|emb|CWO32055.1| NadC family protein [Neisseria meningitidis] &gt;gi|989807221|emb|CWN72669.1| NadC family protein [Neisseria meningitidis] &gt;gi|989817720|emb|CWR39273.1| NadC family protein [Neisseria meningitidis] &gt;gi|989822060|emb|CWO44964.1| NadC family protein [Neisseria meningitidis] &gt;gi|989834691|emb|CWQ31095.1| NadC family protein [Neisseria meningitidis] &gt;gi|989840725|emb|CWR38269.1| NadC family protein [Neisseria meningitidis] &gt;gi|989842750|emb|CWN77006.1| NadC family protein [Neisseria meningitidis] &gt;gi|989849206|emb|CWN66448.1| NadC family protein [Neisseria meningitidis] &gt;gi|989853280|emb|CWN34342.1| NadC family protein [Neisseria meningitidis] &gt;gi|989876160|emb|CWM42056.1| NadC family protein [Neisseria meningitidis] &gt;gi|989958377|emb|CWO01326.1| NadC family protein [Neisseria meningitidis] &gt;gi|989962306|emb|CWS22785.1| NadC family protein [Neisseria meningitidis] &gt;gi|989975897|emb|CWS03755.1| NadC family protein [Neisseria meningitidis] &gt;gi|990064044|emb|CWO02452.1| NadC family protein [Neisseria meningitidis] &gt;gi|1048073800|gb|ANW71394.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049067058|gb|ANW91300.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis] &gt;gi|1049069170|gb|ANW93403.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis] &gt;gi|1049094436|gb|ANX16217.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049095337|gb|ANX17117.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049098265|gb|ANX20040.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049104986|gb|ANX26758.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049106895|gb|ANX28666.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049107811|gb|ANX29581.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049110720|gb|ANX32489.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049112393|gb|ANX34161.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049113651|gb|ANX35418.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049118646|gb|ANX40411.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049120024|gb|ANX41788.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049122409|gb|ANX44172.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049124172|gb|ANX45934.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049126499|gb|ANX48260.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049131793|gb|ANX53550.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049132361|gb|ANX54117.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049134743|gb|ANX56498.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049137918|gb|ANX59672.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049139793|gb|ANX61546.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049141948|gb|ANX63699.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049144515|gb|ANX66264.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049145017|gb|ANX66765.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049147464|gb|ANX69211.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049150388|gb|ANX72134.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049156406|gb|ANX78148.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049157915|gb|ANX79655.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049159490|gb|ANX81228.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049161952|gb|ANX83689.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049164206|gb|ANX85941.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049166288|gb|ANX88022.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049168662|gb|ANX90395.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049172815|gb|ANX94520.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1049176312|gb|ANX98015.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1051121490|gb|AOA35471.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1051122683|gb|AOA36663.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1051124248|gb|AOA38227.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1051129735|gb|AOA43712.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1051131945|gb|AOA45921.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1051134065|gb|AOA48040.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1134410192|gb|OMH47186.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1167478631|gb|OQC76972.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1171862791|gb|ARD15433.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1175781943|gb|OQW15306.1| anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002221188</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.6037</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVALLRLSRGSMKAAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|743393380|gb|KID52919.1|</Hit_id>
+  <Hit_def>NadC family protein [Neisseria meningitidis LNP27256]</Hit_def>
+  <Hit_accession>KID52919</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.83187</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVALLRLSRGSMKAAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDREKERKTYVFVLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V V++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488148309|ref|WP_002219517.1|</Hit_id>
+  <Hit_def>transporter divalent anion:Na+ symporter family, partial [Neisseria meningitidis] &gt;gi|325129934|gb|EGC52734.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis OX99.30304]</Hit_def>
+  <Hit_accession>WP_002219517</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.06378</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1006079335|ref|WP_061726972.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis] &gt;gi|990337171|emb|CWR59120.1| NadC family protein [Neisseria meningitidis] &gt;gi|990426955|emb|CWN95207.1| NadC family protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_061726972</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.26875</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|488168400|ref|WP_002239608.1|</Hit_id>
+  <Hit_def>sulfate symporter, DASS family [Neisseria meningitidis] &gt;gi|402337424|gb|EJU72672.1| sulfate symporter, DASS family [Neisseria meningitidis 92045] &gt;gi|514071791|gb|EPF56562.1| na+ symporter family protein [Neisseria meningitidis NM134] &gt;gi|989320292|emb|CWP26652.1| NadC family protein [Neisseria meningitidis] &gt;gi|989322319|emb|CWS83714.1| NadC family protein [Neisseria meningitidis] &gt;gi|989422643|emb|CWT46669.1| NadC family protein [Neisseria meningitidis] &gt;gi|989456805|emb|CWP47951.1| NadC family protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002239608</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.30844</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|488170147|ref|WP_002241355.1|</Hit_id>
+  <Hit_def>sulfate symporter, DASS family [Neisseria meningitidis] &gt;gi|393292336|emb|CCI72422.1| transmembrane transporter [Neisseria meningitidis alpha704] &gt;gi|402341727|gb|EJU76900.1| sulfate symporter, DASS family [Neisseria meningitidis NM2795] &gt;gi|432242603|gb|ELK98121.1| na+ symporter family protein [Neisseria meningitidis 9757] &gt;gi|530901217|gb|EQC99868.1| na+ symporter family protein [Neisseria meningitidis NM3141] &gt;gi|990190305|emb|CWM97607.1| NadC family protein [Neisseria meningitidis] &gt;gi|990271083|emb|CWQ73734.1| NadC family protein [Neisseria meningitidis] &gt;gi|1062559641|gb|ODP40668.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1062562964|gb|ODP43687.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1069976760|gb|OEH87657.1| anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002241355</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.32855</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1002376442|ref|WP_061370337.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis] &gt;gi|989349115|emb|CWR62277.1| NadC family protein [Neisseria meningitidis] &gt;gi|989572947|emb|CWN60544.1| NadC family protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_061370337</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.34883</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1006080880|ref|WP_061727590.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis] &gt;gi|990126484|emb|CWR41204.1| NadC family protein [Neisseria meningitidis] &gt;gi|990229969|emb|CWN55274.1| NadC family protein [Neisseria meningitidis] &gt;gi|1137305594|gb|APY29831.1| Na(+)/dicarboxylate symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_061727590</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.36929</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|744797887|gb|AJC62675.1|</Hit_id>
+  <Hit_def>NadC family protein [Neisseria meningitidis LNP21362]</Hit_def>
+  <Hit_accession>AJC62675</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.41508</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|488164433|ref|WP_002235641.1|</Hit_id>
+  <Hit_def>sulfate symporter, DASS family [Neisseria meningitidis] &gt;gi|402320255|gb|EJU55746.1| sulfate symporter, DASS family [Neisseria meningitidis 93004] &gt;gi|402324012|gb|EJU59450.1| sulfate symporter, DASS family [Neisseria meningitidis NM183] &gt;gi|402324279|gb|EJU59715.1| sulfate symporter, DASS family [Neisseria meningitidis NM140] &gt;gi|402326207|gb|EJU61612.1| sulfate symporter, DASS family [Neisseria meningitidis NM2781] &gt;gi|402331203|gb|EJU66544.1| sulfate symporter, DASS family [Neisseria meningitidis NM576] &gt;gi|402332515|gb|EJU67840.1| sulfate symporter, DASS family [Neisseria meningitidis 98008] &gt;gi|402335701|gb|EJU70965.1| sulfate symporter, DASS family [Neisseria meningitidis 80179] &gt;gi|402345358|gb|EJU80475.1| sulfate symporter, DASS family [Neisseria meningitidis NM3081] &gt;gi|485354682|gb|EOC15954.1| na+ symporter family protein [Neisseria meningitidis 81858] &gt;gi|990657373|emb|CWR42230.1| NadC family protein [Neisseria meningitidis] &gt;gi|990683333|emb|CWN55802.1| NadC family protein [Neisseria meningitidis] &gt;gi|1169330012|gb|ARB69452.1| anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002235641</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.43173</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|488152695|ref|WP_002223903.1|</Hit_id>
+  <Hit_def>transporter divalent anion:Na+ symporter family [Neisseria meningitidis] &gt;gi|15676690|ref|NP_273834.1| transporter [Neisseria meningitidis MC58] &gt;gi|7226025|gb|AAF41205.1| transporter, NadC family [Neisseria meningitidis MC58] &gt;gi|254670618|emb|CBA06601.1| sodium:sulfate symporter, DASS family [Neisseria meningitidis alpha153] &gt;gi|261392841|emb|CAX50422.1| putative transporter [Neisseria meningitidis 8013] &gt;gi|308388978|gb|ADO31298.1| putative transmembrane transport protein, NadC family [Neisseria meningitidis alpha710] &gt;gi|325135985|gb|EGC58595.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis M0579] &gt;gi|325140054|gb|EGC62583.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis CU385] &gt;gi|325144170|gb|EGC66477.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis M01-240013] &gt;gi|325198011|gb|ADY93467.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis G2136] &gt;gi|325202412|gb|ADY97866.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis M01-240149] &gt;gi|325203878|gb|ADY99331.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis M01-240355] &gt;gi|325206366|gb|ADZ01819.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis M04-240196] &gt;gi|325207836|gb|ADZ03288.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis NZ-05/33] &gt;gi|372201872|gb|EHP15747.1| Na+ symporter family [Neisseria meningitidis NM220] &gt;gi|372202720|gb|EHP16494.1| Na+ symporter family [Neisseria meningitidis NM233] &gt;gi|389606120|emb|CCA45033.1| uncharacterised transporter HI0608 [Neisseria meningitidis alpha522] &gt;gi|402318413|gb|EJU53936.1| sulfate symporter, DASS family [Neisseria meningitidis 93003] &gt;gi|402339449|gb|EJU74665.1| na+ symporter family protein [Neisseria meningitidis NM2657] &gt;gi|432204262|gb|ELK60307.1| na+ symporter family protein [Neisseria meningitidis NM422] &gt;gi|432205342|gb|ELK61372.1| na+ symporter family protein [Neisseria meningitidis 98080] &gt;gi|432224492|gb|ELK80257.1| na+ symporter family protein [Neisseria meningitidis M13255] &gt;gi|432228052|gb|ELK83753.1| na+ symporter family protein [Neisseria meningitidis NM418] &gt;gi|432242120|gb|ELK97644.1| na+ symporter family protein [Neisseria meningitidis 9506] &gt;gi|432247895|gb|ELL03330.1| na+ symporter family protein [Neisseria meningitidis 12888] &gt;gi|432248550|gb|ELL03975.1| na+ symporter family protein [Neisseria meningitidis 4119] &gt;gi|432254071|gb|ELL09407.1| na+ symporter family protein [Neisseria meningitidis 2004090] &gt;gi|432266214|gb|ELL21402.1| na+ symporter family protein [Neisseria meningitidis NM3652] &gt;gi|432268009|gb|ELL23181.1| na+ symporter family protein [Neisseria meningitidis NM3642] &gt;gi|432268284|gb|ELL23455.1| na+ symporter family protein [Neisseria meningitidis 2007056] &gt;gi|432272537|gb|ELL27644.1| na+ symporter family protein [Neisseria meningitidis 2001212] &gt;gi|432274430|gb|ELL29518.1| na+ symporter family protein [Neisseria meningitidis 77221] &gt;gi|485283617|gb|EOB49617.1| na+ symporter family protein [Neisseria meningitidis 2000080] &gt;gi|485317478|gb|EOB81258.1| na+ symporter family protein [Neisseria meningitidis 2004085] &gt;gi|485317803|gb|EOB81564.1| na+ symporter family protein [Neisseria meningitidis 2003022] &gt;gi|485322068|gb|EOB85523.1| na+ symporter family protein [Neisseria meningitidis 2000063] &gt;gi|485323938|gb|EOB87291.1| na+ symporter family protein [Neisseria meningitidis NM604] &gt;gi|485324836|gb|EOB88130.1| na+ symporter family protein [Neisseria meningitidis 2002007] &gt;gi|485328336|gb|EOB91373.1| na+ symporter family protein [Neisseria meningitidis NM606] &gt;gi|485331297|gb|EOB94136.1| na+ symporter family protein [Neisseria meningitidis NM607] &gt;gi|485351608|gb|EOC13088.1| na+ symporter family protein [Neisseria meningitidis 73696] &gt;gi|485357339|gb|EOC18377.1| na+ symporter family protein [Neisseria meningitidis 2002020] &gt;gi|485359706|gb|EOC20528.1| na+ symporter family protein [Neisseria meningitidis NM477] &gt;gi|485361943|gb|EOC22557.1| na+ symporter family protein [Neisseria meningitidis M13265] &gt;gi|485373688|gb|EOC33417.1| na+ symporter family protein [Neisseria meningitidis 2001001] &gt;gi|485396830|gb|EOC55052.1| na+ symporter family protein [Neisseria meningitidis 2003051] &gt;gi|485401217|gb|EOC59123.1| na+ symporter family protein [Neisseria meningitidis NM271] &gt;gi|485401356|gb|EOC59256.1| na+ symporter family protein [Neisseria meningitidis NM115] &gt;gi|485403181|gb|EOC60970.1| na+ symporter family protein [Neisseria meningitidis NM90] &gt;gi|485407394|gb|EOC64852.1| na+ symporter family protein [Neisseria meningitidis NM3042] &gt;gi|485408453|gb|EOC65847.1| na+ symporter family protein [Neisseria meningitidis NM3222] &gt;gi|485409984|gb|EOC67294.1| na+ symporter family protein [Neisseria meningitidis NM3131] &gt;gi|485414268|gb|EOC71239.1| na+ symporter family protein [Neisseria meningitidis NM3144] &gt;gi|485414946|gb|EOC71877.1| na+ symporter family protein [Neisseria meningitidis NM3158] &gt;gi|485417066|gb|EOC73858.1| na+ symporter family protein [Neisseria meningitidis NM3164] &gt;gi|485420940|gb|EOC77451.1| na+ symporter family protein [Neisseria meningitidis NM27] &gt;gi|485421035|gb|EOC77543.1| na+ symporter family protein [Neisseria meningitidis NM51] &gt;gi|485424016|gb|EOC80300.1| na+ symporter family protein [Neisseria meningitidis NM80] &gt;gi|485427042|gb|EOC83094.1| na+ symporter family protein [Neisseria meningitidis NM165] &gt;gi|485427410|gb|EOC83443.1| na+ symporter family protein [Neisseria meningitidis NM3223] &gt;gi|530902716|gb|EQD01276.1| na+ symporter family protein [Neisseria meningitidis 2002030] &gt;gi|530908462|gb|EQD06644.1| na+ symporter family protein [Neisseria meningitidis NM045] &gt;gi|530909785|gb|EQD07893.1| na+ symporter family protein [Neisseria meningitidis NM151] &gt;gi|530912617|gb|EQD10550.1| na+ symporter family protein [Neisseria meningitidis NM003] &gt;gi|530916354|gb|EQD14072.1| na+ symporter family protein [Neisseria meningitidis NM0552] &gt;gi|530916795|gb|EQD14491.1| na+ symporter family protein [Neisseria meningitidis NM1476] &gt;gi|530918489|gb|EQD16087.1| na+ symporter family protein [Neisseria meningitidis NM518] &gt;gi|530918589|gb|EQD16184.1| na+ symporter family protein [Neisseria meningitidis NM518] &gt;gi|530922868|gb|EQD20176.1| na+ symporter family protein [Neisseria meningitidis NM3173] &gt;gi|530924266|gb|EQD21500.1| na+ symporter family protein [Neisseria meningitidis NM3230] &gt;gi|530924801|gb|EQD22012.1| na+ symporter family protein [Neisseria meningitidis NM2866] &gt;gi|530925059|gb|EQD22257.1| na+ symporter family protein [Neisseria meningitidis NM2866] &gt;gi|610426545|gb|AHW75421.1| NadC family protein [Neisseria meningitidis] &gt;gi|663091860|gb|KER40103.1| Na+ symporter family protein [Neisseria meningitidis 992008] &gt;gi|800163106|emb|CFA92535.1| NadC family protein [Neisseria meningitidis] &gt;gi|800246793|emb|CFC37714.1| NadC family protein [Neisseria meningitidis] &gt;gi|801135496|emb|CEZ50812.1| NadC family protein [Neisseria meningitidis] &gt;gi|801164253|emb|CFA01837.1| NadC family protein [Neisseria meningitidis] &gt;gi|801224432|emb|CFA97856.1| NadC family protein [Neisseria meningitidis] &gt;gi|801292224|emb|CFC37957.1| NadC family protein [Neisseria meningitidis] &gt;gi|802118736|emb|CEZ20342.1| NadC family protein [Neisseria meningitidis] &gt;gi|809755479|emb|CKK56653.1| NadC family protein [Neisseria meningitidis] &gt;gi|809835458|emb|CKK51499.1| NadC family protein [Neisseria meningitidis] &gt;gi|809841796|emb|CKK44607.1| NadC family protein [Neisseria meningitidis] &gt;gi|809886266|emb|CKJ73627.1| NadC family protein [Neisseria meningitidis] &gt;gi|809890484|emb|CKL13023.1| NadC family protein [Neisseria meningitidis] &gt;gi|809898936|emb|CKL16445.1| NadC family protein [Neisseria meningitidis] &gt;gi|809928746|emb|CKJ78668.1| NadC family protein [Neisseria meningitidis] &gt;gi|810109829|emb|CKK63202.1| NadC family protein [Neisseria meningitidis] &gt;gi|837360605|gb|AKM90637.1| Na(+)/dicarboxylate symporter [Neisseria meningitidis] &gt;gi|837363129|gb|AKM93160.1| Na(+)/dicarboxylate symporter [Neisseria meningitidis M0579] &gt;gi|883325318|emb|CKK85725.1| NadC family protein [Neisseria meningitidis] &gt;gi|883342146|emb|CKL33039.1| NadC family protein [Neisseria meningitidis] &gt;gi|883354705|emb|CKK95676.1| NadC family protein [Neisseria meningitidis] &gt;gi|883361073|emb|CKJ66978.1| NadC family protein [Neisseria meningitidis] &gt;gi|883363170|emb|CKK10742.1| NadC family protein [Neisseria meningitidis] &gt;gi|883367492|emb|CKK35967.1| NadC family protein [Neisseria meningitidis] &gt;gi|883371781|emb|CKL24317.1| NadC family protein [Neisseria meningitidis] &gt;gi|883376039|emb|CKK80540.1| NadC family protein [Neisseria meningitidis] &gt;gi|883378065|emb|CKL20616.1| NadC family protein [Neisseria meningitidis] &gt;gi|883394908|emb|CKK59720.1| NadC family protein [Neisseria meningitidis] &gt;gi|883403602|emb|CKK84692.1| NadC family protein [Neisseria meningitidis] &gt;gi|883405603|emb|CKJ43409.1| NadC family protein [Neisseria meningitidis] &gt;gi|883412044|emb|CKK62290.1| NadC family protein [Neisseria meningitidis] &gt;gi|883414120|emb|CKL19211.1| NadC family protein [Neisseria meningitidis] &gt;gi|883416251|emb|CKL08785.1| NadC family protein [Neisseria meningitidis] &gt;gi|883418390|emb|CKK67333.1| NadC family protein [Neisseria meningitidis] &gt;gi|883420576|emb|CKJ67971.1| NadC family protein [Neisseria meningitidis] &gt;gi|883422703|emb|CKK64790.1| NadC family protein [Neisseria meningitidis] &gt;gi|883429105|emb|CKK92844.1| NadC family protein [Neisseria meningitidis] &gt;gi|883431256|emb|CKK80076.1| NadC family protein [Neisseria meningitidis] &gt;gi|883433369|emb|CKJ90975.1| NadC family protein [Neisseria meningitidis] &gt;gi|883439792|emb|CKJ56124.1| NadC family protein [Neisseria meningitidis] &gt;gi|883441910|emb|CKK28966.1| NadC family protein [Neisseria meningitidis] &gt;gi|883444032|emb|CKJ89825.1| NadC family protein [Neisseria meningitidis] &gt;gi|883446145|emb|CKK38004.1| NadC family protein [Neisseria meningitidis] &gt;gi|883450330|emb|CKK35916.1| NadC family protein [Neisseria meningitidis] &gt;gi|883458883|emb|CKL25390.1| NadC family protein [Neisseria meningitidis] &gt;gi|883460898|emb|CKK39487.1| NadC family protein [Neisseria meningitidis] &gt;gi|883465263|emb|CKJ74251.1| NadC family protein [Neisseria meningitidis] &gt;gi|883471639|emb|CKK57198.1| NadC family protein [Neisseria meningitidis] &gt;gi|883475902|emb|CKK37090.1| NadC family protein [Neisseria meningitidis] &gt;gi|883478013|emb|CKJ71258.1| NadC family protein [Neisseria meningitidis] &gt;gi|883482228|emb|CKJ59783.1| NadC family protein [Neisseria meningitidis] &gt;gi|883484344|emb|CKK29659.1| NadC family protein [Neisseria meningitidis] &gt;gi|883486513|emb|CKK21079.1| NadC family protein [Neisseria meningitidis] &gt;gi|883492876|emb|CKK47289.1| NadC family protein [Neisseria meningitidis] &gt;gi|883494927|emb|CKL09425.1| NadC family protein [Neisseria meningitidis] &gt;gi|883497253|emb|CKK31054.1| NadC family protein [Neisseria meningitidis] &gt;gi|883499321|emb|CKJ61453.1| NadC family protein [Neisseria meningitidis] &gt;gi|883505695|emb|CKK16435.1| NadC family protein [Neisseria meningitidis] &gt;gi|883507748|emb|CKK04750.1| NadC family protein [Neisseria meningitidis] &gt;gi|883509906|emb|CKK02943.1| NadC family protein [Neisseria meningitidis] &gt;gi|883512031|emb|CKJ78590.1| NadC family protein [Neisseria meningitidis] &gt;gi|883516239|emb|CKK63727.1| NadC family protein [Neisseria meningitidis] &gt;gi|883518278|emb|CKL06520.1| NadC family protein [Neisseria meningitidis] &gt;gi|883522485|emb|CKK47631.1| NadC family protein [Neisseria meningitidis] &gt;gi|883524751|emb|CKK48517.1| NadC family protein [Neisseria meningitidis] &gt;gi|883529032|emb|CKK27927.1| NadC family protein [Neisseria meningitidis] &gt;gi|883537452|emb|CKK78926.1| NadC family protein [Neisseria meningitidis] &gt;gi|883541742|emb|CKL11517.1| NadC family protein [Neisseria meningitidis] &gt;gi|883546034|emb|CKK55188.1| NadC family protein [Neisseria meningitidis] &gt;gi|883550345|emb|CKK40118.1| NadC family protein [Neisseria meningitidis] &gt;gi|883554606|emb|CKK23245.1| NadC family protein [Neisseria meningitidis] &gt;gi|883561018|emb|CKJ62819.1| NadC family protein [Neisseria meningitidis] &gt;gi|883563113|emb|CKJ74941.1| NadC family protein [Neisseria meningitidis] &gt;gi|883565252|emb|CKK74583.1| NadC family protein [Neisseria meningitidis] &gt;gi|883571678|emb|CKK70987.1| NadC family protein [Neisseria meningitidis] &gt;gi|883573796|emb|CKJ90704.1| NadC family protein [Neisseria meningitidis] &gt;gi|883580200|emb|CKJ52913.1| NadC family protein [Neisseria meningitidis] &gt;gi|883588796|emb|CKJ63846.1| NadC family protein [Neisseria meningitidis] &gt;gi|883593143|emb|CKJ70477.1| NadC family protein [Neisseria meningitidis] &gt;gi|883618662|emb|CKJ75850.1| NadC family protein [Neisseria meningitidis] &gt;gi|883620772|emb|CKJ46176.1| NadC family protein [Neisseria meningitidis] &gt;gi|883624995|emb|CKK53652.1| NadC family protein [Neisseria meningitidis] &gt;gi|883629291|emb|CKJ81058.1| NadC family protein [Neisseria meningitidis] &gt;gi|883631404|emb|CKK72378.1| NadC family protein [Neisseria meningitidis] &gt;gi|883633499|emb|CKJ57843.1| NadC family protein [Neisseria meningitidis] &gt;gi|883642088|emb|CKK49570.1| NadC family protein [Neisseria meningitidis] &gt;gi|883665638|emb|CKJ53499.1| NadC family protein [Neisseria meningitidis] &gt;gi|883667834|emb|CKK25312.1| NadC family protein [Neisseria meningitidis] &gt;gi|883678369|emb|CKJ51866.1| NadC family protein [Neisseria meningitidis] &gt;gi|883702057|emb|CKJ53971.1| NadC family protein [Neisseria meningitidis] &gt;gi|883703890|emb|CKL05577.1| NadC family protein [Neisseria meningitidis] &gt;gi|883748101|emb|CKJ69375.1| NadC family protein [Neisseria meningitidis] &gt;gi|883765638|emb|CKK92708.1| NadC family protein [Neisseria meningitidis] &gt;gi|883776213|emb|CKL26241.1| NadC family protein [Neisseria meningitidis] &gt;gi|884090677|emb|CKJ92517.1| NadC family protein [Neisseria meningitidis] &gt;gi|884136935|emb|CKJ96744.1| NadC family protein [Neisseria meningitidis] &gt;gi|884150058|emb|CKJ57585.1| NadC family protein [Neisseria meningitidis] &gt;gi|884332492|emb|CKJ52540.1| NadC family protein [Neisseria meningitidis] &gt;gi|884439993|emb|CKK16434.1| NadC family protein [Neisseria meningitidis] &gt;gi|884449307|emb|CKK53580.1| NadC family protein [Neisseria meningitidis] &gt;gi|884475291|emb|CKK72043.1| NadC family protein [Neisseria meningitidis] &gt;gi|902994734|emb|CRY99131.1| Transporter, putative [Neisseria meningitidis serogroup B] &gt;gi|989059468|emb|CWP34570.1| NadC family protein [Neisseria meningitidis] &gt;gi|989090204|emb|CWO15726.1| NadC family protein [Neisseria meningitidis] &gt;gi|989105148|emb|CWT40801.1| NadC family protein [Neisseria meningitidis] &gt;gi|989108212|emb|CWR22958.1| NadC family protein [Neisseria meningitidis] &gt;gi|989137637|emb|CWM86862.1| NadC family protein [Neisseria meningitidis] &gt;gi|989143897|emb|CWR76536.1| NadC family protein [Neisseria meningitidis] &gt;gi|989152029|emb|CWR54710.1| NadC family protein [Neisseria meningitidis] &gt;gi|989158673|emb|CWP50340.1| NadC family protein [Neisseria meningitidis] &gt;gi|989163208|emb|CWS86546.1| NadC family protein [Neisseria meningitidis] &gt;gi|989178640|emb|CWT44272.1| NadC family protein [Neisseria meningitidis] &gt;gi|989194530|emb|CWP47553.1| NadC family protein [Neisseria meningitidis] &gt;gi|989205959|emb|CWS32768.1| NadC family protein [Neisseria meningitidis] &gt;gi|989213119|emb|CWN37252.1| NadC family protein [Neisseria meningitidis] &gt;gi|989216789|emb|CWN05014.1| NadC family protein [Neisseria meningitidis] &gt;gi|989240470|emb|CWS74725.1| NadC family protein [Neisseria meningitidis] &gt;gi|989276702|emb|CWO66962.1| NadC family protein [Neisseria meningitidis] &gt;gi|989286918|emb|CWT54534.1| NadC family protein [Neisseria meningitidis] &gt;gi|989301446|emb|CWS88210.1| NadC family protein [Neisseria meningitidis] &gt;gi|989303257|emb|CWT49407.1| NadC family protein [Neisseria meningitidis] &gt;gi|989314023|emb|CWQ51997.1| NadC family protein [Neisseria meningitidis] &gt;gi|989315924|emb|CWO83040.1| NadC family protein [Neisseria meningitidis] &gt;gi|989338964|emb|CWS45021.1| NadC family protein [Neisseria meningitidis] &gt;gi|989345386|emb|CWP33180.1| NadC family protein [Neisseria meningitidis] &gt;gi|989350822|emb|CWN75730.1| NadC family protein [Neisseria meningitidis] &gt;gi|989359778|emb|CWQ28383.1| NadC family protein [Neisseria meningitidis] &gt;gi|989370741|emb|CWQ40325.1| NadC family protein [Neisseria meningitidis] &gt;gi|989372958|emb|CWP42013.1| NadC family protein [Neisseria meningitidis] &gt;gi|989376917|emb|CWP60056.1| NadC family protein [Neisseria meningitidis] &gt;gi|989387522|emb|CWM33337.1| NadC family protein [Neisseria meningitidis] &gt;gi|989391320|emb|CWN88004.1| NadC family protein [Neisseria meningitidis] &gt;gi|989395307|emb|CWO88839.1| NadC family protein [Neisseria meningitidis] &gt;gi|989401502|emb|CWM28540.1| NadC family protein [Neisseria meningitidis] &gt;gi|989407063|emb|CWQ78195.1| NadC family protein [Neisseria meningitidis] &gt;gi|989412166|emb|CWS78675.1| NadC family protein [Neisseria meningitidis] &gt;gi|989418356|emb|CWP27053.1| NadC family protein [Neisseria meningitidis] &gt;gi|989437151|emb|CWT61427.1| NadC family protein [Neisseria meningitidis] &gt;gi|989444018|emb|CWT00041.1| NadC family protein [Neisseria meningitidis] &gt;gi|989452413|emb|CWO15104.1| NadC family protein [Neisseria meningitidis] &gt;gi|989460717|emb|CWM43134.1| NadC family protein [Neisseria meningitidis] &gt;gi|989484646|emb|CWP45847.1| NadC family protein [Neisseria meningitidis] &gt;gi|989487661|emb|CWS17873.1| NadC family protein [Neisseria meningitidis] &gt;gi|989491491|emb|CWP52156.1| NadC family protein [Neisseria meningitidis] &gt;gi|989503457|emb|CWR63936.1| NadC family protein [Neisseria meningitidis] &gt;gi|989521637|emb|CWO92232.1| NadC family protein [Neisseria meningitidis] &gt;gi|989547431|emb|CWT46326.1| NadC family protein [Neisseria meningitidis] &gt;gi|989555514|emb|CWT75133.1| NadC family protein [Neisseria meningitidis] &gt;gi|989588275|emb|CWT45565.1| NadC family protein [Neisseria meningitidis] &gt;gi|989651666|emb|CWT68140.1| NadC family protein [Neisseria meningitidis] &gt;gi|989671101|emb|CWP53300.1| NadC family protein [Neisseria meningitidis] &gt;gi|989679782|emb|CWQ48884.1| NadC family protein [Neisseria meningitidis] &gt;gi|989684469|emb|CWP47225.1| NadC family protein [Neisseria meningitidis] &gt;gi|989698891|emb|CWQ21446.1| NadC family protein [Neisseria meningitidis] &gt;gi|989730649|emb|CWM29426.1| NadC family protein [Neisseria meningitidis] &gt;gi|989745874|emb|CWQ45393.1| NadC family protein [Neisseria meningitidis] &gt;gi|989749817|emb|CWN90220.1| NadC family protein [Neisseria meningitidis] &gt;gi|989754529|emb|CWM79479.1| NadC family protein [Neisseria meningitidis] &gt;gi|989762353|emb|CWP83349.1| NadC family protein [Neisseria meningitidis] &gt;gi|989768459|emb|CWS23038.1| NadC family protein [Neisseria meningitidis] &gt;gi|989786984|emb|CWP65962.1| NadC family protein [Neisseria meningitidis] &gt;gi|989793952|emb|CWP74746.1| NadC family protein [Neisseria meningitidis] &gt;gi|989808105|emb|CWT80535.1| NadC family protein [Neisseria meningitidis] &gt;gi|989825417|emb|CWS49258.1| NadC family protein [Neisseria meningitidis] &gt;gi|989829929|emb|CWP07582.1| NadC family protein [Neisseria meningitidis] &gt;gi|989832300|emb|CWR42582.1| NadC family protein [Neisseria meningitidis] &gt;gi|989836354|emb|CWQ45087.1| NadC family protein [Neisseria meningitidis] &gt;gi|989838221|emb|CWM67682.1| NadC family protein [Neisseria meningitidis] &gt;gi|989850863|emb|CWQ50770.1| NadC family protein [Neisseria meningitidis] &gt;gi|989855236|emb|CWP73937.1| NadC family protein [Neisseria meningitidis] &gt;gi|989859173|emb|CWM29881.1| NadC family protein [Neisseria meningitidis] &gt;gi|989861434|emb|CWO80948.1| NadC family protein [Neisseria meningitidis] &gt;gi|989863618|emb|CWS83587.1| NadC family protein [Neisseria meningitidis] &gt;gi|989866858|emb|CWM77135.1| NadC family protein [Neisseria meningitidis] &gt;gi|989869642|emb|CWP38611.1| NadC family protein [Neisseria meningitidis] &gt;gi|989881422|emb|CWL92613.1| NadC family protein [Neisseria meningitidis] &gt;gi|989885005|emb|CWT69880.1| NadC family protein [Neisseria meningitidis] &gt;gi|989893141|emb|CWP62701.1| NadC family protein [Neisseria meningitidis] &gt;gi|989896471|emb|CWT79514.1| NadC family protein [Neisseria meningitidis] &gt;gi|989909369|emb|CWQ73439.1| NadC family protein [Neisseria meningitidis] &gt;gi|989913704|emb|CWM54390.1| NadC family protein [Neisseria meningitidis] &gt;gi|989917800|emb|CWQ19929.1| NadC family protein [Neisseria meningitidis] &gt;gi|989925980|emb|CWO10286.1| NadC family protein [Neisseria meningitidis] &gt;gi|989929593|emb|CWQ47320.1| NadC family protein [Neisseria meningitidis] &gt;gi|989946175|emb|CWS93883.1| NadC family protein [Neisseria meningitidis] &gt;gi|989950147|emb|CWP39279.1| NadC family protein [Neisseria meningitidis] &gt;gi|989965353|emb|CWT54435.1| NadC family protein [Neisseria meningitidis] &gt;gi|989972391|emb|CWP48114.1| NadC family protein [Neisseria meningitidis] &gt;gi|989982625|emb|CWP36093.1| NadC family protein [Neisseria meningitidis] &gt;gi|989986674|emb|CWT62424.1| NadC family protein [Neisseria meningitidis] &gt;gi|989993527|emb|CWT00498.1| NadC family protein [Neisseria meningitidis] &gt;gi|989996902|emb|CWT40475.1| NadC family protein [Neisseria meningitidis] &gt;gi|990000172|emb|CWO85997.1| NadC family protein [Neisseria meningitidis] &gt;gi|990003735|emb|CWM93703.1| NadC family protein [Neisseria meningitidis] &gt;gi|990010063|emb|CWR42160.1| NadC family protein [Neisseria meningitidis] &gt;gi|990014209|emb|CWM47967.1| NadC family protein [Neisseria meningitidis] &gt;gi|990025510|emb|CWQ43368.1| NadC family protein [Neisseria meningitidis] &gt;gi|990029716|emb|CWP29090.1| NadC family protein [Neisseria meningitidis] &gt;gi|990044359|emb|CWO08861.1| NadC family protein [Neisseria meningitidis] &gt;gi|990048842|emb|CWO59693.1| NadC family protein [Neisseria meningitidis] &gt;gi|990053640|emb|CWQ53009.1| NadC family protein [Neisseria meningitidis] &gt;gi|990055443|emb|CWM44591.1| NadC family protein [Neisseria meningitidis] &gt;gi|990056916|emb|CWP69947.1| NadC family protein [Neisseria meningitidis] &gt;gi|990061123|emb|CWR60975.1| NadC family protein [Neisseria meningitidis] &gt;gi|990066337|emb|CWM74818.1| NadC family protein [Neisseria meningitidis] &gt;gi|990068017|emb|CWS79057.1| NadC family protein [Neisseria meningitidis] &gt;gi|990070068|emb|CWQ15972.1| NadC family protein [Neisseria meningitidis] &gt;gi|990074568|emb|CWO88791.1| NadC family protein [Neisseria meningitidis] &gt;gi|990076517|emb|CWM17228.1| NadC family protein [Neisseria meningitidis] &gt;gi|990078832|emb|CWM33362.1| NadC family protein [Neisseria meningitidis] &gt;gi|990085086|emb|CWR35298.1| NadC family protein [Neisseria meningitidis] &gt;gi|990094199|emb|CWM10395.1| NadC family protein [Neisseria meningitidis] &gt;gi|990095330|emb|CWM45353.1| NadC family protein [Neisseria meningitidis] &gt;gi|990098199|emb|CWP60027.1| NadC family protein [Neisseria meningitidis] &gt;gi|990108346|emb|CWR66364.1| NadC family protein [Neisseria meningitidis] &gt;gi|990117643|emb|CWR43653.1| NadC family protein [Neisseria meningitidis] &gt;gi|990120691|emb|CWT20794.1| NadC family protein [Neisseria meningitidis] &gt;gi|990123759|emb|CWN38753.1| NadC family protein [Neisseria meningitidis] &gt;gi|990129605|emb|CWN51623.1| NadC family protein [Neisseria meningitidis] &gt;gi|990132792|emb|CWO42385.1| NadC family protein [Neisseria meningitidis] &gt;gi|990137548|emb|CWR33749.1| NadC family protein [Neisseria meningitidis] &gt;gi|990139529|emb|CWM54057.1| NadC family protein [Neisseria meningitidis] &gt;gi|990141801|emb|CWN52882.1| NadC family protein [Neisseria meningitidis] &gt;gi|990143898|emb|CWS96357.1| NadC family protein [Neisseria meningitidis] &gt;gi|990145953|emb|CWP59109.1| NadC family protein [Neisseria meningitidis] &gt;gi|990150145|emb|CWP64744.1| NadC family protein [Neisseria meningitidis] &gt;gi|990152534|emb|CWM02720.1| NadC family protein [Neisseria meningitidis] &gt;gi|990154459|emb|CWN77481.1| NadC family protein [Neisseria meningitidis] &gt;gi|990156593|emb|CWT68167.1| NadC family protein [Neisseria meningitidis] &gt;gi|990160879|emb|CWP37169.1| NadC family protein [Neisseria meningitidis] &gt;gi|990163249|emb|CWR28622.1| NadC family protein [Neisseria meningitidis] &gt;gi|990164373|emb|CWP64883.1| NadC family protein [Neisseria meningitidis] &gt;gi|990167223|emb|CWT44042.1| NadC family protein [Neisseria meningitidis] &gt;gi|990169096|emb|CWM56051.1| NadC family protein [Neisseria meningitidis] &gt;gi|990171325|emb|CWT75051.1| NadC family protein [Neisseria meningitidis] &gt;gi|990173741|emb|CWS81554.1| NadC family protein [Neisseria meningitidis] &gt;gi|990175501|emb|CWQ83633.1| NadC family protein [Neisseria meningitidis] &gt;gi|990177477|emb|CWQ38193.1| NadC family protein [Neisseria meningitidis] &gt;gi|990181898|emb|CWM63009.1| NadC family protein [Neisseria meningitidis] &gt;gi|990184259|emb|CWP50317.1| NadC family protein [Neisseria meningitidis] &gt;gi|990193133|emb|CWR36081.1| NadC family protein [Neisseria meningitidis] &gt;gi|990195450|emb|CWN20613.1| NadC family protein [Neisseria meningitidis] &gt;gi|990199068|emb|CWN48493.1| NadC family protein [Neisseria meningitidis] &gt;gi|990201924|emb|CWR67053.1| NadC family protein [Neisseria meningitidis] &gt;gi|990208184|emb|CWM55771.1| NadC family protein [Neisseria meningitidis] &gt;gi|990210639|emb|CWS64454.1| NadC family protein [Neisseria meningitidis] &gt;gi|990214466|emb|CWO23730.1| NadC family protein [Neisseria meningitidis] &gt;gi|990217402|emb|CWN29513.1| NadC family protein [Neisseria meningitidis] &gt;gi|990220161|emb|CWQ32047.1| NadC family protein [Neisseria meningitidis] &gt;gi|990222320|emb|CWR67415.1| NadC family protein [Neisseria meningitidis] &gt;gi|990226665|emb|CWQ55399.1| NadC family protein [Neisseria meningitidis] &gt;gi|990228907|emb|CWM21249.1| NadC family protein [Neisseria meningitidis] &gt;gi|990232096|emb|CWR90769.1| NadC family protein [Neisseria meningitidis] &gt;gi|990235255|emb|CWO20564.1| NadC family protein [Neisseria meningitidis] &gt;gi|990236779|emb|CWQ65675.1| NadC family protein [Neisseria meningitidis] &gt;gi|990238995|emb|CWT32596.1| NadC family protein [Neisseria meningitidis] &gt;gi|990241384|emb|CWP52978.1| NadC family protein [Neisseria meningitidis] &gt;gi|990243434|emb|CWN07701.1| NadC family protein [Neisseria meningitidis] &gt;gi|990245395|emb|CWR68163.1| NadC family protein [Neisseria meningitidis] &gt;gi|990247592|emb|CWN88176.1| NadC family protein [Neisseria meningitidis] &gt;gi|990251100|emb|CWQ78992.1| NadC family protein [Neisseria meningitidis] &gt;gi|990254117|emb|CWP32814.1| NadC family protein [Neisseria meningitidis] &gt;gi|990256050|emb|CWM75333.1| NadC family protein [Neisseria meningitidis] &gt;gi|990257995|emb|CWO19791.1| NadC family protein [Neisseria meningitidis] &gt;gi|990260371|emb|CWM30115.1| NadC family protein [Neisseria meningitidis] &gt;gi|990262370|emb|CWQ98521.1| NadC family protein [Neisseria meningitidis] &gt;gi|990266861|emb|CWQ43528.1| NadC family protein [Neisseria meningitidis] &gt;gi|990268830|emb|CWQ59311.1| NadC family protein [Neisseria meningitidis] &gt;gi|990273029|emb|CWQ44916.1| NadC family protein [Neisseria meningitidis] &gt;gi|990275296|emb|CWQ30243.1| NadC family protein [Neisseria meningitidis] &gt;gi|990277703|emb|CWQ74703.1| NadC family protein [Neisseria meningitidis] &gt;gi|990280689|emb|CWR40330.1| NadC family protein [Neisseria meningitidis] &gt;gi|990283746|emb|CWR66077.1| NadC family protein [Neisseria meningitidis] &gt;gi|990290524|emb|CWO34587.1| NadC family protein [Neisseria meningitidis] &gt;gi|990296560|emb|CWT49716.1| NadC family protein [Neisseria meningitidis] &gt;gi|990301626|emb|CWQ78619.1| NadC family protein [Neisseria meningitidis] &gt;gi|990305400|emb|CWN84402.1| NadC family protein [Neisseria meningitidis] &gt;gi|990314577|emb|CWR46233.1| NadC family protein [Neisseria meningitidis] &gt;gi|990317213|emb|CWN03235.1| NadC family protein [Neisseria meningitidis] &gt;gi|990320188|emb|CWT21116.1| NadC family protein [Neisseria meningitidis] &gt;gi|990323212|emb|CWN29489.1| NadC family protein [Neisseria meningitidis] &gt;gi|990325501|emb|CWQ99432.1| NadC family protein [Neisseria meningitidis] &gt;gi|990330589|emb|CWN25698.1| NadC family protein [Neisseria meningitidis] &gt;gi|990332866|emb|CWN60329.1| NadC family protein [Neisseria meningitidis] &gt;gi|990335088|emb|CWM73755.1| NadC family protein [Neisseria meningitidis] &gt;gi|990339157|emb|CWP68917.1| NadC family protein [Neisseria meningitidis] &gt;gi|990341446|emb|CWM02203.1| NadC family protein [Neisseria meningitidis] &gt;gi|990343291|emb|CWM36927.1| NadC family protein [Neisseria meningitidis] &gt;gi|990345623|emb|CWT04344.1| NadC family protein [Neisseria meningitidis] &gt;gi|990347748|emb|CWP49443.1| NadC family protein [Neisseria meningitidis] &gt;gi|990349763|emb|CWP36602.1| NadC family protein [Neisseria meningitidis] &gt;gi|990351915|emb|CWT07485.1| NadC family protein [Neisseria meningitidis] &gt;gi|990353970|emb|CWM16840.1| NadC family protein [Neisseria meningitidis] &gt;gi|990357951|emb|CWS21067.1| NadC family protein [Neisseria meningitidis] &gt;gi|990360359|emb|CWP77147.1| NadC family protein [Neisseria meningitidis] &gt;gi|990364522|emb|CWN18835.1| NadC family protein [Neisseria meningitidis] &gt;gi|990371010|emb|CWT52178.1| NadC family protein [Neisseria meningitidis] &gt;gi|990373130|emb|CWQ02965.1| NadC family protein [Neisseria meningitidis] &gt;gi|990375405|emb|CWT12507.1| NadC family protein [Neisseria meningitidis] &gt;gi|990377429|emb|CWT41736.1| NadC family protein [Neisseria meningitidis] &gt;gi|990383133|emb|CWM23511.1| NadC family protein [Neisseria meningitidis] &gt;gi|990392394|emb|CWM76638.1| NadC family protein [Neisseria meningitidis] &gt;gi|990394963|emb|CWQ03658.1| NadC family protein [Neisseria meningitidis] &gt;gi|990398502|emb|CWM56472.1| NadC family protein [Neisseria meningitidis] &gt;gi|990401476|emb|CWN00088.1| NadC family protein [Neisseria meningitidis] &gt;gi|990410987|emb|CWT42522.1| NadC family protein [Neisseria meningitidis] &gt;gi|990413781|emb|CWM90003.1| NadC family protein [Neisseria meningitidis] &gt;gi|990416284|emb|CWN56652.1| NadC family protein [Neisseria meningitidis] &gt;gi|990420404|emb|CWS18079.1| NadC family protein [Neisseria meningitidis] &gt;gi|990429061|emb|CWT18252.1| NadC family protein [Neisseria meningitidis] &gt;gi|990430518|emb|CWT56436.1| NadC family protein [Neisseria meningitidis] &gt;gi|990433262|emb|CWQ19538.1| NadC family protein [Neisseria meningitidis] &gt;gi|990442175|emb|CWS14478.1| NadC family protein [Neisseria meningitidis] &gt;gi|990444053|emb|CWP37467.1| NadC family protein [Neisseria meningitidis] &gt;gi|990446360|emb|CWQ42928.1| NadC family protein [Neisseria meningitidis] &gt;gi|990448697|emb|CWQ84147.1| NadC family protein [Neisseria meningitidis] &gt;gi|990451740|emb|CWS56761.1| NadC family protein [Neisseria meningitidis] &gt;gi|990458242|emb|CWR39938.1| NadC family protein [Neisseria meningitidis] &gt;gi|990461474|emb|CWQ27936.1| NadC family protein [Neisseria meningitidis] &gt;gi|990464198|emb|CWO41278.1| NadC family protein [Neisseria meningitidis] &gt;gi|990466977|emb|CWM71818.1| NadC family protein [Neisseria meningitidis] &gt;gi|990469910|emb|CWT42732.1| NadC family protein [Neisseria meningitidis] &gt;gi|990477668|emb|CWR85933.1| NadC family protein [Neisseria meningitidis] &gt;gi|990481719|emb|CWN36735.1| NadC family protein [Neisseria meningitidis] &gt;gi|990484195|emb|CWM58506.1| NadC family protein [Neisseria meningitidis] &gt;gi|990493376|emb|CWQ45474.1| NadC family protein [Neisseria meningitidis] &gt;gi|990496044|emb|CWQ31598.1| NadC family protein [Neisseria meningitidis] &gt;gi|990498801|emb|CWR90128.1| NadC family protein [Neisseria meningitidis] &gt;gi|990501763|emb|CWR54043.1| NadC family protein [Neisseria meningitidis] &gt;gi|990504659|emb|CWN60813.1| NadC family protein [Neisseria meningitidis] &gt;gi|990507732|emb|CWS11387.1| NadC family protein [Neisseria meningitidis] &gt;gi|990510347|emb|CWO02513.1| NadC family protein [Neisseria meningitidis] &gt;gi|990513001|emb|CWS23042.1| NadC family protein [Neisseria meningitidis] &gt;gi|990516228|emb|CWP48079.1| NadC family protein [Neisseria meningitidis] &gt;gi|990518788|emb|CWR37665.1| NadC family protein [Neisseria meningitidis] &gt;gi|990521646|emb|CWO20081.1| NadC family protein [Neisseria meningitidis] &gt;gi|990524809|emb|CWR36739.1| NadC family protein [Neisseria meningitidis] &gt;gi|990527048|emb|CWT72841.1| NadC family protein [Neisseria meningitidis] &gt;gi|990533144|emb|CWT25647.1| NadC family protein [Neisseria meningitidis] &gt;gi|990538333|emb|CWR43906.1| NadC family protein [Neisseria meningitidis] &gt;gi|990542718|emb|CWQ58120.1| NadC family protein [Neisseria meningitidis] &gt;gi|990544881|emb|CWQ56728.1| NadC family protein [Neisseria meningitidis] &gt;gi|990546647|emb|CWP39209.1| NadC family protein [Neisseria meningitidis] &gt;gi|990548855|emb|CWN37028.1| NadC family protein [Neisseria meningitidis] &gt;gi|990550758|emb|CWM86257.1| NadC family protein [Neisseria meningitidis] &gt;gi|990552797|emb|CWP29352.1| NadC family protein [Neisseria meningitidis] &gt;gi|990554886|emb|CWS51483.1| NadC family protein [Neisseria meningitidis] &gt;gi|990558845|emb|CWN08231.1| NadC family protein [Neisseria meningitidis] &gt;gi|990566146|emb|CWP39916.1| NadC family protein [Neisseria meningitidis] &gt;gi|990568601|emb|CWO06304.1| NadC family protein [Neisseria meningitidis] &gt;gi|990570515|emb|CWO77673.1| NadC family protein [Neisseria meningitidis] &gt;gi|990572723|emb|CWO37787.1| NadC family protein [Neisseria meningitidis] &gt;gi|990574624|emb|CWO00971.1| NadC family protein [Neisseria meningitidis] &gt;gi|990576567|emb|CWT02076.1| NadC family protein [Neisseria meningitidis] &gt;gi|990583583|emb|CWM49782.1| NadC family protein [Neisseria meningitidis] &gt;gi|990585447|emb|CWR40862.1| NadC family protein [Neisseria meningitidis] &gt;gi|990588041|emb|CWR52001.1| NadC family protein [Neisseria meningitidis] &gt;gi|990596624|emb|CWS33424.1| NadC family protein [Neisseria meningitidis] &gt;gi|990598786|emb|CWM77662.1| NadC family protein [Neisseria meningitidis] &gt;gi|990600843|emb|CWQ52653.1| NadC family protein [Neisseria meningitidis] &gt;gi|990606411|emb|CWQ58382.1| NadC family protein [Neisseria meningitidis] &gt;gi|990609331|emb|CWP00487.1| NadC family protein [Neisseria meningitidis] &gt;gi|990612575|emb|CWS94443.1| NadC family protein [Neisseria meningitidis] &gt;gi|990616217|emb|CWP47302.1| NadC family protein [Neisseria meningitidis] &gt;gi|990619328|emb|CWQ26453.1| NadC family protein [Neisseria meningitidis] &gt;gi|990625799|emb|CWS57511.1| NadC family protein [Neisseria meningitidis] &gt;gi|990628927|emb|CWO67000.1| NadC family protein [Neisseria meningitidis] &gt;gi|990631113|emb|CWN78139.1| NadC family protein [Neisseria meningitidis] &gt;gi|990633140|emb|CWO19830.1| NadC family protein [Neisseria meningitidis] &gt;gi|990637474|emb|CWQ39404.1| NadC family protein [Neisseria meningitidis] &gt;gi|990638997|emb|CWO01638.1| NadC family protein [Neisseria meningitidis] &gt;gi|990646525|emb|CWO27629.1| NadC family protein [Neisseria meningitidis] &gt;gi|990650085|emb|CWP51091.1| NadC family protein [Neisseria meningitidis] &gt;gi|990652910|emb|CWS18050.1| NadC family protein [Neisseria meningitidis] &gt;gi|990655142|emb|CWQ40152.1| NadC family protein [Neisseria meningitidis] &gt;gi|990659754|emb|CWS16789.1| NadC family protein [Neisseria meningitidis] &gt;gi|990664053|emb|CWS14723.1| NadC family protein [Neisseria meningitidis] &gt;gi|990666153|emb|CWO22491.1| NadC family protein [Neisseria meningitidis] &gt;gi|990668060|emb|CWT15173.1| NadC family protein [Neisseria meningitidis] &gt;gi|990670201|emb|CWS46106.1| NadC family protein [Neisseria meningitidis] &gt;gi|990672503|emb|CWT10892.1| NadC family protein [Neisseria meningitidis] &gt;gi|990676997|emb|CWM26459.1| NadC family protein [Neisseria meningitidis] &gt;gi|990678980|emb|CWN24595.1| NadC family protein [Neisseria meningitidis] &gt;gi|990681160|emb|CWN35143.1| NadC family protein [Neisseria meningitidis] &gt;gi|990685231|emb|CWM28279.1| NadC family protein [Neisseria meningitidis] &gt;gi|990690482|emb|CWM01519.1| NadC family protein [Neisseria meningitidis] &gt;gi|990694863|emb|CWQ01715.1| NadC family protein [Neisseria meningitidis] &gt;gi|990701503|emb|CWP45643.1| NadC family protein [Neisseria meningitidis] &gt;gi|990704085|emb|CWQ32400.1| NadC family protein [Neisseria meningitidis] &gt;gi|990706200|emb|CWT29821.1| NadC family protein [Neisseria meningitidis] &gt;gi|1049062922|gb|ANW87225.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis] &gt;gi|1049065605|gb|ANW89869.1| transporter, divalent anion:Na+ symporter family [Neisseria meningitidis] &gt;gi|1134409382|gb|OMH46387.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1134410426|gb|OMH47409.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1134412779|gb|OMH49565.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1147896509|gb|OOG98938.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1147896686|gb|OOG99110.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1169332694|gb|ARB72122.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1169368707|gb|ARC08113.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1169369687|gb|ARC09092.1| anion:sodium symporter [Neisseria meningitidis] &gt;gi|1169373833|gb|ARC13237.1| anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_002223903</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.45291</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|915799150|ref|WP_050893726.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_050893726</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.47427</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|752776536|ref|WP_041423294.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_041423294</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.53948</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|161595291|gb|ABX72951.1|</Hit_id>
+  <Hit_def>transporter, NadC family [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>ABX72951</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.89531</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1006148785|ref|WP_061732544.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis] &gt;gi|990186698|emb|CWN47084.1| NadC family protein [Neisseria meningitidis] &gt;gi|990424644|emb|CWR31846.1| NadC family protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_061732544</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>3.20935</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVALLRLSRGSMKAAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|518103503|ref|WP_019273711.1|</Hit_id>
+  <Hit_def>NadC family protein, partial [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_019273711</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.39358</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>ELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>RLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline> LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|325142038|gb|EGC64469.1|</Hit_id>
+  <Hit_def>transporter, divalent anion:Na+ symporter family [Neisseria meningitidis 961-5945]</Hit_def>
+  <Hit_accession>EGC64469</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.58271</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>LAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|940684018|gb|KQB50581.1|</Hit_id>
+  <Hit_def>conjugal transfer protein, partial [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>KQB50581</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.16463</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>MAAGVTIFVGGGTSAAVFAPVAATLRLDGDGQAAWWALALGIMAG</Hsp_qseq>
+      <Hsp_hseq>LSLALTMSPDAGTYAALLSSVNAVLDCEKEGEVQWFALPVVLVSG</Hsp_hseq>
+      <Hsp_midline>++  +T+    GT AA+ + V A L  + +G+  W+AL + +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1073033663|ref|WP_069972251.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis] &gt;gi|1072782467|gb|AOT28566.1| anion:sodium symporter [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_069972251</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>5.30603</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVFMLFLVTAFLSMWISNPATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNLIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  + M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN+I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|912510063|ref|WP_050174017.1|</Hit_id>
+  <Hit_def>anion:sodium symporter [Neisseria meningitidis] &gt;gi|883501494|emb|CKK34333.1| NadC family protein [Neisseria meningitidis]</Hit_def>
+  <Hit_accession>WP_050174017</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.76909</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LIFGMAAISALLARSGVYAYLAAGTAELSQGQGRWILVMMALVTYGISLASNSLITVAVVVPVTLTVCFRTGIDP-----VPVIIAEIIAANLGGSSTMIGDFPNMILASAGKLHFNDFIGGM</Hsp_qseq>
+      <Hsp_hseq>IFFGGFALATALHMQRLDRKIAVSLLRLSRGNMKVAVLMLFLVTAFLSMWISNTATAAMMLPLAMGMLSHLDQEKEHKTYVFLLLGIAYCASIGGLGTLVGSPPNPIAAKALNL---DFVGWM</Hsp_hseq>
+      <Hsp_midline>+ FG  A++  L    +   +A     LS+G  +  ++M+ LVT  +S+  ++  T A+++P+ + +      +      V +++     A++GG  T++G  PN I A A  L   DF+G M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>142225</Statistics_db-num>
+      <Statistics_db-len>45593900</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

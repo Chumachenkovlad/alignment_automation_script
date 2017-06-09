@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|502627264|ref|WP_012863958.1|</Hit_id>
+  <Hit_def>peptidase S1 [Veillonella parvula] &gt;gi|269094092|gb|ACZ24083.1| peptidase S1 and S6 chymotrypsin/Hap [Veillonella parvula DSM 2008]</Hit_def>
+  <Hit_accession>WP_012863958</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>1.24387e-31</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>ITETRNTYVVQAAKESG----PAVVGITTQVFQKDIFNRTIYAGEGVGSGVLIDNDGHIVTNKHVVAGAKNGEVTVSLSDGS-TVTGTVIGSDSQTDLAVVKIKPPKDIKPIKIGDSDSLQVGEPAIAIGNPLGLEFKGSVTSGVISALARTIDDQGQRFP-LIQTDAAINPGNSGGALINADGELIGINSSKISKEG-IEGMGFAIPINSA</Hsp_hseq>
+      <Hsp_midline>+T  RN+ V   A  SG    P  +G+          N T  + E +G+GV++ NDG IVTN HVV GA +  VTV    GS   +G ++  D   DLA++KI P   +    +GDSD++ V +  IAIG P GL+   +V+ G+ISA  +T+  +G     L+QTDAAIN GNSGG L+ A+G ++GIN++  +  G   G+GFA+P N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.00112</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>636</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTG</Hsp_qseq>
+      <Hsp_hseq>GEGLLIVQLDSTGPAAQAGLVEGDTIAQIDGKDITTLLELKERIDAKSPGDTVLVSYTHNGKMKSTQIKLG</Hsp_hseq>
+      <Hsp_midline>G G+ +  +    PAA AGL  GD I ++DG+ +    E+   +     G +V +     G + +  +  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|530807447|gb|EQC67398.1|</Hit_id>
+  <Hit_def>Serine protease, DegP/HtrA, do-like protein [Veillonella parvula HSIVP1]</Hit_def>
+  <Hit_accession>EQC67398</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.84811e-31</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>ITETRNTYVVQAAKESG----PAVVGITTQVFQKDIFNRTIYAGEGVGSGVLIDNDGHIITNKHVVAGARNGEVTVSLSDGS-TVTGTVIGSDSQTDLAVVKIKPPKDIKPIKIGDSDSLQVGEPAIAIGNPLGLEFKGSVTSGVISALARTIDDQGQRFP-LIQTDAAINPGNSGGALINADGELIGINSSKISKEG-IEGMGFAIPINSA</Hsp_hseq>
+      <Hsp_midline>+T  RN+ V   A  SG    P  +G+          N T  + E +G+GV++ NDG I+TN HVV GA +  VTV    GS   +G ++  D   DLA++KI P   +    +GDSD++ V +  IAIG P GL+   +V+ G+ISA  +T+  +G     L+QTDAAIN GNSGG L+ A+G ++GIN++  +  G   G+GFA+P N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0360333</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GDGLLVVQLDPNGPAAQAGLVEGDTIAQIDGKDITTLLELKEQIDAKSPGDIILISYTHNGKMKSAQLKLGEA</Hsp_hseq>
+      <Hsp_midline>G G+ V  + PN PAA AGL  GD I ++DG+ +    E+   +     G  + I     G + +  L  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|490836293|ref|WP_004698370.1|</Hit_id>
+  <Hit_def>peptidase S1 [Veillonella parvula] &gt;gi|333975975|gb|EGL76849.1| trypsin [Veillonella parvula ACS-068-V-Sch12]</Hit_def>
+  <Hit_accession>WP_004698370</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>1.91912e-31</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>ITETRNTYVVQAAKESG----PAVVGITTQVFQKDIFNRTIYAGEGVGSGVLIDNDGHIITNKHVVAGARNGEVTVSLSDGS-TVTGTVIGSDSQTDLAVVKIKPPKDIKPIKIGDSDSLQVGEPAIAIGNPLGLEFKGSVTSGVISALARTIDDQGQRFP-LIQTDAAINPGNSGGALINADGELIGINSSKISKEG-IEGMGFAIPINSA</Hsp_hseq>
+      <Hsp_midline>+T  RN+ V   A  SG    P  +G+          N T  + E +G+GV++ NDG I+TN HVV GA +  VTV    GS   +G ++  D   DLA++KI P   +    +GDSD++ V +  IAIG P GL+   +V+ G+ISA  +T+  +G     L+QTDAAIN GNSGG L+ A+G ++GIN++  +  G   G+GFA+P N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0150084</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GDGLLVVQLDPNGPAAQAGLVEGDTIAQIDGKDITTLLELKEQIDAKSPGDTILVSYTHNGKMKSTQLKLGEA</Hsp_hseq>
+      <Hsp_midline>G G+ V  + PN PAA AGL  GD I ++DG+ +    E+   +     G ++ +     G + +  L  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|490831574|ref|WP_004693659.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase S1 [Veillonella] &gt;gi|282580839|gb|EFB86237.1| trypsin [Veillonella parvula ATCC 17745] &gt;gi|294455908|gb|EFG24272.1| trypsin [Veillonella sp. 6_1_27]</Hit_def>
+  <Hit_accession>WP_004693659</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>2.03077e-31</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>ITETRNTYVVQAAKESG----PAVVGITTQVFQKDIFNRTIYAGEGVGSGVLIDNDGHIITNKHVVAGARNGEVTVSLSDGS-TVTGTVIGSDSQTDLAVVKIKPPKDIKPIKIGDSDSLQVGEPAIAIGNPLGLEFKGSVTSGVISALARTIDDQGQRFP-LIQTDAAINPGNSGGALINADGELIGINSSKISKEG-IEGMGFAIPINSA</Hsp_hseq>
+      <Hsp_midline>+T  RN+ V   A  SG    P  +G+          N T  + E +G+GV++ NDG I+TN HVV GA +  VTV    GS   +G ++  D   DLA++KI P   +    +GDSD++ V +  IAIG P GL+   +V+ G+ISA  +T+  +G     L+QTDAAIN GNSGG L+ A+G ++GIN++  +  G   G+GFA+P N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.149198</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GDGLLVVQLDSNGPAAQAGLVEGDTIAQIDGKDITTLLELKEQIDAKSPGDTILVSYTHNGKMKSAQLKLGEA</Hsp_hseq>
+      <Hsp_midline>G G+ V  +  N PAA AGL  GD I ++DG+ +    E+   +     G ++ +     G + +  L  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|987848871|ref|WP_060919509.1|</Hit_id>
+  <Hit_def>peptidase S1 [Veillonella parvula] &gt;gi|987372917|gb|KXB84616.1| trypsin [Veillonella parvula]</Hit_def>
+  <Hit_accession>WP_060919509</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>3.1622e-31</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>ITETRNTYVVQAAKESG----PAVVGITTQVFQKDIFNRTIYAGEGVGSGVLIDNDGHIITNKHVVAGARNGEVTVSLSDGS-TVTGTVIGSDSQTDLAVVKIKPPKDIKPIKIGDSDSLQVGEPAIAIGNPLGLEFKGSVTAGVISALARTIDDQGQRFP-LIQTDAAINPGNSGGALINADGELIGINSSKISKEG-IEGMGFAIPINSA</Hsp_hseq>
+      <Hsp_midline>+T  RN+ V   A  SG    P  +G+          N T  + E +G+GV++ NDG I+TN HVV GA +  VTV    GS   +G ++  D   DLA++KI P   +    +GDSD++ V +  IAIG P GL+   +V+ G+ISA  +T+  +G     L+QTDAAIN GNSGG L+ A+G ++GIN++  +  G   G+GFA+P N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.00705451</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>638</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPS</Hsp_qseq>
+      <Hsp_hseq>GDGLLVVQLDPNGPAAQAGLVEGDTIAQIDGKDITTLRELKEQIDAKSPGDTILVSYTHNGKMKSTQLKLGEA</Hsp_hseq>
+      <Hsp_midline>G G+ V  + PN PAA AGL  GD I ++DG+ +    E+   +     G ++ +     G + +  L  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|282581412|gb|EFB86805.1|</Hit_id>
+  <Hit_def>peptidase, S41 family [Veillonella parvula ATCC 17745] &gt;gi|333976947|gb|EGL77806.1| peptidase, S41 family [Veillonella parvula ACS-068-V-Sch12] &gt;gi|530805474|gb|EQC65481.1| carboxyl-terminal protease [Veillonella parvula HSIVP1]</Hit_def>
+  <Hit_accession>EFB86805</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0250822</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAG-----DVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>KGLYAVSVMEDQPAFKAGIKPGDHIIAIDGQSTTEIPVEEASSRIRGEAGTTVSLDIERNGEKLHFDITRESIV</Hsp_hseq>
+      <Hsp_midline>+G++   V  + PA  AG++PGD I+ +DG+   + P E A+       G +V + + R G     D++  S+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|495876212|ref|WP_008600791.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase S41 [Veillonella] &gt;gi|294455191|gb|EFG23563.1| peptidase, S41 family [Veillonella sp. 3_1_44] &gt;gi|294456990|gb|EFG25352.1| peptidase, S41 family [Veillonella sp. 6_1_27] &gt;gi|987376479|gb|KXB88054.1| peptidase, S41 family [Veillonella parvula]</Hit_def>
+  <Hit_accession>WP_008600791</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0257286</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAG-----DVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>KGLYAVSVMEDQPAFKAGIKPGDHIIAIDGQSTTEIPVEEASSRIRGEAGTTVSLDIERNGEKLHFDITRESIV</Hsp_hseq>
+      <Hsp_midline>+G++   V  + PA  AG++PGD I+ +DG+   + P E A+       G +V + + R G     D++  S+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|502627596|ref|WP_012864281.1|</Hit_id>
+  <Hit_def>peptidase S41 [Veillonella parvula] &gt;gi|269094500|gb|ACZ24491.1| carboxyl-terminal protease [Veillonella parvula DSM 2008]</Hit_def>
+  <Hit_accession>WP_012864281</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.037332</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAG-----DVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>KGLYAVSVMEDQPAFKAGIKPGDHIIAIDGQSTTEIPVEEASSRIRGEAGTTVALDIERNGEKLHFDITRESIV</Hsp_hseq>
+      <Hsp_midline>+G++   V  + PA  AG++PGD I+ +DG+   + P E A+       G +V + + R G     D++  S+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|495876274|ref|WP_008600853.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase [Veillonella] &gt;gi|269094554|gb|ACZ24545.1| membrane-associated zinc metalloprotease [Veillonella parvula DSM 2008] &gt;gi|294457036|gb|EFG25398.1| RIP metalloprotease RseP [Veillonella sp. 6_1_27]</Hit_def>
+  <Hit_accession>WP_008600853</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.78213</Hsp_evalue>
+      <Hsp_query-from>709</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>IGNIIAGSSAEQAHLEANDRIITIDGKKISTWDDIRPSLQGTANHGVTVV--VEREGQ</Hsp_hseq>
+      <Hsp_midline>+  ++AGS A  A L+AND II ++ + +++   +  +++     G  ++  V R GQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|490833618|ref|WP_004695702.1|</Hit_id>
+  <Hit_def>peptidase [Veillonella parvula] &gt;gi|282579647|gb|EFB85051.1| RIP metalloprotease RseP [Veillonella parvula ATCC 17745] &gt;gi|530805535|gb|EQC65542.1| Membrane-associated zinc metalloprotease [Veillonella parvula HSIVP1]</Hit_def>
+  <Hit_accession>WP_004695702</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.21235</Hsp_evalue>
+      <Hsp_query-from>709</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>IGNIIAGSSAEQAHLEANDRIITIDGKKISTWDDIRPSLQG--TANHDVTVVVEREGK</Hsp_hseq>
+      <Hsp_midline>+  ++AGS A  A L+AND II ++ + +++   +  +++    A   + + V R G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|530804916|gb|EQC64946.1|</Hit_id>
+  <Hit_def>VgrG protein [Veillonella parvula HSIVP1]</Hit_def>
+  <Hit_accession>EQC64946</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>4.98288</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>SSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIG</Hsp_qseq>
+      <Hsp_hseq>TDAGPLVNQDPIGLVGGDNLYSFANNATSWTDCLG</Hsp_hseq>
+      <Hsp_midline>+ +G  V  DP+GLV  D L  FAN  T   + +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|282580606|gb|EFB86005.1|</Hit_id>
+  <Hit_def>RHS repeat-associated core domain protein [Veillonella parvula ATCC 17745]</Hit_def>
+  <Hit_accession>EFB86005</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.20493</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>SSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIG</Hsp_qseq>
+      <Hsp_hseq>TDAGPLVNQDPIGLVGGDNLYSFANNATSWTDCLG</Hsp_hseq>
+      <Hsp_midline>+ +G  V  DP+GLV  D L  FAN  T   + +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1149136904|ref|WP_077708387.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Veillonella parvula]</Hit_def>
+  <Hit_accession>WP_077708387</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.40135</Hsp_evalue>
+      <Hsp_query-from>709</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>IGNIIAGSSAEQAHLEANDRIITIDGKKISTWDDIRPSLQGTANHGVTVV--VEREGK</Hsp_hseq>
+      <Hsp_midline>+  ++AGS A  A L+AND II ++ + +++   +  +++     G  ++  V R G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|490834926|ref|WP_004697010.1|</Hit_id>
+  <Hit_def>peptidase [Veillonella parvula] &gt;gi|333976882|gb|EGL77741.1| RIP metalloprotease RseP [Veillonella parvula ACS-068-V-Sch12]</Hit_def>
+  <Hit_accession>WP_004697010</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.68938</Hsp_evalue>
+      <Hsp_query-from>709</Hsp_query-from>
+      <Hsp_query-to>766</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQ</Hsp_qseq>
+      <Hsp_hseq>IGNIIAGSSAEQAHLEANDRIITIDGKKISTWDDIRPSLQGTANHGVTVV--VEREGK</Hsp_hseq>
+      <Hsp_midline>+  ++AGS A  A L+AND II ++ + +++   +  +++     G  ++  V R G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>10156</Statistics_db-num>
+      <Statistics_db-len>3469870</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

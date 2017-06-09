@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1055053629|ref|WP_066803473.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella oblonga]</Hit_def>
+  <Hit_accession>WP_066803473</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.00666596</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>IADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDN</Hsp_qseq>
+      <Hsp_hseq>LAKSPNNARLQYQLASVYYEVEQYDKAFELFTK--SANQGNANAQYNLGIMYDN</Hsp_hseq>
+      <Hsp_midline>+A +P+N ++   L   Y +V++YD A  L  K   AN  N N ++ LG+  DN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|963345422|gb|AKG16266.2|</Hit_id>
+  <Hit_def>hypothetical protein AAX08_05910 [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>AKG16266</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0335521</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>YDL-AVPLLVKVAEANPVNFNVRFRLGVALDN---------------LGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>YDMMGVLLQSEGSEANLARADGYFCQALKLDNNLMRAHNNYAVYLMQVGHYDQAIHHFKIASTNLGYEGRVQSLENLATAYQRIGRHDDAIGAYQRA--IDSGSAT</Hsp_hseq>
+      <Hsp_midline>YD+  V L  + +EAN    +  F   + LDN               +G +D+AI  FKIA      EG+V     +A +Y+++G H++A+  +++A  +D  SA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|818917851|ref|WP_046699306.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Moraxella bovoculi] &gt;gi|817910124|gb|AKG08000.1| hypothetical protein AAX06_07340 [Moraxella bovoculi] &gt;gi|817914197|gb|AKG11280.1| hypothetical protein AAX07_03940 [Moraxella bovoculi] &gt;gi|817916641|gb|AKG13288.1| hypothetical protein AAX11_03710 [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>WP_046699306</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.039028</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>VYLMRVGHYDQAIHHFKIASTNLGYEGRVQSLENLAAAYQRIGRHDDAISAYQRA--IDSGSAT</Hsp_hseq>
+      <Hsp_midline>V L  +G +D+AI  FKIA      EG+V     +A +Y+++G H++A+  +++A  +D  SA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1180783243|ref|WP_084260651.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella ovis]</Hit_def>
+  <Hit_accession>WP_084260651</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0477816</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>VYLMQVGHYDQAIHHFKIASTNLGYEGRVQSLENLAAAYQRIGRHDDAIGAYQRA--IDSGSAT</Hsp_hseq>
+      <Hsp_midline>V L  +G +D+AI  FKIA      EG+V     +A +Y+++G H++A+  +++A  +D  SA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1172785856|ref|WP_080947312.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>WP_080947312</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0486685</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>VALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKK---ANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>VYLMQVGHYDQAIHHFKIASANLGYEGRVQSLENLATAYQRIGRHDDAISAYQRVIDSGSATERSYV</Hsp_hseq>
+      <Hsp_midline>V L  +G +D+AI  FKIA      EG+V     +A +Y+++G H++A+  +++   +    ERS V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1172318947|ref|WP_080702226.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>WP_080702226</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0500298</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>VALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKK---ANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>VYLMQVGHYDQAIHHFKIASANLGYEGRVQSLENLATAYQRIGRHDDAISAYQRVIDSGSATERSYV</Hsp_hseq>
+      <Hsp_midline>V L  +G +D+AI  FKIA      EG+V     +A +Y+++G H++A+  +++   +    ERS V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|639139403|gb|KDN24797.1|</Hit_id>
+  <Hit_def>hypothetical protein MBO_07538 [Moraxella bovoculi 237]</Hit_def>
+  <Hit_accession>KDN24797</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0527943</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>YDL-AVPLLVKVAEANPVNFNVRFRLGVALDN---------------LGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>YDMMGVLLQSEGSEANLARADGYFYQALKLDNNLMRAHNNYAVYLMQVGHYDQAIHHFKIASANLGYEGRVQSLENLATAYQRIGRHDDAISAYQR</Hsp_hseq>
+      <Hsp_midline>YD+  V L  + +EAN    +  F   + LDN               +G +D+AI  FKIA      EG+V     +A +Y+++G H++A+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1172785615|ref|WP_080947073.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>WP_080947073</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0561847</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>116</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GVALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>AVYLMQVGHYDQAIHHFKIASTNLSYEGRVQSLENLATAYQRIGRHDDAISAYQR</Hsp_hseq>
+      <Hsp_midline> V L  +G +D+AI  FKIA      EG+V     +A +Y+++G H++A+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|817921224|gb|AKG17237.1|</Hit_id>
+  <Hit_def>hypothetical protein AAX10_05815 [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>AKG17237</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0605514</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GVALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKK</Hsp_qseq>
+      <Hsp_hseq>AVYLMQVGHYDQAIHHFKIASTNLSYEGRVQSLENLATAYQRIGRHDDAISAYQR</Hsp_hseq>
+      <Hsp_midline> V L  +G +D+AI  FKIA      EG+V     +A +Y+++G H++A+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1042219581|ref|WP_065274008.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Moraxella lacunata] &gt;gi|1041976210|gb|OBX65036.1| type IV pilus biogenesis/stability protein PilW [Moraxella lacunata]</Hit_def>
+  <Hit_accession>WP_065274008</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0735944</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>NF-NVRFRLGVALDNLGRFDEAIDSFKIA---LGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>NFTQARNNYGVYLSELGRYQEAIEQFNIAGSTLGYRNRVGALEN-LGLTYLKMNNPAAAEAAFNKAME-TERGAV</Hsp_hseq>
+      <Hsp_midline>NF   R   GV L  LGR+ EAI+ F IA   LG R   G +   +  +Y +M +   A   F KA E  ER AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|818885275|ref|WP_046696409.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella bovoculi] &gt;gi|817911968|gb|AKG09463.1| hypothetical protein AAX05_03965 [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>WP_046696409</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.151963</Hsp_evalue>
+      <Hsp_query-from>156</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>VYLMRVGHYDQAIHHFKIASTNLGYEGRVQSLENLVAAYQRIGRHDDAISAYQRA--IDSGSAT</Hsp_hseq>
+      <Hsp_midline>V L  +G +D+AI  FKIA      EG+V     +  +Y+++G H++A+  +++A  +D  SA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1055394469|ref|WP_067057604.1|</Hit_id>
+  <Hit_def>polyphosphate kinase 1 [Moraxella atlantae] &gt;gi|1159242585|gb|OPH36904.1| polyphosphate kinase 1 [Moraxella atlantae]</Hit_def>
+  <Hit_accession>WP_067057604</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.16058</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>618</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>AKLQKLLHAPFTLHD--RLLSFIDDEIAHAKAGRRAHIIIKVNALTEQQLIDKLYA--ASQAGVKVQLIIRSMCCLRPQLAGVSDNIEVRSIVG</Hsp_hseq>
+      <Hsp_midline>A +     + F+++D  R + + D  I+HAKAGR +  ++ +  + +    D   A     A VK   + R    L   +A   DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1055592663|ref|WP_067234599.1|</Hit_id>
+  <Hit_def>polyphosphate kinase 1 [Moraxella atlantae] &gt;gi|1041992225|gb|OBX80745.1| RNA degradosome polyphosphate kinase [Moraxella atlantae]</Hit_def>
+  <Hit_accession>WP_067234599</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.17254</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>618</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>AKLQKLLHAPFTLHD--RLLSFIDDEIAHAKAGRRAHIIIKVNALTEQQLIDKLYA--ASQAGVKVQLIIRSMCCLRPQLAGVSDNIEVRSIVG</Hsp_hseq>
+      <Hsp_midline>A +     + F+++D  R + + D  I+HAKAGR +  ++ +  + +    D   A     A VK   + R    L   +A   DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1055723284|ref|WP_067335451.1|</Hit_id>
+  <Hit_def>polyphosphate kinase 1 [Moraxella atlantae] &gt;gi|1041994625|gb|OBX83101.1| RNA degradosome polyphosphate kinase [Moraxella atlantae]</Hit_def>
+  <Hit_accession>WP_067335451</Hit_accession>
+  <Hit_len>742</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.180463</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>529</Hsp_hit-from>
+      <Hsp_hit-to>618</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ANMVDAFRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>AKLQKLLHAPFTLHD--RLLSFIDDEIAHAKAGRRAHIIIKVNALTEQQLIDKLYA--ASQAGVKVQLIIRSMCCLRPQLAGVSDNIEVRSIVG</Hsp_hseq>
+      <Hsp_midline>A +     + F+++D  R + + D  I+HAKAGR +  ++ +  + +    D   A     A VK   + R    L   +A   DNI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1036723654|ref|WP_064724292.1|</Hit_id>
+  <Hit_def>pilus assembly protein [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_064724292</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.187768</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSY---EQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADPQFAPAYRTLAKVYQASEDAAHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL   P     +R +A  Y   E      +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1034466064|gb|OAV37306.1|</Hit_id>
+  <Hit_def>Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>OAV37306</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.194393</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSY---EQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADPQFAPAYRTLAKVYQASEDAAHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL   P     +R +A  Y   E      +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1034464333|gb|OAV35608.1|</Hit_id>
+  <Hit_def>Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>OAV35608</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.219769</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADPQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL   P     +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1035824127|ref|WP_064617903.1|</Hit_id>
+  <Hit_def>pilus assembly protein [Moraxella catarrhalis] &gt;gi|1034429708|gb|OAV01996.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_064617903</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.225865</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSY---EQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADPQFAPAYRTLAKVYQASEDAAHQAKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL   P     +R +A  Y   E      +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1035845533|ref|WP_064636612.1|</Hit_id>
+  <Hit_def>pilus assembly protein [Moraxella catarrhalis] &gt;gi|1034438925|gb|OAV10814.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis] &gt;gi|1034441283|gb|OAV13091.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_064636612</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.257249</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADPQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL   P     +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1035831674|ref|WP_064624297.1|</Hit_id>
+  <Hit_def>pilus assembly protein [Moraxella catarrhalis] &gt;gi|1034441609|gb|OAV13402.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis] &gt;gi|1034447288|gb|OAV18939.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis] &gt;gi|1041954926|gb|OBX44511.1| pilus assembly protein [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_064624297</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.274483</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADPQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL   P     +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1159781034|ref|WP_079325876.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Moraxella equi] &gt;gi|1159243511|gb|OPH37799.1| type IV pilus biogenesis/stability protein PilW [Moraxella equi]</Hit_def>
+  <Hit_accession>WP_079325876</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.400632</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>NF-NVRFRLGVALDNLGRFDEAIDSFKIA---LGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>NFTQARNNYGVYLSERGRYQEAIEQFNIAGGTLGYRNRAGALEN-LGLTYLKMNNPAAAEVAFNKAME-TERGAV</Hsp_hseq>
+      <Hsp_midline>NF   R   GV L   GR+ EAI+ F IA   LG R   G +   +  +Y +M +   A   F KA E  ER AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1152409578|ref|WP_078273326.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Moraxella bovis] &gt;gi|1151584515|gb|OOR91958.1| type IV pilus biogenesis/stability protein PilW [Moraxella bovis]</Hit_def>
+  <Hit_accession>WP_078273326</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.821139</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>KVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIA---LGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>KAISLDPNFTQARNNYGVYLSERGRYQEAIEQFNIAGGTLGYRNRAGALEN-LGLTYLKMNNPAAAEAAFNKAMETERGTVV</Hsp_hseq>
+      <Hsp_midline>K    +P     R   GV L   GR+ EAI+ F IA   LG R   G +   +  +Y +M +   A   F KA E +  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|916618745|ref|WP_051225836.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella caprae]</Hit_def>
+  <Hit_accession>WP_051225836</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.12645</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>LLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEAN--PVNFNV</Hsp_qseq>
+      <Hsp_hseq>ICQNELTQNPNNAELQFYLGYAYVNIKDYTKAIGLLTKSANQGLAPAQYNL</Hsp_hseq>
+      <Hsp_midline>+ +  +   P+N ++   LG  YV ++ Y  A+ LL K A     P  +N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1172756360|ref|WP_080945997.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>WP_080945997</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.19835</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>DDIRQVYYR-----DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAV----DRGTELLERSIADAPDNIKVATVLGLTYVQ----VQKYDLAVPLLVKVAE------ANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGS-----------HEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>DDVSQDMARAQALYDEATEHYQAGDYEEAATLLLESASLGLADAQRS--LGVMHCQGLGVRQDYEKGHELLKKSAKQG--NIKACHNLGVMYYHGFGVKQSHEEAFAWYKQAADHDYAESCHNIALMYEYGVGVAADE----DEAVKWHKKAGDL---------GVSLSYLNLGNLYCVGRGVPQDYTEAIECFKKA</Hsp_hseq>
+      <Hsp_midline>DD+ Q   R     D+   H +AG Y EA  +L +       D + +  LG+ + +   V    ++G ELL++S      NIK    LG+ Y       Q ++ A     + A+       + +     + +GVA D     DEA+   K A  L          ++ SY  +G+           + EA+  FKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1152461150|ref|WP_078317981.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella porci] &gt;gi|1151618110|gb|OOS24821.1| hypothetical protein B0681_06515 [Moraxella porci DSM 25326]</Hit_def>
+  <Hit_accession>WP_078317981</Hit_accession>
+  <Hit_len>666</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.25134</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>378</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>NVRFRLG-VALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKAN</Hsp_qseq>
+      <Hsp_hseq>DIRLLAGLVGLDG-GRYRDAIDMLMPLTELPDLKSQAHYYLGIGYERLGDIQHARSHFEKVN</Hsp_hseq>
+      <Hsp_midline>++R   G V LD  GR+ +AID       L   + + H  +   YE++G  + A  HF+K N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1024861457|ref|WP_063514157.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella ovis]</Hit_def>
+  <Hit_accession>WP_063514157</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.48891</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>DDIRQVYYR-----DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAV----DRGTELLERSIADAPDNIKVATVLGLTYVQ----VQKYDLAVPLLVKVAE------ANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGS-----------HEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>DDVSQDMARAQALYDEATEHYQAGDYEEAATLLLESASLGLADAQRS--LGVMHCQGLGVRQDYEKGHELLKKSAEQG--NIKACHNLGVMYYHGFGVKQSHEGAFAWYKQAADHDYAESCHNIALMYEYGVGVAADE----DEAVKWHKKAGDL---------GVSLSYLNLGNLYCVGRGVPQDYTEAIECFKKA</Hsp_hseq>
+      <Hsp_midline>DD+ Q   R     D+   H +AG Y EA  +L +       D + +  LG+ + +   V    ++G ELL++S      NIK    LG+ Y       Q ++ A     + A+       + +     + +GVA D     DEA+   K A  L          ++ SY  +G+           + EA+  FKKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|656071825|ref|WP_029103080.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Moraxella caprae]</Hit_def>
+  <Hit_accession>WP_029103080</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.74304</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>NF-NVRFRLGVALDNLGRFDEAIDSFKIA---LGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>NFTQARNNYGVYLSERGRYQEAIEQFNIAGGTLGYRNRAGALEN-LGLTYLKINNPAAAEVAFNKAME-TERGAV</Hsp_hseq>
+      <Hsp_midline>NF   R   GV L   GR+ EAI+ F IA   LG R   G +   +  +Y ++ +   A   F KA E  ER AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1019440918|emb|SAK66611.1|</Hit_id>
+  <Hit_def>TPR repeat-containing protein [Burkholderia glebae]</Hit_def>
+  <Hit_accession>SAK66611</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.75529</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>302</Hsp_hit-from>
+      <Hsp_hit-to>459</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>GISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIA--YSYEQMGSHEEALPHFKKANE</Hsp_qseq>
+      <Hsp_hseq>GTCHFNLGELDLAERRWSQILTKNRDCVATLGNLGVLYRDKGQPQQSIRRFERVVQLAPDALPAYLDLTRLFRAQRQMPEAESYARRAIALHPSSDVAFAALASILLDLQRFPEAEAAYRTALELNP--GHVHHAASLGLLLLSVDRWEEGLPLWETRHE</Hsp_hseq>
+      <Hsp_midline>G  H   G    A     Q+   +   V    +LG+ Y   G   +     ER +  APD +     L   +   ++   A     +    +P +      L   L +L RF EA  +++ AL L P  G VH A +       +   EE LP ++  +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|963345295|gb|AKG15415.2|</Hit_id>
+  <Hit_def>hypothetical protein AAX08_05150 [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>AKG15415</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.84971</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>DDIRQVYYR-----DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAV----DRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>DDVSQDMARAQALYDEATEHYQAGNYEEAAALLLESASLGLADAQRS--LGVMHCQGLGVRQDYEKGHELLKKSAEQG--NIKACHNLGVMY</Hsp_hseq>
+      <Hsp_midline>DD+ Q   R     D+   H +AG Y EA  +L +       D + +  LG+ + +   V    ++G ELL++S      NIK    LG+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|918722489|ref|WP_052585247.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella bovoculi] &gt;gi|639140687|gb|KDN26022.1| Sel1 domain-containing protein [Moraxella bovoculi 237]</Hit_def>
+  <Hit_accession>WP_052585247</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.8665</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>DDIRQVYYR-----DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAV----DRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>DDVSQDMARAQALYDEATEHYQAGNYEEAAALLLESASLGLADAQRS--LGVMHCQGLGVRQDYEKGHELLKKSAEQG--NIKACHNLGVMY</Hsp_hseq>
+      <Hsp_midline>DD+ Q   R     D+   H +AG Y EA  +L +       D + +  LG+ + +   V    ++G ELL++S      NIK    LG+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1180390068|ref|WP_083908867.1|</Hit_id>
+  <Hit_def>polyphosphate kinase 1 [Moraxella boevrei]</Hit_def>
+  <Hit_accession>WP_083908867</Hit_accession>
+  <Hit_len>710</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.87055</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>600</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>SAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>APFSLHDKLLQLI--DNEIAHVNAGKQGQIIIKVNALTEKQIIDK--LYQASQAGVKIDLIIRSICCLRPQLASVSDNIHVRSVIG</Hsp_hseq>
+      <Hsp_midline>+ FS++D + Q+   D  I+H  AG+  + ++ +  + +    D         A VK   + R    L   +A   DNI V +V+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1172785849|ref|WP_080947305.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella bovoculi]</Hit_def>
+  <Hit_accession>WP_080947305</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.58398</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>113</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>DDIRQVYYR-----DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAV----DRGTELLERSIADAPDNIKVATVLGLTY</Hsp_qseq>
+      <Hsp_hseq>DDVSQDMARAQALYDEATEHYQAGDYEEAATLLLESASLGLADAQRS--LGVMHCQGLGVRQDYEKGHELLKKSAEQG--NIKACHNLGVMY</Hsp_hseq>
+      <Hsp_midline>DD+ Q   R     D+   H +AG Y EA  +L +       D + +  LG+ + +   V    ++G ELL++S      NIK    LG+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1042200308|ref|WP_065255403.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Moraxella lacunata] &gt;gi|1041974923|gb|OBX63781.1| type IV pilus biogenesis/stability protein PilW [Moraxella lacunata]</Hit_def>
+  <Hit_accession>WP_065255403</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.7662</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>KVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIA---LGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>KAISLDPDFIQARNNYGVYLSELGRHQEAIEQFNIAGSTLGYHNRAGALEN-LGLTYLKMNNPKAAEMAFNKAIETE</Hsp_hseq>
+      <Hsp_midline>K    +P     R   GV L  LGR  EAI+ F IA   LG     G +   +  +Y +M + + A   F KA E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1055596769|ref|WP_067238705.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Moraxella atlantae] &gt;gi|1041985026|gb|OBX73678.1| type IV pilus biogenesis/stability protein PilW [Moraxella atlantae]</Hit_def>
+  <Hit_accession>WP_067238705</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.04004</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>YSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRG------TELL-----ERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLG---RFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKA</Hsp_qseq>
+      <Hsp_hseq>YKDKARAYQMQYTANSYWLLVAALAGLMFLQAGCASRTPAAAPTTQTVTSSDPSRRRQDPKEIAKVRTAIAAEFIRNHQLDNAKRQLEDALKADPRSAAAYDMMGVLLQQEGSPINLKKAESYFLKALALDPDYMQAHNNYGVYLAQIGRNAEAIRQFEIA</Hsp_hseq>
+      <Hsp_midline>Y +     +  Y A+++ + VA   G+ +++ G   R       T+ +      R   D  +  KV T +   +++  + D A   L    +A+P +      +GV L   G      +A   F  AL L P+  + H        Q+G + EA+  F+ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1035800440|ref|WP_064603575.1|</Hit_id>
+  <Hit_def>pilus assembly protein [Moraxella catarrhalis] &gt;gi|1034453535|gb|OAV25061.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_064603575</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.60493</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAVSLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ V+L ++G+ D+A      AL         +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1055144732|ref|WP_066891956.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella nonliquefaciens] &gt;gi|1041962516|gb|OBX51835.1| hypothetical protein A9Z60_06015 [Moraxella nonliquefaciens] &gt;gi|1041996571|gb|OBX84991.1| hypothetical protein A7456_02195 [Moraxella nonliquefaciens]</Hit_def>
+  <Hit_accession>WP_066891956</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.65921</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>KVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIA---LGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>KAISLDPDFIQARNNYGVYLSELGRHQEAIEQFNIAGSTLGYHNRAGALEN-LGLTYLKMNNPKAAEMAFNKAIETE</Hsp_hseq>
+      <Hsp_midline>K    +P     R   GV L  LGR  EAI+ F IA   LG     G +   +  +Y +M + + A   F KA E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1055141474|ref|WP_066888744.1|</Hit_id>
+  <Hit_def>type IV pilus biogenesis/stability protein PilW [Moraxella nonliquefaciens] &gt;gi|1041958141|gb|OBX47638.1| type IV pilus biogenesis/stability protein PilW [Moraxella nonliquefaciens]</Hit_def>
+  <Hit_accession>WP_066888744</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.75472</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>KVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIA---LGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>KAISLDPDFIQARNNYGVYLSELGRHQEAIEQFNIAGSTLGYHNRAGALEN-LGLTYLKMNNLKAAEMAFNKAIETE</Hsp_hseq>
+      <Hsp_midline>K    +P     R   GV L  LGR  EAI+ F IA   LG     G +   +  +Y +M + + A   F KA E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1034455465|gb|OAV26950.1|</Hit_id>
+  <Hit_def>Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>OAV26950</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.97341</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSY---EQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDAAHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y   E      +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|326559236|gb|EGE09667.1|</Hit_id>
+  <Hit_def>putative type IV pilus biogenesis protein [Moraxella catarrhalis 46P47B1] &gt;gi|407812992|gb|EKF83776.1| putative type IV pilus biogenesis protein [Moraxella catarrhalis RH4]</Hit_def>
+  <Hit_accession>EGE09667</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.12196</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|326569639|gb|EGE19691.1|</Hit_id>
+  <Hit_def>putative type IV pilus biogenesis protein [Moraxella catarrhalis BC1]</Hit_def>
+  <Hit_accession>EGE19691</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.26523</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1035853555|ref|WP_064644393.1|</Hit_id>
+  <Hit_def>pilus assembly protein [Moraxella catarrhalis] &gt;gi|1034450591|gb|OAV22186.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_064644393</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.30385</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSY---EQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAVSLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDAAHQAKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ V+L ++G+ D+A      AL         +R +A  Y   E      +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1034421934|gb|OAU94404.1|</Hit_id>
+  <Hit_def>Type IV pilus biogenesis protein PilF [Moraxella catarrhalis] &gt;gi|1034422384|gb|OAU94852.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis] &gt;gi|1034430471|gb|OAV02709.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>OAU94404</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.53571</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSY---EQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDAAHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y   E      +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1055050578|ref|WP_066800458.1|</Hit_id>
+  <Hit_def>hypothetical protein [Moraxella oblonga]</Hit_def>
+  <Hit_accession>WP_066800458</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.68425</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVH--RAIAYSYEQMGSHEEALPHFKKANELDERSAV</Hsp_qseq>
+      <Hsp_hseq>DPKFMQARNNYGVYLSEMGRHKEAIEQFSLVGNTLGYEGRASALENLGRTYLKIGQIKLAEDAFKRALEINPDTVV</Hsp_hseq>
+      <Hsp_midline>+P     R   GV L  +GR  EAI+ F +       EG+      +  +Y ++G  + A   FK+A E++  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|326563517|gb|EGE13776.1|</Hit_id>
+  <Hit_def>putative type IV pilus biogenesis protein [Moraxella catarrhalis 12P80B1]</Hit_def>
+  <Hit_accession>EGE13776</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.80186</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1035809098|ref|WP_064610826.1|</Hit_id>
+  <Hit_def>pilus assembly protein [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_064610826</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.81425</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSY---EQMGSHEEALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDAAHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y   E      +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|489767289|ref|WP_003671215.1|</Hit_id>
+  <Hit_def>pilus biosynthesis protein [Moraxella catarrhalis] &gt;gi|326570120|gb|EGE20165.1| putative type IV pilus biogenesis protein [Moraxella catarrhalis BC8] &gt;gi|1041989298|gb|OBX77867.1| pilus assembly protein [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_003671215</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.97671</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|489765539|ref|WP_003669469.1|</Hit_id>
+  <Hit_def>pilus biosynthesis protein [Moraxella catarrhalis] &gt;gi|326570858|gb|EGE20882.1| putative type IV pilus biogenesis protein [Moraxella catarrhalis BC7]</Hit_def>
+  <Hit_accession>WP_003669469</Hit_accession>
+  <Hit_len>186</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.17688</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|696615396|gb|AIT43559.1|</Hit_id>
+  <Hit_def>putative O-linked N-acetylglucosamine transferase, SPINDLY family [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>AIT43559</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.27461</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIA--YSYEQMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKIYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y   +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1035805940|ref|WP_064608559.1|</Hit_id>
+  <Hit_def>pilus assembly protein [Moraxella catarrhalis] &gt;gi|1034430500|gb|OAV02736.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis] &gt;gi|1034440196|gb|OAV12048.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis] &gt;gi|1034460597|gb|OAV31956.1| Type IV pilus biogenesis protein PilF [Moraxella catarrhalis]</Hit_def>
+  <Hit_accession>WP_064608559</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.37362</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|489758587|ref|WP_003662540.1|</Hit_id>
+  <Hit_def>pilus biosynthesis protein [Moraxella catarrhalis] &gt;gi|326560776|gb|EGE11143.1| putative type IV pilus biogenesis protein [Moraxella catarrhalis 103P14B1] &gt;gi|326574407|gb|EGE24349.1| putative type IV pilus biogenesis protein [Moraxella catarrhalis 101P30B1]</Hit_def>
+  <Hit_accession>WP_003662540</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.37362</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYE--QMGSHE-EALPHFKKANELDER</Hsp_qseq>
+      <Hsp_hseq>NPQLAQIRTQIAISLLDMGKLDQAKQQLDAALSADRQFAPAYRTLAKVYQASEDATHQTKAQRLFEKAIELNPK</Hsp_hseq>
+      <Hsp_midline>NP    +R ++ ++L ++G+ D+A      AL         +R +A  Y+  +  +H+ +A   F+KA EL+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>112392</Statistics_db-num>
+      <Statistics_db-len>36977456</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

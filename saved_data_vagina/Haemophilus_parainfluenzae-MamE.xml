@@ -1,0 +1,1900 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1042181753|ref|WP_065242684.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae] &gt;gi|1041982731|gb|OBX71427.1| serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_065242684</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>3.93435e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYILTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+I+TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.42922e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|896446117|ref|WP_049375576.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049375576</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>5.68188e-37</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>TTRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SSRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFNAKLVGKDEQSDIALVQIEKPTNLTAIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>++R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      ++ ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.46712e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|935491588|ref|WP_054418854.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae] &gt;gi|925271827|gb|KOT14794.1| serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_054418854</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>6.24318e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.28896e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKSENV-------------------KVTLQADDGTQTASKTELPALD------GATLSNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+                    V +     T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|896458777|ref|WP_049385140.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049385140</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>6.79553e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.17962e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNV-------------------KVTLQADDGTQTASKTELPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+                    V +     T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|491971904|ref|WP_005699237.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae] &gt;gi|386417512|gb|EIJ31991.1| peptidase Do [Haemophilus parainfluenzae HK2019] &gt;gi|1041985719|gb|OBX74361.1| serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_005699237</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>6.79553e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.41681e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|503831516|ref|WP_014065510.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae] &gt;gi|301156421|emb|CBW15892.1| serine endoprotease, periplasmic [Haemophilus parainfluenzae T3T1]</Hit_def>
+  <Hit_accession>WP_014065510</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>6.79553e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>3.2159e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDG-------------------KSESVKVTLQADDGTQTASKTELPALD------GATLSNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G                   ++ +  V +     T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|896437200|ref|WP_049369343.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae] &gt;gi|1042700504|gb|OBY50675.1| serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049369343</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>6.92475e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.41681e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|896439280|ref|WP_049370787.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049370787</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>7.05643e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.4045e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|896442714|ref|WP_049373251.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049373251</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>7.39667e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPANLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.3213e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|491965993|ref|WP_005696281.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine peptidase [Haemophilus] &gt;gi|325159795|gb|EGC71925.1| peptidase Do [Haemophilus parainfluenzae ATCC 33392] &gt;gi|675280901|gb|KFL99854.1| peptidase Do [Haemophilus parainfluenzae ATCC 33392]</Hit_def>
+  <Hit_accession>WP_005696281</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>7.82665e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.47997e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|896444472|ref|WP_049374265.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine peptidase [Haemophilus] &gt;gi|1080856164|gb|OFQ19649.1| serine peptidase [Haemophilus sp. HMSC073C03] &gt;gi|1131061752|gb|OLV24859.1| serine peptidase [Haemophilus parainfluenzae] &gt;gi|1131062955|gb|OLV26058.1| serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049374265</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>8.0509e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKSKLVGKDEQSDIALVQIEKPTNLTAIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.38021e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|896432442|ref|WP_049365611.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049365611</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>8.35993e-37</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPANLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.42922e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNV-------------------KVTLQADDGTQTASKTELPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+                    V +     T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|896429301|ref|WP_049362991.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine peptidase [Haemophilus]</Hit_def>
+  <Hit_accession>WP_049362991</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>1.01875e-36</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKSKLVGKDEQSDIALVQIEKPTNLTAIKIADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>8.83535e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNSQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GIKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++ + +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|491968790|ref|WP_005697587.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine peptidase [Haemophilus] &gt;gi|385193244|gb|EIF40622.1| peptidase Do [Haemophilus parainfluenzae HK262] &gt;gi|1041985966|gb|OBX74600.1| serine peptidase [Haemophilus parainfluenzae] &gt;gi|1091239608|gb|OHR64694.1| serine peptidase [Haemophilus sp. HMSC61B11]</Hit_def>
+  <Hit_accession>WP_005697587</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>1.69333e-36</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SRNFRGLGSGVIINADKGYVLTNNHVVDGADKITVKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTSIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLQGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>+R+   +G+GVI+  D G+++TN HVV GA+ + V ++D      +  ++V  DE  D+AL++I     LT+  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.3923e-10</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPNSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGAGKEIELTYLRDGKTDNVKV----------TLQADD-------GSQTASKTE--LPALD------GATLNNYDAK--------------GVKGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESTQDLRKALDEKPSA---VALNILRGKNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V PN+ A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA         G+ T    +  +P +       G  +  + A               G KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   + L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|896423002|ref|WP_049357473.1|</Hit_id>
+  <Hit_def>serine peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049357473</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>3.09081e-36</Hsp_evalue>
+      <Hsp_query-from>163</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>TTRSVENIGTGVIVRND-GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>SSRNFRGLGSGVIINADKGYVLTNNHVVDGADKITAKLQD---GREFKAKLVGKDEQSDIALVQIEKPTNLTAIKMADSDKLRVGDFTVAIGNPFGLGQTVTSGIVSALGRSTGSDSGAYENYIQTDAAVNRGNSGGALLNLRGELIGINTAIISPSGGNAGIAFAIPSNQA</Hsp_hseq>
+      <Hsp_midline>++R+   +G+GVI+  D G+++TN HVV GA+ +   ++D      +  ++V  DE  D+AL++I     LTA  + DSD + V D  +AIG PFGL  TV+ GI+SA  ++   +   + N +QTDAA+N+GNSGG L+   G ++GINTAI +P+G  AGI FA+PSNQA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.36548e-09</Hsp_evalue>
+      <Hsp_query-from>539</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>GGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQA-PTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>GEVRRGLLGIKGGELNADLAKAFNVSAQQGAFVSEVIPKSAAEKAGLKAGDVITAMNGQKISSFAEMRAKIATSGVGKEIELTYLRDGKTENVKV----------TLQADDSTPTASKTELPALDG--------ATLNNY------------DVKGL----------KGVEISKVQPNSMAAQRGLKSGDIIIGINRQPIESIQDLRKALDEKPSA---IALNILRGQNNFYLLV</Hsp_hseq>
+      <Hsp_midline>G  R  LLG     L   L    N+ A +G FV+ V P + A  AGL+ GDVI  ++G+ +    E+ A +A    G+ + +  LR G   N+ +           +QA  + P       P + G         T  N+             V G+          KG ++++V   S AA  GL++ D+II +N +P+ S   L  A+    +A   I L + R    F++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1042182173|ref|WP_065243104.1|</Hit_id>
+  <Hit_def>outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae] &gt;gi|1041980551|gb|OBX69269.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_065243104</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.01727e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GSI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  GSI Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>8.22065e-05</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>267</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>GIVITGVTANSPAAKAGIQVGDVILRLNKRDNLSIREMMQIISDTKPNTEVIITISRLGKVIDL</Hsp_hseq>
+      <Hsp_midline>G+ + GVT N+PAA AG++ GDVIL+++ R      E+  I+++      V I + R G V ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|491965061|ref|WP_005695672.1|</Hit_id>
+  <Hit_def>MULTISPECIES: outer membrane-stress sensor serine endopeptidase DegS [Haemophilus] &gt;gi|325160343|gb|EGC72470.1| periplasmic serine peptidase DegS [Haemophilus parainfluenzae ATCC 33392] &gt;gi|675279516|gb|KFL98485.1| periplasmic serine peptidase DegS [Haemophilus parainfluenzae ATCC 33392] &gt;gi|1042703425|gb|OBY53572.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae] &gt;gi|1091241379|gb|OHR66342.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus sp. HMSC61B11]</Hit_def>
+  <Hit_accession>WP_005695672</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.07433e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GSI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  GSI Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>4.8147e-05</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITSNSNGGIVITGVTANSPAAKAGIQVGDVILRLNKRDNLSIREMMQIISDTKPNTEVIITISRLGKVIDL</Hsp_hseq>
+      <Hsp_midline> G+Q+ + +    G+ + GVT N+PAA AG++ GDVIL+++ R      E+  I+++      V I + R G V ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|896453145|ref|WP_049381381.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase [Haemophilus] &gt;gi|1080855506|gb|OFQ19017.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus sp. HMSC073C03] &gt;gi|1131065259|gb|OLV28328.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049381381</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>6.7507e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000430214</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTEVIVTISRLGKMIDL</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V + + R G + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|503831669|ref|WP_014065663.1|</Hit_id>
+  <Hit_def>outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae] &gt;gi|301156579|emb|CBW16050.1| serine endoprotease, periplasmic [Haemophilus parainfluenzae T3T1]</Hit_def>
+  <Hit_accession>WP_014065663</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>6.94296e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMSKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000103248</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTKVIITISRLGKVIDL</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V I + R G V ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|896430819|ref|WP_049364343.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidase [Haemophilus]</Hit_def>
+  <Hit_accession>WP_049364343</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>7.00825e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDVALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000473664</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTEVIVTISRLGKMIDL</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V + + R G + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|896432938|ref|WP_049366095.1|</Hit_id>
+  <Hit_def>peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049366095</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>7.48282e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000119834</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTEVIVTVSRLGKVIDLPVV</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V + V R G V ++ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|896438420|ref|WP_049370235.1|</Hit_id>
+  <Hit_def>peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049370235</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>7.55319e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0001252</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTEVIVTVSRLGKVIDLPVV</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V + V R G V ++ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1132199221|ref|WP_075875239.1|</Hit_id>
+  <Hit_def>outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae] &gt;gi|1131064404|gb|OLV27490.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_075875239</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>7.69592e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000254492</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTKVIITISRLGKMIDL</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V I + R G + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|896420848|ref|WP_049355379.1|</Hit_id>
+  <Hit_def>peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049355379</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>7.91508e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000188972</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPHTEVIVTVSRLGKVIDL</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V + V R G V ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|935491138|ref|WP_054418592.1|</Hit_id>
+  <Hit_def>MULTISPECIES: outer membrane-stress sensor serine endopeptidase DegS [Haemophilus] &gt;gi|925271684|gb|KOT14651.1| peptidase [Haemophilus parainfluenzae] &gt;gi|1080693337|gb|OFO64913.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus sp. HMSC068C11] &gt;gi|1081106096|gb|OFS55748.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus sp. HMSC066D03] &gt;gi|1081110081|gb|OFS59511.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus sp. HMSC066D02]</Hit_def>
+  <Hit_accession>WP_054418592</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>7.98951e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000164264</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTEVIVTISRLGKVIDL</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V + + R G V ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|491970209|ref|WP_005698274.1|</Hit_id>
+  <Hit_def>outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae] &gt;gi|385191061|gb|EIF38488.1| periplasmic serine peptidase DegS [Haemophilus parainfluenzae HK262] &gt;gi|386416747|gb|EIJ31239.1| periplasmic serine peptidase DegS [Haemophilus parainfluenzae HK2019] &gt;gi|1041981778|gb|OBX70483.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae] &gt;gi|1041984567|gb|OBX73220.1| outer membrane-stress sensor serine endopeptidase DegS [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_005698274</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>8.61068e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TDLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>9.79588e-05</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>631</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNM</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTEVIITISRLGKVIDL</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V I + R G V ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|896443975|ref|WP_049374038.1|</Hit_id>
+  <Hit_def>peptidase [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049374038</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>8.85586e-25</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>VENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIY--TPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>VNNLGSGVIMTKDGYILTNKHVIQNADQIVVALQN--GNI-YEANLIGSDNLTDLAVLKIKA-TNLSTIPQNKERQVRVGDIALAIGNPYNLGQSVSQGIISAVGRSAVGDSLGRQNFIQTDASINRGNSGGALINSAGELVGISTLSIGKTANEIAEGLNFAIP</Hsp_hseq>
+      <Hsp_midline>V N+G+GVI+  DG+I+TN HV++ A+ + V +++  G+I Y   ++  D   DLA+LKI     L+         V V D  +AIG P+ L  +VS+GIISA  ++ V + +   N +QTDA+IN+GNSGG L+ + G +VGI+T     T N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000118788</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGR--GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>FGVQSEITANSNGGIVITGVTANSPAAKAGIQVGDVILRLNKQDNLSIREMMQIISDTKPNTEVIVTVSRLGKVIDLPVV</Hsp_hseq>
+      <Hsp_midline> G+Q+ + A    G+ + GVT N+PAA AG++ GDVIL+++ +      E+  I+++      V + V R G V ++ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|491966709|ref|WP_005696780.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae] &gt;gi|325159359|gb|EGC71493.1| RIP metalloprotease RseP [Haemophilus parainfluenzae ATCC 33392] &gt;gi|675280053|gb|KFL99016.1| RIP metalloprotease RseP [Haemophilus parainfluenzae ATCC 33392]</Hit_def>
+  <Hit_accession>WP_005696780</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0606612</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTPNSPAAMAQIEPNSQILAIDGKNVPDWETINLLLTDKLGSDSVEL</Hsp_hseq>
+      <Hsp_midline>+  VTPN+PAA A + P   IL +DG+ V   E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|896436778|ref|WP_049368921.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049368921</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0622493</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>IENVTPNSPAAMAQIEPNSQILAIDGKNTPDWETINLLLTDKLGSDSVELTLMPFGE</Hsp_hseq>
+      <Hsp_midline>+  VTPN+PAA A + P   IL +DG+     E +  ++ +     SV + ++  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|896439436|ref|WP_049370884.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049370884</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.159153</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>IENVTPNSPAAMAQIEPNTQILAIDGKSTPDWETINLLLTDKLGSDSVELTLTPFGE</Hsp_hseq>
+      <Hsp_midline>+  VTPN+PAA A + P   IL +DG+     E +  ++ +     SV + +   G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1132199050|ref|WP_075875088.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Haemophilus parainfluenzae] &gt;gi|1131065595|gb|OLV28662.1| RIP metalloprotease RseP [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_075875088</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.161917</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>IENVTPNSPAAMAQIEPNSQILAIDGKNTPDWETINLLLTDKLGSDSVELTLTPFGE</Hsp_hseq>
+      <Hsp_midline>+  VTPN+PAA A + P   IL +DG+     E +  ++ +     SV + +   G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.05523</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LSKVVENSPAEKAGLLIGDKILSENSAAL----DWKAFVAQVQQGQPFTIKVERNQEMFNKTL</Hsp_hseq>
+      <Hsp_midline>++ V  N+PA  AGL  GD IL  +   +    +  A +A++  G+   I V R  ++ N +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|491971113|ref|WP_005698720.1|</Hit_id>
+  <Hit_def>MULTISPECIES: zinc metalloprotease [Haemophilus] &gt;gi|385189885|gb|EIF37340.1| RIP metalloprotease RseP [Haemophilus parainfluenzae HK262] &gt;gi|1041986198|gb|OBX74822.1| RIP metalloprotease RseP [Haemophilus parainfluenzae] &gt;gi|1091238804|gb|OHR63926.1| zinc metallopeptidase RseP [Haemophilus sp. HMSC61B11]</Hit_def>
+  <Hit_accession>WP_005698720</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.166154</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTPNSPAAMAQIEPNTQILAIDGKSTPDWETINLLLTDKLGSDSVEL</Hsp_hseq>
+      <Hsp_midline>+  VTPN+PAA A + P   IL +DG+     E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|896442637|ref|WP_049373174.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049373174</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.273752</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTPNSPAAIAQIEPNSQILAIDGKNAPDWETINLLLTDKLGSDSVEL</Hsp_hseq>
+      <Hsp_midline>+  VTPN+PAA A + P   IL +DG+     E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1042711493|ref|WP_065285804.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Haemophilus parainfluenzae] &gt;gi|1042701521|gb|OBY51686.1| RIP metalloprotease RseP [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_065285804</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.339476</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVRPNSPAAMAQIEPNSQILAIDGKNVPDWETINLLLTDKLGSDSVEL</Hsp_hseq>
+      <Hsp_midline>+  V PN+PAA A + P   IL +DG+ V   E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|896429528|ref|WP_049363218.1|</Hit_id>
+  <Hit_def>MULTISPECIES: zinc metalloprotease [Haemophilus]</Hit_def>
+  <Hit_accession>WP_049363218</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.630805</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>IENVTPNSPAAMAQIEPNSQILAIEGKNTPDWETINLLLTDKLGSDSVELTLTPLGE</Hsp_hseq>
+      <Hsp_midline>+  VTPN+PAA A + P   IL ++G+     E +  ++ +     SV + +   G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.09885</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LSKVVENSPAEKAGLLIGDKILSENSTTL----DWKAFVAQVQQGQPFTIKVERNQEMFNKTL</Hsp_hseq>
+      <Hsp_midline>++ V  N+PA  AGL  GD IL  +   +    +  A +A++  G+   I V R  ++ N +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|503830846|ref|WP_014064840.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae] &gt;gi|301155653|emb|CBW15121.1| zinc metallopeptidase [Haemophilus parainfluenzae T3T1]</Hit_def>
+  <Hit_accession>WP_014064840</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.630805</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENITPNSPAAMAQIEPNTQILAIDGKNTPDWETINLLLTDKLGSDTVEL</Hsp_hseq>
+      <Hsp_midline>+  +TPN+PAA A + P   IL +DG+     E +  ++ +     +V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|896446268|ref|WP_049375727.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049375727</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.730158</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTSNSPAAIAQIEPNTQILAIDGKNTSDWETINLLLTDKLGSDSVEL</Hsp_hseq>
+      <Hsp_midline>+  VT N+PAA A + P   IL +DG+     E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|896453602|ref|WP_049381731.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049381731</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.65315</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTSNSPAAMAQIEPNTQILAIDGKNTPDWETINLLLTDKLGSDSVEL</Hsp_hseq>
+      <Hsp_midline>+  VT N+PAA A + P   IL +DG+     E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|935492255|ref|WP_054419255.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae] &gt;gi|925271603|gb|KOT14578.1| zinc metallopeptidase RseP [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_054419255</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.54123</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTSNSPAAMAQIEPNTQILAIDGENTPDWETINLLLTDKLGSNSVEL</Hsp_hseq>
+      <Hsp_midline>+  VT N+PAA A + P   IL +DG      E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1042181902|ref|WP_065242833.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Haemophilus parainfluenzae] &gt;gi|1041982000|gb|OBX70703.1| RIP metalloprotease RseP [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_065242833</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.72219</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTSNSPAAMAQIEPNTQILAIDGENTPDWETINLLLTDKLGSNSVEL</Hsp_hseq>
+      <Hsp_midline>+  VT N+PAA A + P   IL +DG      E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|896457229|ref|WP_049383879.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049383879</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.72219</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTSNSPAAMAQIEPNTQILAIDGENTPDWETINLLLTDKLGSNSVEL</Hsp_hseq>
+      <Hsp_midline>+  VT N+PAA A + P   IL +DG      E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|491973216|ref|WP_005699776.1|</Hit_id>
+  <Hit_def>zinc metalloprotease [Haemophilus parainfluenzae] &gt;gi|386415040|gb|EIJ29578.1| RIP metalloprotease RseP [Haemophilus parainfluenzae HK2019] &gt;gi|1041986980|gb|OBX75595.1| RIP metalloprotease RseP [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_005699776</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.72219</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTSNSPAAMAQIEPNTQILAIDGENTPDWETINLLLTDKLGSNSVEL</Hsp_hseq>
+      <Hsp_midline>+  VT N+PAA A + P   IL +DG      E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|896441827|ref|WP_049372364.1|</Hit_id>
+  <Hit_def>DUF2859 domain-containing protein [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_049372364</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.33848</Hsp_evalue>
+      <Hsp_query-from>664</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VQPVI------PKVPTEFNWLGME--IETFMAPQPV----VGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>IQPIIDETSPAPGIPSELNEADLLPIVSHFMTPGTVEPRQFELPGMLPIFLLGEDTLSQQWLVANRDKLLQMQATGMVVHVSHQ</Hsp_hseq>
+      <Hsp_midline>+QP+I      P +P+E N   +   +  FM P  V      +PG  P+   G+     + L  +R  +  +QA  +++ V+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1132254486|ref|WP_075915722.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Haemophilus parainfluenzae] &gt;gi|1131066466|gb|OLV29492.1| RIP metalloprotease RseP [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_075915722</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.46181</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVTSNSPAAMAQIEPNTQILAIDGNNTPDWETVNLLLTDKLGSDSVDL</Hsp_hseq>
+      <Hsp_midline>+  VT N+PAA A + P   IL +DG      E V  ++ +     SV +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.65565</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>LSKVVENSPAEKAGLLIGDKILAENSTAL----DWNAFVAQVQQGQPFTIKVERNQEIFNKTL</Hsp_hseq>
+      <Hsp_midline>++ V  N+PA  AGL  GD IL  +   +    +  A +A++  G+   I V R  ++ N +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|935490239|ref|WP_054418080.1|</Hit_id>
+  <Hit_def>hypothetical protein [Haemophilus parainfluenzae] &gt;gi|925272136|gb|KOT15088.1| hypothetical protein AC245_00495 [Haemophilus parainfluenzae]</Hit_def>
+  <Hit_accession>WP_054418080</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.44168</Hsp_evalue>
+      <Hsp_query-from>258</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>201</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>LDMTVSRGIISAKRKTMVIEGMTHSNLLQT----DAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>LDCAARQGFSAAMRELSMIKEIRYGNLKESLLLMHNAVRQGGEGGGKAALNLTMV------YAKNKALMDKFIATPADPVREAAYAEL</Hsp_hseq>
+      <Hsp_midline>LD    +G  +A R+  +I+ + + NL ++      A+ QG  GG   A N T+V      Y  N A      A P++  R  A  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|896432502|ref|WP_049365659.1|</Hit_id>
+  <Hit_def>MULTISPECIES: zinc metalloprotease [Haemophilus] &gt;gi|1081103439|gb|OFS53239.1| zinc metallopeptidase RseP [Haemophilus sp. HMSC066D03] &gt;gi|1081108220|gb|OFS57715.1| zinc metallopeptidase RseP [Haemophilus sp. HMSC066D02]</Hit_def>
+  <Hit_accession>WP_049365659</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.6312</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRI</Hsp_qseq>
+      <Hsp_hseq>IENVMSNSPAAIAQIEPNTQILAIDGKNTPDWETINLLLTDKLGSDSVEL</Hsp_hseq>
+      <Hsp_midline>+  V  N+PAA A + P   IL +DG+     E +  ++ +     SV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>25802</Statistics_db-num>
+      <Statistics_db-len>8855854</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

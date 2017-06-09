@@ -1,0 +1,1129 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|494043140|ref|WP_006985261.1|</Hit_id>
+  <Hit_def>serine protease [Cardiobacterium valvarum] &gt;gi|364577248|gb|EHM54532.1| putative serine protease MucD [Cardiobacterium valvarum F0432]</Hit_def>
+  <Hit_accession>WP_006985261</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>2.29354e-38</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>FTGVVTLLRNSVVSVTASSSGG----------QVMPDPLGLVNPDGLPRFAN--PTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWL</Hsp_qseq>
+      <Hsp_hseq>FTVLVAKTKDAVVSIEVESRVKAPATINGLPPEVFEDFFGLPAPFGALPFEQDAPRERVLEGQGSGFIIDSDGYILTNAHVVEGADKVRVQLNNNK---EYSAEVIGLDKRTDIALVKIQGE-HLPVAKLGDSDQVQVGDWVLAIGSPFGFTHTATKGIVSAVARNL--PRGDYVPFIQTDAAVNPGNSGGPLFNSKGEVIAINSQIYSRSGAFNGLAFSIPINVAKNIA-DQLKDKGEVVRGWL</Hsp_hseq>
+      <Hsp_midline>FT +V   +++VVS+   S             +V  D  GL  P G   F    P  R +E  G+G I+ +DG+I+TN HVV GA+ V V + ++     YS E++ +D+  D+AL+KI  +  L  A LGDSD V V D V+AIG+PFG   T ++GI+SA  + +      +   +QTDAA+N GNSGGPL  + G V+ IN+ IY+ +GAF G+ F++P N A+  A D++        GWL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.9215e-11</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVLIQGLDQTLAESFGMDSPRGALVAEVMENSPAAKAGIENGDVIIEFNGKPVQKSADLPALVATAPIGNKADVKLLRDG--------------KEHIVKVEIGNLNDAG--DDIPGAGKATTQAVRGLSLSALDDE-------------AGALKYKGKGVRISGVKSGSAAERSGLRENDILVAVGGKRVEDVKTARSLLEKANSK-RSVPLLISRNGQNLYLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  L Q L     + + RG  V  V  N+PAA AG+  GDVI++ +G+PV +  ++ A++A  P G    + +LR G                 +V+     +  AG    +PG      +     +   ++ E             A  +   GKG +++ V +GS A  +GL+ ND+++ V  + V       + ++ A +  + + L + RNGQ  ++ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0152346</Hsp_evalue>
+      <Hsp_query-from>566</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>385</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>GRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGP</Hsp_qseq>
+      <Hsp_hseq>GKGVRISGVKSGSAAERSGLRENDILVAVGGKRVEDVKTARSLLEKANSKRSVPLLISRNG--QNLYLALQP</Hsp_hseq>
+      <Hsp_midline>G+GV ++GV   + A  +GLR  D+++ V G+ V   +   +++ +  + RSV + + R G   N+ L   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|490240733|ref|WP_004138992.1|</Hit_id>
+  <Hit_def>serine protease [Cardiobacterium hominis] &gt;gi|258520892|gb|EEV89751.1| peptidase Do [Cardiobacterium hominis ATCC 15826]</Hit_def>
+  <Hit_accession>WP_004138992</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>1.07389e-36</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>FTGVVTLLRNSVVSVTASSSGG----------QVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWL</Hsp_qseq>
+      <Hsp_hseq>FTALVAKTKDAVVSIEVESRVSAPSTINGFPPEIFEDFFGFPEPFGQQFEAPREQRILQGQGSGFIIDSDGYILTNAHVVEGAEKVRVQLNNNK---EYNADVIGLDKRTDVALVKIQGD-HLPVAKIGDSDQVQVGDWVLAIGSPFGFSHTATQGIVSAVARNL--PSGDYVPFIQTDAAINPGNSGGPLFNSKGEVIAINSQIYSRSGAFNGLAFSIPINMAKNIA-DQLKDKGEVVRGWL</Hsp_hseq>
+      <Hsp_midline>FT +V   +++VVS+   S             ++  D  G   P G    A    R ++  G+G I+ +DG+I+TN HVV GA  V V + ++     Y+ +++ +D+  D+AL+KI     L  A +GDSD V V D V+AIG+PFG   T ++GI+SA  + +      +   +QTDAAIN GNSGGPL  + G V+ IN+ IY+ +GAF G+ F++P N A+  A D++        GWL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.1735e-11</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG-------DVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVRIQGLDQTLAESFGMEKPQGALVASVEENSPAAKAGIENGDVILQYNGKAVSKSADLPAYVASTPIGEKVEIKLLRDGKEETVKAEIGNLNDVSG-DGKASASIR--------------------------------GLSLGTLENED-------REALDYRGKGVRISGVKPGSAAEKSGLRAGDIIIAVGGKRVEDPKTAQRLLEKANSK-RPVPLLIYRNGQNLYLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  L Q L     +   +G  V  V  N+PAA AG+  GDVIL+ +G+ V +  ++ A +A  P G  V I +LR G       ++ N++ V+G  G A+A ++                                G+ + T               +   GKG +++ V  GS A  +GL+A D+II V  + V  P      ++ A +  + + L ++RNGQ  ++ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.61661e-06</Hsp_evalue>
+      <Hsp_query-from>530</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGP</Hsp_qseq>
+      <Hsp_hseq>GNLNDVSGDGKASASIRGLSLGTLENE-DREALDYRGKGVRISGVKPGSAAEKSGLRAGDIIIAVGGKRVEDPKTAQRLLEKANSKRPVPLLIYRNG--QNLYLALQP</Hsp_hseq>
+      <Hsp_midline>G    V+G G + AS+ G +L  L      +A    G+GV ++GV P + A  +GLR GD+I+ V G+ V  P+    ++ +  + R V + + R G   N+ L   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1160678197|ref|WP_079539015.1|</Hit_id>
+  <Hit_def>serine peptidase [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_079539015</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>1.12554e-36</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>FTGVVTLLRNSVVSVTASSSGG----------QVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWL</Hsp_qseq>
+      <Hsp_hseq>FTALVAKTKDAVVSIEVESRVSAPSTINGFPPEIFEDFFGFPEPFGQQFEAPREQRILQGQGSGFIIDSDGYILTNAHVVEGAEKVRVQLNNNK---EYNADVIGLDKRTDVALVKIQGD-HLPVAKIGDSDQVQVGDWVLAIGSPFGFSHTATQGIVSAVARNL--PSGDYVPFIQTDAAINPGNSGGPLFNSKGEVIAINSQIYSRSGAFNGLAFSIPINMAKNIA-DQLKDKGEVVRGWL</Hsp_hseq>
+      <Hsp_midline>FT +V   +++VVS+   S             ++  D  G   P G    A    R ++  G+G I+ +DG+I+TN HVV GA  V V + ++     Y+ +++ +D+  D+AL+KI     L  A +GDSD V V D V+AIG+PFG   T ++GI+SA  + +      +   +QTDAAIN GNSGGPL  + G V+ IN+ IY+ +GAF G+ F++P N A+  A D++        GWL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>9.11989e-11</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG-------DVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVRIQGLDQTLAESFGMEKPQGALVASVEENSPAAKAGIENGDVILQYNGKAVSKSADLPAYVASTPIGEKVEIKLLRDGKEETVKAEIGNLNDVSG-DGKASASSR--------------------------------GLSLGTLENED-------REALDYRGKGVRINGVKPGSAAEKSGLRAGDIIIAVGGKRVEDPKTAQRLLEKANSK-RPVPLLIYRNGQNLYLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  L Q L     +   +G  V  V  N+PAA AG+  GDVIL+ +G+ V +  ++ A +A  P G  V I +LR G       ++ N++ V+G  G A+A  +                                G+ + T               +   GKG ++  V  GS A  +GL+A D+II V  + V  P      ++ A +  + + L ++RNGQ  ++ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.07658e-06</Hsp_evalue>
+      <Hsp_query-from>530</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGP</Hsp_qseq>
+      <Hsp_hseq>GNLNDVSGDGKASASSRGLSLGTLENE-DREALDYRGKGVRINGVKPGSAAEKSGLRAGDIIIAVGGKRVEDPKTAQRLLEKANSKRPVPLLIYRNG--QNLYLALQP</Hsp_hseq>
+      <Hsp_midline>G    V+G G + AS  G +L  L      +A    G+GV +NGV P + A  +GLR GD+I+ V G+ V  P+    ++ +  + R V + + R G   N+ L   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1047200227|emb|SAM57247.1|</Hit_id>
+  <Hit_def>HtrA protease/chaperone protein [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>SAM57247</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>1.19029e-36</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>FTGVVTLLRNSVVSVTASSSGG----------QVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWL</Hsp_qseq>
+      <Hsp_hseq>FTALVAKTKDAVVSIEVESRVSAPSTINGFPPEIFEDFFGFPEPFGQQFEAPREQRILQGQGSGFIIDSDGYILTNAHVVEGAEKVRVQLNNNK---EYNADVIGLDKRTDVALVKIQGD-HLPVAKIGDSDQVQVGDWVLAIGSPFGFSHTATQGIVSAVARNL--PSGDYVPFIQTDAAINPGNSGGPLFNSKGEVIAINSQIYSRSGAFNGLAFSIPINMAKNIA-DQLKDKGEVVRGWL</Hsp_hseq>
+      <Hsp_midline>FT +V   +++VVS+   S             ++  D  G   P G    A    R ++  G+G I+ +DG+I+TN HVV GA  V V + ++     Y+ +++ +D+  D+AL+KI     L  A +GDSD V V D V+AIG+PFG   T ++GI+SA  + +      +   +QTDAAIN GNSGGPL  + G V+ IN+ IY+ +GAF G+ F++P N A+  A D++        GWL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>8.0962e-11</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>262</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG-------DVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVRIQGLDQTLAESFGMEKPQGALVASVEENSPAAKAGIENGDVILQYNGKAVSKSADLPAYVASTPIGEKVEIKLLRDGKEETVKAEIGNLNDVSG-DGKASASSR--------------------------------GLSLGTLENED-------REALDYRGKGVRINGVKPGSAAEKSGLRAGDIIIAVGGKRVEDPKTAQRLLEKANSK-RPVPLLIYRNGQNLYLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  L Q L     +   +G  V  V  N+PAA AG+  GDVIL+ +G+ V +  ++ A +A  P G  V I +LR G       ++ N++ V+G  G A+A  +                                G+ + T               +   GKG ++  V  GS A  +GL+A D+II V  + V  P      ++ A +  + + L ++RNGQ  ++ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.1885e-06</Hsp_evalue>
+      <Hsp_query-from>530</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>456</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGP</Hsp_qseq>
+      <Hsp_hseq>GNLNDVSGDGKASASSRGLSLGTLENE-DREALDYRGKGVRINGVKPGSAAEKSGLRAGDIIIAVGGKRVEDPKTAQRLLEKANSKRPVPLLIYRNG--QNLYLALQP</Hsp_hseq>
+      <Hsp_midline>G    V+G G + AS  G +L  L      +A    G+GV +NGV P + A  +GLR GD+I+ V G+ V  P+    ++ +  + R V + + R G   N+ L   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|880994200|ref|WP_048716510.1|</Hit_id>
+  <Hit_def>serine peptidase [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_048716510</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>1.63877e-36</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>FTGVVTLLRNSVVSVTASSSGG----------QVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWL</Hsp_qseq>
+      <Hsp_hseq>FTALVAKTKDAVVSIEVESRVSAPSTINGFPPEIFEDFFGFPDPFGQQFEAPREQRILQGQGSGFIIDSDGYILTNAHVVEGAEKVRVQLNSNK---EYNADVIGIDKRTDVALVKIQGD-HLPVAKIGDSDQVQVGDWVLAIGSPFGFSHTATQGIVSAVARNL--PSGDYVPFIQTDAAINPGNSGGPLFNSKGEVIAINSQIYSRSGAFNGLAFSIPINMAKNIA-DQLKDKGEVVRGWL</Hsp_hseq>
+      <Hsp_midline>FT +V   +++VVS+   S             ++  D  G  +P G    A    R ++  G+G I+ +DG+I+TN HVV GA  V V +  +     Y+ +++ +D+  D+AL+KI     L  A +GDSD V V D V+AIG+PFG   T ++GI+SA  + +      +   +QTDAAIN GNSGGPL  + G V+ IN+ IY+ +GAF G+ F++P N A+  A D++        GWL</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>4.08866e-11</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>772</Hsp_query-to>
+      <Hsp_hit-from>271</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG-------DVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQEFWIVL</Hsp_qseq>
+      <Hsp_hseq>LGVRIQGLDQTLAESFGMEKPQGALVASVEENSPAAKAGIENGDVILQYNGKAVSKSADLPAYVASTPIGEKVEIKLLRDGKEETVKAEIGNLNDVSG-DGKASASSR--------------------------------GLSLGTLENED-------REALDYRGKGVRISGVKPGSAAEKSGLRAGDIIIAVGGKRVEDPKTAQRLLEKANSK-RPVPLLIYRNGQNLYLAL</Hsp_hseq>
+      <Hsp_midline>LG  +  L Q L     +   +G  V  V  N+PAA AG+  GDVIL+ +G+ V +  ++ A +A  P G  V I +LR G       ++ N++ V+G  G A+A  +                                G+ + T               +   GKG +++ V  GS A  +GL+A D+II V  + V  P      ++ A +  + + L ++RNGQ  ++ L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>5.23888e-06</Hsp_evalue>
+      <Hsp_query-from>530</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>GGQGAVAGSGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGP</Hsp_qseq>
+      <Hsp_hseq>GNLNDVSGDGKASASSRGLSLGTLENE-DREALDYRGKGVRISGVKPGSAAEKSGLRAGDIIIAVGGKRVEDPKTAQRLLEKANSKRPVPLLIYRNG--QNLYLALQP</Hsp_hseq>
+      <Hsp_midline>G    V+G G + AS  G +L  L      +A    G+GV ++GV P + A  +GLR GD+I+ V G+ V  P+    ++ +  + R V + + R G   N+ L   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|490242080|ref|WP_004140319.1|</Hit_id>
+  <Hit_def>trypsin [Cardiobacterium hominis] &gt;gi|258520207|gb|EEV89066.1| trypsin [Cardiobacterium hominis ATCC 15826]</Hit_def>
+  <Hit_accession>WP_004140319</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>6.15423e-07</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>RFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGA------NSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQ</Hsp_qseq>
+      <Hsp_hseq>RTINAATGQKTSIGSGFVIGDGKMIATNYHVIADAVNKEKHDIEYISTDDREGKLR----LLAVDVVHDLAIVAADHELGKAFKLGGIPEQ---GEALYALGNPGDLGFIIVDGINNG-----ILQKSARSRILFS-GAINSGMSGGPTVNKSGEVVGINVESQGND-----IGFLVPANH</Hsp_hseq>
+      <Hsp_midline>R  N  T    +IG+G ++ +   I TNYHV+  A      +  Y++  D  G +R    ++ +D   DLA++    ++     + G  +     + + A+G P  L   +  GI +      +++    S +L +  AIN G SGGP V  +G VVGIN      +     IGF VP+N </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1160678809|ref|WP_079539627.1|</Hit_id>
+  <Hit_def>trypsin [Cardiobacterium hominis] &gt;gi|1047199961|emb|SAY71056.1| Serine protease precursor MucD/AlgY associated with sigma factor RpoE [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_079539627</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>3.83959e-06</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>RFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGA------NSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP-SNQARLFALDEVG</Hsp_qseq>
+      <Hsp_hseq>RTINAATGQKTSIGSGFVIGDGKMIATNYHVIADAVNKEKHDIEYISTDDREGKLR----LLAVDVVHDLAIVAADHDLGKAFKLGGIPEQ---GEALYALGNPGDLGFIIVDGINNG-----ILQKSARSRILFS-GAINSGMSGGPTVNKSGEVVGINVESQGND-----IGFLVPASHLADLLKQAEAG</Hsp_hseq>
+      <Hsp_midline>R  N  T    +IG+G ++ +   I TNYHV+  A      +  Y++  D  G +R    ++ +D   DLA++     +     + G  +     + + A+G P  L   +  GI +      +++    S +L +  AIN G SGGP V  +G VVGIN      +     IGF VP S+ A L    E G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|880992449|ref|WP_048714851.1|</Hit_id>
+  <Hit_def>trypsin [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_048714851</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>5.57417e-06</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>RFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGA------NSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP-SNQARLFALDEVG</Hsp_qseq>
+      <Hsp_hseq>RTINAATGQKTSIGSGFVIGDGKMIATNYHVIADAVNKEKHDIEYISTDDREGKLR----LLAVDVVHDLAIVAADHDLGKAFKLGGIPEQ---GEALYALGNPGDLGFIIVDGINNG-----ILQKSARSRILFS-GAINSGMSGGPTVNKSGEVIGINVESQGND-----IGFLVPASHLADLLKQAEAG</Hsp_hseq>
+      <Hsp_midline>R  N  T    +IG+G ++ +   I TNYHV+  A      +  Y++  D  G +R    ++ +D   DLA++     +     + G  +     + + A+G P  L   +  GI +      +++    S +L +  AIN G SGGP V  +G V+GIN      +     IGF VP S+ A L    E G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|494043381|ref|WP_006985502.1|</Hit_id>
+  <Hit_def>trypsin [Cardiobacterium valvarum] &gt;gi|364576663|gb|EHM53976.1| trypsin [Cardiobacterium valvarum F0432]</Hit_def>
+  <Hit_accession>WP_006985502</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>2.48312e-05</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>RFANPTTRSVENIGTGVIVRNDGFIVTNYHVVRGANSV------YVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP-SNQARLFALDEVG</Hsp_qseq>
+      <Hsp_hseq>RTINTATGQKTSIGSGFVIGDGKMIATNYHVIADAVNKEKHAIEYIATDDKEGQLR----LLAVDVVHDLAIVAADHDLGKPFKLGGVPEQ---GEALYSLGNPGDLGFIIVDGINNG-----ILQKSARSRILFS-GAINSGMSGGPTVNKAGEVIGINVESQGND-----IGFLVPASHLAELLKQAESG</Hsp_hseq>
+      <Hsp_midline>R  N  T    +IG+G ++ +   I TNYHV+  A +       Y+   D  G +R    ++ +D   DLA++     +     + G  +     + + ++G P  L   +  GI +      +++    S +L +  AIN G SGGP V   G V+GIN      +     IGF VP S+ A L    E G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|494043788|ref|WP_006985907.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Cardiobacterium valvarum] &gt;gi|364575787|gb|EHM53155.1| RIP metalloprotease RseP [Cardiobacterium valvarum F0432]</Hit_def>
+  <Hit_accession>WP_006985907</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.349289</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>231</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>VIPDSPAAAMGIKKGDRIIALNGKAIDLIRIGRSIAAGKPDD-AVRVTIIRDG</Hsp_hseq>
+      <Hsp_midline>V P++PAA+ G++ GD I+ ++G+ +       +I A  P+  +VR+ ++R G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>3.40455</Hsp_evalue>
+      <Hsp_query-from>574</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>VTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VAPDSLAARAGLQVGDLIRAVEGKNVKLGGDTHVALVGAPRRDDVTIVIERGGQEEILRL</Hsp_hseq>
+      <Hsp_midline>V P++ AA AGL+ GD+I  V+G+ V    +    +   P    V I + R G    + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|494041922|ref|WP_006984044.1|</Hit_id>
+  <Hit_def>peptidase [Cardiobacterium valvarum] &gt;gi|364579011|gb|EHM56190.1| peptidase, S41 family [Cardiobacterium valvarum F0432]</Hit_def>
+  <Hit_accession>WP_006984044</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>2.38878</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQ--PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>IGVVLDIKAGSMRVVSAI-EGSPAARAGIQSGDIIAQVNGQNVADLTLNETAKLM-NGEAGTEVKIIVQRGDSIVEYSLL</Hsp_hseq>
+      <Hsp_midline>+G+  ++ AG    V+ +   +PAA AG++ GD+I +V+G+ V      E A +M     G  V+I V R   +   SL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1160680195|ref|WP_079541013.1|</Hit_id>
+  <Hit_def>hypothetical protein [Cardiobacterium hominis] &gt;gi|1047198943|emb|SAM66179.1| Beta-glucanase precursor [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_079541013</Hit_accession>
+  <Hit_len>3012</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.64276</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>1319</Hsp_hit-from>
+      <Hsp_hit-to>1605</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>NVSCGKDLKRYLMLMGVVALVVLFGAFIYRQSSGGLRLG------------AMMEQMTGARGAVNVPAQHG-------APSAVVDPAMSVPARARVAPPSAAGAIATFPPVVDFGPAPVVSG-------------GPFTGVVTLLRNSVVSVTAS---SSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDGFIV--TNY---HVVRGANSVYVTVKDD--VGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAV--NVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEG</Hsp_qseq>
+      <Hsp_hseq>NGGFGGDESRYKLLYPGDDVVDVLGMDFY--DTDNTRLAKDKWAGELVQDLAMLSRMAAARGKIAALAEFGREGYKMLKPDGNTDPNWYTDVLEAIKADPDASKIAYMHTWANFGGNPVFSAFTPWPGHEMAGNFNEFVRQLTTTRNADRDVTVDVTIQHGTTDDGDVKTITRTVTIPKGQNSATFTVDAVADGKKEGDEHYTVKISNAQGGQIEAGKDSVSTTIHDEGGAGAANHPGSVTISGEA--------TEDSSLTATV-ADEDGVPNGVAYQWLRDGT----------AIDGAHDKTYVLRG</Hsp_hseq>
+      <Hsp_midline>N   G D  RY +L     +V + G   Y   +   RL             AM+ +M  ARG +   A+ G        P    DP         +     A  IA      +FG  PV S                F   +T  RN+   VT       G     D   +     +P+  N  T +V+ +  G    ++ + V  +N     +  G +SV  T+ D+   G+  + G +    EA        T    LTA V  D D V   VA + +  GT           I  A  KT V+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|490242684|ref|WP_004140913.1|</Hit_id>
+  <Hit_def>sarcosine oxidase subunit alpha [Cardiobacterium hominis] &gt;gi|258519804|gb|EEV88663.1| sarcosine oxidase, alpha subunit family [Cardiobacterium hominis ATCC 15826]</Hit_def>
+  <Hit_accession>WP_004140913</Hit_accession>
+  <Hit_len>999</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.16107</Hsp_evalue>
+      <Hsp_query-from>461</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>IAAPQQPAPAIRANAANPHTDGRQNMNCASCHQIIGSVGAAPIAAPGA---GGAYRFSQPPGSLAINIQGP</Hsp_qseq>
+      <Hsp_hseq>MSARRIHKPGIRVDASQPVT---FQWNGQTCQGLAGDTLAAALLANGVRVVGQSYKYGRPRGILAAGCEEP</Hsp_hseq>
+      <Hsp_midline>++A +   P IR +A+ P T      N  +C  + G   AA + A G    G +Y++ +P G LA   + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1160680389|ref|WP_079541207.1|</Hit_id>
+  <Hit_def>sarcosine oxidase subunit alpha [Cardiobacterium hominis] &gt;gi|1047198778|emb|SAM67176.1| Sarcosine oxidase alpha subunit [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_079541207</Hit_accession>
+  <Hit_len>999</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.24949</Hsp_evalue>
+      <Hsp_query-from>461</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>IAAPQQPAPAIRANAANPHTDGRQNMNCASCHQIIGSVGAAPIAAPGA---GGAYRFSQPPGSLAINIQGP</Hsp_qseq>
+      <Hsp_hseq>MSARRIHKPGIRVDASQPVT---FQWNGQTCQGLAGDTLAAALLANGVRVVGQSYKYGRPRGILAAGCEEP</Hsp_hseq>
+      <Hsp_midline>++A +   P IR +A+ P T      N  +C  + G   AA + A G    G +Y++ +P G LA   + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|880992693|ref|WP_048715013.1|</Hit_id>
+  <Hit_def>sarcosine oxidase subunit alpha [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_048715013</Hit_accession>
+  <Hit_len>999</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.33943</Hsp_evalue>
+      <Hsp_query-from>461</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>IAAPQQPAPAIRANAANPHTDGRQNMNCASCHQIIGSVGAAPIAAPGA---GGAYRFSQPPGSLAINIQGP</Hsp_qseq>
+      <Hsp_hseq>MSARRIHKPGIRVDASQPVT---FQWNGQTCQGLAGDTLAAALLANGVRVVGQSYKYGRPRGILAAGCEEP</Hsp_hseq>
+      <Hsp_midline>++A +   P IR +A+ P T      N  +C  + G   AA + A G    G +Y++ +P G LA   + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|490243189|ref|WP_004141411.1|</Hit_id>
+  <Hit_def>peptidase [Cardiobacterium hominis] &gt;gi|258519390|gb|EEV88249.1| peptidase, S41 family [Cardiobacterium hominis ATCC 15826]</Hit_def>
+  <Hit_accession>WP_004141411</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>5.44583</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPE--EVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>IGVVLDIKAGSMRVVSAIE-GSPAARAGIQSGDIIAQVNGQNVSDLTLGETARLL-EGEAGTEVKLVVQRGDGITEYNLL</Hsp_hseq>
+      <Hsp_midline>+G+  ++ AG    V+ +   +PAA AG++ GD+I +V+G+ V      E A ++ E   G  V++ V R   ++  +L+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.49992</Hsp_evalue>
+      <Hsp_query-from>708</Hsp_query-from>
+      <Hsp_query-to>763</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>QVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHR</Hsp_qseq>
+      <Hsp_hseq>RVVSAIEGSPAARAGIQSGDIIAQVNGQNVSDLTLGETARLLEGEAGTEVKLVVQR</Hsp_hseq>
+      <Hsp_midline>+V   + GS AA AG+Q+ D+I +VN + V+     + A      AG ++ L V R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|880991662|ref|WP_048714421.1|</Hit_id>
+  <Hit_def>peptidase [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_048714421</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>5.63555</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>634</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPE--EVAAIMAEMPNGRSVRIGVLRAGDVSNMSLV</Hsp_qseq>
+      <Hsp_hseq>IGVVLDIKAGSMRVVSAIE-GSPAARAGIQSGDIIAQVNGQNVSDLTLGETARLL-EGEAGTEVKLVVQRGDGITEYNLL</Hsp_hseq>
+      <Hsp_midline>+G+  ++ AG    V+ +   +PAA AG++ GD+I +V+G+ V      E A ++ E   G  V++ V R   ++  +L+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>9.58159</Hsp_evalue>
+      <Hsp_query-from>708</Hsp_query-from>
+      <Hsp_query-to>763</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>QVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHR</Hsp_qseq>
+      <Hsp_hseq>RVVSAIEGSPAARAGIQSGDIIAQVNGQNVSDLTLGETARLLEGEAGTEVKLVVQR</Hsp_hseq>
+      <Hsp_midline>+V   + GS AA AG+Q+ D+I +VN + V+     + A      AG ++ L V R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1180307416|ref|WP_083826219.1|</Hit_id>
+  <Hit_def>7-cyano-7-deazaguanine synthase QueC [Cardiobacterium valvarum]</Hit_def>
+  <Hit_accession>WP_083826219</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>6.45631</Hsp_evalue>
+      <Hsp_query-from>276</Hsp_query-from>
+      <Hsp_query-to>305</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>IEGMTHSNLLQTDAAINQGNSGGPLVAANG</Hsp_qseq>
+      <Hsp_hseq>LQAVTHNALMDENAAIIQGDDGLPTTFVDG</Hsp_hseq>
+      <Hsp_midline>++ +TH+ L+  +AAI QG+ G P    +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1160681288|ref|WP_079542087.1|</Hit_id>
+  <Hit_def>hypothetical protein [Cardiobacterium hominis] &gt;gi|1047198114|emb|SAM71584.1| hypothetical protein CHUV0807_2344 [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_079542087</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>6.49722</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>PVVSGGPFTGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNP</Hsp_qseq>
+      <Hsp_hseq>PVQTGDLIKGEALMLSRRVVKAAAGTKAGQLVKYPLRAANP</Hsp_hseq>
+      <Hsp_midline>PV +G    G   +L   VV   A +  GQ++  PL   NP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|750050858|ref|WP_040355543.1|</Hit_id>
+  <Hit_def>anaerobic C4-dicarboxylate transporter DcuC [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_040355543</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.00541</Hsp_evalue>
+      <Hsp_query-from>702</Hsp_query-from>
+      <Hsp_query-to>758</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRP---VTSP-----------ARLDAAIKAATAAGQQIL</Hsp_qseq>
+      <Hsp_hseq>GGGLGLLIM-VLIGFSAYMSHIGANDTVIRVLSRPLGHIRSPYFLLLGAFFIGSLLSFAISSATALGAFLM</Hsp_hseq>
+      <Hsp_midline>GGG G  +  VL G  A ++ + AND +I V +RP   + SP           + L  AI +ATA G  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|880993445|ref|WP_048715755.1|</Hit_id>
+  <Hit_def>anaerobic C4-dicarboxylate transporter DcuC [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_048715755</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.0744</Hsp_evalue>
+      <Hsp_query-from>702</Hsp_query-from>
+      <Hsp_query-to>758</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRP---VTSP-----------ARLDAAIKAATAAGQQIL</Hsp_qseq>
+      <Hsp_hseq>GGGLGLLIM-VLIGFSAYMSHIGANDTVIRVLSRPLGHIRSPYFLLLGAFFIGSLLSFAISSATALGAFLM</Hsp_hseq>
+      <Hsp_midline>GGG G  +  VL G  A ++ + AND +I V +RP   + SP           + L  AI +ATA G  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1160680833|ref|WP_079541643.1|</Hit_id>
+  <Hit_def>anaerobic C4-dicarboxylate transporter DcuC [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_079541643</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.14398</Hsp_evalue>
+      <Hsp_query-from>702</Hsp_query-from>
+      <Hsp_query-to>758</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRP---VTSP-----------ARLDAAIKAATAAGQQIL</Hsp_qseq>
+      <Hsp_hseq>GGGLGLLIM-VLIGFSAYMSHIGANDTVIRVLSRPLGHIRSPYFLLLGAFFIGSLLSFAISSATALGAFLM</Hsp_hseq>
+      <Hsp_midline>GGG G  +  VL G  A ++ + AND +I V +RP   + SP           + L  AI +ATA G  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1047198501|emb|SAM69129.1|</Hit_id>
+  <Hit_def>C4-dicarboxylate transporter DcuC (TC 2.A.61.1.1) [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>SAM69129</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.21021</Hsp_evalue>
+      <Hsp_query-from>702</Hsp_query-from>
+      <Hsp_query-to>758</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRP---VTSP-----------ARLDAAIKAATAAGQQIL</Hsp_qseq>
+      <Hsp_hseq>GGGLGLLIM-VLIGFSAYMSHIGANDTVIRVLSRPLGHIRSPYFLLLGAFFIGSLLSFAISSATALGAFLM</Hsp_hseq>
+      <Hsp_midline>GGG G  +  VL G  A ++ + AND +I V +RP   + SP           + L  AI +ATA G  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1047198002|emb|SAM72612.1|</Hit_id>
+  <Hit_def>Chemotaxis protein CheA [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>SAM72612</Hit_accession>
+  <Hit_len>3488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.42193</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>511</Hsp_query-to>
+      <Hsp_hit-from>3218</Hsp_hit-from>
+      <Hsp_hit-to>3324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>AGNGFQAPMMPVAAPVPPPPIPANAVSPHTDGR---QNMTCNTCHQFVGGAAAGPIAFGQPMMPIAAPQQPAPAIRANAANP----HTDGRQNMNCASCHQIIGSVGAAPIAAPGAGGA</Hsp_qseq>
+      <Hsp_hseq>AGQTFAAPMSSIAA---ISQVDRDSLQRSFDGETVYQHYNDQDYRQYILGAYFKPEQYS-----FAVEEQSAPVLFINAGGEPVAFHVDRIQN----RLEIIVKNVNRQVLNIPGISGA</Hsp_hseq>
+      <Hsp_midline>AG  F APM  +AA      +  +++    DG    Q+       Q++ GA   P  +       A  +Q AP +  NA       H D  QN        I+ +V    +  PG  GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1160681504|ref|WP_079542303.1|</Hit_id>
+  <Hit_def>hypothetical protein [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_079542303</Hit_accession>
+  <Hit_len>3497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.42248</Hsp_evalue>
+      <Hsp_query-from>400</Hsp_query-from>
+      <Hsp_query-to>511</Hsp_query-to>
+      <Hsp_hit-from>3227</Hsp_hit-from>
+      <Hsp_hit-to>3333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>AGNGFQAPMMPVAAPVPPPPIPANAVSPHTDGR---QNMTCNTCHQFVGGAAAGPIAFGQPMMPIAAPQQPAPAIRANAANP----HTDGRQNMNCASCHQIIGSVGAAPIAAPGAGGA</Hsp_qseq>
+      <Hsp_hseq>AGQTFAAPMSSIAA---ISQVDRDSLQRSFDGETVYQHYNDQDYRQYILGAYFKPEQYS-----FAVEEQSAPVLFINAGGEPVAFHVDRIQN----RLEIIVKNVNRQVLNIPGISGA</Hsp_hseq>
+      <Hsp_midline>AG  F APM  +AA      +  +++    DG    Q+       Q++ GA   P  +       A  +Q AP +  NA       H D  QN        I+ +V    +  PG  GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|258519286|gb|EEV88145.1|</Hit_id>
+  <Hit_def>putative cryptic C4-dicarboxylate transporter DcuD [Cardiobacterium hominis ATCC 15826]</Hit_def>
+  <Hit_accession>EEV88145</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>8.49692</Hsp_evalue>
+      <Hsp_query-from>702</Hsp_query-from>
+      <Hsp_query-to>758</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRP---VTSP-----------ARLDAAIKAATAAGQQIL</Hsp_qseq>
+      <Hsp_hseq>GGGLGLLIM-VLIGFSAYMSHIGANDTVIRVLSRPLGHIRSPYFLLLGAFFIGSLLSFAISSATALGAFLM</Hsp_hseq>
+      <Hsp_midline>GGG G  +  VL G  A ++ + AND +I V +RP   + SP           + L  AI +ATA G  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|880992230|ref|WP_048714712.1|</Hit_id>
+  <Hit_def>anthranilate phosphoribosyltransferase [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_048714712</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>8.81865</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>VTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTP-FGLDM</Hsp_qseq>
+      <Hsp_hseq>VLAVHSRNGLDEFSVTHPNDVAELRADGEIVEF--MLNPADFGMNHHDHSALQVTSAADSLALIRQVFADGTPAIGFDM</Hsp_hseq>
+      <Hsp_midline>V   H   G +   VT  +DV  +R  GEIV+    L+ A   +         V   +D++ +  +V A GTP  G DM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1160679489|ref|WP_079540307.1|</Hit_id>
+  <Hit_def>anthranilate phosphoribosyltransferase [Cardiobacterium hominis] &gt;gi|1047199439|emb|SAM63289.1| Anthranilate phosphoribosyltransferase [Cardiobacterium hominis]</Hit_def>
+  <Hit_accession>WP_079540307</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.28857</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>VTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTP-FGLDM</Hsp_qseq>
+      <Hsp_hseq>VLAVHSRNGLDEFSVTHPNDVAELRADGEIVEF--MLNPADFGMNHHDHSALQVTSAADSLALIRQVFADGTPAIGFDM</Hsp_hseq>
+      <Hsp_midline>V   H   G +   VT  +DV  +R  GEIV+    L+ A   +         V   +D++ +  +V A GTP  G DM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|490243729|ref|WP_004141942.1|</Hit_id>
+  <Hit_def>anthranilate phosphoribosyltransferase [Cardiobacterium hominis] &gt;gi|258519101|gb|EEV87960.1| anthranilate phosphoribosyltransferase [Cardiobacterium hominis ATCC 15826]</Hit_def>
+  <Hit_accession>WP_004141942</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.28857</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>VTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTP-FGLDM</Hsp_qseq>
+      <Hsp_hseq>VLAVHSRNGLDEFSVTHPNDVAELRADGEIVEF--MLNPADFGMNHHDHSALQVTSAADSLALIRQVFADGTPAIGFDM</Hsp_hseq>
+      <Hsp_midline>V   H   G +   VT  +DV  +R  GEIV+    L+ A   +         V   +D++ +  +V A GTP  G DM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|364578418|gb|EHM55623.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9080_00571 [Cardiobacterium valvarum F0432]</Hit_def>
+  <Hit_accession>EHM55623</Hit_accession>
+  <Hit_len>41</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.6386</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>9.82473</Hsp_evalue>
+      <Hsp_query-from>324</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>34</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>9</Hsp_identity>
+      <Hsp_positive>13</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>IGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>VGFSSPSRYSLLFAIFTVAW</Hsp_hseq>
+      <Hsp_midline>+GF+ PS  + LFA+  V W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>10820</Statistics_db-num>
+      <Statistics_db-len>3245850</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

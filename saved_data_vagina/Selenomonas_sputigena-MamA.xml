@@ -1,0 +1,576 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>AAL09996.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>217</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>AAL09996.1</Iteration_query-ID>
+  <Iteration_query-def>magnetosome protein MamA [Magnetospirillum gryphiswaldense MSR-1]</Iteration_query-def>
+  <Iteration_query-len>217</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|503506100|ref|WP_013740761.1|</Hit_id>
+  <Hit_def>hypothetical protein [Selenomonas sputigena] &gt;gi|329746645|gb|AEC00002.1| Tetratricopeptide TPR_2 repeat-containing protein [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_013740761</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.00270022</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>341</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELL---ERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>IYFNRAG-SYRALGRLDEAVVDYTHALEHASDVLPIYIERSISYR---LMDRNEEALLDIERALEIDPKNADLLNLRAIEKIQLNDVHGALADLDAAIGLEPKNAAFFANRAGVLENMGEKAKAIDDYTAALRLEPGNAKFYYRRGYLYRLSGKMAESESDYKAATAIE</Hsp_hseq>
+      <Hsp_midline>+Y+   G S+   GR  EAVV      +  +  + + +   I+Y     +DR  E L   ER++   P N  +  +  +  +Q+     A+  L       P N          L+N+G   +AID +  AL L P   K +    Y Y   G   E+   +K A  ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.00902578</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVAL-HLGIAYVKTGAVDRGTEL--LERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR--FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>FSRAIAINGE-NPTAFVNRGIVLRDMKRYEEAQ---KDFLTAQSFDSQNALIEFEMGLTALAQNDSGTAFAHMDRAVALQPNDMGAQMYRASLLYRLGRFDDAIDGYTHVLEKADDALKLRAYIERGLAKEQKQDFASAVDDYTAALTLEKENAPALSRRGVCLERLGKHEEAIADF</Hsp_hseq>
+      <Hsp_midline>F  A ++N +     + ++GI      RY EA    +    A +FD + AL    +        D GT    ++R++A  P+++           ++ ++D A+     V E       +R     G+A +    F  A+D +  AL L               E++G HEEA+  F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.309532</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYDA--DAFDVEVALHLGIAYVK----TGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFN--VRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRFDDAIDGYTHVLEKADDALKLRAYIERGLAKEQKQDFASAVDDYTAALTLEKENAP----ALSRRGVCLERLGKHEEAIADFTHLLERVPAEQTSLIYFNRAGSYRALGRLDEAVVDYTHALEHASDVLPIYIERSISYRLMDRNEEALLDIERALEIDPKNA</Hsp_hseq>
+      <Hsp_midline>GR+ +A+     V +   DA  +   +  G+A  +      AVD  T  L     +AP      +  G+   ++ K++ A+     + E  P      + F    +   LGR DEA+  +  AL    +   ++   + SY  M  +EEAL   ++A E+D ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|260863865|gb|EEX78365.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>EEX78365</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0027692</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>501</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELL---ERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>IYFNRAG-SYRALGRLDEAVVDYTHALEHASDVLPIYIERSISYR---LMDRNEEALLDIERALEIDPKNADLLNLRAIEKIQLNDVHGALADLDAAIGLEPKNAAFFANRAGVLENMGEKAKAIDDYTAALRLEPGNAKFYYRRGYLYRLSGKMAESESDYKAATAIE</Hsp_hseq>
+      <Hsp_midline>+Y+   G S+   GR  EAVV      +  +  + + +   I+Y     +DR  E L   ER++   P N  +  +  +  +Q+     A+  L       P N          L+N+G   +AID +  AL L P   K +    Y Y   G   E+   +K A  ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.00968212</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>FRSAFSVNDDIRQVYYRDKGISHAKAGRYSEAVVMLEQVYDADAFDVEVAL-HLGIAYVKTGAVDRGTEL--LERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVR--FRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHF</Hsp_qseq>
+      <Hsp_hseq>FSRAIAINGE-NPTAFVNRGIVLRDMKRYEEAQ---KDFLTAQSFDSQNALIEFEMGLTALAQNDSGTAFAHMDRAVALQPNDMGAQMYRASLLYRLGRFDDAIDGYTHVLEKADDALKLRAYIERGLAKEQKQDFASAVDDYTAALTLEKENAPALSRRGVCLERLGKHEEAIADF</Hsp_hseq>
+      <Hsp_midline>F  A ++N +     + ++GI      RY EA    +    A +FD + AL    +        D GT    ++R++A  P+++           ++ ++D A+     V E       +R     G+A +    F  A+D +  AL L               E++G HEEA+  F</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.31466</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>GRYSEAVVMLEQVYDA--DAFDVEVALHLGIAYVK----TGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFN--VRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELDERSA</Hsp_qseq>
+      <Hsp_hseq>GRFDDAIDGYTHVLEKADDALKLRAYIERGLAKEQKQDFASAVDDYTAALTLEKENAP----ALSRRGVCLERLGKHEEAIADFTHLLERVPAEQTSLIYFNRAGSYRALGRLDEAVVDYTHALEHASDVLPIYIERSISYRLMDRNEEALLDIERALEIDPKNA</Hsp_hseq>
+      <Hsp_midline>GR+ +A+     V +   DA  +   +  G+A  +      AVD  T  L     +AP      +  G+   ++ K++ A+     + E  P      + F    +   LGR DEA+  +  AL    +   ++   + SY  M  +EEAL   ++A E+D ++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|260862747|gb|EEX77247.1|</Hit_id>
+  <Hit_def>tetratricopeptide repeat protein [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>EEX77247</Hit_accession>
+  <Hit_len>443</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.0493931</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNV</Hsp_qseq>
+      <Hsp_hseq>DRALFFTAAGDEKRAKADLEALIKAQPDFVYAWYNLGVMNLKAGRNNAAMRDFERVLALVPQSANAQSNIGIALVREKKYREAWRAFAQAAEINTTNPTV</Hsp_hseq>
+      <Hsp_midline>D+ +    AG    A   LE +  A    V    +LG+  +K G  +      ER +A  P +    + +G+  V+ +KY  A     + AE N  N  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>1.29855</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>424</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>LHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>VYRAIVFAKRGESERAAADLEAALRLSPKSAAALYDRALFFTAAGDEKRAKADLEALIKAQPDFVYAWYNLGVMNLKAGRNNAAMRDFERVLALVPQSANAQSNIGIALVREKKYREAWRAFAQAAEIN</Hsp_hseq>
+      <Hsp_midline>++  I + K G  +R    LE ++  +P +        L +        A   L  + +A P      + LGV     GR + A+  F+  L L P        I  +  +   + EA   F +A E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|503505826|ref|WP_013740487.1|</Hit_id>
+  <Hit_def>hypothetical protein [Selenomonas sputigena] &gt;gi|329745709|gb|AEB99065.1| Tetratricopeptide TPR_2 repeat-containing protein [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_013740487</Hit_accession>
+  <Hit_len>448</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.050874</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>435</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNV</Hsp_qseq>
+      <Hsp_hseq>DRALFFTAAGDEKRAKADLEALIKAQPDFVYAWYNLGVMNLKAGRNNAAMRDFERVLALVPQSANAQSNIGIALVREKKYREAWRAFAQAAEINTTNPTV</Hsp_hseq>
+      <Hsp_midline>D+ +    AG    A   LE +  A    V    +LG+  +K G  +      ER +A  P +    + +G+  V+ +KY  A     + AE N  N  V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>1.47386</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>LHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLGLTYVQVQKYDLAVPLLVKVAEANPVNFNVRFRLGVALDNLGRFDEAIDSFKIALGLRPNEGKVHRAIAYSYEQMGSHEEALPHFKKANELD</Hsp_qseq>
+      <Hsp_hseq>VYRAIVFAKRGESERAAADLEAALRLSPKSAAALYDRALFFTAAGDEKRAKADLEALIKAQPDFVYAWYNLGVMNLKAGRNNAAMRDFERVLALVPQSANAQSNIGIALVREKKYREAWRAFAQAAEIN</Hsp_hseq>
+      <Hsp_midline>++  I + K G  +R    LE ++  +P +        L +        A   L  + +A P      + LGV     GR + A+  F+  L L P        I  +  +   + EA   F +A E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|493206012|ref|WP_006193496.1|</Hit_id>
+  <Hit_def>elongation factor Ts [Selenomonas sputigena] &gt;gi|260861842|gb|EEX76342.1| translation elongation factor Ts [Selenomonas sputigena ATCC 35185] &gt;gi|329746132|gb|AEB99488.1| translation elongation factor Ts [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_006193496</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.293321</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>KKLGANMVDAFRSAFSVNDDIRQV--YYRDKGISHA--KAGRY-SEAVV</Hsp_qseq>
+      <Hsp_hseq>ERTGAGMMDCKKALTETDGDMDKAIDYLREKGIAKAEKKAGRIASEGVV</Hsp_hseq>
+      <Hsp_midline>++ GA M+D  ++    + D+ +   Y R+KGI+ A  KAGR  SE VV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|493206883|ref|WP_006193873.1|</Hit_id>
+  <Hit_def>diguanylate cyclase [Selenomonas sputigena] &gt;gi|260861621|gb|EEX76121.1| diguanylate cyclase (GGDEF) domain protein [Selenomonas sputigena ATCC 35185] &gt;gi|329745837|gb|AEB99193.1| diguanylate cyclase [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_006193873</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>2.14614</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>LRPNEGKVHRAIAYSYE---QMGSHEEALPHFK</Hsp_qseq>
+      <Hsp_hseq>LRDETGRVQRTIGILWDIESSMGKMEQSFAHFR</Hsp_hseq>
+      <Hsp_midline>LR   G+V R I   ++    MG  E++  HF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|493203886|ref|WP_006192049.1|</Hit_id>
+  <Hit_def>DNA recombination protein RecT [Selenomonas sputigena] &gt;gi|260863093|gb|EEX77593.1| recombinase, phage RecT family [Selenomonas sputigena ATCC 35185] &gt;gi|329746954|gb|AEC00311.1| RecT protein [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_006192049</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>2.22238</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>93</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>LGANMVDAFRSAFSVNDDIRQVY---YRDKGISHAK-----------AGRYSE-AVVMLEQVYDADAFDVEVALHLGIAYVKT</Hsp_qseq>
+      <Hsp_hseq>LGA-MMQAAQLGVEPNTPLGQAYLIPYKNKGILECQFQLGYKGLLDLAYRSGEVTIIQAHEVYENDVFEYELGLEPKLRHVPT</Hsp_hseq>
+      <Hsp_midline>LGA M+ A +     N  + Q Y   Y++KGI   +           A R  E  ++   +VY+ D F+ E+ L   + +V T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|503506001|ref|WP_013740662.1|</Hit_id>
+  <Hit_def>exonuclease sbcCD subunit D [Selenomonas sputigena] &gt;gi|329746298|gb|AEB99654.1| nuclease SbcCD, D subunit [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_013740662</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>3.30783</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>NVRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>TVRFAYGEAAEDLAGFDEAT-SFAVARAAALVP-EGCRSVAVAHAFIAGGALSES</Hsp_hseq>
+      <Hsp_midline> VRF  G A ++L  FDEA  SF +  A  L P EG    A+A+++   G+  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|260862237|gb|EEX76737.1|</Hit_id>
+  <Hit_def>exonuclease SbcCD, D subunit [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>EEX76737</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>3.49998</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>NVRFRLGVALDNLGRFDEAIDSFKI--ALGLRPNEGKVHRAIAYSYEQMGSHEEA</Hsp_qseq>
+      <Hsp_hseq>TVRFAYGEAAEDLAGFDEAT-SFAVARAAALVP-EGCRSVAVAHAFIAGGALSES</Hsp_hseq>
+      <Hsp_midline> VRF  G A ++L  FDEA  SF +  A  L P EG    A+A+++   G+  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|493202988|ref|WP_006191152.1|</Hit_id>
+  <Hit_def>hypothetical protein [Selenomonas sputigena] &gt;gi|260863690|gb|EEX78190.1| hypothetical protein SELSPUOL_00374 [Selenomonas sputigena ATCC 35185] &gt;gi|329747378|gb|AEC00735.1| hypothetical protein Selsp_1779 [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_006191152</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>6.03074</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>LHLGIAYVKTGAVDRGTELLERSIADAPD</Hsp_qseq>
+      <Hsp_hseq>LHWGIAIVMDNLRKKGYKVL--SFTDAPD</Hsp_hseq>
+      <Hsp_midline>LH GIA V      +G ++L  S  DAPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|493207001|ref|WP_006193931.1|</Hit_id>
+  <Hit_def>RNA degradosome polyphosphate kinase [Selenomonas sputigena] &gt;gi|260861571|gb|EEX76071.1| polyphosphate kinase 1 [Selenomonas sputigena ATCC 35185] &gt;gi|329747658|gb|AEC01015.1| polyphosphate kinase 1 [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_006193931</Hit_accession>
+  <Hit_len>673</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>24.2534</Hsp_bit-score>
+      <Hsp_score>51</Hsp_score>
+      <Hsp_evalue>6.43121</Hsp_evalue>
+      <Hsp_query-from>51</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>512</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>DKGISHAKAGRYSEAVVMLEQVYDADAFDVEVALHLGIAYVKTGAVDRGTELLERSIADAPDNIKVATVLG</Hsp_qseq>
+      <Hsp_hseq>EREIAHAK--RSERAYIAAKMNSLLDRFIIAKLYEASAAGVEIDLIVRGICVLRPGLKDVSENIRVRSIVG</Hsp_hseq>
+      <Hsp_midline>++ I+HAK  R   A +  +     D F +        A V+   + RG  +L   + D  +NI+V +++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|493206827|ref|WP_006193843.1|</Hit_id>
+  <Hit_def>metal ABC transporter [Selenomonas sputigena] &gt;gi|260861648|gb|EEX76148.1| ABC 3 transport family protein [Selenomonas sputigena ATCC 35185] &gt;gi|329745860|gb|AEB99216.1| ABC-type transporter, integral membrane subunit [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>WP_006193843</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>7.82529</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>LDEVTLYTHYGLSVAKKLGANMVDAFRSAFSVNDDIRQVYYRDKGIS</Hsp_qseq>
+      <Hsp_hseq>LDTVTLFGHEVASSAVKMGA--------IFLVNAAFITLFYKELKLS</Hsp_hseq>
+      <Hsp_midline>LD VTL+ H   S A K+GA         F VN     ++Y++  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|739507818|ref|WP_037367503.1|</Hit_id>
+  <Hit_def>UDP-3-O-(3-hydroxymyristoyl)glucosamine N-acyltransferase [Selenomonas sputigena]</Hit_def>
+  <Hit_accession>WP_037367503</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>8.27677</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>DVEVALHLGIAYVKTGA--VDRGTEL</Hsp_qseq>
+      <Hsp_hseq>DVEIGSHVGIDRATTGSTVIGRGTKI</Hsp_hseq>
+      <Hsp_midline>DVE+  H+GI    TG+  + RGT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|260863668|gb|EEX78168.1|</Hit_id>
+  <Hit_def>UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>EEX78168</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>8.46695</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>DVEVALHLGIAYVKTGA--VDRGTEL</Hsp_qseq>
+      <Hsp_hseq>DVEIGSHVGIDRATTGSTVIGRGTKI</Hsp_hseq>
+      <Hsp_midline>DVE+  H+GI    TG+  + RGT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|329747396|gb|AEC00753.1|</Hit_id>
+  <Hit_def>UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase [Selenomonas sputigena ATCC 35185]</Hit_def>
+  <Hit_accession>AEC00753</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>23.8682</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>8.5116</Hsp_evalue>
+      <Hsp_query-from>79</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>DVEVALHLGIAYVKTGA--VDRGTEL</Hsp_qseq>
+      <Hsp_hseq>DVEIGSHVGIDRATTGSTVIGRGTKI</Hsp_hseq>
+      <Hsp_midline>DVE+  H+GI    TG+  + RGT++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>3376</Statistics_db-num>
+      <Statistics_db-len>1026306</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99588.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>632</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99588.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamO, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>632</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1121074310|ref|WP_073507656.1|</Hit_id>
+  <Hit_def>hypothetical protein [Streptobacillus notomytis]</Hit_def>
+  <Hit_accession>WP_073507656</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00164322</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LVSMSLGIVSTFLGIGGGPINVSLFILIFGVSMKSATLYSISTIFFSQLSKNFIDFFITGISG--YEMSPL---LVIIPAAILGGNIGTKVNMLSSNKVIKKAY</Hsp_hseq>
+      <Hsp_midline>++ + +G+ S  LGI GG I V L   I  +S+++A   S   +F++ ++ + + F   G +G  +  +P+   LV+IP A +GG +G ++  +   +V+K  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1055154048|ref|WP_066901050.1|</Hit_id>
+  <Hit_def>anion permease [Streptobacillus notomytis]</Hit_def>
+  <Hit_accession>WP_066901050</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0107241</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LVSMSLGIVSTFLGIGGGPINVSLFILIFGVSMKSATLYSISNIFFSQLSKNFIDFFITGISG--YEMSPL---LVIIPAAILGGNIGTKVNMLSSNKFIKKAY</Hsp_hseq>
+      <Hsp_midline>++ + +G+ S  LGI GG I V L   I  +S+++A   S   +F++ ++ + + F   G +G  +  +P+   LV+IP A +GG +G ++  +   + +K  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1055698847|ref|WP_067321004.1|</Hit_id>
+  <Hit_def>anion permease [Streptobacillus felis]</Hit_def>
+  <Hit_accession>WP_067321004</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0121846</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARL</Hsp_qseq>
+      <Hsp_hseq>VVSMGLGIVSTFLGIGGGPINVSLFILIFGVSMKSATLYSISTIFFSQLSKNFIDFFVTGISG--YNLYPL---IVIIPAAILGGNLGTRI</Hsp_hseq>
+      <Hsp_midline>V+ + +G+ S  LGI GG I V L   I  +S+++A   S   +F++ ++ + + F   G +G  +   P+   +V+IP A +GG LG R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1035807761|ref|WP_064609993.1|</Hit_id>
+  <Hit_def>anion permease [Streptobacillus moniliformis]</Hit_def>
+  <Hit_accession>WP_064609993</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0374103</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LVSMCLGIISTFLGIGGGPINVSLFILIFGTSMKSATLYSISTIFFSQLSKNFIDFFITGISG--YDLYPL---LVIIPAAILGGNLGTKINIISSDELIKKAY</Hsp_hseq>
+      <Hsp_midline>++ + +G+ S  LGI GG I V L   I   S+++A   S   +F++ ++ + + F   G +G  +   P+   LV+IP A +GG LG ++  +    ++K  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1035817994|ref|WP_064613504.1|</Hit_id>
+  <Hit_def>anion permease [Streptobacillus moniliformis]</Hit_def>
+  <Hit_accession>WP_064613504</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.0401549</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LVSMCLGIISTFLGIGGGPINVSLFILIFGTSMKSATLYSISTIFFSQLSKNFIDFFITGISG--YDLYPL---LVIIPAAILGGNLGTKINIISSDELIKKAY</Hsp_hseq>
+      <Hsp_midline>++ + +G+ S  LGI GG I V L   I   S+++A   S   +F++ ++ + + F   G +G  +   P+   LV+IP A +GG LG ++  +    ++K  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1035784332|ref|WP_064592151.1|</Hit_id>
+  <Hit_def>anion permease [Streptobacillus moniliformis]</Hit_def>
+  <Hit_accession>WP_064592151</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0561991</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LVSMCLGIISTFLGIGGGPINVSLFILIFGTSMKSATLYSISTIFFSQFSKNFIDFFITGISG--YDLYPL---LVIIPAAILGGNLGTKINIISSDELIKKAY</Hsp_hseq>
+      <Hsp_midline>++ + +G+ S  LGI GG I V L   I   S+++A   S   +F++  + + + F   G +G  +   P+   LV+IP A +GG LG ++  +    ++K  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|502622222|ref|WP_012859029.1|</Hit_id>
+  <Hit_def>anion permease [Streptobacillus moniliformis] &gt;gi|268315107|gb|ACZ01481.1| protein of unknown function DUF81 [Streptobacillus moniliformis DSM 12112]</Hit_def>
+  <Hit_accession>WP_012859029</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0561991</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LVSMCLGIISTFLGIGGGPINVSLFILIFGTSMKSATLYSISTIFFSQFSKNFIDFFITGISG--YDLYPL---LVIIPAAILGGNLGTKINIISSDELIKKAY</Hsp_hseq>
+      <Hsp_midline>++ + +G+ S  LGI GG I V L   I   S+++A   S   +F++  + + + F   G +G  +   P+   LV+IP A +GG LG ++  +    ++K  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1035782273|ref|WP_064590975.1|</Hit_id>
+  <Hit_def>anion permease [Streptobacillus moniliformis]</Hit_def>
+  <Hit_accession>WP_064590975</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.0624903</Hsp_evalue>
+      <Hsp_query-from>514</Hsp_query-from>
+      <Hsp_query-to>617</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>VLGLPMGLFSGILGISGGVIEVPLQRYIGRISLQNAIANSSVLVFWASVAGSVVAFIHGGSTGLIHWEAPVTLALVMIPGAYVGGILGARLMRVLPVRVLKGIY</Hsp_qseq>
+      <Hsp_hseq>LVSMCLGIISTFLGIGGGPINVSLFILIFGTSMKSATLYSISTIFFSQLSKNFIDFFIMGISG--YDLYPL---LVIIPAAILGGNLGTKINIISSDELIKKAY</Hsp_hseq>
+      <Hsp_midline>++ + +G+ S  LGI GG I V L   I   S+++A   S   +F++ ++ + + F   G +G  +   P+   LV+IP A +GG LG ++  +    ++K  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>14677</Statistics_db-num>
+      <Statistics_db-len>5495023</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

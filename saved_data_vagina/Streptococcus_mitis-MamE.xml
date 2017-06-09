@@ -1,0 +1,2373 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|446604460|ref|WP_000681806.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|304429206|gb|EFM32292.1| trypsin [Streptococcus mitis ATCC 6249]</Hit_def>
+  <Hit_accession>WP_000681806</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.38635e-27</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR---NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSSNRQ--SSLFGTDETD-----TDPDSQQIASEGSGVIYKKNGNDAYLVTNTHVINGASKVDIRLAD---GTKVPGEIVGSDTFSDIAVVKISSEKVTTVAEFGDSSQLNVGETAIAIGSPLGSEYANTVTQGIISSLDRTVSLKSEDGQAISTKAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGKTSVEGLGFAIPSNDAQ</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   SS  Q      G    D      +P ++ + + G+GVI +   ND ++VTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  +NV +  IAIG+P G +   TV++GIIS+  +T+ ++        +  +QTD AIN GNSGGPLV   G V+GI ++    NG  +  G+GFA+PSN A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.25794</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSLTSGVVVRSVQSNMPA-NGHLQKYDVITKVDDKEIASSTDLQHALYTHAIGDTIKVTYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L+  DVI KVD + +    ++   +     G ++++   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|446604472|ref|WP_000681818.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|340771288|gb|EGR93803.1| serine protease do-like HtrA [Streptococcus mitis bv. 2 str. F0392]</Hit_def>
+  <Hit_accession>WP_000681818</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.16407e-25</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSSNRQ--NSVFGNDETD-----TDTDSQQVASEGSGVIYKKNGKDAYLVTNTHVIKGASKVDIRLAD---GTKVPGEIVGSDTFSDIAVVKISSEKVTTVAEFGDSSKLNVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSQDGQAISTKAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTSVEGLGFAIPSNDAQ</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   SS  Q      G    D      +  ++ V + G+GVI + +G   ++VTN HV++GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  +NV +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPLV   G V+GI ++    NG  +  G+GFA+PSN A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.420062</Hsp_evalue>
+      <Hsp_query-from>560</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>QANLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>KLNIPSSVTSGVVVKSVQSNMPA-SGHLEKYDVITKVDDKEISSSTDLQSALYNHSIGDTIKITYYRNG</Hsp_hseq>
+      <Hsp_midline>+ N+P+    GV V  V  N PA S  L   DVI KVD + +    ++ + +     G +++I   R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|494785563|ref|WP_007520971.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus oralis] &gt;gi|459283857|gb|EMG35600.1| serine protease [Streptococcus oralis subsp. tigurinus 1366] &gt;gi|528152331|gb|EPX89740.1| serine protease [Streptococcus oralis subsp. tigurinus 2425] &gt;gi|528154148|gb|EPX91554.1| serine protease [Streptococcus oralis subsp. tigurinus 2426] &gt;gi|777893563|gb|KJQ74945.1| serine protease [Streptococcus oralis subsp. tigurinus]</Hit_def>
+  <Hit_accession>KJQ74945</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.97398e-25</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR---NDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>TQAVNKIKDAVVSVITYSANKQSSVFGTEESNSD-------TDNQQIASEGSGVIYRKNENDAYIVTNTHVINGASKVDIRLAD---GTKVPGEIIGSDTFSDIAVVKISSEKVTTVAEFGDSSQLNVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTSVEGLGFAIPSNDVQ</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q         N D          + + + G+GVI R   ND +IVTN HV+ GA+ V + + D     +  GEI+  D   D+A++KI+ +   T A  GDS  +NV +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPLV   G V+GI ++    NG  +  G+GFA+PSN  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.705431</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSGLTSGVVVRSVQSNMPA-NGHLQKYDVITKVDDKEITSSTDLQYALYNHAIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+G   GV V  V  N PA +  L+  DVI KVD + +    ++   +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>4.63281</Hsp_evalue>
+      <Hsp_query-from>723</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>LQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>LQKYDVITKVDDKEITSSTDLQYALYNH-AIGDTIKITYYRNGKE</Hsp_hseq>
+      <Hsp_midline>LQ  D+I +V+++ +TS   L  A+    A G  I +  +RNG+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|446604463|ref|WP_000681809.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Streptococcus] &gt;gi|342827709|gb|EGU62091.1| serine protease do-like HtrA [Streptococcus mitis bv. 2 str. SK95] &gt;gi|1181928476|gb|ORO82665.1| serine protease [Streptococcus oralis subsp. dentisani]</Hit_def>
+  <Hit_accession>WP_000681809</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>3.07893e-25</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFGNDETD-----TDTDSQQVASEGSGVIYKKNGKDAYLVTNTHVIKGASKVDIRLAD---GTKVPGEIVGSDTFSDIAVVKISSEKVTTVAEFGDSSKLNVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSQDGQAISTKAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTSVEGLGFAIPSNDAQ</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G    D      +  ++ V + G+GVI + +G   ++VTN HV++GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  +NV +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPLV   G V+GI ++    NG  +  G+GFA+PSN A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.431094</Hsp_evalue>
+      <Hsp_query-from>560</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>QANLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>KLNIPSSVTSGVVVKSVQSNMPA-SGHLEKYDVITKVDDKEISSSTDLQSALYNHSIGDTIKITYYRNG</Hsp_hseq>
+      <Hsp_midline>+ N+P+    GV V  V  N PA S  L   DVI KVD + +    ++ + +     G +++I   R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|446604461|ref|WP_000681807.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Streptococcus] &gt;gi|321280714|gb|EFX57753.1| serine protease do-like HtrA [Streptococcus sp. C300] &gt;gi|777881216|gb|KJQ62690.1| serine protease [Streptococcus oralis subsp. oralis]</Hit_def>
+  <Hit_accession>KJQ62690</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>2.07853e-24</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRND---GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSIITYSSNSR----QSSVFNAD--ETNSDSDNQQIASEGSGVIYKKDDKDAYLVTNTHVINGASKVDIRLAD---GTKVPGEIVGFDTFSDIAVVKISSEKVTTVAEFGDSSQLSVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTSVEGLGFAIPSNDAQ</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVS+   SS  +       + N D     ++   + + + G+GVI + D    ++VTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  ++V +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPLV   G V+GI ++    NG  +  G+GFA+PSN A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.09616</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSGLTSGVVVRSVQNNMPA-NGHLQKYDVITKVDDKEIASSTDLQHALYNHAIGDTIKVTYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+G   GV V  V  N PA +  L+  DVI KVD + +    ++   +     G ++++   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|727223637|ref|WP_033684575.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|662340489|gb|KEQ39121.1| serine protease do-like htrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_033684575</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>8.88271e-24</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TNTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLNVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      N  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  +NV +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.96557</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|727157177|ref|WP_033630551.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus oralis] &gt;gi|662345942|gb|KEQ44527.1| serine protease do-like htrA [Streptococcus oralis] &gt;gi|777883189|gb|KJQ64639.1| serine protease [Streptococcus oralis subsp. oralis] &gt;gi|777891020|gb|KJQ72425.1| serine protease [Streptococcus oralis subsp. oralis]</Hit_def>
+  <Hit_accession>KEQ44527</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>1.3337e-23</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRND---GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDDKDAYLVTNTHVINGASKVDIRLAD---GTKVPGEIVGSDTFSDIAVVKISSEKVTTVAEFGDSSQLSVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTSVEGLGFAIPSNDAQ</Hsp_hseq>
+      <Hsp_midline>G+GVI + D    ++VTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  ++V +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPLV   G V+GI ++    NG  +  G+GFA+PSN A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.15649</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSGLTSGVVVRSVQNNMPA-NGHLQKYDVITKVDDKEIASSTDLQHALYNHAIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+G   GV V  V  N PA +  L+  DVI KVD + +    ++   +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|757665759|ref|WP_042903085.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus oralis] &gt;gi|662351411|gb|KEQ49949.1| serine protease do-like htrA [Streptococcus oralis] &gt;gi|1181906851|gb|ORO61330.1| serine protease [Streptococcus oralis subsp. oralis]</Hit_def>
+  <Hit_accession>KEQ49949</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>1.43578e-23</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>334</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRND---GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQAR</Hsp_qseq>
+      <Hsp_hseq>GSGVIYKKDDKDAYLVTNTHVINGASKVDIRLAD---GTKVPGEIVGSDTFSDIAVVKISSEKVTTVAEFGDSSQLSVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIASNGGTSVEGLGFAIPSNDAQ</Hsp_hseq>
+      <Hsp_midline>G+GVI + D    ++VTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  ++V +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPLV   G V+GI ++    NG  +  G+GFA+PSN A+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.09817</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSGLTSGVVVRSVQNNMPA-NGHLQKYDVITKVDDKEIASSTDLQHALYNHAIGDTIKVTYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+G   GV V  V  N PA +  L+  DVI KVD + +    ++   +     G ++++   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|787758372|ref|WP_045762402.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus infantis] &gt;gi|783359739|gb|KJU96018.1| serine protease [Streptococcus infantis]</Hit_def>
+  <Hit_accession>KJU96018</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.70144e-23</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>TQAVDKVKDAVVSVITYSSNSQN-----SLLGSDETDTDTNA--EQVYSEGSGVIYKKEGDTAYLVTNTHVINGAKKVDIRLAD---GTKVPGEIVGSDTYSDIAVVKIAADKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTNAIQTDTAINPGNSGGPLINIQGQVIGITSSKIASNGGTSVEGLGFAIPAN</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   SS  Q       L+  D      N     V + G+GVI + +G   ++VTN HV+ GA  V + + D     +  GEIV  D   D+A++KI      T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +N +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.78923</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>QKLKLPGNVTSG--VAVRSVQKNMPA-NGHLQQYDVITKIDDKAISSTTELQSALYSHSIGDSMTVTYYRDG</Hsp_hseq>
+      <Hsp_midline>Q+L L  N+ +G  V V  V  N PA +  L+  DVI K+D + +    E+ + +     G S+ +   R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|490371336|ref|WP_004250940.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|395876940|gb|EJG88011.1| serine protease HtrA [Streptococcus mitis SPAR10]</Hit_def>
+  <Hit_accession>WP_004250940</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>2.49723e-23</Hsp_evalue>
+      <Hsp_query-from>164</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>TRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>TEQINSEGSGVIYKKEGESAYLVTNTHVINGAKKVDVRLTD---GTKVPGEIVGSDTYSDIAVVKISSEKVSTVAEFGDSSQLAVGETAIAIGSPLGSEYANTVTQGIVSSLNRHVSLKAEDGQAISTNAIQTDTAINPGNSGGPLINIQGEVIGITSSKIASNGGTSVEGLGFAIPAN</Hsp_hseq>
+      <Hsp_midline>T  + + G+GVI + +G   ++VTN HV+ GA  V V + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +N +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|782708699|ref|WP_045613252.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus infantis] &gt;gi|777896959|gb|KJQ78312.1| serine protease [Streptococcus infantis]</Hit_def>
+  <Hit_accession>KJQ78312</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.99</Hsp_bit-score>
+      <Hsp_score>258</Hsp_score>
+      <Hsp_evalue>3.04198e-23</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSN</Hsp_qseq>
+      <Hsp_hseq>TQAVDKVKDAVVSIITYSGNSQ--NSFIGTDDTD-----IDSNTEQVNSEGSGVIYKKEGESAYLVTNTHVINGAKKVDVRLTD---GTKVPGEIVGSDTYSDIAVVKISSEKVSTVAEFGDSSQLAVGETAIAIGSPLGSEYANTVTQGIVSSLNRHVSLKAEDGQAISTNAIQTDTAINPGNSGGPLINIQGQVIGITSSKIASNGGTSVEGLGFAIPAN</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVS+   S   Q     +G  + D      +  T  V + G+GVI + +G   ++VTN HV+ GA  V V + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +N +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1002520897|gb|KXT96393.1|</Hit_id>
+  <Hit_def>Serine protease, DegP/HtrA, do-like protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KXT96393</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>6.88464e-23</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNGKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + +G   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.88251</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|727221592|ref|WP_033682542.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|662333398|gb|KEQ32105.1| serine protease do-like htrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_033682542</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>7.01269e-23</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TNTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      N  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.94867</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>TSDIRRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSIDLQSALYNHSIGDAIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>T   +RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1152368441|ref|WP_078238562.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1151571588|gb|OOR79454.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_078238562</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>8.66784e-23</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVRN---DGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKDAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI +    D +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.623059</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>TSDIRRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>T   +RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1005143499|gb|KYF33611.1|</Hit_id>
+  <Hit_def>Serine protease, DegP/HtrA, do-like protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KYF33611</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>9.0764e-23</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVRN---DGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKDAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI +    D +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.623059</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|446604247|ref|WP_000681593.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|307618949|gb|EFN98084.1| serine protease [Streptococcus mitis SK564] &gt;gi|992393284|gb|AMH89581.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_000681593</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>9.16039e-23</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TNTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      N  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.316</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEDTTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|523919458|gb|EPR90777.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis 17/34]</Hit_def>
+  <Hit_accession>EPR90777</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>9.59215e-23</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TNTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      N  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.316</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEDTTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|757476368|ref|WP_042751905.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|662344840|gb|KEQ43434.1| serine protease do-like htrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_042751905</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>1.41218e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NED-----TDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.14284</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|523923429|gb|EPR94563.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis 18/56]</Hit_def>
+  <Hit_accession>EPR94563</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.72922e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLVNIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPLV   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.644972</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>TSDIRRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>T   +RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|896603413|ref|WP_049486825.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Streptococcus] &gt;gi|1032036493|gb|OAN12136.1| serine protease [Streptococcus sp. CCUG 49591]</Hit_def>
+  <Hit_accession>WP_049486825</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.79407e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.14284</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1183655362|ref|WP_084887652.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1181939247|gb|ORO93248.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084887652</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.91347e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.89884</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1005300415|ref|WP_061589687.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Streptococcus] &gt;gi|1005143535|gb|KYF33645.1| Serine protease, DegP/HtrA, do-like protein [Streptococcus mitis] &gt;gi|1005147469|gb|KYF37445.1| Serine protease, DegP/HtrA, do-like protein [Streptococcus mitis] &gt;gi|1080618070|gb|OFN93811.1| serine protease [Streptococcus sp. HMSC077D04] &gt;gi|1091056066|gb|OHP90867.1| serine protease [Streptococcus sp. HMSC063B03]</Hit_def>
+  <Hit_accession>WP_061589687</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.13691e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.37678</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|985377796|gb|KXA59326.1|</Hit_id>
+  <Hit_def>serine protease do-like HtrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KXA59326</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.20337e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDETDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPTNDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.7945</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLVKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|985511759|ref|WP_060806039.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_060806039</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.21704e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDETDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPTNDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.80296</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLVKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|896634900|ref|WP_049515626.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_049515626</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.32143e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NED-----TDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.607114</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|896628159|ref|WP_049509400.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus pseudopneumoniae] &gt;gi|1002538589|gb|KXU11226.1| Serine protease, DegP/HtrA, do-like protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>KXU11226</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.4532e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIISSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GIIS+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.06457</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>TSDIRRLNIPTNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>T   +RL +  N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|446604240|ref|WP_000681586.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|342837397|gb|EGU71586.1| serine protease do-like HtrA [Streptococcus mitis SK569]</Hit_def>
+  <Hit_accession>WP_000681586</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.6164e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.03465</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|896620006|ref|WP_049501876.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_049501876</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.81625e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.911254</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNG</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|446604237|ref|WP_000681583.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|339452721|gb|EGP65343.1| serine protease do-like HtrA [Streptococcus mitis SK1080]</Hit_def>
+  <Hit_accession>WP_000681583</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.81625e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDETDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.747028</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>TSDIRRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>T   +RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|757661971|ref|WP_042900049.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|662340301|gb|KEQ38939.1| serine protease do-like htrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_042900049</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>2.97607e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TDTNSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>7.11287</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLR</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYR</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|565863115|ref|WP_023944977.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|564894846|gb|ETD95976.1| serine protease [Streptococcus mitis 21/39]</Hit_def>
+  <Hit_accession>WP_023944977</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.00357e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVRN---DGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNNKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI +    + +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.21814</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|446604236|ref|WP_000681582.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Streptococcus] &gt;gi|339456435|gb|EGP69026.1| serine protease do-like HtrA [Streptococcus mitis SK1073]</Hit_def>
+  <Hit_accession>WP_000681582</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.00357e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.661911</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>TSDIRRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>T   +RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1183721852|ref|WP_084947684.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1181932281|gb|ORO86386.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084947684</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.05935e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.623059</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1152504186|ref|WP_078352719.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1151611286|gb|OOS18126.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_078352719</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.08762e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.67345</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|446604260|ref|WP_000681606.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|289168912|ref|YP_003447181.1| serine protease [Streptococcus mitis B6] &gt;gi|288908479|emb|CBJ23321.1| serine protease [Streptococcus mitis B6]</Hit_def>
+  <Hit_accession>WP_000681606</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.08762e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.633921</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1183696159|ref|WP_084926929.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1181941937|gb|ORO95924.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084926929</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.20335e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDETDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.656216</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|446604246|ref|WP_000681592.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|383353110|gb|EID30735.1| serine protease do-like HtrA [Streptococcus mitis SK579]</Hit_def>
+  <Hit_accession>WP_000681592</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.20335e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDETDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.639423</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|523925699|gb|EPR96810.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis 29/42]</Hit_def>
+  <Hit_accession>EPR96810</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.23295e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.715441</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|727218457|ref|WP_033679430.1|</Hit_id>
+  <Hit_def>MULTISPECIES: serine protease [Streptococcus] &gt;gi|662340776|gb|KEQ39403.1| serine protease do-like htrA [Streptococcus mitis] &gt;gi|988696865|emb|CWF02918.1| trypsin-like serine protease [Streptococcus pneumoniae]</Hit_def>
+  <Hit_accession>WP_033679430</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.26283e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDETDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPTNDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.88251</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLVKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1002981044|ref|WP_061425843.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1002521376|gb|KXT96799.1| Serine protease, DegP/HtrA, do-like protein [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_061425843</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.29298e-22</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>TGVVTLLRNSVVSVTASSSGGQVMPDPLGLVNPDGLPRFANPTTRSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>TQAVNKVKDAVVSVITYSANRQ--NSVFG--NDD-----TDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>T  V  ++++VVSV   S+  Q      G  N D      +  ++ + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.54675</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNG</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|896618116|ref|WP_049500444.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_049500444</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.29298e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.644972</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|446604245|ref|WP_000681591.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|383350646|gb|EID28509.1| serine protease do-like HtrA [Streptococcus mitis SK575]</Hit_def>
+  <Hit_accession>WP_000681591</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.29298e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.67345</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|896641562|ref|WP_049521564.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_049521564</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.32341e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.61357</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|446604241|ref|WP_000681587.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|307616154|gb|EFN95350.1| trypsin domain protein [Streptococcus mitis NCTC 12261] &gt;gi|564896342|gb|ETD97399.1| serine protease [Streptococcus mitis 27/7] &gt;gi|777894667|gb|KJQ76038.1| serine protease [Streptococcus mitis] &gt;gi|1151610105|gb|OOS16964.1| serine protease [Streptococcus mitis] &gt;gi|1181940115|gb|ORO94112.1| serine protease [Streptococcus mitis] &gt;gi|1181957746|gb|ORP04992.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_000681587</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.32341e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.679294</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1149575720|ref|WP_077804506.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_077804506</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.38511e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.65057</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKEIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1183628149|ref|WP_084862603.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1181951512|gb|ORO98884.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084862603</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.51198e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.76005</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>303</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>TSDIRRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>T   +RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|727228739|ref|WP_033689613.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|662342955|gb|KEQ41572.1| serine protease do-like htrA [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_033689613</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.58797e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.716206</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVT--YGVVVRSVQSNMPA-NGHLEKYDVITKVDDKEISSSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|446604243|ref|WP_000681589.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|307617176|gb|EFN96354.1| trypsin family protein [Streptococcus mitis SK321] &gt;gi|777887877|gb|KJQ69310.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_000681589</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.67726e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSKLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.793605</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|1183657437|ref|WP_084889661.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1181956838|gb|ORP04108.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084889661</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>3.74553e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.25678</Hsp_evalue>
+      <Hsp_query-from>562</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>310</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>NLPAG--RGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>NIPSSVTSGVVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>N+P+    GV V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1183695417|ref|WP_084926255.1|</Hit_id>
+  <Hit_def>serine protease [Streptococcus mitis] &gt;gi|1181935027|gb|ORO89121.1| serine protease [Streptococcus mitis]</Hit_def>
+  <Hit_accession>WP_084926255</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>3.78013e-22</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>FANPTT----RSVENIGTGVIVR-ND--GFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDM--TVSRGIISAKRKTMVIEGMT----HSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNG--AFAGIGFAVPSNQA</Hsp_qseq>
+      <Hsp_hseq>FGNDDTDTDSQQISSEGSGVIYKKNDKEAYIVTNNHVINGASKVDIRLSD---GTKVPGEIVGADTFSDIAVVKISSEKVTTVAEFGDSSQLTVGETAIAIGSPLGSEYANTVTQGIVSSLNRNVSLKSEDGQAISTKAIQTDTAINPGNSGGPLINIQGQVIGITSSKIATNGGTSVEGLGFAIPANDA</Hsp_hseq>
+      <Hsp_midline>F N  T    + + + G+GVI + ND   +IVTN HV+ GA+ V + + D     +  GEIV  D   D+A++KI+ +   T A  GDS  + V +  IAIG+P G +   TV++GI+S+  + + ++        +  +QTD AIN GNSGGPL+   G V+GI ++    NG  +  G+GFA+P+N A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.747028</Hsp_evalue>
+      <Hsp_query-from>555</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>QRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>RRLNIPSNVTSG--VVVRSVQSNMPA-NGHLEKYDVITKVDDKDIASSTDLQSALYNHSIGDTIKITYYRNGKEETTSI</Hsp_hseq>
+      <Hsp_midline>+RL + +N+ +G  V V  V  N PA +  L   DVI KVD + +    ++ + +     G +++I   R G     S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>107199</Statistics_db-num>
+      <Statistics_db-len>34804954</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

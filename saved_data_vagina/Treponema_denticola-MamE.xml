@@ -1,0 +1,2202 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99594.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>772</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99594.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome protein MamE, containing Serine/cysteine peptidase, trypsin-like domain and HrtA/DegP2/Q/S Peptidase S1C domain [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>772</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|325473728|gb|EGC76917.1|</Hit_id>
+  <Hit_def>trypsin domain/PDZ domain-containing protein [Treponema denticola F0402]</Hit_def>
+  <Hit_accession>EGC76917</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.64726e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLILTNAHVISEASKIYISLSD--GS-QYEAKVVGTDAENDLAVLKFDPPKNIKLTVIKLGDSTNLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGKMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G I+TN HV+  A+ +Y+++ D  GS +Y  ++V  D   DLA+LK  P   ++LT   LGDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0007801</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIAGQKINNITDYYSVLEDKKPGETVKVKIVRGKKLVDLSL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + ++SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|488756439|ref|WP_002679693.1|</Hit_id>
+  <Hit_def>peptidase S1 [Treponema denticola] &gt;gi|42527471|ref|NP_972569.1| trypsin domain/PDZ [Treponema denticola ATCC 35405] &gt;gi|41818056|gb|AAS12480.1| trypsin domain/PDZ domain protein [Treponema denticola ATCC 35405] &gt;gi|448958117|gb|EMB38855.1| hypothetical protein HMPREF9735_01165 [Treponema denticola ATCC 33521] &gt;gi|448958358|gb|EMB39090.1| hypothetical protein HMPREF9721_00667 [Treponema denticola ATCC 35404]</Hit_def>
+  <Hit_accession>WP_002679693</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>2.97931e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNAHVISEASKIYISLSD--GS-QYEAKVVGTDAENDLAVLKFDPPKNIKLTVIKLGDSTNLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +Y+++ D  GS +Y  ++V  D   DLA+LK  P   ++LT   LGDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000927403</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIAGQKINNITDYYSVLEDKKPGETVKVKIVRGKKLVDLSL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + ++SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|488773766|ref|WP_002690526.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448943382|gb|EMB24273.1| hypothetical protein HMPREF9723_00352 [Treponema denticola OTK]</Hit_def>
+  <Hit_accession>WP_002690526</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>3.06455e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNAHVISEASKIYISLSD--GS-QYEAKVVGTDAENDLAVLKFDPPKNIKLTVIKLGDSTNLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +Y+++ D  GS +Y  ++V  D   DLA+LK  P   ++LT   LGDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.00178911</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIAGQKINNITDYYSVLEDKKPGETVKVKIIRGKKLVDLNL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + +++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|488752056|ref|WP_002675340.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448967379|gb|EMB48017.1| hypothetical protein HMPREF9729_00116 [Treponema denticola ASLM] &gt;gi|451701552|gb|EMD56013.1| hypothetical protein HMPREF9728_01884 [Treponema denticola US-Trep]</Hit_def>
+  <Hit_accession>WP_002675340</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>3.18199e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNAHVISEASKIYISLSD--GS-QYEAKVVGTDAENDLAVLKFDPPKNIKLTVIKLGDSTNLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +Y+++ D  GS +Y  ++V  D   DLA+LK  P   ++LT   LGDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000865411</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIAGQKINNITDYYSVLEDKKPGETVKVKIVRGKKLVDLSL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + ++SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488760220|ref|WP_002683437.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448954138|gb|EMB34921.1| hypothetical protein HMPREF9726_00687 [Treponema denticola H-22]</Hit_def>
+  <Hit_accession>WP_002683437</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>3.24239e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNAHVISEASKIYISLSD--GS-QYEAKVVGTDAENDLAVLKFDPPKNIKLTVIKLGDSTNLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +Y+++ D  GS +Y  ++V  D   DLA+LK  P   ++LT   LGDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000960043</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIAGQKINNITDYYSVLEDKKPGETVKVKIVRGKKLVDLSL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + ++SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|498385542|ref|WP_010699698.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448938527|gb|EMB19457.1| hypothetical protein HMPREF9724_02541 [Treponema denticola SP37] &gt;gi|513488118|gb|EPF33270.1| hypothetical protein HMPREF9734_01867 [Treponema denticola SP44] &gt;gi|513495443|gb|EPF40175.1| hypothetical protein HMPREF9731_00789 [Treponema denticola SP23]</Hit_def>
+  <Hit_accession>WP_010699698</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>3.52866e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNAHVISEASKIYISLSD--GS-QYEAKVVGTDAENDLAVLKFDPPKNIKLTVIKLGDSTNLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +Y+++ D  GS +Y  ++V  D   DLA+LK  P   ++LT   LGDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000800606</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIAGQKINNITDYYSVLEDKKPGETVKVKIVRGKKLVDLSL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + ++SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488751643|ref|WP_002674931.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448962357|gb|EMB43047.1| hypothetical protein HMPREF9730_02505 [Treponema denticola AL-2]</Hit_def>
+  <Hit_accession>WP_002674931</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>3.76866e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNAHVISEASKIYISLSD--GS-QYEAKVVGTDAENDLAVLKFDPPKNIKLTVIKLGDSTNLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +Y+++ D  GS +Y  ++V  D   DLA+LK  P   ++LT   LGDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000872927</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIAGQKINNITDYYSVLEDKKPGETVKVKIVRGKKLVDLSL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + ++SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|488765567|ref|WP_002688767.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448948978|gb|EMB29804.1| hypothetical protein HMPREF9725_01535 [Treponema denticola H1-T] &gt;gi|448949506|gb|EMB30331.1| hypothetical protein HMPREF9727_01171 [Treponema denticola MYR-T]</Hit_def>
+  <Hit_accession>WP_002688767</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>4.17915e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNAHVISEASKIYISLSD--GS-QYEAKVVGTDAENDLAVLKFDPPKNIKLTVIKLGDSTNLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +Y+++ D  GS +Y  ++V  D   DLA+LK  P   ++LT   LGDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000888157</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIAGQKINNITDYYSVLEDKKPGETVKVKIVRGKKLVDLSL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + ++SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|498376007|ref|WP_010690163.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448960428|gb|EMB41140.1| hypothetical protein HMPREF9722_01325 [Treponema denticola ATCC 33520]</Hit_def>
+  <Hit_accession>WP_010690163</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>7.9164e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNTHVIAEASKIFISLSD--GS-QYEAKVVGTDDENDLAVLKFDPPKNIKLTAIKFGDSANLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +++++ D  GS +Y  ++V  D+  DLA+LK  P   ++LTA   GDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00159894</Hsp_evalue>
+      <Hsp_query-from>546</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>LGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLR-------------------PGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>IDADLVQVSGRLASYAKLPVSYGLLVSEVKKGSNAAKAGLRGGNEAVRSGVGRYSSVFYIGGDIIVEIGGQKINNITDYYSVLEDKKPGETVKVKIIRGKKLVDLNL</Hsp_hseq>
+      <Hsp_midline>+ A L  ++ RL   A LP   G+ V+ V   + AA AGLR                    GD+I+++ G+ ++   +  +++ +   G +V++ ++R   + +++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|498381817|ref|WP_010695973.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448943323|gb|EMB24215.1| hypothetical protein HMPREF9733_01664 [Treponema denticola SP33] &gt;gi|513492674|gb|EPF37583.1| hypothetical protein HMPREF9732_00174 [Treponema denticola SP32]</Hit_def>
+  <Hit_accession>WP_010695973</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>8.21941e-34</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>343</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA-KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEVGW</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNTHVIAEASKIFISLSD--GS-QYEAKVVGTDEENDLAVLKFDPPKNIKLTVIKFGDSANLKVGQRVLAIGNPFGLERTLTDGIVSALKRPIQNDKNIIIKNMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVVADILKY</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +++++ D  GS +Y  ++V  DE  DLA+LK  P   ++LT    GDS  + V   V+AIG PFGL+ T++ GI+SA KR     + +   N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|530896577|ref|WP_020965678.1|</Hit_id>
+  <Hit_def>trypsin domain/PDZ [Treponema pedis] &gt;gi|530725427|gb|AGT44380.1| trypsin domain/PDZ [Treponema pedis str. T A4]</Hit_def>
+  <Hit_accession>AGT44380</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.01599e-32</Hsp_evalue>
+      <Hsp_query-from>171</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>121</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>GTGVIVRNDGFIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITP--KVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISA------KRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALD</Hsp_qseq>
+      <Hsp_hseq>GSGSIIDESGLVLTNTHVIAEASKIFISLYD--GS-QYEAKIVGTDTENDLAVLKFEPPKNIKLTTIKFGNSSTLKVGQRVLAIGNPFGLERTLTDGIVSALGRPIQNDKNIIIK-----NMIQTDTAINPGNSGGPLLDTQGRMIGINTMIYSTSGSSAGVGFAVPVNTAKRVTAD</Hsp_hseq>
+      <Hsp_midline>G+G I+   G ++TN HV+  A+ +++++ D  GS +Y  +IV  D   DLA+LK  P   ++LT    G+S  + V   V+AIG PFGL+ T++ GI+SA        K ++I+     N++QTD AIN GNSGGPL+   G ++GINT IY+ +G+ AG+GFAVP N A+    D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|530896870|ref|WP_020965971.1|</Hit_id>
+  <Hit_def>trypsin domain/PDZ [Treponema pedis] &gt;gi|530725722|gb|AGT44675.1| trypsin domain/PDZ [Treponema pedis str. T A4]</Hit_def>
+  <Hit_accession>AGT44675</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.36164e-25</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>ENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWLPTSTAE</Hsp_qseq>
+      <Hsp_hseq>EGLGSGVIVRKTGKTYYAITNQHVIGNATEISVILHN---GDKINGKLVGADKRKDAALVSFEYEKELPVAKLGDSNTVQVGDLSYAIGAPLGYVSTVTSGIISAVGRSGGPNQSNINDFIQTDAAINQGNSGGPLVNIYGEVIGINTWIVSSSGGSQGLAFSIPINNLKK-AIDDFISSGAVKYGWLGVQLSE</Hsp_hseq>
+      <Hsp_midline>E +G+GVIVR  G   + +TN HV+  A  + V + +     + +G++V  D+  D AL+    + +L  A LGDS+ V V D   AIG P G   TV+ GIISA  ++        ++ +QTDAAINQGNSGGPLV   G V+GINT I + +G   G+ F++P N  +  A+D+         GWL    +E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>3.95316e-06</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>SGAVKYGWLGVQLSEINEDFKKQLGLKNFDGAFTAQVFLGSPADKGGIMPGDFIKEINSKKVKTTEELIRIIGDLQAGETAEFKLIRSGKEISLSI</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  L+ + +    Q  L    G F   V   +PA   G+ PGD I +++ + V   EE+  I+ ++  G +    ++R+G   ++S+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00366403</Hsp_evalue>
+      <Hsp_query-from>493</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>464</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>QIIGSVGAAPIAAPGAGGAYRFSQPPGSLAINIQGPRGGQGAVAGSGGSRASLLGAALTPL------TQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEE</Hsp_qseq>
+      <Hsp_hseq>RIIGDLQA------GETAEFKLIRSGKEISLSIKIEERDEKTVADS-----SKLWPGFMPLPIDEKAVKRLELSKNQS---GVIVSSIYQKSPAAVLSLQPGDIITKVNGKEIKTIEE</Hsp_hseq>
+      <Hsp_midline>+IIG + A      G    ++  +    ++++I+     +  VA S     S L     PL       +RL L  N     GV V+ +   +PAA   L+PGD+I KV+G+ +   EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|488765242|ref|WP_002688442.1|</Hit_id>
+  <Hit_def>protease Do [Treponema denticola] &gt;gi|448942678|gb|EMB23572.1| protease Do [Treponema denticola OTK] &gt;gi|448946202|gb|EMB27067.1| protease Do [Treponema denticola SP37] &gt;gi|448949213|gb|EMB30038.1| protease Do [Treponema denticola MYR-T] &gt;gi|448950372|gb|EMB31194.1| protease Do [Treponema denticola H1-T] &gt;gi|513488267|gb|EPF33408.1| peptidase Do [Treponema denticola SP44] &gt;gi|513494979|gb|EPF39734.1| peptidase Do [Treponema denticola SP23]</Hit_def>
+  <Hit_accession>WP_002688442</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.40813e-25</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRF-----------ANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWLPTSTAE</Hsp_qseq>
+      <Hsp_hseq>NIDGFPWFFFNRPQDQKDGQGEREYEAEGMGSGVIVRKTGKTYYVLTNQHVTGNAKTISVMLYN---GDKVQGKLIGSDQRKDVALVSFDYDKDLRVAVLGDSNTVQVGDLTYAIGAPMGYVSTVTSGIVSAVGRSGGPNRNNINDFIQTDAAINQGNSGGPLVNIYGEVIGINNWIVSSSGGSQGLAFSIPINNLKK-AIDDFITSGEIKYGWLGVQLLE</Hsp_hseq>
+      <Hsp_midline>N DG P F                   E +G+GVIVR  G   +++TN HV   A ++ V + +     +  G+++  D+  D+AL+       L  AVLGDS+ V V D   AIG P G   TV+ GI+SA  ++        ++ +QTDAAINQGNSGGPLV   G V+GIN  I + +G   G+ F++P N  +  A+D+         GWL     E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>5.80448e-07</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVG-MPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPV</Hsp_qseq>
+      <Hsp_hseq>SGEIKYGWLGVQLLEINDKFRESLNLKDIEGAFAGQVFLGSPADKGGIKPGDYITEVNSTKVKSVDDILRVIADLKPGESSSFKILRKG-----------KEISATVKIEERDEKNVADSSKLWPG----------------------FVPSPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  L  +  +     NL    G F   V   +PA   G++PGD I +V+   V   +++  ++A++  G S    +LR G             ++A V         +A  +   PG                        P P+   +     +  G  G  V  + A S AAV  LQ  DLI++VN + V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000110156</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV---KDVLSFYDELSNAKGEIWFDFIREG</Hsp_hseq>
+      <Hsp_midline>+PLT  +  Q  L  G+ GV V  +   +PAA   L+PGD+I+KV+G+ V   ++V +   E+ N +  +    +R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|488751042|ref|WP_002674333.1|</Hit_id>
+  <Hit_def>serine protease [Treponema denticola] &gt;gi|42527802|ref|NP_972900.1| trypsin domain/PDZ [Treponema denticola ATCC 35405] &gt;gi|41818630|gb|AAS12819.1| trypsin domain/PDZ domain protein [Treponema denticola ATCC 35405] &gt;gi|448958059|gb|EMB38798.1| protease Do [Treponema denticola ATCC 35404] &gt;gi|448959467|gb|EMB40188.1| protease Do [Treponema denticola ATCC 33521] &gt;gi|448963521|gb|EMB44199.1| protease Do [Treponema denticola AL-2]</Hit_def>
+  <Hit_accession>WP_002674333</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.58878e-25</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRF-----------ANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWLPTSTAE</Hsp_qseq>
+      <Hsp_hseq>NIDGFPWFFFNRPQDQKDGQGEREYEAEGMGSGVIVRKTGKTYYVLTNQHVTGNAKTISVMLYN---GDKVQGKLIGSDQRKDVALVSFDYDKDLRVAVLGDSNTVQVGDLTYAIGAPMGYVSTVTSGIVSAVGRSGGPNRNNINDFIQTDAAINQGNSGGPLVNIYGEVIGINNWIVSSSGGSQGLAFSIPINNLKK-AIDDFITSGEIKYGWLGVQLLE</Hsp_hseq>
+      <Hsp_midline>N DG P F                   E +G+GVIVR  G   +++TN HV   A ++ V + +     +  G+++  D+  D+AL+       L  AVLGDS+ V V D   AIG P G   TV+ GI+SA  ++        ++ +QTDAAINQGNSGGPLV   G V+GIN  I + +G   G+ F++P N  +  A+D+         GWL     E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>6.89946e-07</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPV</Hsp_qseq>
+      <Hsp_hseq>SGEIKYGWLGVQLLEINDKFRESLNLKDIEGAFAGQVFLGSPADKGGIKPGDYITEVNSTKVKSVDDILRVIADLKPGESSSFKILRKG-----------KEISATVKIEERDEKNVADSSKLWPGF---VPSPLTEEIIKQLELKK------------------GQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  L  +  +     NL    G F   V   +PA   G++PGD I +V+   V   +++  ++A++  G S    +LR G             ++A V         +A  +   PG    +P   TE     +E++                   G  G  V  + A S AAV  LQ  DLI++VN + V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>5.52856e-05</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SPLTEEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV---KDVLSFYDELSNAKGEIWFDFIREG</Hsp_hseq>
+      <Hsp_midline>+PLT+ +  Q  L  G+ GV V  +   +PAA   L+PGD+I+KV+G+ V   ++V +   E+ N +  +    +R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|498375594|ref|WP_010689750.1|</Hit_id>
+  <Hit_def>protease Do [Treponema denticola] &gt;gi|448960973|gb|EMB41681.1| protease Do [Treponema denticola ATCC 33520]</Hit_def>
+  <Hit_accession>WP_010689750</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>2.75793e-25</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRF-----------ANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWLPTSTAE</Hsp_qseq>
+      <Hsp_hseq>NIDGFPWFFFNRPQDQKDGQGEREYEAEGMGSGVIVRKTGKTYYVLTNQHVTGNAKTISVMLYN---GDKVQGKLIGSDQRKDVALVSFDYDKDLRVAVLGDSNTVQVGDLTYAIGAPMGYVSTVTSGIVSAVGRSGGPNRNNINDFIQTDAAINQGNSGGPLVNIYGEVIGINNWIVSSSGGSQGLAFSIPINNLKK-AIDDFITSGEIKYGWLGVQLLE</Hsp_hseq>
+      <Hsp_midline>N DG P F                   E +G+GVIVR  G   +++TN HV   A ++ V + +     +  G+++  D+  D+AL+       L  AVLGDS+ V V D   AIG P G   TV+ GI+SA  ++        ++ +QTDAAINQGNSGGPLV   G V+GIN  I + +G   G+ F++P N  +  A+D+         GWL     E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>8.71208e-07</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVG-MPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPV</Hsp_qseq>
+      <Hsp_hseq>SGEIKYGWLGVQLLEINDKFRESLNLKDIEGAFAGQVFLGSPADKGGIKPGDYITEVNSTKVKSVDDILRVIADLKPGESSSFKILRKG-----------KEISATVKIEERDEKNVADSSKLWPG----------------------FVPSPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVRVNGKDV</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  L  +  +     NL    G F   V   +PA   G++PGD I +V+   V   +++  ++A++  G S    +LR G             ++A V         +A  +   PG                        P P+   +     +  G  G  V  + A S AAV  LQ  DLI+ VN + V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>0.000258443</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVRVNGKDV---KDVLSFYDELSNAKGEIWFDFIREG</Hsp_hseq>
+      <Hsp_midline>+PLT  +  Q  L  G+ GV V  +   +PAA   L+PGD+I++V+G+ V   ++V +   E+ N +  +    +R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|488760694|ref|WP_002683907.1|</Hit_id>
+  <Hit_def>protease Do [Treponema denticola] &gt;gi|448953451|gb|EMB34242.1| protease Do [Treponema denticola H-22]</Hit_def>
+  <Hit_accession>WP_002683907</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>2.75793e-25</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRF-----------ANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWLPTSTAE</Hsp_qseq>
+      <Hsp_hseq>NIDGFPWFFFNRPQDQKDGQGEREYEAEGMGSGVIVRKTGKTYYVLTNQHVTGNAKTISVMLYN---GDKVQGKLIGSDQRKDVALVSFDYDKDLRVAVLGDSNTVQVGDLTYAIGAPMGYVSTVTSGIVSAVGRSGGPNRNNINDFIQTDAAINQGNSGGPLVNIYGEVIGINNWIVSSSGGSQGLAFSIPINNLKK-AIDDFITSGEIKYGWLGVQLLE</Hsp_hseq>
+      <Hsp_midline>N DG P F                   E +G+GVIVR  G   +++TN HV   A ++ V + +     +  G+++  D+  D+AL+       L  AVLGDS+ V V D   AIG P G   TV+ GI+SA  ++        ++ +QTDAAINQGNSGGPLV   G V+GIN  I + +G   G+ F++P N  +  A+D+         GWL     E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>9.33547e-07</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVG-MPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPV</Hsp_qseq>
+      <Hsp_hseq>SGEIKYGWLGVQLLEINDKFRESLNLKDIEGAFAGQVFLGSPADKGGIKPGDYITEVNSTRVKSVDDILRVIADLKPGESSSFKILRKG-----------KEISATVKIEERDEKNVADSSKLWPG----------------------FVPSPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  L  +  +     NL    G F   V   +PA   G++PGD I +V+   V   +++  ++A++  G S    +LR G             ++A V         +A  +   PG                        P P+   +     +  G  G  V  + A S AAV  LQ  DLI++VN + V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000114018</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV---KDVLSFYDELSNAKGEIWFDFIREG</Hsp_hseq>
+      <Hsp_midline>+PLT  +  Q  L  G+ GV V  +   +PAA   L+PGD+I+KV+G+ V   ++V +   E+ N +  +    +R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|488752467|ref|WP_002675749.1|</Hit_id>
+  <Hit_def>protease Do [Treponema denticola] &gt;gi|448967148|gb|EMB47790.1| protease Do [Treponema denticola ASLM] &gt;gi|451701508|gb|EMD55972.1| protease Do [Treponema denticola US-Trep]</Hit_def>
+  <Hit_accession>WP_002675749</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.10187e-25</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRF-----------ANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWLPTSTAE</Hsp_qseq>
+      <Hsp_hseq>NIDGFPWFFFNRPQDQKDGQGEREYEAEGMGSGVIVRKTGKTYYVLTNQHVTGNAKTISVML---YNGDKVQGKLIGSDQRKDVALVSFDYDKDLRVAVLGDSNTVQVGDLTYAIGAPMGYVSTVTSGIVSAVGRSGGPNRNNINDFIQTDAAINQGNSGGPLVNIYGEVIGINNWIVSSSGGSQGLAFSIPINNLKK-AIDDFITSGEIKYGWLGVQLLE</Hsp_hseq>
+      <Hsp_midline>N DG P F                   E +G+GVIVR  G   +++TN HV   A ++ V +       +  G+++  D+  D+AL+       L  AVLGDS+ V V D   AIG P G   TV+ GI+SA  ++        ++ +QTDAAINQGNSGGPLV   G V+GIN  I + +G   G+ F++P N  +  A+D+         GWL     E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>5.85485e-07</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVG-MPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPV</Hsp_qseq>
+      <Hsp_hseq>SGEIKYGWLGVQLLEINDKFRENLNLKDIEGAFAGQVFLGSPADKGGIKPGDYITEVNSTKVKSVDDILRVIADLKPGESSSFKILRKG-----------KEISATVKIEERDEKNVADSSKLWPG----------------------FVPSPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  L  +  +     NL    G F   V   +PA   G++PGD I +V+   V   +++  ++A++  G S    +LR G             ++A V         +A  +   PG                        P P+   +     +  G  G  V  + A S AAV  LQ  DLI++VN + V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000115005</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV---KDVLSFYDELSNAKGEIWFDFIREG</Hsp_hseq>
+      <Hsp_midline>+PLT  +  Q  L  G+ GV V  +   +PAA   L+PGD+I+KV+G+ V   ++V +   E+ N +  +    +R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|498382439|ref|WP_010696595.1|</Hit_id>
+  <Hit_def>protease Do [Treponema denticola] &gt;gi|448941514|gb|EMB22415.1| protease Do [Treponema denticola SP33] &gt;gi|513490541|gb|EPF35563.1| peptidase Do [Treponema denticola SP32]</Hit_def>
+  <Hit_accession>WP_010696595</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.45727e-25</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRF-----------ANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWLPTSTAE</Hsp_qseq>
+      <Hsp_hseq>NIDGFPWFFFNRPQDQKDGQGEREYEAEGMGSGVIVRKTGNTYYVLTNQHVTGNAKTISVMLYN---GDKVQGKLIGSDQRKDVALVSFDYDKDLRVAVLGDSNTVQVGDLTYAIGAPMGYVSTVTSGIVSAVGRSGGPNRNNINDFIQTDAAINQGNSGGPLVNIYGEVIGINNWIVSSSGGSQGLAFSIPINNLKK-AIDDFITSGEIKYGWLGVQLLE</Hsp_hseq>
+      <Hsp_midline>N DG P F                   E +G+GVIVR  G   +++TN HV   A ++ V + +     +  G+++  D+  D+AL+       L  AVLGDS+ V V D   AIG P G   TV+ GI+SA  ++        ++ +QTDAAINQGNSGGPLV   G V+GIN  I + +G   G+ F++P N  +  A+D+         GWL     E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>8.272e-07</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPV</Hsp_qseq>
+      <Hsp_hseq>SGEIKYGWLGVQLLEINDKFRENLNLKDIEGAFAGQVFLGSPADKGGIKPGDYITEVNSTKVKNVDDILRIIADLKPGEAASFKVLRKG-----------KEISATVKIEERDEKNVADSSKLWPGF---VPSPLTEEIIKQLELKK------------------GQTGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  L  +  +     NL    G F   V   +PA   G++PGD I +V+   V   +++  I+A++  G +    VLR G             ++A V         +A  +   PG    +P   TE     +E++                   G  G  V  + A S AAV  LQ  DLI++VN + V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000103709</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SPLTEEIIKQLELKKGQTGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV---KDVLSFYDELLNAKGEIWFDFIREG</Hsp_hseq>
+      <Hsp_midline>+PLT+ +  Q  L  G+ GV V  +   +PAA   L+PGD+I+KV+G+ V   ++V +   E+ N +  +    +R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|325474964|gb|EGC78150.1|</Hit_id>
+  <Hit_def>trypsin domain/PDZ domain-containing protein [Treponema denticola F0402]</Hit_def>
+  <Hit_accession>EGC78150</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>2.32303e-24</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>NPDGLPRF-----------ANPTTRSVENIGTGVIVRNDG---FIVTNYHVVRGANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVPSNQARLFALDEV--------GWLPTSTAE</Hsp_qseq>
+      <Hsp_hseq>NIDGFPWFFFNRPQDQKDGQGEREYEAEGMGSGVIVRKTEKTYYVLTNQHVTGNAKTISVML---YNGDKVQGKLIGSDQRKDVALVSFDYDKDLRVAVLGDSNTVQVGDLTYAIGAPMGYVSTVTSGIVSAVGRSGGPNRNNINDFIQTDAAINQGNSGGPLVNIYGEVIGINNWIVSSSGGSQGLAFSIPINNLKK-AIDDFITSGEIKYGWLGVQLLE</Hsp_hseq>
+      <Hsp_midline>N DG P F                   E +G+GVIVR      +++TN HV   A ++ V +       +  G+++  D+  D+AL+       L  AVLGDS+ V V D   AIG P G   TV+ GI+SA  ++        ++ +QTDAAINQGNSGGPLV   G V+GIN  I + +G   G+ F++P N  +  A+D+         GWL     E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>6.43866e-07</Hsp_evalue>
+      <Hsp_query-from>538</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>458</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>SGGSRASLLGAALTPLTQRLGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVG-MPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPV</Hsp_qseq>
+      <Hsp_hseq>SGEIKYGWLGVQLLEINDKFRESLNLKDIEGAFAGQVFLGSPADKGGIKPGDYITEVNSTKVKSVDDILRVIADLKPGESSSFKILRKG-----------KEISATVKIEERDEKNVADSSKLWPG----------------------FVPSPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV</Hsp_hseq>
+      <Hsp_midline>SG  +   LG  L  +  +     NL    G F   V   +PA   G++PGD I +V+   V   +++  ++A++  G S    +LR G             ++A V         +A  +   PG                        P P+   +     +  G  G  V  + A S AAV  LQ  DLI++VN + V</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000107345</Hsp_evalue>
+      <Hsp_query-from>551</Hsp_query-from>
+      <Hsp_query-to>626</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>TPLTQRLGLQANLPAGR-GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAG</Hsp_qseq>
+      <Hsp_hseq>SPLTDEIIKQLELKKGQNGVLVTSLQAKSPAAVMSLQPGDLIVKVNGKDV---KDVLSFYDELSNAKGEIWFDFIREG</Hsp_hseq>
+      <Hsp_midline>+PLT  +  Q  L  G+ GV V  +   +PAA   L+PGD+I+KV+G+ V   ++V +   E+ N +  +    +R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|530723723|gb|AGT42676.1|</Hit_id>
+  <Hit_def>trypsin domain/PDZ [Treponema pedis str. T A4]</Hit_def>
+  <Hit_accession>AGT42676</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.04873e-20</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>NIGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>SIGSGFFIDKRGYFITNYHVIQSEVDPKYDGYSKLYIKSPND-PNVKISAKVIGWDPLFDLALVKTEISPEAVFN---LGSSKNLNVGSKIYAMGSPAGLDKTLTSGIVSAKYRRL----FSMVDVMQIDAAINHGNSGGPIVDEDGFVQGVVFAGLERN---EGINFAIP</Hsp_hseq>
+      <Hsp_midline>+IG+G  +   G+ +TNYHV++        G + +Y+   +D  +++ S +++  D   DLAL+K  I+P+       LG S  +NV  ++ A+G+P GLD T++ GI+SAK + +     +  +++Q DAAIN GNSGGP+V  +G V G+  A    N    GI FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.135395</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>737</Hsp_query-to>
+      <Hsp_hit-from>378</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNRPV</Hsp_qseq>
+      <Hsp_hseq>GVKLGYILPDGPLSVSGVKEGSIITEFNGMPVTSVEEIQAQLLSVAPDTIITVKI-KEKDF-NGSYI------------AKELP-VLCKARPMSPG--SIVLKKDSDWR----------AVLPILGF--YLEFSGRRNSYRVAEVIPGSTADKAGFTVNDY-IEFNGKWI</Hsp_hseq>
+      <Hsp_midline>GV +  + P+ P + +G++ G +I + +G PV   EE+ A +  +     + + + +  D  N S +            A   P V+    P  PG   ++ K  +++           A  P++G       +G     +VAEV+ GS A  AG   ND  IE N + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|325473903|gb|EGC77091.1|</Hit_id>
+  <Hit_def>trypsin domain/PDZ domain-containing protein [Treponema denticola F0402]</Hit_def>
+  <Hit_accession>EGC77091</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>3.5367e-18</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIPARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000642305</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>GVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG-NSVFRKDSIARSML-----------PVFGFKLES--VGKKNSYRVAEVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG   V  K     + L           PV G    +   G     +VAEV+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|769189979|ref|WP_044958089.1|</Hit_id>
+  <Hit_def>trypsin [Treponema denticola]</Hit_def>
+  <Hit_accession>WP_044958089</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>5.22066e-18</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIHARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00784273</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>GVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG------------NSVFRKDSIARAMLPVFGFKLES--VGKKNSYRVAGVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG            N +  +     A  PV G    +   G     +VA V+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|448940832|gb|EMB21736.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9733_02073 [Treponema denticola SP33] &gt;gi|513490649|gb|EPF35663.1| hypothetical protein HMPREF9732_02379 [Treponema denticola SP32]</Hit_def>
+  <Hit_accession>EMB21736</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>6.01465e-18</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIHARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00708032</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>GVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG------------NSVFRKDSIARAMLPVFGFKLES--VGKKNSYRVAGVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG            N +  +     A  PV G    +   G     +VA V+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|498385117|ref|WP_010699273.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448940443|gb|EMB21349.1| hypothetical protein HMPREF9724_01979 [Treponema denticola SP37] &gt;gi|513487712|gb|EPF32873.1| hypothetical protein HMPREF9734_02195 [Treponema denticola SP44] &gt;gi|513495628|gb|EPF40350.1| hypothetical protein HMPREF9731_00211 [Treponema denticola SP23]</Hit_def>
+  <Hit_accession>WP_010699273</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.01776e-17</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIPARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000656049</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>GVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG-NSVFRKDSIARSML-----------PVFGFK-LEPV-GKKNSYRVAEVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG   V  K     + L           PV G     PV G     +VAEV+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|488759425|ref|WP_002682651.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448947646|gb|EMB28490.1| hypothetical protein HMPREF9727_01749 [Treponema denticola MYR-T] &gt;gi|448948395|gb|EMB29232.1| hypothetical protein HMPREF9725_02102 [Treponema denticola H1-T] &gt;gi|448955177|gb|EMB35944.1| hypothetical protein HMPREF9726_00136 [Treponema denticola H-22] &gt;gi|448958816|gb|EMB39544.1| hypothetical protein HMPREF9722_01903 [Treponema denticola ATCC 33520]</Hit_def>
+  <Hit_accession>WP_002682651</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.16103e-17</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIPARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00073355</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>GVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG-NSVFRKDSIARSML-----------PVFGFKLES--VGKKNSYRVAEVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG   V  K     + L           PV G    +   G     +VAEV+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|488755639|ref|WP_002678901.1|</Hit_id>
+  <Hit_def>trypsin [Treponema denticola] &gt;gi|42526851|ref|NP_971949.1| trypsin domain/PDZ [Treponema denticola ATCC 35405] &gt;gi|41817166|gb|AAS11860.1| trypsin domain/PDZ domain protein [Treponema denticola ATCC 35405] &gt;gi|448956367|gb|EMB37128.1| hypothetical protein HMPREF9735_01690 [Treponema denticola ATCC 33521] &gt;gi|448960690|gb|EMB41399.1| hypothetical protein HMPREF9721_00143 [Treponema denticola ATCC 35404]</Hit_def>
+  <Hit_accession>WP_002678901</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.24551e-17</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIPARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00043066</Hsp_evalue>
+      <Hsp_query-from>565</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>AGR---GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>AGRVSDGVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG-NSVFRKDSIARSML-----------PVFGFKLES--VGKKNSYRVAEVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>AGR   GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG   V  K     + L           PV G    +   G     +VAEV+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|488754629|ref|WP_002677899.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448963005|gb|EMB43690.1| hypothetical protein HMPREF9729_02126 [Treponema denticola ASLM] &gt;gi|451702353|gb|EMD56775.1| hypothetical protein HMPREF9728_01314 [Treponema denticola US-Trep]</Hit_def>
+  <Hit_accession>WP_002677899</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.24551e-17</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIPARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000656049</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>GVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG-NSVFRKDSIARSML-----------PVFGFKLES--VGKKNSYRVAEVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG   V  K     + L           PV G    +   G     +VAEV+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|448938797|gb|EMB19724.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9723_02421 [Treponema denticola OTK]</Hit_def>
+  <Hit_accession>EMB19724</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.52001e-17</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIPARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000647146</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>525</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>GVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG-NSVFRKDSIARSML-----------PVFGFKLES--VGKKNSYRVAEVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG   V  K     + L           PV G    +   G     +VAEV+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|488748166|ref|WP_002671482.1|</Hit_id>
+  <Hit_def>hypothetical protein [Treponema denticola] &gt;gi|448965599|gb|EMB46260.1| hypothetical protein HMPREF9730_00441 [Treponema denticola AL-2]</Hit_def>
+  <Hit_accession>WP_002671482</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.64942e-17</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDGFIVTNYHVVR--------GANSVYVTVKDDVGSIRYSGEIVKMDEALDLALLK--ITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLDMTVSRGIISAKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAANGTVVGINTAIYTPNGAFAGIGFAVP</Hsp_qseq>
+      <Hsp_hseq>IGSGFFIDSRGYFITNYHVIQSEVDKKYNGYSRLYIKSPDN-PNIKIPARVVGWDPLFDLALVKTEYTPQFIFN---LGSSKDLGVGSRIYAIGSPAGLEKTLTSGIVSAKYRRL----FSMVDIMQIDAAVNHGNSGGPIVDDKGLVQAVVFAGLERN---EGLNFAIP</Hsp_hseq>
+      <Hsp_midline>IG+G  + + G+ +TNYHV++        G + +Y+   D+  +I+    +V  D   DLAL+K   TP+       LG S  + V   + AIG+P GL+ T++ GI+SAK + +     +  +++Q DAA+N GNSGGP+V   G V  +  A    N    G+ FA+P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000673174</Hsp_evalue>
+      <Hsp_query-from>568</Hsp_query-from>
+      <Hsp_query-to>735</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>GVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAA-IMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAGGAPTVPGVQPVIPKVPTEFNWLGMEIETFMAPQPVVGMPGATPVAGGGKGAQVAEVLAGSRAAVAGLQANDLIIEVNNR</Hsp_qseq>
+      <Hsp_hseq>GVLVNYVLPDGPFSISGINEGTVIKEVNGIPVNSVEEIQANLLSIAP---------------ETIVLIKGYQKNEAGVYEEKTWPVLCA-ERPLYPG-NSVFRKDSIARSML-----------PVFGFKLES--VGKKNSYRVAEVIPGSFASENAFGVNDY-IEINGK</Hsp_hseq>
+      <Hsp_midline>GV VN V P+ P + +G+  G VI +V+G PV+  EE+ A +++  P                 + L+ G     A V +  T PV+ A   P  PG   V  K     + L           PV G    +   G     +VAEV+ GS A+      ND  IE+N +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|530897465|ref|WP_020966566.1|</Hit_id>
+  <Hit_def>trypsin domain-containing protein [Treponema pedis] &gt;gi|530726318|gb|AGT45271.1| trypsin domain-containing protein [Treponema pedis str. T A4]</Hit_def>
+  <Hit_accession>AGT45271</Hit_accession>
+  <Hit_len>589</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>2.39844e-05</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>IGTGVIVRNDG--FIVTNYHVVRGANSVYVTVKDDVGSI-RYSG-EIVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTP-FGLD--MTVSRGIISAKRKTMVIE-GMTHSNLLQTDAAINQGNSGGPLVAANG------TVVGIN--TAIYTPNGAFAGIGFAVPSNQARLFALDEV</Hsp_qseq>
+      <Hsp_hseq>FGSGFFIKEKGNVYVLTNYHVVAYASAVTVEIENAEGEITKIDGCPIVAINEQLDLAAAEVPAGKVKSFLTFAESEPPEGTD-VWSAGYPALGKKPLWQLGKGSVTNAKARLPKEIDPKKSYFIQHSAQIDSGNSGGPLLQKDSKSPNGYTVVGINSSSAIFR-----QAANFSIPISSIKIFLSERV</Hsp_hseq>
+      <Hsp_midline> G+G  ++  G  +++TNYHVV  A++V V +++  G I +  G  IV ++E LDLA  ++      +     +S+     D V + G P  G      + +G ++  +  +  E     S  +Q  A I+ GNSGGPL+  +       TVVGIN  +AI+          F++P +  ++F  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|498377167|ref|WP_010691323.1|</Hit_id>
+  <Hit_def>serine protease [Treponema denticola] &gt;gi|448957635|gb|EMB38375.1| hypothetical protein HMPREF9722_02255 [Treponema denticola ATCC 33520]</Hit_def>
+  <Hit_accession>WP_010691323</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.89049e-05</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>QVMPDPLGLVNPDGLPRFANPTTRSVENI-GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKD-DVGSIRYSGE-IVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD----MTVSRGIIS-AKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAA---------NG-TVVGINTAIYTPNGAF-AGIGFAVPSNQARLF</Hsp_qseq>
+      <Hsp_hseq>QFMDDAADEISKAGYSDIAELFEKAKDGVFGSGFFIRGQNKKIYVLTNYHVAAYASSLSLEIENIDGAKIKIENCPVVAIDEELDLAIAEVEDKRVKSFLDFADKLPSDGAD-VWSAGYP-GLGGKPLWQLGKGTVTNSKARLSNIVDPKKSFFIQHSAPIDSGNSGGPLLVKSPNSSGGGHNGYEVIGINSA----KAVFRQSTNFAIPATSIKNF</Hsp_hseq>
+      <Hsp_midline>Q M D    ++  G    A    ++ + + G+G  +R      +++TNYHV   A+S+ + +++ D   I+     +V +DE LDLA+ ++  K   +     D    + AD V + G P GL       + +G ++ +K +   I     S  +Q  A I+ GNSGGPL+           NG  V+GIN+A       F     FA+P+   + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|488766496|ref|WP_002689696.1|</Hit_id>
+  <Hit_def>serine protease [Treponema denticola] &gt;gi|448946575|gb|EMB27429.1| hypothetical protein HMPREF9727_02145 [Treponema denticola MYR-T] &gt;gi|448947221|gb|EMB28068.1| hypothetical protein HMPREF9725_02498 [Treponema denticola H1-T]</Hit_def>
+  <Hit_accession>WP_002689696</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.02813e-05</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>QVMPDPLGLVNPDGLPRFANPTTRSVENI-GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKD-DVGSIRYSGE-IVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD----MTVSRGIIS-AKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAA---------NG-TVVGINTAIYTPNGAF-AGIGFAVPSNQARLF</Hsp_qseq>
+      <Hsp_hseq>QFMDDAADEISKAGYSDIAELFEKAKDGVFGSGFFIRGQNKKIYVLTNYHVAAYASSLSLEIENIDGAKIKIENCPVVAIDEELDLAIAEVEDKRVKSFLDFADKLPSDGAD-VWSAGYP-GLGGKPLWQLGKGTVTNSKARLSNIVDPKKSFFIQHSAPIDSGNSGGPLLVKSPNSSGGGHNGYEVIGINSA----KAVFRQSTNFAIPATSIKNF</Hsp_hseq>
+      <Hsp_midline>Q M D    ++  G    A    ++ + + G+G  +R      +++TNYHV   A+S+ + +++ D   I+     +V +DE LDLA+ ++  K   +     D    + AD V + G P GL       + +G ++ +K +   I     S  +Q  A I+ GNSGGPL+           NG  V+GIN+A       F     FA+P+   + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|325473387|gb|EGC76582.1|</Hit_id>
+  <Hit_def>hypothetical protein HMPREF9353_02377 [Treponema denticola F0402]</Hit_def>
+  <Hit_accession>EGC76582</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.27122e-05</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>QVMPDPLGLVNPDGLPRFANPTTRSVENI-GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKD-DVGSIRYSGE-IVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD----MTVSRGIIS-AKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAA---------NG-TVVGINTAIYTPNGAF-AGIGFAVPSNQARLF</Hsp_qseq>
+      <Hsp_hseq>QFMDDAADEISKAGYSDIAELFEKAKDGVFGSGFFIRGQNKKIYVLTNYHVAAYASSLSLEIENIDGAKIKIENCPVVAIDEELDLAIAEVEDKRVKSFLDFADKLPSDGAD-VWSAGYP-GLGGKPLWQLGKGTVTNSKARLSNIVDPKKSFFIQHSAPIDSGNSGGPLLVKSPNSSGGGHNGYEVIGINSA----KAVFRQSTNFAIPATSIKNF</Hsp_hseq>
+      <Hsp_midline>Q M D    ++  G    A    ++ + + G+G  +R      +++TNYHV   A+S+ + +++ D   I+     +V +DE LDLA+ ++  K   +     D    + AD V + G P GL       + +G ++ +K +   I     S  +Q  A I+ GNSGGPL+           NG  V+GIN+A       F     FA+P+   + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|498384747|ref|WP_010698903.1|</Hit_id>
+  <Hit_def>serine protease [Treponema denticola] &gt;gi|448941754|gb|EMB22654.1| hypothetical protein HMPREF9724_01598 [Treponema denticola SP37] &gt;gi|513489531|gb|EPF34639.1| hypothetical protein HMPREF9734_00179 [Treponema denticola SP44] &gt;gi|513493669|gb|EPF38469.1| hypothetical protein HMPREF9731_02478 [Treponema denticola SP23]</Hit_def>
+  <Hit_accession>WP_010698903</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>3.55155e-05</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>336</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>QVMPDPLGLVNPDGLPRFANPTTRSVENI-GTGVIVRNDG---FIVTNYHVVRGANSVYVTVKD-DVGSIRYSGE-IVKMDEALDLALLKITPKVQLTAAVLGDSDAVNVADEVIAIGTPFGLD----MTVSRGIIS-AKRKTMVIEGMTHSNLLQTDAAINQGNSGGPLVAA---------NG-TVVGINTAIYTPNGAF-AGIGFAVPSNQARLF</Hsp_qseq>
+      <Hsp_hseq>QFMDDAADEISKAGYSDIAELFEKAKDGVFGSGFFIRGQNKKIYVLTNYHVAAYASSLSLEIENIDGAKIKIENCPVVAIDEELDLAIAEVEDKRVKSFLDFADKLPSDGAD-VWSAGYP-GLGGKPLWQLGKGTVTNSKARLSNIVDPKKSFFIQHSAPIDSGNSGGPLLVKSPNSSGGGHNGYEVIGINSA----KAVFRQSTNFAIPATSIKNF</Hsp_hseq>
+      <Hsp_midline>Q M D    ++  G    A    ++ + + G+G  +R      +++TNYHV   A+S+ + +++ D   I+     +V +DE LDLA+ ++  K   +     D    + AD V + G P GL       + +G ++ +K +   I     S  +Q  A I+ GNSGGPL+           NG  V+GIN+A       F     FA+P+   + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|530896820|ref|WP_020965921.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Treponema pedis] &gt;gi|530725671|gb|AGT44624.1| membrane-associated zinc metalloprotease [Treponema pedis str. T A4]</Hit_def>
+  <Hit_accession>AGT44624</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00707217</Hsp_evalue>
+      <Hsp_query-from>557</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>LGLQANLPAGRGVFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>IGFYSYVPAE----LAGTVPSSAAEAAGLKEGDIIIKADGEQIRNTRDLEAVLKK-SLAETAEFTVLRNGE</Hsp_hseq>
+      <Hsp_midline>+G  + +PA     + G  P++ A +AGL+ GD+I+K DG  +    ++ A++ +     +    VLR G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.771761</Hsp_evalue>
+      <Hsp_query-from>707</Hsp_query-from>
+      <Hsp_query-to>767</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AQVAEVLAGSRAAVAGLQANDLIIEVNNRPVTSPARLDAAIKAATAAGQQILLKVHRNGQE</Hsp_qseq>
+      <Hsp_hseq>AELAGTVPSSAAEAAGLKEGDIIIKADGEQIRNTRDLEAVLKKSLAETAE--FTVLRNGEE</Hsp_hseq>
+      <Hsp_midline>A++A  +  S A  AGL+  D+II+ +   + +   L+A +K + A   +    V RNG+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|488778750|ref|WP_002691157.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Treponema denticola] &gt;gi|448942715|gb|EMB23609.1| RIP metalloprotease RseP [Treponema denticola OTK]</Hit_def>
+  <Hit_accession>WP_002691157</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0293127</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>640</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD--VSNMSLVTGPSGL</Hsp_qseq>
+      <Hsp_hseq>INGVKPSSSAELAGLKKGDLITEVNGIEVANTIELNRALNGISE-KTAELGILRDGNKITKTVSLIRTENGI</Hsp_hseq>
+      <Hsp_midline>+NGV P++ A  AGL+ GD+I +V+G  V    E+   +  +   ++  +G+LR G+     +SL+   +G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.91141</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VYYYNEADDSPAREADLRMGDVILSINGEKTETFADIVRLI--VPEAKEEVTLEIEREGQILTKKL</Hsp_hseq>
+      <Hsp_midline>V+      ++PA  A LR GDVIL ++G       ++  ++  +P  +  V + + R G +    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|488750980|ref|WP_002674272.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Treponema denticola] &gt;gi|448963483|gb|EMB44161.1| RIP metalloprotease RseP [Treponema denticola AL-2]</Hit_def>
+  <Hit_accession>WP_002674272</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0306028</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>640</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD--VSNMSLVTGPSGL</Hsp_qseq>
+      <Hsp_hseq>INGVKPSSSAELAGLKKGDLITEVNGIEVANTIELNRALNGISE-KTAELGILRDGNKITKTVSLIRTENGI</Hsp_hseq>
+      <Hsp_midline>+NGV P++ A  AGL+ GD+I +V+G  V    E+   +  +   ++  +G+LR G+     +SL+   +G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.91141</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VYYYNEADDSPAREADLRMGDVILSINGEKTETFADIVRLI--VPEAKEEVTLEIEREGQILTKKL</Hsp_hseq>
+      <Hsp_midline>V+      ++PA  A LR GDVIL ++G       ++  ++  +P  +  V + + R G +    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|325474928|gb|EGC78114.1|</Hit_id>
+  <Hit_def>membrane-associated zinc metalloprotease [Treponema denticola F0402]</Hit_def>
+  <Hit_accession>EGC78114</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0389494</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>INGVKPSSSAELAGLKKGDLITEVNGIEVANTIDLNRALDGI-SGKTAELGILRDGN</Hsp_hseq>
+      <Hsp_midline>+NGV P++ A  AGL+ GD+I +V+G  V    ++   +  + +G++  +G+LR G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|488765213|ref|WP_002688413.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Treponema denticola] &gt;gi|448949175|gb|EMB30000.1| RIP metalloprotease RseP [Treponema denticola MYR-T] &gt;gi|448950334|gb|EMB31156.1| RIP metalloprotease RseP [Treponema denticola H1-T]</Hit_def>
+  <Hit_accession>WP_002688413</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0625464</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>640</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD--VSNMSLVTGPSGL</Hsp_qseq>
+      <Hsp_hseq>IDGVKPSSSAELAGLKKGDLITEVNGIEVANTIDLNRALNGI-SGKTAELGILRDGNKITKTVSLIRTENGI</Hsp_hseq>
+      <Hsp_midline>++GV P++ A  AGL+ GD+I +V+G  V    ++   +  + +G++  +G+LR G+     +SL+   +G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.99692</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VYYYNEADDSPAREADLRMGDVILSINGEKTETFADIVRLI--VPEAKEEVTLEIEREGQILTKKL</Hsp_hseq>
+      <Hsp_midline>V+      ++PA  A LR GDVIL ++G       ++  ++  +P  +  V + + R G +    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|498375570|ref|WP_010689726.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Treponema denticola] &gt;gi|448960937|gb|EMB41645.1| RIP metalloprotease RseP [Treponema denticola ATCC 33520]</Hit_def>
+  <Hit_accession>WP_010689726</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0705594</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>IDGVKPSSSAERAGLKKGDLITEVNGIEVANTIDLNRALGGI-SGKTAELGILRDGN</Hsp_hseq>
+      <Hsp_midline>++GV P++ A  AGL+ GD+I +V+G  V    ++   +  + +G++  +G+LR G+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.57662</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>633</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VFVNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGR-SVRIGVLRAGDVSNMSL</Hsp_qseq>
+      <Hsp_hseq>VYYYNEADDSPAREADLRMGDVILSINGEKTETFADIVRLI--VPEAKEEVTLEIEREGQILTKKL</Hsp_hseq>
+      <Hsp_midline>V+      ++PA  A LR GDVIL ++G       ++  ++  +P  +  V + + R G +    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|498376176|ref|WP_010690332.1|</Hit_id>
+  <Hit_def>peptidase [Treponema denticola] &gt;gi|448960340|gb|EMB41055.1| C-terminal processing peptidase [Treponema denticola ATCC 33520]</Hit_def>
+  <Hit_accession>WP_010690332</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0715995</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEEITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG    +  +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|488765701|ref|WP_002688901.1|</Hit_id>
+  <Hit_def>peptidase [Treponema denticola] &gt;gi|448949054|gb|EMB29880.1| C-terminal processing peptidase [Treponema denticola H1-T] &gt;gi|448949582|gb|EMB30407.1| C-terminal processing peptidase [Treponema denticola MYR-T]</Hit_def>
+  <Hit_accession>WP_002688901</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0722172</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEEITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG    +  +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|488751966|ref|WP_002675250.1|</Hit_id>
+  <Hit_def>peptidase [Treponema denticola] &gt;gi|448967393|gb|EMB48029.1| C-terminal processing peptidase [Treponema denticola ASLM] &gt;gi|451701769|gb|EMD56228.1| C-terminal processing peptidase [Treponema denticola US-Trep]</Hit_def>
+  <Hit_accession>WP_002675250</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0728403</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEEITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG    +  +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|488756321|ref|WP_002679576.1|</Hit_id>
+  <Hit_def>peptidase [Treponema denticola] &gt;gi|448957576|gb|EMB38317.1| C-terminal processing peptidase [Treponema denticola ATCC 33521] &gt;gi|448958499|gb|EMB39229.1| C-terminal processing peptidase [Treponema denticola ATCC 35404]</Hit_def>
+  <Hit_accession>WP_002679576</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.076037</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEEITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG    +  +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|488773617|ref|WP_002690377.1|</Hit_id>
+  <Hit_def>peptidase [Treponema denticola] &gt;gi|448943697|gb|EMB24584.1| C-terminal processing peptidase [Treponema denticola OTK]</Hit_def>
+  <Hit_accession>WP_002690377</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.076693</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEEITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG    +  +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|488757010|ref|WP_002680259.1|</Hit_id>
+  <Hit_def>RIP metalloprotease RseP [Treponema denticola] &gt;gi|42527842|ref|NP_972940.1| membrane-associated zinc metalloprotease [Treponema denticola ATCC 35405] &gt;gi|41818670|gb|AAS12859.1| membrane-associated zinc metalloprotease, putative [Treponema denticola ATCC 35405] &gt;gi|448957453|gb|EMB38195.1| RIP metalloprotease RseP [Treponema denticola ATCC 35404] &gt;gi|448959430|gb|EMB40151.1| RIP metalloprotease RseP [Treponema denticola ATCC 33521]</Hit_def>
+  <Hit_accession>WP_002680259</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.121367</Hsp_evalue>
+      <Hsp_query-from>571</Hsp_query-from>
+      <Hsp_query-to>627</Hsp_query-to>
+      <Hsp_hit-from>224</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VNGVTPNTPAASAGLRPGDVILKVDGRPVHQPEEVAAIMAEMPNGRSVRIGVLRAGD</Hsp_qseq>
+      <Hsp_hseq>IDGVKPSSSAELAGLKKGDLITEVNGIEVANTVDLNRALDGI-SGKTAELGILRDGN</Hsp_hseq>
+      <Hsp_midline>++GV P++ A  AGL+ GD+I +V+G  V    ++   +  + +G++  +G+LR G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|498385484|ref|WP_010699640.1|</Hit_id>
+  <Hit_def>peptidase [Treponema denticola] &gt;gi|448938940|gb|EMB19866.1| C-terminal processing peptidase [Treponema denticola SP37] &gt;gi|513488200|gb|EPF33352.1| C-terminal processing peptidase [Treponema denticola SP44] &gt;gi|513495361|gb|EPF40093.1| C-terminal processing peptidase [Treponema denticola SP23]</Hit_def>
+  <Hit_accession>WP_010699640</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.140456</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEDITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG       +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|488751755|ref|WP_002675042.1|</Hit_id>
+  <Hit_def>peptidase [Treponema denticola] &gt;gi|448962236|gb|EMB42929.1| C-terminal processing peptidase [Treponema denticola AL-2]</Hit_def>
+  <Hit_accession>WP_002675042</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.146055</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEDITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG       +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|488760130|ref|WP_002683348.1|</Hit_id>
+  <Hit_def>peptidase [Treponema denticola] &gt;gi|448954061|gb|EMB34844.1| C-terminal processing peptidase [Treponema denticola H-22]</Hit_def>
+  <Hit_accession>WP_002683348</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.147315</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEDITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG       +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|325473653|gb|EGC76842.1|</Hit_id>
+  <Hit_def>carboxyl-terminal protease [Treponema denticola F0402]</Hit_def>
+  <Hit_accession>EGC76842</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.147315</Hsp_evalue>
+      <Hsp_query-from>578</Hsp_query-from>
+      <Hsp_query-to>656</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>TPAASAGLRPGDVILKVDGRPVHQ-PEEVAAIMAEMPNGRSVRIGVLRAGDVSNMSLVTGPSGLAAAVVQAPTAPVVMAG</Hsp_qseq>
+      <Hsp_hseq>TPGWKAGLQPGDYIIEIDGVKTEDITQEDVLNMLRGKEGTQVTIKVLRGKNLK-FDLT-----LTRAIIEVPTIKYTKIG</Hsp_hseq>
+      <Hsp_midline>TP   AGL+PGD I+++DG       +E    M     G  V I VLR  ++    L      L  A+++ PT      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>27415</Statistics_db-num>
+      <Statistics_db-len>9557391</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99592.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>347</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99592.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>347</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|493739312|ref|WP_006688469.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Ureaplasma parvum] &gt;gi|13431492|sp|Q9PQF2.1|DNAK_UREPA RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 &gt;gi|189027831|sp|B1AIX8.1|DNAK_UREP2 RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 &gt;gi|11277096|pir||H82902 heat shock protein 70 (hsp70) UU339 [imported] - Ureaplasma urealyticum &gt;gi|6899318|gb|AAF30748.1|AE002131_2 heat shock protein 70 (hsp70) [Ureaplasma parvum serovar 3 str. ATCC 700970] &gt;gi|168827511|gb|ACA32773.1| chaperone protein DnaK [Ureaplasma parvum serovar 3 str. ATCC 27815] &gt;gi|171902560|gb|EDT48849.1| chaperone protein DnaK [Ureaplasma parvum serovar 1 str. ATCC 27813] &gt;gi|182675757|gb|EDT87662.1| chaperone protein DnaK [Ureaplasma parvum serovar 14 str. ATCC 33697] &gt;gi|186700846|gb|EDU19128.1| chaperone protein DnaK [Ureaplasma parvum serovar 6 str. ATCC 27818] &gt;gi|620597140|dbj|BAO73705.1| molecular chaperone DnaK [Ureaplasma parvum serovar 3]</Hit_def>
+  <Hit_accession>Q9PQF2</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.00638302</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>RLFLGIDLGTSHTAVMTSRGKK-FLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMR-----SYLDLRYPLQDGVLSEISDRDI---EVARHLLTHVVKSAEPGANDEIC-AVIGVPA------RASGANKALLLKMAQEVVHTALVVSEPF--MVGYGLDKLN---NTIIVDIGAGTTDICAL---KGTVPGPEDQVTLTKAGNYL-----DERLQNAILE----------RHPELQMNTNVACAVKEQFSFVGARGEAATFEFRA---AGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATV--LQNIVFAGGGSRIRGLAAYVKD</Hsp_qseq>
+      <Hsp_hseq>EIILGIDLGTTNSCVAVIENKKPIVLENPEGKRTVPSVVSFNGDEVLVGDAAKRKQITNPNTISSIKRLMGTKEKVTVLNKDYTPEEISAKILTYIKEYAEKKIGAKVNKAVITVPAYFDDAQRQATKNAGIIAGLSVE-----RIINEPTAAALAYGIDKLDKEQKILVFDLGGGTFDVSVLDMADGTF-----EVLSTSGDNHLGGDDWDQVIINWLLKSIADEFNIDLSKNKMAMQRLKDAAEKAKIELSGINTTTISLPFIAMDSSGQPINFE-KELNRATFDNLTKNLIERLKKPVLDAMKESKLSLVDIDQVLMVGGSTRMPAVQNLVKE</Hsp_hseq>
+      <Hsp_midline> + LGIDLGT+++ V     KK  +L++  G       +   G   +VGD A   +     +   ++  +       + ++D    E++  +LT++ + AE     ++  AVI VPA      R +  N  ++  ++ E      +++EP    + YG+DKL+     ++ D+G GT D+  L    GT      +V  T   N+L     D+ + N +L+             ++ M      A K +    G      +  F A   +G+P+  +  E  +   + L  ++IE ++  +     E + ++  +  ++  GG +R+  +   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|515260587|ref|WP_016829282.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Ureaplasma urealyticum]</Hit_def>
+  <Hit_accession>WP_016829282</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.014713</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>RLFLGIDLGTSHTAVMTSRGKKFLL----------KSVVGYPKDVIGL------KLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGANDEIC-AVIGVPA------RASGANKALLLKMAQEVVHTALVVSEPFM--VGYGLDKLNN---TIIVDIGAGTTDICAL---KGTVPGPEDQVTLTKAGNYL-----DERLQNAILE----------RHPELQMNTNVACAVKEQFSFVGARGEAATFEFRA---AGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATV--LQNIVFAGGGSRIRGLAAYVKD</Hsp_qseq>
+      <Hsp_hseq>EIILGIDLGTTNSCVAVIENKKPIVLENPEGKRTVPSVVSFNGDEVLVGDAAKRKQITNPNTVSSIKRLMGTKEKVTI-LNKGYTPE------EISAKILSYIKDYAEKKLGTKINKAVITVPAYFDDAQRQATKNAGIIAGLTVE-----RIINEPTAAALAYGIDKLDKEQKILVFDLGGGTFDVSVLDMADGTF-----EVLSTSGDNHLGGDDWDQVIINWLLKSIADEFNIDLSKNKMAMQRLKDAAEKAKIELSGVNTTTISLPFIAMDSSGQPINFE-KELNRATFDNLTKNLIERLKKPVLDAMKESKLSLADIDQVLMVGGSTRMPAVQNLVKE</Hsp_hseq>
+      <Hsp_midline> + LGIDLGT+++ V     KK ++           SVV +  D + +      K +  P  V      M +   +   L  G   E      E++  +L+++   AE     +I  AVI VPA      R +  N  ++  +  E      +++EP    + YG+DKL+     ++ D+G GT D+  L    GT      +V  T   N+L     D+ + N +L+             ++ M      A K +    G      +  F A   +G+P+  +  E  +   + L  ++IE ++  +     E + ++  +  ++  GG +R+  +   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|188997856|gb|EDU66953.1|</Hit_id>
+  <Hit_def>chaperone protein DnaK [Ureaplasma urealyticum serovar 11 str. ATCC 33695]</Hit_def>
+  <Hit_accession>EDU66953</Hit_accession>
+  <Hit_len>625</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.0263578</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>RLFLGIDLGTSHTAVMTSRGKK-FLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMR-----SYLDLRYPLQDGVLSEISDRDI---EVARHLLTHVVKSAEPGANDEIC-AVIGVPA------RASGANKALLLKMAQEVVHTALVVSEPFM--VGYGLDKLNN---TIIVDIGAGTTDICAL---KGTVPGPEDQVTLTKAGNYL-----DERLQNAILE----------RHPELQMNTNVACAVKEQFSFVGARGEAATFEFRA---AGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATV--LQNIVFAGGGSRIRGLAAYVKD</Hsp_qseq>
+      <Hsp_hseq>EIILGIDLGTTNSCVAVIENKKPIVLENPEGKRTVPSVVSFNGDEVLVGDAAKRKQITNPNTVSSIKRLMGTKEKVTILNKEYTPEEISAKILSYIKDYAEKKLGTKINKAVITVPAYFDDAQRQATKNAGIIAGLTVE-----RIINEPTAAALAYGIDKLDKEQKILVFDLGGGTFDVSVLDMADGTF-----EVLSTSGDNHLGGDDWDQVIINWLLKSIADEFNIDLSKNKMAMQRLKDAAEKAKIELSGVNTTTISLPFIAMDSSGQPINFE-KELNRATFDNLTKNLIERLKKPVLDAMKESKLSLADIDQVLMVGGSTRMPAVQNLVKE</Hsp_hseq>
+      <Hsp_midline> + LGIDLGT+++ V     KK  +L++  G       +   G   +VGD A   +     +   ++  +       I +++    E++  +L+++   AE     +I  AVI VPA      R +  N  ++  +  E      +++EP    + YG+DKL+     ++ D+G GT D+  L    GT      +V  T   N+L     D+ + N +L+             ++ M      A K +    G      +  F A   +G+P+  +  E  +   + L  ++IE ++  +     E + ++  +  ++  GG +R+  +   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|740272916|ref|WP_038113189.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Ureaplasma urealyticum]</Hit_def>
+  <Hit_accession>WP_038113189</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.0292759</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>RLFLGIDLGTSHTAVMTSRGKK-FLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMR-----SYLDLRYPLQDGVLSEISDRDI---EVARHLLTHVVKSAEPGANDEIC-AVIGVPA------RASGANKALLLKMAQEVVHTALVVSEPFM--VGYGLDKLNN---TIIVDIGAGTTDICAL---KGTVPGPEDQVTLTKAGNYL-----DERLQNAILE----------RHPELQMNTNVACAVKEQFSFVGARGEAATFEFRA---AGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATV--LQNIVFAGGGSRIRGLAAYVKD</Hsp_qseq>
+      <Hsp_hseq>EIILGIDLGTTNSCVAVIENKKPIVLENPEGKRTVPSVVSFNGDEVLVGDAAKRKQITNPNTVSSIKRLMGTKEKVTILNKEYTPEEISAKILSYIKDYAEKKLGTKINKAVITVPAYFDDAQRQATKNAGIIAGLTVE-----RIINEPTAAALAYGIDKLDKEQKILVFDLGGGTFDVSVLDMADGTF-----EVLSTSGDNHLGGDDWDQVIINWLLKSIADEFNIDLSKNKMAMQRLKDAAEKAKIELSGVNTTTISLPFIAMDSSGQPINFE-KELNRATFDNLTKNLIERLKKPVLDAMKESKLSLADIDQVLMVGGSTRMPAVQNLVKE</Hsp_hseq>
+      <Hsp_midline> + LGIDLGT+++ V     KK  +L++  G       +   G   +VGD A   +     +   ++  +       I +++    E++  +L+++   AE     +I  AVI VPA      R +  N  ++  +  E      +++EP    + YG+DKL+     ++ D+G GT D+  L    GT      +V  T   N+L     D+ + N +L+             ++ M      A K +    G      +  F A   +G+P+  +  E  +   + L  ++IE ++  +     E + ++  +  ++  GG +R+  +   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|501555804|ref|WP_012560313.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Ureaplasma urealyticum] &gt;gi|226738193|sp|B5ZBE9.1|DNAK_UREU1 RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName: Full=Heat shock 70 kDa protein; AltName: Full=Heat shock protein 70 &gt;gi|209541979|gb|ACI60208.1| chaperone protein DnaK [Ureaplasma urealyticum serovar 10 str. ATCC 33699]</Hit_def>
+  <Hit_accession>WP_012560313</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.0297794</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>RLFLGIDLGTSHTAVMTSRGKK-FLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMR-----SYLDLRYPLQDGVLSEISDRDI---EVARHLLTHVVKSAEPGANDEIC-AVIGVPA------RASGANKALLLKMAQEVVHTALVVSEPFM--VGYGLDKLNN---TIIVDIGAGTTDICAL---KGTVPGPEDQVTLTKAGNYL-----DERLQNAILE----------RHPELQMNTNVACAVKEQFSFVGARGEAATFEFRA---AGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATV--LQNIVFAGGGSRIRGLAAYVKD</Hsp_qseq>
+      <Hsp_hseq>EIILGIDLGTTNSCVAVIENKKPIVLENPEGKRTVPSVVSFNGDEVLVGDAAKRKQITNPNTVSSIKRLMGTKEKVTILNKEYTPEEISAKILSYIKDYAEKKLGTKINKAVITVPAYFDDAQRQATKNAGIIAGLTVE-----RIINEPTAAALAYGIDKLDKEQKILVFDLGGGTFDVSVLDMADGTF-----EVLSTSGDNHLGGDDWDQVIINWLLKSIADEFNIDLSKNKMAMQRLKDAAEKAKIELSGVNTTTISLPFIAMDSSGQPINFE-KELNRATFDNLTKNLIERLKKPVLDAMKESKLSLADIDQVLMVGGSTRMPAVQNLVKE</Hsp_hseq>
+      <Hsp_midline> + LGIDLGT+++ V     KK  +L++  G       +   G   +VGD A   +     +   ++  +       I +++    E++  +L+++   AE     +I  AVI VPA      R +  N  ++  +  E      +++EP    + YG+DKL+     ++ D+G GT D+  L    GT      +V  T   N+L     D+ + N +L+             ++ M      A K +    G      +  F A   +G+P+  +  E  +   + L  ++IE ++  +     E + ++  +  ++  GG +R+  +   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|490125360|ref|WP_004025837.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Ureaplasma urealyticum] &gt;gi|188018809|gb|EDU56849.1| chaperone protein DnaK [Ureaplasma urealyticum serovar 7 str. ATCC 27819] &gt;gi|195660316|gb|EDX53578.1| chaperone protein DnaK [Ureaplasma urealyticum serovar 9 str. ATCC 33175] &gt;gi|225379113|gb|EEH01478.1| conserved domain protein [Ureaplasma urealyticum serovar 8 str. ATCC 27618]</Hit_def>
+  <Hit_accession>WP_004025837</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.0305671</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>RLFLGIDLGTSHTAVMTSRGKK-FLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMR-----SYLDLRYPLQDGVLSEISDRDI---EVARHLLTHVVKSAEPGANDEIC-AVIGVPA------RASGANKALLLKMAQEVVHTALVVSEPFM--VGYGLDKLNN---TIIVDIGAGTTDICAL---KGTVPGPEDQVTLTKAGNYL-----DERLQNAILE----------RHPELQMNTNVACAVKEQFSFVGARGEAATFEFRA---AGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATV--LQNIVFAGGGSRIRGLAAYVKD</Hsp_qseq>
+      <Hsp_hseq>EIILGIDLGTTNSCVAVIENKKPIVLENPEGKRTVPSVVSFNGDEVLVGDAAKRKQITNPNTVSSIKRLMGTKEKVTILNKEYTPEEISAKILSYIKDYAEKKLGTKINKAVITVPAYFDDAQRQATKNAGIIAGLTVE-----RIINEPTAAALAYGIDKLDKEQKILVFDLGGGTFDVSVLDMADGTF-----EVLSTSGDNHLGGDDWDQVIINWLLKSIADEFNIDLSKNKMAMQRLKDAAEKAKIELSGVNTTTISLPFIAMDSSGQPINFE-KELNRATFDNLTKNLIERLKKPVLDAMKESKLSLADIDQVLMVGGSTRMPAVQNLVKE</Hsp_hseq>
+      <Hsp_midline> + LGIDLGT+++ V     KK  +L++  G       +   G   +VGD A   +     +   ++  +       I +++    E++  +L+++   AE     +I  AVI VPA      R +  N  ++  +  E      +++EP    + YG+DKL+     ++ D+G GT D+  L    GT      +V  T   N+L     D+ + N +L+             ++ M      A K +    G      +  F A   +G+P+  +  E  +   + L  ++IE ++  +     E + ++  +  ++  GG +R+  +   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|490126972|ref|WP_004027426.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Ureaplasma urealyticum] &gt;gi|225379866|gb|EEH02228.1| conserved domain protein [Ureaplasma urealyticum serovar 2 str. ATCC 27814]</Hit_def>
+  <Hit_accession>WP_004027426</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.0311471</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>RLFLGIDLGTSHTAVMTSRGKK-FLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMR-----SYLDLRYPLQDGVLSEISDRDI---EVARHLLTHVVKSAEPGANDEIC-AVIGVPA------RASGANKALLLKMAQEVVHTALVVSEPFM--VGYGLDKLNN---TIIVDIGAGTTDICAL---KGTVPGPEDQVTLTKAGNYL-----DERLQNAILE----------RHPELQMNTNVACAVKEQFSFVGARGEAATFEFRA---AGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATV--LQNIVFAGGGSRIRGLAAYVKD</Hsp_qseq>
+      <Hsp_hseq>EIILGIDLGTTNSCVAVIENKKPIVLENPEGKRTVPSVVSFNGDEVLVGDAAKRKQITNPNTVSSIKRLMGTKEKVTILNKEYTPEEISAKILSYIKDYAEKKLGTKINKAVITVPAYFDDAQRQATKNAGIIAGLTVE-----RIINEPTAAALAYGIDKLDKEQKILVFDLGGGTFDVSVLDMADGTF-----EVLSTSGDNHLGGDDWDQVIINWLLKSIADEFNIDLSKNKMAMQRLKDAAEKAKIELSGVNTTTISLPFIAMDSSGQPINFE-KELNRATFDNLTKNLIERLKKPVLDAMKESKLSLADIDQVLMVGGSTRMPAVQNLVKE</Hsp_hseq>
+      <Hsp_midline> + LGIDLGT+++ V     KK  +L++  G       +   G   +VGD A   +     +   ++  +       I +++    E++  +L+++   AE     +I  AVI VPA      R +  N  ++  +  E      +++EP    + YG+DKL+     ++ D+G GT D+  L    GT      +V  T   N+L     D+ + N +L+             ++ M      A K +    G      +  F A   +G+P+  +  E  +   + L  ++IE ++  +     E + ++  +  ++  GG +R+  +   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|490126048|ref|WP_004026516.1|</Hit_id>
+  <Hit_def>molecular chaperone DnaK [Ureaplasma urealyticum] &gt;gi|195659695|gb|EDX53075.1| chaperone protein DnaK [Ureaplasma urealyticum serovar 12 str. ATCC 33696] &gt;gi|198249730|gb|EDY74511.1| chaperone protein DnaK [Ureaplasma urealyticum serovar 4 str. ATCC 27816]</Hit_def>
+  <Hit_accession>WP_004026516</Hit_accession>
+  <Hit_len>600</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.0322054</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>RLFLGIDLGTSHTAVMTSRGKK-FLLKSVVGYPKDVIGLKLLGRPYVVGDEAFEMR-----SYLDLRYPLQDGVLSEISDRDI---EVARHLLTHVVKSAEPGANDEIC-AVIGVPA------RASGANKALLLKMAQEVVHTALVVSEPFM--VGYGLDKLNN---TIIVDIGAGTTDICAL---KGTVPGPEDQVTLTKAGNYL-----DERLQNAILE----------RHPELQMNTNVACAVKEQFSFVGARGEAATFEFRA---AGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATV--LQNIVFAGGGSRIRGLAAYVKD</Hsp_qseq>
+      <Hsp_hseq>EIILGIDLGTTNSCVAVIENKKPIVLENPEGKRTVPSVVSFNGDEVLVGDAAKRKQITNPNTVSSIKRLMGTKEKVTILNKEYTPEEISAKILSYIKDYAEKKLGTKINKAVITVPAYFDDAQRQATKNAGIIAGLTVE-----RIINEPTAAALAYGIDKLDKEQKILVFDLGGGTFDVSVLDMADGTF-----EVLSTSGDNHLGGDDWDQVIINWLLKSIADEFNIDLSKNKMAMQRLKDAAEKAKIELSGVNTTTISLPFIAMDSSGQPINFE-KELNRATFDNLTKNLIERLKKPVLDAMKESKLSLADIDQVLMVGGSTRMPAVQNLVKE</Hsp_hseq>
+      <Hsp_midline> + LGIDLGT+++ V     KK  +L++  G       +   G   +VGD A   +     +   ++  +       I +++    E++  +L+++   AE     +I  AVI VPA      R +  N  ++  +  E      +++EP    + YG+DKL+     ++ D+G GT D+  L    GT      +V  T   N+L     D+ + N +L+             ++ M      A K +    G      +  F A   +G+P+  +  E  +   + L  ++IE ++  +     E + ++  +  ++  GG +R+  +   VK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|493739346|ref|WP_006688502.1|</Hit_id>
+  <Hit_def>deoxyribonuclease [Ureaplasma parvum] &gt;gi|13959653|sp|Q9PRC8.1|Y017_UREPA RecName: Full=Uncharacterized metal-dependent hydrolase UU017 &gt;gi|11279509|pir||E82944 hypothetical UU017 [imported] - Ureaplasma urealyticum &gt;gi|6898962|gb|AAF30422.1|AE002101_5 hypothetical [Ureaplasma parvum serovar 3 str. ATCC 700970] &gt;gi|168827519|gb|ACA32781.1| hydrolase, TatD family [Ureaplasma parvum serovar 3 str. ATCC 27815] &gt;gi|171902568|gb|EDT48857.1| hydrolase, TatD family [Ureaplasma parvum serovar 1 str. ATCC 27813] &gt;gi|182676078|gb|EDT87983.1| hydrolase, TatD family [Ureaplasma parvum serovar 14 str. ATCC 33697] &gt;gi|186700880|gb|EDU19162.1| hydrolase, TatD family [Ureaplasma parvum serovar 6 str. ATCC 27818] &gt;gi|620596859|dbj|BAO73424.1| deoxyribonuclease [Ureaplasma parvum serovar 3]</Hit_def>
+  <Hit_accession>Q9PRC8</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.0773406</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>LGIDLGTSHTAVMTSRGKKFLLKSVVGYPKDV</Hsp_qseq>
+      <Hsp_hseq>VGVDLKTSQTAIQQAKKFKFLTCSVAIHPNDL</Hsp_hseq>
+      <Hsp_midline>+G+DL TS TA+  ++  KFL  SV  +P D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|490126576|ref|WP_004027033.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L3, partial [Ureaplasma urealyticum] &gt;gi|188997728|gb|EDU66825.1| ribosomal protein L3 [Ureaplasma urealyticum serovar 11 str. ATCC 33695]</Hit_def>
+  <Hit_accession>WP_004027033</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.470774</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>PFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA</Hsp_qseq>
+      <Hsp_hseq>PGHYGHELVTTKNLLVLDVKA-NENLILIKGAIPGPKGSIVLLKS</Hsp_hseq>
+      <Hsp_midline>P   G+ L    N +++D+ A   ++  +KG +PGP+  + L K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|740260709|ref|WP_038101350.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L3 [Ureaplasma urealyticum]</Hit_def>
+  <Hit_accession>WP_038101350</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.528839</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>PFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA</Hsp_qseq>
+      <Hsp_hseq>PGHYGHELVTTKNLLVLDVKA-NENLILIKGAIPGPKGSIVLLKS</Hsp_hseq>
+      <Hsp_midline>P   G+ L    N +++D+ A   ++  +KG +PGP+  + L K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|493739797|ref|WP_006688934.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L3 [Ureaplasma parvum] &gt;gi|42559705|sp|Q9PQR0.1|RL3_UREPA RecName: Full=50S ribosomal protein L3 &gt;gi|189029487|sp|B1AIM0.1|RL3_UREP2 RecName: Full=50S ribosomal protein L3 &gt;gi|11276669|pir||H82914 ribosomal protein L3 UU231 [imported] - Ureaplasma urealyticum &gt;gi|6899201|gb|AAF30640.1|AE002122_9 ribosomal protein L3 [Ureaplasma parvum serovar 3 str. ATCC 700970] &gt;gi|168827688|gb|ACA32950.1| ribosomal protein L3 [Ureaplasma parvum serovar 3 str. ATCC 27815] &gt;gi|186700755|gb|EDU19037.1| ribosomal protein L3 [Ureaplasma parvum serovar 6 str. ATCC 27818] &gt;gi|620597247|dbj|BAO73812.1| 50S ribosomal protein L3 [Ureaplasma parvum serovar 3]</Hit_def>
+  <Hit_accession>Q9PQR0</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.552729</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>PFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA</Hsp_qseq>
+      <Hsp_hseq>PGHYGHELVTTKNLLVLDVKA-NENLILIKGAIPGPKGSIVLLKS</Hsp_hseq>
+      <Hsp_midline>P   G+ L    N +++D+ A   ++  +KG +PGP+  + L K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|195659702|gb|EDX53082.1|</Hit_id>
+  <Hit_def>ribosomal protein L3 [Ureaplasma urealyticum serovar 12 str. ATCC 33696]</Hit_def>
+  <Hit_accession>EDX53082</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.572772</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>PFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA</Hsp_qseq>
+      <Hsp_hseq>PGHYGHELVTTKNLLVLDVKA-NENLILIKGAIPGPKGSIVLLKS</Hsp_hseq>
+      <Hsp_midline>P   G+ L    N +++D+ A   ++  +KG +PGP+  + L K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|490125170|ref|WP_004025649.1|</Hit_id>
+  <Hit_def>50S ribosomal protein L3 [Ureaplasma urealyticum] &gt;gi|226730586|sp|B5ZB40.1|RL3_UREU1 RecName: Full=50S ribosomal protein L3 &gt;gi|171903367|gb|EDT49656.1| ribosomal protein L3 [Ureaplasma urealyticum serovar 13 str. ATCC 33698] &gt;gi|184209454|gb|EDU06497.1| ribosomal protein L3 [Ureaplasma urealyticum serovar 5 str. ATCC 27817] &gt;gi|188018930|gb|EDU56970.1| ribosomal protein L3 [Ureaplasma urealyticum serovar 7 str. ATCC 27819] &gt;gi|195660728|gb|EDX53983.1| ribosomal protein L3 [Ureaplasma urealyticum serovar 9 str. ATCC 33175] &gt;gi|209541493|gb|ACI59722.1| 50S ribosomal protein L3 [Ureaplasma urealyticum serovar 10 str. ATCC 33699] &gt;gi|225378950|gb|EEH01315.1| ribosomal protein L3 [Ureaplasma urealyticum serovar 8 str. ATCC 27618] &gt;gi|225379619|gb|EEH01981.1| ribosomal protein L3 [Ureaplasma urealyticum serovar 2 str. ATCC 27814]</Hit_def>
+  <Hit_accession>WP_004025649</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.598991</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>162</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>PFMVGYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA</Hsp_qseq>
+      <Hsp_hseq>PGHYGHELVTTKNLLVLDVKA-NENLILIKGAIPGPKGSIVLLKS</Hsp_hseq>
+      <Hsp_midline>P   G+ L    N +++D+ A   ++  +KG +PGP+  + L K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|493739638|ref|WP_006688779.1|</Hit_id>
+  <Hit_def>asparagine--tRNA ligase [Ureaplasma parvum] &gt;gi|20139951|sp|Q9PQC6.1|SYN_UREPA RecName: Full=Asparagine--tRNA ligase; AltName: Full=Asparaginyl-tRNA synthetase; Short=AsnRS &gt;gi|189083485|sp|B1AJ04.1|SYN_UREP2 RecName: Full=Asparagine--tRNA ligase; AltName: Full=Asparaginyl-tRNA synthetase; Short=AsnRS &gt;gi|11271289|pir||A82901 asparaginyl-tRNA synthetase UU365 [imported] - Ureaplasma urealyticum &gt;gi|6899346|gb|AAF30774.1|AE002133_7 asparaginyl-tRNA synthetase [Ureaplasma parvum serovar 3 str. ATCC 700970] &gt;gi|168827728|gb|ACA32990.1| asparaginyl-tRNA synthetase [Ureaplasma parvum serovar 3 str. ATCC 27815] &gt;gi|171902485|gb|EDT48774.1| asparaginyl-tRNA synthetase [Ureaplasma parvum serovar 1 str. ATCC 27813] &gt;gi|182675705|gb|EDT87610.1| asparaginyl-tRNA synthetase [Ureaplasma parvum serovar 14 str. ATCC 33697] &gt;gi|186701165|gb|EDU19447.1| asparaginyl-tRNA synthetase [Ureaplasma parvum serovar 6 str. ATCC 27818] &gt;gi|620597111|dbj|BAO73676.1| asparaginyl-tRNA synthetase [Ureaplasma parvum serovar 3]</Hit_def>
+  <Hit_accession>Q9PQC6</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.72718</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GEGQAKNRLFLGIDLGTSHTAVM---TSRGKKFLLKSVVGYPKDV</Hsp_qseq>
+      <Hsp_hseq>GHQFENNEIFFGMDLGSEHERYMCETYHQGPVFL----QNYPKDI</Hsp_hseq>
+      <Hsp_midline>G     N +F G+DLG+ H   M     +G  FL      YPKD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|515259865|ref|WP_016829022.1|</Hit_id>
+  <Hit_def>asparagine--tRNA ligase [Ureaplasma urealyticum]</Hit_def>
+  <Hit_accession>WP_016829022</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.779711</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NRLFLGIDLGTSHTAVM---TSRGKKFLLKSVVGYPKDV</Hsp_qseq>
+      <Hsp_hseq>NEIFFGMDLGSEHERYMCETYHQGPVFL----QNYPKDI</Hsp_hseq>
+      <Hsp_midline>N +F G+DLG+ H   M     +G  FL      YPKD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|490126413|ref|WP_004026870.1|</Hit_id>
+  <Hit_def>asparagine--tRNA ligase [Ureaplasma urealyticum] &gt;gi|195660445|gb|EDX53703.1| asparaginyl-tRNA synthetase [Ureaplasma urealyticum serovar 9 str. ATCC 33175]</Hit_def>
+  <Hit_accession>WP_004026870</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.786538</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NRLFLGIDLGTSHTAVM---TSRGKKFLLKSVVGYPKDV</Hsp_qseq>
+      <Hsp_hseq>NEIFFGMDLGSEHERYMCETYHQGPVFL----QNYPKDI</Hsp_hseq>
+      <Hsp_midline>N +F G+DLG+ H   M     +G  FL      YPKD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|490125536|ref|WP_004026011.1|</Hit_id>
+  <Hit_def>asparagine--tRNA ligase [Ureaplasma urealyticum] &gt;gi|171903086|gb|EDT49375.1| asparaginyl-tRNA synthetase [Ureaplasma urealyticum serovar 13 str. ATCC 33698] &gt;gi|184209152|gb|EDU06195.1| asparaginyl-tRNA synthetase [Ureaplasma urealyticum serovar 5 str. ATCC 27817] &gt;gi|188018966|gb|EDU57006.1| asparaginyl-tRNA synthetase [Ureaplasma urealyticum serovar 7 str. ATCC 27819] &gt;gi|188997791|gb|EDU66888.1| asparaginyl-tRNA synthetase [Ureaplasma urealyticum serovar 11 str. ATCC 33695] &gt;gi|195659639|gb|EDX53019.1| asparaginyl-tRNA synthetase [Ureaplasma urealyticum serovar 12 str. ATCC 33696] &gt;gi|198249665|gb|EDY74446.1| asparaginyl-tRNA synthetase [Ureaplasma urealyticum serovar 4 str. ATCC 27816] &gt;gi|225379264|gb|EEH01629.1| asparagine--tRNA ligase [Ureaplasma urealyticum serovar 8 str. ATCC 27618] &gt;gi|225380095|gb|EEH02457.1| asparagine--tRNA ligase [Ureaplasma urealyticum serovar 2 str. ATCC 27814]</Hit_def>
+  <Hit_accession>WP_004026011</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.786538</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NRLFLGIDLGTSHTAVM---TSRGKKFLLKSVVGYPKDV</Hsp_qseq>
+      <Hsp_hseq>NEIFFGMDLGSEHERYMCETYHQGPVFL----QNYPKDI</Hsp_hseq>
+      <Hsp_midline>N +F G+DLG+ H   M     +G  FL      YPKD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|501555705|ref|WP_012560215.1|</Hit_id>
+  <Hit_def>asparagine--tRNA ligase [Ureaplasma urealyticum] &gt;gi|226695839|sp|B5ZBH7.1|SYN_UREU1 RecName: Full=Asparagine--tRNA ligase; AltName: Full=Asparaginyl-tRNA synthetase; Short=AsnRS &gt;gi|209541641|gb|ACI59870.1| asparaginyl-tRNA synthetase [Ureaplasma urealyticum serovar 10 str. ATCC 33699]</Hit_def>
+  <Hit_accession>WP_012560215</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>0.800373</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>45</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>NRLFLGIDLGTSHTAVM---TSRGKKFLLKSVVGYPKDV</Hsp_qseq>
+      <Hsp_hseq>NEIFFGMDLGSEHERYMCETYHQGPVFL----QNYPKDI</Hsp_hseq>
+      <Hsp_midline>N +F G+DLG+ H   M     +G  FL      YPKD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>3132</Statistics_db-num>
+      <Statistics_db-len>1553651</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

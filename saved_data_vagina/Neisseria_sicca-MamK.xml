@@ -1,0 +1,658 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>CDK99592.1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</BlastOutput_query-def>
+  <BlastOutput_query-len>347</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>CDK99592.1</Iteration_query-ID>
+  <Iteration_query-def>Magnetosome cytoskeleton protein MamK [Magnetospirillum gryphiswaldense MSR-1 v2]</Iteration_query-def>
+  <Iteration_query-len>347</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1092512406|ref|WP_070498168.1|</Hit_id>
+  <Hit_def>MULTISPECIES: rod shape-determining protein [Neisseria] &gt;gi|1080184229|gb|OFJ81036.1| rod shape-determining protein [Neisseria sp. HMSC072F04] &gt;gi|1080600154|gb|OFN76843.1| rod shape-determining protein [Neisseria sp. HMSC064E01] &gt;gi|1169412096|gb|ARC51466.1| rod shape-determining protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>ARC51466</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>3.20646e-12</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>NRLF---LGIDLGTSHTAVMTSRGKKFLLK--SVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGAND-EICAVIGVPARASGANKALLLKMAQEVVHTAL-VVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR------AAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVL-QNIVFAGGGSRIRGLAAYVKDKL-RPFGNAD--VTCV</Hsp_qseq>
+      <Hsp_hseq>SRFFSNDIAIDLGTANTLIYV-RGKGIVLDEPSVVAVQSGTGGKS---KIVAVGTEAKKMQGRAPRNIEIVRPMQDGVIA-----DFTIAERMLSMLIKKATEGHSVVPPRVVICVPGGATQVERKAILDSAFAAGASSVHLIEEPMAAALGAGLPVEDTVGSMVVDIGGGTTEIGIL--SLGGMAYSASVRAAGDEFDKSIVH-YLRRHRGVLVGEATAEELKKTIG--SAYGFATETAMRIKGRDLAEGTPKSLAVTSEEVREALSETVNQIIRAVRLALEQVSPELAGDIADRGIMLTGGGALLHGMDTVLADATGLPVGIADQPLNCV</Hsp_hseq>
+      <Hsp_midline>+R F   + IDLGT++T +   RGK  +L   SVV       G     +   VG EA +M+      +++  P+QDGV++     D  +A  +L+ ++K A  G +      VI VP  A+   +  +L  A     +++ ++ EP     G    ++    +++VDIG GTT+I  L  ++ G     ++  AG+  D+ + +  L RH  + +    A  +K+      A G A     R      A G P    VT E V+ A    +  II ++ + L    PE    +  + I+  GGG+ + G+   + D    P G AD  + CV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|489859967|ref|WP_003763611.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Neisseria sicca] &gt;gi|385699743|gb|EIG30019.1| cell shape determining protein, MreB/Mrl family [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003763611</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.04494e-11</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>NRLF---LGIDLGTSHTAVMTSRGKKFLLK--SVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGANDEIC--AVIGVPARASGANKALLLKMAQEVVHTAL-VVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR------AAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVL-QNIVFAGGGSRIRGLAAYVKDKL-RPFGNAD--VTCV</Hsp_qseq>
+      <Hsp_hseq>SRFFSNDIAIDLGTANTLIYV-RGKGIVLDEPSVVAVQSGTGGKS---KIVAVGTEAKKMQGRAPRNIEIVRPMRDGVIA-----DFTIAERMLGMLIKKATQG-NSVVPPRVVICVPGGATQVERKAILDSAFAAGASSVHLIEEPMAAALGAGLPIEDTAGSMVVDIGGGTTEIGIL--SLGGMAYSASVRAAGDEFDKSIVH-YLRRHRGVLIGEATAEELKKTIG--SASGFATETAMRIKGRDLAEGTPKSIAITSEEVREALSETVNQIIRAVRLALEQAPPELAGDIADRGIMLTGGGALLHGMDTVLADATGLPVGIADQPLNCV</Hsp_hseq>
+      <Hsp_midline>+R F   + IDLGT++T +   RGK  +L   SVV       G     +   VG EA +M+      +++  P++DGV++     D  +A  +L  ++K A  G N  +    VI VP  A+   +  +L  A     +++ ++ EP     G    ++    +++VDIG GTT+I  L  ++ G     ++  AG+  D+ + +  L RH  + +    A  +K+      A G A     R      A G P    +T E V+ A    +  II ++ + L    PE    +  + I+  GGG+ + G+   + D    P G AD  + CV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|515031007|ref|WP_016688261.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016688261</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.09382e-11</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>NRLF---LGIDLGTSHTAVMTSRGKKFLLK--SVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGANDEIC--AVIGVPARASGANKALLLKMAQEVVHTAL-VVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR------AAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVL-QNIVFAGGGSRIRGLAAYVKDKL-RPFGNAD--VTCV</Hsp_qseq>
+      <Hsp_hseq>SRFFSNDIAIDLGTANTLIYV-RGKGIVLDEPSVVAVQSGTGGKS---KIVAVGTEAKKMQGRAPRNIEIVRPMRDGVIA-----DFTIAERMLGTLIKKATEG-NSVVPPRVVICVPGGATQVERKAILDSAFAAGASSVHLIEEPMAAALGAGLPIEDSAGSMVVDIGGGTTEIGIL--SLGGMAYSASVRAAGDEFDKSIVH-YLRRHRGVLIGDATAEELKKTIG--SASGFATETAMRIKGRDLAEGTPKSLAITSEEVREALSETVNQIIRAVRLALEQASPELAGDIADRGIMLTGGGALLHGMDTVLADATGLPVGIADQPLNCV</Hsp_hseq>
+      <Hsp_midline>+R F   + IDLGT++T +   RGK  +L   SVV       G     +   VG EA +M+      +++  P++DGV++     D  +A  +L  ++K A  G N  +    VI VP  A+   +  +L  A     +++ ++ EP     G    ++    +++VDIG GTT+I  L  ++ G     ++  AG+  D+ + +  L RH  + +    A  +K+      A G A     R      A G P    +T E V+ A    +  II ++ + L    PE    +  + I+  GGG+ + G+   + D    P G AD  + CV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|750386070|ref|WP_040667980.1|</Hit_id>
+  <Hit_def>rod shape-determining protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_040667980</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.53263e-11</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>NRLF---LGIDLGTSHTAVMTSRGKKFLLK--SVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGANDEIC--AVIGVPARASGANKALLLKMAQEVVHTAL-VVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR------AAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVL-QNIVFAGGGSRIRGLAAYVKDKL-RPFGNAD--VTCV</Hsp_qseq>
+      <Hsp_hseq>SRFFSNDIAIDLGTANTLIYV-RGKGIVLDEPSVVAVQSGTGGKS---KIVAVGTEAKKMQGRAPRNIEIVRPMRDGVIA-----DFTIAERMLGMLIKKAIQG-NSVVPPRVVICVPGGATQVERKAILDSAFAAGASSVHLIEEPMAAALGAGLPIEDTAGSMVVDIGGGTTEIGIL--SLGGMAYSASVRAAGDEFDKSIVH-YLRRHRGVLIGEATAEELKKTIG--SASGFATETAMRIKGRDLAEGTPKSIAITSEEVREALSETVNQIIRAVRLALEQAPPELAGDIADRGIMLTGGGALLHGMDTVLADATGLPVGIADQPLNCV</Hsp_hseq>
+      <Hsp_midline>+R F   + IDLGT++T +   RGK  +L   SVV       G     +   VG EA +M+      +++  P++DGV++     D  +A  +L  ++K A  G N  +    VI VP  A+   +  +L  A     +++ ++ EP     G    ++    +++VDIG GTT+I  L  ++ G     ++  AG+  D+ + +  L RH  + +    A  +K+      A G A     R      A G P    +T E V+ A    +  II ++ + L    PE    +  + I+  GGG+ + G+   + D    P G AD  + CV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|255049961|gb|EET45425.1|</Hit_id>
+  <Hit_def>cell shape determining protein, MreB/Mrl family [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>EET45425</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.36818e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>LGTSHTAVMTSRGKKFLLK--SVVGYPKDVIGLKLLGRPYVVGDEAFEMRSY----LDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGANDEIC--AVIGVPARASGANKALLLKMAQEVVHTAL-VVSEPFMVGYG----LDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLTKAGNYLDERLQNAILERHPELQMNTNVACAVKEQFSFVGARGEAATFEFR------AAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVL-QNIVFAGGGSRIRGLAAYVKDKLR-PFGNAD--VTCV</Hsp_qseq>
+      <Hsp_hseq>MGTANTLIYV-RGKGIVLDEPSVVAVQSGTGGKSKI---VAVGTEAKKMQGRAPRNIEIVRPMRDGVIA-----DFTIAERMLGMLIKKAIQG-NSVVPPRVVICVPGGATQVERKAILDSAFAAGASSVHLIEEPMAAALGAGLPIEDTAGSMVVDIGGGTTEIGIL--SLGGMAYSASVRAAGDEFDKSIVH-YLRRHRGVLIGEATAEELKKTIG--SASGFATETAMRIKGRDLAEGTPKSIAITSEEVREALSETVNQIIRAVRLALEQAPPELAGDIADRGIMLTGGGALLHGMDTVLADATGLPVGIADQPLNCV</Hsp_hseq>
+      <Hsp_midline>+GT++T +   RGK  +L   SVV       G   +     VG EA +M+      +++  P++DGV++     D  +A  +L  ++K A  G N  +    VI VP  A+   +  +L  A     +++ ++ EP     G    ++    +++VDIG GTT+I  L  ++ G     ++  AG+  D+ + +  L RH  + +    A  +K+      A G A     R      A G P    +T E V+ A    +  II ++ + L    PE    +  + I+  GGG+ + G+   + D    P G AD  + CV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|515029494|ref|WP_016686748.1|</Hit_id>
+  <Hit_def>Fe-S protein assembly chaperone HscA [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016686748</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000285591</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>KNRLFLGIDLGTSHTAVMTSRGK----------KFLLKSVVGY-------------------PKDVI--GLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRD-----IEVARHLLTHVVKSAEPG-ANDEICAVIGVPARASGANKALLLKMAQEV-VHTALVVSEPFM--VGYGLDKLN--NTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA---GNYLDERLQNAILERHPELQMNT-------NVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGGSRI</Hsp_qseq>
+      <Hsp_hseq>QHRLAVGIDLGTTNSLVATVRSGSPVCLTDTDGRTPLPSVVRYGEGDAVEVGKTALSAQKTDPLNTISSAKRLIGR--TLADLAHEAQ-YLPYRFTPNERVV-ELNTRQGAKTPIEVSSEILKALKARAEETLGGDLVGAVITVPAYFDDAQRQATKDAARLAGLNVLRLLNEPTAAAIAYGLDNASEGTFVVYDLGGGTFDVSVLQLTKGLFEVKATGGNSALGGDDFDHRLFCHLLEQNDLSKLNERDSQLLLSLVRAAKEQLT---NQTEAIVEAMLSDGRKIHTVITRQEFHHLTQNLVQKTIEPVKQALKD--AGVTKADIKGVIMVGGSTRM</Hsp_hseq>
+      <Hsp_midline>++RL +GIDLGT+++ V T R            +  L SVV Y                   P + I    +L+GR   + D A E + YL  R+   + V+ E++ R      IEV+  +L  +   AE     D + AVI VPA    A +      A+   ++   +++EP    + YGLD  +    ++ D+G GT D+  L+ T    E + T   +   G+  D RL   +LE++   ++N        ++  A KEQ +    + EA      + G+ +   +T +      + L+   IE ++  L+          ++ ++  GG +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|489854871|ref|WP_003758536.1|</Hit_id>
+  <Hit_def>Fe-S protein assembly chaperone HscA [Neisseria sicca] &gt;gi|255048886|gb|EET44350.1| Fe-S protein assembly chaperone HscA [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003758536</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000584829</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>KNRLFLGIDLGTSHTAVMTSRGK----------KFLLKSVVGY-------------------PKDVI--GLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRD-----IEVARHLLTHVVKSAEPG-ANDEICAVIGVPARASGANKALLLKMAQEV-VHTALVVSEPFM--VGYGLDKLN--NTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA---GNYLDERLQNAILERHPELQMNT-------NVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGGSRI</Hsp_qseq>
+      <Hsp_hseq>QHRLAVGIDLGTTNSLVATVRSGSPVCLTDMDGRTTLPSVVRYGEGDAVEVGKAALAAQKTDPLNTISSAKRLIGR--TLADLAQDAQ-YLPYRFTPNERVV-ELNTRQGAKTPIEVSSEILKALKSRAEETLGGDLVGAVITVPAYFDDAQRQATKDAARLAGLNVLRLLNEPTAAAIAYGLDNASEGTFVVYDLGGGTFDVSVLQLTKGLFEVKATGGNSALGGDDFDHRLFCHLLEQNDLSKLNERDSQLLLSLVRAAKEQLT---SQTEAIVEATLSDGRKIHTVITRQEFHHLTQNLVQKTIEPVKQALKD--AGVTKADIKGVIMVGGSTRM</Hsp_hseq>
+      <Hsp_midline>++RL +GIDLGT+++ V T R            +  L SVV Y                   P + I    +L+GR   + D A + + YL  R+   + V+ E++ R      IEV+  +L  +   AE     D + AVI VPA    A +      A+   ++   +++EP    + YGLD  +    ++ D+G GT D+  L+ T    E + T   +   G+  D RL   +LE++   ++N        ++  A KEQ +   ++ EA      + G+ +   +T +      + L+   IE ++  L+          ++ ++  GG +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|489860834|ref|WP_003764471.1|</Hit_id>
+  <Hit_def>Fe-S protein assembly chaperone HscA [Neisseria sicca] &gt;gi|385699378|gb|EIG29680.1| Fe-S protein assembly chaperone HscA [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003764471</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.000708766</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>KNRLFLGIDLGTSHTAVMTSRGK----------KFLLKSVVGY-------------------PKDVI--GLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRD-----IEVARHLLTHVVKSAEPG-ANDEICAVIGVPARASGANKALLLKMAQEV-VHTALVVSEPFM--VGYGLDKLN--NTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA---GNYLDERLQNAILERHPELQMNT-------NVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGGSRI</Hsp_qseq>
+      <Hsp_hseq>QHRLAVGIDLGTTNSLVATVRSGSPVCLTDMDGRTTLPSVVRYGEGDAVEVGKAALAAQKTDPLNTISSAKRLIGR--TLADLAQDAQ-YLPYRFTPNERVV-ELNTRQGAKTPIEVSSEILKALKSRAEETLGGDLVGAVITVPAYFDDAQRQATKDAARLAGLNVLRLLNEPTAAAIAYGLDNASEGTFVVYDLGGGTFDVSVLQLTKGLFEVKATGGNSALGGDDFDHRLFCHLLEQNDLSKLNERDSQLLLSLVRAAKEQLT---GQTEAVVEATLSDGRKIHTVITRQEFHHLTQNLVQKTIEPVKQALKD--AGVTKADIKGVIMVGGSTRM</Hsp_hseq>
+      <Hsp_midline>++RL +GIDLGT+++ V T R            +  L SVV Y                   P + I    +L+GR   + D A + + YL  R+   + V+ E++ R      IEV+  +L  +   AE     D + AVI VPA    A +      A+   ++   +++EP    + YGLD  +    ++ D+G GT D+  L+ T    E + T   +   G+  D RL   +LE++   ++N        ++  A KEQ +    + EA      + G+ +   +T +      + L+   IE ++  L+          ++ ++  GG +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1172223243|ref|WP_080614002.1|</Hit_id>
+  <Hit_def>Fe-S protein assembly chaperone HscA [Neisseria sicca] &gt;gi|1169411858|gb|ARC51228.1| Fe-S protein assembly chaperone HscA [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_080614002</Hit_accession>
+  <Hit_len>620</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000897272</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>KNRLFLGIDLGTSHTAVMTSRGK----------KFLLKSVVGY-------------------PKDVI--GLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRD-----IEVARHLLTHVVKSAEPG-ANDEICAVIGVPARASGANKALLLKMAQEV-VHTALVVSEPFM--VGYGLDKLN--NTIIVDIGAGTTDICALKGTVPGPEDQVTLTKA---GNYLDERLQNAILERHPELQMNT-------NVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVT-ESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGGSRI</Hsp_qseq>
+      <Hsp_hseq>QHRLAVGIDLGTTNSLVATVRSGSPVCLTDIDGRTTLPSVVRYGEGDAVEVGKVALAAQKTDPLNTISSAKRLIGR--TLADLAQDAQ-YLPYRFTPNERVV-ELNTRQGAKTPIEVSSEILKALKSRAEETLGGDLVGAVITVPAYFDDAQRQATKDAARLAGLNVLRLLNEPTAAAIAYGLDNASEGTFVVYDLGGGTFDVSVLQLTKGLFEVKATGGNSALGGDDFDHRLFCHLLEQNDLSKLNERDSQLLLSLVRAAKEQLT---NQTEAVVEATLSDGRKIHTVITRQEFHHLTQNLVQKTIEPVKQALKD--AGVTKADIKGVIMVGGSTRM</Hsp_hseq>
+      <Hsp_midline>++RL +GIDLGT+++ V T R            +  L SVV Y                   P + I    +L+GR   + D A + + YL  R+   + V+ E++ R      IEV+  +L  +   AE     D + AVI VPA    A +      A+   ++   +++EP    + YGLD  +    ++ D+G GT D+  L+ T    E + T   +   G+  D RL   +LE++   ++N        ++  A KEQ +    + EA      + G+ +   +T +      + L+   IE ++  L+          ++ ++  GG +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|489855141|ref|WP_003758806.1|</Hit_id>
+  <Hit_def>molecular chaperone HscC [Neisseria sicca] &gt;gi|255048773|gb|EET44237.1| DnaK family protein [Neisseria sicca ATCC 29256] &gt;gi|385695942|gb|EIG26474.1| putative chaperone protein HscC [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003758806</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>1.33399</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>LFLGIDLGTSH----------TAVMTSRGKKFLLKSVVGYPKD------VIGLKLLGRPYVVGDEAFEMRSYLDLRYPLQDGVLSEISDRDIEVARHLLTHVVKSAEPGANDEIC-AVIGVPARASGANKALLLKMAQEV-VHTALVVSEPFMVG--YGL-DKLNNT--IIVDIGAGTTDICAL</Hsp_qseq>
+      <Hsp_hseq>LQIGIDLGTTNSLIAQFHNGETRLIPNQHGHFLTPSVISVAEDGSILTGIAARERLSTAPTLTASAFKRFMGTDKTFHLGKRTF-----RAEELSALILKSLKEDAEAFLGEPVCDVVLTVPAYFNAIQRQATKNAAQMAGLNVLRLLNEPTAAGLAYGLQEKPDDTRFLIYDLGGGTFDVSVL</Hsp_hseq>
+      <Hsp_midline>L +GIDLGT++          T ++ ++   FL  SV+   +D      +   + L     +   AF+     D  + L          R  E++  +L  + + AE    + +C  V+ VPA  +   +      AQ   ++   +++EP   G  YGL +K ++T  +I D+G GT D+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|255047802|gb|EET43266.1|</Hit_id>
+  <Hit_def>hypothetical protein NEISICOT_02956 [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>EET43266</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.9498</Hsp_bit-score>
+      <Hsp_score>58</Hsp_score>
+      <Hsp_evalue>3.18946</Hsp_evalue>
+      <Hsp_query-from>294</Hsp_query-from>
+      <Hsp_query-to>346</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>RGLAAYVKDKLRPFGNADVTCVKDPTFDGCRGALRLAEELPPQYWCQLGDVSG</Hsp_qseq>
+      <Hsp_hseq>KGADGIARDGVATFGKMDAAGFLVVDFDGAE--FDFAAEVLP---CQFGDVHG</Hsp_hseq>
+      <Hsp_midline>+G     +D +  FG  D        FDG       A E+ P   CQ GDV G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|489857348|ref|WP_003761007.1|</Hit_id>
+  <Hit_def>MFS transporter [Neisseria sicca] &gt;gi|255047725|gb|EET43189.1| amino acid/peptide transporter [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003761007</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>4.11601</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>HPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGK</Hsp_qseq>
+      <Hsp_hseq>HP-IQLSTLFHIELWERFSFYGMQGILMIYLYYAANK</Hsp_hseq>
+      <Hsp_midline>HP +Q++T     + E+FSF G +G    + + AA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|489859617|ref|WP_003763265.1|</Hit_id>
+  <Hit_def>MFS transporter [Neisseria sicca] &gt;gi|385699911|gb|EIG30175.1| amino acid/peptide transporter [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003763265</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>4.52939</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>HPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGK</Hsp_qseq>
+      <Hsp_hseq>HP-IQLSTLFHIELWERFSFYGMQGILMIYLYYAANK</Hsp_hseq>
+      <Hsp_midline>HP +Q++T     + E+FSF G +G    + + AA K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|750386108|ref|WP_040668018.1|</Hit_id>
+  <Hit_def>MULTISPECIES: membrane protein [Neisseria]</Hit_def>
+  <Hit_accession>WP_040668018</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>5.70001</Hsp_evalue>
+      <Hsp_query-from>231</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATFEFRAAGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGG</Hsp_qseq>
+      <Hsp_hseq>ANFDFTLTGQPMRHDHRRVLATALSRLRAK-IKYRPVIFELMPPEFTLLQLQNSVEAISG</Hsp_hseq>
+      <Hsp_midline>A F+F   G+P+R D    +  A   L    I+   ++     PE+    LQN V A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|255050096|gb|EET45560.1|</Hit_id>
+  <Hit_def>hypothetical protein NEISICOT_00778 [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>EET45560</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>5.8817</Hsp_evalue>
+      <Hsp_query-from>231</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATFEFRAAGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGG</Hsp_qseq>
+      <Hsp_hseq>ANFDFTLTGQPMRHDHRRVLATALSRLRAK-IKYRPVIFELMPPEFTLLQLQNSVEAISG</Hsp_hseq>
+      <Hsp_midline>A F+F   G+P+R D    +  A   L    I+   ++     PE+    LQN V A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|489861010|ref|WP_003764643.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria sicca] &gt;gi|385699240|gb|EIG29552.1| hypothetical protein HMPREF1051_2551 [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003764643</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>5.90404</Hsp_evalue>
+      <Hsp_query-from>231</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATFEFRAAGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGG</Hsp_qseq>
+      <Hsp_hseq>ANFDFTLTGQPMRHDHRRVLATALSRLRAK-IKYRPVIFELMPPEFTLLQLQNSVEAISG</Hsp_hseq>
+      <Hsp_midline>A F+F   G+P+R D    +  A   L    I+   ++     PE+    LQN V A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|750387380|ref|WP_040669290.1|</Hit_id>
+  <Hit_def>hypothetical protein, partial [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_040669290</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>6.52873</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GYGLDKLNNTIIVDIGAGTTDICALKGTVPGPEDQVTLT---KAGNYLDERLQNAILERHPELQMNT</Hsp_qseq>
+      <Hsp_hseq>GNNMNKLNGQHAVENALSSGMGCFIKGTLVETEEGWTPIDELKVGDLVMSRPENGIGETVPKRVVNT</Hsp_hseq>
+      <Hsp_midline>G  ++KLN    V+    +   C +KGT+   E+  T     K G+ +  R +N I E  P+  +NT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|896231381|ref|WP_049230405.1|</Hit_id>
+  <Hit_def>MULTISPECIES: membrane protein [Proteobacteria] &gt;gi|1080415733|gb|OFM01491.1| hypothetical protein HMPREF2726_04785 [Neisseria sp. HMSC074B07] &gt;gi|1081181899|gb|OFT27398.1| hypothetical protein HMPREF3066_00990 [Neisseria sp. HMSC03D10] &gt;gi|1169412762|gb|ARC52132.1| hypothetical protein A6J88_13745 [Neisseria sicca]</Hit_def>
+  <Hit_accession>ARC52132</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>6.67733</Hsp_evalue>
+      <Hsp_query-from>231</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATFEFRAAGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGG</Hsp_qseq>
+      <Hsp_hseq>ANFDFALTGQPMRHDHRRVLATALSRLRAK-IKYRPVIFELMPPEFTLLQLQNSVEAISG</Hsp_hseq>
+      <Hsp_midline>A F+F   G+P+R D    +  A   L    I+   ++     PE+    LQN V A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|515030126|ref|WP_016687380.1|</Hit_id>
+  <Hit_def>membrane protein [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_016687380</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>6.85577</Hsp_evalue>
+      <Hsp_query-from>231</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>ATFEFRAAGKPVRCDVTESVKIACEALMPDIIESIEILLRSFQPEYQATVLQNIVFAGGG</Hsp_qseq>
+      <Hsp_hseq>ANFDFALTGQPMRHDHRRVLATALSRLRAK-IKYRPVIFELMPPEFTLLQLQNSVEAISG</Hsp_hseq>
+      <Hsp_midline>A F+F   G+P+R D    +  A   L    I+   ++     PE+    LQN V A  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1172223622|ref|WP_080614380.1|</Hit_id>
+  <Hit_def>tRNA (uridine(54)-C5)-methyltransferase TrmA [Neisseria sicca] &gt;gi|1169412611|gb|ARC51981.1| tRNA (uridine(54)-C5)-methyltransferase TrmA [Neisseria sicca]</Hit_def>
+  <Hit_accession>WP_080614380</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.29272</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ERHPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIES</Hsp_qseq>
+      <Hsp_hseq>EQHYRMRAEFRIWHEGGEMFYAMFERGQKAS-----GASLIRCDQFPAASESINALMPKLIEA</Hsp_hseq>
+      <Hsp_midline>E+H  ++    +     E F  +  RG+ A+         +RCD   +   +  ALMP +IE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|489851452|ref|WP_003755129.1|</Hit_id>
+  <Hit_def>tRNA (uridine(54)-C5)-methyltransferase TrmA [Neisseria sicca] &gt;gi|255050505|gb|EET45969.1| tRNA (uracil-5-)-methyltransferase [Neisseria sicca ATCC 29256]</Hit_def>
+  <Hit_accession>WP_003755129</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.51333</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ERHPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIES</Hsp_qseq>
+      <Hsp_hseq>EQHYRMRAEFRIWHEGGEMFYAMFERGQKAS-----GASLIRCDQFPAASESINALMPKLIEA</Hsp_hseq>
+      <Hsp_midline>E+H  ++    +     E F  +  RG+ A+         +RCD   +   +  ALMP +IE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|489865133|ref|WP_003768730.1|</Hit_id>
+  <Hit_def>tRNA (uridine(54)-C5)-methyltransferase TrmA [Neisseria sicca] &gt;gi|385694157|gb|EIG24779.1| tRNA (uracil-5-)-methyltransferase [Neisseria sicca VK64]</Hit_def>
+  <Hit_accession>WP_003768730</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.1794</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>8.58816</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ERHPELQMNTNVACAVKEQFSFVGARGEAATFEFRAAGKPVRCDVTESVKIACEALMPDIIES</Hsp_qseq>
+      <Hsp_hseq>EQHYRMRAEFRIWHEGGEMFYAMFERGQKAS-----GASLIRCDQFPAASESINALMPKLIEA</Hsp_hseq>
+      <Hsp_midline>E+H  ++    +     E F  +  RG+ A+         +RCD   +   +  ALMP +IE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>11658</Statistics_db-num>
+      <Statistics_db-len>3075934</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
