@@ -9,29 +9,7 @@ qblast(program, database, sequence, url_base='https://blast.ncbi.nlm.nih.gov/Bla
 """
 
 organism_pattern = r'.*?\[(.*)].*'
-INDATA = {
-    'gastro': {
-        'dir_saved': 'saved_data_gastro',
-        'result_file_name': 'result_gastro',
-        'orgaism_file': 'organisms_gastro'
-    },
-    'skin': {
-        'dir_saved': 'saved_data_skin',
-        'result_file_name': 'result_skin',
-        'orgaism_file': 'organisms_skin'
-    },
-    'eye': {
-        'dir_saved': 'saved_data_vagina_eye',
-        'result_file_name': 'result_eye',
-        'orgaism_file': 'organisms_eye'
-    },
-    'vagina': {
-        'dir_saved': 'saved_data_vagina_eye',
-        'result_file_name': 'result_vagina',
-        'orgaism_file': 'organisms_vagina'
-    }
-}
-part = 'skin'
+
 if len(sys.argv) < 2:
     print('Error. Any project name. try > python3 main.py project=<chosen_name>')
     sys.exit(1)
@@ -93,7 +71,6 @@ parsedData = {
     "MamH": [],
 }
 
-goalOrganisms = ['Acinetobacter spp']
 all_unique_organisms = set()
 all_organisms = []
 alignments = []
